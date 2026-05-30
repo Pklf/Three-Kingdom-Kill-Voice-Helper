@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c25f8d63cf89e17a95a4607f2a46c7bd89529fe1759455a64e6c6c0b2a7f5fac
-size 7299
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lushi",
+    "command": "lushi",
+    "name": "卢氏",
+    "displayName": {
+      "zhHans": "卢氏",
+      "zhHant": "盧氏"
+    },
+    "names": [
+      "卢氏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卢氏",
+        "zhHant": "盧氏"
+      }
+    ],
+    "ids": [
+      "539"
+    ],
+    "sourceNames": [
+      "卢氏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卢氏",
+        "zhHant": "盧氏"
+      }
+    ],
+    "sourceIds": [
+      "539"
+    ],
+    "searchNames": [
+      "lushi",
+      "卢氏",
+      "盧氏"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lushi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lushi/groups/spell-3230.json"
+      },
+      {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lushi/groups/spell-3231.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-53903",
+        "name": "浣溪布泽",
+        "displayName": {
+          "zhHans": "浣溪布泽",
+          "zhHant": "浣溪布澤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-53903.json"
+      },
+      {
+        "slug": "skin-53901",
+        "name": "蝶恋清幔",
+        "displayName": {
+          "zhHans": "蝶恋清幔",
+          "zhHant": "蝶戀清幔"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-53901.json"
+      },
+      {
+        "slug": "skin-53902",
+        "name": "金桂月华",
+        "displayName": {
+          "zhHans": "金桂月华",
+          "zhHant": "金桂月華"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-53902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lushi.json",
+      "groups": "api/v1/tts/characters/lushi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lushi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/lushi/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "lushi--539lushi--1dead01",
+      "resourceId": "539lushi/1dead01",
+      "text": "人世寻大道，何其愚也。",
+      "textLocalized": {
+        "zhHans": "人世寻大道，何其愚也。",
+        "zhHant": "人世尋大道，何其愚也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--4dead01",
+      "resourceId": "539lushi/4dead01",
+      "text": "莫言之道，其无声亦无迹。",
+      "textLocalized": {
+        "zhHans": "莫言之道，其无声亦无迹。",
+        "zhHant": "莫言之道，其無聲亦無跡。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53903",
+          "name": "浣溪布泽",
+          "displayName": {
+            "zhHans": "浣溪布泽",
+            "zhHant": "浣溪布澤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--2dead01",
+      "resourceId": "539lushi/2dead01",
+      "text": "人生百年，不过草木一秋耳。",
+      "textLocalized": {
+        "zhHans": "人生百年，不过草木一秋耳。",
+        "zhHant": "人生百年，不過草木一秋耳。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53901",
+          "name": "蝶恋清幔",
+          "displayName": {
+            "zhHans": "蝶恋清幔",
+            "zhHant": "蝶戀清幔"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--3dead01",
+      "resourceId": "539lushi/3dead01",
+      "text": "此岁团圆，愿岁岁皆团圆。",
+      "textLocalized": {
+        "zhHans": "此岁团圆，愿岁岁皆团圆。",
+        "zhHant": "此歲團圓，願歲歲皆團圓。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53902",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

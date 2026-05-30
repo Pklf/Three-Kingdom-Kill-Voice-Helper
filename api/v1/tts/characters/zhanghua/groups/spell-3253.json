@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd51a13c502ba9a0849b33971ebf078b2ab0692deccdeb5d1e8c44c4df873ac1
-size 7252
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhanghua",
+    "command": "zhanghua",
+    "name": "张华",
+    "displayName": {
+      "zhHans": "张华",
+      "zhHant": "張華"
+    },
+    "names": [
+      "张华"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张华",
+        "zhHant": "張華"
+      }
+    ],
+    "ids": [
+      "544"
+    ],
+    "sourceNames": [
+      "张华"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张华",
+        "zhHant": "張華"
+      }
+    ],
+    "sourceIds": [
+      "544"
+    ],
+    "searchNames": [
+      "zhanghua",
+      "张华",
+      "張華"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/dead.json"
+      },
+      {
+        "slug": "spell-3251",
+        "name": "弼昏",
+        "displayName": {
+          "zhHans": "弼昏",
+          "zhHant": "弼昏"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3251.json"
+      },
+      {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3252.json"
+      },
+      {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3253.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghua/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54401",
+        "name": "龙泉剑啸",
+        "displayName": {
+          "zhHans": "龙泉剑啸",
+          "zhHant": "龍泉劍嘯"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghua/skins/skin-54401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhanghua.json",
+      "groups": "api/v1/tts/characters/zhanghua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhanghua/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3253",
+    "name": "剑合",
+    "displayName": {
+      "zhHans": "剑合",
+      "zhHant": "劍合"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3253.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhanghua--544zhanghua--1skill3_1",
+      "resourceId": "544zhanghua/1skill3_1",
+      "text": "身临朝阙，腰悬太阿。",
+      "textLocalized": {
+        "zhHans": "身临朝阙，腰悬太阿。",
+        "zhHant": "身臨朝闕，腰懸太阿。"
+      },
+      "group": {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--1skill3_2",
+      "resourceId": "544zhanghua/1skill3_2",
+      "text": "位登三事，当配龙泉。",
+      "textLocalized": {
+        "zhHans": "位登三事，当配龙泉。",
+        "zhHant": "位登三事，當配龍泉。"
+      },
+      "group": {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill3_1",
+      "resourceId": "544zhanghua/2skill3_1",
+      "text": "此剑光芒艳发，非凡物也，当以华阴赤土拭之。",
+      "textLocalized": {
+        "zhHans": "此剑光芒艳发，非凡物也，当以华阴赤土拭之。",
+        "zhHant": "此劍光芒豔發，非凡物也，當以華陰赤土拭之。"
+      },
+      "group": {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill3_2",
+      "resourceId": "544zhanghua/2skill3_2",
+      "text": "斗牛间常有紫气，其兆如何，还请阁下解之。",
+      "textLocalized": {
+        "zhHans": "斗牛间常有紫气，其兆如何，还请阁下解之。",
+        "zhHant": "鬥牛間常有紫氣，其兆如何，還請閣下解之。"
+      },
+      "group": {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

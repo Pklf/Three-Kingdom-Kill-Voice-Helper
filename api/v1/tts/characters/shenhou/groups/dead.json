@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d81ef060b4474d28758114099390667ebfe085173104d0ed2b09b81ec99e1ad6
-size 3049
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenhou",
+    "command": "shenhou",
+    "name": "申猴",
+    "displayName": {
+      "zhHans": "申猴",
+      "zhHant": "申猴"
+    },
+    "names": [
+      "申猴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "申猴",
+        "zhHant": "申猴"
+      }
+    ],
+    "ids": [
+      "4091"
+    ],
+    "sourceNames": [
+      "申猴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "申猴",
+        "zhHant": "申猴"
+      }
+    ],
+    "sourceIds": [
+      "4091"
+    ],
+    "searchNames": [
+      "shenhou",
+      "申猴"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/shenhou/groups/dead.json"
+      },
+      {
+        "slug": "spell-1209",
+        "name": "申猴",
+        "displayName": {
+          "zhHans": "申猴",
+          "zhHant": "申猴"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/shenhou/groups/spell-1209.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shenhou/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenhou.json",
+      "groups": "api/v1/tts/characters/shenhou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenhou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/shenhou/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "shenhou--4091shenhou--1dead01",
+      "resourceId": "4091shenhou/1dead01",
+      "text": "这仙桃无用了。",
+      "textLocalized": {
+        "zhHans": "这仙桃无用了。",
+        "zhHant": "這仙桃無用了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4091shenhou-4367ca6b/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4091shenhou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,364 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:247ea6892793fd565ce62e5c33226af1a77b477d41aa69fbfb132d318e47906b
-size 9909
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chenlin",
+    "command": "chenlin",
+    "name": "陈琳",
+    "displayName": {
+      "zhHans": "陈琳",
+      "zhHant": "陳琳"
+    },
+    "names": [
+      "陈琳",
+      "4082"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈琳",
+        "zhHant": "陳琳"
+      },
+      {
+        "zhHans": "4082",
+        "zhHant": "4082"
+      }
+    ],
+    "ids": [
+      "113",
+      "4082"
+    ],
+    "sourceNames": [
+      "陈琳"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈琳",
+        "zhHant": "陳琳"
+      }
+    ],
+    "sourceIds": [
+      "113",
+      "4082"
+    ],
+    "searchNames": [
+      "chenlin",
+      "陈琳",
+      "陳琳",
+      "4082"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/groups/dead.json"
+      },
+      {
+        "slug": "spell-212",
+        "name": "笔伐",
+        "displayName": {
+          "zhHans": "笔伐",
+          "zhHant": "筆伐"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chenlin/groups/spell-212.json"
+      },
+      {
+        "slug": "spell-213",
+        "name": "颂词",
+        "displayName": {
+          "zhHans": "颂词",
+          "zhHant": "頌詞"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chenlin/groups/spell-213.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-11306",
+        "name": "下笔檄文",
+        "displayName": {
+          "zhHans": "下笔檄文",
+          "zhHant": "下筆檄文"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11306.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-11305",
+        "name": "夜浓酒醇",
+        "displayName": {
+          "zhHans": "夜浓酒醇",
+          "zhHant": "夜濃酒醇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11305.json"
+      },
+      {
+        "slug": "skin-11305-11306",
+        "name": "夜浓酒醇,下笔檄文",
+        "displayName": {
+          "zhHans": "夜浓酒醇,下笔檄文",
+          "zhHant": "夜濃酒醇,下筆檄文"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11305-11306.json"
+      },
+      {
+        "slug": "skin-11301",
+        "name": "破竹之咒",
+        "displayName": {
+          "zhHans": "破竹之咒",
+          "zhHant": "破竹之咒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11301.json"
+      },
+      {
+        "slug": "skin-11302",
+        "name": "符檄擅声",
+        "displayName": {
+          "zhHans": "符檄擅声",
+          "zhHant": "符檄擅聲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11302.json"
+      },
+      {
+        "slug": "skin-11304",
+        "name": "重阳闲趣",
+        "displayName": {
+          "zhHans": "重阳闲趣",
+          "zhHant": "重陽閒趣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11304.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chenlin.json",
+      "groups": "api/v1/tts/characters/chenlin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chenlin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chenlin/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chenlin--113chenlin--1dead01",
+      "resourceId": "113chenlin/1dead01",
+      "text": "来人……我的笔呢？",
+      "textLocalized": {
+        "zhHans": "来人……我的笔呢？",
+        "zhHant": "來人……我的筆呢？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenlin--113chenlin--6dead01",
+      "resourceId": "113chenlin/6dead01",
+      "text": "笔力虽遒劲，终拗不过阎君召唤……",
+      "textLocalized": {
+        "zhHans": "笔力虽遒劲，终拗不过阎君召唤……",
+        "zhHant": "筆力雖遒勁，終拗不過閻君召喚……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11306",
+          "name": "下笔檄文",
+          "displayName": {
+            "zhHans": "下笔檄文",
+            "zhHant": "下筆檄文"
+          }
+        },
+        {
+          "slug": "skin-11305",
+          "name": "夜浓酒醇",
+          "displayName": {
+            "zhHans": "夜浓酒醇",
+            "zhHant": "夜濃酒醇"
+          }
+        },
+        {
+          "slug": "skin-11305-11306",
+          "name": "夜浓酒醇,下笔檄文",
+          "displayName": {
+            "zhHans": "夜浓酒醇,下笔檄文",
+            "zhHant": "夜濃酒醇,下筆檄文"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenlin--113chenlin--3dead01",
+      "resourceId": "113chenlin/3dead01",
+      "text": "大胆贼人，还不伏诛！",
+      "textLocalized": {
+        "zhHans": "大胆贼人，还不伏诛！",
+        "zhHant": "大膽賊人，還不伏誅！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11301",
+          "name": "破竹之咒",
+          "displayName": {
+            "zhHans": "破竹之咒",
+            "zhHant": "破竹之咒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenlin--113chenlin--4dead01",
+      "resourceId": "113chenlin/4dead01",
+      "text": "这一篇……还没写完哪！",
+      "textLocalized": {
+        "zhHans": "这一篇……还没写完哪！",
+        "zhHant": "這一篇……還沒寫完哪！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11302",
+          "name": "符檄擅声",
+          "displayName": {
+            "zhHans": "符檄擅声",
+            "zhHant": "符檄擅聲"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenlin--113chenlin--5dead01",
+      "resourceId": "113chenlin/5dead01",
+      "text": "他乡各异县，展转不相见。",
+      "textLocalized": {
+        "zhHans": "他乡各异县，展转不相见。",
+        "zhHant": "他鄉各異縣，展轉不相見。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11304",
+          "name": "重阳闲趣",
+          "displayName": {
+            "zhHans": "重阳闲趣",
+            "zhHant": "重陽閒趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

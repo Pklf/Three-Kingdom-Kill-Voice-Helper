@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c3dab6fac33389cee052668796c8574d31c708c8e259523f53671069c0d40193
-size 8396
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "panzhangmazhong",
+    "command": "panzhangmazhong",
+    "name": "潘璋&马忠",
+    "displayName": {
+      "zhHans": "潘璋&马忠",
+      "zhHant": "潘璋&馬忠"
+    },
+    "names": [
+      "潘璋&马忠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "潘璋&马忠",
+        "zhHant": "潘璋&馬忠"
+      }
+    ],
+    "ids": [
+      "180"
+    ],
+    "sourceNames": [
+      "潘璋&马忠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "潘璋&马忠",
+        "zhHant": "潘璋&馬忠"
+      }
+    ],
+    "sourceIds": [
+      "180"
+    ],
+    "searchNames": [
+      "panzhangmazhong",
+      "潘璋&马忠",
+      "潘璋&馬忠"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/panzhangmazhong/groups/dead.json"
+      },
+      {
+        "slug": "spell-450",
+        "name": "夺刀",
+        "displayName": {
+          "zhHans": "夺刀",
+          "zhHant": "奪刀"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/panzhangmazhong/groups/spell-450.json"
+      },
+      {
+        "slug": "spell-451",
+        "name": "暗箭",
+        "displayName": {
+          "zhHans": "暗箭",
+          "zhHant": "暗箭"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/panzhangmazhong/groups/spell-451.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-18002",
+        "name": "伏路断道",
+        "displayName": {
+          "zhHans": "伏路断道",
+          "zhHant": "伏路斷道"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panzhangmazhong/skins/skin-18002.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panzhangmazhong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-18001",
+        "name": "擒龙伏虎",
+        "displayName": {
+          "zhHans": "擒龙伏虎",
+          "zhHant": "擒龍伏虎"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panzhangmazhong/skins/skin-18001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/panzhangmazhong.json",
+      "groups": "api/v1/tts/characters/panzhangmazhong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/panzhangmazhong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/panzhangmazhong/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "panzhangmazhong--180panzhangmazhong--1dead01",
+      "resourceId": "180panzhangmazhong/1dead01",
+      "text": "怎么可能，我明明亲手将你……",
+      "textLocalized": {
+        "zhHans": "怎么可能，我明明亲手将你……",
+        "zhHant": "怎麼可能，我明明親手將你……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/180panzhangmazhong-b6a2d43c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/180panzhangmazhong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panzhangmazhong--180panzhangmazhong--1skill1_1",
+      "resourceId": "180panzhangmazhong/1skill1_1",
+      "text": "夺敌兵刃，如断其臂！",
+      "textLocalized": {
+        "zhHans": "夺敌兵刃，如断其臂！",
+        "zhHant": "奪敵兵刃，如斷其臂！"
+      },
+      "group": {
+        "slug": "spell-450",
+        "name": "夺刀",
+        "displayName": {
+          "zhHans": "夺刀",
+          "zhHant": "奪刀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/180panzhangmazhong-b6a2d43c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/180panzhangmazhong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panzhangmazhong--180panzhangmazhong--1skill1_2",
+      "resourceId": "180panzhangmazhong/1skill1_2",
+      "text": "这刀，岂是你配用的？",
+      "textLocalized": {
+        "zhHans": "这刀，岂是你配用的？",
+        "zhHant": "這刀，豈是你配用的？"
+      },
+      "group": {
+        "slug": "spell-450",
+        "name": "夺刀",
+        "displayName": {
+          "zhHans": "夺刀",
+          "zhHant": "奪刀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/180panzhangmazhong-b6a2d43c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/180panzhangmazhong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panzhangmazhong--180panzhangmazhong--1skill2_1",
+      "resourceId": "180panzhangmazhong/1skill2_1",
+      "text": "哼，你满身都是破绽！",
+      "textLocalized": {
+        "zhHans": "哼，你满身都是破绽！",
+        "zhHant": "哼，你滿身都是破綻！"
+      },
+      "group": {
+        "slug": "spell-451",
+        "name": "暗箭",
+        "displayName": {
+          "zhHans": "暗箭",
+          "zhHant": "暗箭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/180panzhangmazhong-b6a2d43c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/180panzhangmazhong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panzhangmazhong--180panzhangmazhong--1skill2_2",
+      "resourceId": "180panzhangmazhong/1skill2_2",
+      "text": "击其懈怠，攻其不备！",
+      "textLocalized": {
+        "zhHans": "击其懈怠，攻其不备！",
+        "zhHant": "擊其懈怠，攻其不備！"
+      },
+      "group": {
+        "slug": "spell-451",
+        "name": "暗箭",
+        "displayName": {
+          "zhHans": "暗箭",
+          "zhHant": "暗箭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/180panzhangmazhong-b6a2d43c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/180panzhangmazhong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

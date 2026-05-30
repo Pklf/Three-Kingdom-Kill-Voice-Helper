@@ -1,3 +1,512 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6dcb47171f382d8699b8778416e5d50e80e40004428df1a537e5efbc246c7669
-size 14490
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhanglu",
+    "command": "zhanglu",
+    "name": "张鲁",
+    "displayName": {
+      "zhHans": "张鲁",
+      "zhHant": "張魯"
+    },
+    "names": [
+      "张鲁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张鲁",
+        "zhHant": "張魯"
+      }
+    ],
+    "ids": [
+      "343"
+    ],
+    "sourceNames": [
+      "张鲁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张鲁",
+        "zhHant": "張魯"
+      }
+    ],
+    "sourceIds": [
+      "343"
+    ],
+    "searchNames": [
+      "zhanglu",
+      "张鲁",
+      "張魯"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/dead.json"
+      },
+      {
+        "slug": "spell-259",
+        "name": "义舍",
+        "displayName": {
+          "zhHans": "义舍",
+          "zhHant": "義舍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/spell-259.json"
+      },
+      {
+        "slug": "spell-260",
+        "name": "布施",
+        "displayName": {
+          "zhHans": "布施",
+          "zhHant": "佈施"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/spell-260.json"
+      },
+      {
+        "slug": "spell-261",
+        "name": "米道",
+        "displayName": {
+          "zhHans": "米道",
+          "zhHant": "米道"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/spell-261.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-34301",
+        "name": "不鏖遗民",
+        "displayName": {
+          "zhHans": "不鏖遗民",
+          "zhHant": "不鏖遺民"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34301.json"
+      },
+      {
+        "slug": "skin-34301-34304",
+        "name": "不鏖遗民,喜迎孟起",
+        "displayName": {
+          "zhHans": "不鏖遗民,喜迎孟起",
+          "zhHant": "不鏖遺民,喜迎孟起"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34301-34304.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34304",
+        "name": "喜迎孟起",
+        "displayName": {
+          "zhHans": "喜迎孟起",
+          "zhHant": "喜迎孟起"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34304.json"
+      },
+      {
+        "slug": "skin-34303",
+        "name": "米道师君",
+        "displayName": {
+          "zhHans": "米道师君",
+          "zhHant": "米道師君"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34303.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhanglu.json",
+      "groups": "api/v1/tts/characters/zhanglu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhanglu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-34301-34304",
+    "name": "不鏖遗民,喜迎孟起",
+    "displayName": {
+      "zhHans": "不鏖遗民,喜迎孟起",
+      "zhHant": "不鏖遺民,喜迎孟起"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34301-34304.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "zhanglu--343zhanglu--3dead01",
+      "resourceId": "343zhanglu/3dead01",
+      "text": "凡尘落尽，再不回首。",
+      "textLocalized": {
+        "zhHans": "凡尘落尽，再不回首。",
+        "zhHant": "凡塵落盡，再不回首。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34301",
+          "name": "不鏖遗民",
+          "displayName": {
+            "zhHans": "不鏖遗民",
+            "zhHant": "不鏖遺民"
+          }
+        },
+        {
+          "slug": "skin-34304",
+          "name": "喜迎孟起",
+          "displayName": {
+            "zhHans": "喜迎孟起",
+            "zhHant": "喜迎孟起"
+          }
+        },
+        {
+          "slug": "skin-34301-34304",
+          "name": "不鏖遗民,喜迎孟起",
+          "displayName": {
+            "zhHans": "不鏖遗民,喜迎孟起",
+            "zhHant": "不鏖遺民,喜迎孟起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--3skill1_1",
+      "resourceId": "343zhanglu/3skill1_1",
+      "text": "舍己为民，道之义也。",
+      "textLocalized": {
+        "zhHans": "舍己为民，道之义也。",
+        "zhHant": "捨己爲民，道之義也。"
+      },
+      "group": {
+        "slug": "spell-259",
+        "name": "义舍",
+        "displayName": {
+          "zhHans": "义舍",
+          "zhHant": "義舍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34301",
+          "name": "不鏖遗民",
+          "displayName": {
+            "zhHans": "不鏖遗民",
+            "zhHant": "不鏖遺民"
+          }
+        },
+        {
+          "slug": "skin-34304",
+          "name": "喜迎孟起",
+          "displayName": {
+            "zhHans": "喜迎孟起",
+            "zhHant": "喜迎孟起"
+          }
+        },
+        {
+          "slug": "skin-34301-34304",
+          "name": "不鏖遗民,喜迎孟起",
+          "displayName": {
+            "zhHans": "不鏖遗民,喜迎孟起",
+            "zhHant": "不鏖遺民,喜迎孟起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--3skill1_2",
+      "resourceId": "343zhanglu/3skill1_2",
+      "text": "为天为道，莫问前程。",
+      "textLocalized": {
+        "zhHans": "为天为道，莫问前程。",
+        "zhHant": "爲天爲道，莫問前程。"
+      },
+      "group": {
+        "slug": "spell-259",
+        "name": "义舍",
+        "displayName": {
+          "zhHans": "义舍",
+          "zhHant": "義舍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34301",
+          "name": "不鏖遗民",
+          "displayName": {
+            "zhHans": "不鏖遗民",
+            "zhHant": "不鏖遺民"
+          }
+        },
+        {
+          "slug": "skin-34304",
+          "name": "喜迎孟起",
+          "displayName": {
+            "zhHans": "喜迎孟起",
+            "zhHant": "喜迎孟起"
+          }
+        },
+        {
+          "slug": "skin-34301-34304",
+          "name": "不鏖遗民,喜迎孟起",
+          "displayName": {
+            "zhHans": "不鏖遗民,喜迎孟起",
+            "zhHant": "不鏖遺民,喜迎孟起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--3skill2_1",
+      "resourceId": "343zhanglu/3skill2_1",
+      "text": "立义舍，以供所需之人取食。",
+      "textLocalized": {
+        "zhHans": "立义舍，以供所需之人取食。",
+        "zhHant": "立義舍，以供所需之人取食。"
+      },
+      "group": {
+        "slug": "spell-260",
+        "name": "布施",
+        "displayName": {
+          "zhHans": "布施",
+          "zhHant": "佈施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34301",
+          "name": "不鏖遗民",
+          "displayName": {
+            "zhHans": "不鏖遗民",
+            "zhHant": "不鏖遺民"
+          }
+        },
+        {
+          "slug": "skin-34304",
+          "name": "喜迎孟起",
+          "displayName": {
+            "zhHans": "喜迎孟起",
+            "zhHant": "喜迎孟起"
+          }
+        },
+        {
+          "slug": "skin-34301-34304",
+          "name": "不鏖遗民,喜迎孟起",
+          "displayName": {
+            "zhHans": "不鏖遗民,喜迎孟起",
+            "zhHant": "不鏖遺民,喜迎孟起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--3skill2_2",
+      "resourceId": "343zhanglu/3skill2_2",
+      "text": "量腹取食，利己利人。",
+      "textLocalized": {
+        "zhHans": "量腹取食，利己利人。",
+        "zhHant": "量腹取食，利己利人。"
+      },
+      "group": {
+        "slug": "spell-260",
+        "name": "布施",
+        "displayName": {
+          "zhHans": "布施",
+          "zhHant": "佈施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34301",
+          "name": "不鏖遗民",
+          "displayName": {
+            "zhHans": "不鏖遗民",
+            "zhHant": "不鏖遺民"
+          }
+        },
+        {
+          "slug": "skin-34304",
+          "name": "喜迎孟起",
+          "displayName": {
+            "zhHans": "喜迎孟起",
+            "zhHant": "喜迎孟起"
+          }
+        },
+        {
+          "slug": "skin-34301-34304",
+          "name": "不鏖遗民,喜迎孟起",
+          "displayName": {
+            "zhHans": "不鏖遗民,喜迎孟起",
+            "zhHant": "不鏖遺民,喜迎孟起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--3skill3_1",
+      "resourceId": "343zhanglu/3skill3_1",
+      "text": "顺道义，知道箴[zhēn]，行戒守道。",
+      "textLocalized": {
+        "zhHans": "顺道义，知道箴[zhēn]，行戒守道。",
+        "zhHant": "順道義，知道箴[zhēn]，行戒守道。"
+      },
+      "group": {
+        "slug": "spell-261",
+        "name": "米道",
+        "displayName": {
+          "zhHans": "米道",
+          "zhHant": "米道"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34301",
+          "name": "不鏖遗民",
+          "displayName": {
+            "zhHans": "不鏖遗民",
+            "zhHant": "不鏖遺民"
+          }
+        },
+        {
+          "slug": "skin-34304",
+          "name": "喜迎孟起",
+          "displayName": {
+            "zhHans": "喜迎孟起",
+            "zhHant": "喜迎孟起"
+          }
+        },
+        {
+          "slug": "skin-34301-34304",
+          "name": "不鏖遗民,喜迎孟起",
+          "displayName": {
+            "zhHans": "不鏖遗民,喜迎孟起",
+            "zhHant": "不鏖遺民,喜迎孟起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--3skill3_2",
+      "resourceId": "343zhanglu/3skill3_2",
+      "text": "信五斗，从米道，可晓义明礼。",
+      "textLocalized": {
+        "zhHans": "信五斗，从米道，可晓义明礼。",
+        "zhHant": "信五斗，從米道，可曉義明禮。"
+      },
+      "group": {
+        "slug": "spell-261",
+        "name": "米道",
+        "displayName": {
+          "zhHans": "米道",
+          "zhHant": "米道"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34301",
+          "name": "不鏖遗民",
+          "displayName": {
+            "zhHans": "不鏖遗民",
+            "zhHant": "不鏖遺民"
+          }
+        },
+        {
+          "slug": "skin-34304",
+          "name": "喜迎孟起",
+          "displayName": {
+            "zhHans": "喜迎孟起",
+            "zhHant": "喜迎孟起"
+          }
+        },
+        {
+          "slug": "skin-34301-34304",
+          "name": "不鏖遗民,喜迎孟起",
+          "displayName": {
+            "zhHans": "不鏖遗民,喜迎孟起",
+            "zhHant": "不鏖遺民,喜迎孟起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

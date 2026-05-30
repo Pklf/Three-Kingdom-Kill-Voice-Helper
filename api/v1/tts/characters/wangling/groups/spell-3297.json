@@ -1,3 +1,334 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:141f4c0522499128dbd618566a734476e3fbea95dfccf4a54b728ec14182d872
-size 9461
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangling",
+    "command": "wangling",
+    "name": "族王凌",
+    "displayName": {
+      "zhHans": "族王凌",
+      "zhHant": "族王凌"
+    },
+    "names": [
+      "族王凌"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族王凌",
+        "zhHant": "族王凌"
+      }
+    ],
+    "ids": [
+      "556"
+    ],
+    "sourceNames": [
+      "族王凌"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族王凌",
+        "zhHant": "族王凌"
+      }
+    ],
+    "sourceIds": [
+      "556"
+    ],
+    "searchNames": [
+      "wangling",
+      "族王凌"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wangling/groups/dead.json"
+      },
+      {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wangling/groups/spell-3297.json"
+      },
+      {
+        "slug": "spell-3300",
+        "name": "驳龙",
+        "displayName": {
+          "zhHans": "驳龙",
+          "zhHant": "駁龍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wangling/groups/spell-3300.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "55602",
+        "name": "55602",
+        "displayName": {
+          "zhHans": "55602",
+          "zhHant": "55602"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangling/skins/55602.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangling/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-55601",
+        "name": "金戈镇恶",
+        "displayName": {
+          "zhHans": "金戈镇恶",
+          "zhHant": "金戈鎮惡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangling/skins/skin-55601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangling.json",
+      "groups": "api/v1/tts/characters/wangling/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangling/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3297",
+    "name": "中流",
+    "displayName": {
+      "zhHans": "中流",
+      "zhHant": "中流"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/wangling/groups/spell-3297.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "wangling--556wangling--3skill2_1",
+      "resourceId": "556wangling/3skill2_1",
+      "text": "此间可为抵逆潮之柱石者，唯忠贞之臣尔。",
+      "textLocalized": {
+        "zhHans": "此间可为抵逆潮之柱石者，唯忠贞之臣尔。",
+        "zhHant": "此間可爲抵逆潮之柱石者，唯忠貞之臣爾。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "55602",
+          "name": "55602",
+          "displayName": {
+            "zhHans": "55602",
+            "zhHant": "55602"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangling--556wangling--3skill2_2",
+      "resourceId": "556wangling/3skill2_2",
+      "text": "父兄皆死于国而闻于世，今亦不辱门楣。",
+      "textLocalized": {
+        "zhHans": "父兄皆死于国而闻于世，今亦不辱门楣。",
+        "zhHant": "父兄皆死於國而聞於世，今亦不辱門楣。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "55602",
+          "name": "55602",
+          "displayName": {
+            "zhHans": "55602",
+            "zhHant": "55602"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangling--556wangling--1skill2_1",
+      "resourceId": "556wangling/1skill2_1",
+      "text": "王门世代骨鲠[gěng]，皆为国之柱石。",
+      "textLocalized": {
+        "zhHans": "王门世代骨鲠[gěng]，皆为国之柱石。",
+        "zhHant": "王門世代骨鯁[gěng]，皆爲國之柱石。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangling--556wangling--1skill2_2",
+      "resourceId": "556wangling/1skill2_2",
+      "text": "行舟至中流而遇浪，大风起兮。",
+      "textLocalized": {
+        "zhHans": "行舟至中流而遇浪，大风起兮。",
+        "zhHant": "行舟至中流而遇浪，大風起兮。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangling--556wangling--2skill2_1",
+      "resourceId": "556wangling/2skill2_1",
+      "text": "乱臣如逆潮当空，臣宁舍残躯以遏浊流。",
+      "textLocalized": {
+        "zhHans": "乱臣如逆潮当空，臣宁舍残躯以遏浊流。",
+        "zhHant": "亂臣如逆潮當空，臣寧舍殘軀以遏濁流。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55601",
+          "name": "金戈镇恶",
+          "displayName": {
+            "zhHans": "金戈镇恶",
+            "zhHant": "金戈鎮惡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangling--556wangling--2skill2_2",
+      "resourceId": "556wangling/2skill2_2",
+      "text": "纵横沙场如中流击水，势起横扫千军。",
+      "textLocalized": {
+        "zhHans": "纵横沙场如中流击水，势起横扫千军。",
+        "zhHant": "縱橫沙場如中流擊水，勢起橫掃千軍。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55601",
+          "name": "金戈镇恶",
+          "displayName": {
+            "zhHans": "金戈镇恶",
+            "zhHant": "金戈鎮惡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

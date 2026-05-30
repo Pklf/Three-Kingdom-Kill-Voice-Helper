@@ -1,3 +1,505 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d236b2cd6a39763f9c65737d95cd64af1da7798b608e5c458ff76cf417de0980
-size 14115
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "luji",
+    "command": "luji",
+    "name": "陆绩",
+    "displayName": {
+      "zhHans": "陆绩",
+      "zhHant": "陸績"
+    },
+    "names": [
+      "陆绩"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陆绩",
+        "zhHant": "陸績"
+      }
+    ],
+    "ids": [
+      "402"
+    ],
+    "sourceNames": [
+      "陆绩"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陆绩",
+        "zhHant": "陸績"
+      }
+    ],
+    "sourceIds": [
+      "402"
+    ],
+    "searchNames": [
+      "luji",
+      "陆绩",
+      "陸績"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/luji/groups/dead.json"
+      },
+      {
+        "slug": "spell-804",
+        "name": "怀橘",
+        "displayName": {
+          "zhHans": "怀橘",
+          "zhHant": "懷橘"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/luji/groups/spell-804.json"
+      },
+      {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/luji/groups/spell-805.json"
+      },
+      {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/luji/groups/spell-806.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-40203",
+        "name": "天象洞察",
+        "displayName": {
+          "zhHans": "天象洞察",
+          "zhHant": "天象洞察"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-40203.json"
+      },
+      {
+        "slug": "skin-40204",
+        "name": "庭中品橘",
+        "displayName": {
+          "zhHans": "庭中品橘",
+          "zhHant": "庭中品橘"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-40204.json"
+      },
+      {
+        "slug": "skin-40202",
+        "name": "星熠心移",
+        "displayName": {
+          "zhHans": "星熠心移",
+          "zhHant": "星熠心移"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-40202.json"
+      },
+      {
+        "slug": "skin-40205",
+        "name": "橘暖星河",
+        "displayName": {
+          "zhHans": "橘暖星河",
+          "zhHant": "橘暖星河"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-40205.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/luji.json",
+      "groups": "api/v1/tts/characters/luji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/luji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-806",
+    "name": "整论",
+    "displayName": {
+      "zhHans": "整论",
+      "zhHant": "整論"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/luji/groups/spell-806.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "luji--402luji--1skill3_1",
+      "resourceId": "402luji/1skill3_1",
+      "text": "整论四海未泰，修文德以平。",
+      "textLocalized": {
+        "zhHans": "整论四海未泰，修文德以平。",
+        "zhHant": "整論四海未泰，修文德以平。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--1skill3_2",
+      "resourceId": "402luji/1skill3_2",
+      "text": "今论者不务道德怀取之术，而惟尚武，窃所未安。",
+      "textLocalized": {
+        "zhHans": "今论者不务道德怀取之术，而惟尚武，窃所未安。",
+        "zhHant": "今論者不務道德懷取之術，而惟尚武，竊所未安。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--4skill3_1",
+      "resourceId": "402luji/4skill3_1",
+      "text": "历以记岁，而百谷时雍。",
+      "textLocalized": {
+        "zhHans": "历以记岁，而百谷时雍。",
+        "zhHant": "歷以記歲，而百穀時雍。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40203",
+          "name": "天象洞察",
+          "displayName": {
+            "zhHans": "天象洞察",
+            "zhHant": "天象洞察"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--4skill3_2",
+      "resourceId": "402luji/4skill3_2",
+      "text": "至孝不谀其亲，至忠不谄其君。",
+      "textLocalized": {
+        "zhHans": "至孝不谀其亲，至忠不谄其君。",
+        "zhHant": "至孝不諛其親，至忠不諂其君。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40203",
+          "name": "天象洞察",
+          "displayName": {
+            "zhHans": "天象洞察",
+            "zhHant": "天象洞察"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--5skill3_1",
+      "resourceId": "402luji/5skill3_1",
+      "text": "巡乘六甲，舆斗相逢。",
+      "textLocalized": {
+        "zhHans": "巡乘六甲，舆斗相逢。",
+        "zhHant": "巡乘六甲，輿鬥相逢。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40204",
+          "name": "庭中品橘",
+          "displayName": {
+            "zhHans": "庭中品橘",
+            "zhHant": "庭中品橘"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/5skill3-1-81c515c2.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/5skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--5skill3_2",
+      "resourceId": "402luji/5skill3_2",
+      "text": "先辈诚不欺我，何不代代相传。",
+      "textLocalized": {
+        "zhHans": "先辈诚不欺我，何不代代相传。",
+        "zhHant": "先輩誠不欺我，何不代代相傳。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40204",
+          "name": "庭中品橘",
+          "displayName": {
+            "zhHans": "庭中品橘",
+            "zhHant": "庭中品橘"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/5skill3-2-edc71423.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/5skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--3skill3_1",
+      "resourceId": "402luji/3skill3_1",
+      "text": "文才必有用，散尽还复来。",
+      "textLocalized": {
+        "zhHans": "文才必有用，散尽还复来。",
+        "zhHant": "文才必有用，散盡還復來。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40202",
+          "name": "星熠心移",
+          "displayName": {
+            "zhHans": "星熠心移",
+            "zhHant": "星熠心移"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--3skill3_2",
+      "resourceId": "402luji/3skill3_2",
+      "text": "运筹布画，通晓古今。",
+      "textLocalized": {
+        "zhHans": "运筹布画，通晓古今。",
+        "zhHant": "運籌布畫，通曉古今。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40202",
+          "name": "星熠心移",
+          "displayName": {
+            "zhHans": "星熠心移",
+            "zhHant": "星熠心移"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--6skill3_1",
+      "resourceId": "402luji/6skill3_1",
+      "text": "失而复得，不亦乐乎。",
+      "textLocalized": {
+        "zhHans": "失而复得，不亦乐乎。",
+        "zhHant": "失而復得，不亦樂乎。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40205",
+          "name": "橘暖星河",
+          "displayName": {
+            "zhHans": "橘暖星河",
+            "zhHant": "橘暖星河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/6skill3-1-1b78f48f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/6skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--6skill3_2",
+      "resourceId": "402luji/6skill3_2",
+      "text": "纵观全局，成竹在胸。",
+      "textLocalized": {
+        "zhHans": "纵观全局，成竹在胸。",
+        "zhHant": "縱觀全局，成竹在胸。"
+      },
+      "group": {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40205",
+          "name": "橘暖星河",
+          "displayName": {
+            "zhHans": "橘暖星河",
+            "zhHant": "橘暖星河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/6skill3-2-af03925f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/6skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

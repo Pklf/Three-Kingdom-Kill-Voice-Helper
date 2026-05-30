@@ -1,3 +1,250 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:634479c12b55ed95aa4c32a47fd757bec2510621400b05b5a0af0092a890a4ab
-size 6530
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiexusheng",
+    "command": "jiexusheng",
+    "name": "界徐盛",
+    "displayName": {
+      "zhHans": "界徐盛",
+      "zhHant": "界徐盛"
+    },
+    "names": [
+      "界徐盛",
+      "徐盛",
+      "2063"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界徐盛",
+        "zhHant": "界徐盛"
+      },
+      {
+        "zhHans": "徐盛",
+        "zhHant": "徐盛"
+      },
+      {
+        "zhHans": "2063",
+        "zhHant": "2063"
+      }
+    ],
+    "ids": [
+      "587",
+      "158",
+      "2063"
+    ],
+    "sourceNames": [
+      "界徐盛",
+      "徐盛"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界徐盛",
+        "zhHant": "界徐盛"
+      },
+      {
+        "zhHans": "徐盛",
+        "zhHant": "徐盛"
+      }
+    ],
+    "sourceIds": [
+      "587",
+      "158",
+      "2063"
+    ],
+    "searchNames": [
+      "jiexusheng",
+      "界徐盛",
+      "徐盛",
+      "2063"
+    ],
+    "lineCount": 11,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiexusheng/groups/dead.json"
+      },
+      {
+        "slug": "spell-2120",
+        "name": "疑城",
+        "displayName": {
+          "zhHans": "疑城",
+          "zhHant": "疑城"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiexusheng/groups/spell-2120.json"
+      },
+      {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiexusheng/groups/spell-3389.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiexusheng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-58701",
+        "name": "江东铁壁",
+        "displayName": {
+          "zhHans": "江东铁壁",
+          "zhHant": "江東鐵壁"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiexusheng/skins/skin-58701.json"
+      },
+      {
+        "slug": "skin-58702",
+        "name": "破军杀将",
+        "displayName": {
+          "zhHans": "破军杀将",
+          "zhHant": "破軍殺將"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiexusheng/skins/skin-58702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiexusheng.json",
+      "groups": "api/v1/tts/characters/jiexusheng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiexusheng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/jiexusheng/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "jiexusheng--587jiexusheng--1dead01",
+      "resourceId": "587jiexusheng/1dead01",
+      "text": "盛只恨，不能再为主公，破敌致胜了",
+      "textLocalized": {
+        "zhHans": "盛只恨，不能再为主公，破敌致胜了",
+        "zhHant": "盛只恨，不能再爲主公，破敵致勝了"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--1skill1_1",
+      "resourceId": "587jiexusheng/1skill1_1",
+      "text": "犯大吴疆土者，盛必击而破之",
+      "textLocalized": {
+        "zhHans": "犯大吴疆土者，盛必击而破之",
+        "zhHant": "犯大吳疆土者，盛必擊而破之"
+      },
+      "group": {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--1skill1_2",
+      "resourceId": "587jiexusheng/1skill1_2",
+      "text": "若敢来犯，必叫你大败而归",
+      "textLocalized": {
+        "zhHans": "若敢来犯，必叫你大败而归",
+        "zhHant": "若敢來犯，必叫你大敗而歸"
+      },
+      "group": {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,150 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4a28e1dd61440a574ae192d8c5398425dab2d67c6e0fb7aff81f9c2fd84ddff0
-size 3609
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xinping",
+    "command": "xinping",
+    "name": "辛评",
+    "displayName": {
+      "zhHans": "辛评",
+      "zhHant": "辛評"
+    },
+    "names": [
+      "辛评"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "辛评",
+        "zhHant": "辛評"
+      }
+    ],
+    "ids": [
+      "4221"
+    ],
+    "sourceNames": [
+      "辛评"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "辛评",
+        "zhHant": "辛評"
+      }
+    ],
+    "sourceIds": [
+      "4221"
+    ],
+    "searchNames": [
+      "xinping",
+      "辛评",
+      "辛評"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/xinping/groups/dead.json"
+      },
+      {
+        "slug": "spell-1527",
+        "name": "辅袁",
+        "displayName": {
+          "zhHans": "辅袁",
+          "zhHant": "輔袁"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xinping/groups/spell-1527.json"
+      },
+      {
+        "slug": "spell-1528",
+        "name": "忠节",
+        "displayName": {
+          "zhHans": "忠节",
+          "zhHant": "忠節"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xinping/groups/spell-1528.json"
+      },
+      {
+        "slug": "spell-285",
+        "name": "拥嫡",
+        "displayName": {
+          "zhHans": "拥嫡",
+          "zhHant": "擁嫡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xinping/groups/spell-285.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xinping/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xinping.json",
+      "groups": "api/v1/tts/characters/xinping/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xinping/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/xinping/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "xinping--4221xinping--1dead01",
+      "resourceId": "4221xinping/1dead01",
+      "text": "老臣尽力了。",
+      "textLocalized": {
+        "zhHans": "老臣尽力了。",
+        "zhHant": "老臣盡力了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4221xinping-e053abe8/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4221xinping/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

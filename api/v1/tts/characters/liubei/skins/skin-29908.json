@@ -1,3 +1,595 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:62b1c61f41dc8dfb9a65835cfd01ec97033c53e2fc2eadc8f2cab04e9fda4c9f
-size 15850
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liubei",
+    "command": "liubei",
+    "name": "界刘备",
+    "displayName": {
+      "zhHans": "界刘备",
+      "zhHant": "界劉備"
+    },
+    "names": [
+      "4081"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "4081",
+        "zhHant": "4081"
+      }
+    ],
+    "ids": [
+      "4081"
+    ],
+    "sourceNames": [
+      "刘备",
+      "界刘备"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘备",
+        "zhHant": "劉備"
+      },
+      {
+        "zhHans": "界刘备",
+        "zhHant": "界劉備"
+      }
+    ],
+    "sourceIds": [
+      "1",
+      "299",
+      "4081"
+    ],
+    "searchNames": [
+      "liubei",
+      "界刘备",
+      "界劉備",
+      "4081",
+      "刘备",
+      "劉備"
+    ],
+    "lineCount": 17,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liubei/groups/dead.json"
+      },
+      {
+        "slug": "jijiang",
+        "name": "激将",
+        "displayName": {
+          "zhHans": "激将",
+          "zhHant": "激將"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liubei/groups/jijiang.json"
+      },
+      {
+        "slug": "rende",
+        "name": "仁德",
+        "displayName": {
+          "zhHans": "仁德",
+          "zhHant": "仁德"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liubei/groups/rende.json"
+      },
+      {
+        "slug": "renwang",
+        "name": "仁望",
+        "displayName": {
+          "zhHans": "仁望",
+          "zhHant": "仁望"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/groups/renwang.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-29902",
+        "name": "乱世枭雄",
+        "displayName": {
+          "zhHans": "乱世枭雄",
+          "zhHant": "亂世梟雄"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29902.json"
+      },
+      {
+        "slug": "skin-101",
+        "name": "仁君降世",
+        "displayName": {
+          "zhHans": "仁君降世",
+          "zhHant": "仁君降世"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-101.json"
+      },
+      {
+        "slug": "skin-101-104",
+        "name": "仁君降世,烈帝玄德",
+        "displayName": {
+          "zhHans": "仁君降世,烈帝玄德",
+          "zhHant": "仁君降世,烈帝玄德"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-101-104.json"
+      },
+      {
+        "slug": "skin-29908",
+        "name": "代为受命",
+        "displayName": {
+          "zhHans": "代为受命",
+          "zhHant": "代爲受命"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29908.json"
+      },
+      {
+        "slug": "skin-106",
+        "name": "六星耀帝",
+        "displayName": {
+          "zhHans": "六星耀帝",
+          "zhHant": "六星耀帝"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-106.json"
+      },
+      {
+        "slug": "skin-29912",
+        "name": "剑舞锦绣",
+        "displayName": {
+          "zhHans": "剑舞锦绣",
+          "zhHant": "劍舞錦繡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29912.json"
+      },
+      {
+        "slug": "skin-29907",
+        "name": "励战年兽",
+        "displayName": {
+          "zhHans": "励战年兽",
+          "zhHant": "勵戰年獸"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29907.json"
+      },
+      {
+        "slug": "skin-29909",
+        "name": "双剑引龙",
+        "displayName": {
+          "zhHans": "双剑引龙",
+          "zhHant": "雙劍引龍"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29909.json"
+      },
+      {
+        "slug": "skin-29903",
+        "name": "开拓宏图",
+        "displayName": {
+          "zhHans": "开拓宏图",
+          "zhHant": "開拓宏圖"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29903.json"
+      },
+      {
+        "slug": "skin-105",
+        "name": "御驾亲征",
+        "displayName": {
+          "zhHans": "御驾亲征",
+          "zhHant": "御駕親征"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-105.json"
+      },
+      {
+        "slug": "skin-29901",
+        "name": "智擒严颜",
+        "displayName": {
+          "zhHans": "智擒严颜",
+          "zhHant": "智擒嚴顏"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29901.json"
+      },
+      {
+        "slug": "skin-29905",
+        "name": "枭姬德爱",
+        "displayName": {
+          "zhHans": "枭姬德爱",
+          "zhHant": "梟姬德愛"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29905.json"
+      },
+      {
+        "slug": "skin-104",
+        "name": "烈帝玄德",
+        "displayName": {
+          "zhHans": "烈帝玄德",
+          "zhHant": "烈帝玄德"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-104.json"
+      },
+      {
+        "slug": "skin-29906",
+        "name": "英杰会聚",
+        "displayName": {
+          "zhHans": "英杰会聚",
+          "zhHant": "英傑會聚"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29906.json"
+      },
+      {
+        "slug": "skin-29913",
+        "name": "计澜锦绣",
+        "displayName": {
+          "zhHans": "计澜锦绣",
+          "zhHant": "計瀾錦繡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29913.json"
+      },
+      {
+        "slug": "skin-29911",
+        "name": "迎春接福",
+        "displayName": {
+          "zhHans": "迎春接福",
+          "zhHant": "迎春接福"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29911.json"
+      },
+      {
+        "slug": "skin-29910",
+        "name": "领军破贼",
+        "displayName": {
+          "zhHans": "领军破贼",
+          "zhHant": "領軍破賊"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liubei/skins/skin-29910.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liubei.json",
+      "groups": "api/v1/tts/characters/liubei/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liubei/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-29908",
+    "name": "代为受命",
+    "displayName": {
+      "zhHans": "代为受命",
+      "zhHant": "代爲受命"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/liubei/skins/skin-29908.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "liubei--3012liubei--1skill1_1",
+      "resourceId": "3012liubei/1skill1_1",
+      "text": "休怪我无情了！",
+      "textLocalized": {
+        "zhHans": "休怪我无情了！",
+        "zhHant": "休怪我無情了！"
+      },
+      "group": {
+        "slug": "renwang",
+        "name": "仁望",
+        "displayName": {
+          "zhHans": "仁望",
+          "zhHant": "仁望"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-29902",
+          "name": "乱世枭雄",
+          "displayName": {
+            "zhHans": "乱世枭雄",
+            "zhHant": "亂世梟雄"
+          }
+        },
+        {
+          "slug": "skin-101",
+          "name": "仁君降世",
+          "displayName": {
+            "zhHans": "仁君降世",
+            "zhHant": "仁君降世"
+          }
+        },
+        {
+          "slug": "skin-29908",
+          "name": "代为受命",
+          "displayName": {
+            "zhHans": "代为受命",
+            "zhHant": "代爲受命"
+          }
+        },
+        {
+          "slug": "skin-106",
+          "name": "六星耀帝",
+          "displayName": {
+            "zhHans": "六星耀帝",
+            "zhHant": "六星耀帝"
+          }
+        },
+        {
+          "slug": "skin-29912",
+          "name": "剑舞锦绣",
+          "displayName": {
+            "zhHans": "剑舞锦绣",
+            "zhHant": "劍舞錦繡"
+          }
+        },
+        {
+          "slug": "skin-29907",
+          "name": "励战年兽",
+          "displayName": {
+            "zhHans": "励战年兽",
+            "zhHant": "勵戰年獸"
+          }
+        },
+        {
+          "slug": "skin-29909",
+          "name": "双剑引龙",
+          "displayName": {
+            "zhHans": "双剑引龙",
+            "zhHant": "雙劍引龍"
+          }
+        },
+        {
+          "slug": "skin-29903",
+          "name": "开拓宏图",
+          "displayName": {
+            "zhHans": "开拓宏图",
+            "zhHant": "開拓宏圖"
+          }
+        },
+        {
+          "slug": "skin-105",
+          "name": "御驾亲征",
+          "displayName": {
+            "zhHans": "御驾亲征",
+            "zhHant": "御駕親征"
+          }
+        },
+        {
+          "slug": "skin-29901",
+          "name": "智擒严颜",
+          "displayName": {
+            "zhHans": "智擒严颜",
+            "zhHant": "智擒嚴顏"
+          }
+        },
+        {
+          "slug": "skin-29905",
+          "name": "枭姬德爱",
+          "displayName": {
+            "zhHans": "枭姬德爱",
+            "zhHant": "梟姬德愛"
+          }
+        },
+        {
+          "slug": "skin-104",
+          "name": "烈帝玄德",
+          "displayName": {
+            "zhHans": "烈帝玄德",
+            "zhHant": "烈帝玄德"
+          }
+        },
+        {
+          "slug": "skin-29906",
+          "name": "英杰会聚",
+          "displayName": {
+            "zhHans": "英杰会聚",
+            "zhHant": "英傑會聚"
+          }
+        },
+        {
+          "slug": "skin-29913",
+          "name": "计澜锦绣",
+          "displayName": {
+            "zhHans": "计澜锦绣",
+            "zhHant": "計瀾錦繡"
+          }
+        },
+        {
+          "slug": "skin-29911",
+          "name": "迎春接福",
+          "displayName": {
+            "zhHans": "迎春接福",
+            "zhHant": "迎春接福"
+          }
+        },
+        {
+          "slug": "skin-29910",
+          "name": "领军破贼",
+          "displayName": {
+            "zhHans": "领军破贼",
+            "zhHant": "領軍破賊"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3012liubei-63c7dd7a/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3012liubei/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubei--3012liubei--1skill1_2",
+      "resourceId": "3012liubei/1skill1_2",
+      "text": "忍无可忍，无需再忍！",
+      "textLocalized": {
+        "zhHans": "忍无可忍，无需再忍！",
+        "zhHant": "忍無可忍，無需再忍！"
+      },
+      "group": {
+        "slug": "renwang",
+        "name": "仁望",
+        "displayName": {
+          "zhHans": "仁望",
+          "zhHant": "仁望"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-29902",
+          "name": "乱世枭雄",
+          "displayName": {
+            "zhHans": "乱世枭雄",
+            "zhHant": "亂世梟雄"
+          }
+        },
+        {
+          "slug": "skin-101",
+          "name": "仁君降世",
+          "displayName": {
+            "zhHans": "仁君降世",
+            "zhHant": "仁君降世"
+          }
+        },
+        {
+          "slug": "skin-29908",
+          "name": "代为受命",
+          "displayName": {
+            "zhHans": "代为受命",
+            "zhHant": "代爲受命"
+          }
+        },
+        {
+          "slug": "skin-106",
+          "name": "六星耀帝",
+          "displayName": {
+            "zhHans": "六星耀帝",
+            "zhHant": "六星耀帝"
+          }
+        },
+        {
+          "slug": "skin-29912",
+          "name": "剑舞锦绣",
+          "displayName": {
+            "zhHans": "剑舞锦绣",
+            "zhHant": "劍舞錦繡"
+          }
+        },
+        {
+          "slug": "skin-29907",
+          "name": "励战年兽",
+          "displayName": {
+            "zhHans": "励战年兽",
+            "zhHant": "勵戰年獸"
+          }
+        },
+        {
+          "slug": "skin-29909",
+          "name": "双剑引龙",
+          "displayName": {
+            "zhHans": "双剑引龙",
+            "zhHant": "雙劍引龍"
+          }
+        },
+        {
+          "slug": "skin-29903",
+          "name": "开拓宏图",
+          "displayName": {
+            "zhHans": "开拓宏图",
+            "zhHant": "開拓宏圖"
+          }
+        },
+        {
+          "slug": "skin-105",
+          "name": "御驾亲征",
+          "displayName": {
+            "zhHans": "御驾亲征",
+            "zhHant": "御駕親征"
+          }
+        },
+        {
+          "slug": "skin-29901",
+          "name": "智擒严颜",
+          "displayName": {
+            "zhHans": "智擒严颜",
+            "zhHant": "智擒嚴顏"
+          }
+        },
+        {
+          "slug": "skin-29905",
+          "name": "枭姬德爱",
+          "displayName": {
+            "zhHans": "枭姬德爱",
+            "zhHant": "梟姬德愛"
+          }
+        },
+        {
+          "slug": "skin-104",
+          "name": "烈帝玄德",
+          "displayName": {
+            "zhHans": "烈帝玄德",
+            "zhHant": "烈帝玄德"
+          }
+        },
+        {
+          "slug": "skin-29906",
+          "name": "英杰会聚",
+          "displayName": {
+            "zhHans": "英杰会聚",
+            "zhHant": "英傑會聚"
+          }
+        },
+        {
+          "slug": "skin-29913",
+          "name": "计澜锦绣",
+          "displayName": {
+            "zhHans": "计澜锦绣",
+            "zhHant": "計瀾錦繡"
+          }
+        },
+        {
+          "slug": "skin-29911",
+          "name": "迎春接福",
+          "displayName": {
+            "zhHans": "迎春接福",
+            "zhHant": "迎春接福"
+          }
+        },
+        {
+          "slug": "skin-29910",
+          "name": "领军破贼",
+          "displayName": {
+            "zhHans": "领军破贼",
+            "zhHant": "領軍破賊"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3012liubei-63c7dd7a/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3012liubei/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

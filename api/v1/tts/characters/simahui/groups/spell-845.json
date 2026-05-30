@@ -1,3 +1,505 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a33ae6e1fa5a86f083c1ced32ac4e8a24e0cbaea07e844c49d5e22ef59cc66e6
-size 14058
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simahui",
+    "command": "simahui",
+    "name": "司马徽",
+    "displayName": {
+      "zhHans": "司马徽",
+      "zhHant": "司馬徽"
+    },
+    "names": [
+      "司马徽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马徽",
+        "zhHant": "司馬徽"
+      }
+    ],
+    "ids": [
+      "416"
+    ],
+    "sourceNames": [
+      "司马徽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马徽",
+        "zhHant": "司馬徽"
+      }
+    ],
+    "sourceIds": [
+      "416"
+    ],
+    "searchNames": [
+      "simahui",
+      "司马徽",
+      "司馬徽"
+    ],
+    "lineCount": 36,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simahui/groups/dead.json"
+      },
+      {
+        "slug": "spell-844",
+        "name": "荐杰",
+        "displayName": {
+          "zhHans": "荐杰",
+          "zhHant": "薦傑"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/simahui/groups/spell-844.json"
+      },
+      {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simahui/groups/spell-845.json"
+      },
+      {
+        "slug": "spell-846",
+        "name": "隐士",
+        "displayName": {
+          "zhHans": "隐士",
+          "zhHant": "隱士"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simahui/groups/spell-846.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41604",
+        "name": "坐隐乾坤",
+        "displayName": {
+          "zhHans": "坐隐乾坤",
+          "zhHant": "坐隱乾坤"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41604.json"
+      },
+      {
+        "slug": "skin-41601",
+        "name": "山林隐士",
+        "displayName": {
+          "zhHans": "山林隐士",
+          "zhHant": "山林隱士"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41601.json"
+      },
+      {
+        "slug": "skin-41602",
+        "name": "教诲不倦",
+        "displayName": {
+          "zhHans": "教诲不倦",
+          "zhHant": "教誨不倦"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41602.json"
+      },
+      {
+        "slug": "skin-41603",
+        "name": "隐秘观局",
+        "displayName": {
+          "zhHans": "隐秘观局",
+          "zhHant": "隱祕觀局"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simahui.json",
+      "groups": "api/v1/tts/characters/simahui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simahui/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-845",
+    "name": "称好",
+    "displayName": {
+      "zhHans": "称好",
+      "zhHant": "稱好"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/simahui/groups/spell-845.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "simahui--416simahui--1skill2_1",
+      "resourceId": "416simahui/1skill2_1",
+      "text": "好，很好，非常好！",
+      "textLocalized": {
+        "zhHans": "好，很好，非常好！",
+        "zhHant": "好，很好，非常好！"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--1skill2_2",
+      "resourceId": "416simahui/1skill2_2",
+      "text": "您的话也很好。",
+      "textLocalized": {
+        "zhHans": "您的话也很好。",
+        "zhHant": "您的話也很好。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--6skill2_1",
+      "resourceId": "416simahui/6skill2_1",
+      "text": "称赞功伐，褒述好德。",
+      "textLocalized": {
+        "zhHans": "称赞功伐，褒述好德。",
+        "zhHant": "稱讚功伐，褒述好德。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41604",
+          "name": "坐隐乾坤",
+          "displayName": {
+            "zhHans": "坐隐乾坤",
+            "zhHant": "坐隱乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--6skill2_2",
+      "resourceId": "416simahui/6skill2_2",
+      "text": "称赞其贤，以彰盛德。",
+      "textLocalized": {
+        "zhHans": "称赞其贤，以彰盛德。",
+        "zhHant": "稱讚其賢，以彰盛德。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41604",
+          "name": "坐隐乾坤",
+          "displayName": {
+            "zhHans": "坐隐乾坤",
+            "zhHant": "坐隱乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--3skill2_1",
+      "resourceId": "416simahui/3skill2_1",
+      "text": "好话多言，如蜜沁心。",
+      "textLocalized": {
+        "zhHans": "好话多言，如蜜沁心。",
+        "zhHant": "好話多言，如蜜沁心。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41601",
+          "name": "山林隐士",
+          "displayName": {
+            "zhHans": "山林隐士",
+            "zhHant": "山林隱士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--3skill2_2",
+      "resourceId": "416simahui/3skill2_2",
+      "text": "称好道优，无过宽心。",
+      "textLocalized": {
+        "zhHans": "称好道优，无过宽心。",
+        "zhHant": "稱好道優，無過寬心。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41601",
+          "name": "山林隐士",
+          "displayName": {
+            "zhHans": "山林隐士",
+            "zhHant": "山林隱士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--4skill2_1",
+      "resourceId": "416simahui/4skill2_1",
+      "text": "美言称好，与君共乐。",
+      "textLocalized": {
+        "zhHans": "美言称好，与君共乐。",
+        "zhHant": "美言稱好，與君共樂。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41602",
+          "name": "教诲不倦",
+          "displayName": {
+            "zhHans": "教诲不倦",
+            "zhHant": "教誨不倦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--4skill2_2",
+      "resourceId": "416simahui/4skill2_2",
+      "text": "好话不言多。",
+      "textLocalized": {
+        "zhHans": "好话不言多。",
+        "zhHant": "好話不言多。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41602",
+          "name": "教诲不倦",
+          "displayName": {
+            "zhHans": "教诲不倦",
+            "zhHant": "教誨不倦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--5skill2_1",
+      "resourceId": "416simahui/5skill2_1",
+      "text": "明才明德，称好称善。",
+      "textLocalized": {
+        "zhHans": "明才明德，称好称善。",
+        "zhHant": "明才明德，稱好稱善。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41603",
+          "name": "隐秘观局",
+          "displayName": {
+            "zhHans": "隐秘观局",
+            "zhHant": "隱祕觀局"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--5skill2_2",
+      "resourceId": "416simahui/5skill2_2",
+      "text": "好言三东暖，佳语六月风。",
+      "textLocalized": {
+        "zhHans": "好言三东暖，佳语六月风。",
+        "zhHant": "好言三東暖，佳語六月風。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41603",
+          "name": "隐秘观局",
+          "displayName": {
+            "zhHans": "隐秘观局",
+            "zhHant": "隱祕觀局"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

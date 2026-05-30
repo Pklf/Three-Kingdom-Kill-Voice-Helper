@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e4d5a6155d475c124cec4368550c9d77df08e364ceafc09ff5d6a25ca98af782
-size 8336
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunziliufang",
+    "command": "sunziliufang",
+    "name": "孙资&刘放",
+    "displayName": {
+      "zhHans": "孙资&刘放",
+      "zhHant": "孫資&劉放"
+    },
+    "names": [
+      "孙资&刘放"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙资&刘放",
+        "zhHant": "孫資&劉放"
+      }
+    ],
+    "ids": [
+      "385"
+    ],
+    "sourceNames": [
+      "孙资&刘放"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙资&刘放",
+        "zhHant": "孫資&劉放"
+      }
+    ],
+    "sourceIds": [
+      "385"
+    ],
+    "searchNames": [
+      "sunziliufang",
+      "孙资&刘放",
+      "孫資&劉放"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sunziliufang/groups/dead.json"
+      },
+      {
+        "slug": "spell-771",
+        "name": "瑰藻",
+        "displayName": {
+          "zhHans": "瑰藻",
+          "zhHant": "瑰藻"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/sunziliufang/groups/spell-771.json"
+      },
+      {
+        "slug": "spell-772",
+        "name": "讥谀",
+        "displayName": {
+          "zhHans": "讥谀",
+          "zhHant": "譏諛"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/sunziliufang/groups/spell-772.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-38501",
+        "name": "互论朝政",
+        "displayName": {
+          "zhHans": "互论朝政",
+          "zhHant": "互論朝政"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunziliufang/skins/skin-38501.json"
+      },
+      {
+        "slug": "skin-38503",
+        "name": "助魏辅君",
+        "displayName": {
+          "zhHans": "助魏辅君",
+          "zhHant": "助魏輔君"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunziliufang/skins/skin-38503.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunziliufang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunziliufang.json",
+      "groups": "api/v1/tts/characters/sunziliufang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunziliufang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/sunziliufang/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "sunziliufang--385sunziliufang--1dead01",
+      "resourceId": "385sunziliufang/1dead01",
+      "text": "唉，树倒猢狲散，鼓破众人捶呀。",
+      "textLocalized": {
+        "zhHans": "唉，树倒猢狲散，鼓破众人捶呀。",
+        "zhHant": "唉，樹倒猢猻散，鼓破衆人捶呀。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/385sunziliufang-07e9de71/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/385sunziliufang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunziliufang--385sunziliufang--1skill1_1",
+      "resourceId": "385sunziliufang/1skill1_1",
+      "text": "这都是陛下的恩泽呀！",
+      "textLocalized": {
+        "zhHans": "这都是陛下的恩泽呀！",
+        "zhHant": "這都是陛下的恩澤呀！"
+      },
+      "group": {
+        "slug": "spell-771",
+        "name": "瑰藻",
+        "displayName": {
+          "zhHans": "瑰藻",
+          "zhHant": "瑰藻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/385sunziliufang-07e9de71/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/385sunziliufang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunziliufang--385sunziliufang--1skill1_2",
+      "resourceId": "385sunziliufang/1skill1_2",
+      "text": "陛下盛宠，臣万莫敢忘！",
+      "textLocalized": {
+        "zhHans": "陛下盛宠，臣万莫敢忘！",
+        "zhHant": "陛下盛寵，臣萬莫敢忘！"
+      },
+      "group": {
+        "slug": "spell-771",
+        "name": "瑰藻",
+        "displayName": {
+          "zhHans": "瑰藻",
+          "zhHant": "瑰藻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/385sunziliufang-07e9de71/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/385sunziliufang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunziliufang--385sunziliufang--1skill2_1",
+      "resourceId": "385sunziliufang/1skill2_1",
+      "text": "陛下，此人不堪大用！",
+      "textLocalized": {
+        "zhHans": "陛下，此人不堪大用！",
+        "zhHant": "陛下，此人不堪大用！"
+      },
+      "group": {
+        "slug": "spell-772",
+        "name": "讥谀",
+        "displayName": {
+          "zhHans": "讥谀",
+          "zhHant": "譏諛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/385sunziliufang-07e9de71/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/385sunziliufang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunziliufang--385sunziliufang--1skill2_2",
+      "resourceId": "385sunziliufang/1skill2_2",
+      "text": "尔等玩忽职守，依诏降职处置！",
+      "textLocalized": {
+        "zhHans": "尔等玩忽职守，依诏降职处置！",
+        "zhHant": "爾等翫忽職守，依詔降職處置！"
+      },
+      "group": {
+        "slug": "spell-772",
+        "name": "讥谀",
+        "displayName": {
+          "zhHans": "讥谀",
+          "zhHant": "譏諛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/385sunziliufang-07e9de71/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/385sunziliufang/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

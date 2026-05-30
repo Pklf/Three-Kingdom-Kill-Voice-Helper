@@ -1,3 +1,219 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dc3d902c225838e0ab97807ad1b3526514a95edb198b701c4bd3f83004de0c7f
-size 5629
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiemenghuo",
+    "command": "jiemenghuo",
+    "name": "界孟获",
+    "displayName": {
+      "zhHans": "界孟获",
+      "zhHant": "界孟獲"
+    },
+    "names": [
+      "界孟获",
+      "孟获"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界孟获",
+        "zhHant": "界孟獲"
+      },
+      {
+        "zhHans": "孟获",
+        "zhHant": "孟獲"
+      }
+    ],
+    "ids": [
+      "492",
+      "47"
+    ],
+    "sourceNames": [
+      "界孟获",
+      "孟获"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界孟获",
+        "zhHant": "界孟獲"
+      },
+      {
+        "zhHans": "孟获",
+        "zhHant": "孟獲"
+      }
+    ],
+    "sourceIds": [
+      "492",
+      "47"
+    ],
+    "searchNames": [
+      "jiemenghuo",
+      "界孟获",
+      "界孟獲",
+      "孟获",
+      "孟獲"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/groups/dead.json"
+      },
+      {
+        "slug": "spell-115",
+        "name": "祸首",
+        "displayName": {
+          "zhHans": "祸首",
+          "zhHant": "禍首"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/groups/spell-115.json"
+      },
+      {
+        "slug": "spell-3066",
+        "name": "再起",
+        "displayName": {
+          "zhHans": "再起",
+          "zhHant": "再起"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/groups/spell-3066.json"
+      },
+      {
+        "slug": "spell-887-116-3066",
+        "name": "再起",
+        "displayName": {
+          "zhHans": "再起",
+          "zhHant": "再起"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/groups/spell-887-116-3066.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49201",
+        "name": "斧过城摧",
+        "displayName": {
+          "zhHans": "斧过城摧",
+          "zhHant": "斧過城摧"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/skins/skin-49201.json"
+      },
+      {
+        "slug": "skin-49202",
+        "name": "莽林鏖兵",
+        "displayName": {
+          "zhHans": "莽林鏖兵",
+          "zhHant": "莽林鏖兵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/skins/skin-49202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiemenghuo.json",
+      "groups": "api/v1/tts/characters/jiemenghuo/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiemenghuo/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3066",
+    "name": "再起",
+    "displayName": {
+      "zhHans": "再起",
+      "zhHant": "再起"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jiemenghuo/groups/spell-3066.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jiemenghuo--492jiemenghuo--1skill2_1",
+      "resourceId": "492jiemenghuo/1skill2_1",
+      "text": "挫而弥坚，战而弥勇！",
+      "textLocalized": {
+        "zhHans": "挫而弥坚，战而弥勇！",
+        "zhHant": "挫而彌堅，戰而彌勇！"
+      },
+      "group": {
+        "slug": "spell-3066",
+        "name": "再起",
+        "displayName": {
+          "zhHans": "再起",
+          "zhHant": "再起"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/492jiemenghuo-385cf856/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiemenghuo--492jiemenghuo--1skill2_2",
+      "resourceId": "492jiemenghuo/1skill2_2",
+      "text": "蛮人骨硬，其势复来！",
+      "textLocalized": {
+        "zhHans": "蛮人骨硬，其势复来！",
+        "zhHant": "蠻人骨硬，其勢復來！"
+      },
+      "group": {
+        "slug": "spell-3066",
+        "name": "再起",
+        "displayName": {
+          "zhHans": "再起",
+          "zhHant": "再起"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/492jiemenghuo-385cf856/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

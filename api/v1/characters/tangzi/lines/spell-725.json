@@ -1,3 +1,830 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b0f5e83f0057d8cb0d1efa7d2462a7bdf615d0b1c772e0da4033829e7e69d50a
-size 19016
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tangzi",
+    "command": "tangzi",
+    "name": "唐咨",
+    "displayName": {
+      "zhHans": "唐咨",
+      "zhHant": "唐諮"
+    },
+    "names": [
+      "唐咨"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "唐咨",
+        "zhHant": "唐諮"
+      }
+    ],
+    "ids": [
+      "422"
+    ],
+    "sourceNames": [
+      "唐咨"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "唐咨",
+        "zhHant": "唐諮"
+      }
+    ],
+    "sourceIds": [
+      "422"
+    ],
+    "searchNames": [
+      "tangzi",
+      "唐咨",
+      "唐諮"
+    ],
+    "lineCount": 19,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 5
+      },
+      {
+        "slug": "spell-725",
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        },
+        "ids": [
+          "725"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        },
+        "ids": [
+          "861"
+        ],
+        "lineCount": 10
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-42203",
+        "ids": [
+          "42203"
+        ],
+        "name": "帆舟游海",
+        "displayName": {
+          "zhHans": "帆舟游海",
+          "zhHant": "帆舟遊海"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-42205",
+        "ids": [
+          "42205"
+        ],
+        "name": "栈山轶海",
+        "displayName": {
+          "zhHans": "栈山轶海",
+          "zhHant": "棧山軼海"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-42204",
+        "ids": [
+          "42204"
+        ],
+        "name": "绘图制船",
+        "displayName": {
+          "zhHans": "绘图制船",
+          "zhHant": "繪圖制船"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-42201",
+        "ids": [
+          "42201"
+        ],
+        "name": "绘图构思",
+        "displayName": {
+          "zhHans": "绘图构思",
+          "zhHant": "繪圖構思"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/tangzi.json",
+      "lines": "api/v1/characters/tangzi/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-725",
+    "ids": [
+      "725"
+    ],
+    "name": "恂恂",
+    "displayName": {
+      "zhHans": "恂恂",
+      "zhHant": "恂恂"
+    },
+    "names": [
+      "恂恂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "恂恂",
+        "zhHant": "恂恂"
+      }
+    ]
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "tangzi--422tangzi--6skill2_1",
+      "resourceId": "422tangzi/6skill2_1",
+      "text": "渡长江之南北，将虽奔而风骨不可逊。",
+      "textLocalized": {
+        "zhHans": "渡长江之南北，将虽奔而风骨不可逊。",
+        "zhHant": "渡長江之南北，將雖奔而風骨不可遜。"
+      },
+      "character": {
+        "slug": "tangzi",
+        "command": "tangzi",
+        "id": "422",
+        "ids": [
+          "422"
+        ],
+        "name": "唐咨",
+        "displayName": {
+          "zhHans": "唐咨",
+          "zhHant": "唐諮"
+        },
+        "names": [
+          "唐咨"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "唐咨",
+            "zhHant": "唐諮"
+          }
+        ],
+        "sourceIds": [
+          "422"
+        ],
+        "sourceNames": [
+          "唐咨"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "唐咨",
+            "zhHant": "唐諮"
+          }
+        ],
+        "searchNames": [
+          "唐咨",
+          "唐諮",
+          "tangzi"
+        ]
+      },
+      "group": {
+        "slug": "spell-725",
+        "ids": [
+          "725"
+        ],
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        },
+        "names": [
+          "恂恂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "恂恂",
+            "zhHant": "恂恂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42205",
+        "ids": [
+          "42205"
+        ],
+        "name": "栈山轶海",
+        "displayName": {
+          "zhHans": "栈山轶海",
+          "zhHant": "棧山軼海"
+        },
+        "names": [
+          "栈山轶海"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "栈山轶海",
+            "zhHant": "棧山軼海"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-42205",
+          "id": "42205",
+          "ids": [
+            "42205"
+          ],
+          "name": "栈山轶海",
+          "displayName": {
+            "zhHans": "栈山轶海",
+            "zhHant": "棧山軼海"
+          },
+          "names": [
+            "栈山轶海"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "栈山轶海",
+              "zhHant": "棧山軼海"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "422",
+        "skinKey": "42205",
+        "spellKey": "725",
+        "rowIndex": 1,
+        "characterNames": [
+          "唐咨"
+        ],
+        "skinNames": [
+          "栈山轶海"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/6skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--6skill2_2",
+      "resourceId": "422tangzi/6skill2_2",
+      "text": "君子温润如玉，其志高而无暇可掩瑜。",
+      "textLocalized": {
+        "zhHans": "君子温润如玉，其志高而无暇可掩瑜。",
+        "zhHant": "君子溫潤如玉，其志高而無暇可掩瑜。"
+      },
+      "character": {
+        "slug": "tangzi",
+        "command": "tangzi",
+        "id": "422",
+        "ids": [
+          "422"
+        ],
+        "name": "唐咨",
+        "displayName": {
+          "zhHans": "唐咨",
+          "zhHant": "唐諮"
+        },
+        "names": [
+          "唐咨"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "唐咨",
+            "zhHant": "唐諮"
+          }
+        ],
+        "sourceIds": [
+          "422"
+        ],
+        "sourceNames": [
+          "唐咨"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "唐咨",
+            "zhHant": "唐諮"
+          }
+        ],
+        "searchNames": [
+          "唐咨",
+          "唐諮",
+          "tangzi"
+        ]
+      },
+      "group": {
+        "slug": "spell-725",
+        "ids": [
+          "725"
+        ],
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        },
+        "names": [
+          "恂恂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "恂恂",
+            "zhHant": "恂恂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42205",
+        "ids": [
+          "42205"
+        ],
+        "name": "栈山轶海",
+        "displayName": {
+          "zhHans": "栈山轶海",
+          "zhHant": "棧山軼海"
+        },
+        "names": [
+          "栈山轶海"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "栈山轶海",
+            "zhHant": "棧山軼海"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-42205",
+          "id": "42205",
+          "ids": [
+            "42205"
+          ],
+          "name": "栈山轶海",
+          "displayName": {
+            "zhHans": "栈山轶海",
+            "zhHant": "棧山軼海"
+          },
+          "names": [
+            "栈山轶海"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "栈山轶海",
+              "zhHant": "棧山軼海"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "422",
+        "skinKey": "42205",
+        "spellKey": "725",
+        "rowIndex": 2,
+        "characterNames": [
+          "唐咨"
+        ],
+        "skinNames": [
+          "栈山轶海"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/6skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--1skill2_1",
+      "resourceId": "422tangzi/1skill2_1",
+      "text": "让我先探他一探。",
+      "textLocalized": {
+        "zhHans": "让我先探他一探。",
+        "zhHant": "讓我先探他一探。"
+      },
+      "character": {
+        "slug": "tangzi",
+        "command": "tangzi",
+        "id": "422",
+        "ids": [
+          "422"
+        ],
+        "name": "唐咨",
+        "displayName": {
+          "zhHans": "唐咨",
+          "zhHant": "唐諮"
+        },
+        "names": [
+          "唐咨"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "唐咨",
+            "zhHant": "唐諮"
+          }
+        ],
+        "sourceIds": [
+          "422"
+        ],
+        "sourceNames": [
+          "唐咨"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "唐咨",
+            "zhHant": "唐諮"
+          }
+        ],
+        "searchNames": [
+          "唐咨",
+          "唐諮",
+          "tangzi"
+        ]
+      },
+      "group": {
+        "slug": "spell-725",
+        "ids": [
+          "725"
+        ],
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        },
+        "names": [
+          "恂恂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "恂恂",
+            "zhHant": "恂恂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42201",
+        "ids": [
+          "42201"
+        ],
+        "name": "绘图构思",
+        "displayName": {
+          "zhHans": "绘图构思",
+          "zhHant": "繪圖構思"
+        },
+        "names": [
+          "绘图构思"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "绘图构思",
+            "zhHant": "繪圖構思"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        },
+        {
+          "slug": "skin-42203",
+          "id": "42203",
+          "ids": [
+            "42203"
+          ],
+          "name": "帆舟游海",
+          "displayName": {
+            "zhHans": "帆舟游海",
+            "zhHant": "帆舟遊海"
+          },
+          "names": [
+            "帆舟游海"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "帆舟游海",
+              "zhHant": "帆舟遊海"
+            }
+          ]
+        },
+        {
+          "slug": "skin-42204",
+          "id": "42204",
+          "ids": [
+            "42204"
+          ],
+          "name": "绘图制船",
+          "displayName": {
+            "zhHans": "绘图制船",
+            "zhHant": "繪圖制船"
+          },
+          "names": [
+            "绘图制船"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "绘图制船",
+              "zhHant": "繪圖制船"
+            }
+          ]
+        },
+        {
+          "slug": "skin-42201",
+          "id": "42201",
+          "ids": [
+            "42201"
+          ],
+          "name": "绘图构思",
+          "displayName": {
+            "zhHans": "绘图构思",
+            "zhHant": "繪圖構思"
+          },
+          "names": [
+            "绘图构思"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "绘图构思",
+              "zhHant": "繪圖構思"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "422",
+        "skinKey": "42201",
+        "spellKey": "725",
+        "rowIndex": 1,
+        "characterNames": [
+          "唐咨"
+        ],
+        "skinNames": [
+          "绘图构思",
+          "帆舟游海",
+          "绘图制船",
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--1skill2_2",
+      "resourceId": "422tangzi/1skill2_2",
+      "text": "船，也不是一天就能造出来的。",
+      "textLocalized": {
+        "zhHans": "船，也不是一天就能造出来的。",
+        "zhHant": "船，也不是一天就能造出來的。"
+      },
+      "character": {
+        "slug": "tangzi",
+        "command": "tangzi",
+        "id": "422",
+        "ids": [
+          "422"
+        ],
+        "name": "唐咨",
+        "displayName": {
+          "zhHans": "唐咨",
+          "zhHant": "唐諮"
+        },
+        "names": [
+          "唐咨"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "唐咨",
+            "zhHant": "唐諮"
+          }
+        ],
+        "sourceIds": [
+          "422"
+        ],
+        "sourceNames": [
+          "唐咨"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "唐咨",
+            "zhHant": "唐諮"
+          }
+        ],
+        "searchNames": [
+          "唐咨",
+          "唐諮",
+          "tangzi"
+        ]
+      },
+      "group": {
+        "slug": "spell-725",
+        "ids": [
+          "725"
+        ],
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        },
+        "names": [
+          "恂恂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "恂恂",
+            "zhHant": "恂恂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42201",
+        "ids": [
+          "42201"
+        ],
+        "name": "绘图构思",
+        "displayName": {
+          "zhHans": "绘图构思",
+          "zhHant": "繪圖構思"
+        },
+        "names": [
+          "绘图构思"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "绘图构思",
+            "zhHant": "繪圖構思"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        },
+        {
+          "slug": "skin-42203",
+          "id": "42203",
+          "ids": [
+            "42203"
+          ],
+          "name": "帆舟游海",
+          "displayName": {
+            "zhHans": "帆舟游海",
+            "zhHant": "帆舟遊海"
+          },
+          "names": [
+            "帆舟游海"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "帆舟游海",
+              "zhHant": "帆舟遊海"
+            }
+          ]
+        },
+        {
+          "slug": "skin-42204",
+          "id": "42204",
+          "ids": [
+            "42204"
+          ],
+          "name": "绘图制船",
+          "displayName": {
+            "zhHans": "绘图制船",
+            "zhHant": "繪圖制船"
+          },
+          "names": [
+            "绘图制船"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "绘图制船",
+              "zhHant": "繪圖制船"
+            }
+          ]
+        },
+        {
+          "slug": "skin-42201",
+          "id": "42201",
+          "ids": [
+            "42201"
+          ],
+          "name": "绘图构思",
+          "displayName": {
+            "zhHans": "绘图构思",
+            "zhHant": "繪圖構思"
+          },
+          "names": [
+            "绘图构思"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "绘图构思",
+              "zhHant": "繪圖構思"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "422",
+        "skinKey": "42201",
+        "spellKey": "725",
+        "rowIndex": 2,
+        "characterNames": [
+          "唐咨"
+        ],
+        "skinNames": [
+          "绘图构思",
+          "帆舟游海",
+          "绘图制船",
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

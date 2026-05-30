@@ -1,3 +1,425 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2154d9288bc09a773383d447d2b56929308c80ef0d85fc898491c2a8b51740f2
-size 12173
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangqiying",
+    "command": "zhangqiying",
+    "name": "张琪瑛",
+    "displayName": {
+      "zhHans": "张琪瑛",
+      "zhHant": "張琪瑛"
+    },
+    "names": [
+      "张琪瑛"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张琪瑛",
+        "zhHant": "張琪瑛"
+      }
+    ],
+    "ids": [
+      "425"
+    ],
+    "sourceNames": [
+      "张琪瑛"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张琪瑛",
+        "zhHant": "張琪瑛"
+      }
+    ],
+    "sourceIds": [
+      "425"
+    ],
+    "searchNames": [
+      "zhangqiying",
+      "张琪瑛",
+      "張琪瑛"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangqiying/groups/dead.json"
+      },
+      {
+        "slug": "spell-865",
+        "name": "法箓",
+        "displayName": {
+          "zhHans": "法箓",
+          "zhHant": "法籙"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangqiying/groups/spell-865.json"
+      },
+      {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangqiying/groups/spell-866.json"
+      },
+      {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangqiying/groups/spell-867.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhangqiying/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42501",
+        "name": "欢庆丰收",
+        "displayName": {
+          "zhHans": "欢庆丰收",
+          "zhHant": "歡慶豐收"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhangqiying/skins/skin-42501.json"
+      },
+      {
+        "slug": "skin-42503",
+        "name": "金桂月华",
+        "displayName": {
+          "zhHans": "金桂月华",
+          "zhHant": "金桂月華"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhangqiying/skins/skin-42503.json"
+      },
+      {
+        "slug": "skin-42502",
+        "name": "金钰微秋",
+        "displayName": {
+          "zhHans": "金钰微秋",
+          "zhHant": "金鈺微秋"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhangqiying/skins/skin-42502.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangqiying.json",
+      "groups": "api/v1/tts/characters/zhangqiying/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangqiying/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-867",
+    "name": "点化",
+    "displayName": {
+      "zhHans": "点化",
+      "zhHant": "點化"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/zhangqiying/groups/spell-867.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "zhangqiying--425zhangqiying--1skill3_1",
+      "resourceId": "425zhangqiying/1skill3_1",
+      "text": "大道无形，点化无为。",
+      "textLocalized": {
+        "zhHans": "大道无形，点化无为。",
+        "zhHant": "大道無形，點化無爲。"
+      },
+      "group": {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--1skill3_2",
+      "resourceId": "425zhangqiying/1skill3_2",
+      "text": "得此点化，必得大道。",
+      "textLocalized": {
+        "zhHans": "得此点化，必得大道。",
+        "zhHant": "得此點化，必得大道。"
+      },
+      "group": {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--3skill3_1",
+      "resourceId": "425zhangqiying/3skill3_1",
+      "text": "顿悟思虑，方知其意。",
+      "textLocalized": {
+        "zhHans": "顿悟思虑，方知其意。",
+        "zhHant": "頓悟思慮，方知其意。"
+      },
+      "group": {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42501",
+          "name": "欢庆丰收",
+          "displayName": {
+            "zhHans": "欢庆丰收",
+            "zhHant": "歡慶豐收"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--3skill3_2",
+      "resourceId": "425zhangqiying/3skill3_2",
+      "text": "五斗米道，须点化而悟。",
+      "textLocalized": {
+        "zhHans": "五斗米道，须点化而悟。",
+        "zhHant": "五斗米道，須點化而悟。"
+      },
+      "group": {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42501",
+          "name": "欢庆丰收",
+          "displayName": {
+            "zhHans": "欢庆丰收",
+            "zhHant": "歡慶豐收"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--5skill3_1",
+      "resourceId": "425zhangqiying/5skill3_1",
+      "text": "今夕醉明月，且问天上仙人，人间清欢否？",
+      "textLocalized": {
+        "zhHans": "今夕醉明月，且问天上仙人，人间清欢否？",
+        "zhHant": "今夕醉明月，且問天上仙人，人間清歡否？"
+      },
+      "group": {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42503",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/5skill3-1-81c515c2.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/5skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--5skill3_2",
+      "resourceId": "425zhangqiying/5skill3_2",
+      "text": "素指点醇醴，化此间相思为青雀、共君往。",
+      "textLocalized": {
+        "zhHans": "素指点醇醴，化此间相思为青雀、共君往。",
+        "zhHant": "素指點醇醴，化此間相思爲青雀、共君往。"
+      },
+      "group": {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42503",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/5skill3-2-edc71423.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/5skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--4skill3_1",
+      "resourceId": "425zhangqiying/4skill3_1",
+      "text": "道法自然，点化陈腐以为新。",
+      "textLocalized": {
+        "zhHans": "道法自然，点化陈腐以为新。",
+        "zhHant": "道法自然，點化陳腐以爲新。"
+      },
+      "group": {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42502",
+          "name": "金钰微秋",
+          "displayName": {
+            "zhHans": "金钰微秋",
+            "zhHant": "金鈺微秋"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--4skill3_2",
+      "resourceId": "425zhangqiying/4skill3_2",
+      "text": "遵方点化，化险为夷。",
+      "textLocalized": {
+        "zhHans": "遵方点化，化险为夷。",
+        "zhHant": "遵方點化，化險爲夷。"
+      },
+      "group": {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42502",
+          "name": "金钰微秋",
+          "displayName": {
+            "zhHans": "金钰微秋",
+            "zhHant": "金鈺微秋"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

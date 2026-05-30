@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:29be1424696fec59e0a9db7877518ca512e690c5fadbbec6cd223f64a4a12f5a
-size 8116
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liaohua",
+    "command": "liaohua",
+    "name": "廖化",
+    "displayName": {
+      "zhHans": "廖化",
+      "zhHant": "廖化"
+    },
+    "names": [
+      "廖化"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "廖化",
+        "zhHant": "廖化"
+      }
+    ],
+    "ids": [
+      "166"
+    ],
+    "sourceNames": [
+      "廖化"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "廖化",
+        "zhHant": "廖化"
+      }
+    ],
+    "sourceIds": [
+      "166"
+    ],
+    "searchNames": [
+      "liaohua",
+      "廖化"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liaohua/groups/dead.json"
+      },
+      {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liaohua/groups/spell-426.json"
+      },
+      {
+        "slug": "spell-427",
+        "name": "伏枥",
+        "displayName": {
+          "zhHans": "伏枥",
+          "zhHant": "伏櫪"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liaohua/groups/spell-427.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liaohua/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-16604",
+        "name": "果敢刚直",
+        "displayName": {
+          "zhHans": "果敢刚直",
+          "zhHant": "果敢剛直"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liaohua/skins/skin-16604.json"
+      },
+      {
+        "slug": "skin-16602",
+        "name": "老骥伏枥",
+        "displayName": {
+          "zhHans": "老骥伏枥",
+          "zhHant": "老驥伏櫪"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liaohua/skins/skin-16602.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liaohua.json",
+      "groups": "api/v1/tts/characters/liaohua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liaohua/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-16604",
+    "name": "果敢刚直",
+    "displayName": {
+      "zhHans": "果敢刚直",
+      "zhHant": "果敢剛直"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/liaohua/skins/skin-16604.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "liaohua--166liaohua--4dead01",
+      "resourceId": "166liaohua/4dead01",
+      "text": "今后，就靠你们了。",
+      "textLocalized": {
+        "zhHans": "今后，就靠你们了。",
+        "zhHant": "今後，就靠你們了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16604",
+          "name": "果敢刚直",
+          "displayName": {
+            "zhHans": "果敢刚直",
+            "zhHant": "果敢剛直"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liaohua--166liaohua--4skill1_1",
+      "resourceId": "166liaohua/4skill1_1",
+      "text": "谁说蜀中已无大将！",
+      "textLocalized": {
+        "zhHans": "谁说蜀中已无大将！",
+        "zhHant": "誰說蜀中已無大將！"
+      },
+      "group": {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16604",
+          "name": "果敢刚直",
+          "displayName": {
+            "zhHans": "果敢刚直",
+            "zhHant": "果敢剛直"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liaohua--166liaohua--4skill1_2",
+      "resourceId": "166liaohua/4skill1_2",
+      "text": "吾虽年迈，宝剑尚锋！",
+      "textLocalized": {
+        "zhHans": "吾虽年迈，宝剑尚锋！",
+        "zhHant": "吾雖年邁，寶劍尚鋒！"
+      },
+      "group": {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16604",
+          "name": "果敢刚直",
+          "displayName": {
+            "zhHans": "果敢刚直",
+            "zhHant": "果敢剛直"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liaohua--166liaohua--4skill2_1",
+      "resourceId": "166liaohua/4skill2_1",
+      "text": "老将之躯，燃己为国！",
+      "textLocalized": {
+        "zhHans": "老将之躯，燃己为国！",
+        "zhHant": "老將之軀，燃己爲國！"
+      },
+      "group": {
+        "slug": "spell-427",
+        "name": "伏枥",
+        "displayName": {
+          "zhHans": "伏枥",
+          "zhHant": "伏櫪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16604",
+          "name": "果敢刚直",
+          "displayName": {
+            "zhHans": "果敢刚直",
+            "zhHant": "果敢剛直"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liaohua--166liaohua--4skill2_2",
+      "resourceId": "166liaohua/4skill2_2",
+      "text": "贼将未除，老夫岂能轻易倒下！",
+      "textLocalized": {
+        "zhHans": "贼将未除，老夫岂能轻易倒下！",
+        "zhHant": "賊將未除，老夫豈能輕易倒下！"
+      },
+      "group": {
+        "slug": "spell-427",
+        "name": "伏枥",
+        "displayName": {
+          "zhHans": "伏枥",
+          "zhHant": "伏櫪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16604",
+          "name": "果敢刚直",
+          "displayName": {
+            "zhHans": "果敢刚直",
+            "zhHant": "果敢剛直"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

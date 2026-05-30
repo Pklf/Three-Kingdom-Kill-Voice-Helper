@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1eaa58aa9d3387d82a88bc7deb91a21765a67355d20fb1e95970758bef2a27e8
-size 4972
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiezhangchunhua",
+    "command": "jiezhangchunhua",
+    "name": "界张春华",
+    "displayName": {
+      "zhHans": "界张春华",
+      "zhHant": "界張春華"
+    },
+    "names": [
+      "界张春华"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界张春华",
+        "zhHant": "界張春華"
+      }
+    ],
+    "ids": [
+      "625"
+    ],
+    "sourceNames": [
+      "界张春华"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界张春华",
+        "zhHant": "界張春華"
+      }
+    ],
+    "sourceIds": [
+      "625"
+    ],
+    "searchNames": [
+      "jiezhangchunhua",
+      "界张春华",
+      "界張春華"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/dead.json"
+      },
+      {
+        "slug": "spell-3481",
+        "name": "翦灭",
+        "displayName": {
+          "zhHans": "翦灭",
+          "zhHant": "翦滅"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/spell-3481.json"
+      },
+      {
+        "slug": "spell-418",
+        "name": "绝情",
+        "displayName": {
+          "zhHans": "绝情",
+          "zhHant": "絕情"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/spell-418.json"
+      },
+      {
+        "slug": "spell-419",
+        "name": "伤逝",
+        "displayName": {
+          "zhHans": "伤逝",
+          "zhHant": "傷逝"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/spell-419.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiezhangchunhua.json",
+      "groups": "api/v1/tts/characters/jiezhangchunhua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiezhangchunhua/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-419",
+    "name": "伤逝",
+    "displayName": {
+      "zhHans": "伤逝",
+      "zhHant": "傷逝"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/spell-419.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jiezhangchunhua--625jiezhangchunhua--1skill2_1",
+      "resourceId": "625jiezhangchunhua/1skill2_1",
+      "text": "伤我最深的，竟是你司马懿。",
+      "textLocalized": {
+        "zhHans": "伤我最深的，竟是你司马懿。",
+        "zhHant": "傷我最深的，竟是你司馬懿。"
+      },
+      "group": {
+        "slug": "spell-419",
+        "name": "伤逝",
+        "displayName": {
+          "zhHans": "伤逝",
+          "zhHant": "傷逝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/625jiezhangchunhua-4277451c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/625jiezhangchunhua/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhangchunhua--625jiezhangchunhua--1skill2_2",
+      "resourceId": "625jiezhangchunhua/1skill2_2",
+      "text": "世间刀剑数万，何以情字伤人？",
+      "textLocalized": {
+        "zhHans": "世间刀剑数万，何以情字伤人？",
+        "zhHant": "世間刀劍數萬，何以情字傷人？"
+      },
+      "group": {
+        "slug": "spell-419",
+        "name": "伤逝",
+        "displayName": {
+          "zhHans": "伤逝",
+          "zhHant": "傷逝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/625jiezhangchunhua-4277451c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/625jiezhangchunhua/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

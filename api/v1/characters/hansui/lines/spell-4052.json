@@ -1,3 +1,938 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7bfa6c686b27ed17761b699bb051582909fd009195d8a3e3133a6577d81f1bd2
-size 21366
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hansui",
+    "command": "hansui",
+    "name": "韩遂",
+    "displayName": {
+      "zhHans": "韩遂",
+      "zhHant": "韓遂"
+    },
+    "names": [
+      "韩遂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "韩遂",
+        "zhHant": "韓遂"
+      }
+    ],
+    "ids": [
+      "3043"
+    ],
+    "sourceNames": [
+      "韩遂"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "韩遂",
+        "zhHant": "韓遂"
+      }
+    ],
+    "sourceIds": [
+      "3043"
+    ],
+    "searchNames": [
+      "hansui",
+      "韩遂",
+      "韓遂"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-4052",
+        "name": "骁袭",
+        "displayName": {
+          "zhHans": "骁袭",
+          "zhHant": "驍襲"
+        },
+        "ids": [
+          "4052"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-4067",
+        "name": "逆乱",
+        "displayName": {
+          "zhHans": "逆乱",
+          "zhHant": "逆亂"
+        },
+        "ids": [
+          "4067"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-304302",
+        "ids": [
+          "304302"
+        ],
+        "name": "蹯踞西疆",
+        "displayName": {
+          "zhHans": "蹯踞西疆",
+          "zhHant": "蹯踞西疆"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-304301",
+        "ids": [
+          "304301"
+        ],
+        "name": "驱率羌胡",
+        "displayName": {
+          "zhHans": "驱率羌胡",
+          "zhHant": "驅率羌胡"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/hansui.json",
+      "lines": "api/v1/characters/hansui/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-4052",
+    "ids": [
+      "4052"
+    ],
+    "name": "骁袭",
+    "displayName": {
+      "zhHans": "骁袭",
+      "zhHant": "驍襲"
+    },
+    "names": [
+      "骁袭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "骁袭",
+        "zhHant": "驍襲"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "hansui--3043hansui--1skill2_1",
+      "resourceId": "3043hansui/1skill2_1",
+      "text": "两军交战，勇者为胜。",
+      "textLocalized": {
+        "zhHans": "两军交战，勇者为胜。",
+        "zhHant": "兩軍交戰，勇者爲勝。"
+      },
+      "character": {
+        "slug": "hansui",
+        "command": "hansui",
+        "id": "3043",
+        "ids": [
+          "3043"
+        ],
+        "name": "韩遂",
+        "displayName": {
+          "zhHans": "韩遂",
+          "zhHant": "韓遂"
+        },
+        "names": [
+          "韩遂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "sourceIds": [
+          "3043"
+        ],
+        "sourceNames": [
+          "韩遂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "searchNames": [
+          "韩遂",
+          "韓遂",
+          "hansui"
+        ]
+      },
+      "group": {
+        "slug": "spell-4052",
+        "ids": [
+          "4052"
+        ],
+        "name": "骁袭",
+        "displayName": {
+          "zhHans": "骁袭",
+          "zhHant": "驍襲"
+        },
+        "names": [
+          "骁袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁袭",
+            "zhHant": "驍襲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3043",
+        "skinKey": "-1",
+        "spellKey": "4052",
+        "rowIndex": 1,
+        "characterNames": [
+          "韩遂"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3043hansui-52dbf997/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3043hansui/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hansui--3043hansui--1skill2_2",
+      "resourceId": "3043hansui/1skill2_2",
+      "text": "打你个措手不及！",
+      "textLocalized": {
+        "zhHans": "打你个措手不及！",
+        "zhHant": "打你個措手不及！"
+      },
+      "character": {
+        "slug": "hansui",
+        "command": "hansui",
+        "id": "3043",
+        "ids": [
+          "3043"
+        ],
+        "name": "韩遂",
+        "displayName": {
+          "zhHans": "韩遂",
+          "zhHant": "韓遂"
+        },
+        "names": [
+          "韩遂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "sourceIds": [
+          "3043"
+        ],
+        "sourceNames": [
+          "韩遂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "searchNames": [
+          "韩遂",
+          "韓遂",
+          "hansui"
+        ]
+      },
+      "group": {
+        "slug": "spell-4052",
+        "ids": [
+          "4052"
+        ],
+        "name": "骁袭",
+        "displayName": {
+          "zhHans": "骁袭",
+          "zhHant": "驍襲"
+        },
+        "names": [
+          "骁袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁袭",
+            "zhHant": "驍襲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3043",
+        "skinKey": "-1",
+        "spellKey": "4052",
+        "rowIndex": 2,
+        "characterNames": [
+          "韩遂"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3043hansui-52dbf997/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3043hansui/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hansui--3043hansui--4skill2_1",
+      "resourceId": "3043hansui/4skill2_1",
+      "text": "乌合之众，西凉何惧！",
+      "textLocalized": {
+        "zhHans": "乌合之众，西凉何惧！",
+        "zhHant": "烏合之衆，西涼何懼！"
+      },
+      "character": {
+        "slug": "hansui",
+        "command": "hansui",
+        "id": "3043",
+        "ids": [
+          "3043"
+        ],
+        "name": "韩遂",
+        "displayName": {
+          "zhHans": "韩遂",
+          "zhHant": "韓遂"
+        },
+        "names": [
+          "韩遂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "sourceIds": [
+          "3043"
+        ],
+        "sourceNames": [
+          "韩遂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "searchNames": [
+          "韩遂",
+          "韓遂",
+          "hansui"
+        ]
+      },
+      "group": {
+        "slug": "spell-4052",
+        "ids": [
+          "4052"
+        ],
+        "name": "骁袭",
+        "displayName": {
+          "zhHans": "骁袭",
+          "zhHant": "驍襲"
+        },
+        "names": [
+          "骁袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁袭",
+            "zhHant": "驍襲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-304302",
+        "ids": [
+          "304302"
+        ],
+        "name": "蹯踞西疆",
+        "displayName": {
+          "zhHans": "蹯踞西疆",
+          "zhHant": "蹯踞西疆"
+        },
+        "names": [
+          "蹯踞西疆"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "蹯踞西疆",
+            "zhHant": "蹯踞西疆"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-304302",
+          "id": "304302",
+          "ids": [
+            "304302"
+          ],
+          "name": "蹯踞西疆",
+          "displayName": {
+            "zhHans": "蹯踞西疆",
+            "zhHant": "蹯踞西疆"
+          },
+          "names": [
+            "蹯踞西疆"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "蹯踞西疆",
+              "zhHant": "蹯踞西疆"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3043",
+        "skinKey": "304302",
+        "spellKey": "4052",
+        "rowIndex": 1,
+        "characterNames": [
+          "韩遂"
+        ],
+        "skinNames": [
+          "蹯踞西疆"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3043hansui-52dbf997/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3043hansui/4skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hansui--3043hansui--4skill2_2",
+      "resourceId": "3043hansui/4skill2_2",
+      "text": "坐以待毙，不如先下手为强！",
+      "textLocalized": {
+        "zhHans": "坐以待毙，不如先下手为强！",
+        "zhHant": "坐以待斃，不如先下手爲強！"
+      },
+      "character": {
+        "slug": "hansui",
+        "command": "hansui",
+        "id": "3043",
+        "ids": [
+          "3043"
+        ],
+        "name": "韩遂",
+        "displayName": {
+          "zhHans": "韩遂",
+          "zhHant": "韓遂"
+        },
+        "names": [
+          "韩遂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "sourceIds": [
+          "3043"
+        ],
+        "sourceNames": [
+          "韩遂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "searchNames": [
+          "韩遂",
+          "韓遂",
+          "hansui"
+        ]
+      },
+      "group": {
+        "slug": "spell-4052",
+        "ids": [
+          "4052"
+        ],
+        "name": "骁袭",
+        "displayName": {
+          "zhHans": "骁袭",
+          "zhHant": "驍襲"
+        },
+        "names": [
+          "骁袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁袭",
+            "zhHant": "驍襲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-304302",
+        "ids": [
+          "304302"
+        ],
+        "name": "蹯踞西疆",
+        "displayName": {
+          "zhHans": "蹯踞西疆",
+          "zhHant": "蹯踞西疆"
+        },
+        "names": [
+          "蹯踞西疆"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "蹯踞西疆",
+            "zhHant": "蹯踞西疆"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-304302",
+          "id": "304302",
+          "ids": [
+            "304302"
+          ],
+          "name": "蹯踞西疆",
+          "displayName": {
+            "zhHans": "蹯踞西疆",
+            "zhHant": "蹯踞西疆"
+          },
+          "names": [
+            "蹯踞西疆"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "蹯踞西疆",
+              "zhHant": "蹯踞西疆"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3043",
+        "skinKey": "304302",
+        "spellKey": "4052",
+        "rowIndex": 2,
+        "characterNames": [
+          "韩遂"
+        ],
+        "skinNames": [
+          "蹯踞西疆"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3043hansui-52dbf997/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3043hansui/4skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hansui--3043hansui--3skill2_1",
+      "resourceId": "3043hansui/3skill2_1",
+      "text": "（拔剑声）先吃我一剑！",
+      "textLocalized": {
+        "zhHans": "（拔剑声）先吃我一剑！",
+        "zhHant": "（拔劍聲）先喫我一劍！"
+      },
+      "character": {
+        "slug": "hansui",
+        "command": "hansui",
+        "id": "3043",
+        "ids": [
+          "3043"
+        ],
+        "name": "韩遂",
+        "displayName": {
+          "zhHans": "韩遂",
+          "zhHant": "韓遂"
+        },
+        "names": [
+          "韩遂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "sourceIds": [
+          "3043"
+        ],
+        "sourceNames": [
+          "韩遂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "searchNames": [
+          "韩遂",
+          "韓遂",
+          "hansui"
+        ]
+      },
+      "group": {
+        "slug": "spell-4052",
+        "ids": [
+          "4052"
+        ],
+        "name": "骁袭",
+        "displayName": {
+          "zhHans": "骁袭",
+          "zhHant": "驍襲"
+        },
+        "names": [
+          "骁袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁袭",
+            "zhHant": "驍襲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-304301",
+        "ids": [
+          "304301"
+        ],
+        "name": "驱率羌胡",
+        "displayName": {
+          "zhHans": "驱率羌胡",
+          "zhHant": "驅率羌胡"
+        },
+        "names": [
+          "驱率羌胡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "驱率羌胡",
+            "zhHant": "驅率羌胡"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-304301",
+          "id": "304301",
+          "ids": [
+            "304301"
+          ],
+          "name": "驱率羌胡",
+          "displayName": {
+            "zhHans": "驱率羌胡",
+            "zhHant": "驅率羌胡"
+          },
+          "names": [
+            "驱率羌胡"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "驱率羌胡",
+              "zhHant": "驅率羌胡"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3043",
+        "skinKey": "304301",
+        "spellKey": "4052",
+        "rowIndex": 1,
+        "characterNames": [
+          "韩遂"
+        ],
+        "skinNames": [
+          "驱率羌胡"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3043hansui-52dbf997/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3043hansui/3skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hansui--3043hansui--3skill2_2",
+      "resourceId": "3043hansui/3skill2_2",
+      "text": "这是给你的下马威！",
+      "textLocalized": {
+        "zhHans": "这是给你的下马威！",
+        "zhHant": "這是給你的下馬威！"
+      },
+      "character": {
+        "slug": "hansui",
+        "command": "hansui",
+        "id": "3043",
+        "ids": [
+          "3043"
+        ],
+        "name": "韩遂",
+        "displayName": {
+          "zhHans": "韩遂",
+          "zhHant": "韓遂"
+        },
+        "names": [
+          "韩遂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "sourceIds": [
+          "3043"
+        ],
+        "sourceNames": [
+          "韩遂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩遂",
+            "zhHant": "韓遂"
+          }
+        ],
+        "searchNames": [
+          "韩遂",
+          "韓遂",
+          "hansui"
+        ]
+      },
+      "group": {
+        "slug": "spell-4052",
+        "ids": [
+          "4052"
+        ],
+        "name": "骁袭",
+        "displayName": {
+          "zhHans": "骁袭",
+          "zhHant": "驍襲"
+        },
+        "names": [
+          "骁袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁袭",
+            "zhHant": "驍襲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-304301",
+        "ids": [
+          "304301"
+        ],
+        "name": "驱率羌胡",
+        "displayName": {
+          "zhHans": "驱率羌胡",
+          "zhHant": "驅率羌胡"
+        },
+        "names": [
+          "驱率羌胡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "驱率羌胡",
+            "zhHant": "驅率羌胡"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-304301",
+          "id": "304301",
+          "ids": [
+            "304301"
+          ],
+          "name": "驱率羌胡",
+          "displayName": {
+            "zhHans": "驱率羌胡",
+            "zhHant": "驅率羌胡"
+          },
+          "names": [
+            "驱率羌胡"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "驱率羌胡",
+              "zhHant": "驅率羌胡"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3043",
+        "skinKey": "304301",
+        "spellKey": "4052",
+        "rowIndex": 2,
+        "characterNames": [
+          "韩遂"
+        ],
+        "skinNames": [
+          "驱率羌胡"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3043hansui-52dbf997/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3043hansui/3skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

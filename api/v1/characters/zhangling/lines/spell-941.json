@@ -1,3 +1,938 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fd1a1f44cf8aa55bad7c430705152b193770c242858a0ab299b6552d4b225723
-size 21564
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangling",
+    "command": "zhangling",
+    "name": "张陵",
+    "displayName": {
+      "zhHans": "张陵",
+      "zhHant": "張陵"
+    },
+    "names": [
+      "张陵"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张陵",
+        "zhHant": "張陵"
+      }
+    ],
+    "ids": [
+      "464"
+    ],
+    "sourceNames": [
+      "张陵"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张陵",
+        "zhHant": "張陵"
+      }
+    ],
+    "sourceIds": [
+      "464"
+    ],
+    "searchNames": [
+      "zhangling",
+      "张陵",
+      "張陵"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-941",
+        "name": "虎骑",
+        "displayName": {
+          "zhHans": "虎骑",
+          "zhHant": "虎騎"
+        },
+        "ids": [
+          "941"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-942",
+        "name": "授符",
+        "displayName": {
+          "zhHans": "授符",
+          "zhHant": "授符"
+        },
+        "ids": [
+          "942"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-46402",
+        "ids": [
+          "46402"
+        ],
+        "name": "篆符敕星",
+        "displayName": {
+          "zhHans": "篆符敕星",
+          "zhHant": "篆符敕星"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-46401",
+        "ids": [
+          "46401"
+        ],
+        "name": "骑虎寻药",
+        "displayName": {
+          "zhHans": "骑虎寻药",
+          "zhHant": "騎虎尋藥"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/zhangling.json",
+      "lines": "api/v1/characters/zhangling/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-941",
+    "ids": [
+      "941"
+    ],
+    "name": "虎骑",
+    "displayName": {
+      "zhHans": "虎骑",
+      "zhHant": "虎騎"
+    },
+    "names": [
+      "虎骑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "虎骑",
+        "zhHant": "虎騎"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "zhangling--464zhangling--1skill1_1",
+      "resourceId": "464zhangling/1skill1_1",
+      "text": "骑虎云游，探求道法。",
+      "textLocalized": {
+        "zhHans": "骑虎云游，探求道法。",
+        "zhHant": "騎虎雲遊，探求道法。"
+      },
+      "character": {
+        "slug": "zhangling",
+        "command": "zhangling",
+        "id": "464",
+        "ids": [
+          "464"
+        ],
+        "name": "张陵",
+        "displayName": {
+          "zhHans": "张陵",
+          "zhHant": "張陵"
+        },
+        "names": [
+          "张陵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "sourceIds": [
+          "464"
+        ],
+        "sourceNames": [
+          "张陵"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "searchNames": [
+          "张陵",
+          "張陵",
+          "zhangling"
+        ]
+      },
+      "group": {
+        "slug": "spell-941",
+        "ids": [
+          "941"
+        ],
+        "name": "虎骑",
+        "displayName": {
+          "zhHans": "虎骑",
+          "zhHant": "虎騎"
+        },
+        "names": [
+          "虎骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "虎骑",
+            "zhHant": "虎騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "464",
+        "skinKey": "-1",
+        "spellKey": "941",
+        "rowIndex": 1,
+        "characterNames": [
+          "张陵"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/464zhangling-d65250d0/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/464zhangling/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangling--464zhangling--1skill1_2",
+      "resourceId": "464zhangling/1skill1_2",
+      "text": "求仙长生，感悟万象。",
+      "textLocalized": {
+        "zhHans": "求仙长生，感悟万象。",
+        "zhHant": "求仙長生，感悟萬象。"
+      },
+      "character": {
+        "slug": "zhangling",
+        "command": "zhangling",
+        "id": "464",
+        "ids": [
+          "464"
+        ],
+        "name": "张陵",
+        "displayName": {
+          "zhHans": "张陵",
+          "zhHant": "張陵"
+        },
+        "names": [
+          "张陵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "sourceIds": [
+          "464"
+        ],
+        "sourceNames": [
+          "张陵"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "searchNames": [
+          "张陵",
+          "張陵",
+          "zhangling"
+        ]
+      },
+      "group": {
+        "slug": "spell-941",
+        "ids": [
+          "941"
+        ],
+        "name": "虎骑",
+        "displayName": {
+          "zhHans": "虎骑",
+          "zhHant": "虎騎"
+        },
+        "names": [
+          "虎骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "虎骑",
+            "zhHant": "虎騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "464",
+        "skinKey": "-1",
+        "spellKey": "941",
+        "rowIndex": 2,
+        "characterNames": [
+          "张陵"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/464zhangling-d65250d0/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/464zhangling/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangling--464zhangling--3skill1_1",
+      "resourceId": "464zhangling/3skill1_1",
+      "text": "丹成之日，万兽来贺。",
+      "textLocalized": {
+        "zhHans": "丹成之日，万兽来贺。",
+        "zhHant": "丹成之日，萬獸來賀。"
+      },
+      "character": {
+        "slug": "zhangling",
+        "command": "zhangling",
+        "id": "464",
+        "ids": [
+          "464"
+        ],
+        "name": "张陵",
+        "displayName": {
+          "zhHans": "张陵",
+          "zhHant": "張陵"
+        },
+        "names": [
+          "张陵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "sourceIds": [
+          "464"
+        ],
+        "sourceNames": [
+          "张陵"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "searchNames": [
+          "张陵",
+          "張陵",
+          "zhangling"
+        ]
+      },
+      "group": {
+        "slug": "spell-941",
+        "ids": [
+          "941"
+        ],
+        "name": "虎骑",
+        "displayName": {
+          "zhHans": "虎骑",
+          "zhHant": "虎騎"
+        },
+        "names": [
+          "虎骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "虎骑",
+            "zhHant": "虎騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-46402",
+        "ids": [
+          "46402"
+        ],
+        "name": "篆符敕星",
+        "displayName": {
+          "zhHans": "篆符敕星",
+          "zhHant": "篆符敕星"
+        },
+        "names": [
+          "篆符敕星"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "篆符敕星",
+            "zhHant": "篆符敕星"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-46402",
+          "id": "46402",
+          "ids": [
+            "46402"
+          ],
+          "name": "篆符敕星",
+          "displayName": {
+            "zhHans": "篆符敕星",
+            "zhHant": "篆符敕星"
+          },
+          "names": [
+            "篆符敕星"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "篆符敕星",
+              "zhHant": "篆符敕星"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "464",
+        "skinKey": "46402",
+        "spellKey": "941",
+        "rowIndex": 1,
+        "characterNames": [
+          "张陵"
+        ],
+        "skinNames": [
+          "篆符敕星"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/464zhangling-d65250d0/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/464zhangling/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangling--464zhangling--3skill1_2",
+      "resourceId": "464zhangling/3skill1_2",
+      "text": "清风绕绛[jiàng]坛，龙虎自天降。",
+      "textLocalized": {
+        "zhHans": "清风绕绛[jiàng]坛，龙虎自天降。",
+        "zhHant": "清風繞絳[jiàng]壇，龍虎自天降。"
+      },
+      "character": {
+        "slug": "zhangling",
+        "command": "zhangling",
+        "id": "464",
+        "ids": [
+          "464"
+        ],
+        "name": "张陵",
+        "displayName": {
+          "zhHans": "张陵",
+          "zhHant": "張陵"
+        },
+        "names": [
+          "张陵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "sourceIds": [
+          "464"
+        ],
+        "sourceNames": [
+          "张陵"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "searchNames": [
+          "张陵",
+          "張陵",
+          "zhangling"
+        ]
+      },
+      "group": {
+        "slug": "spell-941",
+        "ids": [
+          "941"
+        ],
+        "name": "虎骑",
+        "displayName": {
+          "zhHans": "虎骑",
+          "zhHant": "虎騎"
+        },
+        "names": [
+          "虎骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "虎骑",
+            "zhHant": "虎騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-46402",
+        "ids": [
+          "46402"
+        ],
+        "name": "篆符敕星",
+        "displayName": {
+          "zhHans": "篆符敕星",
+          "zhHant": "篆符敕星"
+        },
+        "names": [
+          "篆符敕星"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "篆符敕星",
+            "zhHant": "篆符敕星"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-46402",
+          "id": "46402",
+          "ids": [
+            "46402"
+          ],
+          "name": "篆符敕星",
+          "displayName": {
+            "zhHans": "篆符敕星",
+            "zhHant": "篆符敕星"
+          },
+          "names": [
+            "篆符敕星"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "篆符敕星",
+              "zhHant": "篆符敕星"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "464",
+        "skinKey": "46402",
+        "spellKey": "941",
+        "rowIndex": 2,
+        "characterNames": [
+          "张陵"
+        ],
+        "skinNames": [
+          "篆符敕星"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/464zhangling-d65250d0/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/464zhangling/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangling--464zhangling--2skill1_1",
+      "resourceId": "464zhangling/2skill1_1",
+      "text": "老君亲传正一道，骑虎除妖护苍生。",
+      "textLocalized": {
+        "zhHans": "老君亲传正一道，骑虎除妖护苍生。",
+        "zhHant": "老君親傳正一道，騎虎除妖護蒼生。"
+      },
+      "character": {
+        "slug": "zhangling",
+        "command": "zhangling",
+        "id": "464",
+        "ids": [
+          "464"
+        ],
+        "name": "张陵",
+        "displayName": {
+          "zhHans": "张陵",
+          "zhHant": "張陵"
+        },
+        "names": [
+          "张陵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "sourceIds": [
+          "464"
+        ],
+        "sourceNames": [
+          "张陵"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "searchNames": [
+          "张陵",
+          "張陵",
+          "zhangling"
+        ]
+      },
+      "group": {
+        "slug": "spell-941",
+        "ids": [
+          "941"
+        ],
+        "name": "虎骑",
+        "displayName": {
+          "zhHans": "虎骑",
+          "zhHant": "虎騎"
+        },
+        "names": [
+          "虎骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "虎骑",
+            "zhHant": "虎騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-46401",
+        "ids": [
+          "46401"
+        ],
+        "name": "骑虎寻药",
+        "displayName": {
+          "zhHans": "骑虎寻药",
+          "zhHant": "騎虎尋藥"
+        },
+        "names": [
+          "骑虎寻药"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骑虎寻药",
+            "zhHant": "騎虎尋藥"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-46401",
+          "id": "46401",
+          "ids": [
+            "46401"
+          ],
+          "name": "骑虎寻药",
+          "displayName": {
+            "zhHans": "骑虎寻药",
+            "zhHant": "騎虎尋藥"
+          },
+          "names": [
+            "骑虎寻药"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "骑虎寻药",
+              "zhHant": "騎虎尋藥"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "464",
+        "skinKey": "46401",
+        "spellKey": "941",
+        "rowIndex": 1,
+        "characterNames": [
+          "张陵"
+        ],
+        "skinNames": [
+          "骑虎寻药"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/464zhangling-d65250d0/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/464zhangling/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangling--464zhangling--2skill1_2",
+      "resourceId": "464zhangling/2skill1_2",
+      "text": "神丹结，龙虎现，天地惊，鬼神泣。",
+      "textLocalized": {
+        "zhHans": "神丹结，龙虎现，天地惊，鬼神泣。",
+        "zhHant": "神丹結，龍虎現，天地驚，鬼神泣。"
+      },
+      "character": {
+        "slug": "zhangling",
+        "command": "zhangling",
+        "id": "464",
+        "ids": [
+          "464"
+        ],
+        "name": "张陵",
+        "displayName": {
+          "zhHans": "张陵",
+          "zhHant": "張陵"
+        },
+        "names": [
+          "张陵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "sourceIds": [
+          "464"
+        ],
+        "sourceNames": [
+          "张陵"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张陵",
+            "zhHant": "張陵"
+          }
+        ],
+        "searchNames": [
+          "张陵",
+          "張陵",
+          "zhangling"
+        ]
+      },
+      "group": {
+        "slug": "spell-941",
+        "ids": [
+          "941"
+        ],
+        "name": "虎骑",
+        "displayName": {
+          "zhHans": "虎骑",
+          "zhHant": "虎騎"
+        },
+        "names": [
+          "虎骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "虎骑",
+            "zhHant": "虎騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-46401",
+        "ids": [
+          "46401"
+        ],
+        "name": "骑虎寻药",
+        "displayName": {
+          "zhHans": "骑虎寻药",
+          "zhHant": "騎虎尋藥"
+        },
+        "names": [
+          "骑虎寻药"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骑虎寻药",
+            "zhHant": "騎虎尋藥"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-46401",
+          "id": "46401",
+          "ids": [
+            "46401"
+          ],
+          "name": "骑虎寻药",
+          "displayName": {
+            "zhHans": "骑虎寻药",
+            "zhHant": "騎虎尋藥"
+          },
+          "names": [
+            "骑虎寻药"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "骑虎寻药",
+              "zhHant": "騎虎尋藥"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "464",
+        "skinKey": "46401",
+        "spellKey": "941",
+        "rowIndex": 2,
+        "characterNames": [
+          "张陵"
+        ],
+        "skinNames": [
+          "骑虎寻药"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/464zhangling-d65250d0/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/464zhangling/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

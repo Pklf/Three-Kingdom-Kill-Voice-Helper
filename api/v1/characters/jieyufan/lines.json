@@ -1,3 +1,756 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:468f6489568bc9da3cfb4b665382b041cefb6a78ad6d55a864449553797d85f5
-size 17317
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jieyufan",
+    "command": "jieyufan",
+    "name": "界虞翻",
+    "displayName": {
+      "zhHans": "界虞翻",
+      "zhHant": "界虞翻"
+    },
+    "names": [
+      "界虞翻"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界虞翻",
+        "zhHant": "界虞翻"
+      }
+    ],
+    "ids": [
+      "603"
+    ],
+    "sourceNames": [
+      "界虞翻"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界虞翻",
+        "zhHant": "界虞翻"
+      }
+    ],
+    "sourceIds": [
+      "603"
+    ],
+    "searchNames": [
+      "jieyufan",
+      "界虞翻"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-3421",
+        "name": "纵玄",
+        "displayName": {
+          "zhHans": "纵玄",
+          "zhHant": "縱玄"
+        },
+        "ids": [
+          "3421"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-3422",
+        "name": "直言",
+        "displayName": {
+          "zhHans": "直言",
+          "zhHant": "直言"
+        },
+        "ids": [
+          "3422"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/jieyufan.json",
+      "lines": "api/v1/characters/jieyufan/lines.json"
+    }
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jieyufan--603jieyufan--1dead01",
+      "resourceId": "603jieyufan/1dead01",
+      "text": "彼皆死人，何语神仙？",
+      "textLocalized": {
+        "zhHans": "彼皆死人，何语神仙？",
+        "zhHant": "彼皆死人，何語神仙？"
+      },
+      "character": {
+        "slug": "jieyufan",
+        "command": "jieyufan",
+        "id": "603",
+        "ids": [
+          "603"
+        ],
+        "name": "界虞翻",
+        "displayName": {
+          "zhHans": "界虞翻",
+          "zhHant": "界虞翻"
+        },
+        "names": [
+          "界虞翻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "sourceIds": [
+          "603"
+        ],
+        "sourceNames": [
+          "界虞翻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "searchNames": [
+          "界虞翻",
+          "jieyufan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "603",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "界虞翻"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/603jieyufan-0443f3eb/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/603jieyufan/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jieyufan--603jieyufan--1skill1_1",
+      "resourceId": "603jieyufan/1skill1_1",
+      "text": "易字从日下月，此乃自然之理。",
+      "textLocalized": {
+        "zhHans": "易字从日下月，此乃自然之理。",
+        "zhHant": "易字從日下月，此乃自然之理。"
+      },
+      "character": {
+        "slug": "jieyufan",
+        "command": "jieyufan",
+        "id": "603",
+        "ids": [
+          "603"
+        ],
+        "name": "界虞翻",
+        "displayName": {
+          "zhHans": "界虞翻",
+          "zhHant": "界虞翻"
+        },
+        "names": [
+          "界虞翻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "sourceIds": [
+          "603"
+        ],
+        "sourceNames": [
+          "界虞翻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "searchNames": [
+          "界虞翻",
+          "jieyufan"
+        ]
+      },
+      "group": {
+        "slug": "spell-3421",
+        "ids": [
+          "3421"
+        ],
+        "name": "纵玄",
+        "displayName": {
+          "zhHans": "纵玄",
+          "zhHant": "縱玄"
+        },
+        "names": [
+          "纵玄"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "纵玄",
+            "zhHant": "縱玄"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "603",
+        "skinKey": "-1",
+        "spellKey": "3421",
+        "rowIndex": 1,
+        "characterNames": [
+          "界虞翻"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/603jieyufan-0443f3eb/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/603jieyufan/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jieyufan--603jieyufan--1skill1_2",
+      "resourceId": "603jieyufan/1skill1_2",
+      "text": "笔著太玄十四卷，继往圣之学。",
+      "textLocalized": {
+        "zhHans": "笔著太玄十四卷，继往圣之学。",
+        "zhHant": "筆著太玄十四卷，繼往聖之學。"
+      },
+      "character": {
+        "slug": "jieyufan",
+        "command": "jieyufan",
+        "id": "603",
+        "ids": [
+          "603"
+        ],
+        "name": "界虞翻",
+        "displayName": {
+          "zhHans": "界虞翻",
+          "zhHant": "界虞翻"
+        },
+        "names": [
+          "界虞翻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "sourceIds": [
+          "603"
+        ],
+        "sourceNames": [
+          "界虞翻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "searchNames": [
+          "界虞翻",
+          "jieyufan"
+        ]
+      },
+      "group": {
+        "slug": "spell-3421",
+        "ids": [
+          "3421"
+        ],
+        "name": "纵玄",
+        "displayName": {
+          "zhHans": "纵玄",
+          "zhHant": "縱玄"
+        },
+        "names": [
+          "纵玄"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "纵玄",
+            "zhHant": "縱玄"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "603",
+        "skinKey": "-1",
+        "spellKey": "3421",
+        "rowIndex": 2,
+        "characterNames": [
+          "界虞翻"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/603jieyufan-0443f3eb/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/603jieyufan/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jieyufan--603jieyufan--1skill2_1",
+      "resourceId": "603jieyufan/1skill2_1",
+      "text": "尔降虏，何敢与吾君齐马首乎！",
+      "textLocalized": {
+        "zhHans": "尔降虏，何敢与吾君齐马首乎！",
+        "zhHant": "爾降虜，何敢與吾君齊馬首乎！"
+      },
+      "character": {
+        "slug": "jieyufan",
+        "command": "jieyufan",
+        "id": "603",
+        "ids": [
+          "603"
+        ],
+        "name": "界虞翻",
+        "displayName": {
+          "zhHans": "界虞翻",
+          "zhHant": "界虞翻"
+        },
+        "names": [
+          "界虞翻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "sourceIds": [
+          "603"
+        ],
+        "sourceNames": [
+          "界虞翻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "searchNames": [
+          "界虞翻",
+          "jieyufan"
+        ]
+      },
+      "group": {
+        "slug": "spell-3422",
+        "ids": [
+          "3422"
+        ],
+        "name": "直言",
+        "displayName": {
+          "zhHans": "直言",
+          "zhHant": "直言"
+        },
+        "names": [
+          "直言"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "直言",
+            "zhHant": "直言"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "603",
+        "skinKey": "-1",
+        "spellKey": "3422",
+        "rowIndex": 1,
+        "characterNames": [
+          "界虞翻"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/603jieyufan-0443f3eb/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/603jieyufan/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jieyufan--603jieyufan--1skill2_2",
+      "resourceId": "603jieyufan/1skill2_2",
+      "text": "当闭反开，当开反闭，匹夫何故反复？",
+      "textLocalized": {
+        "zhHans": "当闭反开，当开反闭，匹夫何故反复？",
+        "zhHant": "當閉反開，當開反閉，匹夫何故反覆？"
+      },
+      "character": {
+        "slug": "jieyufan",
+        "command": "jieyufan",
+        "id": "603",
+        "ids": [
+          "603"
+        ],
+        "name": "界虞翻",
+        "displayName": {
+          "zhHans": "界虞翻",
+          "zhHant": "界虞翻"
+        },
+        "names": [
+          "界虞翻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "sourceIds": [
+          "603"
+        ],
+        "sourceNames": [
+          "界虞翻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界虞翻",
+            "zhHant": "界虞翻"
+          }
+        ],
+        "searchNames": [
+          "界虞翻",
+          "jieyufan"
+        ]
+      },
+      "group": {
+        "slug": "spell-3422",
+        "ids": [
+          "3422"
+        ],
+        "name": "直言",
+        "displayName": {
+          "zhHans": "直言",
+          "zhHant": "直言"
+        },
+        "names": [
+          "直言"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "直言",
+            "zhHant": "直言"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "603",
+        "skinKey": "-1",
+        "spellKey": "3422",
+        "rowIndex": 2,
+        "characterNames": [
+          "界虞翻"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/603jieyufan-0443f3eb/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/603jieyufan/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

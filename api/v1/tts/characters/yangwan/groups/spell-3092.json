@@ -1,3 +1,441 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:91633d725878e8159ad63ed2bd712c39e57731d98ddd82c5eb5293526a7762b6
-size 12225
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangwan",
+    "command": "yangwan",
+    "name": "杨婉",
+    "displayName": {
+      "zhHans": "杨婉",
+      "zhHant": "楊婉"
+    },
+    "names": [
+      "杨婉"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨婉",
+        "zhHant": "楊婉"
+      }
+    ],
+    "ids": [
+      "499"
+    ],
+    "sourceNames": [
+      "杨婉"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨婉",
+        "zhHant": "楊婉"
+      }
+    ],
+    "sourceIds": [
+      "499"
+    ],
+    "searchNames": [
+      "yangwan",
+      "杨婉",
+      "楊婉"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yangwan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangwan/groups/spell-3091.json"
+      },
+      {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangwan/groups/spell-3092.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "49904",
+        "name": "49904",
+        "displayName": {
+          "zhHans": "49904",
+          "zhHant": "49904"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/49904.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49902",
+        "name": "新桃迎卯",
+        "displayName": {
+          "zhHans": "新桃迎卯",
+          "zhHant": "新桃迎卯"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/skin-49902.json"
+      },
+      {
+        "slug": "skin-49901",
+        "name": "星光淑婉",
+        "displayName": {
+          "zhHans": "星光淑婉",
+          "zhHant": "星光淑婉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/skin-49901.json"
+      },
+      {
+        "slug": "skin-49903",
+        "name": "梦牧敕勒",
+        "displayName": {
+          "zhHans": "梦牧敕勒",
+          "zhHant": "夢牧敕勒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/skin-49903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yangwan.json",
+      "groups": "api/v1/tts/characters/yangwan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yangwan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3092",
+    "name": "追还",
+    "displayName": {
+      "zhHans": "追还",
+      "zhHant": "追還"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/yangwan/groups/spell-3092.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "yangwan--499yangwan--1skill2_1",
+      "resourceId": "499yangwan/1skill2_1",
+      "text": "追而还击，皆为因果。",
+      "textLocalized": {
+        "zhHans": "追而还击，皆为因果。",
+        "zhHant": "追而還擊，皆爲因果。"
+      },
+      "group": {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--1skill2_2",
+      "resourceId": "499yangwan/1skill2_2",
+      "text": "伤人者，追而还之。",
+      "textLocalized": {
+        "zhHans": "伤人者，追而还之。",
+        "zhHant": "傷人者，追而還之。"
+      },
+      "group": {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--3skill2_1",
+      "resourceId": "499yangwan/3skill2_1",
+      "text": "云灿星辉皆是瑞，此间妆色最宜春。",
+      "textLocalized": {
+        "zhHans": "云灿星辉皆是瑞，此间妆色最宜春。",
+        "zhHant": "雲燦星輝皆是瑞，此間妝色最宜春。"
+      },
+      "group": {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49902",
+          "name": "新桃迎卯",
+          "displayName": {
+            "zhHans": "新桃迎卯",
+            "zhHant": "新桃迎卯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--3skill2_2",
+      "resourceId": "499yangwan/3skill2_2",
+      "text": "捷报随雪飞梅上，蹄花染香到春头。",
+      "textLocalized": {
+        "zhHans": "捷报随雪飞梅上，蹄花染香到春头。",
+        "zhHant": "捷報隨雪飛梅上，蹄花染香到春頭。"
+      },
+      "group": {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49902",
+          "name": "新桃迎卯",
+          "displayName": {
+            "zhHans": "新桃迎卯",
+            "zhHant": "新桃迎卯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--2skill2_1",
+      "resourceId": "499yangwan/2skill2_1",
+      "text": "伤人者刑，此所以禁伤也。",
+      "textLocalized": {
+        "zhHans": "伤人者刑，此所以禁伤也。",
+        "zhHant": "傷人者刑，此所以禁傷也。"
+      },
+      "group": {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        }
+      },
+      "skins": [
+        {
+          "slug": "49904",
+          "name": "49904",
+          "displayName": {
+            "zhHans": "49904",
+            "zhHant": "49904"
+          }
+        },
+        {
+          "slug": "skin-49901",
+          "name": "星光淑婉",
+          "displayName": {
+            "zhHans": "星光淑婉",
+            "zhHant": "星光淑婉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--2skill2_2",
+      "resourceId": "499yangwan/2skill2_2",
+      "text": "追还贼子，天下之义也。",
+      "textLocalized": {
+        "zhHans": "追还贼子，天下之义也。",
+        "zhHant": "追還賊子，天下之義也。"
+      },
+      "group": {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        }
+      },
+      "skins": [
+        {
+          "slug": "49904",
+          "name": "49904",
+          "displayName": {
+            "zhHans": "49904",
+            "zhHant": "49904"
+          }
+        },
+        {
+          "slug": "skin-49901",
+          "name": "星光淑婉",
+          "displayName": {
+            "zhHans": "星光淑婉",
+            "zhHant": "星光淑婉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--4skill2_1",
+      "resourceId": "499yangwan/4skill2_1",
+      "text": "被伤者，应行追还。",
+      "textLocalized": {
+        "zhHans": "被伤者，应行追还。",
+        "zhHant": "被傷者，應行追還。"
+      },
+      "group": {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49903",
+          "name": "梦牧敕勒",
+          "displayName": {
+            "zhHans": "梦牧敕勒",
+            "zhHant": "夢牧敕勒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--4skill2_2",
+      "resourceId": "499yangwan/4skill2_2",
+      "text": "行不义之举，众叛而亲离！",
+      "textLocalized": {
+        "zhHans": "行不义之举，众叛而亲离！",
+        "zhHant": "行不義之舉，衆叛而親離！"
+      },
+      "group": {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49903",
+          "name": "梦牧敕勒",
+          "displayName": {
+            "zhHans": "梦牧敕勒",
+            "zhHant": "夢牧敕勒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,456 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8dec9c0466756cd84d7d881c804d02b895ad91062f3ec7e172dc986a150f40a5
-size 12863
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "lukai",
+    "command": "lukai",
+    "name": "陆凯",
+    "displayName": {
+      "zhHans": "陆凯",
+      "zhHant": "陸凱"
+    },
+    "names": [
+      "陆凯"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陆凯",
+        "zhHant": "陸凱"
+      }
+    ],
+    "ids": [
+      "590"
+    ],
+    "sourceNames": [
+      "陆凯"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陆凯",
+        "zhHant": "陸凱"
+      }
+    ],
+    "sourceIds": [
+      "590"
+    ],
+    "searchNames": [
+      "lukai",
+      "陆凯",
+      "陸凱"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lukai/groups/dead.json"
+      },
+      {
+        "slug": "spell-3399",
+        "name": "玄注",
+        "displayName": {
+          "zhHans": "玄注",
+          "zhHant": "玄注"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lukai/groups/spell-3399.json"
+      },
+      {
+        "slug": "spell-3400",
+        "name": "謇谔",
+        "displayName": {
+          "zhHans": "謇谔",
+          "zhHant": "謇諤"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lukai/groups/spell-3400.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-59001",
+        "name": "刚言直谏",
+        "displayName": {
+          "zhHans": "刚言直谏",
+          "zhHant": "剛言直諫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lukai/skins/skin-59001.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lukai/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lukai.json",
+      "groups": "api/v1/tts/characters/lukai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lukai/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "lukai--590lukai--2dead01",
+      "resourceId": "590lukai/2dead01",
+      "text": "愿陛下重留神思，臣去也。",
+      "textLocalized": {
+        "zhHans": "愿陛下重留神思，臣去也。",
+        "zhHant": "願陛下重留神思，臣去也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59001",
+          "name": "刚言直谏",
+          "displayName": {
+            "zhHans": "刚言直谏",
+            "zhHant": "剛言直諫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--1dead01",
+      "resourceId": "590lukai/1dead01",
+      "text": "注经之人，终寄身于土。",
+      "textLocalized": {
+        "zhHans": "注经之人，终寄身于土。",
+        "zhHant": "注經之人，終寄身於土。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--2skill1_1",
+      "resourceId": "590lukai/2skill1_1",
+      "text": "数言注经书，以启后来之良才。",
+      "textLocalized": {
+        "zhHans": "数言注经书，以启后来之良才。",
+        "zhHant": "數言注經書，以啓後來之良才。"
+      },
+      "group": {
+        "slug": "spell-3399",
+        "name": "玄注",
+        "displayName": {
+          "zhHans": "玄注",
+          "zhHant": "玄注"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59001",
+          "name": "刚言直谏",
+          "displayName": {
+            "zhHans": "刚言直谏",
+            "zhHant": "剛言直諫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--2skill1_2",
+      "resourceId": "590lukai/2skill1_2",
+      "text": "胸意抒太玄，书中自有锦绣。",
+      "textLocalized": {
+        "zhHans": "胸意抒太玄，书中自有锦绣。",
+        "zhHant": "胸意抒太玄，書中自有錦繡。"
+      },
+      "group": {
+        "slug": "spell-3399",
+        "name": "玄注",
+        "displayName": {
+          "zhHans": "玄注",
+          "zhHant": "玄注"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59001",
+          "name": "刚言直谏",
+          "displayName": {
+            "zhHans": "刚言直谏",
+            "zhHant": "剛言直諫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--1skill1_1",
+      "resourceId": "590lukai/1skill1_1",
+      "text": "提笔注太玄，佐国定江山。",
+      "textLocalized": {
+        "zhHans": "提笔注太玄，佐国定江山。",
+        "zhHant": "提筆注太玄，佐國定江山。"
+      },
+      "group": {
+        "slug": "spell-3399",
+        "name": "玄注",
+        "displayName": {
+          "zhHans": "玄注",
+          "zhHant": "玄注"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--1skill1_2",
+      "resourceId": "590lukai/1skill1_2",
+      "text": "总太玄之要，纵弼国之实。",
+      "textLocalized": {
+        "zhHans": "总太玄之要，纵弼国之实。",
+        "zhHant": "總太玄之要，縱弼國之實。"
+      },
+      "group": {
+        "slug": "spell-3399",
+        "name": "玄注",
+        "displayName": {
+          "zhHans": "玄注",
+          "zhHant": "玄注"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--2skill2_1",
+      "resourceId": "590lukai/2skill2_1",
+      "text": "臣闻有道之君，其以乐（le）乐（yue）民而不乐（yue）己。",
+      "textLocalized": {
+        "zhHans": "臣闻有道之君，其以乐（le）乐（yue）民而不乐（yue）己。",
+        "zhHant": "臣聞有道之君，其以樂（le）樂（yue）民而不樂（yue）己。"
+      },
+      "group": {
+        "slug": "spell-3400",
+        "name": "謇谔",
+        "displayName": {
+          "zhHans": "謇谔",
+          "zhHant": "謇諤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59001",
+          "name": "刚言直谏",
+          "displayName": {
+            "zhHans": "刚言直谏",
+            "zhHant": "剛言直諫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--2skill2_2",
+      "resourceId": "590lukai/2skill2_2",
+      "text": "君有不明之态，必遭无妄之祸。",
+      "textLocalized": {
+        "zhHans": "君有不明之态，必遭无妄之祸。",
+        "zhHant": "君有不明之態，必遭無妄之禍。"
+      },
+      "group": {
+        "slug": "spell-3400",
+        "name": "謇谔",
+        "displayName": {
+          "zhHans": "謇谔",
+          "zhHant": "謇諤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59001",
+          "name": "刚言直谏",
+          "displayName": {
+            "zhHans": "刚言直谏",
+            "zhHant": "剛言直諫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--1skill2_1",
+      "resourceId": "590lukai/1skill2_1",
+      "text": "臣者，未死于战，则死于谏。",
+      "textLocalized": {
+        "zhHans": "臣者，未死于战，则死于谏。",
+        "zhHant": "臣者，未死於戰，則死於諫。"
+      },
+      "group": {
+        "slug": "spell-3400",
+        "name": "謇谔",
+        "displayName": {
+          "zhHans": "謇谔",
+          "zhHant": "謇諤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--1skill2_2",
+      "resourceId": "590lukai/1skill2_2",
+      "text": "君有弊，坐视之辈甚于外贼。",
+      "textLocalized": {
+        "zhHans": "君有弊，坐视之辈甚于外贼。",
+        "zhHant": "君有弊，坐視之輩甚於外賊。"
+      },
+      "group": {
+        "slug": "spell-3400",
+        "name": "謇谔",
+        "displayName": {
+          "zhHans": "謇谔",
+          "zhHant": "謇諤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

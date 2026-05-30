@@ -1,3 +1,309 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6acd2f0ef4899a7c1f88bc6080669ca4b10d5265604415612ef81885f6319101
-size 8454
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liwan",
+    "command": "liwan",
+    "name": "李婉",
+    "displayName": {
+      "zhHans": "李婉",
+      "zhHant": "李婉"
+    },
+    "names": [
+      "李婉"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李婉",
+        "zhHant": "李婉"
+      }
+    ],
+    "ids": [
+      "577"
+    ],
+    "sourceNames": [
+      "李婉"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李婉",
+        "zhHant": "李婉"
+      }
+    ],
+    "sourceIds": [
+      "577"
+    ],
+    "searchNames": [
+      "liwan",
+      "李婉"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liwan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liwan/groups/spell-3511.json"
+      },
+      {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liwan/groups/spell-3512.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "57701",
+        "name": "57701",
+        "displayName": {
+          "zhHans": "57701",
+          "zhHant": "57701"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liwan/skins/57701.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liwan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-57702",
+        "name": "沐风婉转",
+        "displayName": {
+          "zhHans": "沐风婉转",
+          "zhHant": "沐風婉轉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liwan/skins/skin-57702.json"
+      },
+      {
+        "slug": "skin-57703",
+        "name": "闲暇作赋",
+        "displayName": {
+          "zhHans": "闲暇作赋",
+          "zhHant": "閒暇作賦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liwan/skins/skin-57703.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liwan.json",
+      "groups": "api/v1/tts/characters/liwan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liwan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "57701",
+    "name": "57701",
+    "displayName": {
+      "zhHans": "57701",
+      "zhHant": "57701"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/liwan/skins/57701.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "liwan--577liwan--2dead01",
+      "resourceId": "577liwan/2dead01",
+      "text": "人生寥寥几十秋，何妨一醉。",
+      "textLocalized": {
+        "zhHans": "人生寥寥几十秋，何妨一醉。",
+        "zhHant": "人生寥寥幾十秋，何妨一醉。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--2skill1_1",
+      "resourceId": "577liwan/2skill1_1",
+      "text": "佳节岁好，与君奉酒，共歌千里之婵娟。",
+      "textLocalized": {
+        "zhHans": "佳节岁好，与君奉酒，共歌千里之婵娟。",
+        "zhHant": "佳節歲好，與君奉酒，共歌千里之嬋娟。"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--2skill1_2",
+      "resourceId": "577liwan/2skill1_2",
+      "text": "旧年换新符，当窗贴花黄，话经年晴圆。",
+      "textLocalized": {
+        "zhHans": "旧年换新符，当窗贴花黄，话经年晴圆。",
+        "zhHant": "舊年換新符，當窗貼花黃，話經年晴圓。"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--2skill2_1",
+      "resourceId": "577liwan/2skill2_1",
+      "text": "彼夜思，此夜思，星雨入梦，东风花千树。",
+      "textLocalized": {
+        "zhHans": "彼夜思，此夜思，星雨入梦，东风花千树。",
+        "zhHant": "彼夜思，此夜思，星雨入夢，東風花千樹。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--2skill2_2",
+      "resourceId": "577liwan/2skill2_2",
+      "text": "玉案白觞，清酒珍馐，一杯相思敬与君。",
+      "textLocalized": {
+        "zhHans": "玉案白觞，清酒珍馐，一杯相思敬与君。",
+        "zhHant": "玉案白觴，清酒珍饈，一杯相思敬與君。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

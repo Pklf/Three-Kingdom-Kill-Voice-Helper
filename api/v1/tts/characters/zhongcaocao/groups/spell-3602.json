@@ -1,3 +1,184 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:869cd3d7326054f2fa532d47c02fdadd6fb2aa905c11438e316a52e5c91aa3ec
-size 4876
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhongcaocao",
+    "command": "zhongcaocao",
+    "name": "忠曹操",
+    "displayName": {
+      "zhHans": "忠曹操",
+      "zhHant": "忠曹操"
+    },
+    "names": [
+      "忠曹操"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "忠曹操",
+        "zhHant": "忠曹操"
+      }
+    ],
+    "ids": [
+      "6666"
+    ],
+    "sourceNames": [
+      "忠曹操"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "忠曹操",
+        "zhHant": "忠曹操"
+      }
+    ],
+    "sourceIds": [
+      "6666"
+    ],
+    "searchNames": [
+      "zhongcaocao",
+      "忠曹操"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3601",
+        "name": "定西",
+        "displayName": {
+          "zhHans": "定西",
+          "zhHant": "定西"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3601.json"
+      },
+      {
+        "slug": "spell-3602",
+        "name": "能臣",
+        "displayName": {
+          "zhHans": "能臣",
+          "zhHant": "能臣"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3602.json"
+      },
+      {
+        "slug": "spell-3603",
+        "name": "祸结",
+        "displayName": {
+          "zhHans": "祸结",
+          "zhHant": "禍結"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3603.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhongcaocao.json",
+      "groups": "api/v1/tts/characters/zhongcaocao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhongcaocao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3602",
+    "name": "能臣",
+    "displayName": {
+      "zhHans": "能臣",
+      "zhHant": "能臣"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3602.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zhongcaocao--6666zhongcaocao--1skill2_1",
+      "resourceId": "6666zhongcaocao/1skill2_1",
+      "text": "当今四海升平，可为治世之能臣。",
+      "textLocalized": {
+        "zhHans": "当今四海升平，可为治世之能臣。",
+        "zhHant": "當今四海昇平，可爲治世之能臣。"
+      },
+      "group": {
+        "slug": "spell-3602",
+        "name": "能臣",
+        "displayName": {
+          "zhHans": "能臣",
+          "zhHant": "能臣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/6666zhongcaocao-70e9bae0/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/6666zhongcaocao/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongcaocao--6666zhongcaocao--1skill2_2",
+      "resourceId": "6666zhongcaocao/1skill2_2",
+      "text": "为大汉江山鞠躬尽瘁，臣死犹生。",
+      "textLocalized": {
+        "zhHans": "为大汉江山鞠躬尽瘁，臣死犹生。",
+        "zhHant": "爲大漢江山鞠躬盡瘁，臣死猶生。"
+      },
+      "group": {
+        "slug": "spell-3602",
+        "name": "能臣",
+        "displayName": {
+          "zhHans": "能臣",
+          "zhHant": "能臣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/6666zhongcaocao-70e9bae0/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/6666zhongcaocao/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

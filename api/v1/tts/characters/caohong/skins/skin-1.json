@@ -1,3 +1,261 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9255de6b36bfa8d00175fe39ae23a6663aa8fa237c21ac062ce5f2077a951a5d
-size 6913
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caohong",
+    "command": "caohong",
+    "name": "曹洪",
+    "displayName": {
+      "zhHans": "曹洪",
+      "zhHant": "曹洪"
+    },
+    "names": [
+      "曹洪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹洪",
+        "zhHant": "曹洪"
+      }
+    ],
+    "ids": [
+      "114",
+      "2073"
+    ],
+    "sourceNames": [
+      "曹洪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹洪",
+        "zhHant": "曹洪"
+      }
+    ],
+    "sourceIds": [
+      "114",
+      "2073"
+    ],
+    "searchNames": [
+      "caohong",
+      "曹洪"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/groups/dead.json"
+      },
+      {
+        "slug": "spell-2136",
+        "name": "护援",
+        "displayName": {
+          "zhHans": "护援",
+          "zhHant": "護援"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caohong/groups/spell-2136.json"
+      },
+      {
+        "slug": "spell-214",
+        "name": "援护",
+        "displayName": {
+          "zhHans": "援护",
+          "zhHant": "援護"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caohong/groups/spell-214.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-11404",
+        "name": "奇策将出",
+        "displayName": {
+          "zhHans": "奇策将出",
+          "zhHant": "奇策將出"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11404.json"
+      },
+      {
+        "slug": "skin-11402",
+        "name": "忠驱护主",
+        "displayName": {
+          "zhHans": "忠驱护主",
+          "zhHant": "忠驅護主"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11402.json"
+      },
+      {
+        "slug": "skin-11402-11403",
+        "name": "忠驱护主,献马救主",
+        "displayName": {
+          "zhHans": "忠驱护主,献马救主",
+          "zhHant": "忠驅護主,獻馬救主"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11402-11403.json"
+      },
+      {
+        "slug": "skin-11403",
+        "name": "献马救主",
+        "displayName": {
+          "zhHans": "献马救主",
+          "zhHant": "獻馬救主"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11403.json"
+      },
+      {
+        "slug": "skin-11405",
+        "name": "疾驰救援",
+        "displayName": {
+          "zhHans": "疾驰救援",
+          "zhHant": "疾馳救援"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11405.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caohong.json",
+      "groups": "api/v1/tts/characters/caohong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caohong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/caohong/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "caohong--114caohong--1dead01",
+      "resourceId": "114caohong/1dead01",
+      "text": "福兮祸所伏。",
+      "textLocalized": {
+        "zhHans": "福兮祸所伏。",
+        "zhHant": "福兮禍所伏。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/114caohong-06110f6e/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/114caohong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caohong--114caohong--1skill1_1",
+      "resourceId": "114caohong/1skill1_1",
+      "text": "将军，这件兵器可还趁手？",
+      "textLocalized": {
+        "zhHans": "将军，这件兵器可还趁手？",
+        "zhHant": "將軍，這件兵器可還趁手？"
+      },
+      "group": {
+        "slug": "spell-214",
+        "name": "援护",
+        "displayName": {
+          "zhHans": "援护",
+          "zhHant": "援護"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/114caohong-06110f6e/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/114caohong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caohong--114caohong--1skill1_2",
+      "resourceId": "114caohong/1skill1_2",
+      "text": "刀剑无眼，需得小心防护。",
+      "textLocalized": {
+        "zhHans": "刀剑无眼，需得小心防护。",
+        "zhHant": "刀劍無眼，需得小心防護。"
+      },
+      "group": {
+        "slug": "spell-214",
+        "name": "援护",
+        "displayName": {
+          "zhHans": "援护",
+          "zhHant": "援護"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/114caohong-06110f6e/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/114caohong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

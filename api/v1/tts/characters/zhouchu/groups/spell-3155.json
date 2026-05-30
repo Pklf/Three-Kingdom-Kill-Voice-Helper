@@ -1,3 +1,555 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7749a9689f7300fee3125fd060212fd1368bec6a25c92f6eb66825d3e9657bf0
-size 16063
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhouchu",
+    "command": "zhouchu",
+    "name": "周处",
+    "displayName": {
+      "zhHans": "周处",
+      "zhHant": "周處"
+    },
+    "names": [
+      "周处"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周处",
+        "zhHant": "周處"
+      }
+    ],
+    "ids": [
+      "518"
+    ],
+    "sourceNames": [
+      "周处"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周处",
+        "zhHant": "周處"
+      }
+    ],
+    "sourceIds": [
+      "518"
+    ],
+    "searchNames": [
+      "zhouchu",
+      "周处",
+      "周處"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhouchu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3154",
+        "name": "善断",
+        "displayName": {
+          "zhHans": "善断",
+          "zhHant": "善斷"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/zhouchu/groups/spell-3154.json"
+      },
+      {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/zhouchu/groups/spell-3155.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-51803",
+        "name": "义除三害",
+        "displayName": {
+          "zhHans": "义除三害",
+          "zhHant": "義除三害"
+        },
+        "lineCount": 15,
+        "endpoint": "api/v1/tts/characters/zhouchu/skins/skin-51803.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouchu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51802",
+        "name": "擎苍寻猎",
+        "displayName": {
+          "zhHans": "擎苍寻猎",
+          "zhHant": "擎蒼尋獵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouchu/skins/skin-51802.json"
+      },
+      {
+        "slug": "skin-51801",
+        "name": "翻浪搏蛟",
+        "displayName": {
+          "zhHans": "翻浪搏蛟",
+          "zhHant": "翻浪搏蛟"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouchu/skins/skin-51801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhouchu.json",
+      "groups": "api/v1/tts/characters/zhouchu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhouchu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3155",
+    "name": "义烈",
+    "displayName": {
+      "zhHans": "义烈",
+      "zhHant": "義烈"
+    },
+    "lineCount": 12,
+    "endpoint": "api/v1/tts/characters/zhouchu/groups/spell-3155.json"
+  },
+  "lineCount": 12,
+  "lines": [
+    {
+      "id": "zhouchu--518zhouchu--4skill2_1",
+      "resourceId": "518zhouchu/4skill2_1",
+      "text": "向好之途多坎坷，唯不舍方可成。",
+      "textLocalized": {
+        "zhHans": "向好之途多坎坷，唯不舍方可成。",
+        "zhHant": "向好之途多坎坷，唯不捨方可成。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51803",
+          "name": "义除三害",
+          "displayName": {
+            "zhHans": "义除三害",
+            "zhHant": "義除三害"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--4skill2_2",
+      "resourceId": "518zhouchu/4skill2_2",
+      "text": "人不同于蝼蚁，可为大义而死。",
+      "textLocalized": {
+        "zhHans": "人不同于蝼蚁，可为大义而死。",
+        "zhHant": "人不同於螻蟻，可爲大義而死。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51803",
+          "name": "义除三害",
+          "displayName": {
+            "zhHans": "义除三害",
+            "zhHant": "義除三害"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--4skill2_3",
+      "resourceId": "518zhouchu/4skill2_3",
+      "text": "步坎坷而奋进，怀光明必得救赎。",
+      "textLocalized": {
+        "zhHans": "步坎坷而奋进，怀光明必得救赎。",
+        "zhHant": "步坎坷而奮進，懷光明必得救贖。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51803",
+          "name": "义除三害",
+          "displayName": {
+            "zhHans": "义除三害",
+            "zhHant": "義除三害"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/4skill2-3-c068a00c.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/4skill2_3.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--4skill2_4",
+      "resourceId": "518zhouchu/4skill2_4",
+      "text": "经年为害日久，此刻三害可除！",
+      "textLocalized": {
+        "zhHans": "经年为害日久，此刻三害可除！",
+        "zhHant": "經年爲害日久，此刻三害可除！"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51803",
+          "name": "义除三害",
+          "displayName": {
+            "zhHans": "义除三害",
+            "zhHant": "義除三害"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/4skill2-4-706b6322.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/4skill2_4.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--4skill2_5",
+      "resourceId": "518zhouchu/4skill2_5",
+      "text": "暗夜无月，亦需心向光明。",
+      "textLocalized": {
+        "zhHans": "暗夜无月，亦需心向光明。",
+        "zhHant": "暗夜無月，亦需心向光明。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51803",
+          "name": "义除三害",
+          "displayName": {
+            "zhHans": "义除三害",
+            "zhHant": "義除三害"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/4skill2-5-52fd2e72.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/4skill2_5.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--4skill2_6",
+      "resourceId": "518zhouchu/4skill2_6",
+      "text": "恶面善心，佛皮魔骨，皆在一念之间。",
+      "textLocalized": {
+        "zhHans": "恶面善心，佛皮魔骨，皆在一念之间。",
+        "zhHant": "惡面善心，佛皮魔骨，皆在一念之間。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51803",
+          "name": "义除三害",
+          "displayName": {
+            "zhHans": "义除三害",
+            "zhHant": "義除三害"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/4skill2-6-ce2de67a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/4skill2_6.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--1skill2_1",
+      "resourceId": "518zhouchu/1skill2_1",
+      "text": "从来天下义，只在青山中。",
+      "textLocalized": {
+        "zhHans": "从来天下义，只在青山中。",
+        "zhHant": "從來天下義，只在青山中。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--1skill2_2",
+      "resourceId": "518zhouchu/1skill2_2",
+      "text": "沥血染征袍，英名万古存。",
+      "textLocalized": {
+        "zhHans": "沥血染征袍，英名万古存。",
+        "zhHant": "瀝血染徵袍，英名萬古存。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--3skill2_1",
+      "resourceId": "518zhouchu/3skill2_1",
+      "text": "义烈如酒饮者醉，从此江湖无杏花。",
+      "textLocalized": {
+        "zhHans": "义烈如酒饮者醉，从此江湖无杏花。",
+        "zhHant": "義烈如酒飲者醉，從此江湖無杏花。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51802",
+          "name": "擎苍寻猎",
+          "displayName": {
+            "zhHans": "擎苍寻猎",
+            "zhHant": "擎蒼尋獵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--3skill2_2",
+      "resourceId": "518zhouchu/3skill2_2",
+      "text": "此心独慕义烈，不见姹紫嫣红！",
+      "textLocalized": {
+        "zhHans": "此心独慕义烈，不见姹紫嫣红！",
+        "zhHant": "此心獨慕義烈，不見奼紫嫣紅！"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51802",
+          "name": "擎苍寻猎",
+          "displayName": {
+            "zhHans": "擎苍寻猎",
+            "zhHant": "擎蒼尋獵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--2skill2_1",
+      "resourceId": "518zhouchu/2skill2_1",
+      "text": "振衣笑赴往烈路，濯足江河万古流。",
+      "textLocalized": {
+        "zhHans": "振衣笑赴往烈路，濯足江河万古流。",
+        "zhHant": "振衣笑赴往烈路，濯足江河萬古流。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51801",
+          "name": "翻浪搏蛟",
+          "displayName": {
+            "zhHans": "翻浪搏蛟",
+            "zhHant": "翻浪搏蛟"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouchu--518zhouchu--2skill2_2",
+      "resourceId": "518zhouchu/2skill2_2",
+      "text": "心中万般不平事，以血作酒醉平之。",
+      "textLocalized": {
+        "zhHans": "心中万般不平事，以血作酒醉平之。",
+        "zhHant": "心中萬般不平事，以血作酒醉平之。"
+      },
+      "group": {
+        "slug": "spell-3155",
+        "name": "义烈",
+        "displayName": {
+          "zhHans": "义烈",
+          "zhHant": "義烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51801",
+          "name": "翻浪搏蛟",
+          "displayName": {
+            "zhHans": "翻浪搏蛟",
+            "zhHant": "翻浪搏蛟"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/518zhouchu-d3564809/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/518zhouchu/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

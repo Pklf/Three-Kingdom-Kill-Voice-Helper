@@ -1,3 +1,1558 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d36693049e97530ae1b0c1b568f1f4f541c66ed3a783f8c807b5d1bffc97b0ba
-size 35965
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "quyi",
+    "command": "quyi",
+    "name": "麹义",
+    "displayName": {
+      "zhHans": "麹义",
+      "zhHant": "麴義"
+    },
+    "names": [
+      "麹义"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "麹义",
+        "zhHant": "麴義"
+      }
+    ],
+    "ids": [
+      "374"
+    ],
+    "sourceNames": [
+      "麹义"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "麹义",
+        "zhHant": "麴義"
+      }
+    ],
+    "sourceIds": [
+      "374"
+    ],
+    "searchNames": [
+      "quyi",
+      "麹义",
+      "麴義"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 5
+      },
+      {
+        "slug": "spell-374",
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "ids": [
+          "374"
+        ],
+        "lineCount": 10
+      },
+      {
+        "slug": "spell-375",
+        "name": "骄恣",
+        "displayName": {
+          "zhHans": "骄恣",
+          "zhHant": "驕恣"
+        },
+        "ids": [
+          "375"
+        ],
+        "lineCount": 10
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-37403",
+        "ids": [
+          "37403"
+        ],
+        "name": "勇战不羁",
+        "displayName": {
+          "zhHans": "勇战不羁",
+          "zhHant": "勇戰不羈"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-37407",
+        "ids": [
+          "37407"
+        ],
+        "name": "突阵奋威",
+        "displayName": {
+          "zhHans": "突阵奋威",
+          "zhHant": "突陣奮威"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-37406",
+        "ids": [
+          "37406"
+        ],
+        "name": "竞驹伏骊",
+        "displayName": {
+          "zhHans": "竞驹伏骊",
+          "zhHant": "競駒伏驪"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-37405",
+        "ids": [
+          "37405"
+        ],
+        "name": "能战善谋",
+        "displayName": {
+          "zhHans": "能战善谋",
+          "zhHant": "能戰善謀"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-37401",
+        "ids": [
+          "37401"
+        ],
+        "name": "连战冲阵",
+        "displayName": {
+          "zhHans": "连战冲阵",
+          "zhHant": "連戰衝陣"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/quyi.json",
+      "lines": "api/v1/characters/quyi/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-374",
+    "ids": [
+      "374"
+    ],
+    "name": "伏骑",
+    "displayName": {
+      "zhHans": "伏骑",
+      "zhHant": "伏騎"
+    },
+    "names": [
+      "伏骑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "伏骑",
+        "zhHant": "伏騎"
+      }
+    ]
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "quyi--374quyi--2skill1_1",
+      "resourceId": "374quyi/2skill1_1",
+      "text": "休走，白马之徒！",
+      "textLocalized": {
+        "zhHans": "休走，白马之徒！",
+        "zhHant": "休走，白馬之徒！"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-37403-37405",
+        "ids": [
+          "37403",
+          "37405"
+        ],
+        "name": "勇战不羁,能战善谋",
+        "displayName": {
+          "zhHans": "勇战不羁,能战善谋",
+          "zhHant": "勇戰不羈,能戰善謀"
+        },
+        "names": [
+          "勇战不羁",
+          "能战善谋"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "勇战不羁",
+            "zhHant": "勇戰不羈"
+          },
+          {
+            "zhHans": "能战善谋",
+            "zhHant": "能戰善謀"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-37403",
+          "id": "37403",
+          "ids": [
+            "37403"
+          ],
+          "name": "勇战不羁",
+          "displayName": {
+            "zhHans": "勇战不羁",
+            "zhHant": "勇戰不羈"
+          },
+          "names": [
+            "勇战不羁"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "勇战不羁",
+              "zhHant": "勇戰不羈"
+            }
+          ]
+        },
+        {
+          "slug": "skin-37405",
+          "id": "37405",
+          "ids": [
+            "37405"
+          ],
+          "name": "能战善谋",
+          "displayName": {
+            "zhHans": "能战善谋",
+            "zhHant": "能戰善謀"
+          },
+          "names": [
+            "能战善谋"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "能战善谋",
+              "zhHant": "能戰善謀"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "37403;37405",
+        "spellKey": "374",
+        "rowIndex": 1,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "勇战不羁",
+          "能战善谋"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--2skill1_2",
+      "resourceId": "374quyi/2skill1_2",
+      "text": "你已毫无退路了，哈哈哈哈！",
+      "textLocalized": {
+        "zhHans": "你已毫无退路了，哈哈哈哈！",
+        "zhHant": "你已毫無退路了，哈哈哈哈！"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-37403-37405",
+        "ids": [
+          "37403",
+          "37405"
+        ],
+        "name": "勇战不羁,能战善谋",
+        "displayName": {
+          "zhHans": "勇战不羁,能战善谋",
+          "zhHant": "勇戰不羈,能戰善謀"
+        },
+        "names": [
+          "勇战不羁",
+          "能战善谋"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "勇战不羁",
+            "zhHant": "勇戰不羈"
+          },
+          {
+            "zhHans": "能战善谋",
+            "zhHant": "能戰善謀"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-37403",
+          "id": "37403",
+          "ids": [
+            "37403"
+          ],
+          "name": "勇战不羁",
+          "displayName": {
+            "zhHans": "勇战不羁",
+            "zhHant": "勇戰不羈"
+          },
+          "names": [
+            "勇战不羁"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "勇战不羁",
+              "zhHant": "勇戰不羈"
+            }
+          ]
+        },
+        {
+          "slug": "skin-37405",
+          "id": "37405",
+          "ids": [
+            "37405"
+          ],
+          "name": "能战善谋",
+          "displayName": {
+            "zhHans": "能战善谋",
+            "zhHant": "能戰善謀"
+          },
+          "names": [
+            "能战善谋"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "能战善谋",
+              "zhHant": "能戰善謀"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "37403;37405",
+        "spellKey": "374",
+        "rowIndex": 2,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "勇战不羁",
+          "能战善谋"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--1skill1_1",
+      "resourceId": "374quyi/1skill1_1",
+      "text": "既来之，休走之！",
+      "textLocalized": {
+        "zhHans": "既来之，休走之！",
+        "zhHant": "既來之，休走之！"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "-1",
+        "spellKey": "374",
+        "rowIndex": 1,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--1skill1_2",
+      "resourceId": "374quyi/1skill1_2",
+      "text": "白马？哼！定叫他有来无回！",
+      "textLocalized": {
+        "zhHans": "白马？哼！定叫他有来无回！",
+        "zhHant": "白馬？哼！定叫他有來無回！"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "-1",
+        "spellKey": "374",
+        "rowIndex": 2,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--5skill1_1",
+      "resourceId": "374quyi/5skill1_1",
+      "text": "先登如山不可撼，力压公孙镇白马！",
+      "textLocalized": {
+        "zhHans": "先登如山不可撼，力压公孙镇白马！",
+        "zhHant": "先登如山不可撼，力壓公孫鎮白馬！"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-37407",
+        "ids": [
+          "37407"
+        ],
+        "name": "突阵奋威",
+        "displayName": {
+          "zhHans": "突阵奋威",
+          "zhHant": "突陣奮威"
+        },
+        "names": [
+          "突阵奋威"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "突阵奋威",
+            "zhHant": "突陣奮威"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-37407",
+          "id": "37407",
+          "ids": [
+            "37407"
+          ],
+          "name": "突阵奋威",
+          "displayName": {
+            "zhHans": "突阵奋威",
+            "zhHant": "突陣奮威"
+          },
+          "names": [
+            "突阵奋威"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "突阵奋威",
+              "zhHant": "突陣奮威"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "37407",
+        "spellKey": "374",
+        "rowIndex": 1,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "突阵奋威"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/5skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--5skill1_2",
+      "resourceId": "374quyi/5skill1_2",
+      "text": "皆道天马踏飞燕，见我也须尽低眉！",
+      "textLocalized": {
+        "zhHans": "皆道天马踏飞燕，见我也须尽低眉！",
+        "zhHant": "皆道天馬踏飛燕，見我也須盡低眉！"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-37407",
+        "ids": [
+          "37407"
+        ],
+        "name": "突阵奋威",
+        "displayName": {
+          "zhHans": "突阵奋威",
+          "zhHant": "突陣奮威"
+        },
+        "names": [
+          "突阵奋威"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "突阵奋威",
+            "zhHant": "突陣奮威"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-37407",
+          "id": "37407",
+          "ids": [
+            "37407"
+          ],
+          "name": "突阵奋威",
+          "displayName": {
+            "zhHans": "突阵奋威",
+            "zhHant": "突陣奮威"
+          },
+          "names": [
+            "突阵奋威"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "突阵奋威",
+              "zhHant": "突陣奮威"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "37407",
+        "spellKey": "374",
+        "rowIndex": 2,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "突阵奋威"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/5skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--4skill1_1",
+      "resourceId": "374quyi/4skill1_1",
+      "text": "哈哈哈，你已经在我把控之中了",
+      "textLocalized": {
+        "zhHans": "哈哈哈，你已经在我把控之中了",
+        "zhHant": "哈哈哈，你已經在我把控之中了"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-37406",
+        "ids": [
+          "37406"
+        ],
+        "name": "竞驹伏骊",
+        "displayName": {
+          "zhHans": "竞驹伏骊",
+          "zhHant": "競駒伏驪"
+        },
+        "names": [
+          "竞驹伏骊"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "竞驹伏骊",
+            "zhHant": "競駒伏驪"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-37406",
+          "id": "37406",
+          "ids": [
+            "37406"
+          ],
+          "name": "竞驹伏骊",
+          "displayName": {
+            "zhHans": "竞驹伏骊",
+            "zhHant": "競駒伏驪"
+          },
+          "names": [
+            "竞驹伏骊"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "竞驹伏骊",
+              "zhHant": "競駒伏驪"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "37406",
+        "spellKey": "374",
+        "rowIndex": 1,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "竞驹伏骊"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/4skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--4skill1_2",
+      "resourceId": "374quyi/4skill1_2",
+      "text": "哼，这白马，也敢与我比。",
+      "textLocalized": {
+        "zhHans": "哼，这白马，也敢与我比。",
+        "zhHant": "哼，這白馬，也敢與我比。"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-37406",
+        "ids": [
+          "37406"
+        ],
+        "name": "竞驹伏骊",
+        "displayName": {
+          "zhHans": "竞驹伏骊",
+          "zhHant": "競駒伏驪"
+        },
+        "names": [
+          "竞驹伏骊"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "竞驹伏骊",
+            "zhHant": "競駒伏驪"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-37406",
+          "id": "37406",
+          "ids": [
+            "37406"
+          ],
+          "name": "竞驹伏骊",
+          "displayName": {
+            "zhHans": "竞驹伏骊",
+            "zhHant": "競駒伏驪"
+          },
+          "names": [
+            "竞驹伏骊"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "竞驹伏骊",
+              "zhHant": "競駒伏驪"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "37406",
+        "spellKey": "374",
+        "rowIndex": 2,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "竞驹伏骊"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/4skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--3skill1_1",
+      "resourceId": "374quyi/3skill1_1",
+      "text": "掌握之中，岂可逃之？",
+      "textLocalized": {
+        "zhHans": "掌握之中，岂可逃之？",
+        "zhHant": "掌握之中，豈可逃之？"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-37401",
+        "ids": [
+          "37401"
+        ],
+        "name": "连战冲阵",
+        "displayName": {
+          "zhHans": "连战冲阵",
+          "zhHant": "連戰衝陣"
+        },
+        "names": [
+          "连战冲阵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "连战冲阵",
+            "zhHant": "連戰衝陣"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-37401",
+          "id": "37401",
+          "ids": [
+            "37401"
+          ],
+          "name": "连战冲阵",
+          "displayName": {
+            "zhHans": "连战冲阵",
+            "zhHant": "連戰衝陣"
+          },
+          "names": [
+            "连战冲阵"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "连战冲阵",
+              "zhHant": "連戰衝陣"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "37401",
+        "spellKey": "374",
+        "rowIndex": 1,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "连战冲阵"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--3skill1_2",
+      "resourceId": "374quyi/3skill1_2",
+      "text": "白马？不足挂齿！",
+      "textLocalized": {
+        "zhHans": "白马？不足挂齿！",
+        "zhHant": "白馬？不足掛齒！"
+      },
+      "character": {
+        "slug": "quyi",
+        "command": "quyi",
+        "id": "374",
+        "ids": [
+          "374"
+        ],
+        "name": "麹义",
+        "displayName": {
+          "zhHans": "麹义",
+          "zhHant": "麴義"
+        },
+        "names": [
+          "麹义"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "sourceIds": [
+          "374"
+        ],
+        "sourceNames": [
+          "麹义"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "麹义",
+            "zhHant": "麴義"
+          }
+        ],
+        "searchNames": [
+          "麹义",
+          "麴義",
+          "quyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-374",
+        "ids": [
+          "374"
+        ],
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "names": [
+          "伏骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伏骑",
+            "zhHant": "伏騎"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-37401",
+        "ids": [
+          "37401"
+        ],
+        "name": "连战冲阵",
+        "displayName": {
+          "zhHans": "连战冲阵",
+          "zhHant": "連戰衝陣"
+        },
+        "names": [
+          "连战冲阵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "连战冲阵",
+            "zhHant": "連戰衝陣"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-37401",
+          "id": "37401",
+          "ids": [
+            "37401"
+          ],
+          "name": "连战冲阵",
+          "displayName": {
+            "zhHans": "连战冲阵",
+            "zhHant": "連戰衝陣"
+          },
+          "names": [
+            "连战冲阵"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "连战冲阵",
+              "zhHant": "連戰衝陣"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "374",
+        "skinKey": "37401",
+        "spellKey": "374",
+        "rowIndex": 2,
+        "characterNames": [
+          "麹义"
+        ],
+        "skinNames": [
+          "连战冲阵"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

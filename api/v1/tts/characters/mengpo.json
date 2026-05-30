@@ -1,3 +1,200 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a841c410b551b773cf8e020325b1b73033525d5aa285ecd5002c4cb1b9ffc45c
-size 5178
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "mengpo",
+    "command": "mengpo",
+    "name": "孟婆",
+    "displayName": {
+      "zhHans": "孟婆",
+      "zhHant": "孟婆"
+    },
+    "names": [
+      "孟婆"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孟婆",
+        "zhHant": "孟婆"
+      }
+    ],
+    "ids": [
+      "4510"
+    ],
+    "sourceNames": [
+      "孟婆"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孟婆",
+        "zhHant": "孟婆"
+      }
+    ],
+    "sourceIds": [
+      "4510"
+    ],
+    "searchNames": [
+      "mengpo",
+      "孟婆"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "spell-1325",
+        "name": "忘魂",
+        "displayName": {
+          "zhHans": "忘魂",
+          "zhHant": "忘魂"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/mengpo/groups/spell-1325.json"
+      },
+      {
+        "slug": "spell-1326",
+        "name": "往事",
+        "displayName": {
+          "zhHans": "往事",
+          "zhHant": "往事"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/mengpo/groups/spell-1326.json"
+      },
+      {
+        "slug": "spell-1327",
+        "name": "拾忧",
+        "displayName": {
+          "zhHans": "拾忧",
+          "zhHant": "拾憂"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/mengpo/groups/spell-1327.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mengpo/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/mengpo.json",
+      "groups": "api/v1/tts/characters/mengpo/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/mengpo/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "mengpo--4510mengpo--1skill1_1",
+      "resourceId": "4510mengpo/1skill1_1",
+      "text": "忘情断爱，心魂可结。",
+      "textLocalized": {
+        "zhHans": "忘情断爱，心魂可结。",
+        "zhHant": "忘情斷愛，心魂可結。"
+      },
+      "group": {
+        "slug": "spell-1325",
+        "name": "忘魂",
+        "displayName": {
+          "zhHans": "忘魂",
+          "zhHant": "忘魂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4510mengpo-deed6978/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4510mengpo/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mengpo--4510mengpo--1skill2_1",
+      "resourceId": "4510mengpo/1skill2_1",
+      "text": "红尘往事，再无牵挂。",
+      "textLocalized": {
+        "zhHans": "红尘往事，再无牵挂。",
+        "zhHant": "紅塵往事，再無牽掛。"
+      },
+      "group": {
+        "slug": "spell-1326",
+        "name": "往事",
+        "displayName": {
+          "zhHans": "往事",
+          "zhHant": "往事"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4510mengpo-deed6978/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4510mengpo/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mengpo--4510mengpo--1skill3_1",
+      "resourceId": "4510mengpo/1skill3_1",
+      "text": "忧愁可拾，烦苦可消。",
+      "textLocalized": {
+        "zhHans": "忧愁可拾，烦苦可消。",
+        "zhHant": "憂愁可拾，煩苦可消。"
+      },
+      "group": {
+        "slug": "spell-1327",
+        "name": "拾忧",
+        "displayName": {
+          "zhHans": "拾忧",
+          "zhHant": "拾憂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4510mengpo-deed6978/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4510mengpo/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

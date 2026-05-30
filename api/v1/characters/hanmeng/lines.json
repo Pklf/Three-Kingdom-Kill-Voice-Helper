@@ -1,3 +1,762 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ac243fa96838f36e02fd92bee769d1fb6f841e5e3f47ccddd87408a6b87bd2ef
-size 17070
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hanmeng",
+    "command": "hanmeng",
+    "name": "韩猛",
+    "displayName": {
+      "zhHans": "韩猛",
+      "zhHant": "韓猛"
+    },
+    "names": [
+      "韩猛"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "韩猛",
+        "zhHant": "韓猛"
+      }
+    ],
+    "ids": [
+      "4220"
+    ],
+    "sourceNames": [
+      "韩猛"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "韩猛",
+        "zhHant": "韓猛"
+      }
+    ],
+    "sourceIds": [
+      "4220"
+    ],
+    "searchNames": [
+      "hanmeng",
+      "韩猛",
+      "韓猛"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-1525",
+        "name": "截粮",
+        "displayName": {
+          "zhHans": "截粮",
+          "zhHant": "截糧"
+        },
+        "ids": [
+          "1525"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-1526",
+        "name": "劝酒",
+        "displayName": {
+          "zhHans": "劝酒",
+          "zhHant": "勸酒"
+        },
+        "ids": [
+          "1526"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/hanmeng.json",
+      "lines": "api/v1/characters/hanmeng/lines.json"
+    }
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "hanmeng--4220hanmeng--1dead01",
+      "resourceId": "4220hanmeng/1dead01",
+      "text": "曹操狡诈，防不胜防。",
+      "textLocalized": {
+        "zhHans": "曹操狡诈，防不胜防。",
+        "zhHant": "曹操狡詐，防不勝防。"
+      },
+      "character": {
+        "slug": "hanmeng",
+        "command": "hanmeng",
+        "id": "4220",
+        "ids": [
+          "4220"
+        ],
+        "name": "韩猛",
+        "displayName": {
+          "zhHans": "韩猛",
+          "zhHant": "韓猛"
+        },
+        "names": [
+          "韩猛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "sourceIds": [
+          "4220"
+        ],
+        "sourceNames": [
+          "韩猛"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "searchNames": [
+          "韩猛",
+          "韓猛",
+          "hanmeng"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4220",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "韩猛"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4220hanmeng-0d05695c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4220hanmeng/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanmeng--4220hanmeng--1skill1_1",
+      "resourceId": "4220hanmeng/1skill1_1",
+      "text": "伏兵起，粮道绝！",
+      "textLocalized": {
+        "zhHans": "伏兵起，粮道绝！",
+        "zhHant": "伏兵起，糧道絕！"
+      },
+      "character": {
+        "slug": "hanmeng",
+        "command": "hanmeng",
+        "id": "4220",
+        "ids": [
+          "4220"
+        ],
+        "name": "韩猛",
+        "displayName": {
+          "zhHans": "韩猛",
+          "zhHant": "韓猛"
+        },
+        "names": [
+          "韩猛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "sourceIds": [
+          "4220"
+        ],
+        "sourceNames": [
+          "韩猛"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "searchNames": [
+          "韩猛",
+          "韓猛",
+          "hanmeng"
+        ]
+      },
+      "group": {
+        "slug": "spell-1525",
+        "ids": [
+          "1525"
+        ],
+        "name": "截粮",
+        "displayName": {
+          "zhHans": "截粮",
+          "zhHant": "截糧"
+        },
+        "names": [
+          "截粮"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "截粮",
+            "zhHant": "截糧"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4220",
+        "skinKey": "-1",
+        "spellKey": "1525",
+        "rowIndex": 1,
+        "characterNames": [
+          "韩猛"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4220hanmeng-0d05695c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4220hanmeng/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanmeng--4220hanmeng--1skill1_2",
+      "resourceId": "4220hanmeng/1skill1_2",
+      "text": "粮草根本，截之破敌。",
+      "textLocalized": {
+        "zhHans": "粮草根本，截之破敌。",
+        "zhHant": "糧草根本，截之破敵。"
+      },
+      "character": {
+        "slug": "hanmeng",
+        "command": "hanmeng",
+        "id": "4220",
+        "ids": [
+          "4220"
+        ],
+        "name": "韩猛",
+        "displayName": {
+          "zhHans": "韩猛",
+          "zhHant": "韓猛"
+        },
+        "names": [
+          "韩猛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "sourceIds": [
+          "4220"
+        ],
+        "sourceNames": [
+          "韩猛"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "searchNames": [
+          "韩猛",
+          "韓猛",
+          "hanmeng"
+        ]
+      },
+      "group": {
+        "slug": "spell-1525",
+        "ids": [
+          "1525"
+        ],
+        "name": "截粮",
+        "displayName": {
+          "zhHans": "截粮",
+          "zhHant": "截糧"
+        },
+        "names": [
+          "截粮"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "截粮",
+            "zhHant": "截糧"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4220",
+        "skinKey": "-1",
+        "spellKey": "1525",
+        "rowIndex": 2,
+        "characterNames": [
+          "韩猛"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4220hanmeng-0d05695c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4220hanmeng/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanmeng--4220hanmeng--1skill2_1",
+      "resourceId": "4220hanmeng/1skill2_1",
+      "text": "大敌当前，怎可松懈畅饮。",
+      "textLocalized": {
+        "zhHans": "大敌当前，怎可松懈畅饮。",
+        "zhHant": "大敵當前，怎可鬆懈暢飲。"
+      },
+      "character": {
+        "slug": "hanmeng",
+        "command": "hanmeng",
+        "id": "4220",
+        "ids": [
+          "4220"
+        ],
+        "name": "韩猛",
+        "displayName": {
+          "zhHans": "韩猛",
+          "zhHant": "韓猛"
+        },
+        "names": [
+          "韩猛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "sourceIds": [
+          "4220"
+        ],
+        "sourceNames": [
+          "韩猛"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "searchNames": [
+          "韩猛",
+          "韓猛",
+          "hanmeng"
+        ]
+      },
+      "group": {
+        "slug": "spell-1526",
+        "ids": [
+          "1526"
+        ],
+        "name": "劝酒",
+        "displayName": {
+          "zhHans": "劝酒",
+          "zhHant": "勸酒"
+        },
+        "names": [
+          "劝酒"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "劝酒",
+            "zhHant": "勸酒"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4220",
+        "skinKey": "-1",
+        "spellKey": "1526",
+        "rowIndex": 1,
+        "characterNames": [
+          "韩猛"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4220hanmeng-0d05695c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4220hanmeng/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanmeng--4220hanmeng--1skill2_2",
+      "resourceId": "4220hanmeng/1skill2_2",
+      "text": "乌巢重地，不宜饮酒。",
+      "textLocalized": {
+        "zhHans": "乌巢重地，不宜饮酒。",
+        "zhHant": "烏巢重地，不宜飲酒。"
+      },
+      "character": {
+        "slug": "hanmeng",
+        "command": "hanmeng",
+        "id": "4220",
+        "ids": [
+          "4220"
+        ],
+        "name": "韩猛",
+        "displayName": {
+          "zhHans": "韩猛",
+          "zhHant": "韓猛"
+        },
+        "names": [
+          "韩猛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "sourceIds": [
+          "4220"
+        ],
+        "sourceNames": [
+          "韩猛"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "韩猛",
+            "zhHant": "韓猛"
+          }
+        ],
+        "searchNames": [
+          "韩猛",
+          "韓猛",
+          "hanmeng"
+        ]
+      },
+      "group": {
+        "slug": "spell-1526",
+        "ids": [
+          "1526"
+        ],
+        "name": "劝酒",
+        "displayName": {
+          "zhHans": "劝酒",
+          "zhHant": "勸酒"
+        },
+        "names": [
+          "劝酒"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "劝酒",
+            "zhHant": "勸酒"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4220",
+        "skinKey": "-1",
+        "spellKey": "1526",
+        "rowIndex": 2,
+        "characterNames": [
+          "韩猛"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4220hanmeng-0d05695c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4220hanmeng/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,199 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d30c7706c979859311ada3d5dc627d85ac7713a1a7e8ab6ff808759a36edc62d
-size 5192
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenzhenji",
+    "command": "shenzhenji",
+    "name": "神甄姬",
+    "displayName": {
+      "zhHans": "神甄姬",
+      "zhHant": "神甄姬"
+    },
+    "names": [
+      "神甄姬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神甄姬",
+        "zhHant": "神甄姬"
+      }
+    ],
+    "ids": [
+      "223"
+    ],
+    "sourceNames": [
+      "神甄姬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神甄姬",
+        "zhHant": "神甄姬"
+      }
+    ],
+    "sourceIds": [
+      "223"
+    ],
+    "searchNames": [
+      "shenzhenji",
+      "神甄姬"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/shenzhenji/groups/dead.json"
+      },
+      {
+        "slug": "spell-919",
+        "name": "神赋",
+        "displayName": {
+          "zhHans": "神赋",
+          "zhHant": "神賦"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shenzhenji/groups/spell-919.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenzhenji/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenzhenji.json",
+      "groups": "api/v1/tts/characters/shenzhenji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenzhenji/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/shenzhenji/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "shenzhenji--223shenzhenji--1dead01",
+      "resourceId": "223shenzhenji/1dead01",
+      "text": "众口铄金，难证吾清。",
+      "textLocalized": {
+        "zhHans": "众口铄金，难证吾清。",
+        "zhHant": "衆口鑠金，難證吾清。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/223shenzhenji-945d55ef/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/223shenzhenji/1dead01.mp3",
+        "available": {
+          "cached": false,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhenji--223shenzhenji--1skill1_1",
+      "resourceId": "223shenzhenji/1skill1_1",
+      "text": "河洛之神，诗赋可抒。",
+      "textLocalized": {
+        "zhHans": "河洛之神，诗赋可抒。",
+        "zhHant": "河洛之神，詩賦可抒。"
+      },
+      "group": {
+        "slug": "spell-919",
+        "name": "神赋",
+        "displayName": {
+          "zhHans": "神赋",
+          "zhHant": "神賦"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/223shenzhenji-945d55ef/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/223shenzhenji/1skill1_1.mp3",
+        "available": {
+          "cached": false,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhenji--223shenzhenji--1skill1_2",
+      "resourceId": "223shenzhenji/1skill1_2",
+      "text": "云神鱼游，罗扇掩面。",
+      "textLocalized": {
+        "zhHans": "云神鱼游，罗扇掩面。",
+        "zhHant": "雲神魚遊，羅扇掩面。"
+      },
+      "group": {
+        "slug": "spell-919",
+        "name": "神赋",
+        "displayName": {
+          "zhHans": "神赋",
+          "zhHant": "神賦"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/223shenzhenji-945d55ef/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/223shenzhenji/1skill1_2.mp3",
+        "available": {
+          "cached": false,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

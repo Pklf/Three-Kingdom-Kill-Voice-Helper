@@ -1,3 +1,505 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:90d436789ea1a5c775debebc7ebff9d88a83b5e47251d0e697e6e8165e5fe689
-size 13998
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "luji",
+    "command": "luji",
+    "name": "陆绩",
+    "displayName": {
+      "zhHans": "陆绩",
+      "zhHant": "陸績"
+    },
+    "names": [
+      "陆绩"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陆绩",
+        "zhHant": "陸績"
+      }
+    ],
+    "ids": [
+      "402"
+    ],
+    "sourceNames": [
+      "陆绩"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陆绩",
+        "zhHant": "陸績"
+      }
+    ],
+    "sourceIds": [
+      "402"
+    ],
+    "searchNames": [
+      "luji",
+      "陆绩",
+      "陸績"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/luji/groups/dead.json"
+      },
+      {
+        "slug": "spell-804",
+        "name": "怀橘",
+        "displayName": {
+          "zhHans": "怀橘",
+          "zhHant": "懷橘"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/luji/groups/spell-804.json"
+      },
+      {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/luji/groups/spell-805.json"
+      },
+      {
+        "slug": "spell-806",
+        "name": "整论",
+        "displayName": {
+          "zhHans": "整论",
+          "zhHant": "整論"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/luji/groups/spell-806.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-40203",
+        "name": "天象洞察",
+        "displayName": {
+          "zhHans": "天象洞察",
+          "zhHant": "天象洞察"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-40203.json"
+      },
+      {
+        "slug": "skin-40204",
+        "name": "庭中品橘",
+        "displayName": {
+          "zhHans": "庭中品橘",
+          "zhHant": "庭中品橘"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-40204.json"
+      },
+      {
+        "slug": "skin-40202",
+        "name": "星熠心移",
+        "displayName": {
+          "zhHans": "星熠心移",
+          "zhHant": "星熠心移"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-40202.json"
+      },
+      {
+        "slug": "skin-40205",
+        "name": "橘暖星河",
+        "displayName": {
+          "zhHans": "橘暖星河",
+          "zhHant": "橘暖星河"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/luji/skins/skin-40205.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/luji.json",
+      "groups": "api/v1/tts/characters/luji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/luji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-805",
+    "name": "遗礼",
+    "displayName": {
+      "zhHans": "遗礼",
+      "zhHant": "遺禮"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/luji/groups/spell-805.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "luji--402luji--1skill2_1",
+      "resourceId": "402luji/1skill2_1",
+      "text": "违失礼仪，则惧非议。",
+      "textLocalized": {
+        "zhHans": "违失礼仪，则惧非议。",
+        "zhHant": "違失禮儀，則懼非議。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--1skill2_2",
+      "resourceId": "402luji/1skill2_2",
+      "text": "行遗礼之举，于不敬王者。",
+      "textLocalized": {
+        "zhHans": "行遗礼之举，于不敬王者。",
+        "zhHant": "行遺禮之舉，於不敬王者。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--4skill2_1",
+      "resourceId": "402luji/4skill2_1",
+      "text": "橘生淮南为橘，生北则为枳。",
+      "textLocalized": {
+        "zhHans": "橘生淮南为橘，生北则为枳。",
+        "zhHant": "橘生淮南爲橘，生北則爲枳。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40203",
+          "name": "天象洞察",
+          "displayName": {
+            "zhHans": "天象洞察",
+            "zhHant": "天象洞察"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--4skill2_2",
+      "resourceId": "402luji/4skill2_2",
+      "text": "我赠君取，仁义之礼。",
+      "textLocalized": {
+        "zhHans": "我赠君取，仁义之礼。",
+        "zhHant": "我贈君取，仁義之禮。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40203",
+          "name": "天象洞察",
+          "displayName": {
+            "zhHans": "天象洞察",
+            "zhHant": "天象洞察"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--5skill2_1",
+      "resourceId": "402luji/5skill2_1",
+      "text": "功败垂成，皆在取舍之间。",
+      "textLocalized": {
+        "zhHans": "功败垂成，皆在取舍之间。",
+        "zhHant": "功敗垂成，皆在取捨之間。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40204",
+          "name": "庭中品橘",
+          "displayName": {
+            "zhHans": "庭中品橘",
+            "zhHant": "庭中品橘"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--5skill2_2",
+      "resourceId": "402luji/5skill2_2",
+      "text": "慷慨解囊，恩泽互惠。",
+      "textLocalized": {
+        "zhHans": "慷慨解囊，恩泽互惠。",
+        "zhHant": "慷慨解囊，恩澤互惠。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40204",
+          "name": "庭中品橘",
+          "displayName": {
+            "zhHans": "庭中品橘",
+            "zhHant": "庭中品橘"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--3skill2_1",
+      "resourceId": "402luji/3skill2_1",
+      "text": "财散人聚，物尽其才。",
+      "textLocalized": {
+        "zhHans": "财散人聚，物尽其才。",
+        "zhHant": "財散人聚，物盡其才。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40202",
+          "name": "星熠心移",
+          "displayName": {
+            "zhHans": "星熠心移",
+            "zhHant": "星熠心移"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--3skill2_2",
+      "resourceId": "402luji/3skill2_2",
+      "text": "许卿之小利，不求君承我恩。",
+      "textLocalized": {
+        "zhHans": "许卿之小利，不求君承我恩。",
+        "zhHant": "許卿之小利，不求君承我恩。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40202",
+          "name": "星熠心移",
+          "displayName": {
+            "zhHans": "星熠心移",
+            "zhHant": "星熠心移"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--6skill2_1",
+      "resourceId": "402luji/6skill2_1",
+      "text": "君乃仁义之士，当以礼遗之。",
+      "textLocalized": {
+        "zhHans": "君乃仁义之士，当以礼遗之。",
+        "zhHant": "君乃仁義之士，當以禮遺之。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40205",
+          "name": "橘暖星河",
+          "displayName": {
+            "zhHans": "橘暖星河",
+            "zhHant": "橘暖星河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luji--402luji--6skill2_2",
+      "resourceId": "402luji/6skill2_2",
+      "text": "馈之以礼，切勿推辞。",
+      "textLocalized": {
+        "zhHans": "馈之以礼，切勿推辞。",
+        "zhHant": "饋之以禮，切勿推辭。"
+      },
+      "group": {
+        "slug": "spell-805",
+        "name": "遗礼",
+        "displayName": {
+          "zhHans": "遗礼",
+          "zhHant": "遺禮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40205",
+          "name": "橘暖星河",
+          "displayName": {
+            "zhHans": "橘暖星河",
+            "zhHant": "橘暖星河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/402luji-677e1a95/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/402luji/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9bd41a6862839e6df8252c0de9c999903f611ec994d51661ad7a5fa59eff5e95
-size 4769
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangyan",
+    "command": "wangyan",
+    "name": "神秘武将",
+    "displayName": {
+      "zhHans": "神秘武将",
+      "zhHant": "神祕武將"
+    },
+    "names": [
+      "神秘武将"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神秘武将",
+        "zhHant": "神祕武將"
+      }
+    ],
+    "ids": [
+      "7021"
+    ],
+    "sourceNames": [
+      "神秘武将"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神秘武将",
+        "zhHant": "神祕武將"
+      }
+    ],
+    "sourceIds": [
+      "7021"
+    ],
+    "searchNames": [
+      "wangyan",
+      "神秘武将",
+      "神祕武將"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wangyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3129",
+        "name": "阳狂",
+        "displayName": {
+          "zhHans": "阳狂",
+          "zhHant": "陽狂"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wangyan/groups/spell-3129.json"
+      },
+      {
+        "slug": "spell-3130",
+        "name": "雌黄",
+        "displayName": {
+          "zhHans": "雌黄",
+          "zhHant": "雌黃"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wangyan/groups/spell-3130.json"
+      },
+      {
+        "slug": "spell-3131",
+        "name": "三窟",
+        "displayName": {
+          "zhHans": "三窟",
+          "zhHant": "三窟"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wangyan/groups/spell-3131.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangyan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangyan.json",
+      "groups": "api/v1/tts/characters/wangyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangyan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3130",
+    "name": "雌黄",
+    "displayName": {
+      "zhHans": "雌黄",
+      "zhHant": "雌黃"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/wangyan/groups/spell-3130.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "wangyan--7021wangyan--1skill2_1",
+      "resourceId": "7021wangyan/1skill2_1",
+      "text": "腹存经典，口吐雌黄。",
+      "textLocalized": {
+        "zhHans": "腹存经典，口吐雌黄。",
+        "zhHant": "腹存經典，口吐雌黃。"
+      },
+      "group": {
+        "slug": "spell-3130",
+        "name": "雌黄",
+        "displayName": {
+          "zhHans": "雌黄",
+          "zhHant": "雌黃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7021wangyan-f14a4840/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7021wangyan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangyan--7021wangyan--1skill2_2",
+      "resourceId": "7021wangyan/1skill2_2",
+      "text": "手把玉麈[zhǔ]，胸蕴成篇。",
+      "textLocalized": {
+        "zhHans": "手把玉麈[zhǔ]，胸蕴成篇。",
+        "zhHant": "手把玉麈[zhǔ]，胸蘊成篇。"
+      },
+      "group": {
+        "slug": "spell-3130",
+        "name": "雌黄",
+        "displayName": {
+          "zhHans": "雌黄",
+          "zhHant": "雌黃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7021wangyan-f14a4840/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7021wangyan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

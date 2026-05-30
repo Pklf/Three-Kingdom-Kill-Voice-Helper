@@ -1,3 +1,373 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fba4f9e285e4b0c656f923ed069aecb2a1a724b05346fa0ae1cda7cca44f314d
-size 10527
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "fuhuanghou",
+    "command": "fuhuanghou",
+    "name": "伏皇后",
+    "displayName": {
+      "zhHans": "伏皇后",
+      "zhHant": "伏皇后"
+    },
+    "names": [
+      "伏皇后"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "伏皇后",
+        "zhHant": "伏皇后"
+      }
+    ],
+    "ids": [
+      "183"
+    ],
+    "sourceNames": [
+      "伏皇后"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "伏皇后",
+        "zhHant": "伏皇后"
+      }
+    ],
+    "sourceIds": [
+      "183"
+    ],
+    "searchNames": [
+      "fuhuanghou",
+      "伏皇后"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/groups/dead.json"
+      },
+      {
+        "slug": "spell-455",
+        "name": "惴恐",
+        "displayName": {
+          "zhHans": "惴恐",
+          "zhHant": "惴恐"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/groups/spell-455.json"
+      },
+      {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/groups/spell-456.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-18306",
+        "name": "困凰权碎",
+        "displayName": {
+          "zhHans": "困凰权碎",
+          "zhHant": "困凰權碎"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18306.json"
+      },
+      {
+        "slug": "skin-18301",
+        "name": "孤注一掷",
+        "displayName": {
+          "zhHans": "孤注一掷",
+          "zhHant": "孤注一擲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18301.json"
+      },
+      {
+        "slug": "skin-18309",
+        "name": "悲凄别离",
+        "displayName": {
+          "zhHans": "悲凄别离",
+          "zhHant": "悲悽別離"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18309.json"
+      },
+      {
+        "slug": "skin-18308",
+        "name": "烟雨涳濛",
+        "displayName": {
+          "zhHans": "烟雨涳濛",
+          "zhHant": "煙雨涳濛"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18308.json"
+      },
+      {
+        "slug": "skin-18305",
+        "name": "班政兰闺",
+        "displayName": {
+          "zhHans": "班政兰闺",
+          "zhHant": "班政蘭閨"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18305.json"
+      },
+      {
+        "slug": "skin-18303",
+        "name": "霜夜凤诏",
+        "displayName": {
+          "zhHans": "霜夜凤诏",
+          "zhHant": "霜夜鳳詔"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18303.json"
+      },
+      {
+        "slug": "skin-18303-18305-18309",
+        "name": "霜夜凤诏,班政兰闺,悲凄别离",
+        "displayName": {
+          "zhHans": "霜夜凤诏,班政兰闺,悲凄别离",
+          "zhHant": "霜夜鳳詔,班政蘭閨,悲悽別離"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18303-18305-18309.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/fuhuanghou.json",
+      "groups": "api/v1/tts/characters/fuhuanghou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/fuhuanghou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/fuhuanghou/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "fuhuanghou--183fuhuanghou--1dead01",
+      "resourceId": "183fuhuanghou/1dead01",
+      "text": "陛下，为何不救……臣妾……",
+      "textLocalized": {
+        "zhHans": "陛下，为何不救……臣妾……",
+        "zhHant": "陛下，爲何不救……臣妾……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--5dead01",
+      "resourceId": "183fuhuanghou/5dead01",
+      "text": "黯然幽幽，直到终结。",
+      "textLocalized": {
+        "zhHans": "黯然幽幽，直到终结。",
+        "zhHant": "黯然幽幽，直到終結。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18306",
+          "name": "困凰权碎",
+          "displayName": {
+            "zhHans": "困凰权碎",
+            "zhHant": "困凰權碎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--3dead01",
+      "resourceId": "183fuhuanghou/3dead01",
+      "text": "曹贼！汝，定不得好死！",
+      "textLocalized": {
+        "zhHans": "曹贼！汝，定不得好死！",
+        "zhHant": "曹賊！汝，定不得好死！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18301",
+          "name": "孤注一掷",
+          "displayName": {
+            "zhHans": "孤注一掷",
+            "zhHant": "孤注一擲"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--6dead01",
+      "resourceId": "183fuhuanghou/6dead01",
+      "text": "此生凄惨，无根无绊。",
+      "textLocalized": {
+        "zhHans": "此生凄惨，无根无绊。",
+        "zhHant": "此生悽慘，無根無絆。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18308",
+          "name": "烟雨涳濛",
+          "displayName": {
+            "zhHans": "烟雨涳濛",
+            "zhHant": "煙雨涳濛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--4dead01",
+      "resourceId": "183fuhuanghou/4dead01",
+      "text": "父亲大人，你竟如此优柔寡断……",
+      "textLocalized": {
+        "zhHans": "父亲大人，你竟如此优柔寡断……",
+        "zhHant": "父親大人，你竟如此優柔寡斷……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18309",
+          "name": "悲凄别离",
+          "displayName": {
+            "zhHans": "悲凄别离",
+            "zhHant": "悲悽別離"
+          }
+        },
+        {
+          "slug": "skin-18305",
+          "name": "班政兰闺",
+          "displayName": {
+            "zhHans": "班政兰闺",
+            "zhHant": "班政蘭閨"
+          }
+        },
+        {
+          "slug": "skin-18303",
+          "name": "霜夜凤诏",
+          "displayName": {
+            "zhHans": "霜夜凤诏",
+            "zhHant": "霜夜鳳詔"
+          }
+        },
+        {
+          "slug": "skin-18303-18305-18309",
+          "name": "霜夜凤诏,班政兰闺,悲凄别离",
+          "displayName": {
+            "zhHans": "霜夜凤诏,班政兰闺,悲凄别离",
+            "zhHant": "霜夜鳳詔,班政蘭閨,悲悽別離"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

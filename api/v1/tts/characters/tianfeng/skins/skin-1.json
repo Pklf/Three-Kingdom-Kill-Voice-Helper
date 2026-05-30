@@ -1,3 +1,318 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:703755aabd210a51b5993706e3173f4e2ec9ce6a610fd66a2396ae3678a23347
-size 8381
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tianfeng",
+    "command": "tianfeng",
+    "name": "田丰",
+    "displayName": {
+      "zhHans": "田丰",
+      "zhHant": "田豐"
+    },
+    "names": [
+      "田丰",
+      "4078"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "田丰",
+        "zhHant": "田豐"
+      },
+      {
+        "zhHans": "4078",
+        "zhHant": "4078"
+      }
+    ],
+    "ids": [
+      "2057",
+      "4078"
+    ],
+    "sourceNames": [
+      "田丰"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "田丰",
+        "zhHant": "田豐"
+      }
+    ],
+    "sourceIds": [
+      "2057",
+      "4078"
+    ],
+    "searchNames": [
+      "tianfeng",
+      "田丰",
+      "田豐",
+      "4078"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tianfeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-2109",
+        "name": "死谏",
+        "displayName": {
+          "zhHans": "死谏",
+          "zhHant": "死諫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tianfeng/groups/spell-2109.json"
+      },
+      {
+        "slug": "spell-2110",
+        "name": "随势",
+        "displayName": {
+          "zhHans": "随势",
+          "zhHant": "隨勢"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tianfeng/groups/spell-2110.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-205703",
+        "name": "刚而谏上",
+        "displayName": {
+          "zhHans": "刚而谏上",
+          "zhHant": "剛而諫上"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205703.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205704",
+        "name": "直言被困",
+        "displayName": {
+          "zhHans": "直言被困",
+          "zhHant": "直言被困"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205704.json"
+      },
+      {
+        "slug": "skin-205701",
+        "name": "计权合变",
+        "displayName": {
+          "zhHans": "计权合变",
+          "zhHant": "計權合變"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tianfeng.json",
+      "groups": "api/v1/tts/characters/tianfeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tianfeng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "tianfeng--2057tianfeng--1dead01",
+      "resourceId": "2057tianfeng/1dead01",
+      "text": "不纳吾言反诛吾心，奈何奈何……",
+      "textLocalized": {
+        "zhHans": "不纳吾言反诛吾心，奈何奈何……",
+        "zhHant": "不納吾言反誅吾心，奈何奈何……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--1skill1_1",
+      "resourceId": "2057tianfeng/1skill1_1",
+      "text": "且听我最后一言！",
+      "textLocalized": {
+        "zhHans": "且听我最后一言！",
+        "zhHant": "且聽我最後一言！"
+      },
+      "group": {
+        "slug": "spell-2109",
+        "name": "死谏",
+        "displayName": {
+          "zhHans": "死谏",
+          "zhHant": "死諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--1skill1_2",
+      "resourceId": "2057tianfeng/1skill1_2",
+      "text": "忠言逆耳啊！",
+      "textLocalized": {
+        "zhHans": "忠言逆耳啊！",
+        "zhHant": "忠言逆耳啊！"
+      },
+      "group": {
+        "slug": "spell-2109",
+        "name": "死谏",
+        "displayName": {
+          "zhHans": "死谏",
+          "zhHant": "死諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--1skill2_1",
+      "resourceId": "2057tianfeng/1skill2_1",
+      "text": "一损俱损。",
+      "textLocalized": {
+        "zhHans": "一损俱损。",
+        "zhHant": "一損俱損。"
+      },
+      "group": {
+        "slug": "spell-2110",
+        "name": "随势",
+        "displayName": {
+          "zhHans": "随势",
+          "zhHant": "隨勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--1skill2_2",
+      "resourceId": "2057tianfeng/1skill2_2",
+      "text": "一荣俱荣。",
+      "textLocalized": {
+        "zhHans": "一荣俱荣。",
+        "zhHant": "一榮俱榮。"
+      },
+      "group": {
+        "slug": "spell-2110",
+        "name": "随势",
+        "displayName": {
+          "zhHans": "随势",
+          "zhHant": "隨勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

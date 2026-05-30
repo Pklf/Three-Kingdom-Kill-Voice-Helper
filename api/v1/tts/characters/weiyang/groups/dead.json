@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e49edef0b02611d6b43b281186bd0c97f9c08f4f89bccc9bbc5bd5513838e98
-size 3076
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "weiyang",
+    "command": "weiyang",
+    "name": "未羊",
+    "displayName": {
+      "zhHans": "未羊",
+      "zhHant": "未羊"
+    },
+    "names": [
+      "未羊"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "未羊",
+        "zhHant": "未羊"
+      }
+    ],
+    "ids": [
+      "4090"
+    ],
+    "sourceNames": [
+      "未羊"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "未羊",
+        "zhHant": "未羊"
+      }
+    ],
+    "sourceIds": [
+      "4090"
+    ],
+    "searchNames": [
+      "weiyang",
+      "未羊"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/weiyang/groups/dead.json"
+      },
+      {
+        "slug": "spell-1208",
+        "name": "未羊",
+        "displayName": {
+          "zhHans": "未羊",
+          "zhHant": "未羊"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/weiyang/groups/spell-1208.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/weiyang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/weiyang.json",
+      "groups": "api/v1/tts/characters/weiyang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/weiyang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/weiyang/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "weiyang--4090weiyang--1dead01",
+      "resourceId": "4090weiyang/1dead01",
+      "text": "看不到青草翠绿时……",
+      "textLocalized": {
+        "zhHans": "看不到青草翠绿时……",
+        "zhHant": "看不到青草翠綠時……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4090weiyang-a83bb5ed/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4090weiyang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

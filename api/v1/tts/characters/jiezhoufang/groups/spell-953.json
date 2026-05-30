@@ -1,3 +1,415 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:146d964c1a00a79e47b1bbd3cd94420e4751fc0812716d89663648b07d66e337
-size 11807
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiezhoufang",
+    "command": "jiezhoufang",
+    "name": "周鲂",
+    "displayName": {
+      "zhHans": "周鲂",
+      "zhHant": "周魴"
+    },
+    "names": [
+      "周鲂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周鲂",
+        "zhHant": "周魴"
+      }
+    ],
+    "ids": [
+      "468"
+    ],
+    "sourceNames": [
+      "周鲂"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周鲂",
+        "zhHant": "周魴"
+      }
+    ],
+    "sourceIds": [
+      "468"
+    ],
+    "searchNames": [
+      "jiezhoufang",
+      "周鲂",
+      "周魴"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/groups/dead.json"
+      },
+      {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/groups/spell-953.json"
+      },
+      {
+        "slug": "spell-954",
+        "name": "断发",
+        "displayName": {
+          "zhHans": "断发",
+          "zhHant": "斷髮"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/groups/spell-954.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-46802",
+        "name": "书笺诱休",
+        "displayName": {
+          "zhHans": "书笺诱休",
+          "zhHant": "書箋誘休"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/skins/skin-46802.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46803",
+        "name": "带军鄱阳",
+        "displayName": {
+          "zhHans": "带军鄱阳",
+          "zhHant": "帶軍鄱陽"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/skins/skin-46803.json"
+      },
+      {
+        "slug": "skin-46801",
+        "name": "笺书诱敌",
+        "displayName": {
+          "zhHans": "笺书诱敌",
+          "zhHant": "箋書誘敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/skins/skin-46801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiezhoufang.json",
+      "groups": "api/v1/tts/characters/jiezhoufang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiezhoufang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-953",
+    "name": "诱敌",
+    "displayName": {
+      "zhHans": "诱敌",
+      "zhHant": "誘敵"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/jiezhoufang/groups/spell-953.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "jiezhoufang--468jiezhoufang--3skill1_1",
+      "resourceId": "468jiezhoufang/3skill1_1",
+      "text": "东吴逼人太甚，请曹公救我于苦海。",
+      "textLocalized": {
+        "zhHans": "东吴逼人太甚，请曹公救我于苦海。",
+        "zhHant": "東吳逼人太甚，請曹公救我於苦海。"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46802",
+          "name": "书笺诱休",
+          "displayName": {
+            "zhHans": "书笺诱休",
+            "zhHant": "書箋誘休"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--3skill1_2",
+      "resourceId": "468jiezhoufang/3skill1_2",
+      "text": "吾慕大魏久矣。",
+      "textLocalized": {
+        "zhHans": "吾慕大魏久矣。",
+        "zhHant": "吾慕大魏久矣。"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46802",
+          "name": "书笺诱休",
+          "displayName": {
+            "zhHans": "书笺诱休",
+            "zhHant": "書箋誘休"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--1skill1_1",
+      "resourceId": "468jiezhoufang/1skill1_1",
+      "text": "笺书七条，足以表我归降之心。",
+      "textLocalized": {
+        "zhHans": "笺书七条，足以表我归降之心。",
+        "zhHant": "箋書七條，足以表我歸降之心。"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--1skill1_2",
+      "resourceId": "468jiezhoufang/1skill1_2",
+      "text": "东吴已容不下我，愿降以保周全。",
+      "textLocalized": {
+        "zhHans": "东吴已容不下我，愿降以保周全。",
+        "zhHant": "東吳已容不下我，願降以保周全。"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--4skill1_1",
+      "resourceId": "468jiezhoufang/4skill1_1",
+      "text": "投魏弃吴，此为明智之举。",
+      "textLocalized": {
+        "zhHans": "投魏弃吴，此为明智之举。",
+        "zhHant": "投魏棄吳，此爲明智之舉。"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46803",
+          "name": "带军鄱阳",
+          "displayName": {
+            "zhHans": "带军鄱阳",
+            "zhHant": "帶軍鄱陽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--4skill1_2",
+      "resourceId": "468jiezhoufang/4skill1_2",
+      "text": "吾之心意，抒在笺书七条间。",
+      "textLocalized": {
+        "zhHans": "吾之心意，抒在笺书七条间。",
+        "zhHant": "吾之心意，抒在箋書七條間。"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46803",
+          "name": "带军鄱阳",
+          "displayName": {
+            "zhHans": "带军鄱阳",
+            "zhHant": "帶軍鄱陽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--2skill1_1",
+      "resourceId": "468jiezhoufang/2skill1_1",
+      "text": "抛砖引玉，黄雀捕蝉",
+      "textLocalized": {
+        "zhHans": "抛砖引玉，黄雀捕蝉",
+        "zhHant": "拋磚引玉，黃雀捕蟬"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46801",
+          "name": "笺书诱敌",
+          "displayName": {
+            "zhHans": "笺书诱敌",
+            "zhHant": "箋書誘敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--2skill1_2",
+      "resourceId": "468jiezhoufang/2skill1_2",
+      "text": "引蛇出洞，诱敌入伏！",
+      "textLocalized": {
+        "zhHans": "引蛇出洞，诱敌入伏！",
+        "zhHant": "引蛇出洞，誘敵入伏！"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46801",
+          "name": "笺书诱敌",
+          "displayName": {
+            "zhHans": "笺书诱敌",
+            "zhHant": "箋書誘敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,164 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:579313ff609e3ab00cf240570b568e25927172fbdc814da4462be97b4c3ecaad
-size 4064
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yadan",
+    "command": "yadan",
+    "name": "雅丹",
+    "displayName": {
+      "zhHans": "雅丹",
+      "zhHant": "雅丹"
+    },
+    "names": [
+      "雅丹"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "雅丹",
+        "zhHant": "雅丹"
+      }
+    ],
+    "ids": [
+      "579"
+    ],
+    "sourceNames": [
+      "雅丹"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "雅丹",
+        "zhHant": "雅丹"
+      }
+    ],
+    "sourceIds": [
+      "579"
+    ],
+    "searchNames": [
+      "yadan",
+      "雅丹"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/yadan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3363",
+        "name": "倾轧",
+        "displayName": {
+          "zhHans": "倾轧",
+          "zhHant": "傾軋"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yadan/groups/spell-3363.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yadan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yadan.json",
+      "groups": "api/v1/tts/characters/yadan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yadan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3363",
+    "name": "倾轧",
+    "displayName": {
+      "zhHans": "倾轧",
+      "zhHant": "傾軋"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/yadan/groups/spell-3363.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "yadan--579yadan--1skill1_1",
+      "resourceId": "579yadan/1skill1_1",
+      "text": "罡风从虎，威震四方。",
+      "textLocalized": {
+        "zhHans": "罡风从虎，威震四方。",
+        "zhHant": "罡風從虎，威震四方。"
+      },
+      "group": {
+        "slug": "spell-3363",
+        "name": "倾轧",
+        "displayName": {
+          "zhHans": "倾轧",
+          "zhHant": "傾軋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/579yadan-74795053/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/579yadan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yadan--579yadan--1skill1_2",
+      "resourceId": "579yadan/1skill1_2",
+      "text": "铁车过处，寸草不生。",
+      "textLocalized": {
+        "zhHans": "铁车过处，寸草不生。",
+        "zhHant": "鐵車過處，寸草不生。"
+      },
+      "group": {
+        "slug": "spell-3363",
+        "name": "倾轧",
+        "displayName": {
+          "zhHans": "倾轧",
+          "zhHant": "傾軋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/579yadan-74795053/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/579yadan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

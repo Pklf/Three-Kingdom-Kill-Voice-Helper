@@ -1,3 +1,184 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7e1f7034ba3796feb7d154839887be8e7b8b814d2015a76d0176c973e089f661
-size 4654
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tianyu",
+    "command": "tianyu",
+    "name": "田豫",
+    "displayName": {
+      "zhHans": "田豫",
+      "zhHant": "田豫"
+    },
+    "names": [
+      "田豫"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "田豫",
+        "zhHant": "田豫"
+      }
+    ],
+    "ids": [
+      "493"
+    ],
+    "sourceNames": [
+      "田豫"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "田豫",
+        "zhHant": "田豫"
+      }
+    ],
+    "sourceIds": [
+      "493"
+    ],
+    "searchNames": [
+      "tianyu",
+      "田豫"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/tianyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3074",
+        "name": "扫狄",
+        "displayName": {
+          "zhHans": "扫狄",
+          "zhHant": "掃狄"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tianyu/groups/spell-3074.json"
+      },
+      {
+        "slug": "spell-3075",
+        "name": "追讨",
+        "displayName": {
+          "zhHans": "追讨",
+          "zhHant": "追討"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tianyu/groups/spell-3075.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49301",
+        "name": "奋军镇北",
+        "displayName": {
+          "zhHans": "奋军镇北",
+          "zhHant": "奮軍鎮北"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianyu/skins/skin-49301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tianyu.json",
+      "groups": "api/v1/tts/characters/tianyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tianyu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/tianyu/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "tianyu--493tianyu--1dead01",
+      "resourceId": "493tianyu/1dead01",
+      "text": "命数之沙，已尽矣……",
+      "textLocalized": {
+        "zhHans": "命数之沙，已尽矣……",
+        "zhHant": "命數之沙，已盡矣……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianyu--493tianyu--2dead01",
+      "resourceId": "493tianyu/2dead01",
+      "text": "北风呼啸起，可怜无卫霍。",
+      "textLocalized": {
+        "zhHans": "北风呼啸起，可怜无卫霍。",
+        "zhHant": "北風呼嘯起，可憐無衛霍。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49301",
+          "name": "奋军镇北",
+          "displayName": {
+            "zhHans": "奋军镇北",
+            "zhHant": "奮軍鎮北"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

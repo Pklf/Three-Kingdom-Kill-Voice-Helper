@@ -1,3 +1,452 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae67acea95c3b614dd9de246a22b10ba377244f7e6337103734a6f6bee04ed1f
-size 12478
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhurong",
+    "command": "zhurong",
+    "name": "祝融",
+    "displayName": {
+      "zhHans": "祝融",
+      "zhHant": "祝融"
+    },
+    "names": [
+      "祝融",
+      "界祝融"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "祝融",
+        "zhHant": "祝融"
+      },
+      {
+        "zhHans": "界祝融",
+        "zhHant": "界祝融"
+      }
+    ],
+    "ids": [
+      "46",
+      "479"
+    ],
+    "sourceNames": [
+      "祝融",
+      "界祝融"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "祝融",
+        "zhHant": "祝融"
+      },
+      {
+        "zhHans": "界祝融",
+        "zhHant": "界祝融"
+      }
+    ],
+    "sourceIds": [
+      "46",
+      "479"
+    ],
+    "searchNames": [
+      "zhurong",
+      "祝融",
+      "界祝融"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/groups/dead.json"
+      },
+      {
+        "slug": "spell-113",
+        "name": "巨象",
+        "displayName": {
+          "zhHans": "巨象",
+          "zhHant": "巨象"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhurong/groups/spell-113.json"
+      },
+      {
+        "slug": "spell-114",
+        "name": "烈刃",
+        "displayName": {
+          "zhHans": "烈刃",
+          "zhHant": "烈刃"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhurong/groups/spell-114.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-4608",
+        "name": "年意融寒",
+        "displayName": {
+          "zhHans": "年意融寒",
+          "zhHant": "年意融寒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4608.json"
+      },
+      {
+        "slug": "skin-4609",
+        "name": "弯刀挥敌",
+        "displayName": {
+          "zhHans": "弯刀挥敌",
+          "zhHant": "彎刀揮敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4609.json"
+      },
+      {
+        "slug": "skin-4606",
+        "name": "浴火蛮神",
+        "displayName": {
+          "zhHans": "浴火蛮神",
+          "zhHant": "浴火蠻神"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4606.json"
+      },
+      {
+        "slug": "skin-4603",
+        "name": "火神转世",
+        "displayName": {
+          "zhHans": "火神转世",
+          "zhHant": "火神轉世"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4603.json"
+      },
+      {
+        "slug": "skin-4605",
+        "name": "绝色南蛮",
+        "displayName": {
+          "zhHans": "绝色南蛮",
+          "zhHant": "絕色南蠻"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4605.json"
+      },
+      {
+        "slug": "skin-4605-4609",
+        "name": "绝色南蛮,弯刀挥敌",
+        "displayName": {
+          "zhHans": "绝色南蛮,弯刀挥敌",
+          "zhHant": "絕色南蠻,彎刀揮敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4605-4609.json"
+      },
+      {
+        "slug": "skin-4601",
+        "name": "野性女王",
+        "displayName": {
+          "zhHans": "野性女王",
+          "zhHant": "野性女王"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4601.json"
+      },
+      {
+        "slug": "skin-4601-4603",
+        "name": "野性女王,火神转世",
+        "displayName": {
+          "zhHans": "野性女王,火神转世",
+          "zhHant": "野性女王,火神轉世"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4601-4603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhurong.json",
+      "groups": "api/v1/tts/characters/zhurong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhurong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-4601",
+    "name": "野性女王",
+    "displayName": {
+      "zhHans": "野性女王",
+      "zhHant": "野性女王"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4601.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhurong--46zhurong--3dead01",
+      "resourceId": "46zhurong/3dead01",
+      "text": "全交给……大王了！",
+      "textLocalized": {
+        "zhHans": "全交给……大王了！",
+        "zhHant": "全交給……大王了！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4603",
+          "name": "火神转世",
+          "displayName": {
+            "zhHans": "火神转世",
+            "zhHant": "火神轉世"
+          }
+        },
+        {
+          "slug": "skin-4601",
+          "name": "野性女王",
+          "displayName": {
+            "zhHans": "野性女王",
+            "zhHant": "野性女王"
+          }
+        },
+        {
+          "slug": "skin-4601-4603",
+          "name": "野性女王,火神转世",
+          "displayName": {
+            "zhHans": "野性女王,火神转世",
+            "zhHant": "野性女王,火神轉世"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhurong--46zhurong--3skill1_1",
+      "resourceId": "46zhurong/3skill1_1",
+      "text": "大象很厉害吧！",
+      "textLocalized": {
+        "zhHans": "大象很厉害吧！",
+        "zhHant": "大象很厲害吧！"
+      },
+      "group": {
+        "slug": "spell-113",
+        "name": "巨象",
+        "displayName": {
+          "zhHans": "巨象",
+          "zhHant": "巨象"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4603",
+          "name": "火神转世",
+          "displayName": {
+            "zhHans": "火神转世",
+            "zhHant": "火神轉世"
+          }
+        },
+        {
+          "slug": "skin-4601",
+          "name": "野性女王",
+          "displayName": {
+            "zhHans": "野性女王",
+            "zhHant": "野性女王"
+          }
+        },
+        {
+          "slug": "skin-4601-4603",
+          "name": "野性女王,火神转世",
+          "displayName": {
+            "zhHans": "野性女王,火神转世",
+            "zhHant": "野性女王,火神轉世"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhurong--46zhurong--3skill1_2",
+      "resourceId": "46zhurong/3skill1_2",
+      "text": "象兵们，踏碎中原大地吧！",
+      "textLocalized": {
+        "zhHans": "象兵们，踏碎中原大地吧！",
+        "zhHant": "象兵們，踏碎中原大地吧！"
+      },
+      "group": {
+        "slug": "spell-113",
+        "name": "巨象",
+        "displayName": {
+          "zhHans": "巨象",
+          "zhHant": "巨象"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4603",
+          "name": "火神转世",
+          "displayName": {
+            "zhHans": "火神转世",
+            "zhHant": "火神轉世"
+          }
+        },
+        {
+          "slug": "skin-4601",
+          "name": "野性女王",
+          "displayName": {
+            "zhHans": "野性女王",
+            "zhHant": "野性女王"
+          }
+        },
+        {
+          "slug": "skin-4601-4603",
+          "name": "野性女王,火神转世",
+          "displayName": {
+            "zhHans": "野性女王,火神转世",
+            "zhHant": "野性女王,火神轉世"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhurong--46zhurong--3skill2_1",
+      "resourceId": "46zhurong/3skill2_1",
+      "text": "尝尝这南蛮之地的烈火之刃吧！",
+      "textLocalized": {
+        "zhHans": "尝尝这南蛮之地的烈火之刃吧！",
+        "zhHant": "嚐嚐這南蠻之地的烈火之刃吧！"
+      },
+      "group": {
+        "slug": "spell-114",
+        "name": "烈刃",
+        "displayName": {
+          "zhHans": "烈刃",
+          "zhHant": "烈刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4603",
+          "name": "火神转世",
+          "displayName": {
+            "zhHans": "火神转世",
+            "zhHant": "火神轉世"
+          }
+        },
+        {
+          "slug": "skin-4601",
+          "name": "野性女王",
+          "displayName": {
+            "zhHans": "野性女王",
+            "zhHant": "野性女王"
+          }
+        },
+        {
+          "slug": "skin-4601-4603",
+          "name": "野性女王,火神转世",
+          "displayName": {
+            "zhHans": "野性女王,火神转世",
+            "zhHant": "野性女王,火神轉世"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhurong--46zhurong--3skill2_2",
+      "resourceId": "46zhurong/3skill2_2",
+      "text": "在烈刃之下屈膝吧！",
+      "textLocalized": {
+        "zhHans": "在烈刃之下屈膝吧！",
+        "zhHant": "在烈刃之下屈膝吧！"
+      },
+      "group": {
+        "slug": "spell-114",
+        "name": "烈刃",
+        "displayName": {
+          "zhHans": "烈刃",
+          "zhHant": "烈刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4603",
+          "name": "火神转世",
+          "displayName": {
+            "zhHans": "火神转世",
+            "zhHant": "火神轉世"
+          }
+        },
+        {
+          "slug": "skin-4601",
+          "name": "野性女王",
+          "displayName": {
+            "zhHans": "野性女王",
+            "zhHant": "野性女王"
+          }
+        },
+        {
+          "slug": "skin-4601-4603",
+          "name": "野性女王,火神转世",
+          "displayName": {
+            "zhHans": "野性女王,火神转世",
+            "zhHant": "野性女王,火神轉世"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

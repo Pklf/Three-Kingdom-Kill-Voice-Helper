@@ -1,3 +1,139 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7fea2e6e2e6df7abf29f1ddee93f556429b42e72ae58cad651b02999f9f404be
-size 3449
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "songdiwang",
+    "command": "songdiwang",
+    "name": "宋帝王",
+    "displayName": {
+      "zhHans": "宋帝王",
+      "zhHant": "宋帝王"
+    },
+    "names": [
+      "宋帝王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "宋帝王",
+        "zhHant": "宋帝王"
+      }
+    ],
+    "ids": [
+      "4502"
+    ],
+    "sourceNames": [
+      "宋帝王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "宋帝王",
+        "zhHant": "宋帝王"
+      }
+    ],
+    "sourceIds": [
+      "4502"
+    ],
+    "searchNames": [
+      "songdiwang",
+      "宋帝王"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "spell-1284",
+        "name": "绳缚",
+        "displayName": {
+          "zhHans": "绳缚",
+          "zhHant": "繩縛"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/songdiwang/groups/spell-1284.json"
+      },
+      {
+        "slug": "spell-1285",
+        "name": "黑绳",
+        "displayName": {
+          "zhHans": "黑绳",
+          "zhHant": "黑繩"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/songdiwang/groups/spell-1285.json"
+      },
+      {
+        "slug": "spell-407",
+        "name": "恩怨",
+        "displayName": {
+          "zhHans": "恩怨",
+          "zhHant": "恩怨"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/songdiwang/groups/spell-407.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/songdiwang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/songdiwang.json",
+      "groups": "api/v1/tts/characters/songdiwang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/songdiwang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1284",
+    "name": "绳缚",
+    "displayName": {
+      "zhHans": "绳缚",
+      "zhHant": "繩縛"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/songdiwang/groups/spell-1284.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "songdiwang--4502songdiwang--1skill2_1",
+      "resourceId": "4502songdiwang/1skill2_1",
+      "text": "想跑？痴人说梦！",
+      "textLocalized": {
+        "zhHans": "想跑？痴人说梦！",
+        "zhHant": "想跑？癡人說夢！"
+      },
+      "group": {
+        "slug": "spell-1284",
+        "name": "绳缚",
+        "displayName": {
+          "zhHans": "绳缚",
+          "zhHant": "繩縛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4502songdiwang-985d263b/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4502songdiwang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

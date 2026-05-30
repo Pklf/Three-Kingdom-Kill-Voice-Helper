@@ -1,3 +1,165 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d64f1ab4cfaae2e8d0d8bf9c946193029da29dabec779e4d81f66b53e8e7e95c
-size 4204
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huangzhong",
+    "command": "huangzhong",
+    "name": "黄忠",
+    "displayName": {
+      "zhHans": "黄忠",
+      "zhHant": "黃忠"
+    },
+    "names": [
+      "黄忠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "黄忠",
+        "zhHant": "黃忠"
+      }
+    ],
+    "ids": [
+      "61"
+    ],
+    "sourceNames": [
+      "黄忠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "黄忠",
+        "zhHant": "黃忠"
+      }
+    ],
+    "sourceIds": [
+      "61"
+    ],
+    "searchNames": [
+      "huangzhong",
+      "黄忠",
+      "黃忠"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/huangzhong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3264-71",
+        "name": "烈弓",
+        "displayName": {
+          "zhHans": "烈弓",
+          "zhHant": "烈弓"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/huangzhong/groups/spell-3264-71.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huangzhong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huangzhong.json",
+      "groups": "api/v1/tts/characters/huangzhong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huangzhong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3264-71",
+    "name": "烈弓",
+    "displayName": {
+      "zhHans": "烈弓",
+      "zhHant": "烈弓"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/huangzhong/groups/spell-3264-71.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "huangzhong--61huangzhong--1skill1_1",
+      "resourceId": "61huangzhong/1skill1_1",
+      "text": "龙骨成镞[zú]，矢破苍穹。",
+      "textLocalized": {
+        "zhHans": "龙骨成镞[zú]，矢破苍穹。",
+        "zhHant": "龍骨成鏃[zú]，矢破蒼穹。"
+      },
+      "group": {
+        "slug": "spell-3264-71",
+        "name": "烈弓",
+        "displayName": {
+          "zhHans": "烈弓",
+          "zhHant": "烈弓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/61huangzhong-a560510d/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/61huangzhong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangzhong--61huangzhong--1skill1_2",
+      "resourceId": "61huangzhong/1skill1_2",
+      "text": "凤翎为羽，箭没坚城。",
+      "textLocalized": {
+        "zhHans": "凤翎为羽，箭没坚城。",
+        "zhHant": "鳳翎爲羽，箭沒堅城。"
+      },
+      "group": {
+        "slug": "spell-3264-71",
+        "name": "烈弓",
+        "displayName": {
+          "zhHans": "烈弓",
+          "zhHant": "烈弓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/61huangzhong-a560510d/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/61huangzhong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

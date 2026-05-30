@@ -1,3 +1,191 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3aa58a0cd9b8f541c2b472bfa66b87249ca24cfbb2d2a0cb35cfc5e41a379c65
-size 4930
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "macheng",
+    "command": "macheng",
+    "name": "马承",
+    "displayName": {
+      "zhHans": "马承",
+      "zhHant": "馬承"
+    },
+    "names": [
+      "马承"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "马承",
+        "zhHant": "馬承"
+      }
+    ],
+    "ids": [
+      "532"
+    ],
+    "sourceNames": [
+      "马承"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "马承",
+        "zhHant": "馬承"
+      }
+    ],
+    "sourceIds": [
+      "532"
+    ],
+    "searchNames": [
+      "macheng",
+      "马承",
+      "馬承"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/macheng/groups/dead.json"
+      },
+      {
+        "slug": "spell-3208",
+        "name": "骋烈",
+        "displayName": {
+          "zhHans": "骋烈",
+          "zhHant": "騁烈"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/macheng/groups/spell-3208.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/macheng/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/macheng.json",
+      "groups": "api/v1/tts/characters/macheng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/macheng/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "macheng--532macheng--1dead01",
+      "resourceId": "532macheng/1dead01",
+      "text": "儿有辱父祖之威名！",
+      "textLocalized": {
+        "zhHans": "儿有辱父祖之威名！",
+        "zhHant": "兒有辱父祖之威名！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/532macheng-c923cfa9/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/532macheng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "macheng--532macheng--1skill1_1",
+      "resourceId": "532macheng/1skill1_1",
+      "text": "策马逐金雕，跨鞍寻天狼！",
+      "textLocalized": {
+        "zhHans": "策马逐金雕，跨鞍寻天狼！",
+        "zhHant": "策馬逐金雕，跨鞍尋天狼！"
+      },
+      "group": {
+        "slug": "spell-3208",
+        "name": "骋烈",
+        "displayName": {
+          "zhHans": "骋烈",
+          "zhHant": "騁烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/532macheng-c923cfa9/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/532macheng/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "macheng--532macheng--1skill1_2",
+      "resourceId": "532macheng/1skill1_2",
+      "text": "铁蹄踏南北，烈马惊黄沙！",
+      "textLocalized": {
+        "zhHans": "铁蹄踏南北，烈马惊黄沙！",
+        "zhHant": "鐵蹄踏南北，烈馬驚黃沙！"
+      },
+      "group": {
+        "slug": "spell-3208",
+        "name": "骋烈",
+        "displayName": {
+          "zhHans": "骋烈",
+          "zhHant": "騁烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/532macheng-c923cfa9/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/532macheng/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,165 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3f55cae879d3436b8161cd4046c298b6b601b585306e5f7a8292e5909afba54a
-size 4177
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tianchou",
+    "command": "tianchou",
+    "name": "田畴",
+    "displayName": {
+      "zhHans": "田畴",
+      "zhHant": "田疇"
+    },
+    "names": [
+      "田畴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "田畴",
+        "zhHant": "田疇"
+      }
+    ],
+    "ids": [
+      "592"
+    ],
+    "sourceNames": [
+      "田畴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "田畴",
+        "zhHant": "田疇"
+      }
+    ],
+    "sourceIds": [
+      "592"
+    ],
+    "searchNames": [
+      "tianchou",
+      "田畴",
+      "田疇"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/tianchou/groups/dead.json"
+      },
+      {
+        "slug": "spell-3401",
+        "name": "善刀",
+        "displayName": {
+          "zhHans": "善刀",
+          "zhHant": "善刀"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/tianchou/groups/spell-3401.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/tianchou/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tianchou.json",
+      "groups": "api/v1/tts/characters/tianchou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tianchou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3401",
+    "name": "善刀",
+    "displayName": {
+      "zhHans": "善刀",
+      "zhHant": "善刀"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/tianchou/groups/spell-3401.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "tianchou--592tianchou--1skill1_1",
+      "resourceId": "592tianchou/1skill1_1",
+      "text": "君子藏器，待天时而动。",
+      "textLocalized": {
+        "zhHans": "君子藏器，待天时而动。",
+        "zhHant": "君子藏器，待天時而動。"
+      },
+      "group": {
+        "slug": "spell-3401",
+        "name": "善刀",
+        "displayName": {
+          "zhHans": "善刀",
+          "zhHant": "善刀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/592tianchou-a18d120c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/592tianchou/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianchou--592tianchou--1skill1_2",
+      "resourceId": "592tianchou/1skill1_2",
+      "text": "善刀而藏之，可解充栋之牛。",
+      "textLocalized": {
+        "zhHans": "善刀而藏之，可解充栋之牛。",
+        "zhHant": "善刀而藏之，可解充棟之牛。"
+      },
+      "group": {
+        "slug": "spell-3401",
+        "name": "善刀",
+        "displayName": {
+          "zhHans": "善刀",
+          "zhHant": "善刀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/592tianchou-a18d120c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/592tianchou/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

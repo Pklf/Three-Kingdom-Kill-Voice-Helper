@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a17f7ccad2b6e2fbc9a5f6705472c155c558e4c8856127b378b761c210ea9ac7
-size 7356
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xurong",
+    "command": "xurong",
+    "name": "徐荣",
+    "displayName": {
+      "zhHans": "徐荣",
+      "zhHant": "徐榮"
+    },
+    "names": [
+      "徐荣"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "徐荣",
+        "zhHant": "徐榮"
+      }
+    ],
+    "ids": [
+      "417"
+    ],
+    "sourceNames": [
+      "徐荣"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "徐荣",
+        "zhHant": "徐榮"
+      }
+    ],
+    "sourceIds": [
+      "417"
+    ],
+    "searchNames": [
+      "xurong",
+      "徐荣",
+      "徐榮"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xurong/groups/dead.json"
+      },
+      {
+        "slug": "spell-852",
+        "name": "凶镬",
+        "displayName": {
+          "zhHans": "凶镬",
+          "zhHant": "兇鑊"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xurong/groups/spell-852.json"
+      },
+      {
+        "slug": "spell-853",
+        "name": "杀绝",
+        "displayName": {
+          "zhHans": "杀绝",
+          "zhHant": "殺絕"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xurong/groups/spell-853.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-41703",
+        "name": "凶励杀绝",
+        "displayName": {
+          "zhHans": "凶励杀绝",
+          "zhHant": "兇勵殺絕"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xurong/skins/skin-41703.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xurong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41701",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xurong/skins/skin-41701.json"
+      },
+      {
+        "slug": "skin-41702",
+        "name": "镬惩俘兵",
+        "displayName": {
+          "zhHans": "镬惩俘兵",
+          "zhHant": "鑊懲俘兵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xurong/skins/skin-41702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xurong.json",
+      "groups": "api/v1/tts/characters/xurong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xurong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xurong/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xurong--417xurong--5dead01",
+      "resourceId": "417xurong/5dead01",
+      "text": "大丈夫，生当鼎食，死当鼎烹。",
+      "textLocalized": {
+        "zhHans": "大丈夫，生当鼎食，死当鼎烹。",
+        "zhHant": "大丈夫，生當鼎食，死當鼎烹。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41703",
+          "name": "凶励杀绝",
+          "displayName": {
+            "zhHans": "凶励杀绝",
+            "zhHant": "兇勵殺絕"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/417xurong-f1b98bd1/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/417xurong/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xurong--417xurong--1dead01",
+      "resourceId": "417xurong/1dead01",
+      "text": "此生无悔，心中无愧。",
+      "textLocalized": {
+        "zhHans": "此生无悔，心中无愧。",
+        "zhHant": "此生無悔，心中無愧。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/417xurong-f1b98bd1/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/417xurong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xurong--417xurong--3dead01",
+      "resourceId": "417xurong/3dead01",
+      "text": "吾血战沙场，少有败绩，却落魄至此。",
+      "textLocalized": {
+        "zhHans": "吾血战沙场，少有败绩，却落魄至此。",
+        "zhHant": "吾血戰沙場，少有敗績，卻落魄至此。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41701",
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/417xurong-f1b98bd1/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/417xurong/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xurong--417xurong--4dead01",
+      "resourceId": "417xurong/4dead01",
+      "text": "新丰之战，吾之末路。",
+      "textLocalized": {
+        "zhHans": "新丰之战，吾之末路。",
+        "zhHant": "新豐之戰，吾之末路。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41702",
+          "name": "镬惩俘兵",
+          "displayName": {
+            "zhHans": "镬惩俘兵",
+            "zhHant": "鑊懲俘兵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/417xurong-f1b98bd1/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/417xurong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

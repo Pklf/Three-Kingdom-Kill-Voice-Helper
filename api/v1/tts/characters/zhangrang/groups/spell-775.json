@@ -1,3 +1,537 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a49af170630be3f2675bbd380bb4ea5964569a8c6eb43bb8c7a66f95c8cecb46
-size 15629
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangrang",
+    "command": "zhangrang",
+    "name": "张让",
+    "displayName": {
+      "zhHans": "张让",
+      "zhHant": "張讓"
+    },
+    "names": [
+      "张让"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张让",
+        "zhHant": "張讓"
+      }
+    ],
+    "ids": [
+      "387"
+    ],
+    "sourceNames": [
+      "张让"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张让",
+        "zhHant": "張讓"
+      }
+    ],
+    "sourceIds": [
+      "387"
+    ],
+    "searchNames": [
+      "zhangrang",
+      "张让",
+      "張讓"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangrang/groups/dead.json"
+      },
+      {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhangrang/groups/spell-775.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-38707",
+        "name": "幕天修罗",
+        "displayName": {
+          "zhHans": "幕天修罗",
+          "zhHant": "幕天修羅"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38707.json"
+      },
+      {
+        "slug": "skin-38705",
+        "name": "投河陨命",
+        "displayName": {
+          "zhHans": "投河陨命",
+          "zhHant": "投河隕命"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38705.json"
+      },
+      {
+        "slug": "skin-38703",
+        "name": "浊乱海内",
+        "displayName": {
+          "zhHans": "浊乱海内",
+          "zhHant": "濁亂海內"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38703.json"
+      },
+      {
+        "slug": "skin-38704",
+        "name": "滔乱天常",
+        "displayName": {
+          "zhHans": "滔乱天常",
+          "zhHant": "滔亂天常"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38704.json"
+      },
+      {
+        "slug": "skin-38704-38705",
+        "name": "滔乱天常,投河陨命",
+        "displayName": {
+          "zhHans": "滔乱天常,投河陨命",
+          "zhHant": "滔亂天常,投河隕命"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38704-38705.json"
+      },
+      {
+        "slug": "skin-38701",
+        "name": "祸乱朝纲",
+        "displayName": {
+          "zhHans": "祸乱朝纲",
+          "zhHant": "禍亂朝綱"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangrang.json",
+      "groups": "api/v1/tts/characters/zhangrang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangrang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-775",
+    "name": "滔乱",
+    "displayName": {
+      "zhHans": "滔乱",
+      "zhHant": "滔亂"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/zhangrang/groups/spell-775.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "zhangrang--387zhangrang--1skill1_1",
+      "resourceId": "387zhangrang/1skill1_1",
+      "text": "国家承平，神器稳固，陛下勿忧。",
+      "textLocalized": {
+        "zhHans": "国家承平，神器稳固，陛下勿忧。",
+        "zhHant": "國家承平，神器穩固，陛下勿憂。"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--1skill1_2",
+      "resourceId": "387zhangrang/1skill1_2",
+      "text": "睁开你的眼睛看看，现在，是谁说了算？",
+      "textLocalized": {
+        "zhHans": "睁开你的眼睛看看，现在，是谁说了算？",
+        "zhHant": "睜開你的眼睛看看，現在，是誰說了算？"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--6skill1_1",
+      "resourceId": "387zhangrang/6skill1_1",
+      "text": "滔乱天常，侵夺朝威。",
+      "textLocalized": {
+        "zhHans": "滔乱天常，侵夺朝威。",
+        "zhHant": "滔亂天常，侵奪朝威。"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38707",
+          "name": "幕天修罗",
+          "displayName": {
+            "zhHans": "幕天修罗",
+            "zhHant": "幕天修羅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--6skill1_2",
+      "resourceId": "387zhangrang/6skill1_2",
+      "text": "天下滔乱，正宜专权。",
+      "textLocalized": {
+        "zhHans": "天下滔乱，正宜专权。",
+        "zhHant": "天下滔亂，正宜專權。"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38707",
+          "name": "幕天修罗",
+          "displayName": {
+            "zhHans": "幕天修罗",
+            "zhHant": "幕天修羅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--4skill1_1",
+      "resourceId": "387zhangrang/4skill1_1",
+      "text": "汉室动荡？莫来妖言惑众！",
+      "textLocalized": {
+        "zhHans": "汉室动荡？莫来妖言惑众！",
+        "zhHant": "漢室動盪？莫來妖言惑衆！"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38703",
+          "name": "浊乱海内",
+          "displayName": {
+            "zhHans": "浊乱海内",
+            "zhHant": "濁亂海內"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--4skill1_2",
+      "resourceId": "387zhangrang/4skill1_2",
+      "text": "自打洒家进宫以来，就独得皇上恩宠。",
+      "textLocalized": {
+        "zhHans": "自打洒家进宫以来，就独得皇上恩宠。",
+        "zhHant": "自打灑家進宮以來，就獨得皇上恩寵。"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38703",
+          "name": "浊乱海内",
+          "displayName": {
+            "zhHans": "浊乱海内",
+            "zhHant": "濁亂海內"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--5skill1_1",
+      "resourceId": "387zhangrang/5skill1_1",
+      "text": "要给陛下看的文书，先让我过目。",
+      "textLocalized": {
+        "zhHans": "要给陛下看的文书，先让我过目。",
+        "zhHant": "要給陛下看的文書，先讓我過目。"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38705",
+          "name": "投河陨命",
+          "displayName": {
+            "zhHans": "投河陨命",
+            "zhHant": "投河隕命"
+          }
+        },
+        {
+          "slug": "skin-38704",
+          "name": "滔乱天常",
+          "displayName": {
+            "zhHans": "滔乱天常",
+            "zhHant": "滔亂天常"
+          }
+        },
+        {
+          "slug": "skin-38704-38705",
+          "name": "滔乱天常,投河陨命",
+          "displayName": {
+            "zhHans": "滔乱天常,投河陨命",
+            "zhHant": "滔亂天常,投河隕命"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--5skill1_2",
+      "resourceId": "387zhangrang/5skill1_2",
+      "text": "哼，要想办事，不知道该找谁吗？",
+      "textLocalized": {
+        "zhHans": "哼，要想办事，不知道该找谁吗？",
+        "zhHant": "哼，要想辦事，不知道該找誰嗎？"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38705",
+          "name": "投河陨命",
+          "displayName": {
+            "zhHans": "投河陨命",
+            "zhHant": "投河隕命"
+          }
+        },
+        {
+          "slug": "skin-38704",
+          "name": "滔乱天常",
+          "displayName": {
+            "zhHans": "滔乱天常",
+            "zhHant": "滔亂天常"
+          }
+        },
+        {
+          "slug": "skin-38704-38705",
+          "name": "滔乱天常,投河陨命",
+          "displayName": {
+            "zhHans": "滔乱天常,投河陨命",
+            "zhHant": "滔亂天常,投河隕命"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--3skill1_1",
+      "resourceId": "387zhangrang/3skill1_1",
+      "text": "普天之下，没有洒家办不到的事。",
+      "textLocalized": {
+        "zhHans": "普天之下，没有洒家办不到的事。",
+        "zhHant": "普天之下，沒有灑家辦不到的事。"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38701",
+          "name": "祸乱朝纲",
+          "displayName": {
+            "zhHans": "祸乱朝纲",
+            "zhHant": "禍亂朝綱"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--3skill1_2",
+      "resourceId": "387zhangrang/3skill1_2",
+      "text": "只要我开心就好，哪管这天下洪水滔天！",
+      "textLocalized": {
+        "zhHans": "只要我开心就好，哪管这天下洪水滔天！",
+        "zhHant": "只要我開心就好，哪管這天下洪水滔天！"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38701",
+          "name": "祸乱朝纲",
+          "displayName": {
+            "zhHans": "祸乱朝纲",
+            "zhHant": "禍亂朝綱"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

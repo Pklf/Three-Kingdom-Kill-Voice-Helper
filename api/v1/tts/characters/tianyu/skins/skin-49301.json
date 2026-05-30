@@ -1,3 +1,289 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b9bbdb8be851ac7ca144d4ac5c16b3993023e9fd5960414deaca785b5447e09a
-size 7991
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tianyu",
+    "command": "tianyu",
+    "name": "田豫",
+    "displayName": {
+      "zhHans": "田豫",
+      "zhHant": "田豫"
+    },
+    "names": [
+      "田豫"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "田豫",
+        "zhHant": "田豫"
+      }
+    ],
+    "ids": [
+      "493"
+    ],
+    "sourceNames": [
+      "田豫"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "田豫",
+        "zhHant": "田豫"
+      }
+    ],
+    "sourceIds": [
+      "493"
+    ],
+    "searchNames": [
+      "tianyu",
+      "田豫"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/tianyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3074",
+        "name": "扫狄",
+        "displayName": {
+          "zhHans": "扫狄",
+          "zhHant": "掃狄"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tianyu/groups/spell-3074.json"
+      },
+      {
+        "slug": "spell-3075",
+        "name": "追讨",
+        "displayName": {
+          "zhHans": "追讨",
+          "zhHant": "追討"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tianyu/groups/spell-3075.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49301",
+        "name": "奋军镇北",
+        "displayName": {
+          "zhHans": "奋军镇北",
+          "zhHant": "奮軍鎮北"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianyu/skins/skin-49301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tianyu.json",
+      "groups": "api/v1/tts/characters/tianyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tianyu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-49301",
+    "name": "奋军镇北",
+    "displayName": {
+      "zhHans": "奋军镇北",
+      "zhHant": "奮軍鎮北"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/tianyu/skins/skin-49301.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "tianyu--493tianyu--2dead01",
+      "resourceId": "493tianyu/2dead01",
+      "text": "北风呼啸起，可怜无卫霍。",
+      "textLocalized": {
+        "zhHans": "北风呼啸起，可怜无卫霍。",
+        "zhHant": "北風呼嘯起，可憐無衛霍。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49301",
+          "name": "奋军镇北",
+          "displayName": {
+            "zhHans": "奋军镇北",
+            "zhHant": "奮軍鎮北"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianyu--493tianyu--2skill1_1",
+      "resourceId": "493tianyu/2skill1_1",
+      "text": "西北烽烟四起，且执雕弓北望。",
+      "textLocalized": {
+        "zhHans": "西北烽烟四起，且执雕弓北望。",
+        "zhHant": "西北烽煙四起，且執雕弓北望。"
+      },
+      "group": {
+        "slug": "spell-3074",
+        "name": "扫狄",
+        "displayName": {
+          "zhHans": "扫狄",
+          "zhHant": "掃狄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49301",
+          "name": "奋军镇北",
+          "displayName": {
+            "zhHans": "奋军镇北",
+            "zhHant": "奮軍鎮北"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianyu--493tianyu--2skill1_2",
+      "resourceId": "493tianyu/2skill1_2",
+      "text": "易水涛涛，濯我长剑以逐天狼。",
+      "textLocalized": {
+        "zhHans": "易水涛涛，濯我长剑以逐天狼。",
+        "zhHant": "易水濤濤，濯我長劍以逐天狼。"
+      },
+      "group": {
+        "slug": "spell-3074",
+        "name": "扫狄",
+        "displayName": {
+          "zhHans": "扫狄",
+          "zhHant": "掃狄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49301",
+          "name": "奋军镇北",
+          "displayName": {
+            "zhHans": "奋军镇北",
+            "zhHant": "奮軍鎮北"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianyu--493tianyu--2skill2_1",
+      "resourceId": "493tianyu/2skill2_1",
+      "text": "穷寇益追，绝不可放虎归山、留作后患。",
+      "textLocalized": {
+        "zhHans": "穷寇益追，绝不可放虎归山、留作后患。",
+        "zhHant": "窮寇益追，絕不可放虎歸山、留作後患。"
+      },
+      "group": {
+        "slug": "spell-3075",
+        "name": "追讨",
+        "displayName": {
+          "zhHans": "追讨",
+          "zhHant": "追討"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49301",
+          "name": "奋军镇北",
+          "displayName": {
+            "zhHans": "奋军镇北",
+            "zhHant": "奮軍鎮北"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianyu--493tianyu--2skill2_2",
+      "resourceId": "493tianyu/2skill2_2",
+      "text": "我有秘计，可缩地成寸、疾行击敌。",
+      "textLocalized": {
+        "zhHans": "我有秘计，可缩地成寸、疾行击敌。",
+        "zhHant": "我有祕計，可縮地成寸、疾行擊敵。"
+      },
+      "group": {
+        "slug": "spell-3075",
+        "name": "追讨",
+        "displayName": {
+          "zhHans": "追讨",
+          "zhHant": "追討"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49301",
+          "name": "奋军镇北",
+          "displayName": {
+            "zhHans": "奋军镇北",
+            "zhHant": "奮軍鎮北"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

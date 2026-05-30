@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:49448dd922ad67abfb8d57ec93cee52c380ee9f6d5c06f3121033245899ad4ac
-size 7459
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuncai",
+    "command": "xuncai",
+    "name": "族荀采",
+    "displayName": {
+      "zhHans": "族荀采",
+      "zhHant": "族荀採"
+    },
+    "names": [
+      "族荀采"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "ids": [
+      "524"
+    ],
+    "sourceNames": [
+      "族荀采"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "sourceIds": [
+      "524"
+    ],
+    "searchNames": [
+      "xuncai",
+      "族荀采",
+      "族荀採"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3171.json"
+      },
+      {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3172.json"
+      },
+      {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3173.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52401",
+        "name": "雅柔映采",
+        "displayName": {
+          "zhHans": "雅柔映采",
+          "zhHant": "雅柔映採"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-52401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuncai.json",
+      "groups": "api/v1/tts/characters/xuncai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuncai/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3171",
+    "name": "烈誓",
+    "displayName": {
+      "zhHans": "烈誓",
+      "zhHant": "烈誓"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3171.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xuncai--524xuncai--1skill1_1",
+      "resourceId": "524xuncai/1skill1_1",
+      "text": "拭刃为誓，女无二夫。",
+      "textLocalized": {
+        "zhHans": "拭刃为誓，女无二夫。",
+        "zhHant": "拭刃爲誓，女無二夫。"
+      },
+      "group": {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill1_2",
+      "resourceId": "524xuncai/1skill1_2",
+      "text": "霜刃证言，宁死不贰。",
+      "textLocalized": {
+        "zhHans": "霜刃证言，宁死不贰。",
+        "zhHant": "霜刃證言，寧死不貳。"
+      },
+      "group": {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--2skill1_1",
+      "resourceId": "524xuncai/2skill1_1",
+      "text": "闻士执三尺剑而节义，妾可执三寸刃而绝命乎？",
+      "textLocalized": {
+        "zhHans": "闻士执三尺剑而节义，妾可执三寸刃而绝命乎？",
+        "zhHant": "聞士執三尺劍而節義，妾可執三寸刃而絕命乎？"
+      },
+      "group": {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52401",
+          "name": "雅柔映采",
+          "displayName": {
+            "zhHans": "雅柔映采",
+            "zhHant": "雅柔映採"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--2skill1_2",
+      "resourceId": "524xuncai/2skill1_2",
+      "text": "愿以温血暖冷锋，愿以此命守贞良。",
+      "textLocalized": {
+        "zhHans": "愿以温血暖冷锋，愿以此命守贞良。",
+        "zhHant": "願以溫血暖冷鋒，願以此命守貞良。"
+      },
+      "group": {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52401",
+          "name": "雅柔映采",
+          "displayName": {
+            "zhHans": "雅柔映采",
+            "zhHant": "雅柔映採"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

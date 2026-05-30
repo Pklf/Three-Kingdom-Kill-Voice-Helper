@@ -1,3 +1,409 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fb3d20b5c15b340e4c3b1c26fbefb071d0a0df76753ba85eeba8b0d76ae9b72a
-size 11413
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "cenhun",
+    "command": "cenhun",
+    "name": "岑昏",
+    "displayName": {
+      "zhHans": "岑昏",
+      "zhHant": "岑昏"
+    },
+    "names": [
+      "岑昏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "岑昏",
+        "zhHant": "岑昏"
+      }
+    ],
+    "ids": [
+      "384"
+    ],
+    "sourceNames": [
+      "岑昏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "岑昏",
+        "zhHant": "岑昏"
+      }
+    ],
+    "sourceIds": [
+      "384"
+    ],
+    "searchNames": [
+      "cenhun",
+      "岑昏"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/cenhun/groups/dead.json"
+      },
+      {
+        "slug": "spell-769",
+        "name": "极奢",
+        "displayName": {
+          "zhHans": "极奢",
+          "zhHant": "極奢"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/cenhun/groups/spell-769.json"
+      },
+      {
+        "slug": "spell-770",
+        "name": "链祸",
+        "displayName": {
+          "zhHans": "链祸",
+          "zhHant": "鏈禍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/cenhun/groups/spell-770.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-38405",
+        "name": "敛财无厌",
+        "displayName": {
+          "zhHans": "敛财无厌",
+          "zhHant": "斂財無厭"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38405.json"
+      },
+      {
+        "slug": "skin-38403",
+        "name": "肆无忌惮",
+        "displayName": {
+          "zhHans": "肆无忌惮",
+          "zhHant": "肆無忌憚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38403.json"
+      },
+      {
+        "slug": "skin-38404",
+        "name": "铁锁封江",
+        "displayName": {
+          "zhHans": "铁锁封江",
+          "zhHant": "鐵鎖封江"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38404.json"
+      },
+      {
+        "slug": "skin-38401",
+        "name": "饕餮盛宴",
+        "displayName": {
+          "zhHans": "饕餮盛宴",
+          "zhHant": "饕餮盛宴"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38401.json"
+      },
+      {
+        "slug": "skin-38401-38403",
+        "name": "饕餮盛宴,肆无忌惮",
+        "displayName": {
+          "zhHans": "饕餮盛宴,肆无忌惮",
+          "zhHant": "饕餮盛宴,肆無忌憚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38401-38403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/cenhun.json",
+      "groups": "api/v1/tts/characters/cenhun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/cenhun/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-38403",
+    "name": "肆无忌惮",
+    "displayName": {
+      "zhHans": "肆无忌惮",
+      "zhHant": "肆無忌憚"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38403.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "cenhun--384cenhun--3dead01",
+      "resourceId": "384cenhun/3dead01",
+      "text": "铁打的楼船说翻就翻啊！",
+      "textLocalized": {
+        "zhHans": "铁打的楼船说翻就翻啊！",
+        "zhHant": "鐵打的樓船說翻就翻啊！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38403",
+          "name": "肆无忌惮",
+          "displayName": {
+            "zhHans": "肆无忌惮",
+            "zhHant": "肆無忌憚"
+          }
+        },
+        {
+          "slug": "skin-38401",
+          "name": "饕餮盛宴",
+          "displayName": {
+            "zhHans": "饕餮盛宴",
+            "zhHant": "饕餮盛宴"
+          }
+        },
+        {
+          "slug": "skin-38401-38403",
+          "name": "饕餮盛宴,肆无忌惮",
+          "displayName": {
+            "zhHans": "饕餮盛宴,肆无忌惮",
+            "zhHant": "饕餮盛宴,肆無忌憚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/384cenhun-64d1ab2f/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/384cenhun/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "cenhun--384cenhun--3skill1_1",
+      "resourceId": "384cenhun/3skill1_1",
+      "text": "这桌菜不合我心意，全部重做！",
+      "textLocalized": {
+        "zhHans": "这桌菜不合我心意，全部重做！",
+        "zhHant": "這桌菜不合我心意，全部重做！"
+      },
+      "group": {
+        "slug": "spell-769",
+        "name": "极奢",
+        "displayName": {
+          "zhHans": "极奢",
+          "zhHant": "極奢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38403",
+          "name": "肆无忌惮",
+          "displayName": {
+            "zhHans": "肆无忌惮",
+            "zhHant": "肆無忌憚"
+          }
+        },
+        {
+          "slug": "skin-38401",
+          "name": "饕餮盛宴",
+          "displayName": {
+            "zhHans": "饕餮盛宴",
+            "zhHant": "饕餮盛宴"
+          }
+        },
+        {
+          "slug": "skin-38401-38403",
+          "name": "饕餮盛宴,肆无忌惮",
+          "displayName": {
+            "zhHans": "饕餮盛宴,肆无忌惮",
+            "zhHant": "饕餮盛宴,肆無忌憚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/384cenhun-64d1ab2f/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/384cenhun/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "cenhun--384cenhun--3skill1_2",
+      "resourceId": "384cenhun/3skill1_2",
+      "text": "今日的美酒，为何要留到明日享用？",
+      "textLocalized": {
+        "zhHans": "今日的美酒，为何要留到明日享用？",
+        "zhHant": "今日的美酒，爲何要留到明日享用？"
+      },
+      "group": {
+        "slug": "spell-769",
+        "name": "极奢",
+        "displayName": {
+          "zhHans": "极奢",
+          "zhHant": "極奢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38403",
+          "name": "肆无忌惮",
+          "displayName": {
+            "zhHans": "肆无忌惮",
+            "zhHant": "肆無忌憚"
+          }
+        },
+        {
+          "slug": "skin-38401",
+          "name": "饕餮盛宴",
+          "displayName": {
+            "zhHans": "饕餮盛宴",
+            "zhHant": "饕餮盛宴"
+          }
+        },
+        {
+          "slug": "skin-38401-38403",
+          "name": "饕餮盛宴,肆无忌惮",
+          "displayName": {
+            "zhHans": "饕餮盛宴,肆无忌惮",
+            "zhHant": "饕餮盛宴,肆無忌憚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/384cenhun-64d1ab2f/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/384cenhun/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "cenhun--384cenhun--3skill2_1",
+      "resourceId": "384cenhun/3skill2_1",
+      "text": "这这这，怎么可能？",
+      "textLocalized": {
+        "zhHans": "这这这，怎么可能？",
+        "zhHant": "這這這，怎麼可能？"
+      },
+      "group": {
+        "slug": "spell-770",
+        "name": "链祸",
+        "displayName": {
+          "zhHans": "链祸",
+          "zhHant": "鏈禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38403",
+          "name": "肆无忌惮",
+          "displayName": {
+            "zhHans": "肆无忌惮",
+            "zhHant": "肆無忌憚"
+          }
+        },
+        {
+          "slug": "skin-38401",
+          "name": "饕餮盛宴",
+          "displayName": {
+            "zhHans": "饕餮盛宴",
+            "zhHant": "饕餮盛宴"
+          }
+        },
+        {
+          "slug": "skin-38401-38403",
+          "name": "饕餮盛宴,肆无忌惮",
+          "displayName": {
+            "zhHans": "饕餮盛宴,肆无忌惮",
+            "zhHant": "饕餮盛宴,肆無忌憚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/384cenhun-64d1ab2f/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/384cenhun/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "cenhun--384cenhun--3skill2_2",
+      "resourceId": "384cenhun/3skill2_2",
+      "text": "定是你们这些将士不出力！",
+      "textLocalized": {
+        "zhHans": "定是你们这些将士不出力！",
+        "zhHant": "定是你們這些將士不出力！"
+      },
+      "group": {
+        "slug": "spell-770",
+        "name": "链祸",
+        "displayName": {
+          "zhHans": "链祸",
+          "zhHant": "鏈禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38403",
+          "name": "肆无忌惮",
+          "displayName": {
+            "zhHans": "肆无忌惮",
+            "zhHant": "肆無忌憚"
+          }
+        },
+        {
+          "slug": "skin-38401",
+          "name": "饕餮盛宴",
+          "displayName": {
+            "zhHans": "饕餮盛宴",
+            "zhHant": "饕餮盛宴"
+          }
+        },
+        {
+          "slug": "skin-38401-38403",
+          "name": "饕餮盛宴,肆无忌惮",
+          "displayName": {
+            "zhHans": "饕餮盛宴,肆无忌惮",
+            "zhHant": "饕餮盛宴,肆無忌憚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/384cenhun-64d1ab2f/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/384cenhun/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

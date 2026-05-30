@@ -1,3 +1,298 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:063428aac90b418dc68f211b9d12965ad139d1668395331e43a80d492096041c
-size 8061
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lvkuanglvxiang",
+    "command": "lvkuanglvxiang",
+    "name": "吕旷吕翔",
+    "displayName": {
+      "zhHans": "吕旷吕翔",
+      "zhHant": "呂曠呂翔"
+    },
+    "names": [
+      "吕旷吕翔",
+      "4600"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "吕旷吕翔",
+        "zhHant": "呂曠呂翔"
+      },
+      {
+        "zhHans": "4600",
+        "zhHant": "4600"
+      }
+    ],
+    "ids": [
+      "434",
+      "4600"
+    ],
+    "sourceNames": [
+      "吕旷吕翔"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "吕旷吕翔",
+        "zhHant": "呂曠呂翔"
+      }
+    ],
+    "sourceIds": [
+      "434",
+      "4600"
+    ],
+    "searchNames": [
+      "lvkuanglvxiang",
+      "吕旷吕翔",
+      "呂曠呂翔",
+      "4600"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/groups/dead.json"
+      },
+      {
+        "slug": "spell-932",
+        "name": "齐攻",
+        "displayName": {
+          "zhHans": "齐攻",
+          "zhHant": "齊攻"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/groups/spell-932.json"
+      },
+      {
+        "slug": "spell-933",
+        "name": "列侯",
+        "displayName": {
+          "zhHans": "列侯",
+          "zhHant": "列侯"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/groups/spell-933.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43401",
+        "name": "扶危挽澜",
+        "displayName": {
+          "zhHans": "扶危挽澜",
+          "zhHant": "扶危挽瀾"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/skins/skin-43401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lvkuanglvxiang.json",
+      "groups": "api/v1/tts/characters/lvkuanglvxiang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lvkuanglvxiang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/lvkuanglvxiang/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "lvkuanglvxiang--434lvkuanglvxiang--1dead01",
+      "resourceId": "434lvkuanglvxiang/1dead01",
+      "text": "此处可是新野。",
+      "textLocalized": {
+        "zhHans": "此处可是新野。",
+        "zhHant": "此處可是新野。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/434lvkuanglvxiang-f6b983be/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/434lvkuanglvxiang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkuanglvxiang--434lvkuanglvxiang--1skill1_1",
+      "resourceId": "434lvkuanglvxiang/1skill1_1",
+      "text": "打虎亲兄弟！",
+      "textLocalized": {
+        "zhHans": "打虎亲兄弟！",
+        "zhHant": "打虎親兄弟！"
+      },
+      "group": {
+        "slug": "spell-932",
+        "name": "齐攻",
+        "displayName": {
+          "zhHans": "齐攻",
+          "zhHant": "齊攻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/434lvkuanglvxiang-f6b983be/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/434lvkuanglvxiang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkuanglvxiang--434lvkuanglvxiang--1skill1_2",
+      "resourceId": "434lvkuanglvxiang/1skill1_2",
+      "text": "兄弟齐心，其利断金！",
+      "textLocalized": {
+        "zhHans": "兄弟齐心，其利断金！",
+        "zhHant": "兄弟齊心，其利斷金！"
+      },
+      "group": {
+        "slug": "spell-932",
+        "name": "齐攻",
+        "displayName": {
+          "zhHans": "齐攻",
+          "zhHant": "齊攻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/434lvkuanglvxiang-f6b983be/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/434lvkuanglvxiang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkuanglvxiang--434lvkuanglvxiang--1skill2_1",
+      "resourceId": "434lvkuanglvxiang/1skill2_1",
+      "text": "识时务者为俊杰。",
+      "textLocalized": {
+        "zhHans": "识时务者为俊杰。",
+        "zhHant": "識時務者爲俊傑。"
+      },
+      "group": {
+        "slug": "spell-933",
+        "name": "列侯",
+        "displayName": {
+          "zhHans": "列侯",
+          "zhHant": "列侯"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/434lvkuanglvxiang-f6b983be/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/434lvkuanglvxiang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkuanglvxiang--434lvkuanglvxiang--1skill2_2",
+      "resourceId": "434lvkuanglvxiang/1skill2_2",
+      "text": "丞相有令，尔敢不从？",
+      "textLocalized": {
+        "zhHans": "丞相有令，尔敢不从？",
+        "zhHant": "丞相有令，爾敢不從？"
+      },
+      "group": {
+        "slug": "spell-933",
+        "name": "列侯",
+        "displayName": {
+          "zhHans": "列侯",
+          "zhHant": "列侯"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/434lvkuanglvxiang-f6b983be/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/434lvkuanglvxiang/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

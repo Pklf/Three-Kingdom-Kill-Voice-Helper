@@ -1,3 +1,470 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d23405b00622ce985c2f87182086ed3090a4030b9b55cb76b95bdbcbf674b6b5
-size 13405
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "jiecaochong",
+    "command": "jiecaochong",
+    "name": "界曹冲",
+    "displayName": {
+      "zhHans": "界曹冲",
+      "zhHant": "界曹衝"
+    },
+    "names": [
+      "界曹冲",
+      "曹冲"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界曹冲",
+        "zhHant": "界曹衝"
+      },
+      {
+        "zhHans": "曹冲",
+        "zhHant": "曹衝"
+      }
+    ],
+    "ids": [
+      "628",
+      "174"
+    ],
+    "sourceNames": [
+      "界曹冲",
+      "曹冲"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界曹冲",
+        "zhHant": "界曹衝"
+      },
+      {
+        "zhHans": "曹冲",
+        "zhHant": "曹衝"
+      }
+    ],
+    "sourceIds": [
+      "628",
+      "174"
+    ],
+    "searchNames": [
+      "jiecaochong",
+      "界曹冲",
+      "界曹衝",
+      "曹冲",
+      "曹衝"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiecaochong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3492",
+        "name": "称象",
+        "displayName": {
+          "zhHans": "称象",
+          "zhHant": "稱象"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiecaochong/groups/spell-3492.json"
+      },
+      {
+        "slug": "spell-3493",
+        "name": "仁心",
+        "displayName": {
+          "zhHans": "仁心",
+          "zhHant": "仁心"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiecaochong/groups/spell-3493.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaochong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-62801",
+        "name": "少年迟日",
+        "displayName": {
+          "zhHans": "少年迟日",
+          "zhHant": "少年遲日"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaochong/skins/skin-62801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiecaochong.json",
+      "groups": "api/v1/tts/characters/jiecaochong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiecaochong/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "jiecaochong--628jiecaochong--1dead01",
+      "resourceId": "628jiecaochong/1dead01",
+      "text": "性慧早夭，为之奈何？",
+      "textLocalized": {
+        "zhHans": "性慧早夭，为之奈何？",
+        "zhHant": "性慧早夭，爲之奈何？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaochong--628jiecaochong--2dead01",
+      "resourceId": "628jiecaochong/2dead01",
+      "text": "冲儿怕黑，封丘宜薄...",
+      "textLocalized": {
+        "zhHans": "冲儿怕黑，封丘宜薄...",
+        "zhHant": "衝兒怕黑，封丘宜薄..."
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-62801",
+          "name": "少年迟日",
+          "displayName": {
+            "zhHans": "少年迟日",
+            "zhHant": "少年遲日"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaochong--628jiecaochong--1skill1_1",
+      "resourceId": "628jiecaochong/1skill1_1",
+      "text": "谁知道称大象需要几步？",
+      "textLocalized": {
+        "zhHans": "谁知道称大象需要几步？",
+        "zhHant": "誰知道稱大象需要幾步？"
+      },
+      "group": {
+        "slug": "spell-3492",
+        "name": "称象",
+        "displayName": {
+          "zhHans": "称象",
+          "zhHant": "稱象"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaochong--628jiecaochong--1skill1_2",
+      "resourceId": "628jiecaochong/1skill1_2",
+      "text": "象虽大，然可并舟称之。",
+      "textLocalized": {
+        "zhHans": "象虽大，然可并舟称之。",
+        "zhHant": "象雖大，然可並舟稱之。"
+      },
+      "group": {
+        "slug": "spell-3492",
+        "name": "称象",
+        "displayName": {
+          "zhHans": "称象",
+          "zhHant": "稱象"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaochong--628jiecaochong--2skill1_1",
+      "resourceId": "628jiecaochong/2skill1_1",
+      "text": "枯坐学塾中，不知大象在舟否。",
+      "textLocalized": {
+        "zhHans": "枯坐学塾中，不知大象在舟否。",
+        "zhHant": "枯坐學塾中，不知大象在舟否。"
+      },
+      "group": {
+        "slug": "spell-3492",
+        "name": "称象",
+        "displayName": {
+          "zhHans": "称象",
+          "zhHant": "稱象"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-62801",
+          "name": "少年迟日",
+          "displayName": {
+            "zhHans": "少年迟日",
+            "zhHant": "少年遲日"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaochong--628jiecaochong--2skill1_2",
+      "resourceId": "628jiecaochong/2skill1_2",
+      "text": "休沐日短，又要听先生念叨之乎者也了。",
+      "textLocalized": {
+        "zhHans": "休沐日短，又要听先生念叨之乎者也了。",
+        "zhHant": "休沐日短，又要聽先生唸叨之乎者也了。"
+      },
+      "group": {
+        "slug": "spell-3492",
+        "name": "称象",
+        "displayName": {
+          "zhHans": "称象",
+          "zhHant": "稱象"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-62801",
+          "name": "少年迟日",
+          "displayName": {
+            "zhHans": "少年迟日",
+            "zhHant": "少年遲日"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaochong--628jiecaochong--1skill2_1",
+      "resourceId": "628jiecaochong/1skill2_1",
+      "text": "待三日中，然后自归。",
+      "textLocalized": {
+        "zhHans": "待三日中，然后自归。",
+        "zhHant": "待三日中，然後自歸。"
+      },
+      "group": {
+        "slug": "spell-3493",
+        "name": "仁心",
+        "displayName": {
+          "zhHans": "仁心",
+          "zhHant": "仁心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaochong--628jiecaochong--1skill2_2",
+      "resourceId": "628jiecaochong/1skill2_2",
+      "text": "王者仁心，尚性善之本。",
+      "textLocalized": {
+        "zhHans": "王者仁心，尚性善之本。",
+        "zhHant": "王者仁心，尚性善之本。"
+      },
+      "group": {
+        "slug": "spell-3493",
+        "name": "仁心",
+        "displayName": {
+          "zhHans": "仁心",
+          "zhHant": "仁心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaochong--628jiecaochong--2skill2_1",
+      "resourceId": "628jiecaochong/2skill2_1",
+      "text": "不疑的文书为黄犬所食，请先生开恩。",
+      "textLocalized": {
+        "zhHans": "不疑的文书为黄犬所食，请先生开恩。",
+        "zhHant": "不疑的文書爲黃犬所食，請先生開恩。"
+      },
+      "group": {
+        "slug": "spell-3493",
+        "name": "仁心",
+        "displayName": {
+          "zhHans": "仁心",
+          "zhHant": "仁心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-62801",
+          "name": "少年迟日",
+          "displayName": {
+            "zhHans": "少年迟日",
+            "zhHant": "少年遲日"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaochong--628jiecaochong--2skill2_2",
+      "resourceId": "628jiecaochong/2skill2_2",
+      "text": "先生所教的课业，冲儿已全背下了。",
+      "textLocalized": {
+        "zhHans": "先生所教的课业，冲儿已全背下了。",
+        "zhHant": "先生所教的課業，衝兒已全背下了。"
+      },
+      "group": {
+        "slug": "spell-3493",
+        "name": "仁心",
+        "displayName": {
+          "zhHans": "仁心",
+          "zhHant": "仁心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-62801",
+          "name": "少年迟日",
+          "displayName": {
+            "zhHans": "少年迟日",
+            "zhHant": "少年遲日"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/628jiecaochong-ecae0fd9/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/628jiecaochong/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

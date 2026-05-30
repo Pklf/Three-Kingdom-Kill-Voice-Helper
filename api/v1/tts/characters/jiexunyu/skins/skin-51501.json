@@ -1,3 +1,322 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ea1e35f05062cfb0c6d16bfbf9931ae7681b16ccc90c440924a792fcf5007156
-size 8784
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiexunyu",
+    "command": "jiexunyu",
+    "name": "界荀彧",
+    "displayName": {
+      "zhHans": "界荀彧",
+      "zhHant": "界荀彧"
+    },
+    "names": [
+      "界荀彧",
+      "荀彧"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界荀彧",
+        "zhHant": "界荀彧"
+      },
+      {
+        "zhHans": "荀彧",
+        "zhHant": "荀彧"
+      }
+    ],
+    "ids": [
+      "515",
+      "35"
+    ],
+    "sourceNames": [
+      "界荀彧",
+      "荀彧"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界荀彧",
+        "zhHant": "界荀彧"
+      },
+      {
+        "zhHans": "荀彧",
+        "zhHant": "荀彧"
+      }
+    ],
+    "sourceIds": [
+      "515",
+      "35"
+    ],
+    "searchNames": [
+      "jiexunyu",
+      "界荀彧",
+      "荀彧"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiexunyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiexunyu/groups/spell-3128.json"
+      },
+      {
+        "slug": "spell-92",
+        "name": "驱虎",
+        "displayName": {
+          "zhHans": "驱虎",
+          "zhHant": "驅虎"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiexunyu/groups/spell-92.json"
+      },
+      {
+        "slug": "spell-93-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiexunyu/groups/spell-93-3128.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-51502",
+        "name": "书剑定远",
+        "displayName": {
+          "zhHans": "书剑定远",
+          "zhHant": "書劍定遠"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiexunyu/skins/skin-51502.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiexunyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51501",
+        "name": "竹隐定局",
+        "displayName": {
+          "zhHans": "竹隐定局",
+          "zhHant": "竹隱定局"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiexunyu/skins/skin-51501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiexunyu.json",
+      "groups": "api/v1/tts/characters/jiexunyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiexunyu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-51501",
+    "name": "竹隐定局",
+    "displayName": {
+      "zhHans": "竹隐定局",
+      "zhHant": "竹隱定局"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jiexunyu/skins/skin-51501.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jiexunyu--515jiexunyu--2dead01",
+      "resourceId": "515jiexunyu/2dead01",
+      "text": "一生心血，尽付诸东流。",
+      "textLocalized": {
+        "zhHans": "一生心血，尽付诸东流。",
+        "zhHant": "一生心血，盡付諸東流。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51501",
+          "name": "竹隐定局",
+          "displayName": {
+            "zhHans": "竹隐定局",
+            "zhHant": "竹隱定局"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexunyu--515jiexunyu--2skill1_1",
+      "resourceId": "515jiexunyu/2skill1_1",
+      "text": "猛虎无谋，可以智相驱。",
+      "textLocalized": {
+        "zhHans": "猛虎无谋，可以智相驱。",
+        "zhHant": "猛虎無謀，可以智相驅。"
+      },
+      "group": {
+        "slug": "spell-92",
+        "name": "驱虎",
+        "displayName": {
+          "zhHans": "驱虎",
+          "zhHant": "驅虎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51501",
+          "name": "竹隐定局",
+          "displayName": {
+            "zhHans": "竹隐定局",
+            "zhHant": "竹隱定局"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexunyu--515jiexunyu--2skill1_2",
+      "resourceId": "515jiexunyu/2skill1_2",
+      "text": "贪狼少智，可以利相诱。",
+      "textLocalized": {
+        "zhHans": "贪狼少智，可以利相诱。",
+        "zhHant": "貪狼少智，可以利相誘。"
+      },
+      "group": {
+        "slug": "spell-92",
+        "name": "驱虎",
+        "displayName": {
+          "zhHans": "驱虎",
+          "zhHant": "驅虎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51501",
+          "name": "竹隐定局",
+          "displayName": {
+            "zhHans": "竹隐定局",
+            "zhHant": "竹隱定局"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexunyu--515jiexunyu--2skill2_1",
+      "resourceId": "515jiexunyu/2skill2_1",
+      "text": "秉忠义之节，怀抚定天下之志。",
+      "textLocalized": {
+        "zhHans": "秉忠义之节，怀抚定天下之志。",
+        "zhHant": "秉忠義之節，懷撫定天下之志。"
+      },
+      "group": {
+        "slug": "spell-93-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51501",
+          "name": "竹隐定局",
+          "displayName": {
+            "zhHans": "竹隐定局",
+            "zhHant": "竹隱定局"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexunyu--515jiexunyu--2skill2_2",
+      "resourceId": "515jiexunyu/2skill2_2",
+      "text": "蕴坚贞之意，行匡扶汉室之举。",
+      "textLocalized": {
+        "zhHans": "蕴坚贞之意，行匡扶汉室之举。",
+        "zhHant": "蘊堅貞之意，行匡扶漢室之舉。"
+      },
+      "group": {
+        "slug": "spell-93-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51501",
+          "name": "竹隐定局",
+          "displayName": {
+            "zhHans": "竹隐定局",
+            "zhHant": "竹隱定局"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

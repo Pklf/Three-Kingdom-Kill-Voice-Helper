@@ -1,3 +1,318 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4a4348e8a8b0f48c036eb8b4323d071116c2c0267b3ea06a449bac0810aadc27
-size 8617
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tianfeng",
+    "command": "tianfeng",
+    "name": "田丰",
+    "displayName": {
+      "zhHans": "田丰",
+      "zhHant": "田豐"
+    },
+    "names": [
+      "田丰",
+      "4078"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "田丰",
+        "zhHant": "田豐"
+      },
+      {
+        "zhHans": "4078",
+        "zhHant": "4078"
+      }
+    ],
+    "ids": [
+      "2057",
+      "4078"
+    ],
+    "sourceNames": [
+      "田丰"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "田丰",
+        "zhHant": "田豐"
+      }
+    ],
+    "sourceIds": [
+      "2057",
+      "4078"
+    ],
+    "searchNames": [
+      "tianfeng",
+      "田丰",
+      "田豐",
+      "4078"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tianfeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-2109",
+        "name": "死谏",
+        "displayName": {
+          "zhHans": "死谏",
+          "zhHant": "死諫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tianfeng/groups/spell-2109.json"
+      },
+      {
+        "slug": "spell-2110",
+        "name": "随势",
+        "displayName": {
+          "zhHans": "随势",
+          "zhHant": "隨勢"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tianfeng/groups/spell-2110.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-205703",
+        "name": "刚而谏上",
+        "displayName": {
+          "zhHans": "刚而谏上",
+          "zhHant": "剛而諫上"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205703.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205704",
+        "name": "直言被困",
+        "displayName": {
+          "zhHans": "直言被困",
+          "zhHant": "直言被困"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205704.json"
+      },
+      {
+        "slug": "skin-205701",
+        "name": "计权合变",
+        "displayName": {
+          "zhHans": "计权合变",
+          "zhHant": "計權合變"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tianfeng.json",
+      "groups": "api/v1/tts/characters/tianfeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tianfeng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-205701",
+    "name": "计权合变",
+    "displayName": {
+      "zhHans": "计权合变",
+      "zhHant": "計權合變"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205701.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "tianfeng--2057tianfeng--3dead01",
+      "resourceId": "2057tianfeng/3dead01",
+      "text": "主庸臣佞[nìng]，难逃一败……",
+      "textLocalized": {
+        "zhHans": "主庸臣佞[nìng]，难逃一败……",
+        "zhHant": "主庸臣佞[nìng]，難逃一敗……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205701",
+          "name": "计权合变",
+          "displayName": {
+            "zhHans": "计权合变",
+            "zhHant": "計權合變"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--3skill1_1",
+      "resourceId": "2057tianfeng/3skill1_1",
+      "text": "秉忠而谏，何惧一死。",
+      "textLocalized": {
+        "zhHans": "秉忠而谏，何惧一死。",
+        "zhHant": "秉忠而諫，何懼一死。"
+      },
+      "group": {
+        "slug": "spell-2109",
+        "name": "死谏",
+        "displayName": {
+          "zhHans": "死谏",
+          "zhHant": "死諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205701",
+          "name": "计权合变",
+          "displayName": {
+            "zhHans": "计权合变",
+            "zhHant": "計權合變"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--3skill1_2",
+      "resourceId": "2057tianfeng/3skill1_2",
+      "text": "我，已经一无所有了。",
+      "textLocalized": {
+        "zhHans": "我，已经一无所有了。",
+        "zhHant": "我，已經一無所有了。"
+      },
+      "group": {
+        "slug": "spell-2109",
+        "name": "死谏",
+        "displayName": {
+          "zhHans": "死谏",
+          "zhHant": "死諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205701",
+          "name": "计权合变",
+          "displayName": {
+            "zhHans": "计权合变",
+            "zhHant": "計權合變"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--3skill2_1",
+      "resourceId": "2057tianfeng/3skill2_1",
+      "text": "败，则一身不保。",
+      "textLocalized": {
+        "zhHans": "败，则一身不保。",
+        "zhHant": "敗，則一身不保。"
+      },
+      "group": {
+        "slug": "spell-2110",
+        "name": "随势",
+        "displayName": {
+          "zhHans": "随势",
+          "zhHant": "隨勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205701",
+          "name": "计权合变",
+          "displayName": {
+            "zhHans": "计权合变",
+            "zhHant": "計權合變"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--3skill2_2",
+      "resourceId": "2057tianfeng/3skill2_2",
+      "text": "胜，则无威不加。",
+      "textLocalized": {
+        "zhHans": "胜，则无威不加。",
+        "zhHant": "勝，則無威不加。"
+      },
+      "group": {
+        "slug": "spell-2110",
+        "name": "随势",
+        "displayName": {
+          "zhHans": "随势",
+          "zhHant": "隨勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205701",
+          "name": "计权合变",
+          "displayName": {
+            "zhHans": "计权合变",
+            "zhHant": "計權合變"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

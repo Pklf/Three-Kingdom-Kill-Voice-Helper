@@ -1,3 +1,376 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:79bc28cf9c7e2387aa844d2db16e55f821c4c8c71cd9db73a07c8eccdc01ce3d
-size 10453
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wenpin",
+    "command": "wenpin",
+    "name": "文聘",
+    "displayName": {
+      "zhHans": "文聘",
+      "zhHant": "文聘"
+    },
+    "names": [
+      "文聘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "文聘",
+        "zhHant": "文聘"
+      }
+    ],
+    "ids": [
+      "136"
+    ],
+    "sourceNames": [
+      "文聘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "文聘",
+        "zhHant": "文聘"
+      }
+    ],
+    "sourceIds": [
+      "136"
+    ],
+    "searchNames": [
+      "wenpin",
+      "文聘"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/groups/dead.json"
+      },
+      {
+        "slug": "spell-248-504",
+        "name": "镇卫",
+        "displayName": {
+          "zhHans": "镇卫",
+          "zhHant": "鎮衛"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wenpin/groups/spell-248-504.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-13603",
+        "name": "勇者不惧",
+        "displayName": {
+          "zhHans": "勇者不惧",
+          "zhHant": "勇者不懼"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-13603.json"
+      },
+      {
+        "slug": "skin-13603-13604",
+        "name": "勇者不惧,江夏铁壁",
+        "displayName": {
+          "zhHans": "勇者不惧,江夏铁壁",
+          "zhHant": "勇者不懼,江夏鐵壁"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-13603-13604.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-13604",
+        "name": "江夏铁壁",
+        "displayName": {
+          "zhHans": "江夏铁壁",
+          "zhHant": "江夏鐵壁"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-13604.json"
+      },
+      {
+        "slug": "skin-13602",
+        "name": "镇卫江夏",
+        "displayName": {
+          "zhHans": "镇卫江夏",
+          "zhHant": "鎮衛江夏"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-13602.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wenpin.json",
+      "groups": "api/v1/tts/characters/wenpin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wenpin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-248-504",
+    "name": "镇卫",
+    "displayName": {
+      "zhHans": "镇卫",
+      "zhHant": "鎮衛"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/wenpin/groups/spell-248-504.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "wenpin--136wenpin--4skill1_1",
+      "resourceId": "136wenpin/4skill1_1",
+      "text": "哼！有本事就冲我来吧！",
+      "textLocalized": {
+        "zhHans": "哼！有本事就冲我来吧！",
+        "zhHant": "哼！有本事就衝我來吧！"
+      },
+      "group": {
+        "slug": "spell-248-504",
+        "name": "镇卫",
+        "displayName": {
+          "zhHans": "镇卫",
+          "zhHant": "鎮衛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-13603",
+          "name": "勇者不惧",
+          "displayName": {
+            "zhHans": "勇者不惧",
+            "zhHant": "勇者不懼"
+          }
+        },
+        {
+          "slug": "skin-13604",
+          "name": "江夏铁壁",
+          "displayName": {
+            "zhHans": "江夏铁壁",
+            "zhHant": "江夏鐵壁"
+          }
+        },
+        {
+          "slug": "skin-13603-13604",
+          "name": "勇者不惧,江夏铁壁",
+          "displayName": {
+            "zhHans": "勇者不惧,江夏铁壁",
+            "zhHant": "勇者不懼,江夏鐵壁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/136wenpin-8f962221/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/136wenpin/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenpin--136wenpin--4skill1_2",
+      "resourceId": "136wenpin/4skill1_2",
+      "text": "某在此镇守，尔等莫要再来献丑！",
+      "textLocalized": {
+        "zhHans": "某在此镇守，尔等莫要再来献丑！",
+        "zhHant": "某在此鎮守，爾等莫要再來獻醜！"
+      },
+      "group": {
+        "slug": "spell-248-504",
+        "name": "镇卫",
+        "displayName": {
+          "zhHans": "镇卫",
+          "zhHant": "鎮衛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-13603",
+          "name": "勇者不惧",
+          "displayName": {
+            "zhHans": "勇者不惧",
+            "zhHant": "勇者不懼"
+          }
+        },
+        {
+          "slug": "skin-13604",
+          "name": "江夏铁壁",
+          "displayName": {
+            "zhHans": "江夏铁壁",
+            "zhHant": "江夏鐵壁"
+          }
+        },
+        {
+          "slug": "skin-13603-13604",
+          "name": "勇者不惧,江夏铁壁",
+          "displayName": {
+            "zhHans": "勇者不惧,江夏铁壁",
+            "zhHant": "勇者不懼,江夏鐵壁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/136wenpin-8f962221/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/136wenpin/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenpin--136wenpin--1skill1_1",
+      "resourceId": "136wenpin/1skill1_1",
+      "text": "再敢来犯，仍叫你无功而返！",
+      "textLocalized": {
+        "zhHans": "再敢来犯，仍叫你无功而返！",
+        "zhHant": "再敢來犯，仍叫你無功而返！"
+      },
+      "group": {
+        "slug": "spell-248-504",
+        "name": "镇卫",
+        "displayName": {
+          "zhHans": "镇卫",
+          "zhHant": "鎮衛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/136wenpin-8f962221/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/136wenpin/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenpin--136wenpin--1skill1_2",
+      "resourceId": "136wenpin/1skill1_2",
+      "text": "江夏防线，固若金汤！",
+      "textLocalized": {
+        "zhHans": "江夏防线，固若金汤！",
+        "zhHant": "江夏防線，固若金湯！"
+      },
+      "group": {
+        "slug": "spell-248-504",
+        "name": "镇卫",
+        "displayName": {
+          "zhHans": "镇卫",
+          "zhHant": "鎮衛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/136wenpin-8f962221/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/136wenpin/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenpin--136wenpin--3skill1_1",
+      "resourceId": "136wenpin/3skill1_1",
+      "text": "我来奉陪。",
+      "textLocalized": {
+        "zhHans": "我来奉陪。",
+        "zhHant": "我來奉陪。"
+      },
+      "group": {
+        "slug": "spell-248-504",
+        "name": "镇卫",
+        "displayName": {
+          "zhHans": "镇卫",
+          "zhHant": "鎮衛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-13602",
+          "name": "镇卫江夏",
+          "displayName": {
+            "zhHans": "镇卫江夏",
+            "zhHant": "鎮衛江夏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/136wenpin-8f962221/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/136wenpin/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenpin--136wenpin--3skill1_2",
+      "resourceId": "136wenpin/3skill1_2",
+      "text": "纵是十万大军，某也叫你无路可进！",
+      "textLocalized": {
+        "zhHans": "纵是十万大军，某也叫你无路可进！",
+        "zhHant": "縱是十萬大軍，某也叫你無路可進！"
+      },
+      "group": {
+        "slug": "spell-248-504",
+        "name": "镇卫",
+        "displayName": {
+          "zhHans": "镇卫",
+          "zhHant": "鎮衛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-13602",
+          "name": "镇卫江夏",
+          "displayName": {
+            "zhHans": "镇卫江夏",
+            "zhHant": "鎮衛江夏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/136wenpin-8f962221/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/136wenpin/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

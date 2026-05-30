@@ -1,3 +1,642 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:776a90f7eff568c5aaff636e770eabed2e915615396be1251a3f4459ea1ae8dc
-size 18270
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiaxu",
+    "command": "jiaxu",
+    "name": "贾诩",
+    "displayName": {
+      "zhHans": "贾诩",
+      "zhHant": "賈詡"
+    },
+    "names": [
+      "贾诩",
+      "界贾诩"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "贾诩",
+        "zhHant": "賈詡"
+      },
+      {
+        "zhHans": "界贾诩",
+        "zhHant": "界賈詡"
+      }
+    ],
+    "ids": [
+      "48",
+      "484"
+    ],
+    "sourceNames": [
+      "贾诩",
+      "界贾诩"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "贾诩",
+        "zhHant": "賈詡"
+      },
+      {
+        "zhHans": "界贾诩",
+        "zhHant": "界賈詡"
+      }
+    ],
+    "sourceIds": [
+      "48",
+      "484"
+    ],
+    "searchNames": [
+      "jiaxu",
+      "贾诩",
+      "賈詡",
+      "界贾诩",
+      "界賈詡"
+    ],
+    "lineCount": 42,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/dead.json"
+      },
+      {
+        "slug": "spell-117",
+        "name": "完杀",
+        "displayName": {
+          "zhHans": "完杀",
+          "zhHant": "完殺"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-117.json"
+      },
+      {
+        "slug": "spell-117-9019",
+        "name": "完杀",
+        "displayName": {
+          "zhHans": "完杀",
+          "zhHant": "完殺"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-117-9019.json"
+      },
+      {
+        "slug": "spell-118",
+        "name": "乱武",
+        "displayName": {
+          "zhHans": "乱武",
+          "zhHant": "亂武"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-118.json"
+      },
+      {
+        "slug": "spell-119",
+        "name": "帷幕",
+        "displayName": {
+          "zhHans": "帷幕",
+          "zhHant": "帷幕"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-119.json"
+      },
+      {
+        "slug": "spell-119-2117-9021",
+        "name": "帷幕",
+        "displayName": {
+          "zhHans": "帷幕",
+          "zhHant": "帷幕"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-119-2117-9021.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-4804",
+        "name": "乱武天下",
+        "displayName": {
+          "zhHans": "乱武天下",
+          "zhHant": "亂武天下"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4804.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-4806",
+        "name": "志在必得",
+        "displayName": {
+          "zhHans": "志在必得",
+          "zhHant": "志在必得"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4806.json"
+      },
+      {
+        "slug": "skin-4809",
+        "name": "拂尘独行",
+        "displayName": {
+          "zhHans": "拂尘独行",
+          "zhHant": "拂塵獨行"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4809.json"
+      },
+      {
+        "slug": "skin-4803",
+        "name": "持胜善谋",
+        "displayName": {
+          "zhHans": "持胜善谋",
+          "zhHant": "持勝善謀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4803.json"
+      },
+      {
+        "slug": "skin-4803-4806-4809",
+        "name": "持胜善谋,志在必得,拂尘独行",
+        "displayName": {
+          "zhHans": "持胜善谋,志在必得,拂尘独行",
+          "zhHant": "持勝善謀,志在必得,拂塵獨行"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4803-4806-4809.json"
+      },
+      {
+        "slug": "skin-4808",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4808.json"
+      },
+      {
+        "slug": "skin-4801",
+        "name": "经达权变",
+        "displayName": {
+          "zhHans": "经达权变",
+          "zhHant": "經達權變"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4801.json"
+      },
+      {
+        "slug": "skin-4807",
+        "name": "谋定天下",
+        "displayName": {
+          "zhHans": "谋定天下",
+          "zhHant": "謀定天下"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4807.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiaxu.json",
+      "groups": "api/v1/tts/characters/jiaxu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiaxu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-4803-4806-4809",
+    "name": "持胜善谋,志在必得,拂尘独行",
+    "displayName": {
+      "zhHans": "持胜善谋,志在必得,拂尘独行",
+      "zhHant": "持勝善謀,志在必得,拂塵獨行"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4803-4806-4809.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "jiaxu--48jiaxu--4dead01",
+      "resourceId": "48jiaxu/4dead01",
+      "text": "难以苟全于乱世之中。",
+      "textLocalized": {
+        "zhHans": "难以苟全于乱世之中。",
+        "zhHant": "難以苟全於亂世之中。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4806",
+          "name": "志在必得",
+          "displayName": {
+            "zhHans": "志在必得",
+            "zhHant": "志在必得"
+          }
+        },
+        {
+          "slug": "skin-4809",
+          "name": "拂尘独行",
+          "displayName": {
+            "zhHans": "拂尘独行",
+            "zhHant": "拂塵獨行"
+          }
+        },
+        {
+          "slug": "skin-4803",
+          "name": "持胜善谋",
+          "displayName": {
+            "zhHans": "持胜善谋",
+            "zhHant": "持勝善謀"
+          }
+        },
+        {
+          "slug": "skin-4803-4806-4809",
+          "name": "持胜善谋,志在必得,拂尘独行",
+          "displayName": {
+            "zhHans": "持胜善谋,志在必得,拂尘独行",
+            "zhHant": "持勝善謀,志在必得,拂塵獨行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--4skill1_1",
+      "resourceId": "48jiaxu/4skill1_1",
+      "text": "汝已孤立无援，乖乖领死吧！",
+      "textLocalized": {
+        "zhHans": "汝已孤立无援，乖乖领死吧！",
+        "zhHant": "汝已孤立無援，乖乖領死吧！"
+      },
+      "group": {
+        "slug": "spell-117-9019",
+        "name": "完杀",
+        "displayName": {
+          "zhHans": "完杀",
+          "zhHant": "完殺"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4806",
+          "name": "志在必得",
+          "displayName": {
+            "zhHans": "志在必得",
+            "zhHant": "志在必得"
+          }
+        },
+        {
+          "slug": "skin-4809",
+          "name": "拂尘独行",
+          "displayName": {
+            "zhHans": "拂尘独行",
+            "zhHant": "拂塵獨行"
+          }
+        },
+        {
+          "slug": "skin-4803",
+          "name": "持胜善谋",
+          "displayName": {
+            "zhHans": "持胜善谋",
+            "zhHant": "持勝善謀"
+          }
+        },
+        {
+          "slug": "skin-4803-4806-4809",
+          "name": "持胜善谋,志在必得,拂尘独行",
+          "displayName": {
+            "zhHans": "持胜善谋,志在必得,拂尘独行",
+            "zhHant": "持勝善謀,志在必得,拂塵獨行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--4skill1_2",
+      "resourceId": "48jiaxu/4skill1_2",
+      "text": "且看你如何自救。",
+      "textLocalized": {
+        "zhHans": "且看你如何自救。",
+        "zhHant": "且看你如何自救。"
+      },
+      "group": {
+        "slug": "spell-117-9019",
+        "name": "完杀",
+        "displayName": {
+          "zhHans": "完杀",
+          "zhHant": "完殺"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4806",
+          "name": "志在必得",
+          "displayName": {
+            "zhHans": "志在必得",
+            "zhHant": "志在必得"
+          }
+        },
+        {
+          "slug": "skin-4809",
+          "name": "拂尘独行",
+          "displayName": {
+            "zhHans": "拂尘独行",
+            "zhHant": "拂塵獨行"
+          }
+        },
+        {
+          "slug": "skin-4803",
+          "name": "持胜善谋",
+          "displayName": {
+            "zhHans": "持胜善谋",
+            "zhHant": "持勝善謀"
+          }
+        },
+        {
+          "slug": "skin-4803-4806-4809",
+          "name": "持胜善谋,志在必得,拂尘独行",
+          "displayName": {
+            "zhHans": "持胜善谋,志在必得,拂尘独行",
+            "zhHant": "持勝善謀,志在必得,拂塵獨行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--4skill2_1",
+      "resourceId": "48jiaxu/4skill2_1",
+      "text": "让我看看，你们求生的意志有多强烈！",
+      "textLocalized": {
+        "zhHans": "让我看看，你们求生的意志有多强烈！",
+        "zhHant": "讓我看看，你們求生的意志有多強烈！"
+      },
+      "group": {
+        "slug": "spell-118",
+        "name": "乱武",
+        "displayName": {
+          "zhHans": "乱武",
+          "zhHant": "亂武"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4806",
+          "name": "志在必得",
+          "displayName": {
+            "zhHans": "志在必得",
+            "zhHant": "志在必得"
+          }
+        },
+        {
+          "slug": "skin-4809",
+          "name": "拂尘独行",
+          "displayName": {
+            "zhHans": "拂尘独行",
+            "zhHant": "拂塵獨行"
+          }
+        },
+        {
+          "slug": "skin-4803",
+          "name": "持胜善谋",
+          "displayName": {
+            "zhHans": "持胜善谋",
+            "zhHant": "持勝善謀"
+          }
+        },
+        {
+          "slug": "skin-4803-4806-4809",
+          "name": "持胜善谋,志在必得,拂尘独行",
+          "displayName": {
+            "zhHans": "持胜善谋,志在必得,拂尘独行",
+            "zhHant": "持勝善謀,志在必得,拂塵獨行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--4skill2_2",
+      "resourceId": "48jiaxu/4skill2_2",
+      "text": "布阵合围以乱敌军将士之心。",
+      "textLocalized": {
+        "zhHans": "布阵合围以乱敌军将士之心。",
+        "zhHant": "佈陣合圍以亂敵軍將士之心。"
+      },
+      "group": {
+        "slug": "spell-118",
+        "name": "乱武",
+        "displayName": {
+          "zhHans": "乱武",
+          "zhHant": "亂武"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4806",
+          "name": "志在必得",
+          "displayName": {
+            "zhHans": "志在必得",
+            "zhHant": "志在必得"
+          }
+        },
+        {
+          "slug": "skin-4809",
+          "name": "拂尘独行",
+          "displayName": {
+            "zhHans": "拂尘独行",
+            "zhHant": "拂塵獨行"
+          }
+        },
+        {
+          "slug": "skin-4803",
+          "name": "持胜善谋",
+          "displayName": {
+            "zhHans": "持胜善谋",
+            "zhHant": "持勝善謀"
+          }
+        },
+        {
+          "slug": "skin-4803-4806-4809",
+          "name": "持胜善谋,志在必得,拂尘独行",
+          "displayName": {
+            "zhHans": "持胜善谋,志在必得,拂尘独行",
+            "zhHant": "持勝善謀,志在必得,拂塵獨行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--4skill3_1",
+      "resourceId": "48jiaxu/4skill3_1",
+      "text": "圣人之制道，在隐与匿。",
+      "textLocalized": {
+        "zhHans": "圣人之制道，在隐与匿。",
+        "zhHant": "聖人之制道，在隱與匿。"
+      },
+      "group": {
+        "slug": "spell-119-2117-9021",
+        "name": "帷幕",
+        "displayName": {
+          "zhHans": "帷幕",
+          "zhHant": "帷幕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4806",
+          "name": "志在必得",
+          "displayName": {
+            "zhHans": "志在必得",
+            "zhHant": "志在必得"
+          }
+        },
+        {
+          "slug": "skin-4809",
+          "name": "拂尘独行",
+          "displayName": {
+            "zhHans": "拂尘独行",
+            "zhHant": "拂塵獨行"
+          }
+        },
+        {
+          "slug": "skin-4803",
+          "name": "持胜善谋",
+          "displayName": {
+            "zhHans": "持胜善谋",
+            "zhHant": "持勝善謀"
+          }
+        },
+        {
+          "slug": "skin-4803-4806-4809",
+          "name": "持胜善谋,志在必得,拂尘独行",
+          "displayName": {
+            "zhHans": "持胜善谋,志在必得,拂尘独行",
+            "zhHant": "持勝善謀,志在必得,拂塵獨行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--4skill3_2",
+      "resourceId": "48jiaxu/4skill3_2",
+      "text": "天下本无难事，全在人为布局而已。",
+      "textLocalized": {
+        "zhHans": "天下本无难事，全在人为布局而已。",
+        "zhHant": "天下本無難事，全在人爲佈局而已。"
+      },
+      "group": {
+        "slug": "spell-119-2117-9021",
+        "name": "帷幕",
+        "displayName": {
+          "zhHans": "帷幕",
+          "zhHant": "帷幕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4806",
+          "name": "志在必得",
+          "displayName": {
+            "zhHans": "志在必得",
+            "zhHant": "志在必得"
+          }
+        },
+        {
+          "slug": "skin-4809",
+          "name": "拂尘独行",
+          "displayName": {
+            "zhHans": "拂尘独行",
+            "zhHant": "拂塵獨行"
+          }
+        },
+        {
+          "slug": "skin-4803",
+          "name": "持胜善谋",
+          "displayName": {
+            "zhHans": "持胜善谋",
+            "zhHant": "持勝善謀"
+          }
+        },
+        {
+          "slug": "skin-4803-4806-4809",
+          "name": "持胜善谋,志在必得,拂尘独行",
+          "displayName": {
+            "zhHans": "持胜善谋,志在必得,拂尘独行",
+            "zhHant": "持勝善謀,志在必得,拂塵獨行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

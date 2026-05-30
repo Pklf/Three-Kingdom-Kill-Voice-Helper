@@ -1,3 +1,431 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7caba81033fce3be70e06d8fae03a87b8424946f65b08f815183b6692a7f53bf
-size 11880
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "gaoshun",
+    "command": "gaoshun",
+    "name": "高顺",
+    "displayName": {
+      "zhHans": "高顺",
+      "zhHant": "高順"
+    },
+    "names": [
+      "高顺",
+      "界高顺"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "高顺",
+        "zhHant": "高順"
+      },
+      {
+        "zhHans": "界高顺",
+        "zhHant": "界高順"
+      }
+    ],
+    "ids": [
+      "152",
+      "604"
+    ],
+    "sourceNames": [
+      "高顺",
+      "界高顺"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "高顺",
+        "zhHant": "高順"
+      },
+      {
+        "zhHans": "界高顺",
+        "zhHant": "界高順"
+      }
+    ],
+    "sourceIds": [
+      "152",
+      "604"
+    ],
+    "searchNames": [
+      "gaoshun",
+      "高顺",
+      "高順",
+      "界高顺",
+      "界高順"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/gaoshun/groups/dead.json"
+      },
+      {
+        "slug": "spell-403",
+        "name": "陷阵",
+        "displayName": {
+          "zhHans": "陷阵",
+          "zhHant": "陷陣"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/gaoshun/groups/spell-403.json"
+      },
+      {
+        "slug": "spell-403-3423",
+        "name": "陷阵",
+        "displayName": {
+          "zhHans": "陷阵",
+          "zhHant": "陷陣"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/gaoshun/groups/spell-403-3423.json"
+      },
+      {
+        "slug": "spell-404",
+        "name": "禁酒",
+        "displayName": {
+          "zhHans": "禁酒",
+          "zhHant": "禁酒"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/gaoshun/groups/spell-404.json"
+      },
+      {
+        "slug": "spell-404-3424",
+        "name": "禁酒",
+        "displayName": {
+          "zhHans": "禁酒",
+          "zhHant": "禁酒"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/gaoshun/groups/spell-404-3424.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-15204",
+        "name": "冲锋陷阵",
+        "displayName": {
+          "zhHans": "冲锋陷阵",
+          "zhHant": "衝鋒陷陣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/gaoshun/skins/skin-15204.json"
+      },
+      {
+        "slug": "skin-15207",
+        "name": "劲迅斩乱",
+        "displayName": {
+          "zhHans": "劲迅斩乱",
+          "zhHant": "勁迅斬亂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/gaoshun/skins/skin-15207.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/gaoshun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-15203",
+        "name": "陷阵克敌",
+        "displayName": {
+          "zhHans": "陷阵克敌",
+          "zhHant": "陷陣克敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/gaoshun/skins/skin-15203.json"
+      },
+      {
+        "slug": "skin-15203-15204",
+        "name": "陷阵克敌,冲锋陷阵",
+        "displayName": {
+          "zhHans": "陷阵克敌,冲锋陷阵",
+          "zhHant": "陷陣克敵,衝鋒陷陣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/gaoshun/skins/skin-15203-15204.json"
+      },
+      {
+        "slug": "skin-15205",
+        "name": "陷阵统帅",
+        "displayName": {
+          "zhHans": "陷阵统帅",
+          "zhHant": "陷陣統帥"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/gaoshun/skins/skin-15205.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/gaoshun.json",
+      "groups": "api/v1/tts/characters/gaoshun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/gaoshun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-403-3423",
+    "name": "陷阵",
+    "displayName": {
+      "zhHans": "陷阵",
+      "zhHant": "陷陣"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/gaoshun/groups/spell-403-3423.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "gaoshun--152gaoshun--5skill1_1",
+      "resourceId": "152gaoshun/5skill1_1",
+      "text": "哼，彼之盾挡不住吾之矛。",
+      "textLocalized": {
+        "zhHans": "哼，彼之盾挡不住吾之矛。",
+        "zhHant": "哼，彼之盾擋不住吾之矛。"
+      },
+      "group": {
+        "slug": "spell-403-3423",
+        "name": "陷阵",
+        "displayName": {
+          "zhHans": "陷阵",
+          "zhHant": "陷陣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15207",
+          "name": "劲迅斩乱",
+          "displayName": {
+            "zhHans": "劲迅斩乱",
+            "zhHant": "勁迅斬亂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/152gaoshun-8bb8cd48/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/152gaoshun/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gaoshun--152gaoshun--5skill1_2",
+      "resourceId": "152gaoshun/5skill1_2",
+      "text": "来吧！怕你不成。",
+      "textLocalized": {
+        "zhHans": "来吧！怕你不成。",
+        "zhHant": "來吧！怕你不成。"
+      },
+      "group": {
+        "slug": "spell-403-3423",
+        "name": "陷阵",
+        "displayName": {
+          "zhHans": "陷阵",
+          "zhHant": "陷陣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15207",
+          "name": "劲迅斩乱",
+          "displayName": {
+            "zhHans": "劲迅斩乱",
+            "zhHant": "勁迅斬亂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/152gaoshun-8bb8cd48/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/152gaoshun/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gaoshun--152gaoshun--3skill1_1",
+      "resourceId": "152gaoshun/3skill1_1",
+      "text": "披坚执锐，所向披靡。",
+      "textLocalized": {
+        "zhHans": "披坚执锐，所向披靡。",
+        "zhHant": "披堅執銳，所向披靡。"
+      },
+      "group": {
+        "slug": "spell-403-3423",
+        "name": "陷阵",
+        "displayName": {
+          "zhHans": "陷阵",
+          "zhHant": "陷陣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15204",
+          "name": "冲锋陷阵",
+          "displayName": {
+            "zhHans": "冲锋陷阵",
+            "zhHant": "衝鋒陷陣"
+          }
+        },
+        {
+          "slug": "skin-15203",
+          "name": "陷阵克敌",
+          "displayName": {
+            "zhHans": "陷阵克敌",
+            "zhHant": "陷陣克敵"
+          }
+        },
+        {
+          "slug": "skin-15203-15204",
+          "name": "陷阵克敌,冲锋陷阵",
+          "displayName": {
+            "zhHans": "陷阵克敌,冲锋陷阵",
+            "zhHant": "陷陣克敵,衝鋒陷陣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/152gaoshun-8bb8cd48/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/152gaoshun/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gaoshun--152gaoshun--3skill1_2",
+      "resourceId": "152gaoshun/3skill1_2",
+      "text": "破阵陷营，虎狼之师。",
+      "textLocalized": {
+        "zhHans": "破阵陷营，虎狼之师。",
+        "zhHant": "破陣陷營，虎狼之師。"
+      },
+      "group": {
+        "slug": "spell-403-3423",
+        "name": "陷阵",
+        "displayName": {
+          "zhHans": "陷阵",
+          "zhHant": "陷陣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15204",
+          "name": "冲锋陷阵",
+          "displayName": {
+            "zhHans": "冲锋陷阵",
+            "zhHant": "衝鋒陷陣"
+          }
+        },
+        {
+          "slug": "skin-15203",
+          "name": "陷阵克敌",
+          "displayName": {
+            "zhHans": "陷阵克敌",
+            "zhHant": "陷陣克敵"
+          }
+        },
+        {
+          "slug": "skin-15203-15204",
+          "name": "陷阵克敌,冲锋陷阵",
+          "displayName": {
+            "zhHans": "陷阵克敌,冲锋陷阵",
+            "zhHant": "陷陣克敵,衝鋒陷陣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/152gaoshun-8bb8cd48/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/152gaoshun/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gaoshun--152gaoshun--4skill1_1",
+      "resourceId": "152gaoshun/4skill1_1",
+      "text": "攻陷敌阵，活捉贼将。",
+      "textLocalized": {
+        "zhHans": "攻陷敌阵，活捉贼将。",
+        "zhHant": "攻陷敵陣，活捉賊將。"
+      },
+      "group": {
+        "slug": "spell-403-3423",
+        "name": "陷阵",
+        "displayName": {
+          "zhHans": "陷阵",
+          "zhHant": "陷陣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15205",
+          "name": "陷阵统帅",
+          "displayName": {
+            "zhHans": "陷阵统帅",
+            "zhHant": "陷陣統帥"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/152gaoshun-8bb8cd48/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/152gaoshun/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gaoshun--152gaoshun--4skill1_2",
+      "resourceId": "152gaoshun/4skill1_2",
+      "text": "将众整齐，每战必克。",
+      "textLocalized": {
+        "zhHans": "将众整齐，每战必克。",
+        "zhHant": "將衆整齊，每戰必克。"
+      },
+      "group": {
+        "slug": "spell-403-3423",
+        "name": "陷阵",
+        "displayName": {
+          "zhHans": "陷阵",
+          "zhHant": "陷陣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15205",
+          "name": "陷阵统帅",
+          "displayName": {
+            "zhHans": "陷阵统帅",
+            "zhHant": "陷陣統帥"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/152gaoshun-8bb8cd48/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/152gaoshun/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

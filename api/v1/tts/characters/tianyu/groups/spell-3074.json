@@ -1,3 +1,254 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b4dc304c14dbb2ff4505e0bb6cef9c86a1882ac63a91ffb38dcfbaf80847a93d
-size 6776
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tianyu",
+    "command": "tianyu",
+    "name": "田豫",
+    "displayName": {
+      "zhHans": "田豫",
+      "zhHant": "田豫"
+    },
+    "names": [
+      "田豫"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "田豫",
+        "zhHant": "田豫"
+      }
+    ],
+    "ids": [
+      "493"
+    ],
+    "sourceNames": [
+      "田豫"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "田豫",
+        "zhHant": "田豫"
+      }
+    ],
+    "sourceIds": [
+      "493"
+    ],
+    "searchNames": [
+      "tianyu",
+      "田豫"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/tianyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3074",
+        "name": "扫狄",
+        "displayName": {
+          "zhHans": "扫狄",
+          "zhHant": "掃狄"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tianyu/groups/spell-3074.json"
+      },
+      {
+        "slug": "spell-3075",
+        "name": "追讨",
+        "displayName": {
+          "zhHans": "追讨",
+          "zhHant": "追討"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tianyu/groups/spell-3075.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49301",
+        "name": "奋军镇北",
+        "displayName": {
+          "zhHans": "奋军镇北",
+          "zhHant": "奮軍鎮北"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianyu/skins/skin-49301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tianyu.json",
+      "groups": "api/v1/tts/characters/tianyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tianyu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3074",
+    "name": "扫狄",
+    "displayName": {
+      "zhHans": "扫狄",
+      "zhHant": "掃狄"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/tianyu/groups/spell-3074.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "tianyu--493tianyu--1skill1_1",
+      "resourceId": "493tianyu/1skill1_1",
+      "text": "狄祸悬野，秋风扫之！",
+      "textLocalized": {
+        "zhHans": "狄祸悬野，秋风扫之！",
+        "zhHant": "狄禍懸野，秋風掃之！"
+      },
+      "group": {
+        "slug": "spell-3074",
+        "name": "扫狄",
+        "displayName": {
+          "zhHans": "扫狄",
+          "zhHant": "掃狄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianyu--493tianyu--1skill1_2",
+      "resourceId": "493tianyu/1skill1_2",
+      "text": "戎狄作乱，岂能坐视？",
+      "textLocalized": {
+        "zhHans": "戎狄作乱，岂能坐视？",
+        "zhHant": "戎狄作亂，豈能坐視？"
+      },
+      "group": {
+        "slug": "spell-3074",
+        "name": "扫狄",
+        "displayName": {
+          "zhHans": "扫狄",
+          "zhHant": "掃狄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianyu--493tianyu--2skill1_1",
+      "resourceId": "493tianyu/2skill1_1",
+      "text": "西北烽烟四起，且执雕弓北望。",
+      "textLocalized": {
+        "zhHans": "西北烽烟四起，且执雕弓北望。",
+        "zhHant": "西北烽煙四起，且執雕弓北望。"
+      },
+      "group": {
+        "slug": "spell-3074",
+        "name": "扫狄",
+        "displayName": {
+          "zhHans": "扫狄",
+          "zhHant": "掃狄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49301",
+          "name": "奋军镇北",
+          "displayName": {
+            "zhHans": "奋军镇北",
+            "zhHant": "奮軍鎮北"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianyu--493tianyu--2skill1_2",
+      "resourceId": "493tianyu/2skill1_2",
+      "text": "易水涛涛，濯我长剑以逐天狼。",
+      "textLocalized": {
+        "zhHans": "易水涛涛，濯我长剑以逐天狼。",
+        "zhHant": "易水濤濤，濯我長劍以逐天狼。"
+      },
+      "group": {
+        "slug": "spell-3074",
+        "name": "扫狄",
+        "displayName": {
+          "zhHans": "扫狄",
+          "zhHant": "掃狄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49301",
+          "name": "奋军镇北",
+          "displayName": {
+            "zhHans": "奋军镇北",
+            "zhHant": "奮軍鎮北"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/493tianyu-e5765ed6/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/493tianyu/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

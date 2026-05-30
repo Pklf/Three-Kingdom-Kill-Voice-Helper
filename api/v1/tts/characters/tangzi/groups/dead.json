@@ -1,3 +1,320 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:acc4ba4f7fff40bd9715d91cc1bd1afa6958940d792676768b0257cf73b26840
-size 8526
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tangzi",
+    "command": "tangzi",
+    "name": "唐咨",
+    "displayName": {
+      "zhHans": "唐咨",
+      "zhHant": "唐諮"
+    },
+    "names": [
+      "唐咨"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "唐咨",
+        "zhHant": "唐諮"
+      }
+    ],
+    "ids": [
+      "422"
+    ],
+    "sourceNames": [
+      "唐咨"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "唐咨",
+        "zhHant": "唐諮"
+      }
+    ],
+    "sourceIds": [
+      "422"
+    ],
+    "searchNames": [
+      "tangzi",
+      "唐咨",
+      "唐諮"
+    ],
+    "lineCount": 19,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/groups/dead.json"
+      },
+      {
+        "slug": "spell-725",
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tangzi/groups/spell-725.json"
+      },
+      {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/tangzi/groups/spell-861.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42203",
+        "name": "帆舟游海",
+        "displayName": {
+          "zhHans": "帆舟游海",
+          "zhHant": "帆舟遊海"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-42203.json"
+      },
+      {
+        "slug": "skin-42205",
+        "name": "栈山轶海",
+        "displayName": {
+          "zhHans": "栈山轶海",
+          "zhHant": "棧山軼海"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-42205.json"
+      },
+      {
+        "slug": "skin-42204",
+        "name": "绘图制船",
+        "displayName": {
+          "zhHans": "绘图制船",
+          "zhHant": "繪圖制船"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-42204.json"
+      },
+      {
+        "slug": "skin-42201",
+        "name": "绘图构思",
+        "displayName": {
+          "zhHans": "绘图构思",
+          "zhHant": "繪圖構思"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-42201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tangzi.json",
+      "groups": "api/v1/tts/characters/tangzi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tangzi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/tangzi/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "tangzi--422tangzi--1dead01",
+      "resourceId": "422tangzi/1dead01",
+      "text": "偷工减料，要不得啊！",
+      "textLocalized": {
+        "zhHans": "偷工减料，要不得啊！",
+        "zhHant": "偷工減料，要不得啊！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--4dead01",
+      "resourceId": "422tangzi/4dead01",
+      "text": "空留遗恨呐。",
+      "textLocalized": {
+        "zhHans": "空留遗恨呐。",
+        "zhHant": "空留遺恨吶。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42203",
+          "name": "帆舟游海",
+          "displayName": {
+            "zhHans": "帆舟游海",
+            "zhHant": "帆舟遊海"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--6dead01",
+      "resourceId": "422tangzi/6dead01",
+      "text": "此生往复，身不由己。",
+      "textLocalized": {
+        "zhHans": "此生往复，身不由己。",
+        "zhHant": "此生往復，身不由己。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42205",
+          "name": "栈山轶海",
+          "displayName": {
+            "zhHans": "栈山轶海",
+            "zhHant": "棧山軼海"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--5dead01",
+      "resourceId": "422tangzi/5dead01",
+      "text": "孤船影只，无所依得。",
+      "textLocalized": {
+        "zhHans": "孤船影只，无所依得。",
+        "zhHant": "孤船影只，無所依得。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42204",
+          "name": "绘图制船",
+          "displayName": {
+            "zhHans": "绘图制船",
+            "zhHant": "繪圖制船"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--3dead01",
+      "resourceId": "422tangzi/3dead01",
+      "text": "这船，恐怕是要沉了。",
+      "textLocalized": {
+        "zhHans": "这船，恐怕是要沉了。",
+        "zhHant": "這船，恐怕是要沉了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42201",
+          "name": "绘图构思",
+          "displayName": {
+            "zhHans": "绘图构思",
+            "zhHant": "繪圖構思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

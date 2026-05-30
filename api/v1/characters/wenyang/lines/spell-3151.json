@@ -1,3 +1,962 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4fb5536335b28de885d1774a1ab7a9a4e72f1c2d081b3fd32badad32271b23f3
-size 21873
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wenyang",
+    "command": "wenyang",
+    "name": "文鸯",
+    "displayName": {
+      "zhHans": "文鸯",
+      "zhHant": "文鴦"
+    },
+    "names": [
+      "文鸯"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "文鸯",
+        "zhHant": "文鴦"
+      }
+    ],
+    "ids": [
+      "517"
+    ],
+    "sourceNames": [
+      "文鸯"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "文鸯",
+        "zhHant": "文鴦"
+      }
+    ],
+    "sourceIds": [
+      "517"
+    ],
+    "searchNames": [
+      "wenyang",
+      "文鸯",
+      "文鴦"
+    ],
+    "lineCount": 27,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-3150",
+        "name": "膂力",
+        "displayName": {
+          "zhHans": "膂力",
+          "zhHant": "膂力"
+        },
+        "ids": [
+          "3150"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-3151",
+        "name": "仇决",
+        "displayName": {
+          "zhHans": "仇决",
+          "zhHant": "仇決"
+        },
+        "ids": [
+          "3151"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-3152",
+        "name": "背水",
+        "displayName": {
+          "zhHans": "背水",
+          "zhHant": "背水"
+        },
+        "ids": [
+          "3152"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-3153",
+        "name": "清剿",
+        "displayName": {
+          "zhHans": "清剿",
+          "zhHant": "清剿"
+        },
+        "ids": [
+          "3153"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-51702",
+        "ids": [
+          "51702"
+        ],
+        "name": "横戈立马",
+        "displayName": {
+          "zhHans": "横戈立马",
+          "zhHant": "橫戈立馬"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-51701",
+        "ids": [
+          "51701"
+        ],
+        "name": "神通法相",
+        "displayName": {
+          "zhHans": "神通法相",
+          "zhHant": "神通法相"
+        },
+        "lineCount": 9
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/wenyang.json",
+      "lines": "api/v1/characters/wenyang/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3151",
+    "ids": [
+      "3151"
+    ],
+    "name": "仇决",
+    "displayName": {
+      "zhHans": "仇决",
+      "zhHant": "仇決"
+    },
+    "names": [
+      "仇决"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "仇决",
+        "zhHant": "仇決"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "wenyang--517wenyang--1skill2_1",
+      "resourceId": "517wenyang/1skill2_1",
+      "text": "家仇未报，怎可独安？",
+      "textLocalized": {
+        "zhHans": "家仇未报，怎可独安？",
+        "zhHant": "家仇未報，怎可獨安？"
+      },
+      "character": {
+        "slug": "wenyang",
+        "command": "wenyang",
+        "id": "517",
+        "ids": [
+          "517"
+        ],
+        "name": "文鸯",
+        "displayName": {
+          "zhHans": "文鸯",
+          "zhHant": "文鴦"
+        },
+        "names": [
+          "文鸯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "sourceIds": [
+          "517"
+        ],
+        "sourceNames": [
+          "文鸯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "searchNames": [
+          "文鸯",
+          "文鴦",
+          "wenyang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3151",
+        "ids": [
+          "3151"
+        ],
+        "name": "仇决",
+        "displayName": {
+          "zhHans": "仇决",
+          "zhHant": "仇決"
+        },
+        "names": [
+          "仇决"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "仇决",
+            "zhHant": "仇決"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "517",
+        "skinKey": "-1",
+        "spellKey": "3151",
+        "rowIndex": 1,
+        "characterNames": [
+          "文鸯"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--1skill2_2",
+      "resourceId": "517wenyang/1skill2_2",
+      "text": "逆臣之军，不足为俱！",
+      "textLocalized": {
+        "zhHans": "逆臣之军，不足为俱！",
+        "zhHant": "逆臣之軍，不足爲俱！"
+      },
+      "character": {
+        "slug": "wenyang",
+        "command": "wenyang",
+        "id": "517",
+        "ids": [
+          "517"
+        ],
+        "name": "文鸯",
+        "displayName": {
+          "zhHans": "文鸯",
+          "zhHant": "文鴦"
+        },
+        "names": [
+          "文鸯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "sourceIds": [
+          "517"
+        ],
+        "sourceNames": [
+          "文鸯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "searchNames": [
+          "文鸯",
+          "文鴦",
+          "wenyang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3151",
+        "ids": [
+          "3151"
+        ],
+        "name": "仇决",
+        "displayName": {
+          "zhHans": "仇决",
+          "zhHant": "仇決"
+        },
+        "names": [
+          "仇决"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "仇决",
+            "zhHant": "仇決"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "517",
+        "skinKey": "-1",
+        "spellKey": "3151",
+        "rowIndex": 2,
+        "characterNames": [
+          "文鸯"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--3skill2_1",
+      "resourceId": "517wenyang/3skill2_1",
+      "text": "此仇不报，非人子也！",
+      "textLocalized": {
+        "zhHans": "此仇不报，非人子也！",
+        "zhHant": "此仇不報，非人子也！"
+      },
+      "character": {
+        "slug": "wenyang",
+        "command": "wenyang",
+        "id": "517",
+        "ids": [
+          "517"
+        ],
+        "name": "文鸯",
+        "displayName": {
+          "zhHans": "文鸯",
+          "zhHant": "文鴦"
+        },
+        "names": [
+          "文鸯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "sourceIds": [
+          "517"
+        ],
+        "sourceNames": [
+          "文鸯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "searchNames": [
+          "文鸯",
+          "文鴦",
+          "wenyang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3151",
+        "ids": [
+          "3151"
+        ],
+        "name": "仇决",
+        "displayName": {
+          "zhHans": "仇决",
+          "zhHant": "仇決"
+        },
+        "names": [
+          "仇决"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "仇决",
+            "zhHant": "仇決"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-51702",
+        "ids": [
+          "51702"
+        ],
+        "name": "横戈立马",
+        "displayName": {
+          "zhHans": "横戈立马",
+          "zhHant": "橫戈立馬"
+        },
+        "names": [
+          "横戈立马"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "横戈立马",
+            "zhHant": "橫戈立馬"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-51702",
+          "id": "51702",
+          "ids": [
+            "51702"
+          ],
+          "name": "横戈立马",
+          "displayName": {
+            "zhHans": "横戈立马",
+            "zhHant": "橫戈立馬"
+          },
+          "names": [
+            "横戈立马"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "横戈立马",
+              "zhHant": "橫戈立馬"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "517",
+        "skinKey": "51702",
+        "spellKey": "3151",
+        "rowIndex": 1,
+        "characterNames": [
+          "文鸯"
+        ],
+        "skinNames": [
+          "横戈立马"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/3skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--3skill2_2",
+      "resourceId": "517wenyang/3skill2_2",
+      "text": "今日，我定要为国除贼。",
+      "textLocalized": {
+        "zhHans": "今日，我定要为国除贼。",
+        "zhHant": "今日，我定要爲國除賊。"
+      },
+      "character": {
+        "slug": "wenyang",
+        "command": "wenyang",
+        "id": "517",
+        "ids": [
+          "517"
+        ],
+        "name": "文鸯",
+        "displayName": {
+          "zhHans": "文鸯",
+          "zhHant": "文鴦"
+        },
+        "names": [
+          "文鸯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "sourceIds": [
+          "517"
+        ],
+        "sourceNames": [
+          "文鸯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "searchNames": [
+          "文鸯",
+          "文鴦",
+          "wenyang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3151",
+        "ids": [
+          "3151"
+        ],
+        "name": "仇决",
+        "displayName": {
+          "zhHans": "仇决",
+          "zhHant": "仇決"
+        },
+        "names": [
+          "仇决"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "仇决",
+            "zhHant": "仇決"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-51702",
+        "ids": [
+          "51702"
+        ],
+        "name": "横戈立马",
+        "displayName": {
+          "zhHans": "横戈立马",
+          "zhHant": "橫戈立馬"
+        },
+        "names": [
+          "横戈立马"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "横戈立马",
+            "zhHant": "橫戈立馬"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-51702",
+          "id": "51702",
+          "ids": [
+            "51702"
+          ],
+          "name": "横戈立马",
+          "displayName": {
+            "zhHans": "横戈立马",
+            "zhHant": "橫戈立馬"
+          },
+          "names": [
+            "横戈立马"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "横戈立马",
+              "zhHant": "橫戈立馬"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "517",
+        "skinKey": "51702",
+        "spellKey": "3151",
+        "rowIndex": 2,
+        "characterNames": [
+          "文鸯"
+        ],
+        "skinNames": [
+          "横戈立马"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/3skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--2skill2_1",
+      "resourceId": "517wenyang/2skill2_1",
+      "text": "家国恨不穷，岂可坐安休？",
+      "textLocalized": {
+        "zhHans": "家国恨不穷，岂可坐安休？",
+        "zhHant": "家國恨不窮，豈可坐安休？"
+      },
+      "character": {
+        "slug": "wenyang",
+        "command": "wenyang",
+        "id": "517",
+        "ids": [
+          "517"
+        ],
+        "name": "文鸯",
+        "displayName": {
+          "zhHans": "文鸯",
+          "zhHant": "文鴦"
+        },
+        "names": [
+          "文鸯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "sourceIds": [
+          "517"
+        ],
+        "sourceNames": [
+          "文鸯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "searchNames": [
+          "文鸯",
+          "文鴦",
+          "wenyang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3151",
+        "ids": [
+          "3151"
+        ],
+        "name": "仇决",
+        "displayName": {
+          "zhHans": "仇决",
+          "zhHant": "仇決"
+        },
+        "names": [
+          "仇决"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "仇决",
+            "zhHant": "仇決"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-51701",
+        "ids": [
+          "51701"
+        ],
+        "name": "神通法相",
+        "displayName": {
+          "zhHans": "神通法相",
+          "zhHant": "神通法相"
+        },
+        "names": [
+          "神通法相"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神通法相",
+            "zhHant": "神通法相"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-51701",
+          "id": "51701",
+          "ids": [
+            "51701"
+          ],
+          "name": "神通法相",
+          "displayName": {
+            "zhHans": "神通法相",
+            "zhHant": "神通法相"
+          },
+          "names": [
+            "神通法相"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "神通法相",
+              "zhHant": "神通法相"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "517",
+        "skinKey": "51701",
+        "spellKey": "3151",
+        "rowIndex": 1,
+        "characterNames": [
+          "文鸯"
+        ],
+        "skinNames": [
+          "神通法相"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/2skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--2skill2_2",
+      "resourceId": "517wenyang/2skill2_2",
+      "text": "赳赳赴国难，持戈讨逆贼！",
+      "textLocalized": {
+        "zhHans": "赳赳赴国难，持戈讨逆贼！",
+        "zhHant": "赳赳赴國難，持戈討逆賊！"
+      },
+      "character": {
+        "slug": "wenyang",
+        "command": "wenyang",
+        "id": "517",
+        "ids": [
+          "517"
+        ],
+        "name": "文鸯",
+        "displayName": {
+          "zhHans": "文鸯",
+          "zhHant": "文鴦"
+        },
+        "names": [
+          "文鸯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "sourceIds": [
+          "517"
+        ],
+        "sourceNames": [
+          "文鸯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "文鸯",
+            "zhHant": "文鴦"
+          }
+        ],
+        "searchNames": [
+          "文鸯",
+          "文鴦",
+          "wenyang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3151",
+        "ids": [
+          "3151"
+        ],
+        "name": "仇决",
+        "displayName": {
+          "zhHans": "仇决",
+          "zhHant": "仇決"
+        },
+        "names": [
+          "仇决"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "仇决",
+            "zhHant": "仇決"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-51701",
+        "ids": [
+          "51701"
+        ],
+        "name": "神通法相",
+        "displayName": {
+          "zhHans": "神通法相",
+          "zhHant": "神通法相"
+        },
+        "names": [
+          "神通法相"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神通法相",
+            "zhHant": "神通法相"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-51701",
+          "id": "51701",
+          "ids": [
+            "51701"
+          ],
+          "name": "神通法相",
+          "displayName": {
+            "zhHans": "神通法相",
+            "zhHant": "神通法相"
+          },
+          "names": [
+            "神通法相"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "神通法相",
+              "zhHant": "神通法相"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "517",
+        "skinKey": "51701",
+        "spellKey": "3151",
+        "rowIndex": 2,
+        "characterNames": [
+          "文鸯"
+        ],
+        "skinNames": [
+          "神通法相"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/2skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

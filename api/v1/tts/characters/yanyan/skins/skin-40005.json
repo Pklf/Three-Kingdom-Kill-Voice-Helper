@@ -1,3 +1,230 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0c32cce52810256bf8fcdb9615ac873b20f9cbd50117a6a8273534cbbcdca4e2
-size 6021
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yanyan",
+    "command": "yanyan",
+    "name": "严颜",
+    "displayName": {
+      "zhHans": "严颜",
+      "zhHant": "嚴顏"
+    },
+    "names": [
+      "严颜"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "严颜",
+        "zhHant": "嚴顏"
+      }
+    ],
+    "ids": [
+      "400"
+    ],
+    "sourceNames": [
+      "严颜"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "严颜",
+        "zhHant": "嚴顏"
+      }
+    ],
+    "sourceIds": [
+      "400"
+    ],
+    "searchNames": [
+      "yanyan",
+      "严颜",
+      "嚴顏"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yanyan/groups/spell-801.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-40001",
+        "name": "拒敌之勇",
+        "displayName": {
+          "zhHans": "拒敌之勇",
+          "zhHant": "拒敵之勇"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanyan/skins/skin-40001.json"
+      },
+      {
+        "slug": "skin-40005",
+        "name": "皓首勇力",
+        "displayName": {
+          "zhHans": "皓首勇力",
+          "zhHant": "皓首勇力"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanyan/skins/skin-40005.json"
+      },
+      {
+        "slug": "skin-40002",
+        "name": "虽老亦战",
+        "displayName": {
+          "zhHans": "虽老亦战",
+          "zhHant": "雖老亦戰"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanyan/skins/skin-40002.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yanyan.json",
+      "groups": "api/v1/tts/characters/yanyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yanyan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-40005",
+    "name": "皓首勇力",
+    "displayName": {
+      "zhHans": "皓首勇力",
+      "zhHant": "皓首勇力"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/yanyan/skins/skin-40005.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "yanyan--400yanyan--5dead01",
+      "resourceId": "400yanyan/5dead01",
+      "text": "州无降将！",
+      "textLocalized": {
+        "zhHans": "州无降将！",
+        "zhHant": "州無降將！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40005",
+          "name": "皓首勇力",
+          "displayName": {
+            "zhHans": "皓首勇力",
+            "zhHant": "皓首勇力"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanyan--400yanyan--5skill1_1",
+      "resourceId": "400yanyan/5skill1_1",
+      "text": "闭门谢战，以寻良机。",
+      "textLocalized": {
+        "zhHans": "闭门谢战，以寻良机。",
+        "zhHant": "閉門謝戰，以尋良機。"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40005",
+          "name": "皓首勇力",
+          "displayName": {
+            "zhHans": "皓首勇力",
+            "zhHant": "皓首勇力"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanyan--400yanyan--5skill1_2",
+      "resourceId": "400yanyan/5skill1_2",
+      "text": "此役师出无名，恕不奉陪。",
+      "textLocalized": {
+        "zhHans": "此役师出无名，恕不奉陪。",
+        "zhHant": "此役師出無名，恕不奉陪。"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40005",
+          "name": "皓首勇力",
+          "displayName": {
+            "zhHans": "皓首勇力",
+            "zhHant": "皓首勇力"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

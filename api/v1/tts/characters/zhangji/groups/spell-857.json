@@ -1,3 +1,415 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e4ced68f55bd6e9c8905166925438506d8c3b7f354da4caa66ab02fc44b64eb5
-size 11492
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangji",
+    "command": "zhangji",
+    "name": "张济",
+    "displayName": {
+      "zhHans": "张济",
+      "zhHant": "張濟"
+    },
+    "names": [
+      "张济"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张济",
+        "zhHant": "張濟"
+      }
+    ],
+    "ids": [
+      "419"
+    ],
+    "sourceNames": [
+      "张济"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张济",
+        "zhHant": "張濟"
+      }
+    ],
+    "sourceIds": [
+      "419"
+    ],
+    "searchNames": [
+      "zhangji",
+      "张济",
+      "張濟"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangji/groups/dead.json"
+      },
+      {
+        "slug": "spell-856",
+        "name": "掠命",
+        "displayName": {
+          "zhHans": "掠命",
+          "zhHant": "掠命"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangji/groups/spell-856.json"
+      },
+      {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangji/groups/spell-857.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41902",
+        "name": "屯驻弘农",
+        "displayName": {
+          "zhHans": "屯驻弘农",
+          "zhHant": "屯駐弘農"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41902.json"
+      },
+      {
+        "slug": "skin-41903",
+        "name": "悍威狠决",
+        "displayName": {
+          "zhHans": "悍威狠决",
+          "zhHant": "悍威狠決"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41903.json"
+      },
+      {
+        "slug": "skin-41901",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangji.json",
+      "groups": "api/v1/tts/characters/zhangji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-857",
+    "name": "屯军",
+    "displayName": {
+      "zhHans": "屯军",
+      "zhHant": "屯軍"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/zhangji/groups/spell-857.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "zhangji--419zhangji--1skill2_1",
+      "resourceId": "419zhangji/1skill2_1",
+      "text": "得封侯爵，屯军弘农。",
+      "textLocalized": {
+        "zhHans": "得封侯爵，屯军弘农。",
+        "zhHant": "得封侯爵，屯軍弘農。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--1skill2_2",
+      "resourceId": "419zhangji/1skill2_2",
+      "text": "屯军弘农，养精蓄锐。",
+      "textLocalized": {
+        "zhHans": "屯军弘农，养精蓄锐。",
+        "zhHant": "屯軍弘農，養精蓄銳。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--4skill2_1",
+      "resourceId": "419zhangji/4skill2_1",
+      "text": "赏兵耗资，需屯军此处。",
+      "textLocalized": {
+        "zhHans": "赏兵耗资，需屯军此处。",
+        "zhHant": "賞兵耗資，需屯軍此處。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41902",
+          "name": "屯驻弘农",
+          "displayName": {
+            "zhHans": "屯驻弘农",
+            "zhHant": "屯駐弘農"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--4skill2_2",
+      "resourceId": "419zhangji/4skill2_2",
+      "text": "积粮蓄锐，完备而兵。",
+      "textLocalized": {
+        "zhHans": "积粮蓄锐，完备而兵。",
+        "zhHant": "積糧蓄銳，完備而兵。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41902",
+          "name": "屯驻弘农",
+          "displayName": {
+            "zhHans": "屯驻弘农",
+            "zhHant": "屯駐弘農"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--5skill2_1",
+      "resourceId": "419zhangji/5skill2_1",
+      "text": "此战不急，再看形势。",
+      "textLocalized": {
+        "zhHans": "此战不急，再看形势。",
+        "zhHant": "此戰不急，再看形勢。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41903",
+          "name": "悍威狠决",
+          "displayName": {
+            "zhHans": "悍威狠决",
+            "zhHant": "悍威狠決"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--5skill2_2",
+      "resourceId": "419zhangji/5skill2_2",
+      "text": "此地合宜，养兵再战。",
+      "textLocalized": {
+        "zhHans": "此地合宜，养兵再战。",
+        "zhHant": "此地合宜，養兵再戰。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41903",
+          "name": "悍威狠决",
+          "displayName": {
+            "zhHans": "悍威狠决",
+            "zhHant": "悍威狠決"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--3skill2_1",
+      "resourceId": "419zhangji/3skill2_1",
+      "text": "今位轻势弱，才至屯军。",
+      "textLocalized": {
+        "zhHans": "今位轻势弱，才至屯军。",
+        "zhHant": "今位輕勢弱，才至屯軍。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41901",
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--3skill2_2",
+      "resourceId": "419zhangji/3skill2_2",
+      "text": "一时弱劣，待雄厚之势必出。",
+      "textLocalized": {
+        "zhHans": "一时弱劣，待雄厚之势必出。",
+        "zhHant": "一時弱劣，待雄厚之勢必出。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41901",
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

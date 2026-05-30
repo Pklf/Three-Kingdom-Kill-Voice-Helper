@@ -1,3 +1,365 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf6bfbf61c2d2bab3a3d122158e39471ca198aa45c41c1ec65bc6ee21ec418c8
-size 10298
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shen-liu-bei",
+    "command": "shen-liu-bei",
+    "name": "神刘备",
+    "displayName": {
+      "zhHans": "神刘备",
+      "zhHant": "神劉備"
+    },
+    "names": [
+      "神刘备"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神刘备",
+        "zhHant": "神劉備"
+      }
+    ],
+    "ids": [
+      "220"
+    ],
+    "sourceNames": [
+      "神刘备"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神刘备",
+        "zhHant": "神劉備"
+      }
+    ],
+    "sourceIds": [
+      "220"
+    ],
+    "searchNames": [
+      "shen-liu-bei",
+      "神刘备",
+      "神劉備"
+    ],
+    "lineCount": 19,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shen-liu-bei/groups/dead.json"
+      },
+      {
+        "slug": "spell-496",
+        "name": "妄尊",
+        "displayName": {
+          "zhHans": "妄尊",
+          "zhHant": "妄尊"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shen-liu-bei/groups/spell-496.json"
+      },
+      {
+        "slug": "spell-497",
+        "name": "同疾",
+        "displayName": {
+          "zhHans": "同疾",
+          "zhHant": "同疾"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shen-liu-bei/groups/spell-497.json"
+      },
+      {
+        "slug": "spell-832",
+        "name": "龙怒",
+        "displayName": {
+          "zhHans": "龙怒",
+          "zhHant": "龍怒"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shen-liu-bei/groups/spell-832.json"
+      },
+      {
+        "slug": "spell-833",
+        "name": "结营",
+        "displayName": {
+          "zhHans": "结营",
+          "zhHant": "結營"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shen-liu-bei/groups/spell-833.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shen-liu-bei/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-22002",
+        "name": "帝王之姿",
+        "displayName": {
+          "zhHans": "帝王之姿",
+          "zhHant": "帝王之姿"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shen-liu-bei/skins/skin-22002.json"
+      },
+      {
+        "slug": "skin-22001",
+        "name": "昭烈怒火",
+        "displayName": {
+          "zhHans": "昭烈怒火",
+          "zhHant": "昭烈怒火"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shen-liu-bei/skins/skin-22001.json"
+      },
+      {
+        "slug": "skin-21505",
+        "name": "机缘得玺",
+        "displayName": {
+          "zhHans": "机缘得玺",
+          "zhHant": "機緣得璽"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shen-liu-bei/skins/skin-21505.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shen-liu-bei.json",
+      "groups": "api/v1/tts/characters/shen-liu-bei/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shen-liu-bei/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-833",
+    "name": "结营",
+    "displayName": {
+      "zhHans": "结营",
+      "zhHant": "結營"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/shen-liu-bei/groups/spell-833.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "shen-liu-bei--220shenliubei--1skill2_1",
+      "resourceId": "220shenliubei/1skill2_1",
+      "text": "结草衔环，报兄弟大恩。",
+      "textLocalized": {
+        "zhHans": "结草衔环，报兄弟大恩。",
+        "zhHant": "結草銜環，報兄弟大恩。"
+      },
+      "group": {
+        "slug": "spell-833",
+        "name": "结营",
+        "displayName": {
+          "zhHans": "结营",
+          "zhHant": "結營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/220shenliubei-11f2d9ec/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/220shenliubei/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-liu-bei--220shenliubei--1skill2_2",
+      "resourceId": "220shenliubei/1skill2_2",
+      "text": "桃园结义，营一世之交。",
+      "textLocalized": {
+        "zhHans": "桃园结义，营一世之交。",
+        "zhHant": "桃園結義，營一世之交。"
+      },
+      "group": {
+        "slug": "spell-833",
+        "name": "结营",
+        "displayName": {
+          "zhHans": "结营",
+          "zhHant": "結營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/220shenliubei-11f2d9ec/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/220shenliubei/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-liu-bei--220shenliubei--4skill2_1",
+      "resourceId": "220shenliubei/4skill2_1",
+      "text": "结桃园之义，雪手足之仇！",
+      "textLocalized": {
+        "zhHans": "结桃园之义，雪手足之仇！",
+        "zhHant": "結桃園之義，雪手足之仇！"
+      },
+      "group": {
+        "slug": "spell-833",
+        "name": "结营",
+        "displayName": {
+          "zhHans": "结营",
+          "zhHant": "結營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22002",
+          "name": "帝王之姿",
+          "displayName": {
+            "zhHans": "帝王之姿",
+            "zhHant": "帝王之姿"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/220shenliubei-11f2d9ec/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/220shenliubei/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-liu-bei--220shenliubei--4skill2_2",
+      "resourceId": "220shenliubei/4skill2_2",
+      "text": "吾弟且慢行，待为兄报仇雪恨！",
+      "textLocalized": {
+        "zhHans": "吾弟且慢行，待为兄报仇雪恨！",
+        "zhHant": "吾弟且慢行，待爲兄報仇雪恨！"
+      },
+      "group": {
+        "slug": "spell-833",
+        "name": "结营",
+        "displayName": {
+          "zhHans": "结营",
+          "zhHant": "結營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22002",
+          "name": "帝王之姿",
+          "displayName": {
+            "zhHans": "帝王之姿",
+            "zhHant": "帝王之姿"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/220shenliubei-11f2d9ec/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/220shenliubei/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-liu-bei--220shenliubei--3skill2_1",
+      "resourceId": "220shenliubei/3skill2_1",
+      "text": "结联营之策，拒暴虐之贼！",
+      "textLocalized": {
+        "zhHans": "结联营之策，拒暴虐之贼！",
+        "zhHant": "結聯營之策，拒暴虐之賊！"
+      },
+      "group": {
+        "slug": "spell-833",
+        "name": "结营",
+        "displayName": {
+          "zhHans": "结营",
+          "zhHant": "結營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22001",
+          "name": "昭烈怒火",
+          "displayName": {
+            "zhHans": "昭烈怒火",
+            "zhHant": "昭烈怒火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/220shenliubei-11f2d9ec/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/220shenliubei/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-liu-bei--220shenliubei--3skill2_2",
+      "resourceId": "220shenliubei/3skill2_2",
+      "text": "兄弟三人结义志，桃园英气久长存。",
+      "textLocalized": {
+        "zhHans": "兄弟三人结义志，桃园英气久长存。",
+        "zhHant": "兄弟三人結義志，桃園英氣久長存。"
+      },
+      "group": {
+        "slug": "spell-833",
+        "name": "结营",
+        "displayName": {
+          "zhHans": "结营",
+          "zhHant": "結營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22001",
+          "name": "昭烈怒火",
+          "displayName": {
+            "zhHans": "昭烈怒火",
+            "zhHant": "昭烈怒火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/220shenliubei-11f2d9ec/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/220shenliubei/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ec130b99543571887d8e3881466eff5cd2833bbd20047c8c9df765d452184518
-size 4796
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shendianwei",
+    "command": "shendianwei",
+    "name": "神典韦",
+    "displayName": {
+      "zhHans": "神典韦",
+      "zhHant": "神典韋"
+    },
+    "names": [
+      "神典韦"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神典韦",
+        "zhHant": "神典韋"
+      }
+    ],
+    "ids": [
+      "229"
+    ],
+    "sourceNames": [
+      "神典韦"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神典韦",
+        "zhHant": "神典韋"
+      }
+    ],
+    "sourceIds": [
+      "229"
+    ],
+    "searchNames": [
+      "shendianwei",
+      "神典韦",
+      "神典韋"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/shendianwei/groups/dead.json"
+      },
+      {
+        "slug": "spell-3391",
+        "name": "捐甲",
+        "displayName": {
+          "zhHans": "捐甲",
+          "zhHant": "捐甲"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shendianwei/groups/spell-3391.json"
+      },
+      {
+        "slug": "spell-3392",
+        "name": "挈挟",
+        "displayName": {
+          "zhHans": "挈挟",
+          "zhHant": "挈挾"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shendianwei/groups/spell-3392.json"
+      },
+      {
+        "slug": "spell-3393",
+        "name": "摧决",
+        "displayName": {
+          "zhHans": "摧决",
+          "zhHant": "摧決"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shendianwei/groups/spell-3393.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shendianwei/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shendianwei.json",
+      "groups": "api/v1/tts/characters/shendianwei/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shendianwei/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3393",
+    "name": "摧决",
+    "displayName": {
+      "zhHans": "摧决",
+      "zhHant": "摧決"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/shendianwei/groups/spell-3393.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "shendianwei--229shendianwei--1skill3_1",
+      "resourceId": "229shendianwei/1skill3_1",
+      "text": "当锋摧决，贯遐洞坚。",
+      "textLocalized": {
+        "zhHans": "当锋摧决，贯遐洞坚。",
+        "zhHant": "當鋒摧決，貫遐洞堅。"
+      },
+      "group": {
+        "slug": "spell-3393",
+        "name": "摧决",
+        "displayName": {
+          "zhHans": "摧决",
+          "zhHant": "摧決"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/229shendianwei-47632469/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/229shendianwei/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shendianwei--229shendianwei--1skill3_2",
+      "resourceId": "229shendianwei/1skill3_2",
+      "text": "殒身不恤，死战成仁。",
+      "textLocalized": {
+        "zhHans": "殒身不恤，死战成仁。",
+        "zhHant": "殞身不恤，死戰成仁。"
+      },
+      "group": {
+        "slug": "spell-3393",
+        "name": "摧决",
+        "displayName": {
+          "zhHans": "摧决",
+          "zhHant": "摧決"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/229shendianwei-47632469/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/229shendianwei/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

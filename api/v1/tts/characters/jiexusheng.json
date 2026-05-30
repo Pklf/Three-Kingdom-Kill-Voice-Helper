@@ -1,3 +1,521 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:55b27672e503391a0c0386ec096ccb230401ed861de2ca6743fed268f377cace
-size 14856
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "jiexusheng",
+    "command": "jiexusheng",
+    "name": "界徐盛",
+    "displayName": {
+      "zhHans": "界徐盛",
+      "zhHant": "界徐盛"
+    },
+    "names": [
+      "界徐盛",
+      "徐盛",
+      "2063"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界徐盛",
+        "zhHant": "界徐盛"
+      },
+      {
+        "zhHans": "徐盛",
+        "zhHant": "徐盛"
+      },
+      {
+        "zhHans": "2063",
+        "zhHant": "2063"
+      }
+    ],
+    "ids": [
+      "587",
+      "158",
+      "2063"
+    ],
+    "sourceNames": [
+      "界徐盛",
+      "徐盛"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界徐盛",
+        "zhHant": "界徐盛"
+      },
+      {
+        "zhHans": "徐盛",
+        "zhHant": "徐盛"
+      }
+    ],
+    "sourceIds": [
+      "587",
+      "158",
+      "2063"
+    ],
+    "searchNames": [
+      "jiexusheng",
+      "界徐盛",
+      "徐盛",
+      "2063"
+    ],
+    "lineCount": 11,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiexusheng/groups/dead.json"
+      },
+      {
+        "slug": "spell-2120",
+        "name": "疑城",
+        "displayName": {
+          "zhHans": "疑城",
+          "zhHant": "疑城"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiexusheng/groups/spell-2120.json"
+      },
+      {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiexusheng/groups/spell-3389.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiexusheng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-58701",
+        "name": "江东铁壁",
+        "displayName": {
+          "zhHans": "江东铁壁",
+          "zhHant": "江東鐵壁"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiexusheng/skins/skin-58701.json"
+      },
+      {
+        "slug": "skin-58702",
+        "name": "破军杀将",
+        "displayName": {
+          "zhHans": "破军杀将",
+          "zhHant": "破軍殺將"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiexusheng/skins/skin-58702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiexusheng.json",
+      "groups": "api/v1/tts/characters/jiexusheng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiexusheng/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 11,
+  "lines": [
+    {
+      "id": "jiexusheng--587jiexusheng--1dead01",
+      "resourceId": "587jiexusheng/1dead01",
+      "text": "盛只恨，不能再为主公，破敌致胜了",
+      "textLocalized": {
+        "zhHans": "盛只恨，不能再为主公，破敌致胜了",
+        "zhHant": "盛只恨，不能再爲主公，破敵致勝了"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--2dead01",
+      "resourceId": "587jiexusheng/2dead01",
+      "text": "长江犹在，铁壁已残。",
+      "textLocalized": {
+        "zhHans": "长江犹在，铁壁已残。",
+        "zhHant": "長江猶在，鐵壁已殘。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-58701",
+          "name": "江东铁壁",
+          "displayName": {
+            "zhHans": "江东铁壁",
+            "zhHant": "江東鐵壁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--3dead01",
+      "resourceId": "587jiexusheng/3dead01",
+      "text": "来世。。。愿再为我江东之臣！",
+      "textLocalized": {
+        "zhHans": "来世。。。愿再为我江东之臣！",
+        "zhHant": "來世。。。願再爲我江東之臣！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-58702",
+          "name": "破军杀将",
+          "displayName": {
+            "zhHans": "破军杀将",
+            "zhHant": "破軍殺將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--3skill2_1",
+      "resourceId": "587jiexusheng/3skill2_1",
+      "text": "敌军色厉内荏，可筑假城以退敌",
+      "textLocalized": {
+        "zhHans": "敌军色厉内荏，可筑假城以退敌",
+        "zhHant": "敵軍色厲內荏，可築假城以退敵"
+      },
+      "group": {
+        "slug": "spell-2120",
+        "name": "疑城",
+        "displayName": {
+          "zhHans": "疑城",
+          "zhHant": "疑城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-58702",
+          "name": "破军杀将",
+          "displayName": {
+            "zhHans": "破军杀将",
+            "zhHant": "破軍殺將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--3skill2_2",
+      "resourceId": "587jiexusheng/3skill2_2",
+      "text": "今疑兵之计，已挫敌兵心胆，其安敢轻进",
+      "textLocalized": {
+        "zhHans": "今疑兵之计，已挫敌兵心胆，其安敢轻进",
+        "zhHant": "今疑兵之計，已挫敵兵心膽，其安敢輕進"
+      },
+      "group": {
+        "slug": "spell-2120",
+        "name": "疑城",
+        "displayName": {
+          "zhHans": "疑城",
+          "zhHant": "疑城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-58702",
+          "name": "破军杀将",
+          "displayName": {
+            "zhHans": "破军杀将",
+            "zhHant": "破軍殺將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--1skill1_1",
+      "resourceId": "587jiexusheng/1skill1_1",
+      "text": "犯大吴疆土者，盛必击而破之",
+      "textLocalized": {
+        "zhHans": "犯大吴疆土者，盛必击而破之",
+        "zhHant": "犯大吳疆土者，盛必擊而破之"
+      },
+      "group": {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--1skill1_2",
+      "resourceId": "587jiexusheng/1skill1_2",
+      "text": "若敢来犯，必叫你大败而归",
+      "textLocalized": {
+        "zhHans": "若敢来犯，必叫你大败而归",
+        "zhHant": "若敢來犯，必叫你大敗而歸"
+      },
+      "group": {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--2skill1_1",
+      "resourceId": "587jiexusheng/2skill1_1",
+      "text": "吾尚未尽全力，敌已亡命丧胆。",
+      "textLocalized": {
+        "zhHans": "吾尚未尽全力，敌已亡命丧胆。",
+        "zhHant": "吾尚未盡全力，敵已亡命喪膽。"
+      },
+      "group": {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-58701",
+          "name": "江东铁壁",
+          "displayName": {
+            "zhHans": "江东铁壁",
+            "zhHant": "江東鐵壁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--2skill1_2",
+      "resourceId": "587jiexusheng/2skill1_2",
+      "text": "知我在此，安敢来犯！",
+      "textLocalized": {
+        "zhHans": "知我在此，安敢来犯！",
+        "zhHant": "知我在此，安敢來犯！"
+      },
+      "group": {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-58701",
+          "name": "江东铁壁",
+          "displayName": {
+            "zhHans": "江东铁壁",
+            "zhHant": "江東鐵壁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--3skill1_1",
+      "resourceId": "587jiexusheng/3skill1_1",
+      "text": "战将临阵，斩关刈城",
+      "textLocalized": {
+        "zhHans": "战将临阵，斩关刈城",
+        "zhHant": "戰將臨陣，斬關刈城"
+      },
+      "group": {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-58702",
+          "name": "破军杀将",
+          "displayName": {
+            "zhHans": "破军杀将",
+            "zhHant": "破軍殺將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexusheng--587jiexusheng--3skill1_2",
+      "resourceId": "587jiexusheng/3skill1_2",
+      "text": "区区数百魏军，看我一击灭之",
+      "textLocalized": {
+        "zhHans": "区区数百魏军，看我一击灭之",
+        "zhHant": "區區數百魏軍，看我一擊滅之"
+      },
+      "group": {
+        "slug": "spell-3389",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-58702",
+          "name": "破军杀将",
+          "displayName": {
+            "zhHans": "破军杀将",
+            "zhHant": "破軍殺將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/587jiexusheng-51577d28/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/587jiexusheng/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,686 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:83964c4d981d6994a3fa0f604e62ccb806f2198e015319ff99c95d53ebeb334a
-size 15395
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangyi",
+    "command": "yangyi",
+    "name": "杨仪",
+    "displayName": {
+      "zhHans": "杨仪",
+      "zhHant": "楊儀"
+    },
+    "names": [
+      "杨仪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨仪",
+        "zhHant": "楊儀"
+      }
+    ],
+    "ids": [
+      "488"
+    ],
+    "sourceNames": [
+      "杨仪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨仪",
+        "zhHant": "楊儀"
+      }
+    ],
+    "sourceIds": [
+      "488"
+    ],
+    "searchNames": [
+      "yangyi",
+      "杨仪",
+      "楊儀"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-3053",
+        "name": "狷狭",
+        "displayName": {
+          "zhHans": "狷狭",
+          "zhHant": "狷狹"
+        },
+        "ids": [
+          "3053"
+        ],
+        "lineCount": 8
+      },
+      {
+        "slug": "spell-3054",
+        "name": "定措",
+        "displayName": {
+          "zhHans": "定措",
+          "zhHant": "定措"
+        },
+        "ids": [
+          "3054"
+        ],
+        "lineCount": 8
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-48801",
+        "ids": [
+          "48801"
+        ],
+        "name": "狷狭激愤",
+        "displayName": {
+          "zhHans": "狷狭激愤",
+          "zhHant": "狷狹激憤"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-48802",
+        "ids": [
+          "48802"
+        ],
+        "name": "落笔成谏",
+        "displayName": {
+          "zhHans": "落笔成谏",
+          "zhHant": "落筆成諫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-48803",
+        "ids": [
+          "48803"
+        ],
+        "name": "驭雷伏乱",
+        "displayName": {
+          "zhHans": "驭雷伏乱",
+          "zhHant": "馭雷伏亂"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/yangyi.json",
+      "lines": "api/v1/characters/yangyi/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "yangyi--488yangyi--1dead01",
+      "resourceId": "488yangyi/1dead01",
+      "text": "魏延庸奴，吾誓杀汝！",
+      "textLocalized": {
+        "zhHans": "魏延庸奴，吾誓杀汝！",
+        "zhHant": "魏延庸奴，吾誓殺汝！"
+      },
+      "character": {
+        "slug": "yangyi",
+        "command": "yangyi",
+        "id": "488",
+        "ids": [
+          "488"
+        ],
+        "name": "杨仪",
+        "displayName": {
+          "zhHans": "杨仪",
+          "zhHant": "楊儀"
+        },
+        "names": [
+          "杨仪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杨仪",
+            "zhHant": "楊儀"
+          }
+        ],
+        "sourceIds": [
+          "488"
+        ],
+        "sourceNames": [
+          "杨仪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杨仪",
+            "zhHant": "楊儀"
+          }
+        ],
+        "searchNames": [
+          "杨仪",
+          "楊儀",
+          "yangyi"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "488",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "杨仪"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--2dead01",
+      "resourceId": "488yangyi/2dead01",
+      "text": "捕我入狱，可谓自断股肱[gōng]。",
+      "textLocalized": {
+        "zhHans": "捕我入狱，可谓自断股肱[gōng]。",
+        "zhHant": "捕我入獄，可謂自斷股肱[gōng]。"
+      },
+      "character": {
+        "slug": "yangyi",
+        "command": "yangyi",
+        "id": "488",
+        "ids": [
+          "488"
+        ],
+        "name": "杨仪",
+        "displayName": {
+          "zhHans": "杨仪",
+          "zhHant": "楊儀"
+        },
+        "names": [
+          "杨仪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杨仪",
+            "zhHant": "楊儀"
+          }
+        ],
+        "sourceIds": [
+          "488"
+        ],
+        "sourceNames": [
+          "杨仪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杨仪",
+            "zhHant": "楊儀"
+          }
+        ],
+        "searchNames": [
+          "杨仪",
+          "楊儀",
+          "yangyi"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-48801",
+        "ids": [
+          "48801"
+        ],
+        "name": "狷狭激愤",
+        "displayName": {
+          "zhHans": "狷狭激愤",
+          "zhHant": "狷狹激憤"
+        },
+        "names": [
+          "狷狭激愤"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "狷狭激愤",
+            "zhHant": "狷狹激憤"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-48801",
+          "id": "48801",
+          "ids": [
+            "48801"
+          ],
+          "name": "狷狭激愤",
+          "displayName": {
+            "zhHans": "狷狭激愤",
+            "zhHant": "狷狹激憤"
+          },
+          "names": [
+            "狷狭激愤"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "狷狭激愤",
+              "zhHant": "狷狹激憤"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "488",
+        "skinKey": "48801",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "杨仪"
+        ],
+        "skinNames": [
+          "狷狭激愤"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/2dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--3dead01",
+      "resourceId": "488yangyi/3dead01",
+      "text": "陛下怎能如此对我。",
+      "textLocalized": {
+        "zhHans": "陛下怎能如此对我。",
+        "zhHant": "陛下怎能如此對我。"
+      },
+      "character": {
+        "slug": "yangyi",
+        "command": "yangyi",
+        "id": "488",
+        "ids": [
+          "488"
+        ],
+        "name": "杨仪",
+        "displayName": {
+          "zhHans": "杨仪",
+          "zhHant": "楊儀"
+        },
+        "names": [
+          "杨仪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杨仪",
+            "zhHant": "楊儀"
+          }
+        ],
+        "sourceIds": [
+          "488"
+        ],
+        "sourceNames": [
+          "杨仪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杨仪",
+            "zhHant": "楊儀"
+          }
+        ],
+        "searchNames": [
+          "杨仪",
+          "楊儀",
+          "yangyi"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-48802",
+        "ids": [
+          "48802"
+        ],
+        "name": "落笔成谏",
+        "displayName": {
+          "zhHans": "落笔成谏",
+          "zhHant": "落筆成諫"
+        },
+        "names": [
+          "落笔成谏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "落笔成谏",
+            "zhHant": "落筆成諫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-48802",
+          "id": "48802",
+          "ids": [
+            "48802"
+          ],
+          "name": "落笔成谏",
+          "displayName": {
+            "zhHans": "落笔成谏",
+            "zhHant": "落筆成諫"
+          },
+          "names": [
+            "落笔成谏"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "落笔成谏",
+              "zhHant": "落筆成諫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "488",
+        "skinKey": "48802",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "杨仪"
+        ],
+        "skinNames": [
+          "落笔成谏"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/3dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--4dead01",
+      "resourceId": "488yangyi/4dead01",
+      "text": "幼主昏聩，群臣无谋，国将亡。",
+      "textLocalized": {
+        "zhHans": "幼主昏聩，群臣无谋，国将亡。",
+        "zhHant": "幼主昏聵，羣臣無謀，國將亡。"
+      },
+      "character": {
+        "slug": "yangyi",
+        "command": "yangyi",
+        "id": "488",
+        "ids": [
+          "488"
+        ],
+        "name": "杨仪",
+        "displayName": {
+          "zhHans": "杨仪",
+          "zhHant": "楊儀"
+        },
+        "names": [
+          "杨仪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杨仪",
+            "zhHant": "楊儀"
+          }
+        ],
+        "sourceIds": [
+          "488"
+        ],
+        "sourceNames": [
+          "杨仪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杨仪",
+            "zhHant": "楊儀"
+          }
+        ],
+        "searchNames": [
+          "杨仪",
+          "楊儀",
+          "yangyi"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-48803",
+        "ids": [
+          "48803"
+        ],
+        "name": "驭雷伏乱",
+        "displayName": {
+          "zhHans": "驭雷伏乱",
+          "zhHant": "馭雷伏亂"
+        },
+        "names": [
+          "驭雷伏乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "驭雷伏乱",
+            "zhHant": "馭雷伏亂"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-48803",
+          "id": "48803",
+          "ids": [
+            "48803"
+          ],
+          "name": "驭雷伏乱",
+          "displayName": {
+            "zhHans": "驭雷伏乱",
+            "zhHant": "馭雷伏亂"
+          },
+          "names": [
+            "驭雷伏乱"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "驭雷伏乱",
+              "zhHant": "馭雷伏亂"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "488",
+        "skinKey": "48803",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "杨仪"
+        ],
+        "skinNames": [
+          "驭雷伏乱"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/4dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

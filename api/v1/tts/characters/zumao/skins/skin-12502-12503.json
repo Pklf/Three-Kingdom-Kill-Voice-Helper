@@ -1,3 +1,399 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b01c44598a52cb69ab3f91ccf8d2cf53d3f0c410e2d432caee44fda0420f63fc
-size 10978
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zumao",
+    "command": "zumao",
+    "name": "祖茂",
+    "displayName": {
+      "zhHans": "祖茂",
+      "zhHant": "祖茂"
+    },
+    "names": [
+      "祖茂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "祖茂",
+        "zhHant": "祖茂"
+      }
+    ],
+    "ids": [
+      "125"
+    ],
+    "sourceNames": [
+      "祖茂"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "祖茂",
+        "zhHant": "祖茂"
+      }
+    ],
+    "sourceIds": [
+      "125"
+    ],
+    "searchNames": [
+      "zumao",
+      "祖茂"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zumao/groups/dead.json"
+      },
+      {
+        "slug": "spell-228",
+        "name": "引兵",
+        "displayName": {
+          "zhHans": "引兵",
+          "zhHant": "引兵"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zumao/groups/spell-228.json"
+      },
+      {
+        "slug": "spell-229",
+        "name": "绝地",
+        "displayName": {
+          "zhHans": "绝地",
+          "zhHant": "絕地"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zumao/groups/spell-229.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-12503",
+        "name": "奋勇而起",
+        "displayName": {
+          "zhHans": "奋勇而起",
+          "zhHant": "奮勇而起"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-12503.json"
+      },
+      {
+        "slug": "skin-12501",
+        "name": "杀身成仁",
+        "displayName": {
+          "zhHans": "杀身成仁",
+          "zhHant": "殺身成仁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-12501.json"
+      },
+      {
+        "slug": "skin-12502",
+        "name": "横刀策马",
+        "displayName": {
+          "zhHans": "横刀策马",
+          "zhHant": "橫刀策馬"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-12502.json"
+      },
+      {
+        "slug": "skin-12502-12503",
+        "name": "横刀策马,奋勇而起",
+        "displayName": {
+          "zhHans": "横刀策马,奋勇而起",
+          "zhHant": "橫刀策馬,奮勇而起"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-12502-12503.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zumao.json",
+      "groups": "api/v1/tts/characters/zumao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zumao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-12502-12503",
+    "name": "横刀策马,奋勇而起",
+    "displayName": {
+      "zhHans": "横刀策马,奋勇而起",
+      "zhHant": "橫刀策馬,奮勇而起"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zumao/skins/skin-12502-12503.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zumao--125zumao--4dead01",
+      "resourceId": "125zumao/4dead01",
+      "text": "这一次，是走不脱了……",
+      "textLocalized": {
+        "zhHans": "这一次，是走不脱了……",
+        "zhHant": "這一次，是走不脫了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12503",
+          "name": "奋勇而起",
+          "displayName": {
+            "zhHans": "奋勇而起",
+            "zhHant": "奮勇而起"
+          }
+        },
+        {
+          "slug": "skin-12502",
+          "name": "横刀策马",
+          "displayName": {
+            "zhHans": "横刀策马",
+            "zhHant": "橫刀策馬"
+          }
+        },
+        {
+          "slug": "skin-12502-12503",
+          "name": "横刀策马,奋勇而起",
+          "displayName": {
+            "zhHans": "横刀策马,奋勇而起",
+            "zhHant": "橫刀策馬,奮勇而起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/125zumao-e82bf6c1/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/125zumao/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zumao--125zumao--4skill1_1",
+      "resourceId": "125zumao/4skill1_1",
+      "text": "我替主公抵挡一阵。",
+      "textLocalized": {
+        "zhHans": "我替主公抵挡一阵。",
+        "zhHant": "我替主公抵擋一陣。"
+      },
+      "group": {
+        "slug": "spell-228",
+        "name": "引兵",
+        "displayName": {
+          "zhHans": "引兵",
+          "zhHant": "引兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12503",
+          "name": "奋勇而起",
+          "displayName": {
+            "zhHans": "奋勇而起",
+            "zhHant": "奮勇而起"
+          }
+        },
+        {
+          "slug": "skin-12502",
+          "name": "横刀策马",
+          "displayName": {
+            "zhHans": "横刀策马",
+            "zhHant": "橫刀策馬"
+          }
+        },
+        {
+          "slug": "skin-12502-12503",
+          "name": "横刀策马,奋勇而起",
+          "displayName": {
+            "zhHans": "横刀策马,奋勇而起",
+            "zhHant": "橫刀策馬,奮勇而起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/125zumao-e82bf6c1/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/125zumao/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zumao--125zumao--4skill1_2",
+      "resourceId": "125zumao/4skill1_2",
+      "text": "你的对手，是我！",
+      "textLocalized": {
+        "zhHans": "你的对手，是我！",
+        "zhHant": "你的對手，是我！"
+      },
+      "group": {
+        "slug": "spell-228",
+        "name": "引兵",
+        "displayName": {
+          "zhHans": "引兵",
+          "zhHant": "引兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12503",
+          "name": "奋勇而起",
+          "displayName": {
+            "zhHans": "奋勇而起",
+            "zhHant": "奮勇而起"
+          }
+        },
+        {
+          "slug": "skin-12502",
+          "name": "横刀策马",
+          "displayName": {
+            "zhHans": "横刀策马",
+            "zhHant": "橫刀策馬"
+          }
+        },
+        {
+          "slug": "skin-12502-12503",
+          "name": "横刀策马,奋勇而起",
+          "displayName": {
+            "zhHans": "横刀策马,奋勇而起",
+            "zhHant": "橫刀策馬,奮勇而起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/125zumao-e82bf6c1/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/125zumao/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zumao--125zumao--4skill2_1",
+      "resourceId": "125zumao/4skill2_1",
+      "text": "我们都别想活着离开！",
+      "textLocalized": {
+        "zhHans": "我们都别想活着离开！",
+        "zhHant": "我們都別想活着離開！"
+      },
+      "group": {
+        "slug": "spell-229",
+        "name": "绝地",
+        "displayName": {
+          "zhHans": "绝地",
+          "zhHant": "絕地"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12503",
+          "name": "奋勇而起",
+          "displayName": {
+            "zhHans": "奋勇而起",
+            "zhHant": "奮勇而起"
+          }
+        },
+        {
+          "slug": "skin-12502",
+          "name": "横刀策马",
+          "displayName": {
+            "zhHans": "横刀策马",
+            "zhHant": "橫刀策馬"
+          }
+        },
+        {
+          "slug": "skin-12502-12503",
+          "name": "横刀策马,奋勇而起",
+          "displayName": {
+            "zhHans": "横刀策马,奋勇而起",
+            "zhHant": "橫刀策馬,奮勇而起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/125zumao-e82bf6c1/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/125zumao/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zumao--125zumao--4skill2_2",
+      "resourceId": "125zumao/4skill2_2",
+      "text": "胜利，或者死！",
+      "textLocalized": {
+        "zhHans": "胜利，或者死！",
+        "zhHant": "勝利，或者死！"
+      },
+      "group": {
+        "slug": "spell-229",
+        "name": "绝地",
+        "displayName": {
+          "zhHans": "绝地",
+          "zhHant": "絕地"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12503",
+          "name": "奋勇而起",
+          "displayName": {
+            "zhHans": "奋勇而起",
+            "zhHant": "奮勇而起"
+          }
+        },
+        {
+          "slug": "skin-12502",
+          "name": "横刀策马",
+          "displayName": {
+            "zhHans": "横刀策马",
+            "zhHant": "橫刀策馬"
+          }
+        },
+        {
+          "slug": "skin-12502-12503",
+          "name": "横刀策马,奋勇而起",
+          "displayName": {
+            "zhHans": "横刀策马,奋勇而起",
+            "zhHant": "橫刀策馬,奮勇而起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/125zumao-e82bf6c1/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/125zumao/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

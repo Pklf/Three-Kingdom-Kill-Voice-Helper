@@ -1,3 +1,229 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c3811527d5f75c1e94ecb6507ece2f2b90e3cb45881d468285786324c7d38fe
-size 5954
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "panshu",
+    "command": "panshu",
+    "name": "潘淑",
+    "displayName": {
+      "zhHans": "潘淑",
+      "zhHant": "潘淑"
+    },
+    "names": [
+      "潘淑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "潘淑",
+        "zhHant": "潘淑"
+      }
+    ],
+    "ids": [
+      "478"
+    ],
+    "sourceNames": [
+      "潘淑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "潘淑",
+        "zhHant": "潘淑"
+      }
+    ],
+    "sourceIds": [
+      "478"
+    ],
+    "searchNames": [
+      "panshu",
+      "潘淑"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/panshu/groups/dead.json"
+      },
+      {
+        "slug": "spell-975",
+        "name": "威仪",
+        "displayName": {
+          "zhHans": "威仪",
+          "zhHant": "威儀"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/panshu/groups/spell-975.json"
+      },
+      {
+        "slug": "spell-976",
+        "name": "锦织",
+        "displayName": {
+          "zhHans": "锦织",
+          "zhHant": "錦織"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/panshu/groups/spell-976.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panshu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-47801",
+        "name": "江东锦绣",
+        "displayName": {
+          "zhHans": "江东锦绣",
+          "zhHant": "江東錦繡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panshu/skins/skin-47801.json"
+      },
+      {
+        "slug": "skin-47802",
+        "name": "顾盼思澜",
+        "displayName": {
+          "zhHans": "顾盼思澜",
+          "zhHant": "顧盼思瀾"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panshu/skins/skin-47802.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/panshu.json",
+      "groups": "api/v1/tts/characters/panshu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/panshu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/panshu/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "panshu--478panshu--1dead01",
+      "resourceId": "478panshu/1dead01",
+      "text": "本为织女，幸蒙帝垂怜……",
+      "textLocalized": {
+        "zhHans": "本为织女，幸蒙帝垂怜……",
+        "zhHant": "本爲織女，幸蒙帝垂憐……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/478panshu-31de01f9/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/478panshu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panshu--478panshu--2dead01",
+      "resourceId": "478panshu/2dead01",
+      "text": "锦碎，人去矣……",
+      "textLocalized": {
+        "zhHans": "锦碎，人去矣……",
+        "zhHant": "錦碎，人去矣……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47801",
+          "name": "江东锦绣",
+          "displayName": {
+            "zhHans": "江东锦绣",
+            "zhHant": "江東錦繡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/478panshu-31de01f9/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/478panshu/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panshu--478panshu--3dead01",
+      "resourceId": "478panshu/3dead01",
+      "text": "织室入椒房，满面啼泪痕。",
+      "textLocalized": {
+        "zhHans": "织室入椒房，满面啼泪痕。",
+        "zhHant": "織室入椒房，滿面啼淚痕。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47802",
+          "name": "顾盼思澜",
+          "displayName": {
+            "zhHans": "顾盼思澜",
+            "zhHant": "顧盼思瀾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/478panshu-31de01f9/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/478panshu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

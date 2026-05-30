@@ -1,3 +1,198 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3cd04a286d2d6b5374a0bb947d373369dcb22994a7a741f91c03e1171bd37fe9
-size 4999
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "moukongrong",
+    "command": "moukongrong",
+    "name": "谋孔融",
+    "displayName": {
+      "zhHans": "谋孔融",
+      "zhHant": "謀孔融"
+    },
+    "names": [
+      "谋孔融",
+      "孔融"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "谋孔融",
+        "zhHant": "謀孔融"
+      },
+      {
+        "zhHans": "孔融",
+        "zhHant": "孔融"
+      }
+    ],
+    "ids": [
+      "643",
+      "2055"
+    ],
+    "sourceNames": [
+      "谋孔融",
+      "孔融"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "谋孔融",
+        "zhHant": "謀孔融"
+      },
+      {
+        "zhHans": "孔融",
+        "zhHant": "孔融"
+      }
+    ],
+    "sourceIds": [
+      "643",
+      "2055"
+    ],
+    "searchNames": [
+      "moukongrong",
+      "谋孔融",
+      "謀孔融",
+      "孔融"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/moukongrong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3519",
+        "name": "立文",
+        "displayName": {
+          "zhHans": "立文",
+          "zhHant": "立文"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/moukongrong/groups/spell-3519.json"
+      },
+      {
+        "slug": "spell-3520",
+        "name": "争义",
+        "displayName": {
+          "zhHans": "争义",
+          "zhHant": "爭義"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/moukongrong/groups/spell-3520.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "64301",
+        "name": "64301",
+        "displayName": {
+          "zhHans": "64301",
+          "zhHant": "64301"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/moukongrong/skins/64301.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/moukongrong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/moukongrong.json",
+      "groups": "api/v1/tts/characters/moukongrong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/moukongrong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/moukongrong/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "moukongrong--643moukongrong--2dead01",
+      "resourceId": "643moukongrong/2dead01",
+      "text": "莫以等闲事，空白少年头。",
+      "textLocalized": {
+        "zhHans": "莫以等闲事，空白少年头。",
+        "zhHant": "莫以等閒事，空白少年頭。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "64301",
+          "name": "64301",
+          "displayName": {
+            "zhHans": "64301",
+            "zhHant": "64301"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/643moukongrong-d76c9aec/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/643moukongrong/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "moukongrong--643moukongrong--1dead01",
+      "resourceId": "643moukongrong/1dead01",
+      "text": "为父将去，子何以不辞？",
+      "textLocalized": {
+        "zhHans": "为父将去，子何以不辞？",
+        "zhHant": "爲父將去，子何以不辭？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/643moukongrong-d76c9aec/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/643moukongrong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

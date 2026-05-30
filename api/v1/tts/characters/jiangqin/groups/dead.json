@@ -1,3 +1,230 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14e2e88cd03a37a0b623d8a89e623b19152a03ebacfbd3078a7d25b7ea0dfc9f
-size 6051
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiangqin",
+    "command": "jiangqin",
+    "name": "蒋钦",
+    "displayName": {
+      "zhHans": "蒋钦",
+      "zhHant": "蔣欽"
+    },
+    "names": [
+      "蒋钦"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蒋钦",
+        "zhHant": "蔣欽"
+      }
+    ],
+    "ids": [
+      "2074"
+    ],
+    "sourceNames": [
+      "蒋钦"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蒋钦",
+        "zhHant": "蔣欽"
+      }
+    ],
+    "sourceIds": [
+      "2074"
+    ],
+    "searchNames": [
+      "jiangqin",
+      "蒋钦",
+      "蔣欽"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiangqin/groups/dead.json"
+      },
+      {
+        "slug": "spell-2138",
+        "name": "尚义",
+        "displayName": {
+          "zhHans": "尚义",
+          "zhHant": "尚義"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiangqin/groups/spell-2138.json"
+      },
+      {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiangqin/groups/spell-2139.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-207404",
+        "name": "奋敌护主",
+        "displayName": {
+          "zhHans": "奋敌护主",
+          "zhHant": "奮敵護主"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-207404.json"
+      },
+      {
+        "slug": "skin-207403",
+        "name": "海天箭走",
+        "displayName": {
+          "zhHans": "海天箭走",
+          "zhHant": "海天箭走"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-207403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiangqin.json",
+      "groups": "api/v1/tts/characters/jiangqin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiangqin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/jiangqin/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "jiangqin--2074jiangqin--1dead01",
+      "resourceId": "2074jiangqin/1dead01",
+      "text": "静，破我阵法。",
+      "textLocalized": {
+        "zhHans": "静，破我阵法。",
+        "zhHant": "靜，破我陣法。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--4dead01",
+      "resourceId": "2074jiangqin/4dead01",
+      "text": "壮士力衰，难挽强弓……",
+      "textLocalized": {
+        "zhHans": "壮士力衰，难挽强弓……",
+        "zhHant": "壯士力衰，難挽強弓……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207404",
+          "name": "奋敌护主",
+          "displayName": {
+            "zhHans": "奋敌护主",
+            "zhHant": "奮敵護主"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--3dead01",
+      "resourceId": "2074jiangqin/3dead01",
+      "text": "这病……来得……太突然了……",
+      "textLocalized": {
+        "zhHans": "这病……来得……太突然了……",
+        "zhHant": "這病……來得……太突然了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207403",
+          "name": "海天箭走",
+          "displayName": {
+            "zhHans": "海天箭走",
+            "zhHant": "海天箭走"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

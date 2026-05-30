@@ -1,3 +1,480 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:01c54cb68820e29b214b8f3816f00b387d6ae1f8aa7221f4ddfa38a30e1608cc
-size 13785
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simashi",
+    "command": "simashi",
+    "name": "司马师",
+    "displayName": {
+      "zhHans": "司马师",
+      "zhHant": "司馬師"
+    },
+    "names": [
+      "司马师"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马师",
+        "zhHant": "司馬師"
+      }
+    ],
+    "ids": [
+      "7002"
+    ],
+    "sourceNames": [
+      "司马师"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马师",
+        "zhHant": "司馬師"
+      }
+    ],
+    "sourceIds": [
+      "7002"
+    ],
+    "searchNames": [
+      "simashi",
+      "司马师",
+      "司馬師"
+    ],
+    "lineCount": 45,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simashi/groups/dead.json"
+      },
+      {
+        "slug": "spell-7004",
+        "name": "韬隐",
+        "displayName": {
+          "zhHans": "韬隐",
+          "zhHant": "韜隱"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7004.json"
+      },
+      {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7005.json"
+      },
+      {
+        "slug": "spell-7006",
+        "name": "睿略",
+        "displayName": {
+          "zhHans": "睿略",
+          "zhHant": "睿略"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7006.json"
+      },
+      {
+        "slug": "spell-7007",
+        "name": "泰然",
+        "displayName": {
+          "zhHans": "泰然",
+          "zhHant": "泰然"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7007.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700202",
+        "name": "桀骜睥睨",
+        "displayName": {
+          "zhHans": "桀骜睥睨",
+          "zhHant": "桀驁睥睨"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700202.json"
+      },
+      {
+        "slug": "skin-700201",
+        "name": "浩淼情缘",
+        "displayName": {
+          "zhHans": "浩淼情缘",
+          "zhHant": "浩淼情緣"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700201.json"
+      },
+      {
+        "slug": "skin-700205",
+        "name": "锐意无当",
+        "displayName": {
+          "zhHans": "锐意无当",
+          "zhHant": "銳意無當"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700205.json"
+      },
+      {
+        "slug": "skin-700203",
+        "name": "闲适悠趣",
+        "displayName": {
+          "zhHans": "闲适悠趣",
+          "zhHant": "閒適悠趣"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700203.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simashi.json",
+      "groups": "api/v1/tts/characters/simashi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simashi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-700202",
+    "name": "桀骜睥睨",
+    "displayName": {
+      "zhHans": "桀骜睥睨",
+      "zhHant": "桀驁睥睨"
+    },
+    "lineCount": 9,
+    "endpoint": "api/v1/tts/characters/simashi/skins/skin-700202.json"
+  },
+  "lineCount": 9,
+  "lines": [
+    {
+      "id": "simashi--7002simashi--3dead01",
+      "resourceId": "7002simashi/3dead01",
+      "text": "心高命薄，天何薄我……",
+      "textLocalized": {
+        "zhHans": "心高命薄，天何薄我……",
+        "zhHant": "心高命薄，天何薄我……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill1_1",
+      "resourceId": "7002simashi/3skill1_1",
+      "text": "成大事者，当务实权而远虚名。",
+      "textLocalized": {
+        "zhHans": "成大事者，当务实权而远虚名。",
+        "zhHant": "成大事者，當務實權而遠虛名。"
+      },
+      "group": {
+        "slug": "spell-7004",
+        "name": "韬隐",
+        "displayName": {
+          "zhHans": "韬隐",
+          "zhHant": "韜隱"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill1_2",
+      "resourceId": "7002simashi/3skill1_2",
+      "text": "潜龙隐于千丈海，胸有韬晦十万兵",
+      "textLocalized": {
+        "zhHans": "潜龙隐于千丈海，胸有韬晦十万兵",
+        "zhHant": "潛龍隱於千丈海，胸有韜晦十萬兵"
+      },
+      "group": {
+        "slug": "spell-7004",
+        "name": "韬隐",
+        "displayName": {
+          "zhHans": "韬隐",
+          "zhHant": "韜隱"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill2_1",
+      "resourceId": "7002simashi/3skill2_1",
+      "text": "夷此僚三族，以儆效尤！",
+      "textLocalized": {
+        "zhHans": "夷此僚三族，以儆效尤！",
+        "zhHant": "夷此僚三族，以儆效尤！"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill2_2",
+      "resourceId": "7002simashi/3skill2_2",
+      "text": "逆我司马氏者，罪无可恕！",
+      "textLocalized": {
+        "zhHans": "逆我司马氏者，罪无可恕！",
+        "zhHant": "逆我司馬氏者，罪無可恕！"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill3_1",
+      "resourceId": "7002simashi/3skill3_1",
+      "text": "司马氏满门英杰，皆经天纬地之才！",
+      "textLocalized": {
+        "zhHans": "司马氏满门英杰，皆经天纬地之才！",
+        "zhHant": "司馬氏滿門英傑，皆經天緯地之才！"
+      },
+      "group": {
+        "slug": "spell-7006",
+        "name": "睿略",
+        "displayName": {
+          "zhHans": "睿略",
+          "zhHant": "睿略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill3_2",
+      "resourceId": "7002simashi/3skill3_2",
+      "text": "外知军略，内通政事，此乃明君之象。",
+      "textLocalized": {
+        "zhHans": "外知军略，内通政事，此乃明君之象。",
+        "zhHant": "外知軍略，內通政事，此乃明君之象。"
+      },
+      "group": {
+        "slug": "spell-7006",
+        "name": "睿略",
+        "displayName": {
+          "zhHans": "睿略",
+          "zhHant": "睿略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill4_1",
+      "resourceId": "7002simashi/3skill4_1",
+      "text": "宦海沉浮，历尽风浪，方显英雄本色。",
+      "textLocalized": {
+        "zhHans": "宦海沉浮，历尽风浪，方显英雄本色。",
+        "zhHant": "宦海沉浮，歷盡風浪，方顯英雄本色。"
+      },
+      "group": {
+        "slug": "spell-7007",
+        "name": "泰然",
+        "displayName": {
+          "zhHans": "泰然",
+          "zhHant": "泰然"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill4-1-32967e07.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill4_2",
+      "resourceId": "7002simashi/3skill4_2",
+      "text": "壁立千仞，泰然本英雄！",
+      "textLocalized": {
+        "zhHans": "壁立千仞，泰然本英雄！",
+        "zhHant": "壁立千仞，泰然本英雄！"
+      },
+      "group": {
+        "slug": "spell-7007",
+        "name": "泰然",
+        "displayName": {
+          "zhHans": "泰然",
+          "zhHant": "泰然"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill4-2-4acfe1c1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:12057213849bb704314a7094092b621ebed5e81e0b931592eaedcb4d461f6b5e
-size 8081
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shen-guan-yu",
+    "command": "shen-guan-yu",
+    "name": "神关羽",
+    "displayName": {
+      "zhHans": "神关羽",
+      "zhHant": "神關羽"
+    },
+    "names": [
+      "神关羽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神关羽",
+        "zhHant": "神關羽"
+      }
+    ],
+    "ids": [
+      "201"
+    ],
+    "sourceNames": [
+      "神关羽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神关羽",
+        "zhHant": "神關羽"
+      }
+    ],
+    "sourceIds": [
+      "201"
+    ],
+    "searchNames": [
+      "shen-guan-yu",
+      "神关羽",
+      "神關羽"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shen-guan-yu/groups/dead.json"
+      },
+      {
+        "slug": "spell-301",
+        "name": "武神",
+        "displayName": {
+          "zhHans": "武神",
+          "zhHant": "武神"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shen-guan-yu/groups/spell-301.json"
+      },
+      {
+        "slug": "spell-302",
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shen-guan-yu/groups/spell-302.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-20101",
+        "name": "关帝之魂",
+        "displayName": {
+          "zhHans": "关帝之魂",
+          "zhHant": "關帝之魂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shen-guan-yu/skins/skin-20101.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shen-guan-yu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-20102",
+        "name": "链狱鬼神",
+        "displayName": {
+          "zhHans": "链狱鬼神",
+          "zhHant": "鏈獄鬼神"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shen-guan-yu/skins/skin-20102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shen-guan-yu.json",
+      "groups": "api/v1/tts/characters/shen-guan-yu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shen-guan-yu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/shen-guan-yu/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "shen-guan-yu--201shenguanyu--1dead01",
+      "resourceId": "201shenguanyu/1dead01",
+      "text": "大仇得报，可以离开了...",
+      "textLocalized": {
+        "zhHans": "大仇得报，可以离开了...",
+        "zhHant": "大仇得報，可以離開了..."
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-guan-yu--201shenguanyu--1skill1_1",
+      "resourceId": "201shenguanyu/1skill1_1",
+      "text": "取汝狗头犹如探囊取物！",
+      "textLocalized": {
+        "zhHans": "取汝狗头犹如探囊取物！",
+        "zhHant": "取汝狗頭猶如探囊取物！"
+      },
+      "group": {
+        "slug": "spell-301",
+        "name": "武神",
+        "displayName": {
+          "zhHans": "武神",
+          "zhHant": "武神"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-guan-yu--201shenguanyu--1skill1_2",
+      "resourceId": "201shenguanyu/1skill1_2",
+      "text": "还不速速领死！",
+      "textLocalized": {
+        "zhHans": "还不速速领死！",
+        "zhHant": "還不速速領死！"
+      },
+      "group": {
+        "slug": "spell-301",
+        "name": "武神",
+        "displayName": {
+          "zhHans": "武神",
+          "zhHant": "武神"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-guan-yu--201shenguanyu--1skill2_1",
+      "resourceId": "201shenguanyu/1skill2_1",
+      "text": "拿命来！",
+      "textLocalized": {
+        "zhHans": "拿命来！",
+        "zhHant": "拿命來！"
+      },
+      "group": {
+        "slug": "spell-302",
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-guan-yu--201shenguanyu--1skill2_2",
+      "resourceId": "201shenguanyu/1skill2_2",
+      "text": "谁来与我同去？！",
+      "textLocalized": {
+        "zhHans": "谁来与我同去？！",
+        "zhHant": "誰來與我同去？！"
+      },
+      "group": {
+        "slug": "spell-302",
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

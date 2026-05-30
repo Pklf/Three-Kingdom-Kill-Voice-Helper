@@ -1,3 +1,653 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c6e16242e262f154f0907382a830a7ae18340f277ecb34470ce4ac1dca48fccb
-size 18823
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunluban",
+    "command": "sunluban",
+    "name": "孙鲁班",
+    "displayName": {
+      "zhHans": "孙鲁班",
+      "zhHant": "孫魯班"
+    },
+    "names": [
+      "孙鲁班"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙鲁班",
+        "zhHant": "孫魯班"
+      }
+    ],
+    "ids": [
+      "327"
+    ],
+    "sourceNames": [
+      "孙鲁班"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙鲁班",
+        "zhHant": "孫魯班"
+      }
+    ],
+    "sourceIds": [
+      "327"
+    ],
+    "searchNames": [
+      "sunluban",
+      "孙鲁班",
+      "孫魯班"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/sunluban/groups/dead.json"
+      },
+      {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/sunluban/groups/spell-486.json"
+      },
+      {
+        "slug": "spell-487",
+        "name": "骄矜",
+        "displayName": {
+          "zhHans": "骄矜",
+          "zhHant": "驕矜"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/sunluban/groups/spell-487.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-32701",
+        "name": "为虎作伥",
+        "displayName": {
+          "zhHans": "为虎作伥",
+          "zhHant": "爲虎作倀"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32701.json"
+      },
+      {
+        "slug": "skin-32704",
+        "name": "倚虎弄权",
+        "displayName": {
+          "zhHans": "倚虎弄权",
+          "zhHant": "倚虎弄權"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32704.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32702",
+        "name": "宫邻金虎",
+        "displayName": {
+          "zhHans": "宫邻金虎",
+          "zhHant": "宮鄰金虎"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32702.json"
+      },
+      {
+        "slug": "skin-32702-32703-32706",
+        "name": "宫邻金虎,尊贵骄矜,江南双花",
+        "displayName": {
+          "zhHans": "宫邻金虎,尊贵骄矜,江南双花",
+          "zhHant": "宮鄰金虎,尊貴驕矜,江南雙花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32702-32703-32706.json"
+      },
+      {
+        "slug": "skin-32703",
+        "name": "尊贵骄矜",
+        "displayName": {
+          "zhHans": "尊贵骄矜",
+          "zhHant": "尊貴驕矜"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32703.json"
+      },
+      {
+        "slug": "skin-32706",
+        "name": "江南双花",
+        "displayName": {
+          "zhHans": "江南双花",
+          "zhHant": "江南雙花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32706.json"
+      },
+      {
+        "slug": "skin-32707",
+        "name": "玉颜双娇",
+        "displayName": {
+          "zhHans": "玉颜双娇",
+          "zhHant": "玉顏雙嬌"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32707.json"
+      },
+      {
+        "slug": "skin-32708",
+        "name": "金枝玉叶",
+        "displayName": {
+          "zhHans": "金枝玉叶",
+          "zhHant": "金枝玉葉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32708.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunluban.json",
+      "groups": "api/v1/tts/characters/sunluban/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunluban/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-486",
+    "name": "谮毁",
+    "displayName": {
+      "zhHans": "谮毁",
+      "zhHant": "譖毀"
+    },
+    "lineCount": 12,
+    "endpoint": "api/v1/tts/characters/sunluban/groups/spell-486.json"
+  },
+  "lineCount": 12,
+  "lines": [
+    {
+      "id": "sunluban--327sunluban--3skill1_1",
+      "resourceId": "327sunluban/3skill1_1",
+      "text": "是非曲直，皆随我愿。",
+      "textLocalized": {
+        "zhHans": "是非曲直，皆随我愿。",
+        "zhHant": "是非曲直，皆隨我願。"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32701",
+          "name": "为虎作伥",
+          "displayName": {
+            "zhHans": "为虎作伥",
+            "zhHant": "爲虎作倀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--3skill1_2",
+      "resourceId": "327sunluban/3skill1_2",
+      "text": "呵呵呵~这欺君罔上之罪，可是罪无可恕呦~",
+      "textLocalized": {
+        "zhHans": "呵呵呵~这欺君罔上之罪，可是罪无可恕呦~",
+        "zhHant": "呵呵呵~這欺君罔上之罪，可是罪無可恕呦~"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32701",
+          "name": "为虎作伥",
+          "displayName": {
+            "zhHans": "为虎作伥",
+            "zhHant": "爲虎作倀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--5skill1_1",
+      "resourceId": "327sunluban/5skill1_1",
+      "text": "与我作对的，通通难逃一死！",
+      "textLocalized": {
+        "zhHans": "与我作对的，通通难逃一死！",
+        "zhHant": "與我作對的，通通難逃一死！"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32704",
+          "name": "倚虎弄权",
+          "displayName": {
+            "zhHans": "倚虎弄权",
+            "zhHant": "倚虎弄權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--5skill1_2",
+      "resourceId": "327sunluban/5skill1_2",
+      "text": "你以为我不知道你干的好事？",
+      "textLocalized": {
+        "zhHans": "你以为我不知道你干的好事？",
+        "zhHant": "你以爲我不知道你乾的好事？"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32704",
+          "name": "倚虎弄权",
+          "displayName": {
+            "zhHans": "倚虎弄权",
+            "zhHant": "倚虎弄權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--1skill1_1",
+      "resourceId": "327sunluban/1skill1_1",
+      "text": "你可别不识抬举。",
+      "textLocalized": {
+        "zhHans": "你可别不识抬举。",
+        "zhHant": "你可別不識抬舉。"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--1skill1_2",
+      "resourceId": "327sunluban/1skill1_2",
+      "text": "你也休想置身事外。",
+      "textLocalized": {
+        "zhHans": "你也休想置身事外。",
+        "zhHant": "你也休想置身事外。"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--4skill1_1",
+      "resourceId": "327sunluban/4skill1_1",
+      "text": "如做此事，怎不敢当！",
+      "textLocalized": {
+        "zhHans": "如做此事，怎不敢当！",
+        "zhHant": "如做此事，怎不敢當！"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32702",
+          "name": "宫邻金虎",
+          "displayName": {
+            "zhHans": "宫邻金虎",
+            "zhHant": "宮鄰金虎"
+          }
+        },
+        {
+          "slug": "skin-32703",
+          "name": "尊贵骄矜",
+          "displayName": {
+            "zhHans": "尊贵骄矜",
+            "zhHant": "尊貴驕矜"
+          }
+        },
+        {
+          "slug": "skin-32706",
+          "name": "江南双花",
+          "displayName": {
+            "zhHans": "江南双花",
+            "zhHant": "江南雙花"
+          }
+        },
+        {
+          "slug": "skin-32702-32703-32706",
+          "name": "宫邻金虎,尊贵骄矜,江南双花",
+          "displayName": {
+            "zhHans": "宫邻金虎,尊贵骄矜,江南双花",
+            "zhHant": "宮鄰金虎,尊貴驕矜,江南雙花"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--4skill1_2",
+      "resourceId": "327sunluban/4skill1_2",
+      "text": "你，定是同谋！",
+      "textLocalized": {
+        "zhHans": "你，定是同谋！",
+        "zhHant": "你，定是同謀！"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32702",
+          "name": "宫邻金虎",
+          "displayName": {
+            "zhHans": "宫邻金虎",
+            "zhHant": "宮鄰金虎"
+          }
+        },
+        {
+          "slug": "skin-32703",
+          "name": "尊贵骄矜",
+          "displayName": {
+            "zhHans": "尊贵骄矜",
+            "zhHant": "尊貴驕矜"
+          }
+        },
+        {
+          "slug": "skin-32706",
+          "name": "江南双花",
+          "displayName": {
+            "zhHans": "江南双花",
+            "zhHant": "江南雙花"
+          }
+        },
+        {
+          "slug": "skin-32702-32703-32706",
+          "name": "宫邻金虎,尊贵骄矜,江南双花",
+          "displayName": {
+            "zhHans": "宫邻金虎,尊贵骄矜,江南双花",
+            "zhHant": "宮鄰金虎,尊貴驕矜,江南雙花"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--6skill1_1",
+      "resourceId": "327sunluban/6skill1_1",
+      "text": "浸润之谮，肤受之愬[sù]。",
+      "textLocalized": {
+        "zhHans": "浸润之谮，肤受之愬[sù]。",
+        "zhHant": "浸潤之譖，膚受之愬[sù]。"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32707",
+          "name": "玉颜双娇",
+          "displayName": {
+            "zhHans": "玉颜双娇",
+            "zhHant": "玉顏雙嬌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--6skill1_2",
+      "resourceId": "327sunluban/6skill1_2",
+      "text": "谮人之言，毁吾名节。",
+      "textLocalized": {
+        "zhHans": "谮人之言，毁吾名节。",
+        "zhHant": "譖人之言，毀吾名節。"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32707",
+          "name": "玉颜双娇",
+          "displayName": {
+            "zhHans": "玉颜双娇",
+            "zhHant": "玉顏雙嬌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--7skill1_1",
+      "resourceId": "327sunluban/7skill1_1",
+      "text": "忤逆我心思的，都不会有好下场。",
+      "textLocalized": {
+        "zhHans": "忤逆我心思的，都不会有好下场。",
+        "zhHant": "忤逆我心思的，都不會有好下場。"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32708",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/7skill1-1-4d1f92a3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/7skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--7skill1_2",
+      "resourceId": "327sunluban/7skill1_2",
+      "text": "谮下谩上，可是死罪。",
+      "textLocalized": {
+        "zhHans": "谮下谩上，可是死罪。",
+        "zhHant": "譖下謾上，可是死罪。"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32708",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/7skill1-2-5d53dc16.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/7skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

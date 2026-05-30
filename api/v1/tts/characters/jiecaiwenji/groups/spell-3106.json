@@ -1,3 +1,319 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:afdf8c16e23806afecd244c805f1c98807c497e2bb514b0cb4dad748f11049d8
-size 8889
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiecaiwenji",
+    "command": "jiecaiwenji",
+    "name": "界蔡文姬",
+    "displayName": {
+      "zhHans": "界蔡文姬",
+      "zhHant": "界蔡文姬"
+    },
+    "names": [
+      "界蔡文姬",
+      "蔡文姬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界蔡文姬",
+        "zhHant": "界蔡文姬"
+      },
+      {
+        "zhHans": "蔡文姬",
+        "zhHant": "蔡文姬"
+      }
+    ],
+    "ids": [
+      "505",
+      "57"
+    ],
+    "sourceNames": [
+      "界蔡文姬",
+      "蔡文姬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界蔡文姬",
+        "zhHant": "界蔡文姬"
+      },
+      {
+        "zhHans": "蔡文姬",
+        "zhHant": "蔡文姬"
+      }
+    ],
+    "sourceIds": [
+      "505",
+      "57"
+    ],
+    "searchNames": [
+      "jiecaiwenji",
+      "界蔡文姬",
+      "蔡文姬"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/groups/dead.json"
+      },
+      {
+        "slug": "spell-138",
+        "name": "断肠",
+        "displayName": {
+          "zhHans": "断肠",
+          "zhHant": "斷腸"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/groups/spell-138.json"
+      },
+      {
+        "slug": "spell-3106",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/groups/spell-3106.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-51502",
+        "name": "书剑定远",
+        "displayName": {
+          "zhHans": "书剑定远",
+          "zhHant": "書劍定遠"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/skins/skin-51502.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50501",
+        "name": "夜华抒情",
+        "displayName": {
+          "zhHans": "夜华抒情",
+          "zhHant": "夜華抒情"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/skins/skin-50501.json"
+      },
+      {
+        "slug": "skin-50501-51502",
+        "name": "夜华抒情,书剑定远",
+        "displayName": {
+          "zhHans": "夜华抒情,书剑定远",
+          "zhHant": "夜華抒情,書劍定遠"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/skins/skin-50501-51502.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiecaiwenji.json",
+      "groups": "api/v1/tts/characters/jiecaiwenji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiecaiwenji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3106",
+    "name": "悲歌",
+    "displayName": {
+      "zhHans": "悲歌",
+      "zhHant": "悲歌"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/jiecaiwenji/groups/spell-3106.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "jiecaiwenji--505jiecaiwenji--1skill1_1",
+      "resourceId": "505jiecaiwenji/1skill1_1",
+      "text": "箜篌鸣九霄，闻者心俱伤。",
+      "textLocalized": {
+        "zhHans": "箜篌鸣九霄，闻者心俱伤。",
+        "zhHant": "箜篌鳴九霄，聞者心俱傷。"
+      },
+      "group": {
+        "slug": "spell-3106",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/505jiecaiwenji-e02dccaf/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/505jiecaiwenji/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaiwenji--505jiecaiwenji--1skill1_2",
+      "resourceId": "505jiecaiwenji/1skill1_2",
+      "text": "琴弹十八拍，听此双泪流。",
+      "textLocalized": {
+        "zhHans": "琴弹十八拍，听此双泪流。",
+        "zhHant": "琴彈十八拍，聽此雙淚流。"
+      },
+      "group": {
+        "slug": "spell-3106",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/505jiecaiwenji-e02dccaf/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/505jiecaiwenji/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaiwenji--505jiecaiwenji--2skill1_1",
+      "resourceId": "505jiecaiwenji/2skill1_1",
+      "text": "何处曾经同望月？汉家亭下垂柳前。",
+      "textLocalized": {
+        "zhHans": "何处曾经同望月？汉家亭下垂柳前。",
+        "zhHant": "何處曾經同望月？漢家亭下垂柳前。"
+      },
+      "group": {
+        "slug": "spell-3106",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        },
+        {
+          "slug": "skin-50501",
+          "name": "夜华抒情",
+          "displayName": {
+            "zhHans": "夜华抒情",
+            "zhHant": "夜華抒情"
+          }
+        },
+        {
+          "slug": "skin-50501-51502",
+          "name": "夜华抒情,书剑定远",
+          "displayName": {
+            "zhHans": "夜华抒情,书剑定远",
+            "zhHant": "夜華抒情,書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/505jiecaiwenji-e02dccaf/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/505jiecaiwenji/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaiwenji--505jiecaiwenji--2skill1_2",
+      "resourceId": "505jiecaiwenji/2skill1_2",
+      "text": "焦尾仓皇失故琴，胡笳宛转谱哀音。",
+      "textLocalized": {
+        "zhHans": "焦尾仓皇失故琴，胡笳宛转谱哀音。",
+        "zhHant": "焦尾倉皇失故琴，胡笳宛轉譜哀音。"
+      },
+      "group": {
+        "slug": "spell-3106",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        },
+        {
+          "slug": "skin-50501",
+          "name": "夜华抒情",
+          "displayName": {
+            "zhHans": "夜华抒情",
+            "zhHant": "夜華抒情"
+          }
+        },
+        {
+          "slug": "skin-50501-51502",
+          "name": "夜华抒情,书剑定远",
+          "displayName": {
+            "zhHans": "夜华抒情,书剑定远",
+            "zhHant": "夜華抒情,書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/505jiecaiwenji-e02dccaf/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/505jiecaiwenji/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8d5918a1c351c37d237d720aa9d5f4a435f3b37d67245d46162441fd16a7a5c8
-size 7836
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qianzhao",
+    "command": "qianzhao",
+    "name": "牵招",
+    "displayName": {
+      "zhHans": "牵招",
+      "zhHant": "牽招"
+    },
+    "names": [
+      "牵招"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "牵招",
+        "zhHant": "牽招"
+      }
+    ],
+    "ids": [
+      "580"
+    ],
+    "sourceNames": [
+      "牵招"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "牵招",
+        "zhHant": "牽招"
+      }
+    ],
+    "sourceIds": [
+      "580"
+    ],
+    "searchNames": [
+      "qianzhao",
+      "牵招",
+      "牽招"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/qianzhao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3365",
+        "name": "威抚",
+        "displayName": {
+          "zhHans": "威抚",
+          "zhHant": "威撫"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qianzhao/groups/spell-3365.json"
+      },
+      {
+        "slug": "spell-3366",
+        "name": "款塞",
+        "displayName": {
+          "zhHans": "款塞",
+          "zhHant": "款塞"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qianzhao/groups/spell-3366.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "58001",
+        "name": "58001",
+        "displayName": {
+          "zhHans": "58001",
+          "zhHant": "58001"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qianzhao/skins/58001.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qianzhao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/qianzhao.json",
+      "groups": "api/v1/tts/characters/qianzhao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/qianzhao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "58001",
+    "name": "58001",
+    "displayName": {
+      "zhHans": "58001",
+      "zhHant": "58001"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/qianzhao/skins/58001.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "qianzhao--580qianzhao--2dead01",
+      "resourceId": "580qianzhao/2dead01",
+      "text": "蛮夷无德，何以失德伤我。",
+      "textLocalized": {
+        "zhHans": "蛮夷无德，何以失德伤我。",
+        "zhHant": "蠻夷無德，何以失德傷我。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "58001",
+          "name": "58001",
+          "displayName": {
+            "zhHans": "58001",
+            "zhHant": "58001"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qianzhao--580qianzhao--2skill1_1",
+      "resourceId": "580qianzhao/2skill1_1",
+      "text": "从我者抚之，逆我者剿之。",
+      "textLocalized": {
+        "zhHans": "从我者抚之，逆我者剿之。",
+        "zhHant": "從我者撫之，逆我者剿之。"
+      },
+      "group": {
+        "slug": "spell-3365",
+        "name": "威抚",
+        "displayName": {
+          "zhHans": "威抚",
+          "zhHant": "威撫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "58001",
+          "name": "58001",
+          "displayName": {
+            "zhHans": "58001",
+            "zhHant": "58001"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qianzhao--580qianzhao--2skill1_2",
+      "resourceId": "580qianzhao/2skill1_2",
+      "text": "剑有双刃，外向者利，内向者柔。",
+      "textLocalized": {
+        "zhHans": "剑有双刃，外向者利，内向者柔。",
+        "zhHant": "劍有雙刃，外向者利，內向者柔。"
+      },
+      "group": {
+        "slug": "spell-3365",
+        "name": "威抚",
+        "displayName": {
+          "zhHans": "威抚",
+          "zhHant": "威撫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "58001",
+          "name": "58001",
+          "displayName": {
+            "zhHans": "58001",
+            "zhHant": "58001"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qianzhao--580qianzhao--2skill2_1",
+      "resourceId": "580qianzhao/2skill2_1",
+      "text": "汉蛮本一家，不为兄弟阋墙之事。",
+      "textLocalized": {
+        "zhHans": "汉蛮本一家，不为兄弟阋墙之事。",
+        "zhHant": "漢蠻本一家，不爲兄弟鬩牆之事。"
+      },
+      "group": {
+        "slug": "spell-3366",
+        "name": "款塞",
+        "displayName": {
+          "zhHans": "款塞",
+          "zhHant": "款塞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "58001",
+          "name": "58001",
+          "displayName": {
+            "zhHans": "58001",
+            "zhHant": "58001"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qianzhao--580qianzhao--2skill2_2",
+      "resourceId": "580qianzhao/2skill2_2",
+      "text": "与君约为兄弟，此生不复干戈。",
+      "textLocalized": {
+        "zhHans": "与君约为兄弟，此生不复干戈。",
+        "zhHant": "與君約爲兄弟，此生不復干戈。"
+      },
+      "group": {
+        "slug": "spell-3366",
+        "name": "款塞",
+        "displayName": {
+          "zhHans": "款塞",
+          "zhHant": "款塞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "58001",
+          "name": "58001",
+          "displayName": {
+            "zhHans": "58001",
+            "zhHant": "58001"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

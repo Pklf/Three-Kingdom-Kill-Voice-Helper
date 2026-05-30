@@ -1,3 +1,400 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a14ba15ef6bd33661af7a98b6868aa81869efe2e673566a07481eb71d8d87b5
-size 11054
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simahui",
+    "command": "simahui",
+    "name": "司马徽",
+    "displayName": {
+      "zhHans": "司马徽",
+      "zhHant": "司馬徽"
+    },
+    "names": [
+      "司马徽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马徽",
+        "zhHant": "司馬徽"
+      }
+    ],
+    "ids": [
+      "416"
+    ],
+    "sourceNames": [
+      "司马徽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马徽",
+        "zhHant": "司馬徽"
+      }
+    ],
+    "sourceIds": [
+      "416"
+    ],
+    "searchNames": [
+      "simahui",
+      "司马徽",
+      "司馬徽"
+    ],
+    "lineCount": 36,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simahui/groups/dead.json"
+      },
+      {
+        "slug": "spell-844",
+        "name": "荐杰",
+        "displayName": {
+          "zhHans": "荐杰",
+          "zhHant": "薦傑"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/simahui/groups/spell-844.json"
+      },
+      {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simahui/groups/spell-845.json"
+      },
+      {
+        "slug": "spell-846",
+        "name": "隐士",
+        "displayName": {
+          "zhHans": "隐士",
+          "zhHant": "隱士"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simahui/groups/spell-846.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41604",
+        "name": "坐隐乾坤",
+        "displayName": {
+          "zhHans": "坐隐乾坤",
+          "zhHant": "坐隱乾坤"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41604.json"
+      },
+      {
+        "slug": "skin-41601",
+        "name": "山林隐士",
+        "displayName": {
+          "zhHans": "山林隐士",
+          "zhHant": "山林隱士"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41601.json"
+      },
+      {
+        "slug": "skin-41602",
+        "name": "教诲不倦",
+        "displayName": {
+          "zhHans": "教诲不倦",
+          "zhHant": "教誨不倦"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41602.json"
+      },
+      {
+        "slug": "skin-41603",
+        "name": "隐秘观局",
+        "displayName": {
+          "zhHans": "隐秘观局",
+          "zhHant": "隱祕觀局"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simahui.json",
+      "groups": "api/v1/tts/characters/simahui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simahui/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-41604",
+    "name": "坐隐乾坤",
+    "displayName": {
+      "zhHans": "坐隐乾坤",
+      "zhHant": "坐隱乾坤"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/simahui/skins/skin-41604.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "simahui--416simahui--6dead01",
+      "resourceId": "416simahui/6dead01",
+      "text": "从此山野寄余生。",
+      "textLocalized": {
+        "zhHans": "从此山野寄余生。",
+        "zhHant": "從此山野寄餘生。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41604",
+          "name": "坐隐乾坤",
+          "displayName": {
+            "zhHans": "坐隐乾坤",
+            "zhHant": "坐隱乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--6skill1_1",
+      "resourceId": "416simahui/6skill1_1",
+      "text": "举荐人杰，为国效力。",
+      "textLocalized": {
+        "zhHans": "举荐人杰，为国效力。",
+        "zhHant": "舉薦人傑，爲國效力。"
+      },
+      "group": {
+        "slug": "spell-844",
+        "name": "荐杰",
+        "displayName": {
+          "zhHans": "荐杰",
+          "zhHant": "薦傑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41604",
+          "name": "坐隐乾坤",
+          "displayName": {
+            "zhHans": "坐隐乾坤",
+            "zhHant": "坐隱乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--6skill1_2",
+      "resourceId": "416simahui/6skill1_2",
+      "text": "引荐贤杰，可备器使者",
+      "textLocalized": {
+        "zhHans": "引荐贤杰，可备器使者",
+        "zhHant": "引薦賢傑，可備器使者"
+      },
+      "group": {
+        "slug": "spell-844",
+        "name": "荐杰",
+        "displayName": {
+          "zhHans": "荐杰",
+          "zhHant": "薦傑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41604",
+          "name": "坐隐乾坤",
+          "displayName": {
+            "zhHans": "坐隐乾坤",
+            "zhHant": "坐隱乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--6skill2_1",
+      "resourceId": "416simahui/6skill2_1",
+      "text": "称赞功伐，褒述好德。",
+      "textLocalized": {
+        "zhHans": "称赞功伐，褒述好德。",
+        "zhHant": "稱讚功伐，褒述好德。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41604",
+          "name": "坐隐乾坤",
+          "displayName": {
+            "zhHans": "坐隐乾坤",
+            "zhHant": "坐隱乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--6skill2_2",
+      "resourceId": "416simahui/6skill2_2",
+      "text": "称赞其贤，以彰盛德。",
+      "textLocalized": {
+        "zhHans": "称赞其贤，以彰盛德。",
+        "zhHant": "稱讚其賢，以彰盛德。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41604",
+          "name": "坐隐乾坤",
+          "displayName": {
+            "zhHans": "坐隐乾坤",
+            "zhHant": "坐隱乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--6skill3_1",
+      "resourceId": "416simahui/6skill3_1",
+      "text": "奸人在朝，贤者隐处。",
+      "textLocalized": {
+        "zhHans": "奸人在朝，贤者隐处。",
+        "zhHant": "奸人在朝，賢者隱處。"
+      },
+      "group": {
+        "slug": "spell-846",
+        "name": "隐士",
+        "displayName": {
+          "zhHans": "隐士",
+          "zhHant": "隱士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41604",
+          "name": "坐隐乾坤",
+          "displayName": {
+            "zhHans": "坐隐乾坤",
+            "zhHant": "坐隱乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/6skill3-1-1b78f48f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/6skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--6skill3_2",
+      "resourceId": "416simahui/6skill3_2",
+      "text": "含贞养素，文以艺业。",
+      "textLocalized": {
+        "zhHans": "含贞养素，文以艺业。",
+        "zhHant": "含貞養素，文以藝業。"
+      },
+      "group": {
+        "slug": "spell-846",
+        "name": "隐士",
+        "displayName": {
+          "zhHans": "隐士",
+          "zhHant": "隱士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41604",
+          "name": "坐隐乾坤",
+          "displayName": {
+            "zhHans": "坐隐乾坤",
+            "zhHant": "坐隱乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/6skill3-2-af03925f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/6skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

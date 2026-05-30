@@ -1,3 +1,195 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6fd0d66ff4572c018333fa8a69af2c7bf2b87ec251d8c040bea905a3e609253a
-size 4976
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xunchen",
+    "command": "xunchen",
+    "name": "族荀谌",
+    "displayName": {
+      "zhHans": "族荀谌",
+      "zhHant": "族荀諶"
+    },
+    "names": [
+      "族荀谌"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀谌",
+        "zhHant": "族荀諶"
+      }
+    ],
+    "ids": [
+      "523"
+    ],
+    "sourceNames": [
+      "族荀谌"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀谌",
+        "zhHant": "族荀諶"
+      }
+    ],
+    "sourceIds": [
+      "523"
+    ],
+    "searchNames": [
+      "xunchen",
+      "族荀谌",
+      "族荀諶"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3169",
+        "name": "三恇",
+        "displayName": {
+          "zhHans": "三恇",
+          "zhHant": "三恇"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3169.json"
+      },
+      {
+        "slug": "spell-3170",
+        "name": "卑势",
+        "displayName": {
+          "zhHans": "卑势",
+          "zhHant": "卑勢"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3170.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xunchen/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52301",
+        "name": "栖木之择",
+        "displayName": {
+          "zhHans": "栖木之择",
+          "zhHant": "棲木之擇"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xunchen/skins/skin-52301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xunchen.json",
+      "groups": "api/v1/tts/characters/xunchen/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xunchen/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/xunchen/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "xunchen--523xunchen--1dead01",
+      "resourceId": "523xunchen/1dead01",
+      "text": "行贰臣之为，羞见列祖。",
+      "textLocalized": {
+        "zhHans": "行贰臣之为，羞见列祖。",
+        "zhHant": "行貳臣之爲，羞見列祖。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunchen--523xunchen--2dead01",
+      "resourceId": "523xunchen/2dead01",
+      "text": "谌有辱荀氏之名。",
+      "textLocalized": {
+        "zhHans": "谌有辱荀氏之名。",
+        "zhHant": "諶有辱荀氏之名。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52301",
+          "name": "栖木之择",
+          "displayName": {
+            "zhHans": "栖木之择",
+            "zhHant": "棲木之擇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

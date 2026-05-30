@@ -1,3 +1,407 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8723b379fa8db80b003fb16fbdf22b28d1cbf403005720004bb4454cf3d22319
-size 8690
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xinpi",
+    "command": "xinpi",
+    "name": "辛毗",
+    "displayName": {
+      "zhHans": "辛毗",
+      "zhHant": "辛毗"
+    },
+    "names": [
+      "辛毗",
+      "4601"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "辛毗",
+        "zhHant": "辛毗"
+      },
+      {
+        "zhHans": "4601",
+        "zhHant": "4601"
+      }
+    ],
+    "ids": [
+      "435",
+      "4601"
+    ],
+    "sourceNames": [
+      "辛毗"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "辛毗",
+        "zhHant": "辛毗"
+      }
+    ],
+    "sourceIds": [
+      "435",
+      "4601"
+    ],
+    "searchNames": [
+      "xinpi",
+      "辛毗",
+      "4601"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-934",
+        "name": "持节",
+        "displayName": {
+          "zhHans": "持节",
+          "zhHant": "持節"
+        },
+        "ids": [
+          "934"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-935",
+        "name": "引裾",
+        "displayName": {
+          "zhHans": "引裾",
+          "zhHant": "引裾"
+        },
+        "ids": [
+          "935"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/xinpi.json",
+      "lines": "api/v1/characters/xinpi/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-934",
+    "ids": [
+      "934"
+    ],
+    "name": "持节",
+    "displayName": {
+      "zhHans": "持节",
+      "zhHant": "持節"
+    },
+    "names": [
+      "持节"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "持节",
+        "zhHant": "持節"
+      }
+    ]
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "xinpi--435xinpi--1skill1_1",
+      "resourceId": "435xinpi/1skill1_1",
+      "text": "持节阻战，奉帝赐诏。",
+      "textLocalized": {
+        "zhHans": "持节阻战，奉帝赐诏。",
+        "zhHant": "持節阻戰，奉帝賜詔。"
+      },
+      "character": {
+        "slug": "xinpi",
+        "command": "xinpi",
+        "id": "4601",
+        "ids": [
+          "435",
+          "4601"
+        ],
+        "name": "辛毗",
+        "displayName": {
+          "zhHans": "辛毗",
+          "zhHant": "辛毗"
+        },
+        "names": [
+          "辛毗",
+          "4601"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "辛毗",
+            "zhHant": "辛毗"
+          },
+          {
+            "zhHans": "4601",
+            "zhHant": "4601"
+          }
+        ],
+        "sourceIds": [
+          "435",
+          "4601"
+        ],
+        "sourceNames": [
+          "辛毗"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "辛毗",
+            "zhHant": "辛毗"
+          }
+        ],
+        "searchNames": [
+          "辛毗",
+          "xinpi",
+          "4601"
+        ]
+      },
+      "group": {
+        "slug": "spell-934",
+        "ids": [
+          "934"
+        ],
+        "name": "持节",
+        "displayName": {
+          "zhHans": "持节",
+          "zhHant": "持節"
+        },
+        "names": [
+          "持节"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "持节",
+            "zhHant": "持節"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "435,4601",
+        "skinKey": "-1",
+        "spellKey": "934",
+        "rowIndex": 1,
+        "characterNames": [
+          "辛毗"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/435xinpi-b894e10b/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/435xinpi/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xinpi--435xinpi--1skill1_2",
+      "resourceId": "435xinpi/1skill1_2",
+      "text": "此战不在急，请仲达明了。",
+      "textLocalized": {
+        "zhHans": "此战不在急，请仲达明了。",
+        "zhHant": "此戰不在急，請仲達明瞭。"
+      },
+      "character": {
+        "slug": "xinpi",
+        "command": "xinpi",
+        "id": "4601",
+        "ids": [
+          "435",
+          "4601"
+        ],
+        "name": "辛毗",
+        "displayName": {
+          "zhHans": "辛毗",
+          "zhHant": "辛毗"
+        },
+        "names": [
+          "辛毗",
+          "4601"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "辛毗",
+            "zhHant": "辛毗"
+          },
+          {
+            "zhHans": "4601",
+            "zhHant": "4601"
+          }
+        ],
+        "sourceIds": [
+          "435",
+          "4601"
+        ],
+        "sourceNames": [
+          "辛毗"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "辛毗",
+            "zhHant": "辛毗"
+          }
+        ],
+        "searchNames": [
+          "辛毗",
+          "xinpi",
+          "4601"
+        ]
+      },
+      "group": {
+        "slug": "spell-934",
+        "ids": [
+          "934"
+        ],
+        "name": "持节",
+        "displayName": {
+          "zhHans": "持节",
+          "zhHant": "持節"
+        },
+        "names": [
+          "持节"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "持节",
+            "zhHant": "持節"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "435,4601",
+        "skinKey": "-1",
+        "spellKey": "934",
+        "rowIndex": 2,
+        "characterNames": [
+          "辛毗"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/435xinpi-b894e10b/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/435xinpi/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

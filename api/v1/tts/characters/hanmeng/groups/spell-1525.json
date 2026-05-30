@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b931f74fdba09f1dbeef7aa104309fc6394f8f55d5003b13d8ebb19cb3adbe40
-size 4390
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hanmeng",
+    "command": "hanmeng",
+    "name": "韩猛",
+    "displayName": {
+      "zhHans": "韩猛",
+      "zhHant": "韓猛"
+    },
+    "names": [
+      "韩猛"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "韩猛",
+        "zhHant": "韓猛"
+      }
+    ],
+    "ids": [
+      "4220"
+    ],
+    "sourceNames": [
+      "韩猛"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "韩猛",
+        "zhHant": "韓猛"
+      }
+    ],
+    "sourceIds": [
+      "4220"
+    ],
+    "searchNames": [
+      "hanmeng",
+      "韩猛",
+      "韓猛"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/hanmeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-1525",
+        "name": "截粮",
+        "displayName": {
+          "zhHans": "截粮",
+          "zhHant": "截糧"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/hanmeng/groups/spell-1525.json"
+      },
+      {
+        "slug": "spell-1526",
+        "name": "劝酒",
+        "displayName": {
+          "zhHans": "劝酒",
+          "zhHant": "勸酒"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/hanmeng/groups/spell-1526.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/hanmeng/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/hanmeng.json",
+      "groups": "api/v1/tts/characters/hanmeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/hanmeng/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1525",
+    "name": "截粮",
+    "displayName": {
+      "zhHans": "截粮",
+      "zhHant": "截糧"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/hanmeng/groups/spell-1525.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "hanmeng--4220hanmeng--1skill1_1",
+      "resourceId": "4220hanmeng/1skill1_1",
+      "text": "伏兵起，粮道绝！",
+      "textLocalized": {
+        "zhHans": "伏兵起，粮道绝！",
+        "zhHant": "伏兵起，糧道絕！"
+      },
+      "group": {
+        "slug": "spell-1525",
+        "name": "截粮",
+        "displayName": {
+          "zhHans": "截粮",
+          "zhHant": "截糧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4220hanmeng-0d05695c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4220hanmeng/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanmeng--4220hanmeng--1skill1_2",
+      "resourceId": "4220hanmeng/1skill1_2",
+      "text": "粮草根本，截之破敌。",
+      "textLocalized": {
+        "zhHans": "粮草根本，截之破敌。",
+        "zhHant": "糧草根本，截之破敵。"
+      },
+      "group": {
+        "slug": "spell-1525",
+        "name": "截粮",
+        "displayName": {
+          "zhHans": "截粮",
+          "zhHant": "截糧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4220hanmeng-0d05695c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4220hanmeng/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

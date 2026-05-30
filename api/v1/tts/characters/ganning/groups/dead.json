@@ -1,3 +1,370 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae8046a4b1e19d50c87a89481cdebae3cfcadddf85df7f5b1cfbe8387bdf309a
-size 9945
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "ganning",
+    "command": "ganning",
+    "name": "甘宁",
+    "displayName": {
+      "zhHans": "甘宁",
+      "zhHant": "甘寧"
+    },
+    "names": [
+      "甘宁",
+      "界甘宁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "甘宁",
+        "zhHant": "甘寧"
+      },
+      {
+        "zhHans": "界甘宁",
+        "zhHant": "界甘寧"
+      }
+    ],
+    "ids": [
+      "9",
+      "305"
+    ],
+    "sourceNames": [
+      "甘宁",
+      "界甘宁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "甘宁",
+        "zhHant": "甘寧"
+      },
+      {
+        "zhHans": "界甘宁",
+        "zhHant": "界甘寧"
+      }
+    ],
+    "sourceIds": [
+      "9",
+      "305"
+    ],
+    "searchNames": [
+      "ganning",
+      "甘宁",
+      "甘寧",
+      "界甘宁",
+      "界甘寧"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganning/groups/dead.json"
+      },
+      {
+        "slug": "spell-57",
+        "name": "奇袭",
+        "displayName": {
+          "zhHans": "奇袭",
+          "zhHant": "奇襲"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/ganning/groups/spell-57.json"
+      },
+      {
+        "slug": "spell-708",
+        "name": "奋威",
+        "displayName": {
+          "zhHans": "奋威",
+          "zhHant": "奮威"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/ganning/groups/spell-708.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/ganning/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-902",
+        "name": "夜袭曹营",
+        "displayName": {
+          "zhHans": "夜袭曹营",
+          "zhHant": "夜襲曹營"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganning/skins/skin-902.json"
+      },
+      {
+        "slug": "skin-904",
+        "name": "护主断后",
+        "displayName": {
+          "zhHans": "护主断后",
+          "zhHant": "護主斷後"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganning/skins/skin-904.json"
+      },
+      {
+        "slug": "skin-903",
+        "name": "披星踏浪",
+        "displayName": {
+          "zhHans": "披星踏浪",
+          "zhHant": "披星踏浪"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganning/skins/skin-903.json"
+      },
+      {
+        "slug": "skin-2",
+        "name": "经典",
+        "displayName": {
+          "zhHans": "经典",
+          "zhHant": "經典"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/ganning/skins/skin-2.json"
+      },
+      {
+        "slug": "skin-901",
+        "name": "虎将之才",
+        "displayName": {
+          "zhHans": "虎将之才",
+          "zhHant": "虎將之才"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganning/skins/skin-901.json"
+      },
+      {
+        "slug": "skin-901-902",
+        "name": "虎将之才,夜袭曹营",
+        "displayName": {
+          "zhHans": "虎将之才,夜袭曹营",
+          "zhHant": "虎將之才,夜襲曹營"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganning/skins/skin-901-902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/ganning.json",
+      "groups": "api/v1/tts/characters/ganning/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/ganning/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/ganning/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "ganning--9ganning--2dead01",
+      "resourceId": "9ganning/2dead01",
+      "text": "二十年后，又是一条好汉！",
+      "textLocalized": {
+        "zhHans": "二十年后，又是一条好汉！",
+        "zhHant": "二十年後，又是一條好漢！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/9ganning-e8f4cc28/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/9ganning/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganning--9ganning--4dead01",
+      "resourceId": "9ganning/4dead01",
+      "text": "弟兄们……要为我……报仇啊……",
+      "textLocalized": {
+        "zhHans": "弟兄们……要为我……报仇啊……",
+        "zhHant": "弟兄們……要爲我……報仇啊……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-904",
+          "name": "护主断后",
+          "displayName": {
+            "zhHans": "护主断后",
+            "zhHant": "護主斷後"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/9ganning-e8f4cc28/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/9ganning/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganning--9ganning--5dead01",
+      "resourceId": "9ganning/5dead01",
+      "text": "银铃将息，锦帆何去？",
+      "textLocalized": {
+        "zhHans": "银铃将息，锦帆何去？",
+        "zhHant": "銀鈴將息，錦帆何去？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-903",
+          "name": "披星踏浪",
+          "displayName": {
+            "zhHans": "披星踏浪",
+            "zhHant": "披星踏浪"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/9ganning-e8f4cc28/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/9ganning/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganning--9ganning--1dead01",
+      "resourceId": "9ganning/1dead01",
+      "text": "二十年后，又是一条好汉！",
+      "textLocalized": {
+        "zhHans": "二十年后，又是一条好汉！",
+        "zhHant": "二十年後，又是一條好漢！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-2",
+          "name": "经典",
+          "displayName": {
+            "zhHans": "经典",
+            "zhHant": "經典"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/9ganning-e8f4cc28/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/9ganning/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganning--9ganning--3dead01",
+      "resourceId": "9ganning/3dead01",
+      "text": "二十年后，又是一条好汉！",
+      "textLocalized": {
+        "zhHans": "二十年后，又是一条好汉！",
+        "zhHant": "二十年後，又是一條好漢！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-902",
+          "name": "夜袭曹营",
+          "displayName": {
+            "zhHans": "夜袭曹营",
+            "zhHant": "夜襲曹營"
+          }
+        },
+        {
+          "slug": "skin-901",
+          "name": "虎将之才",
+          "displayName": {
+            "zhHans": "虎将之才",
+            "zhHant": "虎將之才"
+          }
+        },
+        {
+          "slug": "skin-901-902",
+          "name": "虎将之才,夜袭曹营",
+          "displayName": {
+            "zhHans": "虎将之才,夜袭曹营",
+            "zhHant": "虎將之才,夜襲曹營"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/9ganning-e8f4cc28/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/9ganning/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

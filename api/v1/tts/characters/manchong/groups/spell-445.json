@@ -1,3 +1,467 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6fb9a61208351c6dae00c5bed95df4639607c456f16f586e070801e7a40a27f1
-size 13077
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "manchong",
+    "command": "manchong",
+    "name": "满宠",
+    "displayName": {
+      "zhHans": "满宠",
+      "zhHant": "滿寵"
+    },
+    "names": [
+      "满宠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "满宠",
+        "zhHant": "滿寵"
+      }
+    ],
+    "ids": [
+      "176"
+    ],
+    "sourceNames": [
+      "满宠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "满宠",
+        "zhHant": "滿寵"
+      }
+    ],
+    "sourceIds": [
+      "176"
+    ],
+    "searchNames": [
+      "manchong",
+      "满宠",
+      "滿寵"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/manchong/groups/dead.json"
+      },
+      {
+        "slug": "spell-444",
+        "name": "峻刑",
+        "displayName": {
+          "zhHans": "峻刑",
+          "zhHant": "峻刑"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/manchong/groups/spell-444.json"
+      },
+      {
+        "slug": "spell-445",
+        "name": "御策",
+        "displayName": {
+          "zhHans": "御策",
+          "zhHant": "御策"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/manchong/groups/spell-445.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-17604",
+        "name": "严刑峻法",
+        "displayName": {
+          "zhHans": "严刑峻法",
+          "zhHant": "嚴刑峻法"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/manchong/skins/skin-17604.json"
+      },
+      {
+        "slug": "skin-17605",
+        "name": "勇不可当",
+        "displayName": {
+          "zhHans": "勇不可当",
+          "zhHant": "勇不可當"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/manchong/skins/skin-17605.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/manchong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-17602",
+        "name": "立志刚毅",
+        "displayName": {
+          "zhHans": "立志刚毅",
+          "zhHant": "立志剛毅"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/manchong/skins/skin-17602.json"
+      },
+      {
+        "slug": "skin-17602-17604",
+        "name": "立志刚毅,严刑峻法",
+        "displayName": {
+          "zhHans": "立志刚毅,严刑峻法",
+          "zhHant": "立志剛毅,嚴刑峻法"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/manchong/skins/skin-17602-17604.json"
+      },
+      {
+        "slug": "skin-17603",
+        "name": "镇守魏南",
+        "displayName": {
+          "zhHans": "镇守魏南",
+          "zhHant": "鎮守魏南"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/manchong/skins/skin-17603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/manchong.json",
+      "groups": "api/v1/tts/characters/manchong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/manchong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-445",
+    "name": "御策",
+    "displayName": {
+      "zhHans": "御策",
+      "zhHant": "御策"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/manchong/groups/spell-445.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "manchong--176manchong--5skill2_1",
+      "resourceId": "176manchong/5skill2_1",
+      "text": "哼，我早已了然于胸！",
+      "textLocalized": {
+        "zhHans": "哼，我早已了然于胸！",
+        "zhHant": "哼，我早已瞭然於胸！"
+      },
+      "group": {
+        "slug": "spell-445",
+        "name": "御策",
+        "displayName": {
+          "zhHans": "御策",
+          "zhHant": "御策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17605",
+          "name": "勇不可当",
+          "displayName": {
+            "zhHans": "勇不可当",
+            "zhHant": "勇不可當"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/176manchong-6791d5c7/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/176manchong/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "manchong--176manchong--5skill2_2",
+      "resourceId": "176manchong/5skill2_2",
+      "text": "秉正执法，我，没有软肋！",
+      "textLocalized": {
+        "zhHans": "秉正执法，我，没有软肋！",
+        "zhHant": "秉正執法，我，沒有軟肋！"
+      },
+      "group": {
+        "slug": "spell-445",
+        "name": "御策",
+        "displayName": {
+          "zhHans": "御策",
+          "zhHant": "御策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17605",
+          "name": "勇不可当",
+          "displayName": {
+            "zhHans": "勇不可当",
+            "zhHant": "勇不可當"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/176manchong-6791d5c7/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/176manchong/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "manchong--176manchong--1skill2_1",
+      "resourceId": "176manchong/1skill2_1",
+      "text": "以缓制急，不战屈兵。",
+      "textLocalized": {
+        "zhHans": "以缓制急，不战屈兵。",
+        "zhHant": "以緩制急，不戰屈兵。"
+      },
+      "group": {
+        "slug": "spell-445",
+        "name": "御策",
+        "displayName": {
+          "zhHans": "御策",
+          "zhHant": "御策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/176manchong-6791d5c7/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/176manchong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "manchong--176manchong--1skill2_2",
+      "resourceId": "176manchong/1skill2_2",
+      "text": "御敌之策，成竹在胸。",
+      "textLocalized": {
+        "zhHans": "御敌之策，成竹在胸。",
+        "zhHant": "禦敵之策，成竹在胸。"
+      },
+      "group": {
+        "slug": "spell-445",
+        "name": "御策",
+        "displayName": {
+          "zhHans": "御策",
+          "zhHant": "御策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/176manchong-6791d5c7/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/176manchong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "manchong--176manchong--3skill2_1",
+      "resourceId": "176manchong/3skill2_1",
+      "text": "避其锋芒，转攻为守。",
+      "textLocalized": {
+        "zhHans": "避其锋芒，转攻为守。",
+        "zhHant": "避其鋒芒，轉攻爲守。"
+      },
+      "group": {
+        "slug": "spell-445",
+        "name": "御策",
+        "displayName": {
+          "zhHans": "御策",
+          "zhHant": "御策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17604",
+          "name": "严刑峻法",
+          "displayName": {
+            "zhHans": "严刑峻法",
+            "zhHant": "嚴刑峻法"
+          }
+        },
+        {
+          "slug": "skin-17602",
+          "name": "立志刚毅",
+          "displayName": {
+            "zhHans": "立志刚毅",
+            "zhHant": "立志剛毅"
+          }
+        },
+        {
+          "slug": "skin-17602-17604",
+          "name": "立志刚毅,严刑峻法",
+          "displayName": {
+            "zhHans": "立志刚毅,严刑峻法",
+            "zhHant": "立志剛毅,嚴刑峻法"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/176manchong-6791d5c7/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/176manchong/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "manchong--176manchong--3skill2_2",
+      "resourceId": "176manchong/3skill2_2",
+      "text": "哼，果然如我所料。",
+      "textLocalized": {
+        "zhHans": "哼，果然如我所料。",
+        "zhHant": "哼，果然如我所料。"
+      },
+      "group": {
+        "slug": "spell-445",
+        "name": "御策",
+        "displayName": {
+          "zhHans": "御策",
+          "zhHant": "御策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17604",
+          "name": "严刑峻法",
+          "displayName": {
+            "zhHans": "严刑峻法",
+            "zhHant": "嚴刑峻法"
+          }
+        },
+        {
+          "slug": "skin-17602",
+          "name": "立志刚毅",
+          "displayName": {
+            "zhHans": "立志刚毅",
+            "zhHant": "立志剛毅"
+          }
+        },
+        {
+          "slug": "skin-17602-17604",
+          "name": "立志刚毅,严刑峻法",
+          "displayName": {
+            "zhHans": "立志刚毅,严刑峻法",
+            "zhHant": "立志剛毅,嚴刑峻法"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/176manchong-6791d5c7/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/176manchong/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "manchong--176manchong--4skill2_1",
+      "resourceId": "176manchong/4skill2_1",
+      "text": "坚守城阙，以待援军。",
+      "textLocalized": {
+        "zhHans": "坚守城阙，以待援军。",
+        "zhHant": "堅守城闕，以待援軍。"
+      },
+      "group": {
+        "slug": "spell-445",
+        "name": "御策",
+        "displayName": {
+          "zhHans": "御策",
+          "zhHant": "御策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17603",
+          "name": "镇守魏南",
+          "displayName": {
+            "zhHans": "镇守魏南",
+            "zhHant": "鎮守魏南"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/176manchong-6791d5c7/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/176manchong/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "manchong--176manchong--4skill2_2",
+      "resourceId": "176manchong/4skill2_2",
+      "text": "亡羊补牢，为时未晚。",
+      "textLocalized": {
+        "zhHans": "亡羊补牢，为时未晚。",
+        "zhHant": "亡羊補牢，爲時未晚。"
+      },
+      "group": {
+        "slug": "spell-445",
+        "name": "御策",
+        "displayName": {
+          "zhHans": "御策",
+          "zhHant": "御策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17603",
+          "name": "镇守魏南",
+          "displayName": {
+            "zhHans": "镇守魏南",
+            "zhHant": "鎮守魏南"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/176manchong-6791d5c7/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/176manchong/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,410 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ea16f07f50b677954386c028fb227cd7f1bbae7ebdb42cbb46034ca1b948f36
-size 11372
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liubiao",
+    "command": "liubiao",
+    "name": "刘表",
+    "displayName": {
+      "zhHans": "刘表",
+      "zhHant": "劉表"
+    },
+    "names": [
+      "刘表"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘表",
+        "zhHant": "劉表"
+      }
+    ],
+    "ids": [
+      "172"
+    ],
+    "sourceNames": [
+      "刘表"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘表",
+        "zhHant": "劉表"
+      }
+    ],
+    "sourceIds": [
+      "172"
+    ],
+    "searchNames": [
+      "liubiao",
+      "刘表",
+      "劉表"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liubiao/groups/dead.json"
+      },
+      {
+        "slug": "spell-436",
+        "name": "自守",
+        "displayName": {
+          "zhHans": "自守",
+          "zhHant": "自守"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liubiao/groups/spell-436.json"
+      },
+      {
+        "slug": "spell-437",
+        "name": "宗室",
+        "displayName": {
+          "zhHans": "宗室",
+          "zhHant": "宗室"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liubiao/groups/spell-437.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-17205",
+        "name": "从容啸咤",
+        "displayName": {
+          "zhHans": "从容啸咤",
+          "zhHant": "從容嘯吒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubiao/skins/skin-17205.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubiao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-17206",
+        "name": "后嗣之忧",
+        "displayName": {
+          "zhHans": "后嗣之忧",
+          "zhHant": "後嗣之憂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubiao/skins/skin-17206.json"
+      },
+      {
+        "slug": "skin-17204",
+        "name": "威仪雍容",
+        "displayName": {
+          "zhHans": "威仪雍容",
+          "zhHant": "威儀雍容"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubiao/skins/skin-17204.json"
+      },
+      {
+        "slug": "skin-17202",
+        "name": "荆襄霸主",
+        "displayName": {
+          "zhHans": "荆襄霸主",
+          "zhHant": "荊襄霸主"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubiao/skins/skin-17202.json"
+      },
+      {
+        "slug": "skin-17202-17206",
+        "name": "荆襄霸主,后嗣之忧",
+        "displayName": {
+          "zhHans": "荆襄霸主,后嗣之忧",
+          "zhHant": "荊襄霸主,後嗣之憂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubiao/skins/skin-17202-17206.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liubiao.json",
+      "groups": "api/v1/tts/characters/liubiao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liubiao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-17202",
+    "name": "荆襄霸主",
+    "displayName": {
+      "zhHans": "荆襄霸主",
+      "zhHant": "荊襄霸主"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/liubiao/skins/skin-17202.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "liubiao--172liubiao--3dead01",
+      "resourceId": "172liubiao/3dead01",
+      "text": "奸雄当道，宗室焉存哪！",
+      "textLocalized": {
+        "zhHans": "奸雄当道，宗室焉存哪！",
+        "zhHant": "奸雄當道，宗室焉存哪！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17206",
+          "name": "后嗣之忧",
+          "displayName": {
+            "zhHans": "后嗣之忧",
+            "zhHant": "後嗣之憂"
+          }
+        },
+        {
+          "slug": "skin-17202",
+          "name": "荆襄霸主",
+          "displayName": {
+            "zhHans": "荆襄霸主",
+            "zhHant": "荊襄霸主"
+          }
+        },
+        {
+          "slug": "skin-17202-17206",
+          "name": "荆襄霸主,后嗣之忧",
+          "displayName": {
+            "zhHans": "荆襄霸主,后嗣之忧",
+            "zhHant": "荊襄霸主,後嗣之憂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/172liubiao-a1c5fea7/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/172liubiao/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubiao--172liubiao--3skill1_1",
+      "resourceId": "172liubiao/3skill1_1",
+      "text": "不求开疆，但求无恙。",
+      "textLocalized": {
+        "zhHans": "不求开疆，但求无恙。",
+        "zhHant": "不求開疆，但求無恙。"
+      },
+      "group": {
+        "slug": "spell-436",
+        "name": "自守",
+        "displayName": {
+          "zhHans": "自守",
+          "zhHant": "自守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17206",
+          "name": "后嗣之忧",
+          "displayName": {
+            "zhHans": "后嗣之忧",
+            "zhHant": "後嗣之憂"
+          }
+        },
+        {
+          "slug": "skin-17202",
+          "name": "荆襄霸主",
+          "displayName": {
+            "zhHans": "荆襄霸主",
+            "zhHant": "荊襄霸主"
+          }
+        },
+        {
+          "slug": "skin-17202-17206",
+          "name": "荆襄霸主,后嗣之忧",
+          "displayName": {
+            "zhHans": "荆襄霸主,后嗣之忧",
+            "zhHant": "荊襄霸主,後嗣之憂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/172liubiao-a1c5fea7/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/172liubiao/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubiao--172liubiao--3skill1_2",
+      "resourceId": "172liubiao/3skill1_2",
+      "text": "荆州不可有战事。",
+      "textLocalized": {
+        "zhHans": "荆州不可有战事。",
+        "zhHant": "荊州不可有戰事。"
+      },
+      "group": {
+        "slug": "spell-436",
+        "name": "自守",
+        "displayName": {
+          "zhHans": "自守",
+          "zhHant": "自守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17206",
+          "name": "后嗣之忧",
+          "displayName": {
+            "zhHans": "后嗣之忧",
+            "zhHant": "後嗣之憂"
+          }
+        },
+        {
+          "slug": "skin-17202",
+          "name": "荆襄霸主",
+          "displayName": {
+            "zhHans": "荆襄霸主",
+            "zhHant": "荊襄霸主"
+          }
+        },
+        {
+          "slug": "skin-17202-17206",
+          "name": "荆襄霸主,后嗣之忧",
+          "displayName": {
+            "zhHans": "荆襄霸主,后嗣之忧",
+            "zhHant": "荊襄霸主,後嗣之憂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/172liubiao-a1c5fea7/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/172liubiao/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubiao--172liubiao--3skill2_1",
+      "resourceId": "172liubiao/3skill2_1",
+      "text": "汉室尚存，礼乐未崩。",
+      "textLocalized": {
+        "zhHans": "汉室尚存，礼乐未崩。",
+        "zhHant": "漢室尚存，禮樂未崩。"
+      },
+      "group": {
+        "slug": "spell-437",
+        "name": "宗室",
+        "displayName": {
+          "zhHans": "宗室",
+          "zhHant": "宗室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17206",
+          "name": "后嗣之忧",
+          "displayName": {
+            "zhHans": "后嗣之忧",
+            "zhHant": "後嗣之憂"
+          }
+        },
+        {
+          "slug": "skin-17202",
+          "name": "荆襄霸主",
+          "displayName": {
+            "zhHans": "荆襄霸主",
+            "zhHant": "荊襄霸主"
+          }
+        },
+        {
+          "slug": "skin-17202-17206",
+          "name": "荆襄霸主,后嗣之忧",
+          "displayName": {
+            "zhHans": "荆襄霸主,后嗣之忧",
+            "zhHant": "荊襄霸主,後嗣之憂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/172liubiao-a1c5fea7/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/172liubiao/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubiao--172liubiao--3skill2_2",
+      "resourceId": "172liubiao/3skill2_2",
+      "text": "汉室宗亲，仁义恩泽天下。",
+      "textLocalized": {
+        "zhHans": "汉室宗亲，仁义恩泽天下。",
+        "zhHant": "漢室宗親，仁義恩澤天下。"
+      },
+      "group": {
+        "slug": "spell-437",
+        "name": "宗室",
+        "displayName": {
+          "zhHans": "宗室",
+          "zhHant": "宗室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17206",
+          "name": "后嗣之忧",
+          "displayName": {
+            "zhHans": "后嗣之忧",
+            "zhHant": "後嗣之憂"
+          }
+        },
+        {
+          "slug": "skin-17202",
+          "name": "荆襄霸主",
+          "displayName": {
+            "zhHans": "荆襄霸主",
+            "zhHant": "荊襄霸主"
+          }
+        },
+        {
+          "slug": "skin-17202-17206",
+          "name": "荆襄霸主,后嗣之忧",
+          "displayName": {
+            "zhHans": "荆襄霸主,后嗣之忧",
+            "zhHant": "荊襄霸主,後嗣之憂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/172liubiao-a1c5fea7/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/172liubiao/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

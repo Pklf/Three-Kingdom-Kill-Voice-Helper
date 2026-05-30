@@ -1,3 +1,329 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0793a083ed58d70fb0ce1a43351a2054c43c402e626e4994f8e3c17c1a9a11e1
-size 8931
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caiyong",
+    "command": "caiyong",
+    "name": "蔡邕",
+    "displayName": {
+      "zhHans": "蔡邕",
+      "zhHant": "蔡邕"
+    },
+    "names": [
+      "蔡邕"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蔡邕",
+        "zhHant": "蔡邕"
+      }
+    ],
+    "ids": [
+      "395"
+    ],
+    "sourceNames": [
+      "蔡邕"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蔡邕",
+        "zhHant": "蔡邕"
+      }
+    ],
+    "sourceIds": [
+      "395"
+    ],
+    "searchNames": [
+      "caiyong",
+      "蔡邕"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caiyong/groups/dead.json"
+      },
+      {
+        "slug": "spell-795",
+        "name": "辟撰",
+        "displayName": {
+          "zhHans": "辟撰",
+          "zhHant": "闢撰"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caiyong/groups/spell-795.json"
+      },
+      {
+        "slug": "spell-796",
+        "name": "通博",
+        "displayName": {
+          "zhHans": "通博",
+          "zhHant": "通博"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caiyong/groups/spell-796.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-39505",
+        "name": "冥思苦想",
+        "displayName": {
+          "zhHans": "冥思苦想",
+          "zhHant": "冥思苦想"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39505.json"
+      },
+      {
+        "slug": "skin-39503",
+        "name": "博学绘法",
+        "displayName": {
+          "zhHans": "博学绘法",
+          "zhHant": "博學繪法"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39503.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-39501",
+        "name": "妙笔生花",
+        "displayName": {
+          "zhHans": "妙笔生花",
+          "zhHant": "妙筆生花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39501.json"
+      },
+      {
+        "slug": "skin-39501-39505",
+        "name": "妙笔生花,冥思苦想",
+        "displayName": {
+          "zhHans": "妙笔生花,冥思苦想",
+          "zhHant": "妙筆生花,冥思苦想"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39501-39505.json"
+      },
+      {
+        "slug": "skin-39502",
+        "name": "诗音共享",
+        "displayName": {
+          "zhHans": "诗音共享",
+          "zhHant": "詩音共享"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39502.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caiyong.json",
+      "groups": "api/v1/tts/characters/caiyong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caiyong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caiyong/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caiyong--395caiyong--1dead01",
+      "resourceId": "395caiyong/1dead01",
+      "text": "感叹时事，何罪之有？",
+      "textLocalized": {
+        "zhHans": "感叹时事，何罪之有？",
+        "zhHant": "感嘆時事，何罪之有？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/395caiyong-985bf6af/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/395caiyong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiyong--395caiyong--1skill1_1",
+      "resourceId": "395caiyong/1skill1_1",
+      "text": "无墨不成书，无识不成才。",
+      "textLocalized": {
+        "zhHans": "无墨不成书，无识不成才。",
+        "zhHant": "無墨不成書，無識不成才。"
+      },
+      "group": {
+        "slug": "spell-795",
+        "name": "辟撰",
+        "displayName": {
+          "zhHans": "辟撰",
+          "zhHant": "闢撰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/395caiyong-985bf6af/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/395caiyong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiyong--395caiyong--1skill1_2",
+      "resourceId": "395caiyong/1skill1_2",
+      "text": "笔可抒情，亦可诛心！",
+      "textLocalized": {
+        "zhHans": "笔可抒情，亦可诛心！",
+        "zhHant": "筆可抒情，亦可誅心！"
+      },
+      "group": {
+        "slug": "spell-795",
+        "name": "辟撰",
+        "displayName": {
+          "zhHans": "辟撰",
+          "zhHant": "闢撰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/395caiyong-985bf6af/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/395caiyong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiyong--395caiyong--1skill2_1",
+      "resourceId": "395caiyong/1skill2_1",
+      "text": "读万卷书，行万里路。",
+      "textLocalized": {
+        "zhHans": "读万卷书，行万里路。",
+        "zhHant": "讀萬卷書，行萬里路。"
+      },
+      "group": {
+        "slug": "spell-796",
+        "name": "通博",
+        "displayName": {
+          "zhHans": "通博",
+          "zhHant": "通博"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/395caiyong-985bf6af/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/395caiyong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiyong--395caiyong--1skill2_2",
+      "resourceId": "395caiyong/1skill2_2",
+      "text": "博学而不穷，笃行而不倦。",
+      "textLocalized": {
+        "zhHans": "博学而不穷，笃行而不倦。",
+        "zhHant": "博學而不窮，篤行而不倦。"
+      },
+      "group": {
+        "slug": "spell-796",
+        "name": "通博",
+        "displayName": {
+          "zhHans": "通博",
+          "zhHant": "通博"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/395caiyong-985bf6af/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/395caiyong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

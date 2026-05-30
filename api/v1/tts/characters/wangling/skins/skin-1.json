@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bee10e7c6b8a0dda98b3b6930b7fc0e400b1eb2c1fdd4f4ad5238936d76b3853
-size 8172
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangling",
+    "command": "wangling",
+    "name": "族王凌",
+    "displayName": {
+      "zhHans": "族王凌",
+      "zhHant": "族王凌"
+    },
+    "names": [
+      "族王凌"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族王凌",
+        "zhHant": "族王凌"
+      }
+    ],
+    "ids": [
+      "556"
+    ],
+    "sourceNames": [
+      "族王凌"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族王凌",
+        "zhHant": "族王凌"
+      }
+    ],
+    "sourceIds": [
+      "556"
+    ],
+    "searchNames": [
+      "wangling",
+      "族王凌"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wangling/groups/dead.json"
+      },
+      {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wangling/groups/spell-3297.json"
+      },
+      {
+        "slug": "spell-3300",
+        "name": "驳龙",
+        "displayName": {
+          "zhHans": "驳龙",
+          "zhHant": "駁龍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wangling/groups/spell-3300.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "55602",
+        "name": "55602",
+        "displayName": {
+          "zhHans": "55602",
+          "zhHant": "55602"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangling/skins/55602.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangling/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-55601",
+        "name": "金戈镇恶",
+        "displayName": {
+          "zhHans": "金戈镇恶",
+          "zhHant": "金戈鎮惡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangling/skins/skin-55601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangling.json",
+      "groups": "api/v1/tts/characters/wangling/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangling/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/wangling/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "wangling--556wangling--1dead01",
+      "resourceId": "556wangling/1dead01",
+      "text": "淩忠心可鉴，死亦未悔。",
+      "textLocalized": {
+        "zhHans": "淩忠心可鉴，死亦未悔。",
+        "zhHant": "淩忠心可鑑，死亦未悔。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangling--556wangling--1skill2_1",
+      "resourceId": "556wangling/1skill2_1",
+      "text": "王门世代骨鲠[gěng]，皆为国之柱石。",
+      "textLocalized": {
+        "zhHans": "王门世代骨鲠[gěng]，皆为国之柱石。",
+        "zhHant": "王門世代骨鯁[gěng]，皆爲國之柱石。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangling--556wangling--1skill2_2",
+      "resourceId": "556wangling/1skill2_2",
+      "text": "行舟至中流而遇浪，大风起兮。",
+      "textLocalized": {
+        "zhHans": "行舟至中流而遇浪，大风起兮。",
+        "zhHant": "行舟至中流而遇浪，大風起兮。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangling--556wangling--1skill1_1",
+      "resourceId": "556wangling/1skill1_1",
+      "text": "驳者，食虎之兽焉，可摄冢虎。",
+      "textLocalized": {
+        "zhHans": "驳者，食虎之兽焉，可摄冢虎。",
+        "zhHant": "駁者，食虎之獸焉，可攝冢虎。"
+      },
+      "group": {
+        "slug": "spell-3300",
+        "name": "驳龙",
+        "displayName": {
+          "zhHans": "驳龙",
+          "zhHant": "駁龍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangling--556wangling--1skill1_2",
+      "resourceId": "556wangling/1skill1_2",
+      "text": "主上暗弱，当另择明主侍之。",
+      "textLocalized": {
+        "zhHans": "主上暗弱，当另择明主侍之。",
+        "zhHant": "主上闇弱，當另擇明主侍之。"
+      },
+      "group": {
+        "slug": "spell-3300",
+        "name": "驳龙",
+        "displayName": {
+          "zhHans": "驳龙",
+          "zhHant": "駁龍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/556wangling-82b82d37/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/556wangling/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

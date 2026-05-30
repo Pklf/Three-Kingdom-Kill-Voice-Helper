@@ -1,3 +1,467 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ca3f390b396b3dc3862532683c09b64fb73b8943166fe3ed84d9828a8b5de908
-size 13291
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuezong",
+    "command": "xuezong",
+    "name": "薛综",
+    "displayName": {
+      "zhHans": "薛综",
+      "zhHant": "薛綜"
+    },
+    "names": [
+      "薛综"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "薛综",
+        "zhHant": "薛綜"
+      }
+    ],
+    "ids": [
+      "394"
+    ],
+    "sourceNames": [
+      "薛综"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "薛综",
+        "zhHant": "薛綜"
+      }
+    ],
+    "sourceIds": [
+      "394"
+    ],
+    "searchNames": [
+      "xuezong",
+      "薛综",
+      "薛綜"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuezong/groups/dead.json"
+      },
+      {
+        "slug": "spell-793",
+        "name": "复难",
+        "displayName": {
+          "zhHans": "复难",
+          "zhHant": "復難"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xuezong/groups/spell-793.json"
+      },
+      {
+        "slug": "spell-794",
+        "name": "诫训",
+        "displayName": {
+          "zhHans": "诫训",
+          "zhHant": "誡訓"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xuezong/groups/spell-794.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-39406",
+        "name": "劝谏主君",
+        "displayName": {
+          "zhHans": "劝谏主君",
+          "zhHant": "勸諫主君"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xuezong/skins/skin-39406.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xuezong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-39401",
+        "name": "彬彬名儒",
+        "displayName": {
+          "zhHans": "彬彬名儒",
+          "zhHant": "彬彬名儒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xuezong/skins/skin-39401.json"
+      },
+      {
+        "slug": "skin-39401-39406",
+        "name": "彬彬名儒,劝谏主君",
+        "displayName": {
+          "zhHans": "彬彬名儒,劝谏主君",
+          "zhHant": "彬彬名儒,勸諫主君"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xuezong/skins/skin-39401-39406.json"
+      },
+      {
+        "slug": "skin-39402",
+        "name": "彬彬如玉",
+        "displayName": {
+          "zhHans": "彬彬如玉",
+          "zhHant": "彬彬如玉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xuezong/skins/skin-39402.json"
+      },
+      {
+        "slug": "skin-39403",
+        "name": "渡海南征",
+        "displayName": {
+          "zhHans": "渡海南征",
+          "zhHant": "渡海南征"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xuezong/skins/skin-39403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuezong.json",
+      "groups": "api/v1/tts/characters/xuezong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuezong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-794",
+    "name": "诫训",
+    "displayName": {
+      "zhHans": "诫训",
+      "zhHant": "誡訓"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/xuezong/groups/spell-794.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "xuezong--394xuezong--1skill2_1",
+      "resourceId": "394xuezong/1skill2_1",
+      "text": "帝王应以社稷为重，以大观为主。",
+      "textLocalized": {
+        "zhHans": "帝王应以社稷为重，以大观为主。",
+        "zhHant": "帝王應以社稷爲重，以大觀爲主。"
+      },
+      "group": {
+        "slug": "spell-794",
+        "name": "诫训",
+        "displayName": {
+          "zhHans": "诫训",
+          "zhHant": "誡訓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/394xuezong-9fade387/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/394xuezong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuezong--394xuezong--1skill2_2",
+      "resourceId": "394xuezong/1skill2_2",
+      "text": "吾冒昧进谏，只求陛下思虑。",
+      "textLocalized": {
+        "zhHans": "吾冒昧进谏，只求陛下思虑。",
+        "zhHant": "吾冒昧進諫，只求陛下思慮。"
+      },
+      "group": {
+        "slug": "spell-794",
+        "name": "诫训",
+        "displayName": {
+          "zhHans": "诫训",
+          "zhHant": "誡訓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/394xuezong-9fade387/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/394xuezong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuezong--394xuezong--3skill2_1",
+      "resourceId": "394xuezong/3skill2_1",
+      "text": "君子立于人世，有所为，有所不为！",
+      "textLocalized": {
+        "zhHans": "君子立于人世，有所为，有所不为！",
+        "zhHant": "君子立於人世，有所爲，有所不爲！"
+      },
+      "group": {
+        "slug": "spell-794",
+        "name": "诫训",
+        "displayName": {
+          "zhHans": "诫训",
+          "zhHant": "誡訓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39406",
+          "name": "劝谏主君",
+          "displayName": {
+            "zhHans": "劝谏主君",
+            "zhHant": "勸諫主君"
+          }
+        },
+        {
+          "slug": "skin-39401",
+          "name": "彬彬名儒",
+          "displayName": {
+            "zhHans": "彬彬名儒",
+            "zhHant": "彬彬名儒"
+          }
+        },
+        {
+          "slug": "skin-39401-39406",
+          "name": "彬彬名儒,劝谏主君",
+          "displayName": {
+            "zhHans": "彬彬名儒,劝谏主君",
+            "zhHant": "彬彬名儒,勸諫主君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/394xuezong-9fade387/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/394xuezong/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuezong--394xuezong--3skill2_2",
+      "resourceId": "394xuezong/3skill2_2",
+      "text": "举国之大计，更须仔细定夺！",
+      "textLocalized": {
+        "zhHans": "举国之大计，更须仔细定夺！",
+        "zhHant": "舉國之大計，更須仔細定奪！"
+      },
+      "group": {
+        "slug": "spell-794",
+        "name": "诫训",
+        "displayName": {
+          "zhHans": "诫训",
+          "zhHant": "誡訓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39406",
+          "name": "劝谏主君",
+          "displayName": {
+            "zhHans": "劝谏主君",
+            "zhHant": "勸諫主君"
+          }
+        },
+        {
+          "slug": "skin-39401",
+          "name": "彬彬名儒",
+          "displayName": {
+            "zhHans": "彬彬名儒",
+            "zhHant": "彬彬名儒"
+          }
+        },
+        {
+          "slug": "skin-39401-39406",
+          "name": "彬彬名儒,劝谏主君",
+          "displayName": {
+            "zhHans": "彬彬名儒,劝谏主君",
+            "zhHant": "彬彬名儒,勸諫主君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/394xuezong-9fade387/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/394xuezong/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuezong--394xuezong--4skill2_1",
+      "resourceId": "394xuezong/4skill2_1",
+      "text": "所任之人，不可不明察！",
+      "textLocalized": {
+        "zhHans": "所任之人，不可不明察！",
+        "zhHant": "所任之人，不可不明察！"
+      },
+      "group": {
+        "slug": "spell-794",
+        "name": "诫训",
+        "displayName": {
+          "zhHans": "诫训",
+          "zhHant": "誡訓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39402",
+          "name": "彬彬如玉",
+          "displayName": {
+            "zhHans": "彬彬如玉",
+            "zhHant": "彬彬如玉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/394xuezong-9fade387/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/394xuezong/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuezong--394xuezong--4skill2_2",
+      "resourceId": "394xuezong/4skill2_2",
+      "text": "大丈夫，拿得起，也要放得下。",
+      "textLocalized": {
+        "zhHans": "大丈夫，拿得起，也要放得下。",
+        "zhHant": "大丈夫，拿得起，也要放得下。"
+      },
+      "group": {
+        "slug": "spell-794",
+        "name": "诫训",
+        "displayName": {
+          "zhHans": "诫训",
+          "zhHant": "誡訓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39402",
+          "name": "彬彬如玉",
+          "displayName": {
+            "zhHans": "彬彬如玉",
+            "zhHant": "彬彬如玉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/394xuezong-9fade387/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/394xuezong/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuezong--394xuezong--5skill2_1",
+      "resourceId": "394xuezong/5skill2_1",
+      "text": "世间的得到，多是要付出代价的。",
+      "textLocalized": {
+        "zhHans": "世间的得到，多是要付出代价的。",
+        "zhHant": "世間的得到，多是要付出代價的。"
+      },
+      "group": {
+        "slug": "spell-794",
+        "name": "诫训",
+        "displayName": {
+          "zhHans": "诫训",
+          "zhHant": "誡訓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39403",
+          "name": "渡海南征",
+          "displayName": {
+            "zhHans": "渡海南征",
+            "zhHant": "渡海南征"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/394xuezong-9fade387/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/394xuezong/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuezong--394xuezong--5skill2_2",
+      "resourceId": "394xuezong/5skill2_2",
+      "text": "老夫叮嘱再三，万万不可再犯。",
+      "textLocalized": {
+        "zhHans": "老夫叮嘱再三，万万不可再犯。",
+        "zhHant": "老夫叮囑再三，萬萬不可再犯。"
+      },
+      "group": {
+        "slug": "spell-794",
+        "name": "诫训",
+        "displayName": {
+          "zhHans": "诫训",
+          "zhHant": "誡訓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39403",
+          "name": "渡海南征",
+          "displayName": {
+            "zhHans": "渡海南征",
+            "zhHant": "渡海南征"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/394xuezong-9fade387/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/394xuezong/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

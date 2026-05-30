@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:69a882fdac541769ceed18fd30b30551d45db714fd701880819f07c5f4a852d8
-size 7594
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guotufengji",
+    "command": "guotufengji",
+    "name": "郭图&逢纪",
+    "displayName": {
+      "zhHans": "郭图&逢纪",
+      "zhHant": "郭圖&逢紀"
+    },
+    "names": [
+      "郭图&逢纪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "郭图&逢纪",
+        "zhHant": "郭圖&逢紀"
+      }
+    ],
+    "ids": [
+      "342"
+    ],
+    "sourceNames": [
+      "郭图&逢纪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "郭图&逢纪",
+        "zhHant": "郭圖&逢紀"
+      }
+    ],
+    "sourceIds": [
+      "342"
+    ],
+    "searchNames": [
+      "guotufengji",
+      "郭图&逢纪",
+      "郭圖&逢紀"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/guotufengji/groups/dead.json"
+      },
+      {
+        "slug": "spell-748",
+        "name": "急攻",
+        "displayName": {
+          "zhHans": "急攻",
+          "zhHant": "急攻"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guotufengji/groups/spell-748.json"
+      },
+      {
+        "slug": "spell-749",
+        "name": "饰非",
+        "displayName": {
+          "zhHans": "饰非",
+          "zhHant": "飾非"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guotufengji/groups/spell-749.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guotufengji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34203",
+        "name": "妄画蛇足",
+        "displayName": {
+          "zhHans": "妄画蛇足",
+          "zhHant": "妄畫蛇足"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guotufengji/skins/skin-34203.json"
+      },
+      {
+        "slug": "skin-34204",
+        "name": "曲辞谄媚",
+        "displayName": {
+          "zhHans": "曲辞谄媚",
+          "zhHant": "曲辭諂媚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guotufengji/skins/skin-34204.json"
+      },
+      {
+        "slug": "skin-34202",
+        "name": "目语额瞬",
+        "displayName": {
+          "zhHans": "目语额瞬",
+          "zhHant": "目語額瞬"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guotufengji/skins/skin-34202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guotufengji.json",
+      "groups": "api/v1/tts/characters/guotufengji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guotufengji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/guotufengji/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "guotufengji--342guotufengji--1dead01",
+      "resourceId": "342guotufengji/1dead01",
+      "text": "大势已去，无力回天……",
+      "textLocalized": {
+        "zhHans": "大势已去，无力回天……",
+        "zhHant": "大勢已去，無力迴天……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/342guotufengji-66550bec/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/342guotufengji/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotufengji--342guotufengji--4dead01",
+      "resourceId": "342guotufengji/4dead01",
+      "text": "算来算去，没算到竟有如此下场！",
+      "textLocalized": {
+        "zhHans": "算来算去，没算到竟有如此下场！",
+        "zhHant": "算來算去，沒算到竟有如此下場！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34203",
+          "name": "妄画蛇足",
+          "displayName": {
+            "zhHans": "妄画蛇足",
+            "zhHant": "妄畫蛇足"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/342guotufengji-66550bec/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/342guotufengji/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotufengji--342guotufengji--5dead01",
+      "resourceId": "342guotufengji/5dead01",
+      "text": "现在，也没人能保我们了！",
+      "textLocalized": {
+        "zhHans": "现在，也没人能保我们了！",
+        "zhHant": "現在，也沒人能保我們了！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34204",
+          "name": "曲辞谄媚",
+          "displayName": {
+            "zhHans": "曲辞谄媚",
+            "zhHant": "曲辭諂媚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/342guotufengji-66550bec/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/342guotufengji/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotufengji--342guotufengji--3dead01",
+      "resourceId": "342guotufengji/3dead01",
+      "text": "终是，再无回旋的余地了。",
+      "textLocalized": {
+        "zhHans": "终是，再无回旋的余地了。",
+        "zhHant": "終是，再無迴旋的餘地了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34202",
+          "name": "目语额瞬",
+          "displayName": {
+            "zhHans": "目语额瞬",
+            "zhHant": "目語額瞬"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/342guotufengji-66550bec/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/342guotufengji/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

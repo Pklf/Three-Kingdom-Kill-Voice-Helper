@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4f94f5981ad2c412749ff7604285a191b291f87b021eb1802b751ef18bc4c403
-size 6769
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wenpin",
+    "command": "wenpin",
+    "name": "文聘",
+    "displayName": {
+      "zhHans": "文聘",
+      "zhHant": "文聘"
+    },
+    "names": [
+      "文聘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "文聘",
+        "zhHant": "文聘"
+      }
+    ],
+    "ids": [
+      "136"
+    ],
+    "sourceNames": [
+      "文聘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "文聘",
+        "zhHant": "文聘"
+      }
+    ],
+    "sourceIds": [
+      "136"
+    ],
+    "searchNames": [
+      "wenpin",
+      "文聘"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/groups/dead.json"
+      },
+      {
+        "slug": "spell-248-504",
+        "name": "镇卫",
+        "displayName": {
+          "zhHans": "镇卫",
+          "zhHant": "鎮衛"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wenpin/groups/spell-248-504.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-13603",
+        "name": "勇者不惧",
+        "displayName": {
+          "zhHans": "勇者不惧",
+          "zhHant": "勇者不懼"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-13603.json"
+      },
+      {
+        "slug": "skin-13603-13604",
+        "name": "勇者不惧,江夏铁壁",
+        "displayName": {
+          "zhHans": "勇者不惧,江夏铁壁",
+          "zhHant": "勇者不懼,江夏鐵壁"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-13603-13604.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-13604",
+        "name": "江夏铁壁",
+        "displayName": {
+          "zhHans": "江夏铁壁",
+          "zhHant": "江夏鐵壁"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-13604.json"
+      },
+      {
+        "slug": "skin-13602",
+        "name": "镇卫江夏",
+        "displayName": {
+          "zhHans": "镇卫江夏",
+          "zhHant": "鎮衛江夏"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenpin/skins/skin-13602.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wenpin.json",
+      "groups": "api/v1/tts/characters/wenpin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wenpin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/wenpin/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "wenpin--136wenpin--4dead01",
+      "resourceId": "136wenpin/4dead01",
+      "text": "边疆有失，我之过也。",
+      "textLocalized": {
+        "zhHans": "边疆有失，我之过也。",
+        "zhHant": "邊疆有失，我之過也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-13603",
+          "name": "勇者不惧",
+          "displayName": {
+            "zhHans": "勇者不惧",
+            "zhHant": "勇者不懼"
+          }
+        },
+        {
+          "slug": "skin-13604",
+          "name": "江夏铁壁",
+          "displayName": {
+            "zhHans": "江夏铁壁",
+            "zhHant": "江夏鐵壁"
+          }
+        },
+        {
+          "slug": "skin-13603-13604",
+          "name": "勇者不惧,江夏铁壁",
+          "displayName": {
+            "zhHans": "勇者不惧,江夏铁壁",
+            "zhHant": "勇者不懼,江夏鐵壁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/136wenpin-8f962221/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/136wenpin/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenpin--136wenpin--1dead01",
+      "resourceId": "136wenpin/1dead01",
+      "text": "终于……也守不住了……",
+      "textLocalized": {
+        "zhHans": "终于……也守不住了……",
+        "zhHant": "終於……也守不住了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/136wenpin-8f962221/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/136wenpin/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenpin--136wenpin--3dead01",
+      "resourceId": "136wenpin/3dead01",
+      "text": "我与此城共存亡……",
+      "textLocalized": {
+        "zhHans": "我与此城共存亡……",
+        "zhHant": "我與此城共存亡……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-13602",
+          "name": "镇卫江夏",
+          "displayName": {
+            "zhHans": "镇卫江夏",
+            "zhHant": "鎮衛江夏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/136wenpin-8f962221/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/136wenpin/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

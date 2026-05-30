@@ -1,3 +1,551 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3892c0961eb1c5e5dc2ad19875516f6b4000bdfd6480edad7dc5fb12eeedcf3e
-size 15653
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qinmi",
+    "command": "qinmi",
+    "name": "秦宓",
+    "displayName": {
+      "zhHans": "秦宓",
+      "zhHant": "秦宓"
+    },
+    "names": [
+      "秦宓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "秦宓",
+        "zhHant": "秦宓"
+      }
+    ],
+    "ids": [
+      "393"
+    ],
+    "sourceNames": [
+      "秦宓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "秦宓",
+        "zhHant": "秦宓"
+      }
+    ],
+    "sourceIds": [
+      "393"
+    ],
+    "searchNames": [
+      "qinmi",
+      "秦宓"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qinmi/groups/dead.json"
+      },
+      {
+        "slug": "spell-790",
+        "name": "谏征",
+        "displayName": {
+          "zhHans": "谏征",
+          "zhHant": "諫徵"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/qinmi/groups/spell-790.json"
+      },
+      {
+        "slug": "spell-791",
+        "name": "专对",
+        "displayName": {
+          "zhHans": "专对",
+          "zhHant": "專對"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/qinmi/groups/spell-791.json"
+      },
+      {
+        "slug": "spell-792",
+        "name": "天辩",
+        "displayName": {
+          "zhHans": "天辩",
+          "zhHant": "天辯"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/qinmi/groups/spell-792.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-39301",
+        "name": "劝言受刑",
+        "displayName": {
+          "zhHans": "劝言受刑",
+          "zhHant": "勸言受刑"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39301.json"
+      },
+      {
+        "slug": "skin-39301-39303",
+        "name": "劝言受刑,落叶知意",
+        "displayName": {
+          "zhHans": "劝言受刑,落叶知意",
+          "zhHant": "勸言受刑,落葉知意"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39301-39303.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-39307",
+        "name": "吟文叙古",
+        "displayName": {
+          "zhHans": "吟文叙古",
+          "zhHant": "吟文敘古"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39307.json"
+      },
+      {
+        "slug": "skin-39304",
+        "name": "夜烛阅简",
+        "displayName": {
+          "zhHans": "夜烛阅简",
+          "zhHant": "夜燭閱簡"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39304.json"
+      },
+      {
+        "slug": "skin-39304-39307",
+        "name": "夜烛阅简,吟文叙古",
+        "displayName": {
+          "zhHans": "夜烛阅简,吟文叙古",
+          "zhHant": "夜燭閱簡,吟文敘古"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39304-39307.json"
+      },
+      {
+        "slug": "skin-39308",
+        "name": "恬淡浩然",
+        "displayName": {
+          "zhHans": "恬淡浩然",
+          "zhHant": "恬淡浩然"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39308.json"
+      },
+      {
+        "slug": "skin-39306",
+        "name": "笔出千策",
+        "displayName": {
+          "zhHans": "笔出千策",
+          "zhHant": "筆出千策"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39306.json"
+      },
+      {
+        "slug": "skin-39303",
+        "name": "落叶知意",
+        "displayName": {
+          "zhHans": "落叶知意",
+          "zhHant": "落葉知意"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39303.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/qinmi.json",
+      "groups": "api/v1/tts/characters/qinmi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/qinmi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-39301-39303",
+    "name": "劝言受刑,落叶知意",
+    "displayName": {
+      "zhHans": "劝言受刑,落叶知意",
+      "zhHant": "勸言受刑,落葉知意"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39301-39303.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "qinmi--393qinmi--3dead01",
+      "resourceId": "393qinmi/3dead01",
+      "text": "当此乱世，文人无用啊。",
+      "textLocalized": {
+        "zhHans": "当此乱世，文人无用啊。",
+        "zhHant": "當此亂世，文人無用啊。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39301",
+          "name": "劝言受刑",
+          "displayName": {
+            "zhHans": "劝言受刑",
+            "zhHant": "勸言受刑"
+          }
+        },
+        {
+          "slug": "skin-39303",
+          "name": "落叶知意",
+          "displayName": {
+            "zhHans": "落叶知意",
+            "zhHant": "落葉知意"
+          }
+        },
+        {
+          "slug": "skin-39301-39303",
+          "name": "劝言受刑,落叶知意",
+          "displayName": {
+            "zhHans": "劝言受刑,落叶知意",
+            "zhHant": "勸言受刑,落葉知意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--3skill1_1",
+      "resourceId": "393qinmi/3skill1_1",
+      "text": "冒死劝谏，杀身事小，国体事大。",
+      "textLocalized": {
+        "zhHans": "冒死劝谏，杀身事小，国体事大。",
+        "zhHant": "冒死勸諫，殺身事小，國體事大。"
+      },
+      "group": {
+        "slug": "spell-790",
+        "name": "谏征",
+        "displayName": {
+          "zhHans": "谏征",
+          "zhHant": "諫徵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39301",
+          "name": "劝言受刑",
+          "displayName": {
+            "zhHans": "劝言受刑",
+            "zhHant": "勸言受刑"
+          }
+        },
+        {
+          "slug": "skin-39303",
+          "name": "落叶知意",
+          "displayName": {
+            "zhHans": "落叶知意",
+            "zhHant": "落葉知意"
+          }
+        },
+        {
+          "slug": "skin-39301-39303",
+          "name": "劝言受刑,落叶知意",
+          "displayName": {
+            "zhHans": "劝言受刑,落叶知意",
+            "zhHant": "勸言受刑,落葉知意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--3skill1_2",
+      "resourceId": "393qinmi/3skill1_2",
+      "text": "还望陛下能收回成命，再做计议。",
+      "textLocalized": {
+        "zhHans": "还望陛下能收回成命，再做计议。",
+        "zhHant": "還望陛下能收回成命，再做計議。"
+      },
+      "group": {
+        "slug": "spell-790",
+        "name": "谏征",
+        "displayName": {
+          "zhHans": "谏征",
+          "zhHant": "諫徵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39301",
+          "name": "劝言受刑",
+          "displayName": {
+            "zhHans": "劝言受刑",
+            "zhHant": "勸言受刑"
+          }
+        },
+        {
+          "slug": "skin-39303",
+          "name": "落叶知意",
+          "displayName": {
+            "zhHans": "落叶知意",
+            "zhHant": "落葉知意"
+          }
+        },
+        {
+          "slug": "skin-39301-39303",
+          "name": "劝言受刑,落叶知意",
+          "displayName": {
+            "zhHans": "劝言受刑,落叶知意",
+            "zhHant": "勸言受刑,落葉知意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--3skill2_1",
+      "resourceId": "393qinmi/3skill2_1",
+      "text": "公，尚不如蜀地小儿乎？",
+      "textLocalized": {
+        "zhHans": "公，尚不如蜀地小儿乎？",
+        "zhHant": "公，尚不如蜀地小兒乎？"
+      },
+      "group": {
+        "slug": "spell-791",
+        "name": "专对",
+        "displayName": {
+          "zhHans": "专对",
+          "zhHant": "專對"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39301",
+          "name": "劝言受刑",
+          "displayName": {
+            "zhHans": "劝言受刑",
+            "zhHant": "勸言受刑"
+          }
+        },
+        {
+          "slug": "skin-39303",
+          "name": "落叶知意",
+          "displayName": {
+            "zhHans": "落叶知意",
+            "zhHant": "落葉知意"
+          }
+        },
+        {
+          "slug": "skin-39301-39303",
+          "name": "劝言受刑,落叶知意",
+          "displayName": {
+            "zhHans": "劝言受刑,落叶知意",
+            "zhHant": "勸言受刑,落葉知意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--3skill2_2",
+      "resourceId": "393qinmi/3skill2_2",
+      "text": "无礼之徒，我亦无礼待之。",
+      "textLocalized": {
+        "zhHans": "无礼之徒，我亦无礼待之。",
+        "zhHant": "無禮之徒，我亦無禮待之。"
+      },
+      "group": {
+        "slug": "spell-791",
+        "name": "专对",
+        "displayName": {
+          "zhHans": "专对",
+          "zhHant": "專對"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39301",
+          "name": "劝言受刑",
+          "displayName": {
+            "zhHans": "劝言受刑",
+            "zhHant": "勸言受刑"
+          }
+        },
+        {
+          "slug": "skin-39303",
+          "name": "落叶知意",
+          "displayName": {
+            "zhHans": "落叶知意",
+            "zhHant": "落葉知意"
+          }
+        },
+        {
+          "slug": "skin-39301-39303",
+          "name": "劝言受刑,落叶知意",
+          "displayName": {
+            "zhHans": "劝言受刑,落叶知意",
+            "zhHant": "勸言受刑,落葉知意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--3skill3_1",
+      "resourceId": "393qinmi/3skill3_1",
+      "text": "此番之理，古往今来，亘古不变。",
+      "textLocalized": {
+        "zhHans": "此番之理，古往今来，亘古不变。",
+        "zhHant": "此番之理，古往今來，亙古不變。"
+      },
+      "group": {
+        "slug": "spell-792",
+        "name": "天辩",
+        "displayName": {
+          "zhHans": "天辩",
+          "zhHant": "天辯"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39301",
+          "name": "劝言受刑",
+          "displayName": {
+            "zhHans": "劝言受刑",
+            "zhHant": "勸言受刑"
+          }
+        },
+        {
+          "slug": "skin-39303",
+          "name": "落叶知意",
+          "displayName": {
+            "zhHans": "落叶知意",
+            "zhHant": "落葉知意"
+          }
+        },
+        {
+          "slug": "skin-39301-39303",
+          "name": "劝言受刑,落叶知意",
+          "displayName": {
+            "zhHans": "劝言受刑,落叶知意",
+            "zhHant": "勸言受刑,落葉知意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--3skill3_2",
+      "resourceId": "393qinmi/3skill3_2",
+      "text": "万物有理，天数无常。",
+      "textLocalized": {
+        "zhHans": "万物有理，天数无常。",
+        "zhHant": "萬物有理，天數無常。"
+      },
+      "group": {
+        "slug": "spell-792",
+        "name": "天辩",
+        "displayName": {
+          "zhHans": "天辩",
+          "zhHant": "天辯"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39301",
+          "name": "劝言受刑",
+          "displayName": {
+            "zhHans": "劝言受刑",
+            "zhHant": "勸言受刑"
+          }
+        },
+        {
+          "slug": "skin-39303",
+          "name": "落叶知意",
+          "displayName": {
+            "zhHans": "落叶知意",
+            "zhHant": "落葉知意"
+          }
+        },
+        {
+          "slug": "skin-39301-39303",
+          "name": "劝言受刑,落叶知意",
+          "displayName": {
+            "zhHans": "劝言受刑,落叶知意",
+            "zhHant": "勸言受刑,落葉知意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

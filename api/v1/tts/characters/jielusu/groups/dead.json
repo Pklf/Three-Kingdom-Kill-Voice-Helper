@@ -1,3 +1,264 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:86225e589c30bd95bdca19d8395235316769acefaa93767bf3a37bd08c169826
-size 6852
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jielusu",
+    "command": "jielusu",
+    "name": "界鲁肃",
+    "displayName": {
+      "zhHans": "界鲁肃",
+      "zhHant": "界魯肅"
+    },
+    "names": [
+      "界鲁肃",
+      "鲁肃"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界鲁肃",
+        "zhHant": "界魯肅"
+      },
+      {
+        "zhHans": "鲁肃",
+        "zhHant": "魯肅"
+      }
+    ],
+    "ids": [
+      "485",
+      "49"
+    ],
+    "sourceNames": [
+      "界鲁肃",
+      "鲁肃"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界鲁肃",
+        "zhHant": "界魯肅"
+      },
+      {
+        "zhHans": "鲁肃",
+        "zhHant": "魯肅"
+      }
+    ],
+    "sourceIds": [
+      "485",
+      "49"
+    ],
+    "searchNames": [
+      "jielusu",
+      "界鲁肃",
+      "界魯肅",
+      "鲁肃",
+      "魯肅"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/dead.json"
+      },
+      {
+        "slug": "spell-120-3035",
+        "name": "好施",
+        "displayName": {
+          "zhHans": "好施",
+          "zhHant": "好施"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/spell-120-3035.json"
+      },
+      {
+        "slug": "spell-121-3036",
+        "name": "缔盟",
+        "displayName": {
+          "zhHans": "缔盟",
+          "zhHant": "締盟"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/spell-121-3036.json"
+      },
+      {
+        "slug": "spell-3035",
+        "name": "好施",
+        "displayName": {
+          "zhHans": "好施",
+          "zhHant": "好施"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/spell-3035.json"
+      },
+      {
+        "slug": "spell-3036",
+        "name": "缔盟",
+        "displayName": {
+          "zhHans": "缔盟",
+          "zhHant": "締盟"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/spell-3036.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-48502",
+        "name": "兰舟品琼",
+        "displayName": {
+          "zhHans": "兰舟品琼",
+          "zhHant": "蘭舟品瓊"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielusu/skins/skin-48502.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielusu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-48501",
+        "name": "渡江赴会",
+        "displayName": {
+          "zhHans": "渡江赴会",
+          "zhHant": "渡江赴會"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielusu/skins/skin-48501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jielusu.json",
+      "groups": "api/v1/tts/characters/jielusu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jielusu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/jielusu/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "jielusu--485jielusu--3dead01",
+      "resourceId": "485jielusu/3dead01",
+      "text": "郁愤难解，汗如浆出。",
+      "textLocalized": {
+        "zhHans": "郁愤难解，汗如浆出。",
+        "zhHant": "鬱憤難解，汗如漿出。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48502",
+          "name": "兰舟品琼",
+          "displayName": {
+            "zhHans": "兰舟品琼",
+            "zhHant": "蘭舟品瓊"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/485jielusu-98112823/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/485jielusu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielusu--485jielusu--1dead01",
+      "resourceId": "485jielusu/1dead01",
+      "text": "一生为国，纵死无憾！",
+      "textLocalized": {
+        "zhHans": "一生为国，纵死无憾！",
+        "zhHant": "一生爲國，縱死無憾！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/485jielusu-98112823/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/485jielusu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielusu--485jielusu--2dead01",
+      "resourceId": "485jielusu/2dead01",
+      "text": "身故盟犹在，宜倍修恩厚。",
+      "textLocalized": {
+        "zhHans": "身故盟犹在，宜倍修恩厚。",
+        "zhHant": "身故盟猶在，宜倍修恩厚。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48501",
+          "name": "渡江赴会",
+          "displayName": {
+            "zhHans": "渡江赴会",
+            "zhHant": "渡江赴會"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/485jielusu-98112823/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/485jielusu/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

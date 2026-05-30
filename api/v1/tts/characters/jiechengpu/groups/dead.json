@@ -1,3 +1,139 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2facbe67fba76a818cee181d563f9abcd8e354ddce831a5a2676221f28d1e0d8
-size 3443
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiechengpu",
+    "command": "jiechengpu",
+    "name": "界程普",
+    "displayName": {
+      "zhHans": "界程普",
+      "zhHant": "界程普"
+    },
+    "names": [
+      "界程普"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "ids": [
+      "620"
+    ],
+    "sourceNames": [
+      "界程普"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "sourceIds": [
+      "620"
+    ],
+    "searchNames": [
+      "jiechengpu",
+      "界程普"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jiechengpu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3470",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiechengpu/groups/spell-3470.json"
+      },
+      {
+        "slug": "spell-3616",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiechengpu/groups/spell-3616.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiechengpu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiechengpu.json",
+      "groups": "api/v1/tts/characters/jiechengpu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiechengpu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/jiechengpu/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "jiechengpu--620jiechengpu--1dead01",
+      "resourceId": "620jiechengpu/1dead01",
+      "text": "以暴讨贼，竟遭报应么……",
+      "textLocalized": {
+        "zhHans": "以暴讨贼，竟遭报应么……",
+        "zhHant": "以暴討賊，竟遭報應麼……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/620jiechengpu-368dd8ae/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/620jiechengpu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

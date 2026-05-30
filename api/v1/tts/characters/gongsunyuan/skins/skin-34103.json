@@ -1,3 +1,220 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:17ad460f443df84121551cd9ffd84f775f0a0708d77180582c244e790bba55bf
-size 5958
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "gongsunyuan",
+    "command": "gongsunyuan",
+    "name": "公孙渊",
+    "displayName": {
+      "zhHans": "公孙渊",
+      "zhHant": "公孫淵"
+    },
+    "names": [
+      "公孙渊"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "公孙渊",
+        "zhHant": "公孫淵"
+      }
+    ],
+    "ids": [
+      "341"
+    ],
+    "sourceNames": [
+      "公孙渊"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "公孙渊",
+        "zhHant": "公孫淵"
+      }
+    ],
+    "sourceIds": [
+      "341"
+    ],
+    "searchNames": [
+      "gongsunyuan",
+      "公孙渊",
+      "公孫淵"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/groups/dead.json"
+      },
+      {
+        "slug": "spell-747",
+        "name": "怀异",
+        "displayName": {
+          "zhHans": "怀异",
+          "zhHant": "懷異"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/groups/spell-747.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34104",
+        "name": "快心遂意",
+        "displayName": {
+          "zhHans": "快心遂意",
+          "zhHant": "快心遂意"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/skins/skin-34104.json"
+      },
+      {
+        "slug": "skin-34103",
+        "name": "独饮醉卧",
+        "displayName": {
+          "zhHans": "独饮醉卧",
+          "zhHant": "獨飲醉臥"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/skins/skin-34103.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/gongsunyuan.json",
+      "groups": "api/v1/tts/characters/gongsunyuan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/gongsunyuan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-34103",
+    "name": "独饮醉卧",
+    "displayName": {
+      "zhHans": "独饮醉卧",
+      "zhHant": "獨飲醉臥"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/gongsunyuan/skins/skin-34103.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "gongsunyuan--341gongsunyuan--3dead01",
+      "resourceId": "341gongsunyuan/3dead01",
+      "text": "我的选择，又错了！",
+      "textLocalized": {
+        "zhHans": "我的选择，又错了！",
+        "zhHant": "我的選擇，又錯了！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34103",
+          "name": "独饮醉卧",
+          "displayName": {
+            "zhHans": "独饮醉卧",
+            "zhHant": "獨飲醉臥"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/341gongsunyuan-99361e9c/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/341gongsunyuan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gongsunyuan--341gongsunyuan--3skill1_1",
+      "resourceId": "341gongsunyuan/3skill1_1",
+      "text": "乱世出君主，吾岂可错过。",
+      "textLocalized": {
+        "zhHans": "乱世出君主，吾岂可错过。",
+        "zhHant": "亂世出君主，吾豈可錯過。"
+      },
+      "group": {
+        "slug": "spell-747",
+        "name": "怀异",
+        "displayName": {
+          "zhHans": "怀异",
+          "zhHant": "懷異"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34103",
+          "name": "独饮醉卧",
+          "displayName": {
+            "zhHans": "独饮醉卧",
+            "zhHant": "獨飲醉臥"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/341gongsunyuan-99361e9c/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/341gongsunyuan/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gongsunyuan--341gongsunyuan--3skill1_2",
+      "resourceId": "341gongsunyuan/3skill1_2",
+      "text": "弃吴投魏，是万不得已之计。",
+      "textLocalized": {
+        "zhHans": "弃吴投魏，是万不得已之计。",
+        "zhHant": "棄吳投魏，是萬不得已之計。"
+      },
+      "group": {
+        "slug": "spell-747",
+        "name": "怀异",
+        "displayName": {
+          "zhHans": "怀异",
+          "zhHant": "懷異"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34103",
+          "name": "独饮醉卧",
+          "displayName": {
+            "zhHans": "独饮醉卧",
+            "zhHant": "獨飲醉臥"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/341gongsunyuan-99361e9c/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/341gongsunyuan/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

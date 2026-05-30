@@ -1,3 +1,210 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7d7971041276a8cf56e4acf4031cada0da5aee7bec2e8423c4469fd44b8cabc4
-size 5680
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "luoxian",
+    "command": "luoxian",
+    "name": "罗宪",
+    "displayName": {
+      "zhHans": "罗宪",
+      "zhHant": "羅憲"
+    },
+    "names": [
+      "罗宪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "罗宪",
+        "zhHant": "羅憲"
+      }
+    ],
+    "ids": [
+      "545"
+    ],
+    "sourceNames": [
+      "罗宪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "罗宪",
+        "zhHant": "羅憲"
+      }
+    ],
+    "sourceIds": [
+      "545"
+    ],
+    "searchNames": [
+      "luoxian",
+      "罗宪",
+      "羅憲"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/luoxian/groups/dead.json"
+      },
+      {
+        "slug": "spell-3254",
+        "name": "带砺",
+        "displayName": {
+          "zhHans": "带砺",
+          "zhHant": "帶礪"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/luoxian/groups/spell-3254.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/luoxian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54501",
+        "name": "舍身酬国",
+        "displayName": {
+          "zhHans": "舍身酬国",
+          "zhHant": "捨身酬國"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/luoxian/skins/skin-54501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/luoxian.json",
+      "groups": "api/v1/tts/characters/luoxian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/luoxian/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-54501",
+    "name": "舍身酬国",
+    "displayName": {
+      "zhHans": "舍身酬国",
+      "zhHant": "捨身酬國"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/luoxian/skins/skin-54501.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "luoxian--545luoxian--2dead01",
+      "resourceId": "545luoxian/2dead01",
+      "text": "国朝用命之时，奈何无计可施。",
+      "textLocalized": {
+        "zhHans": "国朝用命之时，奈何无计可施。",
+        "zhHant": "國朝用命之時，奈何無計可施。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54501",
+          "name": "舍身酬国",
+          "displayName": {
+            "zhHans": "舍身酬国",
+            "zhHant": "捨身酬國"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/545luoxian-9a5d6f46/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/545luoxian/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luoxian--545luoxian--2skill1_1",
+      "resourceId": "545luoxian/2skill1_1",
+      "text": "今指山河为誓，此生不过江南、不从吴狗。",
+      "textLocalized": {
+        "zhHans": "今指山河为誓，此生不过江南、不从吴狗。",
+        "zhHant": "今指山河爲誓，此生不過江南、不從吳狗。"
+      },
+      "group": {
+        "slug": "spell-3254",
+        "name": "带砺",
+        "displayName": {
+          "zhHans": "带砺",
+          "zhHant": "帶礪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54501",
+          "name": "舍身酬国",
+          "displayName": {
+            "zhHans": "舍身酬国",
+            "zhHant": "捨身酬國"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/545luoxian-9a5d6f46/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/545luoxian/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luoxian--545luoxian--2skill1_2",
+      "resourceId": "545luoxian/2skill1_2",
+      "text": "长河如衣带，高山如砥石，国可得久安。",
+      "textLocalized": {
+        "zhHans": "长河如衣带，高山如砥石，国可得久安。",
+        "zhHant": "長河如衣帶，高山如砥石，國可得久安。"
+      },
+      "group": {
+        "slug": "spell-3254",
+        "name": "带砺",
+        "displayName": {
+          "zhHans": "带砺",
+          "zhHant": "帶礪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54501",
+          "name": "舍身酬国",
+          "displayName": {
+            "zhHans": "舍身酬国",
+            "zhHant": "捨身酬國"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/545luoxian-9a5d6f46/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/545luoxian/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

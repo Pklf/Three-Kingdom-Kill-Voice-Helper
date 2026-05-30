@@ -1,3 +1,140 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8bf15acdd3cb818c726fa26dda3915b9a3a3f10979149f9ffb84ef76388a01f4
-size 3383
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wuban",
+    "command": "wuban",
+    "name": "族吴班",
+    "displayName": {
+      "zhHans": "族吴班",
+      "zhHant": "族吳班"
+    },
+    "names": [
+      "族吴班"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族吴班",
+        "zhHant": "族吳班"
+      }
+    ],
+    "ids": [
+      "529"
+    ],
+    "sourceNames": [
+      "族吴班"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族吴班",
+        "zhHant": "族吳班"
+      }
+    ],
+    "sourceIds": [
+      "529"
+    ],
+    "searchNames": [
+      "wuban",
+      "族吴班",
+      "族吳班"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wuban/groups/dead.json"
+      },
+      {
+        "slug": "spell-3191",
+        "name": "穆荫",
+        "displayName": {
+          "zhHans": "穆荫",
+          "zhHant": "穆蔭"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wuban/groups/spell-3191.json"
+      },
+      {
+        "slug": "spell-3194",
+        "name": "斩钉",
+        "displayName": {
+          "zhHans": "斩钉",
+          "zhHant": "斬釘"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wuban/groups/spell-3194.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wuban/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wuban.json",
+      "groups": "api/v1/tts/characters/wuban/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wuban/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/wuban/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "wuban--529wuban--1dead01",
+      "resourceId": "529wuban/1dead01",
+      "text": "无胆鼠辈，安敢暗箭伤人。",
+      "textLocalized": {
+        "zhHans": "无胆鼠辈，安敢暗箭伤人。",
+        "zhHant": "無膽鼠輩，安敢暗箭傷人。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/529wuban-a5d89cac/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/529wuban/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

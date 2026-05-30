@@ -1,3 +1,392 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7e4a69842aa75a8aac52dcb8094ff4d8659e5419ac1b2d2e0c7dc9dca8aec4df
-size 10506
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chengpu",
+    "command": "chengpu",
+    "name": "程普",
+    "displayName": {
+      "zhHans": "程普",
+      "zhHant": "程普"
+    },
+    "names": [
+      "程普",
+      "界程普"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "程普",
+        "zhHant": "程普"
+      },
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "ids": [
+      "169",
+      "620"
+    ],
+    "sourceNames": [
+      "程普",
+      "界程普"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "程普",
+        "zhHant": "程普"
+      },
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "sourceIds": [
+      "169",
+      "620"
+    ],
+    "searchNames": [
+      "chengpu",
+      "程普",
+      "界程普"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/chengpu/groups/dead.json"
+      },
+      {
+        "slug": "spell-431",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/chengpu/groups/spell-431.json"
+      },
+      {
+        "slug": "spell-432",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/chengpu/groups/spell-432.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "62001",
+        "name": "62001",
+        "displayName": {
+          "zhHans": "62001",
+          "zhHant": "62001"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/62001.json"
+      },
+      {
+        "slug": "skin-16907",
+        "name": "厉火燃战",
+        "displayName": {
+          "zhHans": "厉火燃战",
+          "zhHant": "厲火燃戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16907.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-16905",
+        "name": "犹能弯弓",
+        "displayName": {
+          "zhHans": "犹能弯弓",
+          "zhHant": "猶能彎弓"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16905.json"
+      },
+      {
+        "slug": "skin-16905-16906",
+        "name": "犹能弯弓,老臣之志",
+        "displayName": {
+          "zhHans": "犹能弯弓,老臣之志",
+          "zhHant": "猶能彎弓,老臣之志"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16905-16906.json"
+      },
+      {
+        "slug": "skin-16906",
+        "name": "老臣之志",
+        "displayName": {
+          "zhHans": "老臣之志",
+          "zhHant": "老臣之志"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16906.json"
+      },
+      {
+        "slug": "skin-16904",
+        "name": "醉酒提矛",
+        "displayName": {
+          "zhHans": "醉酒提矛",
+          "zhHant": "醉酒提矛"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16904.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chengpu.json",
+      "groups": "api/v1/tts/characters/chengpu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chengpu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-16904",
+    "name": "醉酒提矛",
+    "displayName": {
+      "zhHans": "醉酒提矛",
+      "zhHant": "醉酒提矛"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16904.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chengpu--169chengpu--3dead01",
+      "resourceId": "169chengpu/3dead01",
+      "text": "酒尽身死，壮哉！",
+      "textLocalized": {
+        "zhHans": "酒尽身死，壮哉！",
+        "zhHant": "酒盡身死，壯哉！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "62001",
+          "name": "62001",
+          "displayName": {
+            "zhHans": "62001",
+            "zhHant": "62001"
+          }
+        },
+        {
+          "slug": "skin-16904",
+          "name": "醉酒提矛",
+          "displayName": {
+            "zhHans": "醉酒提矛",
+            "zhHant": "醉酒提矛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengpu--169chengpu--3skill1_1",
+      "resourceId": "169chengpu/3skill1_1",
+      "text": "引凶戾之火，以溃敌军！",
+      "textLocalized": {
+        "zhHans": "引凶戾之火，以溃敌军！",
+        "zhHant": "引兇戾之火，以潰敵軍！"
+      },
+      "group": {
+        "slug": "spell-431",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        }
+      },
+      "skins": [
+        {
+          "slug": "62001",
+          "name": "62001",
+          "displayName": {
+            "zhHans": "62001",
+            "zhHant": "62001"
+          }
+        },
+        {
+          "slug": "skin-16904",
+          "name": "醉酒提矛",
+          "displayName": {
+            "zhHans": "醉酒提矛",
+            "zhHant": "醉酒提矛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengpu--169chengpu--3skill1_2",
+      "resourceId": "169chengpu/3skill1_2",
+      "text": "熊熊天火，焚尽逆贼！",
+      "textLocalized": {
+        "zhHans": "熊熊天火，焚尽逆贼！",
+        "zhHant": "熊熊天火，焚盡逆賊！"
+      },
+      "group": {
+        "slug": "spell-431",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        }
+      },
+      "skins": [
+        {
+          "slug": "62001",
+          "name": "62001",
+          "displayName": {
+            "zhHans": "62001",
+            "zhHant": "62001"
+          }
+        },
+        {
+          "slug": "skin-16904",
+          "name": "醉酒提矛",
+          "displayName": {
+            "zhHans": "醉酒提矛",
+            "zhHant": "醉酒提矛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengpu--169chengpu--3skill2_1",
+      "resourceId": "169chengpu/3skill2_1",
+      "text": "醇酒佳酿杯中饮，醉酒提壶力千钧！",
+      "textLocalized": {
+        "zhHans": "醇酒佳酿杯中饮，醉酒提壶力千钧！",
+        "zhHant": "醇酒佳釀杯中飲，醉酒提壺力千鈞！"
+      },
+      "group": {
+        "slug": "spell-432",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "62001",
+          "name": "62001",
+          "displayName": {
+            "zhHans": "62001",
+            "zhHant": "62001"
+          }
+        },
+        {
+          "slug": "skin-16904",
+          "name": "醉酒提矛",
+          "displayName": {
+            "zhHans": "醉酒提矛",
+            "zhHant": "醉酒提矛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengpu--169chengpu--3skill2_2",
+      "resourceId": "169chengpu/3skill2_2",
+      "text": "身披疮痍，唯酒能医。",
+      "textLocalized": {
+        "zhHans": "身披疮痍，唯酒能医。",
+        "zhHant": "身披瘡痍，唯酒能醫。"
+      },
+      "group": {
+        "slug": "spell-432",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "62001",
+          "name": "62001",
+          "displayName": {
+            "zhHans": "62001",
+            "zhHant": "62001"
+          }
+        },
+        {
+          "slug": "skin-16904",
+          "name": "醉酒提矛",
+          "displayName": {
+            "zhHans": "醉酒提矛",
+            "zhHant": "醉酒提矛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

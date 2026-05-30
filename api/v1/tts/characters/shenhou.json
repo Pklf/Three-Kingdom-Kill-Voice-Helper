@@ -1,3 +1,155 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:295c4fd76124f997136bf4a0064af23edc849edfb333be356e71947010955665
-size 3861
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "shenhou",
+    "command": "shenhou",
+    "name": "申猴",
+    "displayName": {
+      "zhHans": "申猴",
+      "zhHant": "申猴"
+    },
+    "names": [
+      "申猴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "申猴",
+        "zhHant": "申猴"
+      }
+    ],
+    "ids": [
+      "4091"
+    ],
+    "sourceNames": [
+      "申猴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "申猴",
+        "zhHant": "申猴"
+      }
+    ],
+    "sourceIds": [
+      "4091"
+    ],
+    "searchNames": [
+      "shenhou",
+      "申猴"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/shenhou/groups/dead.json"
+      },
+      {
+        "slug": "spell-1209",
+        "name": "申猴",
+        "displayName": {
+          "zhHans": "申猴",
+          "zhHant": "申猴"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/shenhou/groups/spell-1209.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shenhou/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenhou.json",
+      "groups": "api/v1/tts/characters/shenhou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenhou/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "shenhou--4091shenhou--1dead01",
+      "resourceId": "4091shenhou/1dead01",
+      "text": "这仙桃无用了。",
+      "textLocalized": {
+        "zhHans": "这仙桃无用了。",
+        "zhHant": "這仙桃無用了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4091shenhou-4367ca6b/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4091shenhou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenhou--4091shenhou--1skill1_1",
+      "resourceId": "4091shenhou/1skill1_1",
+      "text": "百般变化，真假难辨。",
+      "textLocalized": {
+        "zhHans": "百般变化，真假难辨。",
+        "zhHant": "百般變化，真假難辨。"
+      },
+      "group": {
+        "slug": "spell-1209",
+        "name": "申猴",
+        "displayName": {
+          "zhHans": "申猴",
+          "zhHant": "申猴"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4091shenhou-4367ca6b/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4091shenhou/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,343 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36fd40b7876835952504df1ae343d8d478ab51c818f98044fa214634bc21681c
-size 9534
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "kongrong",
+    "command": "kongrong",
+    "name": "孔融",
+    "displayName": {
+      "zhHans": "孔融",
+      "zhHant": "孔融"
+    },
+    "names": [
+      "孔融",
+      "谋孔融"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孔融",
+        "zhHant": "孔融"
+      },
+      {
+        "zhHans": "谋孔融",
+        "zhHant": "謀孔融"
+      }
+    ],
+    "ids": [
+      "2055",
+      "643"
+    ],
+    "sourceNames": [
+      "孔融",
+      "谋孔融"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孔融",
+        "zhHant": "孔融"
+      },
+      {
+        "zhHans": "谋孔融",
+        "zhHant": "謀孔融"
+      }
+    ],
+    "sourceIds": [
+      "2055",
+      "643"
+    ],
+    "searchNames": [
+      "kongrong",
+      "孔融",
+      "谋孔融",
+      "謀孔融"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/kongrong/groups/dead.json"
+      },
+      {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kongrong/groups/spell-2106.json"
+      },
+      {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kongrong/groups/spell-2107.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-205503",
+        "name": "优游自如",
+        "displayName": {
+          "zhHans": "优游自如",
+          "zhHant": "優遊自如"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205503.json"
+      },
+      {
+        "slug": "skin-205504",
+        "name": "北海为相",
+        "displayName": {
+          "zhHans": "北海为相",
+          "zhHant": "北海爲相"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205504.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205502",
+        "name": "师表海内",
+        "displayName": {
+          "zhHans": "师表海内",
+          "zhHant": "師表海內"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205502.json"
+      },
+      {
+        "slug": "skin-205502-205504",
+        "name": "师表海内,北海为相",
+        "displayName": {
+          "zhHans": "师表海内,北海为相",
+          "zhHant": "師表海內,北海爲相"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205502-205504.json"
+      },
+      {
+        "slug": "skin-205506",
+        "name": "重阳闲趣",
+        "displayName": {
+          "zhHans": "重阳闲趣",
+          "zhHant": "重陽閒趣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205506.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/kongrong.json",
+      "groups": "api/v1/tts/characters/kongrong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/kongrong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-205503",
+    "name": "优游自如",
+    "displayName": {
+      "zhHans": "优游自如",
+      "zhHant": "優遊自如"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205503.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "kongrong--2055kongrong--4dead01",
+      "resourceId": "2055kongrong/4dead01",
+      "text": "你杀得了我，却杀不尽……天下人……",
+      "textLocalized": {
+        "zhHans": "你杀得了我，却杀不尽……天下人……",
+        "zhHant": "你殺得了我，卻殺不盡……天下人……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--4skill1_1",
+      "resourceId": "2055kongrong/4skill1_1",
+      "text": "名声在外，旁人安敢小觑[qù]？",
+      "textLocalized": {
+        "zhHans": "名声在外，旁人安敢小觑[qù]？",
+        "zhHant": "名聲在外，旁人安敢小覷[qù]？"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--4skill1_2",
+      "resourceId": "2055kongrong/4skill1_2",
+      "text": "盛名之下，自可保我周全。",
+      "textLocalized": {
+        "zhHans": "盛名之下，自可保我周全。",
+        "zhHant": "盛名之下，自可保我周全。"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--4skill2_1",
+      "resourceId": "2055kongrong/4skill2_1",
+      "text": "让梨之意，至今犹存。",
+      "textLocalized": {
+        "zhHans": "让梨之意，至今犹存。",
+        "zhHant": "讓梨之意，至今猶存。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--4skill2_2",
+      "resourceId": "2055kongrong/4skill2_2",
+      "text": "物尽其用，万不可轻易丢弃。",
+      "textLocalized": {
+        "zhHans": "物尽其用，万不可轻易丢弃。",
+        "zhHant": "物盡其用，萬不可輕易丟棄。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

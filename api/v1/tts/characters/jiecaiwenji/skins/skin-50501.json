@@ -1,3 +1,402 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2bea05a9b222f6a7ddce315e1884dfaa71213ff7ee7586daac1ce13e359ad15e
-size 11462
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiecaiwenji",
+    "command": "jiecaiwenji",
+    "name": "界蔡文姬",
+    "displayName": {
+      "zhHans": "界蔡文姬",
+      "zhHant": "界蔡文姬"
+    },
+    "names": [
+      "界蔡文姬",
+      "蔡文姬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界蔡文姬",
+        "zhHant": "界蔡文姬"
+      },
+      {
+        "zhHans": "蔡文姬",
+        "zhHant": "蔡文姬"
+      }
+    ],
+    "ids": [
+      "505",
+      "57"
+    ],
+    "sourceNames": [
+      "界蔡文姬",
+      "蔡文姬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界蔡文姬",
+        "zhHant": "界蔡文姬"
+      },
+      {
+        "zhHans": "蔡文姬",
+        "zhHant": "蔡文姬"
+      }
+    ],
+    "sourceIds": [
+      "505",
+      "57"
+    ],
+    "searchNames": [
+      "jiecaiwenji",
+      "界蔡文姬",
+      "蔡文姬"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/groups/dead.json"
+      },
+      {
+        "slug": "spell-138",
+        "name": "断肠",
+        "displayName": {
+          "zhHans": "断肠",
+          "zhHant": "斷腸"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/groups/spell-138.json"
+      },
+      {
+        "slug": "spell-3106",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/groups/spell-3106.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-51502",
+        "name": "书剑定远",
+        "displayName": {
+          "zhHans": "书剑定远",
+          "zhHant": "書劍定遠"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/skins/skin-51502.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50501",
+        "name": "夜华抒情",
+        "displayName": {
+          "zhHans": "夜华抒情",
+          "zhHant": "夜華抒情"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/skins/skin-50501.json"
+      },
+      {
+        "slug": "skin-50501-51502",
+        "name": "夜华抒情,书剑定远",
+        "displayName": {
+          "zhHans": "夜华抒情,书剑定远",
+          "zhHant": "夜華抒情,書劍定遠"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiecaiwenji/skins/skin-50501-51502.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiecaiwenji.json",
+      "groups": "api/v1/tts/characters/jiecaiwenji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiecaiwenji/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-50501",
+    "name": "夜华抒情",
+    "displayName": {
+      "zhHans": "夜华抒情",
+      "zhHant": "夜華抒情"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jiecaiwenji/skins/skin-50501.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jiecaiwenji--505jiecaiwenji--2dead01",
+      "resourceId": "505jiecaiwenji/2dead01",
+      "text": "怀亲朱颜改，思故泪成双。",
+      "textLocalized": {
+        "zhHans": "怀亲朱颜改，思故泪成双。",
+        "zhHant": "懷親朱顏改，思故淚成雙。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        },
+        {
+          "slug": "skin-50501",
+          "name": "夜华抒情",
+          "displayName": {
+            "zhHans": "夜华抒情",
+            "zhHant": "夜華抒情"
+          }
+        },
+        {
+          "slug": "skin-50501-51502",
+          "name": "夜华抒情,书剑定远",
+          "displayName": {
+            "zhHans": "夜华抒情,书剑定远",
+            "zhHant": "夜華抒情,書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/505jiecaiwenji-e02dccaf/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/505jiecaiwenji/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaiwenji--505jiecaiwenji--2skill2_1",
+      "resourceId": "505jiecaiwenji/2skill2_1",
+      "text": "龙城雪漫客尽去，长安花盛人未归。",
+      "textLocalized": {
+        "zhHans": "龙城雪漫客尽去，长安花盛人未归。",
+        "zhHant": "龍城雪漫客盡去，長安花盛人未歸。"
+      },
+      "group": {
+        "slug": "spell-138",
+        "name": "断肠",
+        "displayName": {
+          "zhHans": "断肠",
+          "zhHant": "斷腸"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        },
+        {
+          "slug": "skin-50501",
+          "name": "夜华抒情",
+          "displayName": {
+            "zhHans": "夜华抒情",
+            "zhHant": "夜華抒情"
+          }
+        },
+        {
+          "slug": "skin-50501-51502",
+          "name": "夜华抒情,书剑定远",
+          "displayName": {
+            "zhHans": "夜华抒情,书剑定远",
+            "zhHant": "夜華抒情,書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/505jiecaiwenji-e02dccaf/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/505jiecaiwenji/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaiwenji--505jiecaiwenji--2skill2_2",
+      "resourceId": "505jiecaiwenji/2skill2_2",
+      "text": "心瞻故国心欲飞，思及双儿泪偷垂。",
+      "textLocalized": {
+        "zhHans": "心瞻故国心欲飞，思及双儿泪偷垂。",
+        "zhHant": "心瞻故國心欲飛，思及雙兒淚偷垂。"
+      },
+      "group": {
+        "slug": "spell-138",
+        "name": "断肠",
+        "displayName": {
+          "zhHans": "断肠",
+          "zhHant": "斷腸"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        },
+        {
+          "slug": "skin-50501",
+          "name": "夜华抒情",
+          "displayName": {
+            "zhHans": "夜华抒情",
+            "zhHant": "夜華抒情"
+          }
+        },
+        {
+          "slug": "skin-50501-51502",
+          "name": "夜华抒情,书剑定远",
+          "displayName": {
+            "zhHans": "夜华抒情,书剑定远",
+            "zhHant": "夜華抒情,書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/505jiecaiwenji-e02dccaf/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/505jiecaiwenji/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaiwenji--505jiecaiwenji--2skill1_1",
+      "resourceId": "505jiecaiwenji/2skill1_1",
+      "text": "何处曾经同望月？汉家亭下垂柳前。",
+      "textLocalized": {
+        "zhHans": "何处曾经同望月？汉家亭下垂柳前。",
+        "zhHant": "何處曾經同望月？漢家亭下垂柳前。"
+      },
+      "group": {
+        "slug": "spell-3106",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        },
+        {
+          "slug": "skin-50501",
+          "name": "夜华抒情",
+          "displayName": {
+            "zhHans": "夜华抒情",
+            "zhHant": "夜華抒情"
+          }
+        },
+        {
+          "slug": "skin-50501-51502",
+          "name": "夜华抒情,书剑定远",
+          "displayName": {
+            "zhHans": "夜华抒情,书剑定远",
+            "zhHant": "夜華抒情,書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/505jiecaiwenji-e02dccaf/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/505jiecaiwenji/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiecaiwenji--505jiecaiwenji--2skill1_2",
+      "resourceId": "505jiecaiwenji/2skill1_2",
+      "text": "焦尾仓皇失故琴，胡笳宛转谱哀音。",
+      "textLocalized": {
+        "zhHans": "焦尾仓皇失故琴，胡笳宛转谱哀音。",
+        "zhHant": "焦尾倉皇失故琴，胡笳宛轉譜哀音。"
+      },
+      "group": {
+        "slug": "spell-3106",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        },
+        {
+          "slug": "skin-50501",
+          "name": "夜华抒情",
+          "displayName": {
+            "zhHans": "夜华抒情",
+            "zhHant": "夜華抒情"
+          }
+        },
+        {
+          "slug": "skin-50501-51502",
+          "name": "夜华抒情,书剑定远",
+          "displayName": {
+            "zhHans": "夜华抒情,书剑定远",
+            "zhHant": "夜華抒情,書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/505jiecaiwenji-e02dccaf/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/505jiecaiwenji/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

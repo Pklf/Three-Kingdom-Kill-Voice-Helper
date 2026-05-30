@@ -1,3 +1,288 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b8974583c728649f7db58147bfdd0dc550df107a6f4c8a8cc60f3be7fe19192b
-size 7566
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "weiyan",
+    "command": "weiyan",
+    "name": "魏延",
+    "displayName": {
+      "zhHans": "魏延",
+      "zhHant": "魏延"
+    },
+    "names": [
+      "魏延",
+      "界魏延"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "魏延",
+        "zhHant": "魏延"
+      },
+      {
+        "zhHans": "界魏延",
+        "zhHant": "界魏延"
+      }
+    ],
+    "ids": [
+      "27",
+      "456"
+    ],
+    "sourceNames": [
+      "魏延",
+      "界魏延"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "魏延",
+        "zhHant": "魏延"
+      },
+      {
+        "zhHans": "界魏延",
+        "zhHant": "界魏延"
+      }
+    ],
+    "sourceIds": [
+      "27",
+      "456"
+    ],
+    "searchNames": [
+      "weiyan",
+      "魏延",
+      "界魏延"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/weiyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-295-72-4068",
+        "name": "狂骨",
+        "displayName": {
+          "zhHans": "狂骨",
+          "zhHant": "狂骨"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/weiyan/groups/spell-295-72-4068.json"
+      },
+      {
+        "slug": "spell-296",
+        "name": "奇谋",
+        "displayName": {
+          "zhHans": "奇谋",
+          "zhHant": "奇謀"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/weiyan/groups/spell-296.json"
+      },
+      {
+        "slug": "spell-296-925",
+        "name": "奇谋",
+        "displayName": {
+          "zhHans": "奇谋",
+          "zhHant": "奇謀"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/weiyan/groups/spell-296-925.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-2701",
+        "name": "嗜血独狼",
+        "displayName": {
+          "zhHans": "嗜血独狼",
+          "zhHant": "嗜血獨狼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-2701.json"
+      },
+      {
+        "slug": "skin-2701-2703",
+        "name": "嗜血独狼,狂傲不羁",
+        "displayName": {
+          "zhHans": "嗜血独狼,狂傲不羁",
+          "zhHant": "嗜血獨狼,狂傲不羈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-2701-2703.json"
+      },
+      {
+        "slug": "skin-2703",
+        "name": "狂傲不羁",
+        "displayName": {
+          "zhHans": "狂傲不羁",
+          "zhHant": "狂傲不羈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-2703.json"
+      },
+      {
+        "slug": "skin-2704",
+        "name": "誓死卫汉",
+        "displayName": {
+          "zhHans": "誓死卫汉",
+          "zhHant": "誓死衛漢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-2704.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/weiyan.json",
+      "groups": "api/v1/tts/characters/weiyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/weiyan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/weiyan/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "weiyan--27weiyan--1dead01",
+      "resourceId": "27weiyan/1dead01",
+      "text": "奸贼，害我……",
+      "textLocalized": {
+        "zhHans": "奸贼，害我……",
+        "zhHant": "奸賊，害我……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/27weiyan-683bb57e/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/27weiyan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiyan--27weiyan--4dead01",
+      "resourceId": "27weiyan/4dead01",
+      "text": "吾戎马一生，竟死于小人之手……",
+      "textLocalized": {
+        "zhHans": "吾戎马一生，竟死于小人之手……",
+        "zhHant": "吾戎馬一生，竟死於小人之手……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-2701",
+          "name": "嗜血独狼",
+          "displayName": {
+            "zhHans": "嗜血独狼",
+            "zhHant": "嗜血獨狼"
+          }
+        },
+        {
+          "slug": "skin-2703",
+          "name": "狂傲不羁",
+          "displayName": {
+            "zhHans": "狂傲不羁",
+            "zhHant": "狂傲不羈"
+          }
+        },
+        {
+          "slug": "skin-2701-2703",
+          "name": "嗜血独狼,狂傲不羁",
+          "displayName": {
+            "zhHans": "嗜血独狼,狂傲不羁",
+            "zhHant": "嗜血獨狼,狂傲不羈"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/27weiyan-683bb57e/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/27weiyan/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiyan--27weiyan--3dead01",
+      "resourceId": "27weiyan/3dead01",
+      "text": "怨气……终难平……",
+      "textLocalized": {
+        "zhHans": "怨气……终难平……",
+        "zhHant": "怨氣……終難平……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-2704",
+          "name": "誓死卫汉",
+          "displayName": {
+            "zhHans": "誓死卫汉",
+            "zhHant": "誓死衛漢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/27weiyan-683bb57e/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/27weiyan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:694de55fefa3316db43c22fb90608a761469836f565f13811cddd1ef7749c646
-size 8075
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liuyan",
+    "command": "liuyan",
+    "name": "刘焉",
+    "displayName": {
+      "zhHans": "刘焉",
+      "zhHant": "劉焉"
+    },
+    "names": [
+      "刘焉"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘焉",
+        "zhHant": "劉焉"
+      }
+    ],
+    "ids": [
+      "634"
+    ],
+    "sourceNames": [
+      "刘焉"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘焉",
+        "zhHant": "劉焉"
+      }
+    ],
+    "sourceIds": [
+      "634"
+    ],
+    "searchNames": [
+      "liuyan",
+      "刘焉",
+      "劉焉"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liuyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3497",
+        "name": "图射",
+        "displayName": {
+          "zhHans": "图射",
+          "zhHant": "圖射"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liuyan/groups/spell-3497.json"
+      },
+      {
+        "slug": "spell-3498",
+        "name": "立牧",
+        "displayName": {
+          "zhHans": "立牧",
+          "zhHant": "立牧"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liuyan/groups/spell-3498.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-63401",
+        "name": "九锡问鼎",
+        "displayName": {
+          "zhHans": "九锡问鼎",
+          "zhHant": "九錫問鼎"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyan/skins/skin-63401.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-63402",
+        "name": "雄踞益州",
+        "displayName": {
+          "zhHans": "雄踞益州",
+          "zhHant": "雄踞益州"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyan/skins/skin-63402.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liuyan.json",
+      "groups": "api/v1/tts/characters/liuyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liuyan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/liuyan/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "liuyan--634liuyan--1dead01",
+      "resourceId": "634liuyan/1dead01",
+      "text": "背疮难治，失子难继。",
+      "textLocalized": {
+        "zhHans": "背疮难治，失子难继。",
+        "zhHant": "背瘡難治，失子難繼。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/634liuyan-b92fe98f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/634liuyan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyan--634liuyan--1skill1_1",
+      "resourceId": "634liuyan/1skill1_1",
+      "text": "非英杰不图？吾既谋之且射毕。",
+      "textLocalized": {
+        "zhHans": "非英杰不图？吾既谋之且射毕。",
+        "zhHant": "非英傑不圖？吾既謀之且射畢。"
+      },
+      "group": {
+        "slug": "spell-3497",
+        "name": "图射",
+        "displayName": {
+          "zhHans": "图射",
+          "zhHant": "圖射"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/634liuyan-b92fe98f/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/634liuyan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyan--634liuyan--1skill1_2",
+      "resourceId": "634liuyan/1skill1_2",
+      "text": "汉室衰微，朝纲祸乱，必图后福。",
+      "textLocalized": {
+        "zhHans": "汉室衰微，朝纲祸乱，必图后福。",
+        "zhHant": "漢室衰微，朝綱禍亂，必圖後福。"
+      },
+      "group": {
+        "slug": "spell-3497",
+        "name": "图射",
+        "displayName": {
+          "zhHans": "图射",
+          "zhHant": "圖射"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/634liuyan-b92fe98f/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/634liuyan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyan--634liuyan--1skill2_1",
+      "resourceId": "634liuyan/1skill2_1",
+      "text": "废史立牧，可得一方安定。",
+      "textLocalized": {
+        "zhHans": "废史立牧，可得一方安定。",
+        "zhHant": "廢史立牧，可得一方安定。"
+      },
+      "group": {
+        "slug": "spell-3498",
+        "name": "立牧",
+        "displayName": {
+          "zhHans": "立牧",
+          "zhHant": "立牧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/634liuyan-b92fe98f/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/634liuyan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyan--634liuyan--1skill2_2",
+      "resourceId": "634liuyan/1skill2_2",
+      "text": "米贼作乱，吾必为益州自保。",
+      "textLocalized": {
+        "zhHans": "米贼作乱，吾必为益州自保。",
+        "zhHant": "米賊作亂，吾必爲益州自保。"
+      },
+      "group": {
+        "slug": "spell-3498",
+        "name": "立牧",
+        "displayName": {
+          "zhHans": "立牧",
+          "zhHant": "立牧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/634liuyan-b92fe98f/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/634liuyan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,432 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:744c968e90a18ee55d65efbd8e0022c5b498678624dbbb66105c3806fe082e19
-size 11944
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "fazheng",
+    "command": "fazheng",
+    "name": "法正",
+    "displayName": {
+      "zhHans": "法正",
+      "zhHant": "法正"
+    },
+    "names": [
+      "法正",
+      "界法正"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "法正",
+        "zhHant": "法正"
+      },
+      {
+        "zhHans": "界法正",
+        "zhHant": "界法正"
+      }
+    ],
+    "ids": [
+      "185",
+      "610"
+    ],
+    "sourceNames": [
+      "法正",
+      "界法正"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "法正",
+        "zhHant": "法正"
+      },
+      {
+        "zhHans": "界法正",
+        "zhHant": "界法正"
+      }
+    ],
+    "sourceIds": [
+      "185",
+      "610"
+    ],
+    "searchNames": [
+      "fazheng",
+      "法正",
+      "界法正"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fazheng/groups/dead.json"
+      },
+      {
+        "slug": "spell-460-930",
+        "name": "恩怨",
+        "displayName": {
+          "zhHans": "恩怨",
+          "zhHant": "恩怨"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/fazheng/groups/spell-460-930.json"
+      },
+      {
+        "slug": "spell-461-929",
+        "name": "眩惑",
+        "displayName": {
+          "zhHans": "眩惑",
+          "zhHant": "眩惑"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/fazheng/groups/spell-461-929.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fazheng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-18507",
+        "name": "忠火照君",
+        "displayName": {
+          "zhHans": "忠火照君",
+          "zhHant": "忠火照君"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fazheng/skins/skin-18507.json"
+      },
+      {
+        "slug": "skin-18506",
+        "name": "恩怨如火",
+        "displayName": {
+          "zhHans": "恩怨如火",
+          "zhHant": "恩怨如火"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fazheng/skins/skin-18506.json"
+      },
+      {
+        "slug": "skin-18508",
+        "name": "济危广厦",
+        "displayName": {
+          "zhHans": "济危广厦",
+          "zhHant": "濟危廣廈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fazheng/skins/skin-18508.json"
+      },
+      {
+        "slug": "skin-18504",
+        "name": "蜀汉之翼",
+        "displayName": {
+          "zhHans": "蜀汉之翼",
+          "zhHant": "蜀漢之翼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fazheng/skins/skin-18504.json"
+      },
+      {
+        "slug": "skin-18504-18507",
+        "name": "蜀汉之翼,忠火照君",
+        "displayName": {
+          "zhHans": "蜀汉之翼,忠火照君",
+          "zhHant": "蜀漢之翼,忠火照君"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fazheng/skins/skin-18504-18507.json"
+      },
+      {
+        "slug": "skin-18505",
+        "name": "计斩妙才",
+        "displayName": {
+          "zhHans": "计斩妙才",
+          "zhHant": "計斬妙才"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fazheng/skins/skin-18505.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/fazheng.json",
+      "groups": "api/v1/tts/characters/fazheng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/fazheng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-18507",
+    "name": "忠火照君",
+    "displayName": {
+      "zhHans": "忠火照君",
+      "zhHant": "忠火照君"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/fazheng/skins/skin-18507.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "fazheng--185fazheng--3dead01",
+      "resourceId": "185fazheng/3dead01",
+      "text": "辅翼之职，来生再尽……",
+      "textLocalized": {
+        "zhHans": "辅翼之职，来生再尽……",
+        "zhHant": "輔翼之職，來生再盡……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18507",
+          "name": "忠火照君",
+          "displayName": {
+            "zhHans": "忠火照君",
+            "zhHant": "忠火照君"
+          }
+        },
+        {
+          "slug": "skin-18504",
+          "name": "蜀汉之翼",
+          "displayName": {
+            "zhHans": "蜀汉之翼",
+            "zhHant": "蜀漢之翼"
+          }
+        },
+        {
+          "slug": "skin-18504-18507",
+          "name": "蜀汉之翼,忠火照君",
+          "displayName": {
+            "zhHans": "蜀汉之翼,忠火照君",
+            "zhHant": "蜀漢之翼,忠火照君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/185fazheng-17b8d13f/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fazheng--185fazheng--3skill1_1",
+      "resourceId": "185fazheng/3skill1_1",
+      "text": "全身而退？你是妄想！",
+      "textLocalized": {
+        "zhHans": "全身而退？你是妄想！",
+        "zhHant": "全身而退？你是妄想！"
+      },
+      "group": {
+        "slug": "spell-460-930",
+        "name": "恩怨",
+        "displayName": {
+          "zhHans": "恩怨",
+          "zhHant": "恩怨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18507",
+          "name": "忠火照君",
+          "displayName": {
+            "zhHans": "忠火照君",
+            "zhHant": "忠火照君"
+          }
+        },
+        {
+          "slug": "skin-18504",
+          "name": "蜀汉之翼",
+          "displayName": {
+            "zhHans": "蜀汉之翼",
+            "zhHant": "蜀漢之翼"
+          }
+        },
+        {
+          "slug": "skin-18504-18507",
+          "name": "蜀汉之翼,忠火照君",
+          "displayName": {
+            "zhHans": "蜀汉之翼,忠火照君",
+            "zhHant": "蜀漢之翼,忠火照君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/185fazheng-17b8d13f/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fazheng--185fazheng--3skill1_2",
+      "resourceId": "185fazheng/3skill1_2",
+      "text": "孝直，最是知恩图报之人！",
+      "textLocalized": {
+        "zhHans": "孝直，最是知恩图报之人！",
+        "zhHant": "孝直，最是知恩圖報之人！"
+      },
+      "group": {
+        "slug": "spell-460-930",
+        "name": "恩怨",
+        "displayName": {
+          "zhHans": "恩怨",
+          "zhHant": "恩怨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18507",
+          "name": "忠火照君",
+          "displayName": {
+            "zhHans": "忠火照君",
+            "zhHant": "忠火照君"
+          }
+        },
+        {
+          "slug": "skin-18504",
+          "name": "蜀汉之翼",
+          "displayName": {
+            "zhHans": "蜀汉之翼",
+            "zhHant": "蜀漢之翼"
+          }
+        },
+        {
+          "slug": "skin-18504-18507",
+          "name": "蜀汉之翼,忠火照君",
+          "displayName": {
+            "zhHans": "蜀汉之翼,忠火照君",
+            "zhHant": "蜀漢之翼,忠火照君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/185fazheng-17b8d13f/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fazheng--185fazheng--3skill2_1",
+      "resourceId": "185fazheng/3skill2_1",
+      "text": "倾之全力，助君一搏！",
+      "textLocalized": {
+        "zhHans": "倾之全力，助君一搏！",
+        "zhHant": "傾之全力，助君一搏！"
+      },
+      "group": {
+        "slug": "spell-461-929",
+        "name": "眩惑",
+        "displayName": {
+          "zhHans": "眩惑",
+          "zhHant": "眩惑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18507",
+          "name": "忠火照君",
+          "displayName": {
+            "zhHans": "忠火照君",
+            "zhHant": "忠火照君"
+          }
+        },
+        {
+          "slug": "skin-18504",
+          "name": "蜀汉之翼",
+          "displayName": {
+            "zhHans": "蜀汉之翼",
+            "zhHant": "蜀漢之翼"
+          }
+        },
+        {
+          "slug": "skin-18504-18507",
+          "name": "蜀汉之翼,忠火照君",
+          "displayName": {
+            "zhHans": "蜀汉之翼,忠火照君",
+            "zhHant": "蜀漢之翼,忠火照君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/185fazheng-17b8d13f/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fazheng--185fazheng--3skill2_2",
+      "resourceId": "185fazheng/3skill2_2",
+      "text": "是时候，还给我了。",
+      "textLocalized": {
+        "zhHans": "是时候，还给我了。",
+        "zhHant": "是時候，還給我了。"
+      },
+      "group": {
+        "slug": "spell-461-929",
+        "name": "眩惑",
+        "displayName": {
+          "zhHans": "眩惑",
+          "zhHant": "眩惑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18507",
+          "name": "忠火照君",
+          "displayName": {
+            "zhHans": "忠火照君",
+            "zhHant": "忠火照君"
+          }
+        },
+        {
+          "slug": "skin-18504",
+          "name": "蜀汉之翼",
+          "displayName": {
+            "zhHans": "蜀汉之翼",
+            "zhHant": "蜀漢之翼"
+          }
+        },
+        {
+          "slug": "skin-18504-18507",
+          "name": "蜀汉之翼,忠火照君",
+          "displayName": {
+            "zhHans": "蜀汉之翼,忠火照君",
+            "zhHant": "蜀漢之翼,忠火照君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/185fazheng-17b8d13f/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/185fazheng/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

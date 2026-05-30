@@ -1,3 +1,210 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e91a89ed4cac4517ef5d55f65f48ad6a2c91728ddbcae5eef26f312da7eef8cf
-size 5454
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "gaolan",
+    "command": "gaolan",
+    "name": "高览",
+    "displayName": {
+      "zhHans": "高览",
+      "zhHant": "高覽"
+    },
+    "names": [
+      "高览"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "高览",
+        "zhHant": "高覽"
+      }
+    ],
+    "ids": [
+      "461"
+    ],
+    "sourceNames": [
+      "高览"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "高览",
+        "zhHant": "高覽"
+      }
+    ],
+    "sourceIds": [
+      "461"
+    ],
+    "searchNames": [
+      "gaolan",
+      "高览",
+      "高覽"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/gaolan/groups/dead.json"
+      },
+      {
+        "slug": "spell-1180",
+        "name": "袭营",
+        "displayName": {
+          "zhHans": "袭营",
+          "zhHant": "襲營"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/gaolan/groups/spell-1180.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gaolan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46101",
+        "name": "旗鼓相当",
+        "displayName": {
+          "zhHans": "旗鼓相当",
+          "zhHant": "旗鼓相當"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gaolan/skins/skin-46101.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/gaolan.json",
+      "groups": "api/v1/tts/characters/gaolan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/gaolan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/gaolan/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "gaolan--461gaolan--1dead01",
+      "resourceId": "461gaolan/1dead01",
+      "text": "郭图小辈之计，误军哪！",
+      "textLocalized": {
+        "zhHans": "郭图小辈之计，误军哪！",
+        "zhHant": "郭圖小輩之計，誤軍哪！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/461gaolan-dbf7ca2f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/461gaolan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gaolan--461gaolan--1skill1_1",
+      "resourceId": "461gaolan/1skill1_1",
+      "text": "速袭曹营，以解乌巢之难！",
+      "textLocalized": {
+        "zhHans": "速袭曹营，以解乌巢之难！",
+        "zhHant": "速襲曹營，以解烏巢之難！"
+      },
+      "group": {
+        "slug": "spell-1180",
+        "name": "袭营",
+        "displayName": {
+          "zhHans": "袭营",
+          "zhHant": "襲營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/461gaolan-dbf7ca2f/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/461gaolan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gaolan--461gaolan--1skill1_2",
+      "resourceId": "461gaolan/1skill1_2",
+      "text": "此番若攻不能成，我军恐难以再战。",
+      "textLocalized": {
+        "zhHans": "此番若攻不能成，我军恐难以再战。",
+        "zhHant": "此番若攻不能成，我軍恐難以再戰。"
+      },
+      "group": {
+        "slug": "spell-1180",
+        "name": "袭营",
+        "displayName": {
+          "zhHans": "袭营",
+          "zhHant": "襲營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/461gaolan-dbf7ca2f/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/461gaolan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

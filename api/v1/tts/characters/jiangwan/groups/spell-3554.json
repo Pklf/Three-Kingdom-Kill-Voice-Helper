@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c184d6f775645a3d5f125b337bf1015a1093ebcee434520d9a1396e8d3b49ad
-size 4473
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiangwan",
+    "command": "jiangwan",
+    "name": "蒋琬",
+    "displayName": {
+      "zhHans": "蒋琬",
+      "zhHant": "蔣琬"
+    },
+    "names": [
+      "蒋琬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蒋琬",
+        "zhHant": "蔣琬"
+      }
+    ],
+    "ids": [
+      "576"
+    ],
+    "sourceNames": [
+      "蒋琬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蒋琬",
+        "zhHant": "蔣琬"
+      }
+    ],
+    "sourceIds": [
+      "576"
+    ],
+    "searchNames": [
+      "jiangwan",
+      "蒋琬",
+      "蔣琬"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jiangwan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3352",
+        "name": "蓄发",
+        "displayName": {
+          "zhHans": "蓄发",
+          "zhHant": "蓄髮"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiangwan/groups/spell-3352.json"
+      },
+      {
+        "slug": "spell-3554",
+        "name": "自若",
+        "displayName": {
+          "zhHans": "自若",
+          "zhHant": "自若"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiangwan/groups/spell-3554.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangwan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiangwan.json",
+      "groups": "api/v1/tts/characters/jiangwan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiangwan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3554",
+    "name": "自若",
+    "displayName": {
+      "zhHans": "自若",
+      "zhHant": "自若"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jiangwan/groups/spell-3554.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jiangwan--576jiangwan--1skill1_1",
+      "resourceId": "576jiangwan/1skill1_1",
+      "text": "泰山虽崩于前，我亦风清云淡。",
+      "textLocalized": {
+        "zhHans": "泰山虽崩于前，我亦风清云淡。",
+        "zhHant": "泰山雖崩於前，我亦風清雲淡。"
+      },
+      "group": {
+        "slug": "spell-3554",
+        "name": "自若",
+        "displayName": {
+          "zhHans": "自若",
+          "zhHant": "自若"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/576jiangwan-83eb7f54/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/576jiangwan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangwan--576jiangwan--1skill1_2",
+      "resourceId": "576jiangwan/1skill1_2",
+      "text": "诸君勿忧，一切尽在掌握。",
+      "textLocalized": {
+        "zhHans": "诸君勿忧，一切尽在掌握。",
+        "zhHant": "諸君勿憂，一切盡在掌握。"
+      },
+      "group": {
+        "slug": "spell-3554",
+        "name": "自若",
+        "displayName": {
+          "zhHans": "自若",
+          "zhHant": "自若"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/576jiangwan-83eb7f54/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/576jiangwan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

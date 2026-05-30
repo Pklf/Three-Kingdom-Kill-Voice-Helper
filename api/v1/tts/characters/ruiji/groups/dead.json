@@ -1,3 +1,274 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14e308994691f37d2333a49cb590f636095f0959f3425c657053ef6a7b518d09
-size 7162
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "ruiji",
+    "command": "ruiji",
+    "name": "芮姬",
+    "displayName": {
+      "zhHans": "芮姬",
+      "zhHant": "芮姬"
+    },
+    "names": [
+      "芮姬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "芮姬",
+        "zhHant": "芮姬"
+      }
+    ],
+    "ids": [
+      "502"
+    ],
+    "sourceNames": [
+      "芮姬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "芮姬",
+        "zhHant": "芮姬"
+      }
+    ],
+    "sourceIds": [
+      "502"
+    ],
+    "searchNames": [
+      "ruiji",
+      "芮姬"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/ruiji/groups/dead.json"
+      },
+      {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/ruiji/groups/spell-3099.json"
+      },
+      {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/ruiji/groups/spell-3100.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "50203",
+        "name": "50203",
+        "displayName": {
+          "zhHans": "50203",
+          "zhHant": "50203"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/50203.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50201",
+        "name": "玉芮花意",
+        "displayName": {
+          "zhHans": "玉芮花意",
+          "zhHant": "玉芮花意"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/skin-50201.json"
+      },
+      {
+        "slug": "skin-50202",
+        "name": "蛮娇武俏",
+        "displayName": {
+          "zhHans": "蛮娇武俏",
+          "zhHant": "蠻嬌武俏"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/skin-50202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/ruiji.json",
+      "groups": "api/v1/tts/characters/ruiji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/ruiji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/ruiji/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "ruiji--502ruiji--4dead01",
+      "resourceId": "502ruiji/4dead01",
+      "text": "流水无心恋落花。",
+      "textLocalized": {
+        "zhHans": "流水无心恋落花。",
+        "zhHant": "流水無心戀落花。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "50203",
+          "name": "50203",
+          "displayName": {
+            "zhHans": "50203",
+            "zhHant": "50203"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1dead01",
+      "resourceId": "502ruiji/1dead01",
+      "text": "这斧头，怎么变这么重了？",
+      "textLocalized": {
+        "zhHans": "这斧头，怎么变这么重了？",
+        "zhHant": "這斧頭，怎麼變這麼重了？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--2dead01",
+      "resourceId": "502ruiji/2dead01",
+      "text": "这就是，任性的代价吗？",
+      "textLocalized": {
+        "zhHans": "这就是，任性的代价吗？",
+        "zhHant": "這就是，任性的代價嗎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50201",
+          "name": "玉芮花意",
+          "displayName": {
+            "zhHans": "玉芮花意",
+            "zhHant": "玉芮花意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--3dead01",
+      "resourceId": "502ruiji/3dead01",
+      "text": "子高还在等我回去……",
+      "textLocalized": {
+        "zhHans": "子高还在等我回去……",
+        "zhHant": "子高還在等我回去……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50202",
+          "name": "蛮娇武俏",
+          "displayName": {
+            "zhHans": "蛮娇武俏",
+            "zhHant": "蠻嬌武俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

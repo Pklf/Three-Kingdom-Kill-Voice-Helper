@@ -1,3 +1,390 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d96b5bb21f86551816eb520697142a2dd122cdae03364982209d5ca50479b504
-size 10586
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "duyu",
+    "command": "duyu",
+    "name": "杜预",
+    "displayName": {
+      "zhHans": "杜预",
+      "zhHant": "杜預"
+    },
+    "names": [
+      "杜预"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杜预",
+        "zhHant": "杜預"
+      }
+    ],
+    "ids": [
+      "7006"
+    ],
+    "sourceNames": [
+      "杜预"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杜预",
+        "zhHant": "杜預"
+      }
+    ],
+    "sourceIds": [
+      "7006"
+    ],
+    "searchNames": [
+      "duyu",
+      "杜预",
+      "杜預"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/duyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-7018",
+        "name": "三陈",
+        "displayName": {
+          "zhHans": "三陈",
+          "zhHant": "三陳"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/duyu/groups/spell-7018.json"
+      },
+      {
+        "slug": "spell-7019",
+        "name": "昭讨",
+        "displayName": {
+          "zhHans": "昭讨",
+          "zhHant": "昭討"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/duyu/groups/spell-7019.json"
+      },
+      {
+        "slug": "spell-7020",
+        "name": "破竹",
+        "displayName": {
+          "zhHans": "破竹",
+          "zhHant": "破竹"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/duyu/groups/spell-7020.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/duyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700601",
+        "name": "委任修律",
+        "displayName": {
+          "zhHans": "委任修律",
+          "zhHant": "委任修律"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/duyu/skins/skin-700601.json"
+      },
+      {
+        "slug": "skin-700602",
+        "name": "威兵袭吴",
+        "displayName": {
+          "zhHans": "威兵袭吴",
+          "zhHant": "威兵襲吳"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/duyu/skins/skin-700602.json"
+      },
+      {
+        "slug": "skin-700603",
+        "name": "鹊夜同心",
+        "displayName": {
+          "zhHans": "鹊夜同心",
+          "zhHant": "鵲夜同心"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/duyu/skins/skin-700603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/duyu.json",
+      "groups": "api/v1/tts/characters/duyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/duyu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/duyu/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "duyu--7006duyu--1dead01",
+      "resourceId": "7006duyu/1dead01",
+      "text": "金瓯[ōu]尚缺，死难瞑目。",
+      "textLocalized": {
+        "zhHans": "金瓯[ōu]尚缺，死难瞑目。",
+        "zhHant": "金甌[ōu]尚缺，死難瞑目。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7006duyu-31c918f1/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7006duyu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duyu--7006duyu--1skill1_1",
+      "resourceId": "7006duyu/1skill1_1",
+      "text": "陈书弼[bì]国，当一而再，再而三。",
+      "textLocalized": {
+        "zhHans": "陈书弼[bì]国，当一而再，再而三。",
+        "zhHant": "陳書弼[bì]國，當一而再，再而三。"
+      },
+      "group": {
+        "slug": "spell-7018",
+        "name": "三陈",
+        "displayName": {
+          "zhHans": "三陈",
+          "zhHant": "三陳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7006duyu-31c918f1/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7006duyu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duyu--7006duyu--1skill1_2",
+      "resourceId": "7006duyu/1skill1_2",
+      "text": "勘除弼[bì]事，三陈而就。",
+      "textLocalized": {
+        "zhHans": "勘除弼[bì]事，三陈而就。",
+        "zhHant": "勘除弼[bì]事，三陳而就。"
+      },
+      "group": {
+        "slug": "spell-7018",
+        "name": "三陈",
+        "displayName": {
+          "zhHans": "三陈",
+          "zhHant": "三陳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7006duyu-31c918f1/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7006duyu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duyu--7006duyu--1skill2_1",
+      "resourceId": "7006duyu/1skill2_1",
+      "text": "奉诏伐吴，定鼎东南。",
+      "textLocalized": {
+        "zhHans": "奉诏伐吴，定鼎东南。",
+        "zhHant": "奉詔伐吳，定鼎東南。"
+      },
+      "group": {
+        "slug": "spell-7019",
+        "name": "昭讨",
+        "displayName": {
+          "zhHans": "昭讨",
+          "zhHant": "昭討"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7006duyu-31c918f1/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7006duyu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duyu--7006duyu--1skill2_2",
+      "resourceId": "7006duyu/1skill2_2",
+      "text": "三陈方得诏，一股下孙吴。",
+      "textLocalized": {
+        "zhHans": "三陈方得诏，一股下孙吴。",
+        "zhHant": "三陳方得詔，一股下孫吳。"
+      },
+      "group": {
+        "slug": "spell-7019",
+        "name": "昭讨",
+        "displayName": {
+          "zhHans": "昭讨",
+          "zhHant": "昭討"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7006duyu-31c918f1/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7006duyu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duyu--7006duyu--1skill3_1",
+      "resourceId": "7006duyu/1skill3_1",
+      "text": "攻其不备，摧枯拉朽。",
+      "textLocalized": {
+        "zhHans": "攻其不备，摧枯拉朽。",
+        "zhHant": "攻其不備，摧枯拉朽。"
+      },
+      "group": {
+        "slug": "spell-7020",
+        "name": "破竹",
+        "displayName": {
+          "zhHans": "破竹",
+          "zhHant": "破竹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7006duyu-31c918f1/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7006duyu/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duyu--7006duyu--1skill3_2",
+      "resourceId": "7006duyu/1skill3_2",
+      "text": "势如破竹，铁锁横江亦难挡！",
+      "textLocalized": {
+        "zhHans": "势如破竹，铁锁横江亦难挡！",
+        "zhHant": "勢如破竹，鐵鎖橫江亦難擋！"
+      },
+      "group": {
+        "slug": "spell-7020",
+        "name": "破竹",
+        "displayName": {
+          "zhHans": "破竹",
+          "zhHant": "破竹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7006duyu-31c918f1/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7006duyu/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

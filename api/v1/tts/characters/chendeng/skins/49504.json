@@ -1,3 +1,320 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e24a26c4aba27b58e8cda71c861e781b0161c791da2c0f79ad56658372eb2e4
-size 8642
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chendeng",
+    "command": "chendeng",
+    "name": "陈登",
+    "displayName": {
+      "zhHans": "陈登",
+      "zhHant": "陳登"
+    },
+    "names": [
+      "陈登"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈登",
+        "zhHant": "陳登"
+      }
+    ],
+    "ids": [
+      "495"
+    ],
+    "sourceNames": [
+      "陈登"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈登",
+        "zhHant": "陳登"
+      }
+    ],
+    "sourceIds": [
+      "495"
+    ],
+    "searchNames": [
+      "chendeng",
+      "陈登",
+      "陳登"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-3530",
+        "name": "丰积",
+        "displayName": {
+          "zhHans": "丰积",
+          "zhHant": "豐積"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chendeng/groups/spell-3530.json"
+      },
+      {
+        "slug": "spell-3531",
+        "name": "旋回",
+        "displayName": {
+          "zhHans": "旋回",
+          "zhHant": "旋迴"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chendeng/groups/spell-3531.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "49504",
+        "name": "49504",
+        "displayName": {
+          "zhHans": "49504",
+          "zhHant": "49504"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/49504.json"
+      },
+      {
+        "slug": "skin-49502",
+        "name": "举樽贺穗",
+        "displayName": {
+          "zhHans": "举樽贺穗",
+          "zhHant": "舉樽賀穗"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/skin-49502.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49503",
+        "name": "扶摇观鱼",
+        "displayName": {
+          "zhHans": "扶摇观鱼",
+          "zhHant": "扶搖觀魚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/skin-49503.json"
+      },
+      {
+        "slug": "skin-49501",
+        "name": "火燃迷敌",
+        "displayName": {
+          "zhHans": "火燃迷敌",
+          "zhHant": "火燃迷敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/skin-49501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chendeng.json",
+      "groups": "api/v1/tts/characters/chendeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chendeng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "49504",
+    "name": "49504",
+    "displayName": {
+      "zhHans": "49504",
+      "zhHant": "49504"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chendeng/skins/49504.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chendeng--495chendeng--5dead01",
+      "resourceId": "495chendeng/5dead01",
+      "text": "华佗先生，何在？",
+      "textLocalized": {
+        "zhHans": "华佗先生，何在？",
+        "zhHant": "華佗先生，何在？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "49504",
+          "name": "49504",
+          "displayName": {
+            "zhHans": "49504",
+            "zhHant": "49504"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendeng--495chendeng--5skill1_1",
+      "resourceId": "495chendeng/5skill1_1",
+      "text": "粟米积三秋，丰年实仓廪。",
+      "textLocalized": {
+        "zhHans": "粟米积三秋，丰年实仓廪。",
+        "zhHant": "粟米積三秋，豐年實倉廩。"
+      },
+      "group": {
+        "slug": "spell-3530",
+        "name": "丰积",
+        "displayName": {
+          "zhHans": "丰积",
+          "zhHant": "豐積"
+        }
+      },
+      "skins": [
+        {
+          "slug": "49504",
+          "name": "49504",
+          "displayName": {
+            "zhHans": "49504",
+            "zhHant": "49504"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendeng--495chendeng--5skill1_2",
+      "resourceId": "495chendeng/5skill1_2",
+      "text": "勿怨江潮去，君看潮复来。",
+      "textLocalized": {
+        "zhHans": "勿怨江潮去，君看潮复来。",
+        "zhHant": "勿怨江潮去，君看潮復來。"
+      },
+      "group": {
+        "slug": "spell-3530",
+        "name": "丰积",
+        "displayName": {
+          "zhHans": "丰积",
+          "zhHant": "豐積"
+        }
+      },
+      "skins": [
+        {
+          "slug": "49504",
+          "name": "49504",
+          "displayName": {
+            "zhHans": "49504",
+            "zhHant": "49504"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendeng--495chendeng--5skill2_1",
+      "resourceId": "495chendeng/5skill2_1",
+      "text": "曹操来攻，登必率广陵兵来援！",
+      "textLocalized": {
+        "zhHans": "曹操来攻，登必率广陵兵来援！",
+        "zhHant": "曹操來攻，登必率廣陵兵來援！"
+      },
+      "group": {
+        "slug": "spell-3531",
+        "name": "旋回",
+        "displayName": {
+          "zhHans": "旋回",
+          "zhHant": "旋迴"
+        }
+      },
+      "skins": [
+        {
+          "slug": "49504",
+          "name": "49504",
+          "displayName": {
+            "zhHans": "49504",
+            "zhHant": "49504"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendeng--495chendeng--5skill2_2",
+      "resourceId": "495chendeng/5skill2_2",
+      "text": "我以诚待温侯，必不能相负。",
+      "textLocalized": {
+        "zhHans": "我以诚待温侯，必不能相负。",
+        "zhHant": "我以誠待溫侯，必不能相負。"
+      },
+      "group": {
+        "slug": "spell-3531",
+        "name": "旋回",
+        "displayName": {
+          "zhHans": "旋回",
+          "zhHant": "旋迴"
+        }
+      },
+      "skins": [
+        {
+          "slug": "49504",
+          "name": "49504",
+          "displayName": {
+            "zhHans": "49504",
+            "zhHant": "49504"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,825 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:32ee3ccfbef2fe2120eed53e70873fff3f54caf8a46d6686c2f3e5e4c1be20f3
-size 23669
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "ruiji",
+    "command": "ruiji",
+    "name": "芮姬",
+    "displayName": {
+      "zhHans": "芮姬",
+      "zhHant": "芮姬"
+    },
+    "names": [
+      "芮姬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "芮姬",
+        "zhHant": "芮姬"
+      }
+    ],
+    "ids": [
+      "502"
+    ],
+    "sourceNames": [
+      "芮姬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "芮姬",
+        "zhHant": "芮姬"
+      }
+    ],
+    "sourceIds": [
+      "502"
+    ],
+    "searchNames": [
+      "ruiji",
+      "芮姬"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/ruiji/groups/dead.json"
+      },
+      {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/ruiji/groups/spell-3099.json"
+      },
+      {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/ruiji/groups/spell-3100.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "50203",
+        "name": "50203",
+        "displayName": {
+          "zhHans": "50203",
+          "zhHant": "50203"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/50203.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50201",
+        "name": "玉芮花意",
+        "displayName": {
+          "zhHans": "玉芮花意",
+          "zhHant": "玉芮花意"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/skin-50201.json"
+      },
+      {
+        "slug": "skin-50202",
+        "name": "蛮娇武俏",
+        "displayName": {
+          "zhHans": "蛮娇武俏",
+          "zhHant": "蠻嬌武俏"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/skin-50202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/ruiji.json",
+      "groups": "api/v1/tts/characters/ruiji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/ruiji/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 20,
+  "lines": [
+    {
+      "id": "ruiji--502ruiji--4dead01",
+      "resourceId": "502ruiji/4dead01",
+      "text": "流水无心恋落花。",
+      "textLocalized": {
+        "zhHans": "流水无心恋落花。",
+        "zhHant": "流水無心戀落花。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "50203",
+          "name": "50203",
+          "displayName": {
+            "zhHans": "50203",
+            "zhHant": "50203"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1dead01",
+      "resourceId": "502ruiji/1dead01",
+      "text": "这斧头，怎么变这么重了？",
+      "textLocalized": {
+        "zhHans": "这斧头，怎么变这么重了？",
+        "zhHant": "這斧頭，怎麼變這麼重了？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--2dead01",
+      "resourceId": "502ruiji/2dead01",
+      "text": "这就是，任性的代价吗？",
+      "textLocalized": {
+        "zhHans": "这就是，任性的代价吗？",
+        "zhHant": "這就是，任性的代價嗎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50201",
+          "name": "玉芮花意",
+          "displayName": {
+            "zhHans": "玉芮花意",
+            "zhHant": "玉芮花意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--3dead01",
+      "resourceId": "502ruiji/3dead01",
+      "text": "子高还在等我回去……",
+      "textLocalized": {
+        "zhHans": "子高还在等我回去……",
+        "zhHant": "子高還在等我回去……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50202",
+          "name": "蛮娇武俏",
+          "displayName": {
+            "zhHans": "蛮娇武俏",
+            "zhHant": "蠻嬌武俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--4skill1_1",
+      "resourceId": "502ruiji/4skill1_1",
+      "text": "女孩子的拳头，打人也是很疼的哟。",
+      "textLocalized": {
+        "zhHans": "女孩子的拳头，打人也是很疼的哟。",
+        "zhHant": "女孩子的拳頭，打人也是很疼的喲。"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "50203",
+          "name": "50203",
+          "displayName": {
+            "zhHans": "50203",
+            "zhHant": "50203"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--4skill1_2",
+      "resourceId": "502ruiji/4skill1_2",
+      "text": "柔荑挽斧钺，本姑娘要与尔等竞勇于沙场！",
+      "textLocalized": {
+        "zhHans": "柔荑挽斧钺，本姑娘要与尔等竞勇于沙场！",
+        "zhHant": "柔荑挽斧鉞，本姑娘要與爾等競勇於沙場！"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "50203",
+          "name": "50203",
+          "displayName": {
+            "zhHans": "50203",
+            "zhHant": "50203"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1skill1_1",
+      "resourceId": "502ruiji/1skill1_1",
+      "text": "别跑，且吃我一斧！",
+      "textLocalized": {
+        "zhHans": "别跑，且吃我一斧！",
+        "zhHant": "別跑，且喫我一斧！"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1skill1_2",
+      "resourceId": "502ruiji/1skill1_2",
+      "text": "让我看看，你的能耐。",
+      "textLocalized": {
+        "zhHans": "让我看看，你的能耐。",
+        "zhHant": "讓我看看，你的能耐。"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--2skill1_1",
+      "resourceId": "502ruiji/2skill1_1",
+      "text": "祖祉伯良，当执百炼精钢之锐。",
+      "textLocalized": {
+        "zhHans": "祖祉伯良，当执百炼精钢之锐。",
+        "zhHant": "祖祉伯良，當執百鍊精鋼之銳。"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50201",
+          "name": "玉芮花意",
+          "displayName": {
+            "zhHans": "玉芮花意",
+            "zhHant": "玉芮花意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--2skill1_2",
+      "resourceId": "502ruiji/2skill1_2",
+      "text": "德义文武，不负三世奋斗之业。",
+      "textLocalized": {
+        "zhHans": "德义文武，不负三世奋斗之业。",
+        "zhHant": "德義文武，不負三世奮鬥之業。"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50201",
+          "name": "玉芮花意",
+          "displayName": {
+            "zhHans": "玉芮花意",
+            "zhHant": "玉芮花意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--3skill1_1",
+      "resourceId": "502ruiji/3skill1_1",
+      "text": "小瞧我可是会吃苦头的。",
+      "textLocalized": {
+        "zhHans": "小瞧我可是会吃苦头的。",
+        "zhHant": "小瞧我可是會喫苦頭的。"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50202",
+          "name": "蛮娇武俏",
+          "displayName": {
+            "zhHans": "蛮娇武俏",
+            "zhHant": "蠻嬌武俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--3skill1_2",
+      "resourceId": "502ruiji/3skill1_2",
+      "text": "你是何人，竟敢挡在本姑娘面前？",
+      "textLocalized": {
+        "zhHans": "你是何人，竟敢挡在本姑娘面前？",
+        "zhHant": "你是何人，竟敢擋在本姑娘面前？"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50202",
+          "name": "蛮娇武俏",
+          "displayName": {
+            "zhHans": "蛮娇武俏",
+            "zhHant": "蠻嬌武俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--4skill2_1",
+      "resourceId": "502ruiji/4skill2_1",
+      "text": "倩影着武装，须眉未见巾帼为将乎？",
+      "textLocalized": {
+        "zhHans": "倩影着武装，须眉未见巾帼为将乎？",
+        "zhHant": "倩影着武裝，鬚眉未見巾幗爲將乎？"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "50203",
+          "name": "50203",
+          "displayName": {
+            "zhHans": "50203",
+            "zhHant": "50203"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--4skill2_2",
+      "resourceId": "502ruiji/4skill2_2",
+      "text": "携东篱女伴，护麾下袍泽！",
+      "textLocalized": {
+        "zhHans": "携东篱女伴，护麾下袍泽！",
+        "zhHant": "攜東籬女伴，護麾下袍澤！"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "50203",
+          "name": "50203",
+          "displayName": {
+            "zhHans": "50203",
+            "zhHant": "50203"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1skill2_1",
+      "resourceId": "502ruiji/1skill2_1",
+      "text": "挥斧摇清风，笑颜比朝霞。",
+      "textLocalized": {
+        "zhHans": "挥斧摇清风，笑颜比朝霞。",
+        "zhHant": "揮斧搖清風，笑顏比朝霞。"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1skill2_2",
+      "resourceId": "502ruiji/1skill2_2",
+      "text": "素手抚重斧，飞矢擦靓装。",
+      "textLocalized": {
+        "zhHans": "素手抚重斧，飞矢擦靓装。",
+        "zhHant": "素手撫重斧，飛矢擦靚裝。"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--2skill2_1",
+      "resourceId": "502ruiji/2skill2_1",
+      "text": "粉红轻浅靓妆新，策马执兵入枪林。",
+      "textLocalized": {
+        "zhHans": "粉红轻浅靓妆新，策马执兵入枪林。",
+        "zhHant": "粉紅輕淺靚妝新，策馬執兵入槍林。"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50201",
+          "name": "玉芮花意",
+          "displayName": {
+            "zhHans": "玉芮花意",
+            "zhHant": "玉芮花意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--2skill2_2",
+      "resourceId": "502ruiji/2skill2_2",
+      "text": "靓妆才罢粉痕新，风卷吴旗散烟尘。",
+      "textLocalized": {
+        "zhHans": "靓妆才罢粉痕新，风卷吴旗散烟尘。",
+        "zhHant": "靚妝才罷粉痕新，風捲吳旗散煙塵。"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50201",
+          "name": "玉芮花意",
+          "displayName": {
+            "zhHans": "玉芮花意",
+            "zhHant": "玉芮花意"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--3skill2_1",
+      "resourceId": "502ruiji/3skill2_1",
+      "text": "靓妆戎服奔沙场，金鼓声中挥斧钺。",
+      "textLocalized": {
+        "zhHans": "靓妆戎服奔沙场，金鼓声中挥斧钺。",
+        "zhHant": "靚妝戎服奔沙場，金鼓聲中揮斧鉞。"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50202",
+          "name": "蛮娇武俏",
+          "displayName": {
+            "zhHans": "蛮娇武俏",
+            "zhHant": "蠻嬌武俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--3skill2_2",
+      "resourceId": "502ruiji/3skill2_2",
+      "text": "少女戎服靓妆出，笑踏战歌相与嘲。",
+      "textLocalized": {
+        "zhHans": "少女戎服靓妆出，笑踏战歌相与嘲。",
+        "zhHant": "少女戎服靚妝出，笑踏戰歌相與嘲。"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50202",
+          "name": "蛮娇武俏",
+          "displayName": {
+            "zhHans": "蛮娇武俏",
+            "zhHant": "蠻嬌武俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

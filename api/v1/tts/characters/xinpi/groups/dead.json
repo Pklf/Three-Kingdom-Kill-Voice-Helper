@@ -1,3 +1,147 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c213b3a90fab0996a3d45808bf395e2bd757e3ff4819fa6d3aa342c50176cdbc
-size 3425
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xinpi",
+    "command": "xinpi",
+    "name": "辛毗",
+    "displayName": {
+      "zhHans": "辛毗",
+      "zhHant": "辛毗"
+    },
+    "names": [
+      "辛毗",
+      "4601"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "辛毗",
+        "zhHant": "辛毗"
+      },
+      {
+        "zhHans": "4601",
+        "zhHant": "4601"
+      }
+    ],
+    "ids": [
+      "435",
+      "4601"
+    ],
+    "sourceNames": [
+      "辛毗"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "辛毗",
+        "zhHant": "辛毗"
+      }
+    ],
+    "sourceIds": [
+      "435",
+      "4601"
+    ],
+    "searchNames": [
+      "xinpi",
+      "辛毗",
+      "4601"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/xinpi/groups/dead.json"
+      },
+      {
+        "slug": "spell-934",
+        "name": "持节",
+        "displayName": {
+          "zhHans": "持节",
+          "zhHant": "持節"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xinpi/groups/spell-934.json"
+      },
+      {
+        "slug": "spell-935",
+        "name": "引裾",
+        "displayName": {
+          "zhHans": "引裾",
+          "zhHant": "引裾"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xinpi/groups/spell-935.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xinpi/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xinpi.json",
+      "groups": "api/v1/tts/characters/xinpi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xinpi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/xinpi/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "xinpi--435xinpi--1dead01",
+      "resourceId": "435xinpi/1dead01",
+      "text": "失民心，且无食。",
+      "textLocalized": {
+        "zhHans": "失民心，且无食。",
+        "zhHant": "失民心，且無食。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/435xinpi-b894e10b/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/435xinpi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

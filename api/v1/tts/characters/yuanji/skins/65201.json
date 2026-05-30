@@ -1,3 +1,359 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:18d08d7022daba95c2bc7081e288d5ef40ce9fe04c76291c61433a48532bdf20
-size 10048
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yuanji",
+    "command": "yuanji",
+    "name": "袁姬",
+    "displayName": {
+      "zhHans": "袁姬",
+      "zhHant": "袁姬"
+    },
+    "names": [
+      "袁姬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "袁姬",
+        "zhHant": "袁姬"
+      }
+    ],
+    "ids": [
+      "652"
+    ],
+    "sourceNames": [
+      "袁姬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "袁姬",
+        "zhHant": "袁姬"
+      }
+    ],
+    "sourceIds": [
+      "652"
+    ],
+    "searchNames": [
+      "yuanji",
+      "袁姬"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/yuanji/groups/dead.json"
+      },
+      {
+        "slug": "spell-3540",
+        "name": "节言",
+        "displayName": {
+          "zhHans": "节言",
+          "zhHant": "節言"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yuanji/groups/spell-3540.json"
+      },
+      {
+        "slug": "spell-3541",
+        "name": "镜花",
+        "displayName": {
+          "zhHans": "镜花",
+          "zhHant": "鏡花"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yuanji/groups/spell-3541.json"
+      },
+      {
+        "slug": "spell-3542",
+        "name": "水月",
+        "displayName": {
+          "zhHans": "水月",
+          "zhHant": "水月"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yuanji/groups/spell-3542.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "65201",
+        "name": "65201",
+        "displayName": {
+          "zhHans": "65201",
+          "zhHant": "65201"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/yuanji/skins/65201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yuanji.json",
+      "groups": "api/v1/tts/characters/yuanji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yuanji/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "65201",
+    "name": "65201",
+    "displayName": {
+      "zhHans": "65201",
+      "zhHant": "65201"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/yuanji/skins/65201.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "yuanji--652yuanji--2dead01",
+      "resourceId": "652yuanji/2dead01",
+      "text": "愿年年有今日，岁岁得平安。",
+      "textLocalized": {
+        "zhHans": "愿年年有今日，岁岁得平安。",
+        "zhHant": "願年年有今日，歲歲得平安。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65201",
+          "name": "65201",
+          "displayName": {
+            "zhHans": "65201",
+            "zhHant": "65201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/652yuanji-f3c5f0c5/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/652yuanji/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanji--652yuanji--2skill1_1",
+      "resourceId": "652yuanji/2skill1_1",
+      "text": "为父斟满玉液酿，今日可醉，莫理西风。",
+      "textLocalized": {
+        "zhHans": "为父斟满玉液酿，今日可醉，莫理西风。",
+        "zhHant": "爲父斟滿玉液釀，今日可醉，莫理西風。"
+      },
+      "group": {
+        "slug": "spell-3540",
+        "name": "节言",
+        "displayName": {
+          "zhHans": "节言",
+          "zhHant": "節言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65201",
+          "name": "65201",
+          "displayName": {
+            "zhHans": "65201",
+            "zhHant": "65201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/652yuanji-f3c5f0c5/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/652yuanji/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanji--652yuanji--2skill1_2",
+      "resourceId": "652yuanji/2skill1_2",
+      "text": "月上金桂枝头，仲秋时节，正宜团圆。",
+      "textLocalized": {
+        "zhHans": "月上金桂枝头，仲秋时节，正宜团圆。",
+        "zhHant": "月上金桂枝頭，仲秋時節，正宜團圓。"
+      },
+      "group": {
+        "slug": "spell-3540",
+        "name": "节言",
+        "displayName": {
+          "zhHans": "节言",
+          "zhHant": "節言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65201",
+          "name": "65201",
+          "displayName": {
+            "zhHans": "65201",
+            "zhHant": "65201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/652yuanji-f3c5f0c5/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/652yuanji/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanji--652yuanji--2skill2_1",
+      "resourceId": "652yuanji/2skill2_1",
+      "text": "丹桂佐绿蚁，酒香伴花香，今夕美景配良辰。",
+      "textLocalized": {
+        "zhHans": "丹桂佐绿蚁，酒香伴花香，今夕美景配良辰。",
+        "zhHant": "丹桂佐綠蟻，酒香伴花香，今夕美景配良辰。"
+      },
+      "group": {
+        "slug": "spell-3541",
+        "name": "镜花",
+        "displayName": {
+          "zhHans": "镜花",
+          "zhHant": "鏡花"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65201",
+          "name": "65201",
+          "displayName": {
+            "zhHans": "65201",
+            "zhHant": "65201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/652yuanji-f3c5f0c5/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/652yuanji/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanji--652yuanji--2skill2_2",
+      "resourceId": "652yuanji/2skill2_2",
+      "text": "桂花飘香，落红点酒，此夜可与明月同醉。",
+      "textLocalized": {
+        "zhHans": "桂花飘香，落红点酒，此夜可与明月同醉。",
+        "zhHant": "桂花飄香，落紅點酒，此夜可與明月同醉。"
+      },
+      "group": {
+        "slug": "spell-3541",
+        "name": "镜花",
+        "displayName": {
+          "zhHans": "镜花",
+          "zhHant": "鏡花"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65201",
+          "name": "65201",
+          "displayName": {
+            "zhHans": "65201",
+            "zhHant": "65201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/652yuanji-f3c5f0c5/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/652yuanji/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanji--652yuanji--2skill3_1",
+      "resourceId": "652yuanji/2skill3_1",
+      "text": "皓月胜明珠，清风拂面，摇曳水中月。",
+      "textLocalized": {
+        "zhHans": "皓月胜明珠，清风拂面，摇曳水中月。",
+        "zhHant": "皓月勝明珠，清風拂面，搖曳水中月。"
+      },
+      "group": {
+        "slug": "spell-3542",
+        "name": "水月",
+        "displayName": {
+          "zhHans": "水月",
+          "zhHant": "水月"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65201",
+          "name": "65201",
+          "displayName": {
+            "zhHans": "65201",
+            "zhHant": "65201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/652yuanji-f3c5f0c5/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/652yuanji/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanji--652yuanji--2skill3_2",
+      "resourceId": "652yuanji/2skill3_2",
+      "text": "掷酒碎明月，月影泛酒香，阿耶醉否？",
+      "textLocalized": {
+        "zhHans": "掷酒碎明月，月影泛酒香，阿耶醉否？",
+        "zhHant": "擲酒碎明月，月影泛酒香，阿耶醉否？"
+      },
+      "group": {
+        "slug": "spell-3542",
+        "name": "水月",
+        "displayName": {
+          "zhHans": "水月",
+          "zhHant": "水月"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65201",
+          "name": "65201",
+          "displayName": {
+            "zhHans": "65201",
+            "zhHant": "65201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/652yuanji-f3c5f0c5/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/652yuanji/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

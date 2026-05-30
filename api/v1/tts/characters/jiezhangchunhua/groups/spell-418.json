@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1bcf194fb1e00ccfed360ae1b1ffe19b755ef4addd0da510ab4728363f7817b5
-size 4963
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiezhangchunhua",
+    "command": "jiezhangchunhua",
+    "name": "界张春华",
+    "displayName": {
+      "zhHans": "界张春华",
+      "zhHant": "界張春華"
+    },
+    "names": [
+      "界张春华"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界张春华",
+        "zhHant": "界張春華"
+      }
+    ],
+    "ids": [
+      "625"
+    ],
+    "sourceNames": [
+      "界张春华"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界张春华",
+        "zhHant": "界張春華"
+      }
+    ],
+    "sourceIds": [
+      "625"
+    ],
+    "searchNames": [
+      "jiezhangchunhua",
+      "界张春华",
+      "界張春華"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/dead.json"
+      },
+      {
+        "slug": "spell-3481",
+        "name": "翦灭",
+        "displayName": {
+          "zhHans": "翦灭",
+          "zhHant": "翦滅"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/spell-3481.json"
+      },
+      {
+        "slug": "spell-418",
+        "name": "绝情",
+        "displayName": {
+          "zhHans": "绝情",
+          "zhHant": "絕情"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/spell-418.json"
+      },
+      {
+        "slug": "spell-419",
+        "name": "伤逝",
+        "displayName": {
+          "zhHans": "伤逝",
+          "zhHant": "傷逝"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/spell-419.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiezhangchunhua/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiezhangchunhua.json",
+      "groups": "api/v1/tts/characters/jiezhangchunhua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiezhangchunhua/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-418",
+    "name": "绝情",
+    "displayName": {
+      "zhHans": "绝情",
+      "zhHant": "絕情"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jiezhangchunhua/groups/spell-418.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jiezhangchunhua--625jiezhangchunhua--1skill1_1",
+      "resourceId": "625jiezhangchunhua/1skill1_1",
+      "text": "情丝如雪，难当暖阳。",
+      "textLocalized": {
+        "zhHans": "情丝如雪，难当暖阳。",
+        "zhHant": "情絲如雪，難當暖陽。"
+      },
+      "group": {
+        "slug": "spell-418",
+        "name": "绝情",
+        "displayName": {
+          "zhHans": "绝情",
+          "zhHant": "絕情"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/625jiezhangchunhua-4277451c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/625jiezhangchunhua/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhangchunhua--625jiezhangchunhua--1skill1_2",
+      "resourceId": "625jiezhangchunhua/1skill1_2",
+      "text": "有情总被无情负，绝情方无软肋生。",
+      "textLocalized": {
+        "zhHans": "有情总被无情负，绝情方无软肋生。",
+        "zhHant": "有情總被無情負，絕情方無軟肋生。"
+      },
+      "group": {
+        "slug": "spell-418",
+        "name": "绝情",
+        "displayName": {
+          "zhHans": "绝情",
+          "zhHant": "絕情"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/625jiezhangchunhua-4277451c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/625jiezhangchunhua/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

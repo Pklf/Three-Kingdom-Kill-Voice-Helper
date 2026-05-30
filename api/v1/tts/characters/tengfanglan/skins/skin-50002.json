@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1a827cbbfe9dfdabef9e16d44400602dd3903e3b32f192367d4086e7b213ee01
-size 8696
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tengfanglan",
+    "command": "tengfanglan",
+    "name": "滕芳兰",
+    "displayName": {
+      "zhHans": "滕芳兰",
+      "zhHant": "滕芳蘭"
+    },
+    "names": [
+      "滕芳兰"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "滕芳兰",
+        "zhHant": "滕芳蘭"
+      }
+    ],
+    "ids": [
+      "500"
+    ],
+    "sourceNames": [
+      "滕芳兰"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "滕芳兰",
+        "zhHant": "滕芳蘭"
+      }
+    ],
+    "sourceIds": [
+      "500"
+    ],
+    "searchNames": [
+      "tengfanglan",
+      "滕芳兰",
+      "滕芳蘭"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tengfanglan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tengfanglan/groups/spell-3093.json"
+      },
+      {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tengfanglan/groups/spell-3094.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50003",
+        "name": "拈花靛情",
+        "displayName": {
+          "zhHans": "拈花靛情",
+          "zhHant": "拈花靛情"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50003.json"
+      },
+      {
+        "slug": "skin-50002",
+        "name": "百鸟闻弦",
+        "displayName": {
+          "zhHans": "百鸟闻弦",
+          "zhHant": "百鳥聞弦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50002.json"
+      },
+      {
+        "slug": "skin-50001",
+        "name": "脂车香姝",
+        "displayName": {
+          "zhHans": "脂车香姝",
+          "zhHant": "脂車香姝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tengfanglan.json",
+      "groups": "api/v1/tts/characters/tengfanglan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tengfanglan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-50002",
+    "name": "百鸟闻弦",
+    "displayName": {
+      "zhHans": "百鸟闻弦",
+      "zhHant": "百鳥聞弦"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50002.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "tengfanglan--500tengfanglan--3dead01",
+      "resourceId": "500tengfanglan/3dead01",
+      "text": "君言妾貌改，妾畏君心移。",
+      "textLocalized": {
+        "zhHans": "君言妾貌改，妾畏君心移。",
+        "zhHant": "君言妾貌改，妾畏君心移。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50002",
+          "name": "百鸟闻弦",
+          "displayName": {
+            "zhHans": "百鸟闻弦",
+            "zhHant": "百鳥聞弦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--3skill1_1",
+      "resourceId": "500tengfanglan/3skill1_1",
+      "text": "潇潇梧叶落，瑟瑟秋风寒。",
+      "textLocalized": {
+        "zhHans": "潇潇梧叶落，瑟瑟秋风寒。",
+        "zhHant": "瀟瀟梧葉落，瑟瑟秋風寒。"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50002",
+          "name": "百鸟闻弦",
+          "displayName": {
+            "zhHans": "百鸟闻弦",
+            "zhHant": "百鳥聞弦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--3skill1_2",
+      "resourceId": "500tengfanglan/3skill1_2",
+      "text": "退宠辞金屋，孤身悲玉阶。",
+      "textLocalized": {
+        "zhHans": "退宠辞金屋，孤身悲玉阶。",
+        "zhHant": "退寵辭金屋，孤身悲玉階。"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50002",
+          "name": "百鸟闻弦",
+          "displayName": {
+            "zhHans": "百鸟闻弦",
+            "zhHant": "百鳥聞弦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--3skill2_1",
+      "resourceId": "500tengfanglan/3skill2_1",
+      "text": "思赴石头城，命归北邙山。",
+      "textLocalized": {
+        "zhHans": "思赴石头城，命归北邙山。",
+        "zhHant": "思赴石頭城，命歸北邙山。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50002",
+          "name": "百鸟闻弦",
+          "displayName": {
+            "zhHans": "百鸟闻弦",
+            "zhHant": "百鳥聞弦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--3skill2_2",
+      "resourceId": "500tengfanglan/3skill2_2",
+      "text": "悲啼君已逝，今春非故年。",
+      "textLocalized": {
+        "zhHans": "悲啼君已逝，今春非故年。",
+        "zhHant": "悲啼君已逝，今春非故年。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50002",
+          "name": "百鸟闻弦",
+          "displayName": {
+            "zhHans": "百鸟闻弦",
+            "zhHant": "百鳥聞弦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

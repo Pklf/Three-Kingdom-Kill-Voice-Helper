@@ -1,3 +1,339 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:38ab9f8c4dc3f2af169543230878f1fddac15ca90ef19423c9ba2fbd7ee82739
-size 9393
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jushou",
+    "command": "jushou",
+    "name": "沮授",
+    "displayName": {
+      "zhHans": "沮授",
+      "zhHant": "沮授"
+    },
+    "names": [
+      "沮授"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "沮授",
+        "zhHant": "沮授"
+      }
+    ],
+    "ids": [
+      "330"
+    ],
+    "sourceNames": [
+      "沮授"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "沮授",
+        "zhHant": "沮授"
+      }
+    ],
+    "sourceIds": [
+      "330"
+    ],
+    "searchNames": [
+      "jushou",
+      "沮授"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/groups/dead.json"
+      },
+      {
+        "slug": "spell-491",
+        "name": "渐营",
+        "displayName": {
+          "zhHans": "渐营",
+          "zhHant": "漸營"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/jushou/groups/spell-491.json"
+      },
+      {
+        "slug": "spell-492",
+        "name": "矢北",
+        "displayName": {
+          "zhHans": "矢北",
+          "zhHant": "矢北"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/jushou/groups/spell-492.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-33003",
+        "name": "夺马归袁",
+        "displayName": {
+          "zhHans": "夺马归袁",
+          "zhHant": "奪馬歸袁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33003.json"
+      },
+      {
+        "slug": "skin-33003-33005",
+        "name": "夺马归袁,忠贞辅袁",
+        "displayName": {
+          "zhHans": "夺马归袁,忠贞辅袁",
+          "zhHant": "奪馬歸袁,忠貞輔袁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33003-33005.json"
+      },
+      {
+        "slug": "skin-33005",
+        "name": "忠贞辅袁",
+        "displayName": {
+          "zhHans": "忠贞辅袁",
+          "zhHant": "忠貞輔袁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33005.json"
+      },
+      {
+        "slug": "skin-33004",
+        "name": "献策不绝",
+        "displayName": {
+          "zhHans": "献策不绝",
+          "zhHant": "獻策不絕"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33004.json"
+      },
+      {
+        "slug": "skin-33001",
+        "name": "监军谋国",
+        "displayName": {
+          "zhHans": "监军谋国",
+          "zhHant": "監軍謀國"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33001.json"
+      },
+      {
+        "slug": "skin-33006",
+        "name": "策胜珠玑",
+        "displayName": {
+          "zhHans": "策胜珠玑",
+          "zhHant": "策勝珠璣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33006.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jushou.json",
+      "groups": "api/v1/tts/characters/jushou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jushou/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-33006",
+    "name": "策胜珠玑",
+    "displayName": {
+      "zhHans": "策胜珠玑",
+      "zhHant": "策勝珠璣"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jushou/skins/skin-33006.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jushou--330jushou--6dead01",
+      "resourceId": "330jushou/6dead01",
+      "text": "志坚心定，岂可与汉贼同谋。",
+      "textLocalized": {
+        "zhHans": "志坚心定，岂可与汉贼同谋。",
+        "zhHant": "志堅心定，豈可與漢賊同謀。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33006",
+          "name": "策胜珠玑",
+          "displayName": {
+            "zhHans": "策胜珠玑",
+            "zhHant": "策勝珠璣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jushou--330jushou--6skill1_1",
+      "resourceId": "330jushou/6skill1_1",
+      "text": "徐徐图之，曹军难挡。",
+      "textLocalized": {
+        "zhHans": "徐徐图之，曹军难挡。",
+        "zhHant": "徐徐圖之，曹軍難擋。"
+      },
+      "group": {
+        "slug": "spell-491",
+        "name": "渐营",
+        "displayName": {
+          "zhHans": "渐营",
+          "zhHant": "漸營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33006",
+          "name": "策胜珠玑",
+          "displayName": {
+            "zhHans": "策胜珠玑",
+            "zhHant": "策勝珠璣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jushou--330jushou--6skill1_2",
+      "resourceId": "330jushou/6skill1_2",
+      "text": "缓进渐行，敌军定可不战而退。",
+      "textLocalized": {
+        "zhHans": "缓进渐行，敌军定可不战而退。",
+        "zhHant": "緩進漸行，敵軍定可不戰而退。"
+      },
+      "group": {
+        "slug": "spell-491",
+        "name": "渐营",
+        "displayName": {
+          "zhHans": "渐营",
+          "zhHant": "漸營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33006",
+          "name": "策胜珠玑",
+          "displayName": {
+            "zhHans": "策胜珠玑",
+            "zhHant": "策勝珠璣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jushou--330jushou--6skill2_1",
+      "resourceId": "330jushou/6skill2_1",
+      "text": "北归无望，亦不会与那曹贼共图。",
+      "textLocalized": {
+        "zhHans": "北归无望，亦不会与那曹贼共图。",
+        "zhHant": "北歸無望，亦不會與那曹賊共圖。"
+      },
+      "group": {
+        "slug": "spell-492",
+        "name": "矢北",
+        "displayName": {
+          "zhHans": "矢北",
+          "zhHant": "矢北"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33006",
+          "name": "策胜珠玑",
+          "displayName": {
+            "zhHans": "策胜珠玑",
+            "zhHant": "策勝珠璣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jushou--330jushou--6skill2_2",
+      "resourceId": "330jushou/6skill2_2",
+      "text": "北渡难回，清云不降。",
+      "textLocalized": {
+        "zhHans": "北渡难回，清云不降。",
+        "zhHant": "北渡難回，清雲不降。"
+      },
+      "group": {
+        "slug": "spell-492",
+        "name": "矢北",
+        "displayName": {
+          "zhHans": "矢北",
+          "zhHant": "矢北"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33006",
+          "name": "策胜珠玑",
+          "displayName": {
+            "zhHans": "策胜珠玑",
+            "zhHant": "策勝珠璣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

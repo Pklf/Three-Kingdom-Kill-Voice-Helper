@@ -1,3 +1,662 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dd521b5dc7f384bce38e079873d038c387d77876093bcbba73a96c926cd78e3f
-size 14986
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qiaozhou",
+    "command": "qiaozhou",
+    "name": "谯周",
+    "displayName": {
+      "zhHans": "谯周",
+      "zhHant": "譙周"
+    },
+    "names": [
+      "谯周"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "谯周",
+        "zhHant": "譙周"
+      }
+    ],
+    "ids": [
+      "540"
+    ],
+    "sourceNames": [
+      "谯周"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "谯周",
+        "zhHant": "譙周"
+      }
+    ],
+    "sourceIds": [
+      "540"
+    ],
+    "searchNames": [
+      "qiaozhou",
+      "谯周",
+      "譙周"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-3232",
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        },
+        "ids": [
+          "3232"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-3233",
+        "name": "星卜",
+        "displayName": {
+          "zhHans": "星卜",
+          "zhHant": "星卜"
+        },
+        "ids": [
+          "3233"
+        ],
+        "lineCount": 4
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-54001",
+        "ids": [
+          "54001"
+        ],
+        "name": "寓星沉祚",
+        "displayName": {
+          "zhHans": "寓星沉祚",
+          "zhHant": "寓星沉祚"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/qiaozhou.json",
+      "lines": "api/v1/characters/qiaozhou/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3232",
+    "ids": [
+      "3232"
+    ],
+    "name": "知命",
+    "displayName": {
+      "zhHans": "知命",
+      "zhHant": "知命"
+    },
+    "names": [
+      "知命"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "知命",
+        "zhHant": "知命"
+      }
+    ]
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "qiaozhou--540qiaozhou--1skill1_1",
+      "resourceId": "540qiaozhou/1skill1_1",
+      "text": "天定人命，仅可一窥。",
+      "textLocalized": {
+        "zhHans": "天定人命，仅可一窥。",
+        "zhHant": "天定人命，僅可一窺。"
+      },
+      "character": {
+        "slug": "qiaozhou",
+        "command": "qiaozhou",
+        "id": "540",
+        "ids": [
+          "540"
+        ],
+        "name": "谯周",
+        "displayName": {
+          "zhHans": "谯周",
+          "zhHant": "譙周"
+        },
+        "names": [
+          "谯周"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谯周",
+            "zhHant": "譙周"
+          }
+        ],
+        "sourceIds": [
+          "540"
+        ],
+        "sourceNames": [
+          "谯周"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "谯周",
+            "zhHant": "譙周"
+          }
+        ],
+        "searchNames": [
+          "谯周",
+          "譙周",
+          "qiaozhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-3232",
+        "ids": [
+          "3232"
+        ],
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        },
+        "names": [
+          "知命"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "知命",
+            "zhHant": "知命"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "540",
+        "skinKey": "-1",
+        "spellKey": "3232",
+        "rowIndex": 1,
+        "characterNames": [
+          "谯周"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--1skill1_2",
+      "resourceId": "540qiaozhou/1skill1_2",
+      "text": "知命而行，尽诸人事。",
+      "textLocalized": {
+        "zhHans": "知命而行，尽诸人事。",
+        "zhHant": "知命而行，盡諸人事。"
+      },
+      "character": {
+        "slug": "qiaozhou",
+        "command": "qiaozhou",
+        "id": "540",
+        "ids": [
+          "540"
+        ],
+        "name": "谯周",
+        "displayName": {
+          "zhHans": "谯周",
+          "zhHant": "譙周"
+        },
+        "names": [
+          "谯周"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谯周",
+            "zhHant": "譙周"
+          }
+        ],
+        "sourceIds": [
+          "540"
+        ],
+        "sourceNames": [
+          "谯周"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "谯周",
+            "zhHant": "譙周"
+          }
+        ],
+        "searchNames": [
+          "谯周",
+          "譙周",
+          "qiaozhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-3232",
+        "ids": [
+          "3232"
+        ],
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        },
+        "names": [
+          "知命"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "知命",
+            "zhHant": "知命"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "540",
+        "skinKey": "-1",
+        "spellKey": "3232",
+        "rowIndex": 2,
+        "characterNames": [
+          "谯周"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--2skill1_1",
+      "resourceId": "540qiaozhou/2skill1_1",
+      "text": "百姓可苟全性命，老夫何惜身后之名。",
+      "textLocalized": {
+        "zhHans": "百姓可苟全性命，老夫何惜身后之名。",
+        "zhHant": "百姓可苟全性命，老夫何惜身後之名。"
+      },
+      "character": {
+        "slug": "qiaozhou",
+        "command": "qiaozhou",
+        "id": "540",
+        "ids": [
+          "540"
+        ],
+        "name": "谯周",
+        "displayName": {
+          "zhHans": "谯周",
+          "zhHant": "譙周"
+        },
+        "names": [
+          "谯周"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谯周",
+            "zhHant": "譙周"
+          }
+        ],
+        "sourceIds": [
+          "540"
+        ],
+        "sourceNames": [
+          "谯周"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "谯周",
+            "zhHant": "譙周"
+          }
+        ],
+        "searchNames": [
+          "谯周",
+          "譙周",
+          "qiaozhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-3232",
+        "ids": [
+          "3232"
+        ],
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        },
+        "names": [
+          "知命"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "知命",
+            "zhHant": "知命"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-54001",
+        "ids": [
+          "54001"
+        ],
+        "name": "寓星沉祚",
+        "displayName": {
+          "zhHans": "寓星沉祚",
+          "zhHant": "寓星沉祚"
+        },
+        "names": [
+          "寓星沉祚"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-54001",
+          "id": "54001",
+          "ids": [
+            "54001"
+          ],
+          "name": "寓星沉祚",
+          "displayName": {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          },
+          "names": [
+            "寓星沉祚"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "寓星沉祚",
+              "zhHant": "寓星沉祚"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "540",
+        "skinKey": "54001",
+        "spellKey": "3232",
+        "rowIndex": 1,
+        "characterNames": [
+          "谯周"
+        ],
+        "skinNames": [
+          "寓星沉祚"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--2skill1_2",
+      "resourceId": "540qiaozhou/2skill1_2",
+      "text": "周知天命之年，今冒天下不韪而劝降。",
+      "textLocalized": {
+        "zhHans": "周知天命之年，今冒天下不韪而劝降。",
+        "zhHant": "周知天命之年，今冒天下不韙而勸降。"
+      },
+      "character": {
+        "slug": "qiaozhou",
+        "command": "qiaozhou",
+        "id": "540",
+        "ids": [
+          "540"
+        ],
+        "name": "谯周",
+        "displayName": {
+          "zhHans": "谯周",
+          "zhHant": "譙周"
+        },
+        "names": [
+          "谯周"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谯周",
+            "zhHant": "譙周"
+          }
+        ],
+        "sourceIds": [
+          "540"
+        ],
+        "sourceNames": [
+          "谯周"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "谯周",
+            "zhHant": "譙周"
+          }
+        ],
+        "searchNames": [
+          "谯周",
+          "譙周",
+          "qiaozhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-3232",
+        "ids": [
+          "3232"
+        ],
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        },
+        "names": [
+          "知命"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "知命",
+            "zhHant": "知命"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-54001",
+        "ids": [
+          "54001"
+        ],
+        "name": "寓星沉祚",
+        "displayName": {
+          "zhHans": "寓星沉祚",
+          "zhHant": "寓星沉祚"
+        },
+        "names": [
+          "寓星沉祚"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-54001",
+          "id": "54001",
+          "ids": [
+            "54001"
+          ],
+          "name": "寓星沉祚",
+          "displayName": {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          },
+          "names": [
+            "寓星沉祚"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "寓星沉祚",
+              "zhHant": "寓星沉祚"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "540",
+        "skinKey": "54001",
+        "spellKey": "3232",
+        "rowIndex": 2,
+        "characterNames": [
+          "谯周"
+        ],
+        "skinNames": [
+          "寓星沉祚"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

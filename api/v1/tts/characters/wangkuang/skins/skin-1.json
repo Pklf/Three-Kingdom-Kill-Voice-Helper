@@ -1,3 +1,199 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2a00cf67e5a0a5a02ed7d7cdc18e037b391651fd8fae7d9b26c1e7871b63bf81
-size 5165
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangkuang",
+    "command": "wangkuang",
+    "name": "王匡",
+    "displayName": {
+      "zhHans": "王匡",
+      "zhHant": "王匡"
+    },
+    "names": [
+      "王匡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王匡",
+        "zhHant": "王匡"
+      }
+    ],
+    "ids": [
+      "636"
+    ],
+    "sourceNames": [
+      "王匡"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王匡",
+        "zhHant": "王匡"
+      }
+    ],
+    "sourceIds": [
+      "636"
+    ],
+    "searchNames": [
+      "wangkuang",
+      "王匡"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wangkuang/groups/dead.json"
+      },
+      {
+        "slug": "spell-3501",
+        "name": "任侠",
+        "displayName": {
+          "zhHans": "任侠",
+          "zhHant": "任俠"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wangkuang/groups/spell-3501.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wangkuang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangkuang.json",
+      "groups": "api/v1/tts/characters/wangkuang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangkuang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/wangkuang/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "wangkuang--636wangkuang--1dead01",
+      "resourceId": "636wangkuang/1dead01",
+      "text": "人心不古，世态炎凉。",
+      "textLocalized": {
+        "zhHans": "人心不古，世态炎凉。",
+        "zhHant": "人心不古，世態炎涼。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/636wangkuang-6cae8230/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/636wangkuang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangkuang--636wangkuang--1skill1_1",
+      "resourceId": "636wangkuang/1skill1_1",
+      "text": "俊毅如风，任胸中长虹惊云。",
+      "textLocalized": {
+        "zhHans": "俊毅如风，任胸中长虹惊云。",
+        "zhHant": "俊毅如風，任胸中長虹驚雲。"
+      },
+      "group": {
+        "slug": "spell-3501",
+        "name": "任侠",
+        "displayName": {
+          "zhHans": "任侠",
+          "zhHant": "任俠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/636wangkuang-6cae8230/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/636wangkuang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangkuang--636wangkuang--1skill1_2",
+      "resourceId": "636wangkuang/1skill1_2",
+      "text": "侠之大者，为国为民。",
+      "textLocalized": {
+        "zhHans": "侠之大者，为国为民。",
+        "zhHant": "俠之大者，爲國爲民。"
+      },
+      "group": {
+        "slug": "spell-3501",
+        "name": "任侠",
+        "displayName": {
+          "zhHans": "任侠",
+          "zhHant": "任俠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/636wangkuang-6cae8230/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/636wangkuang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

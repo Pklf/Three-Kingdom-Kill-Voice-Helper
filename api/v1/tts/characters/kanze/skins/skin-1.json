@@ -1,3 +1,330 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d3de5c76bfe9278208ea02ec8da29844525547c1337e257195f5a6fbe27433a
-size 8857
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "kanze",
+    "command": "kanze",
+    "name": "阚泽",
+    "displayName": {
+      "zhHans": "阚泽",
+      "zhHant": "闞澤"
+    },
+    "names": [
+      "阚泽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "ids": [
+      "371"
+    ],
+    "sourceNames": [
+      "阚泽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "sourceIds": [
+      "371"
+    ],
+    "searchNames": [
+      "kanze",
+      "阚泽",
+      "闞澤"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/kanze/groups/dead.json"
+      },
+      {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-361.json"
+      },
+      {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-362.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37101",
+        "name": "宽释请命",
+        "displayName": {
+          "zhHans": "宽释请命",
+          "zhHant": "寬釋請命"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101.json"
+      },
+      {
+        "slug": "skin-37101-37105",
+        "name": "宽释请命,观叶知微",
+        "displayName": {
+          "zhHans": "宽释请命,观叶知微",
+          "zhHant": "寬釋請命,觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101-37105.json"
+      },
+      {
+        "slug": "skin-37104",
+        "name": "密献降书",
+        "displayName": {
+          "zhHans": "密献降书",
+          "zhHant": "密獻降書"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37104.json"
+      },
+      {
+        "slug": "skin-37102",
+        "name": "昼耕夜诵",
+        "displayName": {
+          "zhHans": "昼耕夜诵",
+          "zhHant": "晝耕夜誦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37102.json"
+      },
+      {
+        "slug": "skin-37105",
+        "name": "观叶知微",
+        "displayName": {
+          "zhHans": "观叶知微",
+          "zhHant": "觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37105.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/kanze.json",
+      "groups": "api/v1/tts/characters/kanze/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/kanze/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/kanze/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "kanze--371kanze--1dead01",
+      "resourceId": "371kanze/1dead01",
+      "text": "我早已做好了牺牲的准备。",
+      "textLocalized": {
+        "zhHans": "我早已做好了牺牲的准备。",
+        "zhHant": "我早已做好了犧牲的準備。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--1skill1_1",
+      "resourceId": "371kanze/1skill1_1",
+      "text": "吾有密信，特来献于将军。",
+      "textLocalized": {
+        "zhHans": "吾有密信，特来献于将军。",
+        "zhHant": "吾有密信，特來獻於將軍。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--1skill1_2",
+      "resourceId": "371kanze/1skill1_2",
+      "text": "将军若不信，可亲自验看。",
+      "textLocalized": {
+        "zhHans": "将军若不信，可亲自验看。",
+        "zhHant": "將軍若不信，可親自驗看。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--1skill2_1",
+      "resourceId": "371kanze/1skill2_1",
+      "text": "不知者，无罪。",
+      "textLocalized": {
+        "zhHans": "不知者，无罪。",
+        "zhHant": "不知者，無罪。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--1skill2_2",
+      "resourceId": "371kanze/1skill2_2",
+      "text": "罚酒三杯，下不为例。",
+      "textLocalized": {
+        "zhHans": "罚酒三杯，下不为例。",
+        "zhHant": "罰酒三杯，下不爲例。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

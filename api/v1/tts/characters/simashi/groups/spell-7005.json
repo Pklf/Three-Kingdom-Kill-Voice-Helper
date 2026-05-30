@@ -1,3 +1,515 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:861aeffc4ed619c79ea85928efffc65213f6b1d71d894f1a0c93f7f84d2d0d1a
-size 14556
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simashi",
+    "command": "simashi",
+    "name": "司马师",
+    "displayName": {
+      "zhHans": "司马师",
+      "zhHant": "司馬師"
+    },
+    "names": [
+      "司马师"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马师",
+        "zhHant": "司馬師"
+      }
+    ],
+    "ids": [
+      "7002"
+    ],
+    "sourceNames": [
+      "司马师"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马师",
+        "zhHant": "司馬師"
+      }
+    ],
+    "sourceIds": [
+      "7002"
+    ],
+    "searchNames": [
+      "simashi",
+      "司马师",
+      "司馬師"
+    ],
+    "lineCount": 45,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simashi/groups/dead.json"
+      },
+      {
+        "slug": "spell-7004",
+        "name": "韬隐",
+        "displayName": {
+          "zhHans": "韬隐",
+          "zhHant": "韜隱"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7004.json"
+      },
+      {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7005.json"
+      },
+      {
+        "slug": "spell-7006",
+        "name": "睿略",
+        "displayName": {
+          "zhHans": "睿略",
+          "zhHant": "睿略"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7006.json"
+      },
+      {
+        "slug": "spell-7007",
+        "name": "泰然",
+        "displayName": {
+          "zhHans": "泰然",
+          "zhHant": "泰然"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7007.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700202",
+        "name": "桀骜睥睨",
+        "displayName": {
+          "zhHans": "桀骜睥睨",
+          "zhHant": "桀驁睥睨"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700202.json"
+      },
+      {
+        "slug": "skin-700201",
+        "name": "浩淼情缘",
+        "displayName": {
+          "zhHans": "浩淼情缘",
+          "zhHant": "浩淼情緣"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700201.json"
+      },
+      {
+        "slug": "skin-700205",
+        "name": "锐意无当",
+        "displayName": {
+          "zhHans": "锐意无当",
+          "zhHant": "銳意無當"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700205.json"
+      },
+      {
+        "slug": "skin-700203",
+        "name": "闲适悠趣",
+        "displayName": {
+          "zhHans": "闲适悠趣",
+          "zhHant": "閒適悠趣"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700203.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simashi.json",
+      "groups": "api/v1/tts/characters/simashi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simashi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-7005",
+    "name": "夷灭",
+    "displayName": {
+      "zhHans": "夷灭",
+      "zhHant": "夷滅"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/simashi/groups/spell-7005.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "simashi--7002simashi--1skill2_1",
+      "resourceId": "7002simashi/1skill2_1",
+      "text": "汝大逆不道，当死无赦！",
+      "textLocalized": {
+        "zhHans": "汝大逆不道，当死无赦！",
+        "zhHant": "汝大逆不道，當死無赦！"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--1skill2_2",
+      "resourceId": "7002simashi/1skill2_2",
+      "text": "斩草除根，灭其退路。",
+      "textLocalized": {
+        "zhHans": "斩草除根，灭其退路。",
+        "zhHant": "斬草除根，滅其退路。"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill2_1",
+      "resourceId": "7002simashi/3skill2_1",
+      "text": "夷此僚三族，以儆效尤！",
+      "textLocalized": {
+        "zhHans": "夷此僚三族，以儆效尤！",
+        "zhHant": "夷此僚三族，以儆效尤！"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3skill2_2",
+      "resourceId": "7002simashi/3skill2_2",
+      "text": "逆我司马氏者，罪无可恕！",
+      "textLocalized": {
+        "zhHans": "逆我司马氏者，罪无可恕！",
+        "zhHant": "逆我司馬氏者，罪無可恕！"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--2skill2_1",
+      "resourceId": "7002simashi/2skill2_1",
+      "text": "内外诛夷，凡敢言逆者，皆斩。",
+      "textLocalized": {
+        "zhHans": "内外诛夷，凡敢言逆者，皆斩。",
+        "zhHant": "內外誅夷，凡敢言逆者，皆斬。"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700201",
+          "name": "浩淼情缘",
+          "displayName": {
+            "zhHans": "浩淼情缘",
+            "zhHant": "浩淼情緣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--2skill2_2",
+      "resourceId": "7002simashi/2skill2_2",
+      "text": "亡其国，灭其主，绝其意！",
+      "textLocalized": {
+        "zhHans": "亡其国，灭其主，绝其意！",
+        "zhHant": "亡其國，滅其主，絕其意！"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700201",
+          "name": "浩淼情缘",
+          "displayName": {
+            "zhHans": "浩淼情缘",
+            "zhHant": "浩淼情緣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--5skill2_1",
+      "resourceId": "7002simashi/5skill2_1",
+      "text": "大逆之贼，当斩无赦！",
+      "textLocalized": {
+        "zhHans": "大逆之贼，当斩无赦！",
+        "zhHant": "大逆之賊，當斬無赦！"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700205",
+          "name": "锐意无当",
+          "displayName": {
+            "zhHans": "锐意无当",
+            "zhHant": "銳意無當"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--5skill2_2",
+      "resourceId": "7002simashi/5skill2_2",
+      "text": "司马氏刀下焉有活口乎！",
+      "textLocalized": {
+        "zhHans": "司马氏刀下焉有活口乎！",
+        "zhHant": "司馬氏刀下焉有活口乎！"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700205",
+          "name": "锐意无当",
+          "displayName": {
+            "zhHans": "锐意无当",
+            "zhHant": "銳意無當"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--4skill2_1",
+      "resourceId": "7002simashi/4skill2_1",
+      "text": "除逆务净，不留后患",
+      "textLocalized": {
+        "zhHans": "除逆务净，不留后患",
+        "zhHant": "除逆務淨，不留後患"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700203",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--4skill2_2",
+      "resourceId": "7002simashi/4skill2_2",
+      "text": "穷寇宜追，夷汝三族！",
+      "textLocalized": {
+        "zhHans": "穷寇宜追，夷汝三族！",
+        "zhHant": "窮寇宜追，夷汝三族！"
+      },
+      "group": {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700203",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

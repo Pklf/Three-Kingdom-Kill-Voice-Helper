@@ -1,3 +1,254 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aa67c05046fa57a3127ca2fb7e7c753956bd01669a00d02dce974531f97b374b
-size 6853
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "quhuang",
+    "command": "quhuang",
+    "name": "屈晃",
+    "displayName": {
+      "zhHans": "屈晃",
+      "zhHant": "屈晃"
+    },
+    "names": [
+      "屈晃"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "屈晃",
+        "zhHant": "屈晃"
+      }
+    ],
+    "ids": [
+      "535"
+    ],
+    "sourceNames": [
+      "屈晃"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "屈晃",
+        "zhHant": "屈晃"
+      }
+    ],
+    "sourceIds": [
+      "535"
+    ],
+    "searchNames": [
+      "quhuang",
+      "屈晃"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/quhuang/groups/dead.json"
+      },
+      {
+        "slug": "spell-3215",
+        "name": "切谏",
+        "displayName": {
+          "zhHans": "切谏",
+          "zhHant": "切諫"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/quhuang/groups/spell-3215.json"
+      },
+      {
+        "slug": "spell-3216",
+        "name": "泥首",
+        "displayName": {
+          "zhHans": "泥首",
+          "zhHant": "泥首"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/quhuang/groups/spell-3216.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quhuang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-53501",
+        "name": "归鸿无觅",
+        "displayName": {
+          "zhHans": "归鸿无觅",
+          "zhHant": "歸鴻無覓"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quhuang/skins/skin-53501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/quhuang.json",
+      "groups": "api/v1/tts/characters/quhuang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/quhuang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3215",
+    "name": "切谏",
+    "displayName": {
+      "zhHans": "切谏",
+      "zhHant": "切諫"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/quhuang/groups/spell-3215.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "quhuang--535quhuang--1skill1_1",
+      "resourceId": "535quhuang/1skill1_1",
+      "text": "东宫不稳，必使众人生异。",
+      "textLocalized": {
+        "zhHans": "东宫不稳，必使众人生异。",
+        "zhHant": "東宮不穩，必使衆人生異。"
+      },
+      "group": {
+        "slug": "spell-3215",
+        "name": "切谏",
+        "displayName": {
+          "zhHans": "切谏",
+          "zhHant": "切諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/535quhuang-bef910cc/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/535quhuang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quhuang--535quhuang--1skill1_2",
+      "resourceId": "535quhuang/1skill1_2",
+      "text": "今三方鼎峙，不宜擅动储君。",
+      "textLocalized": {
+        "zhHans": "今三方鼎峙，不宜擅动储君。",
+        "zhHant": "今三方鼎峙，不宜擅動儲君。"
+      },
+      "group": {
+        "slug": "spell-3215",
+        "name": "切谏",
+        "displayName": {
+          "zhHans": "切谏",
+          "zhHant": "切諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/535quhuang-bef910cc/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/535quhuang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quhuang--535quhuang--2skill1_1",
+      "resourceId": "535quhuang/2skill1_1",
+      "text": "臣切切之言，纵折殿陛亦谏之。",
+      "textLocalized": {
+        "zhHans": "臣切切之言，纵折殿陛亦谏之。",
+        "zhHant": "臣切切之言，縱折殿陛亦諫之。"
+      },
+      "group": {
+        "slug": "spell-3215",
+        "name": "切谏",
+        "displayName": {
+          "zhHans": "切谏",
+          "zhHant": "切諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53501",
+          "name": "归鸿无觅",
+          "displayName": {
+            "zhHans": "归鸿无觅",
+            "zhHant": "歸鴻無覓"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/535quhuang-bef910cc/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/535quhuang/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quhuang--535quhuang--2skill1_2",
+      "resourceId": "535quhuang/2skill1_2",
+      "text": "自古文臣死谏，臣当以身效死。",
+      "textLocalized": {
+        "zhHans": "自古文臣死谏，臣当以身效死。",
+        "zhHant": "自古文臣死諫，臣當以身效死。"
+      },
+      "group": {
+        "slug": "spell-3215",
+        "name": "切谏",
+        "displayName": {
+          "zhHans": "切谏",
+          "zhHant": "切諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53501",
+          "name": "归鸿无觅",
+          "displayName": {
+            "zhHans": "归鸿无觅",
+            "zhHant": "歸鴻無覓"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/535quhuang-bef910cc/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/535quhuang/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

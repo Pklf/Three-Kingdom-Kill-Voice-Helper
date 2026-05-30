@@ -1,3 +1,417 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e3c6ffa9f47b1fa5fac684a9b68451f0a59c90292058b7fa56fbc8858dcdbeb3
-size 11587
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangping",
+    "command": "wangping",
+    "name": "王平",
+    "displayName": {
+      "zhHans": "王平",
+      "zhHant": "王平"
+    },
+    "names": [
+      "王平",
+      "2099"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王平",
+        "zhHant": "王平"
+      },
+      {
+        "zhHans": "2099",
+        "zhHant": "2099"
+      }
+    ],
+    "ids": [
+      "401",
+      "2099"
+    ],
+    "sourceNames": [
+      "王平"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王平",
+        "zhHant": "王平"
+      }
+    ],
+    "sourceIds": [
+      "401",
+      "2099"
+    ],
+    "searchNames": [
+      "wangping",
+      "王平",
+      "2099"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangping/groups/dead.json"
+      },
+      {
+        "slug": "spell-2154",
+        "name": "将略",
+        "displayName": {
+          "zhHans": "将略",
+          "zhHant": "將略"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wangping/groups/spell-2154.json"
+      },
+      {
+        "slug": "spell-802",
+        "name": "飞军",
+        "displayName": {
+          "zhHans": "飞军",
+          "zhHant": "飛軍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wangping/groups/spell-802.json"
+      },
+      {
+        "slug": "spell-803",
+        "name": "兵略",
+        "displayName": {
+          "zhHans": "兵略",
+          "zhHant": "兵略"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wangping/groups/spell-803.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-40105",
+        "name": "坚守镇防",
+        "displayName": {
+          "zhHans": "坚守镇防",
+          "zhHant": "堅守鎮防"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40105.json"
+      },
+      {
+        "slug": "skin-40104",
+        "name": "安汉侯臣",
+        "displayName": {
+          "zhHans": "安汉侯臣",
+          "zhHant": "安漢侯臣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40104.json"
+      },
+      {
+        "slug": "skin-40104-40106",
+        "name": "安汉侯臣,忠勇护蜀",
+        "displayName": {
+          "zhHans": "安汉侯臣,忠勇护蜀",
+          "zhHant": "安漢侯臣,忠勇護蜀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40104-40106.json"
+      },
+      {
+        "slug": "skin-40106",
+        "name": "忠勇护蜀",
+        "displayName": {
+          "zhHans": "忠勇护蜀",
+          "zhHant": "忠勇護蜀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40106.json"
+      },
+      {
+        "slug": "skin-40102",
+        "name": "汉中显威",
+        "displayName": {
+          "zhHans": "汉中显威",
+          "zhHant": "漢中顯威"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangping.json",
+      "groups": "api/v1/tts/characters/wangping/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangping/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/wangping/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "wangping--401wangping--1dead01",
+      "resourceId": "401wangping/1dead01",
+      "text": "无当飞军，也有困于山林之时。",
+      "textLocalized": {
+        "zhHans": "无当飞军，也有困于山林之时。",
+        "zhHant": "無當飛軍，也有困於山林之時。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/401wangping-79fa240c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/401wangping/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangping--2099wangping--1skill1_1",
+      "resourceId": "2099wangping/1skill1_1",
+      "text": "奇谋为短，将略为要！",
+      "textLocalized": {
+        "zhHans": "奇谋为短，将略为要！",
+        "zhHant": "奇謀爲短，將略爲要！"
+      },
+      "group": {
+        "slug": "spell-2154",
+        "name": "将略",
+        "displayName": {
+          "zhHans": "将略",
+          "zhHant": "將略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2099wangping-4c6f2fa1/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2099wangping/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangping--2099wangping--1skill1_2",
+      "resourceId": "2099wangping/1skill1_2",
+      "text": "为将者，须有谋略！",
+      "textLocalized": {
+        "zhHans": "为将者，须有谋略！",
+        "zhHant": "爲將者，須有謀略！"
+      },
+      "group": {
+        "slug": "spell-2154",
+        "name": "将略",
+        "displayName": {
+          "zhHans": "将略",
+          "zhHant": "將略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2099wangping-4c6f2fa1/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2099wangping/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangping--401wangping--1skill1_1",
+      "resourceId": "401wangping/1skill1_1",
+      "text": "山地崎岖，也挡不住飞军破势！",
+      "textLocalized": {
+        "zhHans": "山地崎岖，也挡不住飞军破势！",
+        "zhHant": "山地崎嶇，也擋不住飛軍破勢！"
+      },
+      "group": {
+        "slug": "spell-802",
+        "name": "飞军",
+        "displayName": {
+          "zhHans": "飞军",
+          "zhHant": "飛軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/401wangping-79fa240c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/401wangping/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangping--401wangping--1skill1_2",
+      "resourceId": "401wangping/1skill1_2",
+      "text": "无当飞军，伐叛乱，镇蛮夷。",
+      "textLocalized": {
+        "zhHans": "无当飞军，伐叛乱，镇蛮夷。",
+        "zhHant": "無當飛軍，伐叛亂，鎮蠻夷。"
+      },
+      "group": {
+        "slug": "spell-802",
+        "name": "飞军",
+        "displayName": {
+          "zhHans": "飞军",
+          "zhHant": "飛軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/401wangping-79fa240c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/401wangping/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangping--401wangping--1skill2_1",
+      "resourceId": "401wangping/1skill2_1",
+      "text": "兵略者，明战胜攻取之数，形机之势，诈谲之变。",
+      "textLocalized": {
+        "zhHans": "兵略者，明战胜攻取之数，形机之势，诈谲之变。",
+        "zhHant": "兵略者，明戰勝攻取之數，形機之勢，詐譎之變。"
+      },
+      "group": {
+        "slug": "spell-803",
+        "name": "兵略",
+        "displayName": {
+          "zhHans": "兵略",
+          "zhHant": "兵略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/401wangping-79fa240c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/401wangping/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangping--401wangping--1skill2_2",
+      "resourceId": "401wangping/1skill2_2",
+      "text": "奇略兵速，敌未能料之。",
+      "textLocalized": {
+        "zhHans": "奇略兵速，敌未能料之。",
+        "zhHant": "奇略兵速，敵未能料之。"
+      },
+      "group": {
+        "slug": "spell-803",
+        "name": "兵略",
+        "displayName": {
+          "zhHans": "兵略",
+          "zhHant": "兵略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/401wangping-79fa240c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/401wangping/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

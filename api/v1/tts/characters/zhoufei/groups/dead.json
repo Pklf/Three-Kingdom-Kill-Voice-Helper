@@ -1,3 +1,445 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6ce4e1b9c9231ad8b7cd482db066d7f5eb9c97cec47006d7c97564630b0ea613
-size 12377
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhoufei",
+    "command": "zhoufei",
+    "name": "周妃",
+    "displayName": {
+      "zhHans": "周妃",
+      "zhHant": "周妃"
+    },
+    "names": [
+      "周妃"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周妃",
+        "zhHant": "周妃"
+      }
+    ],
+    "ids": [
+      "411"
+    ],
+    "sourceNames": [
+      "周妃"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周妃",
+        "zhHant": "周妃"
+      }
+    ],
+    "sourceIds": [
+      "411"
+    ],
+    "searchNames": [
+      "zhoufei",
+      "周妃"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhoufei/groups/dead.json"
+      },
+      {
+        "slug": "spell-820",
+        "name": "良姻",
+        "displayName": {
+          "zhHans": "良姻",
+          "zhHant": "良姻"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/zhoufei/groups/spell-820.json"
+      },
+      {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/zhoufei/groups/spell-821.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "41107",
+        "name": "41107",
+        "displayName": {
+          "zhHans": "41107",
+          "zhHant": "41107"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/41107.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41106",
+        "name": "清风轻拂",
+        "displayName": {
+          "zhHans": "清风轻拂",
+          "zhHant": "清風輕拂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41106.json"
+      },
+      {
+        "slug": "skin-41101",
+        "name": "箜灵寻音",
+        "displayName": {
+          "zhHans": "箜灵寻音",
+          "zhHant": "箜靈尋音"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41101.json"
+      },
+      {
+        "slug": "skin-41101-41106",
+        "name": "箜灵寻音,清风轻拂",
+        "displayName": {
+          "zhHans": "箜灵寻音,清风轻拂",
+          "zhHant": "箜靈尋音,清風輕拂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41101-41106.json"
+      },
+      {
+        "slug": "skin-41102",
+        "name": "箜篌箜声",
+        "displayName": {
+          "zhHans": "箜篌箜声",
+          "zhHant": "箜篌箜聲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41102.json"
+      },
+      {
+        "slug": "skin-41104",
+        "name": "金枝玉叶",
+        "displayName": {
+          "zhHans": "金枝玉叶",
+          "zhHant": "金枝玉葉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41104.json"
+      },
+      {
+        "slug": "skin-41105",
+        "name": "金秋霁月",
+        "displayName": {
+          "zhHans": "金秋霁月",
+          "zhHant": "金秋霽月"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41105.json"
+      },
+      {
+        "slug": "skin-41103",
+        "name": "鹊星夕情",
+        "displayName": {
+          "zhHans": "鹊星夕情",
+          "zhHant": "鵲星夕情"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41103.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhoufei.json",
+      "groups": "api/v1/tts/characters/zhoufei/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhoufei/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/zhoufei/groups/dead.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "zhoufei--411zhoufei--8dead01",
+      "resourceId": "411zhoufei/8dead01",
+      "text": "情起于春秋，情终于草木",
+      "textLocalized": {
+        "zhHans": "情起于春秋，情终于草木",
+        "zhHant": "情起於春秋，情終於草木"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "41107",
+          "name": "41107",
+          "displayName": {
+            "zhHans": "41107",
+            "zhHant": "41107"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/8dead01-8259fcf3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/8dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--1dead01",
+      "resourceId": "411zhoufei/1dead01",
+      "text": "夫君，妾身再也不能，陪你看这江南翠绿了。",
+      "textLocalized": {
+        "zhHans": "夫君，妾身再也不能，陪你看这江南翠绿了。",
+        "zhHant": "夫君，妾身再也不能，陪你看這江南翠綠了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--3dead01",
+      "resourceId": "411zhoufei/3dead01",
+      "text": "为谁丹青画黛眉。",
+      "textLocalized": {
+        "zhHans": "为谁丹青画黛眉。",
+        "zhHant": "爲誰丹青畫黛眉。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41106",
+          "name": "清风轻拂",
+          "displayName": {
+            "zhHans": "清风轻拂",
+            "zhHant": "清風輕拂"
+          }
+        },
+        {
+          "slug": "skin-41101",
+          "name": "箜灵寻音",
+          "displayName": {
+            "zhHans": "箜灵寻音",
+            "zhHant": "箜靈尋音"
+          }
+        },
+        {
+          "slug": "skin-41101-41106",
+          "name": "箜灵寻音,清风轻拂",
+          "displayName": {
+            "zhHans": "箜灵寻音,清风轻拂",
+            "zhHant": "箜靈尋音,清風輕拂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--4dead01",
+      "resourceId": "411zhoufei/4dead01",
+      "text": "箜篌曲散，化归尘。",
+      "textLocalized": {
+        "zhHans": "箜篌曲散，化归尘。",
+        "zhHant": "箜篌曲散，化歸塵。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41102",
+          "name": "箜篌箜声",
+          "displayName": {
+            "zhHans": "箜篌箜声",
+            "zhHant": "箜篌箜聲"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--7dead01",
+      "resourceId": "411zhoufei/7dead01",
+      "text": "梧桐半枯衰，鸳鸯白头散。",
+      "textLocalized": {
+        "zhHans": "梧桐半枯衰，鸳鸯白头散。",
+        "zhHant": "梧桐半枯衰，鴛鴦白頭散。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41104",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/7dead01-0ca4a53e.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/7dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--6dead01",
+      "resourceId": "411zhoufei/6dead01",
+      "text": "深宫如渊海，悲苦唯自知。",
+      "textLocalized": {
+        "zhHans": "深宫如渊海，悲苦唯自知。",
+        "zhHant": "深宮如淵海，悲苦唯自知。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41105",
+          "name": "金秋霁月",
+          "displayName": {
+            "zhHans": "金秋霁月",
+            "zhHant": "金秋霽月"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--5dead01",
+      "resourceId": "411zhoufei/5dead01",
+      "text": "执手凝噎哽，玉容泪阑珊。",
+      "textLocalized": {
+        "zhHans": "执手凝噎哽，玉容泪阑珊。",
+        "zhHant": "執手凝噎哽，玉容淚闌珊。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41103",
+          "name": "鹊星夕情",
+          "displayName": {
+            "zhHans": "鹊星夕情",
+            "zhHant": "鵲星夕情"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

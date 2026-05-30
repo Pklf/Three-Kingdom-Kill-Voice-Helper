@@ -1,3 +1,705 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:011d82ba367c7cc7f28361f01357cf4359eb4197abb3c89619bf2f99865774e1
-size 20906
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zuzhonghui",
+    "command": "zuzhonghui",
+    "name": "族钟会",
+    "displayName": {
+      "zhHans": "族钟会",
+      "zhHant": "族鍾會"
+    },
+    "names": [
+      "族钟会"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟会",
+        "zhHant": "族鍾會"
+      }
+    ],
+    "ids": [
+      "567"
+    ],
+    "sourceNames": [
+      "族钟会"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟会",
+        "zhHant": "族鍾會"
+      }
+    ],
+    "sourceIds": [
+      "567"
+    ],
+    "searchNames": [
+      "zuzhonghui",
+      "族钟会",
+      "族鍾會"
+    ],
+    "lineCount": 56,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 16,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        },
+        "lineCount": 16,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3322.json"
+      },
+      {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        },
+        "lineCount": 16,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3323.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "56703",
+        "name": "56703",
+        "displayName": {
+          "zhHans": "56703",
+          "zhHant": "56703"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/56703.json"
+      },
+      {
+        "slug": "skin-56701",
+        "name": "一将功成",
+        "displayName": {
+          "zhHans": "一将功成",
+          "zhHant": "一將功成"
+        },
+        "lineCount": 21,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-56701.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 21,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-56702",
+        "name": "金兰共战",
+        "displayName": {
+          "zhHans": "金兰共战",
+          "zhHant": "金蘭共戰"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-56702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zuzhonghui.json",
+      "groups": "api/v1/tts/characters/zuzhonghui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zuzhonghui/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3323",
+    "name": "挟术",
+    "displayName": {
+      "zhHans": "挟术",
+      "zhHant": "挾術"
+    },
+    "lineCount": 16,
+    "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3323.json"
+  },
+  "lineCount": 16,
+  "lines": [
+    {
+      "id": "zuzhonghui--567zuzhonghui--4skill2_1",
+      "resourceId": "567zuzhonghui/4skill2_1",
+      "text": "王侯将相，不在其种，而在其行。",
+      "textLocalized": {
+        "zhHans": "王侯将相，不在其种，而在其行。",
+        "zhHant": "王侯將相，不在其種，而在其行。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "56703",
+          "name": "56703",
+          "displayName": {
+            "zhHans": "56703",
+            "zhHant": "56703"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--4skill2_2",
+      "resourceId": "567zuzhonghui/4skill2_2",
+      "text": "心怀屠龙之术，何患手无长缨。",
+      "textLocalized": {
+        "zhHans": "心怀屠龙之术，何患手无长缨。",
+        "zhHant": "心懷屠龍之術，何患手無長纓。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "56703",
+          "name": "56703",
+          "displayName": {
+            "zhHans": "56703",
+            "zhHant": "56703"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill2_1",
+      "resourceId": "567zuzhonghui/2skill2_1",
+      "text": "不要给我成脸子，小心肠子悔青嘞。",
+      "textLocalized": {
+        "zhHans": "不要给我成脸子，小心肠子悔青嘞。",
+        "zhHant": "不要給我成臉子，小心腸子悔青嘞。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill2_2",
+      "resourceId": "567zuzhonghui/2skill2_2",
+      "text": "有本事才吃哩开，没本事就该受罪。",
+      "textLocalized": {
+        "zhHans": "有本事才吃哩开，没本事就该受罪。",
+        "zhHant": "有本事才喫哩開，沒本事就該受罪。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill2_3",
+      "resourceId": "567zuzhonghui/2skill2_3",
+      "text": "大争之世，英雄弄风云，吾辈空叹否？",
+      "textLocalized": {
+        "zhHans": "大争之世，英雄弄风云，吾辈空叹否？",
+        "zhHant": "大爭之世，英雄弄風雲，吾輩空嘆否？"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill2-3-2348e111.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill2_3.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill2_4",
+      "resourceId": "567zuzhonghui/2skill2_4",
+      "text": "窃钩者诛，窃国者侯，会欲窃九州为狩。",
+      "textLocalized": {
+        "zhHans": "窃钩者诛，窃国者侯，会欲窃九州为狩。",
+        "zhHant": "竊鉤者誅，竊國者侯，會欲竊九州爲狩。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill2-4-1c811fec.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill2_4.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill2_5",
+      "resourceId": "567zuzhonghui/2skill2_5",
+      "text": "经略四州之地，可钓金鲤于渭水。",
+      "textLocalized": {
+        "zhHans": "经略四州之地，可钓金鲤于渭水。",
+        "zhHant": "經略四州之地，可釣金鯉於渭水。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill2-5-0dc8bb16.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill2_5.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill2_6",
+      "resourceId": "567zuzhonghui/2skill2_6",
+      "text": "今提三尺剑、开万里疆，九鼎不足为重！",
+      "textLocalized": {
+        "zhHans": "今提三尺剑、开万里疆，九鼎不足为重！",
+        "zhHant": "今提三尺劍、開萬里疆，九鼎不足爲重！"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill2-6-0fdce0d6.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill2_6.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill2_1",
+      "resourceId": "567zuzhonghui/1skill2_1",
+      "text": "大丈夫胸怀四海，有提携玉龙之术。",
+      "textLocalized": {
+        "zhHans": "大丈夫胸怀四海，有提携玉龙之术。",
+        "zhHant": "大丈夫胸懷四海，有提攜玉龍之術。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill2_2",
+      "resourceId": "567zuzhonghui/1skill2_2",
+      "text": "王霸之志在胸，我岂池中之物？",
+      "textLocalized": {
+        "zhHans": "王霸之志在胸，我岂池中之物？",
+        "zhHant": "王霸之志在胸，我豈池中之物？"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill2_3",
+      "resourceId": "567zuzhonghui/1skill2_3",
+      "text": "历经风浪至此，会不可止步于龙门。",
+      "textLocalized": {
+        "zhHans": "历经风浪至此，会不可止步于龙门。",
+        "zhHant": "歷經風浪至此，會不可止步於龍門。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill2-3-990c8fd9.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill2_3.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill2_4",
+      "resourceId": "567zuzhonghui/1skill2_4",
+      "text": "我若束手无策，诸位又有何施为？",
+      "textLocalized": {
+        "zhHans": "我若束手无策，诸位又有何施为？",
+        "zhHant": "我若束手無策，諸位又有何施爲？"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill2-4-dc2c1a45.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill2_4.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill2_5",
+      "resourceId": "567zuzhonghui/1skill2_5",
+      "text": "今长缨在手，欲问鼎九州。",
+      "textLocalized": {
+        "zhHans": "今长缨在手，欲问鼎九州。",
+        "zhHant": "今長纓在手，欲問鼎九州。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill2-5-a77b1ca3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill2_5.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill2_6",
+      "resourceId": "567zuzhonghui/1skill2_6",
+      "text": "我有佐国之术，可缚苍龙。",
+      "textLocalized": {
+        "zhHans": "我有佐国之术，可缚苍龙。",
+        "zhHant": "我有佐國之術，可縛蒼龍。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill2-6-c7cf7c10.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill2_6.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill2_1",
+      "resourceId": "567zuzhonghui/3skill2_1",
+      "text": "于天下觉春秋尚早，于伯约恨相见太迟。",
+      "textLocalized": {
+        "zhHans": "于天下觉春秋尚早，于伯约恨相见太迟。",
+        "zhHant": "於天下覺春秋尚早，於伯約恨相見太遲。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill2_2",
+      "resourceId": "567zuzhonghui/3skill2_2",
+      "text": "与君并肩高处，可观众山之小。",
+      "textLocalized": {
+        "zhHans": "与君并肩高处，可观众山之小。",
+        "zhHant": "與君並肩高處，可觀衆山之小。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

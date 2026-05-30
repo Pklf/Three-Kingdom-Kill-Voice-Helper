@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bcaedab27a052f0a7d69507b3ef0ebfd6e3c4313d6ed364fcca28803be8b7b54
-size 8320
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoren",
+    "command": "caoren",
+    "name": "曹仁",
+    "displayName": {
+      "zhHans": "曹仁",
+      "zhHant": "曹仁"
+    },
+    "names": [
+      "曹仁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹仁",
+        "zhHant": "曹仁"
+      }
+    ],
+    "ids": [
+      "29"
+    ],
+    "sourceNames": [
+      "曹仁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹仁",
+        "zhHant": "曹仁"
+      }
+    ],
+    "sourceIds": [
+      "29"
+    ],
+    "searchNames": [
+      "caoren",
+      "曹仁"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoren/groups/dead.json"
+      },
+      {
+        "slug": "spell-370-74-2145",
+        "name": "据守",
+        "displayName": {
+          "zhHans": "据守",
+          "zhHant": "據守"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caoren/groups/spell-370-74-2145.json"
+      },
+      {
+        "slug": "spell-371",
+        "name": "解围",
+        "displayName": {
+          "zhHans": "解围",
+          "zhHant": "解圍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caoren/groups/spell-371.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-2902",
+        "name": "力抵万钧",
+        "displayName": {
+          "zhHans": "力抵万钧",
+          "zhHant": "力抵萬鈞"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2902.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-2903",
+        "name": "坚石铁壁",
+        "displayName": {
+          "zhHans": "坚石铁壁",
+          "zhHant": "堅石鐵壁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2903.json"
+      },
+      {
+        "slug": "skin-2904",
+        "name": "据守樊城",
+        "displayName": {
+          "zhHans": "据守樊城",
+          "zhHant": "據守樊城"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2904.json"
+      },
+      {
+        "slug": "skin-2901",
+        "name": "神勇撼敌",
+        "displayName": {
+          "zhHans": "神勇撼敌",
+          "zhHant": "神勇撼敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2901.json"
+      },
+      {
+        "slug": "skin-2901-2902",
+        "name": "神勇撼敌,力抵万钧",
+        "displayName": {
+          "zhHans": "神勇撼敌,力抵万钧",
+          "zhHant": "神勇撼敵,力抵萬鈞"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2901-2902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoren.json",
+      "groups": "api/v1/tts/characters/caoren/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoren/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/caoren/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "caoren--29caoren--1dead01",
+      "resourceId": "29caoren/1dead01",
+      "text": "长江以南，再无王土矣！",
+      "textLocalized": {
+        "zhHans": "长江以南，再无王土矣！",
+        "zhHant": "長江以南，再無王土矣！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/29caoren-5a97849d/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoren--29caoren--4dead01",
+      "resourceId": "29caoren/4dead01",
+      "text": "命中如此啊……",
+      "textLocalized": {
+        "zhHans": "命中如此啊……",
+        "zhHant": "命中如此啊……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-2903",
+          "name": "坚石铁壁",
+          "displayName": {
+            "zhHans": "坚石铁壁",
+            "zhHant": "堅石鐵壁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/29caoren-5a97849d/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoren--29caoren--5dead01",
+      "resourceId": "29caoren/5dead01",
+      "text": "坚守到……最后一刻！",
+      "textLocalized": {
+        "zhHans": "坚守到……最后一刻！",
+        "zhHant": "堅守到……最後一刻！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-2904",
+          "name": "据守樊城",
+          "displayName": {
+            "zhHans": "据守樊城",
+            "zhHant": "據守樊城"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/29caoren-5a97849d/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoren--29caoren--3dead01",
+      "resourceId": "29caoren/3dead01",
+      "text": "有负丞相厚托，子孝愧矣！",
+      "textLocalized": {
+        "zhHans": "有负丞相厚托，子孝愧矣！",
+        "zhHant": "有負丞相厚託，子孝愧矣！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-2902",
+          "name": "力抵万钧",
+          "displayName": {
+            "zhHans": "力抵万钧",
+            "zhHant": "力抵萬鈞"
+          }
+        },
+        {
+          "slug": "skin-2901",
+          "name": "神勇撼敌",
+          "displayName": {
+            "zhHans": "神勇撼敌",
+            "zhHant": "神勇撼敵"
+          }
+        },
+        {
+          "slug": "skin-2901-2902",
+          "name": "神勇撼敌,力抵万钧",
+          "displayName": {
+            "zhHans": "神勇撼敌,力抵万钧",
+            "zhHant": "神勇撼敵,力抵萬鈞"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/29caoren-5a97849d/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

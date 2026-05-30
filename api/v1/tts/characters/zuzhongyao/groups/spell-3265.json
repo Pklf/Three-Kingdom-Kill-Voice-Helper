@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ff930a50310d846a91ee33e77910d3a4c2fba377865c885aa2e8cb64c1957b3
-size 4810
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zuzhongyao",
+    "command": "zuzhongyao",
+    "name": "族钟繇",
+    "displayName": {
+      "zhHans": "族钟繇",
+      "zhHant": "族鍾繇"
+    },
+    "names": [
+      "族钟繇"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟繇",
+        "zhHant": "族鍾繇"
+      }
+    ],
+    "ids": [
+      "630"
+    ],
+    "sourceNames": [
+      "族钟繇"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟繇",
+        "zhHant": "族鍾繇"
+      }
+    ],
+    "sourceIds": [
+      "630"
+    ],
+    "searchNames": [
+      "zuzhongyao",
+      "族钟繇",
+      "族鍾繇"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3482",
+        "name": "承启",
+        "displayName": {
+          "zhHans": "承启",
+          "zhHant": "承啓"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3482.json"
+      },
+      {
+        "slug": "spell-3483",
+        "name": "诫厉",
+        "displayName": {
+          "zhHans": "诫厉",
+          "zhHant": "誡厲"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3483.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zuzhongyao.json",
+      "groups": "api/v1/tts/characters/zuzhongyao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zuzhongyao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3265",
+    "name": "保族",
+    "displayName": {
+      "zhHans": "保族",
+      "zhHant": "保族"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3265.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill3_1",
+      "resourceId": "630zuzhongyao/1skill3_1",
+      "text": "立规定矩，教习钟门之材。",
+      "textLocalized": {
+        "zhHans": "立规定矩，教习钟门之材。",
+        "zhHant": "立規定矩，教習鍾門之材。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill3_2",
+      "resourceId": "630zuzhongyao/1skill3_2",
+      "text": "放任纨绔，于族是祸非福。",
+      "textLocalized": {
+        "zhHans": "放任纨绔，于族是祸非福。",
+        "zhHant": "放任紈絝，於族是禍非福。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

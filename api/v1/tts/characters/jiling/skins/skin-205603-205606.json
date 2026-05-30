@@ -1,3 +1,298 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:66ea7bb9ff40418c179e5fe1f74c42640b2b22a970bae3e4a09a277ed994df48
-size 8225
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiling",
+    "command": "jiling",
+    "name": "纪灵",
+    "displayName": {
+      "zhHans": "纪灵",
+      "zhHant": "紀靈"
+    },
+    "names": [
+      "纪灵"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "纪灵",
+        "zhHant": "紀靈"
+      }
+    ],
+    "ids": [
+      "2056"
+    ],
+    "sourceNames": [
+      "纪灵"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "纪灵",
+        "zhHant": "紀靈"
+      }
+    ],
+    "sourceIds": [
+      "2056"
+    ],
+    "searchNames": [
+      "jiling",
+      "纪灵",
+      "紀靈"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiling/groups/dead.json"
+      },
+      {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jiling/groups/spell-2108.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205604",
+        "name": "御马攻沛",
+        "displayName": {
+          "zhHans": "御马攻沛",
+          "zhHant": "御馬攻沛"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205604.json"
+      },
+      {
+        "slug": "skin-205605",
+        "name": "气吞山河",
+        "displayName": {
+          "zhHans": "气吞山河",
+          "zhHant": "氣吞山河"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205605.json"
+      },
+      {
+        "slug": "skin-205606",
+        "name": "瞠目结舌",
+        "displayName": {
+          "zhHans": "瞠目结舌",
+          "zhHant": "瞠目結舌"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205606.json"
+      },
+      {
+        "slug": "skin-205603",
+        "name": "纳忠效信",
+        "displayName": {
+          "zhHans": "纳忠效信",
+          "zhHant": "納忠效信"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205603.json"
+      },
+      {
+        "slug": "skin-205603-205606",
+        "name": "纳忠效信,瞠目结舌",
+        "displayName": {
+          "zhHans": "纳忠效信,瞠目结舌",
+          "zhHant": "納忠效信,瞠目結舌"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205603-205606.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiling.json",
+      "groups": "api/v1/tts/characters/jiling/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiling/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-205603-205606",
+    "name": "纳忠效信,瞠目结舌",
+    "displayName": {
+      "zhHans": "纳忠效信,瞠目结舌",
+      "zhHant": "納忠效信,瞠目結舌"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/jiling/skins/skin-205603-205606.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "jiling--2056jiling--3dead01",
+      "resourceId": "2056jiling/3dead01",
+      "text": "大意轻敌，今恐难逃一死……",
+      "textLocalized": {
+        "zhHans": "大意轻敌，今恐难逃一死……",
+        "zhHant": "大意輕敵，今恐難逃一死……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205606",
+          "name": "瞠目结舌",
+          "displayName": {
+            "zhHans": "瞠目结舌",
+            "zhHant": "瞠目結舌"
+          }
+        },
+        {
+          "slug": "skin-205603",
+          "name": "纳忠效信",
+          "displayName": {
+            "zhHans": "纳忠效信",
+            "zhHant": "納忠效信"
+          }
+        },
+        {
+          "slug": "skin-205603-205606",
+          "name": "纳忠效信,瞠目结舌",
+          "displayName": {
+            "zhHans": "纳忠效信,瞠目结舌",
+            "zhHant": "納忠效信,瞠目結舌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--3skill1_1",
+      "resourceId": "2056jiling/3skill1_1",
+      "text": "长髯贼将，可敢再战一番？",
+      "textLocalized": {
+        "zhHans": "长髯贼将，可敢再战一番？",
+        "zhHant": "長髯賊將，可敢再戰一番？"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205606",
+          "name": "瞠目结舌",
+          "displayName": {
+            "zhHans": "瞠目结舌",
+            "zhHant": "瞠目結舌"
+          }
+        },
+        {
+          "slug": "skin-205603",
+          "name": "纳忠效信",
+          "displayName": {
+            "zhHans": "纳忠效信",
+            "zhHant": "納忠效信"
+          }
+        },
+        {
+          "slug": "skin-205603-205606",
+          "name": "纳忠效信,瞠目结舌",
+          "displayName": {
+            "zhHans": "纳忠效信,瞠目结舌",
+            "zhHant": "納忠效信,瞠目結舌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--3skill1_2",
+      "resourceId": "2056jiling/3skill1_2",
+      "text": "今不枭尔首，怎能回营？",
+      "textLocalized": {
+        "zhHans": "今不枭尔首，怎能回营？",
+        "zhHant": "今不梟爾首，怎能回營？"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205606",
+          "name": "瞠目结舌",
+          "displayName": {
+            "zhHans": "瞠目结舌",
+            "zhHant": "瞠目結舌"
+          }
+        },
+        {
+          "slug": "skin-205603",
+          "name": "纳忠效信",
+          "displayName": {
+            "zhHans": "纳忠效信",
+            "zhHant": "納忠效信"
+          }
+        },
+        {
+          "slug": "skin-205603-205606",
+          "name": "纳忠效信,瞠目结舌",
+          "displayName": {
+            "zhHans": "纳忠效信,瞠目结舌",
+            "zhHant": "納忠效信,瞠目結舌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

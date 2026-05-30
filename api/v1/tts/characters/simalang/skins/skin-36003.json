@@ -1,3 +1,410 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6efce39731f3b3cc544ffe5f9da100d33eacab4a7de7b3dc00a273d8410ff15b
-size 11024
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simalang",
+    "command": "simalang",
+    "name": "司马朗",
+    "displayName": {
+      "zhHans": "司马朗",
+      "zhHant": "司馬朗"
+    },
+    "names": [
+      "司马朗"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马朗",
+        "zhHant": "司馬朗"
+      }
+    ],
+    "ids": [
+      "360"
+    ],
+    "sourceNames": [
+      "司马朗"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马朗",
+        "zhHant": "司馬朗"
+      }
+    ],
+    "sourceIds": [
+      "360"
+    ],
+    "searchNames": [
+      "simalang",
+      "司马朗",
+      "司馬朗"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/simalang/groups/dead.json"
+      },
+      {
+        "slug": "spell-269",
+        "name": "郡兵",
+        "displayName": {
+          "zhHans": "郡兵",
+          "zhHant": "郡兵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simalang/groups/spell-269.json"
+      },
+      {
+        "slug": "spell-270",
+        "name": "去疾",
+        "displayName": {
+          "zhHans": "去疾",
+          "zhHant": "去疾"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simalang/groups/spell-270.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "36006",
+        "name": "36006",
+        "displayName": {
+          "zhHans": "36006",
+          "zhHant": "36006"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/36006.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-36005",
+        "name": "去疾还瑞",
+        "displayName": {
+          "zhHans": "去疾还瑞",
+          "zhHant": "去疾還瑞"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-36005.json"
+      },
+      {
+        "slug": "skin-36004",
+        "name": "望闻问切",
+        "displayName": {
+          "zhHans": "望闻问切",
+          "zhHant": "望聞問切"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-36004.json"
+      },
+      {
+        "slug": "skin-36003",
+        "name": "识草辨药",
+        "displayName": {
+          "zhHans": "识草辨药",
+          "zhHant": "識草辨藥"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-36003.json"
+      },
+      {
+        "slug": "skin-36002",
+        "name": "试尝百草",
+        "displayName": {
+          "zhHans": "试尝百草",
+          "zhHant": "試嘗百草"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-36002.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simalang.json",
+      "groups": "api/v1/tts/characters/simalang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simalang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-36003",
+    "name": "识草辨药",
+    "displayName": {
+      "zhHans": "识草辨药",
+      "zhHant": "識草辨藥"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/simalang/skins/skin-36003.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "simalang--360simalang--3dead01",
+      "resourceId": "360simalang/3dead01",
+      "text": "遭此疫疠[lì]，难报国恩。",
+      "textLocalized": {
+        "zhHans": "遭此疫疠[lì]，难报国恩。",
+        "zhHant": "遭此疫癘[lì]，難報國恩。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "36006",
+          "name": "36006",
+          "displayName": {
+            "zhHans": "36006",
+            "zhHant": "36006"
+          }
+        },
+        {
+          "slug": "skin-36003",
+          "name": "识草辨药",
+          "displayName": {
+            "zhHans": "识草辨药",
+            "zhHant": "識草辨藥"
+          }
+        },
+        {
+          "slug": "skin-36002",
+          "name": "试尝百草",
+          "displayName": {
+            "zhHans": "试尝百草",
+            "zhHant": "試嘗百草"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simalang--360simalang--3skill1_1",
+      "resourceId": "360simalang/3skill1_1",
+      "text": "抗外敌，安天下！",
+      "textLocalized": {
+        "zhHans": "抗外敌，安天下！",
+        "zhHant": "抗外敵，安天下！"
+      },
+      "group": {
+        "slug": "spell-269",
+        "name": "郡兵",
+        "displayName": {
+          "zhHans": "郡兵",
+          "zhHant": "郡兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "36006",
+          "name": "36006",
+          "displayName": {
+            "zhHans": "36006",
+            "zhHant": "36006"
+          }
+        },
+        {
+          "slug": "skin-36003",
+          "name": "识草辨药",
+          "displayName": {
+            "zhHans": "识草辨药",
+            "zhHant": "識草辨藥"
+          }
+        },
+        {
+          "slug": "skin-36002",
+          "name": "试尝百草",
+          "displayName": {
+            "zhHans": "试尝百草",
+            "zhHant": "試嘗百草"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simalang--360simalang--3skill1_2",
+      "resourceId": "360simalang/3skill1_2",
+      "text": "备州郡之兵，安大汉之民。",
+      "textLocalized": {
+        "zhHans": "备州郡之兵，安大汉之民。",
+        "zhHant": "備州郡之兵，安大漢之民。"
+      },
+      "group": {
+        "slug": "spell-269",
+        "name": "郡兵",
+        "displayName": {
+          "zhHans": "郡兵",
+          "zhHant": "郡兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "36006",
+          "name": "36006",
+          "displayName": {
+            "zhHans": "36006",
+            "zhHant": "36006"
+          }
+        },
+        {
+          "slug": "skin-36003",
+          "name": "识草辨药",
+          "displayName": {
+            "zhHans": "识草辨药",
+            "zhHant": "識草辨藥"
+          }
+        },
+        {
+          "slug": "skin-36002",
+          "name": "试尝百草",
+          "displayName": {
+            "zhHans": "试尝百草",
+            "zhHant": "試嘗百草"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simalang--360simalang--3skill2_1",
+      "resourceId": "360simalang/3skill2_1",
+      "text": "见百姓疾苦缠身，我心亦痛。",
+      "textLocalized": {
+        "zhHans": "见百姓疾苦缠身，我心亦痛。",
+        "zhHant": "見百姓疾苦纏身，我心亦痛。"
+      },
+      "group": {
+        "slug": "spell-270",
+        "name": "去疾",
+        "displayName": {
+          "zhHans": "去疾",
+          "zhHant": "去疾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "36006",
+          "name": "36006",
+          "displayName": {
+            "zhHans": "36006",
+            "zhHant": "36006"
+          }
+        },
+        {
+          "slug": "skin-36003",
+          "name": "识草辨药",
+          "displayName": {
+            "zhHans": "识草辨药",
+            "zhHant": "識草辨藥"
+          }
+        },
+        {
+          "slug": "skin-36002",
+          "name": "试尝百草",
+          "displayName": {
+            "zhHans": "试尝百草",
+            "zhHant": "試嘗百草"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simalang--360simalang--3skill2_2",
+      "resourceId": "360simalang/3skill2_2",
+      "text": "能救一个是一个！",
+      "textLocalized": {
+        "zhHans": "能救一个是一个！",
+        "zhHant": "能救一個是一個！"
+      },
+      "group": {
+        "slug": "spell-270",
+        "name": "去疾",
+        "displayName": {
+          "zhHans": "去疾",
+          "zhHant": "去疾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "36006",
+          "name": "36006",
+          "displayName": {
+            "zhHans": "36006",
+            "zhHant": "36006"
+          }
+        },
+        {
+          "slug": "skin-36003",
+          "name": "识草辨药",
+          "displayName": {
+            "zhHans": "识草辨药",
+            "zhHant": "識草辨藥"
+          }
+        },
+        {
+          "slug": "skin-36002",
+          "name": "试尝百草",
+          "displayName": {
+            "zhHans": "试尝百草",
+            "zhHant": "試嘗百草"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

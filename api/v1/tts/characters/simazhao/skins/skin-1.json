@@ -1,3 +1,470 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:803da905597bd30d2f30f5e92d3ac1367d91173b276e2924685db611c97508a8
-size 13062
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simazhao",
+    "command": "simazhao",
+    "name": "司马昭",
+    "displayName": {
+      "zhHans": "司马昭",
+      "zhHant": "司馬昭"
+    },
+    "names": [
+      "司马昭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马昭",
+        "zhHant": "司馬昭"
+      }
+    ],
+    "ids": [
+      "7004"
+    ],
+    "sourceNames": [
+      "司马昭"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马昭",
+        "zhHant": "司馬昭"
+      }
+    ],
+    "sourceIds": [
+      "7004"
+    ],
+    "searchNames": [
+      "simazhao",
+      "司马昭",
+      "司馬昭"
+    ],
+    "lineCount": 36,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/dead.json"
+      },
+      {
+        "slug": "spell-7012",
+        "name": "推弑",
+        "displayName": {
+          "zhHans": "推弑",
+          "zhHant": "推弒"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/spell-7012.json"
+      },
+      {
+        "slug": "spell-7013",
+        "name": "筹伐",
+        "displayName": {
+          "zhHans": "筹伐",
+          "zhHant": "籌伐"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/spell-7013.json"
+      },
+      {
+        "slug": "spell-7014",
+        "name": "昭然",
+        "displayName": {
+          "zhHans": "昭然",
+          "zhHant": "昭然"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/spell-7014.json"
+      },
+      {
+        "slug": "spell-7015",
+        "name": "成务",
+        "displayName": {
+          "zhHans": "成务",
+          "zhHant": "成務"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/spell-7015.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-700403",
+        "name": "勇夺魁首",
+        "displayName": {
+          "zhHans": "勇夺魁首",
+          "zhHant": "勇奪魁首"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simazhao/skins/skin-700403.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simazhao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700401",
+        "name": "昭苏元心",
+        "displayName": {
+          "zhHans": "昭苏元心",
+          "zhHant": "昭蘇元心"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simazhao/skins/skin-700401.json"
+      },
+      {
+        "slug": "skin-700402",
+        "name": "温情良缘",
+        "displayName": {
+          "zhHans": "温情良缘",
+          "zhHant": "溫情良緣"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simazhao/skins/skin-700402.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simazhao.json",
+      "groups": "api/v1/tts/characters/simazhao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simazhao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 9,
+    "endpoint": "api/v1/tts/characters/simazhao/skins/skin-1.json"
+  },
+  "lineCount": 9,
+  "lines": [
+    {
+      "id": "simazhao--7004simazhao--1dead01",
+      "resourceId": "7004simazhao/1dead01",
+      "text": "司马三代，一梦成空……",
+      "textLocalized": {
+        "zhHans": "司马三代，一梦成空……",
+        "zhHant": "司馬三代，一夢成空……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--1skill1_1",
+      "resourceId": "7004simazhao/1skill1_1",
+      "text": "此僚怀异，召汝讨贼。",
+      "textLocalized": {
+        "zhHans": "此僚怀异，召汝讨贼。",
+        "zhHant": "此僚懷異，召汝討賊。"
+      },
+      "group": {
+        "slug": "spell-7012",
+        "name": "推弑",
+        "displayName": {
+          "zhHans": "推弑",
+          "zhHant": "推弒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--1skill1_2",
+      "resourceId": "7004simazhao/1skill1_2",
+      "text": "推令既出，焉敢不从？",
+      "textLocalized": {
+        "zhHans": "推令既出，焉敢不从？",
+        "zhHant": "推令既出，焉敢不從？"
+      },
+      "group": {
+        "slug": "spell-7012",
+        "name": "推弑",
+        "displayName": {
+          "zhHans": "推弑",
+          "zhHant": "推弒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--1skill2_1",
+      "resourceId": "7004simazhao/1skill2_1",
+      "text": "秣[mò]马厉兵，筹伐不臣！",
+      "textLocalized": {
+        "zhHans": "秣[mò]马厉兵，筹伐不臣！",
+        "zhHant": "秣[mò]馬厲兵，籌伐不臣！"
+      },
+      "group": {
+        "slug": "spell-7013",
+        "name": "筹伐",
+        "displayName": {
+          "zhHans": "筹伐",
+          "zhHant": "籌伐"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--1skill2_2",
+      "resourceId": "7004simazhao/1skill2_2",
+      "text": "枕戈待旦，秣[mò]马征平。",
+      "textLocalized": {
+        "zhHans": "枕戈待旦，秣[mò]马征平。",
+        "zhHant": "枕戈待旦，秣[mò]馬徵平。"
+      },
+      "group": {
+        "slug": "spell-7013",
+        "name": "筹伐",
+        "displayName": {
+          "zhHans": "筹伐",
+          "zhHant": "籌伐"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--1skill3_1",
+      "resourceId": "7004simazhao/1skill3_1",
+      "text": "行昭然于世，赦众贼以威。",
+      "textLocalized": {
+        "zhHans": "行昭然于世，赦众贼以威。",
+        "zhHant": "行昭然於世，赦衆賊以威。"
+      },
+      "group": {
+        "slug": "spell-7014",
+        "name": "昭然",
+        "displayName": {
+          "zhHans": "昭然",
+          "zhHant": "昭然"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--1skill3_2",
+      "resourceId": "7004simazhao/1skill3_2",
+      "text": "吾之心思，路人皆知。",
+      "textLocalized": {
+        "zhHans": "吾之心思，路人皆知。",
+        "zhHant": "吾之心思，路人皆知。"
+      },
+      "group": {
+        "slug": "spell-7014",
+        "name": "昭然",
+        "displayName": {
+          "zhHans": "昭然",
+          "zhHant": "昭然"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--1skill4_1",
+      "resourceId": "7004simazhao/1skill4_1",
+      "text": "令行禁止，政通无虞。",
+      "textLocalized": {
+        "zhHans": "令行禁止，政通无虞。",
+        "zhHant": "令行禁止，政通無虞。"
+      },
+      "group": {
+        "slug": "spell-7015",
+        "name": "成务",
+        "displayName": {
+          "zhHans": "成务",
+          "zhHant": "成務"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1skill4-1-0d7b9304.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--1skill4_2",
+      "resourceId": "7004simazhao/1skill4_2",
+      "text": "上下一体，大业可筹。",
+      "textLocalized": {
+        "zhHans": "上下一体，大业可筹。",
+        "zhHant": "上下一體，大業可籌。"
+      },
+      "group": {
+        "slug": "spell-7015",
+        "name": "成务",
+        "displayName": {
+          "zhHans": "成务",
+          "zhHant": "成務"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1skill4-2-2415e0dd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a19dcb48524c2d49bfd870f9c926d01ea27ed0fa26f875a0edcc8554e91d1319
-size 4780
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wanglun",
+    "command": "wanglun",
+    "name": "族王沦",
+    "displayName": {
+      "zhHans": "族王沦",
+      "zhHant": "族王淪"
+    },
+    "names": [
+      "族王沦"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族王沦",
+        "zhHant": "族王淪"
+      }
+    ],
+    "ids": [
+      "575"
+    ],
+    "sourceNames": [
+      "族王沦"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族王沦",
+        "zhHant": "族王淪"
+      }
+    ],
+    "sourceIds": [
+      "575"
+    ],
+    "searchNames": [
+      "wanglun",
+      "族王沦",
+      "族王淪"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wanglun/groups/dead.json"
+      },
+      {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wanglun/groups/spell-3297.json"
+      },
+      {
+        "slug": "spell-3341",
+        "name": "求心",
+        "displayName": {
+          "zhHans": "求心",
+          "zhHant": "求心"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wanglun/groups/spell-3341.json"
+      },
+      {
+        "slug": "spell-3342",
+        "name": "简远",
+        "displayName": {
+          "zhHans": "简远",
+          "zhHant": "簡遠"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wanglun/groups/spell-3342.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wanglun/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wanglun.json",
+      "groups": "api/v1/tts/characters/wanglun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wanglun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3342",
+    "name": "简远",
+    "displayName": {
+      "zhHans": "简远",
+      "zhHant": "簡遠"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/wanglun/groups/spell-3342.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "wanglun--575wanglun--1skill2_1",
+      "resourceId": "575wanglun/1skill2_1",
+      "text": "我视天地为三，其为众妙之门。",
+      "textLocalized": {
+        "zhHans": "我视天地为三，其为众妙之门。",
+        "zhHant": "我視天地爲三，其爲衆妙之門。"
+      },
+      "group": {
+        "slug": "spell-3342",
+        "name": "简远",
+        "displayName": {
+          "zhHans": "简远",
+          "zhHant": "簡遠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/575wanglun-99304bde/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/575wanglun/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglun--575wanglun--1skill2_2",
+      "resourceId": "575wanglun/1skill2_2",
+      "text": "昔年孔明有言，宁静方能致远。",
+      "textLocalized": {
+        "zhHans": "昔年孔明有言，宁静方能致远。",
+        "zhHant": "昔年孔明有言，寧靜方能致遠。"
+      },
+      "group": {
+        "slug": "spell-3342",
+        "name": "简远",
+        "displayName": {
+          "zhHans": "简远",
+          "zhHant": "簡遠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/575wanglun-99304bde/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/575wanglun/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5a5b1ff7e873c9b662aa3111b32a8bfeff6c07bab4a45f7a57c3e4861525443a
-size 8643
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunqian",
+    "command": "sunqian",
+    "name": "孙乾",
+    "displayName": {
+      "zhHans": "孙乾",
+      "zhHant": "孫乾"
+    },
+    "names": [
+      "孙乾"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙乾",
+        "zhHant": "孫乾"
+      }
+    ],
+    "ids": [
+      "376"
+    ],
+    "sourceNames": [
+      "孙乾"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙乾",
+        "zhHant": "孫乾"
+      }
+    ],
+    "sourceIds": [
+      "376"
+    ],
+    "searchNames": [
+      "sunqian",
+      "孙乾",
+      "孫乾"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/sunqian/groups/dead.json"
+      },
+      {
+        "slug": "spell-378",
+        "name": "谦雅",
+        "displayName": {
+          "zhHans": "谦雅",
+          "zhHant": "謙雅"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sunqian/groups/spell-378.json"
+      },
+      {
+        "slug": "spell-379",
+        "name": "说盟",
+        "displayName": {
+          "zhHans": "说盟",
+          "zhHant": "說盟"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sunqian/groups/spell-379.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37601",
+        "name": "谈笑风生",
+        "displayName": {
+          "zhHans": "谈笑风生",
+          "zhHant": "談笑風生"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37601.json"
+      },
+      {
+        "slug": "skin-37602",
+        "name": "雍容风议",
+        "displayName": {
+          "zhHans": "雍容风议",
+          "zhHant": "雍容風議"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37602.json"
+      },
+      {
+        "slug": "skin-37603",
+        "name": "雪夜面袁",
+        "displayName": {
+          "zhHans": "雪夜面袁",
+          "zhHant": "雪夜面袁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunqian.json",
+      "groups": "api/v1/tts/characters/sunqian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunqian/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-37603",
+    "name": "雪夜面袁",
+    "displayName": {
+      "zhHans": "雪夜面袁",
+      "zhHant": "雪夜面袁"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37603.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "sunqian--376sunqian--5dead01",
+      "resourceId": "376sunqian/5dead01",
+      "text": "辜负皇叔所托，吾有愧矣……",
+      "textLocalized": {
+        "zhHans": "辜负皇叔所托，吾有愧矣……",
+        "zhHant": "辜負皇叔所託，吾有愧矣……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37603",
+          "name": "雪夜面袁",
+          "displayName": {
+            "zhHans": "雪夜面袁",
+            "zhHant": "雪夜面袁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--5skill1_1",
+      "resourceId": "376sunqian/5skill1_1",
+      "text": "无功不受禄，主公切莫如此！",
+      "textLocalized": {
+        "zhHans": "无功不受禄，主公切莫如此！",
+        "zhHant": "無功不受祿，主公切莫如此！"
+      },
+      "group": {
+        "slug": "spell-378",
+        "name": "谦雅",
+        "displayName": {
+          "zhHans": "谦雅",
+          "zhHant": "謙雅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37603",
+          "name": "雪夜面袁",
+          "displayName": {
+            "zhHans": "雪夜面袁",
+            "zhHant": "雪夜面袁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--5skill1_2",
+      "resourceId": "376sunqian/5skill1_2",
+      "text": "某自知才疏学浅，不值一提！",
+      "textLocalized": {
+        "zhHans": "某自知才疏学浅，不值一提！",
+        "zhHant": "某自知才疏學淺，不值一提！"
+      },
+      "group": {
+        "slug": "spell-378",
+        "name": "谦雅",
+        "displayName": {
+          "zhHans": "谦雅",
+          "zhHant": "謙雅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37603",
+          "name": "雪夜面袁",
+          "displayName": {
+            "zhHans": "雪夜面袁",
+            "zhHant": "雪夜面袁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--5skill2_1",
+      "resourceId": "376sunqian/5skill2_1",
+      "text": "刘皇叔素以仁义立世，断不会同室操戈。",
+      "textLocalized": {
+        "zhHans": "刘皇叔素以仁义立世，断不会同室操戈。",
+        "zhHant": "劉皇叔素以仁義立世，斷不會同室操戈。"
+      },
+      "group": {
+        "slug": "spell-379",
+        "name": "说盟",
+        "displayName": {
+          "zhHans": "说盟",
+          "zhHant": "說盟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37603",
+          "name": "雪夜面袁",
+          "displayName": {
+            "zhHans": "雪夜面袁",
+            "zhHant": "雪夜面袁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--5skill2_2",
+      "resourceId": "376sunqian/5skill2_2",
+      "text": "曹贼觊觎此地已久，切莫忘“居安思危”！",
+      "textLocalized": {
+        "zhHans": "曹贼觊觎此地已久，切莫忘“居安思危”！",
+        "zhHant": "曹賊覬覦此地已久，切莫忘“居安思危”！"
+      },
+      "group": {
+        "slug": "spell-379",
+        "name": "说盟",
+        "displayName": {
+          "zhHans": "说盟",
+          "zhHant": "說盟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37603",
+          "name": "雪夜面袁",
+          "displayName": {
+            "zhHans": "雪夜面袁",
+            "zhHant": "雪夜面袁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

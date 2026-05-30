@@ -1,3 +1,749 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0baef304c73f58e419ffe0544f45886b6084b5d9d38aff5a24cec42d3cfb1ebc
-size 16969
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoang",
+    "command": "caoang",
+    "name": "曹昂",
+    "displayName": {
+      "zhHans": "曹昂",
+      "zhHant": "曹昂"
+    },
+    "names": [
+      "曹昂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹昂",
+        "zhHant": "曹昂"
+      }
+    ],
+    "ids": [
+      "122"
+    ],
+    "sourceNames": [
+      "曹昂"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹昂",
+        "zhHant": "曹昂"
+      }
+    ],
+    "sourceIds": [
+      "122"
+    ],
+    "searchNames": [
+      "caoang",
+      "曹昂"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        },
+        "ids": [
+          "225"
+        ],
+        "lineCount": 8
+      }
+    ],
+    "skins": [
+      {
+        "slug": "q",
+        "ids": [
+          "12201"
+        ],
+        "name": "Q版形象",
+        "displayName": {
+          "zhHans": "Q版形象",
+          "zhHant": "Q版形象"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-12204",
+        "ids": [
+          "12204"
+        ],
+        "name": "取义成仁",
+        "displayName": {
+          "zhHans": "取义成仁",
+          "zhHant": "取義成仁"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-12202",
+        "ids": [
+          "12202"
+        ],
+        "name": "悍不畏死",
+        "displayName": {
+          "zhHans": "悍不畏死",
+          "zhHant": "悍不畏死"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-12208",
+        "ids": [
+          "12208"
+        ],
+        "name": "护父对敌",
+        "displayName": {
+          "zhHans": "护父对敌",
+          "zhHant": "護父對敵"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-12206",
+        "ids": [
+          "12206"
+        ],
+        "name": "醉玉颓山",
+        "displayName": {
+          "zhHans": "醉玉颓山",
+          "zhHant": "醉玉頹山"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/caoang.json",
+      "lines": "api/v1/characters/caoang/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "caoang--122caoang--4dead01",
+      "resourceId": "122caoang/4dead01",
+      "text": "父亲……安全就好……",
+      "textLocalized": {
+        "zhHans": "父亲……安全就好……",
+        "zhHant": "父親……安全就好……"
+      },
+      "character": {
+        "slug": "caoang",
+        "command": "caoang",
+        "id": "122",
+        "ids": [
+          "122"
+        ],
+        "name": "曹昂",
+        "displayName": {
+          "zhHans": "曹昂",
+          "zhHant": "曹昂"
+        },
+        "names": [
+          "曹昂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹昂",
+            "zhHant": "曹昂"
+          }
+        ],
+        "sourceIds": [
+          "122"
+        ],
+        "sourceNames": [
+          "曹昂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹昂",
+            "zhHant": "曹昂"
+          }
+        ],
+        "searchNames": [
+          "曹昂",
+          "caoang"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "q",
+        "ids": [
+          "12201",
+          "12204",
+          "12208"
+        ],
+        "name": "Q版形象,取义成仁,护父对敌",
+        "displayName": {
+          "zhHans": "Q版形象,取义成仁,护父对敌",
+          "zhHant": "Q版形象,取義成仁,護父對敵"
+        },
+        "names": [
+          "Q版形象",
+          "取义成仁",
+          "护父对敌"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          },
+          {
+            "zhHans": "取义成仁",
+            "zhHant": "取義成仁"
+          },
+          {
+            "zhHans": "护父对敌",
+            "zhHant": "護父對敵"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "id": "12201",
+          "ids": [
+            "12201"
+          ],
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          },
+          "names": [
+            "Q版形象"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "Q版形象",
+              "zhHant": "Q版形象"
+            }
+          ]
+        },
+        {
+          "slug": "skin-12204",
+          "id": "12204",
+          "ids": [
+            "12204"
+          ],
+          "name": "取义成仁",
+          "displayName": {
+            "zhHans": "取义成仁",
+            "zhHant": "取義成仁"
+          },
+          "names": [
+            "取义成仁"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "取义成仁",
+              "zhHant": "取義成仁"
+            }
+          ]
+        },
+        {
+          "slug": "skin-12208",
+          "id": "12208",
+          "ids": [
+            "12208"
+          ],
+          "name": "护父对敌",
+          "displayName": {
+            "zhHans": "护父对敌",
+            "zhHant": "護父對敵"
+          },
+          "names": [
+            "护父对敌"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "护父对敌",
+              "zhHant": "護父對敵"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "122",
+        "skinKey": "12201;12204;12208",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "曹昂"
+        ],
+        "skinNames": [
+          "Q版形象",
+          "取义成仁",
+          "护父对敌"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/4dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--1dead01",
+      "resourceId": "122caoang/1dead01",
+      "text": "典将军，还是你赢了……",
+      "textLocalized": {
+        "zhHans": "典将军，还是你赢了……",
+        "zhHant": "典將軍，還是你贏了……"
+      },
+      "character": {
+        "slug": "caoang",
+        "command": "caoang",
+        "id": "122",
+        "ids": [
+          "122"
+        ],
+        "name": "曹昂",
+        "displayName": {
+          "zhHans": "曹昂",
+          "zhHant": "曹昂"
+        },
+        "names": [
+          "曹昂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹昂",
+            "zhHant": "曹昂"
+          }
+        ],
+        "sourceIds": [
+          "122"
+        ],
+        "sourceNames": [
+          "曹昂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹昂",
+            "zhHant": "曹昂"
+          }
+        ],
+        "searchNames": [
+          "曹昂",
+          "caoang"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "122",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "曹昂"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--3dead01",
+      "resourceId": "122caoang/3dead01",
+      "text": "典将军，我先走一步……",
+      "textLocalized": {
+        "zhHans": "典将军，我先走一步……",
+        "zhHant": "典將軍，我先走一步……"
+      },
+      "character": {
+        "slug": "caoang",
+        "command": "caoang",
+        "id": "122",
+        "ids": [
+          "122"
+        ],
+        "name": "曹昂",
+        "displayName": {
+          "zhHans": "曹昂",
+          "zhHant": "曹昂"
+        },
+        "names": [
+          "曹昂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹昂",
+            "zhHant": "曹昂"
+          }
+        ],
+        "sourceIds": [
+          "122"
+        ],
+        "sourceNames": [
+          "曹昂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹昂",
+            "zhHant": "曹昂"
+          }
+        ],
+        "searchNames": [
+          "曹昂",
+          "caoang"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12202",
+        "ids": [
+          "12202"
+        ],
+        "name": "悍不畏死",
+        "displayName": {
+          "zhHans": "悍不畏死",
+          "zhHant": "悍不畏死"
+        },
+        "names": [
+          "悍不畏死"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "悍不畏死",
+            "zhHant": "悍不畏死"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12202",
+          "id": "12202",
+          "ids": [
+            "12202"
+          ],
+          "name": "悍不畏死",
+          "displayName": {
+            "zhHans": "悍不畏死",
+            "zhHant": "悍不畏死"
+          },
+          "names": [
+            "悍不畏死"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "悍不畏死",
+              "zhHant": "悍不畏死"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "122",
+        "skinKey": "12202",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "曹昂"
+        ],
+        "skinNames": [
+          "悍不畏死"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/3dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--5dead01",
+      "resourceId": "122caoang/5dead01",
+      "text": "今日纵是战死，也要喝个痛快！",
+      "textLocalized": {
+        "zhHans": "今日纵是战死，也要喝个痛快！",
+        "zhHant": "今日縱是戰死，也要喝個痛快！"
+      },
+      "character": {
+        "slug": "caoang",
+        "command": "caoang",
+        "id": "122",
+        "ids": [
+          "122"
+        ],
+        "name": "曹昂",
+        "displayName": {
+          "zhHans": "曹昂",
+          "zhHant": "曹昂"
+        },
+        "names": [
+          "曹昂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹昂",
+            "zhHant": "曹昂"
+          }
+        ],
+        "sourceIds": [
+          "122"
+        ],
+        "sourceNames": [
+          "曹昂"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹昂",
+            "zhHant": "曹昂"
+          }
+        ],
+        "searchNames": [
+          "曹昂",
+          "caoang"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12206",
+        "ids": [
+          "12206"
+        ],
+        "name": "醉玉颓山",
+        "displayName": {
+          "zhHans": "醉玉颓山",
+          "zhHant": "醉玉頹山"
+        },
+        "names": [
+          "醉玉颓山"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "醉玉颓山",
+            "zhHant": "醉玉頹山"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12206",
+          "id": "12206",
+          "ids": [
+            "12206"
+          ],
+          "name": "醉玉颓山",
+          "displayName": {
+            "zhHans": "醉玉颓山",
+            "zhHant": "醉玉頹山"
+          },
+          "names": [
+            "醉玉颓山"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "醉玉颓山",
+              "zhHant": "醉玉頹山"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "122",
+        "skinKey": "12206",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "曹昂"
+        ],
+        "skinNames": [
+          "醉玉颓山"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/5dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

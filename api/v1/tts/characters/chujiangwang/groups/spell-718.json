@@ -1,3 +1,139 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6f1fd2e4c8761db9e1172190676173ceda89809684b60460f6923b59174540d9
-size 3516
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chujiangwang",
+    "command": "chujiangwang",
+    "name": "楚江王",
+    "displayName": {
+      "zhHans": "楚江王",
+      "zhHant": "楚江王"
+    },
+    "names": [
+      "楚江王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "楚江王",
+        "zhHant": "楚江王"
+      }
+    ],
+    "ids": [
+      "4501"
+    ],
+    "sourceNames": [
+      "楚江王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "楚江王",
+        "zhHant": "楚江王"
+      }
+    ],
+    "sourceIds": [
+      "4501"
+    ],
+    "searchNames": [
+      "chujiangwang",
+      "楚江王"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "spell-119",
+        "name": "帷幕",
+        "displayName": {
+          "zhHans": "帷幕",
+          "zhHant": "帷幕"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chujiangwang/groups/spell-119.json"
+      },
+      {
+        "slug": "spell-1283",
+        "name": "冰封",
+        "displayName": {
+          "zhHans": "冰封",
+          "zhHant": "冰封"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chujiangwang/groups/spell-1283.json"
+      },
+      {
+        "slug": "spell-718",
+        "name": "反馈",
+        "displayName": {
+          "zhHans": "反馈",
+          "zhHant": "反饋"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chujiangwang/groups/spell-718.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/chujiangwang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chujiangwang.json",
+      "groups": "api/v1/tts/characters/chujiangwang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chujiangwang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-718",
+    "name": "反馈",
+    "displayName": {
+      "zhHans": "反馈",
+      "zhHant": "反饋"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/chujiangwang/groups/spell-718.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "chujiangwang--4501chujiangwang--1skill2_1_22",
+      "resourceId": "4501chujiangwang/1skill2_1_22",
+      "text": "伤我，可是要有付出的！",
+      "textLocalized": {
+        "zhHans": "伤我，可是要有付出的！",
+        "zhHant": "傷我，可是要有付出的！"
+      },
+      "group": {
+        "slug": "spell-718",
+        "name": "反馈",
+        "displayName": {
+          "zhHans": "反馈",
+          "zhHant": "反饋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4501chujiangwang-530bbc30/1skill2-1-22-131c00df.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4501chujiangwang/1skill2_1_22.mp3",
+        "available": {
+          "cached": false,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

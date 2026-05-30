@@ -1,3 +1,240 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b4f2004e21cd405c991955a6c026ebc6ac1359155fc7f30b7a036cc60fdba732
-size 5001
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangkuang",
+    "command": "wangkuang",
+    "name": "王匡",
+    "displayName": {
+      "zhHans": "王匡",
+      "zhHant": "王匡"
+    },
+    "names": [
+      "王匡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王匡",
+        "zhHant": "王匡"
+      }
+    ],
+    "ids": [
+      "636"
+    ],
+    "sourceNames": [
+      "王匡"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王匡",
+        "zhHant": "王匡"
+      }
+    ],
+    "sourceIds": [
+      "636"
+    ],
+    "searchNames": [
+      "wangkuang",
+      "王匡"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-3501",
+        "name": "任侠",
+        "displayName": {
+          "zhHans": "任侠",
+          "zhHant": "任俠"
+        },
+        "ids": [
+          "3501"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/wangkuang.json",
+      "lines": "api/v1/characters/wangkuang/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "wangkuang--636wangkuang--1dead01",
+      "resourceId": "636wangkuang/1dead01",
+      "text": "人心不古，世态炎凉。",
+      "textLocalized": {
+        "zhHans": "人心不古，世态炎凉。",
+        "zhHant": "人心不古，世態炎涼。"
+      },
+      "character": {
+        "slug": "wangkuang",
+        "command": "wangkuang",
+        "id": "636",
+        "ids": [
+          "636"
+        ],
+        "name": "王匡",
+        "displayName": {
+          "zhHans": "王匡",
+          "zhHant": "王匡"
+        },
+        "names": [
+          "王匡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "王匡",
+            "zhHant": "王匡"
+          }
+        ],
+        "sourceIds": [
+          "636"
+        ],
+        "sourceNames": [
+          "王匡"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "王匡",
+            "zhHant": "王匡"
+          }
+        ],
+        "searchNames": [
+          "王匡",
+          "wangkuang"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "636",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "王匡"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/636wangkuang-6cae8230/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/636wangkuang/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

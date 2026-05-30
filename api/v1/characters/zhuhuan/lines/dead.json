@@ -1,3 +1,824 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d08935271bd042c91ba90f445bb53d414111bb08c445362f1aba857f6c29fcd8
-size 18680
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhuhuan",
+    "command": "zhuhuan",
+    "name": "朱桓",
+    "displayName": {
+      "zhHans": "朱桓",
+      "zhHant": "朱桓"
+    },
+    "names": [
+      "朱桓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "朱桓",
+        "zhHant": "朱桓"
+      }
+    ],
+    "ids": [
+      "328"
+    ],
+    "sourceNames": [
+      "朱桓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "朱桓",
+        "zhHant": "朱桓"
+      }
+    ],
+    "sourceIds": [
+      "328"
+    ],
+    "searchNames": [
+      "zhuhuan",
+      "朱桓"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 5
+      },
+      {
+        "slug": "spell-396",
+        "name": "奋励",
+        "displayName": {
+          "zhHans": "奋励",
+          "zhHant": "奮勵"
+        },
+        "ids": [
+          "396"
+        ],
+        "lineCount": 8
+      },
+      {
+        "slug": "spell-397",
+        "name": "平寇",
+        "displayName": {
+          "zhHans": "平寇",
+          "zhHant": "平寇"
+        },
+        "ids": [
+          "397"
+        ],
+        "lineCount": 8
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-32805",
+        "ids": [
+          "32805"
+        ],
+        "name": "亲断敌降",
+        "displayName": {
+          "zhHans": "亲断敌降",
+          "zhHant": "親斷敵降"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-32802",
+        "ids": [
+          "32802"
+        ],
+        "name": "傲世轻物",
+        "displayName": {
+          "zhHans": "傲世轻物",
+          "zhHant": "傲世輕物"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-32804",
+        "ids": [
+          "32804"
+        ],
+        "name": "带兵镇守",
+        "displayName": {
+          "zhHans": "带兵镇守",
+          "zhHant": "帶兵鎮守"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-32803",
+        "ids": [
+          "32803"
+        ],
+        "name": "飞刀制敌",
+        "displayName": {
+          "zhHans": "飞刀制敌",
+          "zhHant": "飛刀制敵"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/zhuhuan.json",
+      "lines": "api/v1/characters/zhuhuan/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhuhuan--328zhuhuan--6dead01",
+      "resourceId": "328zhuhuan/6dead01",
+      "text": "人有生死，何恨之有？",
+      "textLocalized": {
+        "zhHans": "人有生死，何恨之有？",
+        "zhHant": "人有生死，何恨之有？"
+      },
+      "character": {
+        "slug": "zhuhuan",
+        "command": "zhuhuan",
+        "id": "328",
+        "ids": [
+          "328"
+        ],
+        "name": "朱桓",
+        "displayName": {
+          "zhHans": "朱桓",
+          "zhHant": "朱桓"
+        },
+        "names": [
+          "朱桓"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "sourceIds": [
+          "328"
+        ],
+        "sourceNames": [
+          "朱桓"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "searchNames": [
+          "朱桓",
+          "zhuhuan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-32805",
+        "ids": [
+          "32805"
+        ],
+        "name": "亲断敌降",
+        "displayName": {
+          "zhHans": "亲断敌降",
+          "zhHant": "親斷敵降"
+        },
+        "names": [
+          "亲断敌降"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "亲断敌降",
+            "zhHant": "親斷敵降"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-32805",
+          "id": "32805",
+          "ids": [
+            "32805"
+          ],
+          "name": "亲断敌降",
+          "displayName": {
+            "zhHans": "亲断敌降",
+            "zhHant": "親斷敵降"
+          },
+          "names": [
+            "亲断敌降"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "亲断敌降",
+              "zhHant": "親斷敵降"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "328",
+        "skinKey": "32805",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "朱桓"
+        ],
+        "skinNames": [
+          "亲断敌降"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/6dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuhuan--328zhuhuan--5dead01",
+      "resourceId": "328zhuhuan/5dead01",
+      "text": "我的计划，怎么……",
+      "textLocalized": {
+        "zhHans": "我的计划，怎么……",
+        "zhHant": "我的計劃，怎麼……"
+      },
+      "character": {
+        "slug": "zhuhuan",
+        "command": "zhuhuan",
+        "id": "328",
+        "ids": [
+          "328"
+        ],
+        "name": "朱桓",
+        "displayName": {
+          "zhHans": "朱桓",
+          "zhHant": "朱桓"
+        },
+        "names": [
+          "朱桓"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "sourceIds": [
+          "328"
+        ],
+        "sourceNames": [
+          "朱桓"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "searchNames": [
+          "朱桓",
+          "zhuhuan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-32802",
+        "ids": [
+          "32802"
+        ],
+        "name": "傲世轻物",
+        "displayName": {
+          "zhHans": "傲世轻物",
+          "zhHant": "傲世輕物"
+        },
+        "names": [
+          "傲世轻物"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "傲世轻物",
+            "zhHant": "傲世輕物"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-32802",
+          "id": "32802",
+          "ids": [
+            "32802"
+          ],
+          "name": "傲世轻物",
+          "displayName": {
+            "zhHans": "傲世轻物",
+            "zhHant": "傲世輕物"
+          },
+          "names": [
+            "傲世轻物"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "傲世轻物",
+              "zhHant": "傲世輕物"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "328",
+        "skinKey": "32802",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "朱桓"
+        ],
+        "skinNames": [
+          "傲世轻物"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/5dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuhuan--328zhuhuan--1dead01",
+      "resourceId": "328zhuhuan/1dead01",
+      "text": "我不要……死在病榻之上……",
+      "textLocalized": {
+        "zhHans": "我不要……死在病榻之上……",
+        "zhHant": "我不要……死在病榻之上……"
+      },
+      "character": {
+        "slug": "zhuhuan",
+        "command": "zhuhuan",
+        "id": "328",
+        "ids": [
+          "328"
+        ],
+        "name": "朱桓",
+        "displayName": {
+          "zhHans": "朱桓",
+          "zhHant": "朱桓"
+        },
+        "names": [
+          "朱桓"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "sourceIds": [
+          "328"
+        ],
+        "sourceNames": [
+          "朱桓"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "searchNames": [
+          "朱桓",
+          "zhuhuan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "328",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "朱桓"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuhuan--328zhuhuan--3dead01",
+      "resourceId": "328zhuhuan/3dead01",
+      "text": "战死沙场，才是我的归宿…",
+      "textLocalized": {
+        "zhHans": "战死沙场，才是我的归宿…",
+        "zhHant": "戰死沙場，纔是我的歸宿…"
+      },
+      "character": {
+        "slug": "zhuhuan",
+        "command": "zhuhuan",
+        "id": "328",
+        "ids": [
+          "328"
+        ],
+        "name": "朱桓",
+        "displayName": {
+          "zhHans": "朱桓",
+          "zhHant": "朱桓"
+        },
+        "names": [
+          "朱桓"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "sourceIds": [
+          "328"
+        ],
+        "sourceNames": [
+          "朱桓"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "searchNames": [
+          "朱桓",
+          "zhuhuan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-32804",
+        "ids": [
+          "32804"
+        ],
+        "name": "带兵镇守",
+        "displayName": {
+          "zhHans": "带兵镇守",
+          "zhHant": "帶兵鎮守"
+        },
+        "names": [
+          "带兵镇守"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "带兵镇守",
+            "zhHant": "帶兵鎮守"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-32804",
+          "id": "32804",
+          "ids": [
+            "32804"
+          ],
+          "name": "带兵镇守",
+          "displayName": {
+            "zhHans": "带兵镇守",
+            "zhHant": "帶兵鎮守"
+          },
+          "names": [
+            "带兵镇守"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "带兵镇守",
+              "zhHant": "帶兵鎮守"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "328",
+        "skinKey": "32804",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "朱桓"
+        ],
+        "skinNames": [
+          "带兵镇守"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/3dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuhuan--328zhuhuan--4dead01",
+      "resourceId": "328zhuhuan/4dead01",
+      "text": "我已诱敌至此，为何伏兵不出？",
+      "textLocalized": {
+        "zhHans": "我已诱敌至此，为何伏兵不出？",
+        "zhHant": "我已誘敵至此，爲何伏兵不出？"
+      },
+      "character": {
+        "slug": "zhuhuan",
+        "command": "zhuhuan",
+        "id": "328",
+        "ids": [
+          "328"
+        ],
+        "name": "朱桓",
+        "displayName": {
+          "zhHans": "朱桓",
+          "zhHant": "朱桓"
+        },
+        "names": [
+          "朱桓"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "sourceIds": [
+          "328"
+        ],
+        "sourceNames": [
+          "朱桓"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "朱桓",
+            "zhHant": "朱桓"
+          }
+        ],
+        "searchNames": [
+          "朱桓",
+          "zhuhuan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-32803",
+        "ids": [
+          "32803"
+        ],
+        "name": "飞刀制敌",
+        "displayName": {
+          "zhHans": "飞刀制敌",
+          "zhHant": "飛刀制敵"
+        },
+        "names": [
+          "飞刀制敌"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "飞刀制敌",
+            "zhHant": "飛刀制敵"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-32803",
+          "id": "32803",
+          "ids": [
+            "32803"
+          ],
+          "name": "飞刀制敌",
+          "displayName": {
+            "zhHans": "飞刀制敌",
+            "zhHant": "飛刀制敵"
+          },
+          "names": [
+            "飞刀制敌"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "飞刀制敌",
+              "zhHant": "飛刀制敵"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "328",
+        "skinKey": "32803",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "朱桓"
+        ],
+        "skinNames": [
+          "飞刀制敌"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/4dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

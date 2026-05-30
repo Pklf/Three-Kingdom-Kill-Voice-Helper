@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0120f9721d423879e17d842c7f2dd3799902e05e84197cc0e59610c49a5a3860
-size 4458
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wuban",
+    "command": "wuban",
+    "name": "族吴班",
+    "displayName": {
+      "zhHans": "族吴班",
+      "zhHant": "族吳班"
+    },
+    "names": [
+      "族吴班"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族吴班",
+        "zhHant": "族吳班"
+      }
+    ],
+    "ids": [
+      "529"
+    ],
+    "sourceNames": [
+      "族吴班"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族吴班",
+        "zhHant": "族吳班"
+      }
+    ],
+    "sourceIds": [
+      "529"
+    ],
+    "searchNames": [
+      "wuban",
+      "族吴班",
+      "族吳班"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wuban/groups/dead.json"
+      },
+      {
+        "slug": "spell-3191",
+        "name": "穆荫",
+        "displayName": {
+          "zhHans": "穆荫",
+          "zhHant": "穆蔭"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wuban/groups/spell-3191.json"
+      },
+      {
+        "slug": "spell-3194",
+        "name": "斩钉",
+        "displayName": {
+          "zhHans": "斩钉",
+          "zhHant": "斬釘"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wuban/groups/spell-3194.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wuban/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wuban.json",
+      "groups": "api/v1/tts/characters/wuban/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wuban/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3194",
+    "name": "斩钉",
+    "displayName": {
+      "zhHans": "斩钉",
+      "zhHant": "斬釘"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/wuban/groups/spell-3194.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "wuban--529wuban--1skill1_1",
+      "resourceId": "529wuban/1skill1_1",
+      "text": "汝颈硬？比之金铁何如？",
+      "textLocalized": {
+        "zhHans": "汝颈硬？比之金铁何如？",
+        "zhHant": "汝頸硬？比之金鐵何如？"
+      },
+      "group": {
+        "slug": "spell-3194",
+        "name": "斩钉",
+        "displayName": {
+          "zhHans": "斩钉",
+          "zhHant": "斬釘"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/529wuban-a5d89cac/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/529wuban/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuban--529wuban--1skill1_2",
+      "resourceId": "529wuban/1skill1_2",
+      "text": "魍魉[wǎng liǎng]鼠辈，速速系颈俯首。",
+      "textLocalized": {
+        "zhHans": "魍魉[wǎng liǎng]鼠辈，速速系颈俯首。",
+        "zhHant": "魍魎[wǎng liǎng]鼠輩，速速繫頸俯首。"
+      },
+      "group": {
+        "slug": "spell-3194",
+        "name": "斩钉",
+        "displayName": {
+          "zhHans": "斩钉",
+          "zhHant": "斬釘"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/529wuban-a5d89cac/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/529wuban/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

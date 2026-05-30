@@ -1,3 +1,210 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5cbf979ea61d6f0d7095199c1c91b1a95307cab820e49753ec7a485bec422a36
-size 5436
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "mengda",
+    "command": "mengda",
+    "name": "孟达",
+    "displayName": {
+      "zhHans": "孟达",
+      "zhHant": "孟達"
+    },
+    "names": [
+      "孟达"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孟达",
+        "zhHant": "孟達"
+      }
+    ],
+    "ids": [
+      "558"
+    ],
+    "sourceNames": [
+      "孟达"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孟达",
+        "zhHant": "孟達"
+      }
+    ],
+    "sourceIds": [
+      "558"
+    ],
+    "searchNames": [
+      "mengda",
+      "孟达",
+      "孟達"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/mengda/groups/dead.json"
+      },
+      {
+        "slug": "spell-3302",
+        "name": "苟得",
+        "displayName": {
+          "zhHans": "苟得",
+          "zhHant": "苟得"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/mengda/groups/spell-3302.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mengda/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-55801",
+        "name": "待笺而沽",
+        "displayName": {
+          "zhHans": "待笺而沽",
+          "zhHant": "待箋而沽"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mengda/skins/skin-55801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/mengda.json",
+      "groups": "api/v1/tts/characters/mengda/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/mengda/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/mengda/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "mengda--558mengda--1dead01",
+      "resourceId": "558mengda/1dead01",
+      "text": "丞相援军何其远乎？",
+      "textLocalized": {
+        "zhHans": "丞相援军何其远乎？",
+        "zhHant": "丞相援軍何其遠乎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/558mengda-b4bab946/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/558mengda/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mengda--558mengda--1skill1_1",
+      "resourceId": "558mengda/1skill1_1",
+      "text": "蝼蚁尚且偷生，况我大将军乎。",
+      "textLocalized": {
+        "zhHans": "蝼蚁尚且偷生，况我大将军乎。",
+        "zhHant": "螻蟻尚且偷生，況我大將軍乎。"
+      },
+      "group": {
+        "slug": "spell-3302",
+        "name": "苟得",
+        "displayName": {
+          "zhHans": "苟得",
+          "zhHant": "苟得"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/558mengda-b4bab946/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/558mengda/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mengda--558mengda--1skill1_2",
+      "resourceId": "558mengda/1skill1_2",
+      "text": "为保身家性命，做奔臣又如何？",
+      "textLocalized": {
+        "zhHans": "为保身家性命，做奔臣又如何？",
+        "zhHant": "爲保身家性命，做奔臣又如何？"
+      },
+      "group": {
+        "slug": "spell-3302",
+        "name": "苟得",
+        "displayName": {
+          "zhHans": "苟得",
+          "zhHant": "苟得"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/558mengda-b4bab946/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/558mengda/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

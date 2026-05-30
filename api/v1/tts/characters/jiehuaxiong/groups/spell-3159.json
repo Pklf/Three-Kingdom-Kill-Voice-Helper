@@ -1,3 +1,403 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2e18ced72e9ff213bc8e4b9566586935a73012240c9a23491418a24cf1e8ad9f
-size 11061
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiehuaxiong",
+    "command": "jiehuaxiong",
+    "name": "界华雄",
+    "displayName": {
+      "zhHans": "界华雄",
+      "zhHant": "界華雄"
+    },
+    "names": [
+      "界华雄",
+      "华雄",
+      "谋华雄",
+      "将华雄"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界华雄",
+        "zhHant": "界華雄"
+      },
+      {
+        "zhHans": "华雄",
+        "zhHant": "華雄"
+      },
+      {
+        "zhHans": "谋华雄",
+        "zhHant": "謀華雄"
+      },
+      {
+        "zhHans": "将华雄",
+        "zhHant": "將華雄"
+      }
+    ],
+    "ids": [
+      "446",
+      "214",
+      "644",
+      "171"
+    ],
+    "sourceNames": [
+      "界华雄",
+      "华雄",
+      "谋华雄",
+      "将华雄"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界华雄",
+        "zhHant": "界華雄"
+      },
+      {
+        "zhHans": "华雄",
+        "zhHant": "華雄"
+      },
+      {
+        "zhHans": "谋华雄",
+        "zhHant": "謀華雄"
+      },
+      {
+        "zhHans": "将华雄",
+        "zhHant": "將華雄"
+      }
+    ],
+    "sourceIds": [
+      "446",
+      "214",
+      "644",
+      "171"
+    ],
+    "searchNames": [
+      "jiehuaxiong",
+      "界华雄",
+      "界華雄",
+      "华雄",
+      "華雄",
+      "谋华雄",
+      "謀華雄",
+      "将华雄",
+      "將華雄"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiehuaxiong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3159",
+        "name": "势斩",
+        "displayName": {
+          "zhHans": "势斩",
+          "zhHant": "勢斬"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiehuaxiong/groups/spell-3159.json"
+      },
+      {
+        "slug": "spell-877",
+        "name": "耀武",
+        "displayName": {
+          "zhHans": "耀武",
+          "zhHant": "耀武"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiehuaxiong/groups/spell-877.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-44601",
+        "name": "与关周旋",
+        "displayName": {
+          "zhHans": "与关周旋",
+          "zhHant": "與關周旋"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiehuaxiong/skins/skin-44601.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiehuaxiong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-44603",
+        "name": "威掠沙场",
+        "displayName": {
+          "zhHans": "威掠沙场",
+          "zhHant": "威掠沙場"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiehuaxiong/skins/skin-44603.json"
+      },
+      {
+        "slug": "skin-17105",
+        "name": "攫戾执猛",
+        "displayName": {
+          "zhHans": "攫戾执猛",
+          "zhHant": "攫戾執猛"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiehuaxiong/skins/skin-17105.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiehuaxiong.json",
+      "groups": "api/v1/tts/characters/jiehuaxiong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiehuaxiong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3159",
+    "name": "势斩",
+    "displayName": {
+      "zhHans": "势斩",
+      "zhHant": "勢斬"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/jiehuaxiong/groups/spell-3159.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "jiehuaxiong--446jiehuaxiong--1skill2_1",
+      "resourceId": "446jiehuaxiong/1skill2_1",
+      "text": "看你能坚持几个回合！",
+      "textLocalized": {
+        "zhHans": "看你能坚持几个回合！",
+        "zhHant": "看你能堅持幾個回合！"
+      },
+      "group": {
+        "slug": "spell-3159",
+        "name": "势斩",
+        "displayName": {
+          "zhHans": "势斩",
+          "zhHant": "勢斬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/446jiehuaxiong-fece4dda/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/446jiehuaxiong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiehuaxiong--446jiehuaxiong--1skill2_2",
+      "resourceId": "446jiehuaxiong/1skill2_2",
+      "text": "兀那汉子，且报上名来！",
+      "textLocalized": {
+        "zhHans": "兀那汉子，且报上名来！",
+        "zhHant": "兀那漢子，且報上名來！"
+      },
+      "group": {
+        "slug": "spell-3159",
+        "name": "势斩",
+        "displayName": {
+          "zhHans": "势斩",
+          "zhHant": "勢斬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/446jiehuaxiong-fece4dda/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/446jiehuaxiong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiehuaxiong--446jiehuaxiong--3skill2_1",
+      "resourceId": "446jiehuaxiong/3skill2_1",
+      "text": "来来来，且用汝之鲜血，濯我宝刀锋芒！",
+      "textLocalized": {
+        "zhHans": "来来来，且用汝之鲜血，濯我宝刀锋芒！",
+        "zhHant": "來來來，且用汝之鮮血，濯我寶刀鋒芒！"
+      },
+      "group": {
+        "slug": "spell-3159",
+        "name": "势斩",
+        "displayName": {
+          "zhHans": "势斩",
+          "zhHant": "勢斬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-44603",
+          "name": "威掠沙场",
+          "displayName": {
+            "zhHans": "威掠沙场",
+            "zhHant": "威掠沙場"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/446jiehuaxiong-fece4dda/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/446jiehuaxiong/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiehuaxiong--446jiehuaxiong--3skill2_2",
+      "resourceId": "446jiehuaxiong/3skill2_2",
+      "text": "吾观关东诸将，如鸡犬耳，何足道哉！",
+      "textLocalized": {
+        "zhHans": "吾观关东诸将，如鸡犬耳，何足道哉！",
+        "zhHant": "吾觀關東諸將，如雞犬耳，何足道哉！"
+      },
+      "group": {
+        "slug": "spell-3159",
+        "name": "势斩",
+        "displayName": {
+          "zhHans": "势斩",
+          "zhHant": "勢斬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-44603",
+          "name": "威掠沙场",
+          "displayName": {
+            "zhHans": "威掠沙场",
+            "zhHant": "威掠沙場"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/446jiehuaxiong-fece4dda/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/446jiehuaxiong/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiehuaxiong--446jiehuaxiong--2skill2_1",
+      "resourceId": "446jiehuaxiong/2skill2_1",
+      "text": "倒要看看，你与那潘凤，有何区别！",
+      "textLocalized": {
+        "zhHans": "倒要看看，你与那潘凤，有何区别！",
+        "zhHant": "倒要看看，你與那潘鳳，有何區別！"
+      },
+      "group": {
+        "slug": "spell-3159",
+        "name": "势斩",
+        "displayName": {
+          "zhHans": "势斩",
+          "zhHant": "勢斬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-44601",
+          "name": "与关周旋",
+          "displayName": {
+            "zhHans": "与关周旋",
+            "zhHant": "與關周旋"
+          }
+        },
+        {
+          "slug": "skin-17105",
+          "name": "攫戾执猛",
+          "displayName": {
+            "zhHans": "攫戾执猛",
+            "zhHant": "攫戾執猛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/446jiehuaxiong-fece4dda/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/446jiehuaxiong/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiehuaxiong--446jiehuaxiong--2skill2_2",
+      "resourceId": "446jiehuaxiong/2skill2_2",
+      "text": "吾乃上将华雄，汝可敢与我一战！",
+      "textLocalized": {
+        "zhHans": "吾乃上将华雄，汝可敢与我一战！",
+        "zhHant": "吾乃上將華雄，汝可敢與我一戰！"
+      },
+      "group": {
+        "slug": "spell-3159",
+        "name": "势斩",
+        "displayName": {
+          "zhHans": "势斩",
+          "zhHant": "勢斬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-44601",
+          "name": "与关周旋",
+          "displayName": {
+            "zhHans": "与关周旋",
+            "zhHant": "與關周旋"
+          }
+        },
+        {
+          "slug": "skin-17105",
+          "name": "攫戾执猛",
+          "displayName": {
+            "zhHans": "攫戾执猛",
+            "zhHant": "攫戾執猛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/446jiehuaxiong-fece4dda/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/446jiehuaxiong/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

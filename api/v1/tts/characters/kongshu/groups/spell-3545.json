@@ -1,3 +1,174 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1c7be52a274685694bf59910e89205ff94a502550a02472ee28f9a2909539d11
-size 4476
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "kongshu",
+    "command": "kongshu",
+    "name": "孔淑",
+    "displayName": {
+      "zhHans": "孔淑",
+      "zhHant": "孔淑"
+    },
+    "names": [
+      "孔淑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孔淑",
+        "zhHant": "孔淑"
+      }
+    ],
+    "ids": [
+      "654"
+    ],
+    "sourceNames": [
+      "孔淑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孔淑",
+        "zhHant": "孔淑"
+      }
+    ],
+    "sourceIds": [
+      "654"
+    ],
+    "searchNames": [
+      "kongshu",
+      "孔淑"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/kongshu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3545",
+        "name": "累卵",
+        "displayName": {
+          "zhHans": "累卵",
+          "zhHant": "累卵"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/kongshu/groups/spell-3545.json"
+      },
+      {
+        "slug": "spell-3546",
+        "name": "覆巢",
+        "displayName": {
+          "zhHans": "覆巢",
+          "zhHant": "覆巢"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/kongshu/groups/spell-3546.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "65401",
+        "name": "65401",
+        "displayName": {
+          "zhHans": "65401",
+          "zhHant": "65401"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongshu/skins/65401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/kongshu.json",
+      "groups": "api/v1/tts/characters/kongshu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/kongshu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3545",
+    "name": "累卵",
+    "displayName": {
+      "zhHans": "累卵",
+      "zhHant": "累卵"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/kongshu/groups/spell-3545.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "kongshu--654kongshu--2skill1_1",
+      "resourceId": "654kongshu/2skill1_1",
+      "text": "不好，父亲布置的课业还没温习！",
+      "textLocalized": {
+        "zhHans": "不好，父亲布置的课业还没温习！",
+        "zhHant": "不好，父親佈置的課業還沒溫習！"
+      },
+      "group": {
+        "slug": "spell-3545",
+        "name": "累卵",
+        "displayName": {
+          "zhHans": "累卵",
+          "zhHant": "累卵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65401",
+          "name": "65401",
+          "displayName": {
+            "zhHans": "65401",
+            "zhHant": "65401"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/654kongshu-26051108/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/654kongshu/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongshu--654kongshu--2skill1_2",
+      "resourceId": "654kongshu/2skill1_2",
+      "text": "父亲抽人背书？看不见我、看不见我！",
+      "textLocalized": {
+        "zhHans": "父亲抽人背书？看不见我、看不见我！",
+        "zhHant": "父親抽人背書？看不見我、看不見我！"
+      },
+      "group": {
+        "slug": "spell-3545",
+        "name": "累卵",
+        "displayName": {
+          "zhHans": "累卵",
+          "zhHant": "累卵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65401",
+          "name": "65401",
+          "displayName": {
+            "zhHans": "65401",
+            "zhHant": "65401"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/654kongshu-26051108/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/654kongshu/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,385 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:295e9ce953b19279b8a82cc9ae393e968c69d0dabc1dfae823b2899ec3c97422
-size 10424
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xusheng",
+    "command": "xusheng",
+    "name": "徐盛",
+    "displayName": {
+      "zhHans": "徐盛",
+      "zhHant": "徐盛"
+    },
+    "names": [
+      "徐盛",
+      "界徐盛",
+      "2063"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "徐盛",
+        "zhHant": "徐盛"
+      },
+      {
+        "zhHans": "界徐盛",
+        "zhHant": "界徐盛"
+      },
+      {
+        "zhHans": "2063",
+        "zhHant": "2063"
+      }
+    ],
+    "ids": [
+      "158",
+      "2063",
+      "587"
+    ],
+    "sourceNames": [
+      "徐盛",
+      "界徐盛"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "徐盛",
+        "zhHant": "徐盛"
+      },
+      {
+        "zhHans": "界徐盛",
+        "zhHant": "界徐盛"
+      }
+    ],
+    "sourceIds": [
+      "158",
+      "2063",
+      "587"
+    ],
+    "searchNames": [
+      "xusheng",
+      "徐盛",
+      "界徐盛",
+      "2063"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xusheng/groups/dead.json"
+      },
+      {
+        "slug": "spell-2120",
+        "name": "疑城",
+        "displayName": {
+          "zhHans": "疑城",
+          "zhHant": "疑城"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xusheng/groups/spell-2120.json"
+      },
+      {
+        "slug": "spell-414",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xusheng/groups/spell-414.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xusheng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-58701",
+        "name": "江东铁壁",
+        "displayName": {
+          "zhHans": "江东铁壁",
+          "zhHant": "江東鐵壁"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xusheng/skins/skin-58701.json"
+      },
+      {
+        "slug": "skin-15805",
+        "name": "洞口之战",
+        "displayName": {
+          "zhHans": "洞口之战",
+          "zhHant": "洞口之戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xusheng/skins/skin-15805.json"
+      },
+      {
+        "slug": "skin-15806",
+        "name": "独兵斫敌",
+        "displayName": {
+          "zhHans": "独兵斫敌",
+          "zhHant": "獨兵斫敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xusheng/skins/skin-15806.json"
+      },
+      {
+        "slug": "skin-15806-58701",
+        "name": "独兵斫敌,江东铁壁",
+        "displayName": {
+          "zhHans": "独兵斫敌,江东铁壁",
+          "zhHant": "獨兵斫敵,江東鐵壁"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xusheng/skins/skin-15806-58701.json"
+      },
+      {
+        "slug": "skin-15804",
+        "name": "胆略器用",
+        "displayName": {
+          "zhHans": "胆略器用",
+          "zhHant": "膽略器用"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xusheng/skins/skin-15804.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xusheng.json",
+      "groups": "api/v1/tts/characters/xusheng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xusheng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/xusheng/skins/skin-1.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "xusheng--158xusheng--1dead01",
+      "resourceId": "158xusheng/1dead01",
+      "text": "盛，不能奋身出命，不亦辱乎。",
+      "textLocalized": {
+        "zhHans": "盛，不能奋身出命，不亦辱乎。",
+        "zhHant": "盛，不能奮身出命，不亦辱乎。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/158xusheng-c8f2d1fb/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/158xusheng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xusheng--2063xusheng--1dead01",
+      "resourceId": "2063xusheng/1dead01",
+      "text": "可怜一身胆略，皆随一抔黄土……",
+      "textLocalized": {
+        "zhHans": "可怜一身胆略，皆随一抔黄土……",
+        "zhHant": "可憐一身膽略，皆隨一抔黃土……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2063xusheng-4aa7325c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2063xusheng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xusheng--2063xusheng--1skill1_1",
+      "resourceId": "2063xusheng/1skill1_1",
+      "text": "不怕死，就尽管放马过来！",
+      "textLocalized": {
+        "zhHans": "不怕死，就尽管放马过来！",
+        "zhHant": "不怕死，就儘管放馬過來！"
+      },
+      "group": {
+        "slug": "spell-2120",
+        "name": "疑城",
+        "displayName": {
+          "zhHans": "疑城",
+          "zhHant": "疑城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2063xusheng-4aa7325c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2063xusheng/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xusheng--2063xusheng--1skill1_2",
+      "resourceId": "2063xusheng/1skill1_2",
+      "text": "待末将布下疑城，以退曹贼。",
+      "textLocalized": {
+        "zhHans": "待末将布下疑城，以退曹贼。",
+        "zhHant": "待末將佈下疑城，以退曹賊。"
+      },
+      "group": {
+        "slug": "spell-2120",
+        "name": "疑城",
+        "displayName": {
+          "zhHans": "疑城",
+          "zhHant": "疑城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2063xusheng-4aa7325c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2063xusheng/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xusheng--158xusheng--1skill1_1",
+      "resourceId": "158xusheng/1skill1_1",
+      "text": "大军在此！汝等休想前进一步！",
+      "textLocalized": {
+        "zhHans": "大军在此！汝等休想前进一步！",
+        "zhHant": "大軍在此！汝等休想前進一步！"
+      },
+      "group": {
+        "slug": "spell-414",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/158xusheng-c8f2d1fb/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/158xusheng/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xusheng--158xusheng--1skill1_2",
+      "resourceId": "158xusheng/1skill1_2",
+      "text": "敬请养精蓄锐！",
+      "textLocalized": {
+        "zhHans": "敬请养精蓄锐！",
+        "zhHant": "敬請養精蓄銳！"
+      },
+      "group": {
+        "slug": "spell-414",
+        "name": "破军",
+        "displayName": {
+          "zhHans": "破军",
+          "zhHant": "破軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/158xusheng-c8f2d1fb/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/158xusheng/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

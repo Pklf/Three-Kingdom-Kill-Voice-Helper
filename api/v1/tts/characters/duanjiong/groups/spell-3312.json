@@ -1,3 +1,245 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0c2bcd4480a4c7d8e7947ab09eae11c1f52092da2441ede87c02a3985af46a6d
-size 6744
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "duanjiong",
+    "command": "duanjiong",
+    "name": "段颎",
+    "displayName": {
+      "zhHans": "段颎",
+      "zhHant": "段熲"
+    },
+    "names": [
+      "段颎"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "段颎",
+        "zhHant": "段熲"
+      }
+    ],
+    "ids": [
+      "560"
+    ],
+    "sourceNames": [
+      "段颎"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "段颎",
+        "zhHant": "段熲"
+      }
+    ],
+    "sourceIds": [
+      "560"
+    ],
+    "searchNames": [
+      "duanjiong",
+      "段颎",
+      "段熲"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/duanjiong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3312",
+        "name": "扫谷",
+        "displayName": {
+          "zhHans": "扫谷",
+          "zhHant": "掃谷"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/duanjiong/groups/spell-3312.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/duanjiong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-56001",
+        "name": "炙锋破羌",
+        "displayName": {
+          "zhHans": "炙锋破羌",
+          "zhHant": "炙鋒破羌"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/duanjiong/skins/skin-56001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/duanjiong.json",
+      "groups": "api/v1/tts/characters/duanjiong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/duanjiong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3312",
+    "name": "扫谷",
+    "displayName": {
+      "zhHans": "扫谷",
+      "zhHant": "掃谷"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/duanjiong/groups/spell-3312.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "duanjiong--560duanjiong--1skill1_1",
+      "resourceId": "560duanjiong/1skill1_1",
+      "text": "大汉铁骑，必昭卫霍遗风于当年。",
+      "textLocalized": {
+        "zhHans": "大汉铁骑，必昭卫霍遗风于当年。",
+        "zhHant": "大漢鐵騎，必昭衛霍遺風於當年。"
+      },
+      "group": {
+        "slug": "spell-3312",
+        "name": "扫谷",
+        "displayName": {
+          "zhHans": "扫谷",
+          "zhHant": "掃谷"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/560duanjiong-aa7e0ef3/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/560duanjiong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duanjiong--560duanjiong--1skill1_2",
+      "resourceId": "560duanjiong/1skill1_2",
+      "text": "笑驱百蛮，试问谁敢牧马于中原！",
+      "textLocalized": {
+        "zhHans": "笑驱百蛮，试问谁敢牧马于中原！",
+        "zhHant": "笑驅百蠻，試問誰敢牧馬於中原！"
+      },
+      "group": {
+        "slug": "spell-3312",
+        "name": "扫谷",
+        "displayName": {
+          "zhHans": "扫谷",
+          "zhHant": "掃谷"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/560duanjiong-aa7e0ef3/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/560duanjiong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duanjiong--560duanjiong--2skill1_1",
+      "resourceId": "560duanjiong/2skill1_1",
+      "text": "铁骑如巨浪，势起可摧祁连、踏龙庭。",
+      "textLocalized": {
+        "zhHans": "铁骑如巨浪，势起可摧祁连、踏龙庭。",
+        "zhHant": "鐵騎如巨浪，勢起可摧祁連、踏龍庭。"
+      },
+      "group": {
+        "slug": "spell-3312",
+        "name": "扫谷",
+        "displayName": {
+          "zhHans": "扫谷",
+          "zhHant": "掃谷"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56001",
+          "name": "炙锋破羌",
+          "displayName": {
+            "zhHans": "炙锋破羌",
+            "zhHant": "炙鋒破羌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/560duanjiong-aa7e0ef3/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/560duanjiong/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duanjiong--560duanjiong--2skill1_2",
+      "resourceId": "560duanjiong/2skill1_2",
+      "text": "我有青霜剑一柄，欲斩天下不寒秋。",
+      "textLocalized": {
+        "zhHans": "我有青霜剑一柄，欲斩天下不寒秋。",
+        "zhHant": "我有青霜劍一柄，欲斬天下不寒秋。"
+      },
+      "group": {
+        "slug": "spell-3312",
+        "name": "扫谷",
+        "displayName": {
+          "zhHans": "扫谷",
+          "zhHant": "掃谷"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56001",
+          "name": "炙锋破羌",
+          "displayName": {
+            "zhHans": "炙锋破羌",
+            "zhHant": "炙鋒破羌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/560duanjiong-aa7e0ef3/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/560duanjiong/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

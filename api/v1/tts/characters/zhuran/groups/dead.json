@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e6e277a23a0babda0c587c9d9c92de7e02d2b8e4583d87c81ccc4424ff95cb3
-size 7782
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhuran",
+    "command": "zhuran",
+    "name": "朱然",
+    "displayName": {
+      "zhHans": "朱然",
+      "zhHant": "朱然"
+    },
+    "names": [
+      "朱然"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "朱然",
+        "zhHant": "朱然"
+      }
+    ],
+    "ids": [
+      "182"
+    ],
+    "sourceNames": [
+      "朱然"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "朱然",
+        "zhHant": "朱然"
+      }
+    ],
+    "sourceIds": [
+      "182"
+    ],
+    "searchNames": [
+      "zhuran",
+      "朱然"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhuran/groups/dead.json"
+      },
+      {
+        "slug": "spell-454",
+        "name": "胆守",
+        "displayName": {
+          "zhHans": "胆守",
+          "zhHant": "膽守"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhuran/groups/spell-454.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-18206",
+        "name": "惊涛万军",
+        "displayName": {
+          "zhHans": "惊涛万军",
+          "zhHant": "驚濤萬軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-18206.json"
+      },
+      {
+        "slug": "skin-18203",
+        "name": "胆守一方",
+        "displayName": {
+          "zhHans": "胆守一方",
+          "zhHant": "膽守一方"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-18203.json"
+      },
+      {
+        "slug": "skin-18203-18204",
+        "name": "胆守一方,阴雨观战",
+        "displayName": {
+          "zhHans": "胆守一方,阴雨观战",
+          "zhHant": "膽守一方,陰雨觀戰"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-18203-18204.json"
+      },
+      {
+        "slug": "skin-18204",
+        "name": "阴雨观战",
+        "displayName": {
+          "zhHans": "阴雨观战",
+          "zhHant": "陰雨觀戰"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-18204.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhuran.json",
+      "groups": "api/v1/tts/characters/zhuran/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhuran/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhuran/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhuran--182zhuran--1dead01",
+      "resourceId": "182zhuran/1dead01",
+      "text": "何人，竟有如此之胆？",
+      "textLocalized": {
+        "zhHans": "何人，竟有如此之胆？",
+        "zhHant": "何人，竟有如此之膽？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/182zhuran-085af157/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/182zhuran/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuran--182zhuran--5dead01",
+      "resourceId": "182zhuran/5dead01",
+      "text": "赤胆已酬，足奉慈亲。",
+      "textLocalized": {
+        "zhHans": "赤胆已酬，足奉慈亲。",
+        "zhHant": "赤膽已酬，足奉慈親。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18206",
+          "name": "惊涛万军",
+          "displayName": {
+            "zhHans": "惊涛万军",
+            "zhHant": "驚濤萬軍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/182zhuran-085af157/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/182zhuran/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuran--182zhuran--3dead01",
+      "resourceId": "182zhuran/3dead01",
+      "text": "真不愧是……常胜将军……",
+      "textLocalized": {
+        "zhHans": "真不愧是……常胜将军……",
+        "zhHant": "真不愧是……常勝將軍……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18203",
+          "name": "胆守一方",
+          "displayName": {
+            "zhHans": "胆守一方",
+            "zhHant": "膽守一方"
+          }
+        },
+        {
+          "slug": "skin-18204",
+          "name": "阴雨观战",
+          "displayName": {
+            "zhHans": "阴雨观战",
+            "zhHant": "陰雨觀戰"
+          }
+        },
+        {
+          "slug": "skin-18203-18204",
+          "name": "胆守一方,阴雨观战",
+          "displayName": {
+            "zhHans": "胆守一方,阴雨观战",
+            "zhHant": "膽守一方,陰雨觀戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/182zhuran-085af157/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/182zhuran/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuran--182zhuran--4dead01",
+      "resourceId": "182zhuran/4dead01",
+      "text": "来者，可是赵子龙？",
+      "textLocalized": {
+        "zhHans": "来者，可是赵子龙？",
+        "zhHant": "來者，可是趙子龍？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18204",
+          "name": "阴雨观战",
+          "displayName": {
+            "zhHans": "阴雨观战",
+            "zhHant": "陰雨觀戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/182zhuran-085af157/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/182zhuran/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

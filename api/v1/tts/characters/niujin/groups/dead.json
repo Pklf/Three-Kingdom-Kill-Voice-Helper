@@ -1,3 +1,229 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e9b934d2d1628a851b37baee09938a0501a26c3c6d27f31c009fb0039b8712c
-size 6050
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "niujin",
+    "command": "niujin",
+    "name": "牛金",
+    "displayName": {
+      "zhHans": "牛金",
+      "zhHant": "牛金"
+    },
+    "names": [
+      "牛金"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "牛金",
+        "zhHant": "牛金"
+      }
+    ],
+    "ids": [
+      "3042"
+    ],
+    "sourceNames": [
+      "牛金"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "牛金",
+        "zhHant": "牛金"
+      }
+    ],
+    "sourceIds": [
+      "3042"
+    ],
+    "searchNames": [
+      "niujin",
+      "牛金"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/niujin/groups/dead.json"
+      },
+      {
+        "slug": "spell-4065",
+        "name": "挫锐",
+        "displayName": {
+          "zhHans": "挫锐",
+          "zhHant": "挫銳"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/niujin/groups/spell-4065.json"
+      },
+      {
+        "slug": "spell-4066",
+        "name": "裂围",
+        "displayName": {
+          "zhHans": "裂围",
+          "zhHant": "裂圍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/niujin/groups/spell-4066.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-304202",
+        "name": "势得头筹",
+        "displayName": {
+          "zhHans": "势得头筹",
+          "zhHant": "勢得頭籌"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/niujin/skins/skin-304202.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/niujin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-304203",
+        "name": "陷阵冲锋",
+        "displayName": {
+          "zhHans": "陷阵冲锋",
+          "zhHant": "陷陣衝鋒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/niujin/skins/skin-304203.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/niujin.json",
+      "groups": "api/v1/tts/characters/niujin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/niujin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/niujin/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "niujin--3042niujin--3dead01",
+      "resourceId": "3042niujin/3dead01",
+      "text": "铜墙铁壁，突不破呀……",
+      "textLocalized": {
+        "zhHans": "铜墙铁壁，突不破呀……",
+        "zhHant": "銅牆鐵壁，突不破呀……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304202",
+          "name": "势得头筹",
+          "displayName": {
+            "zhHans": "势得头筹",
+            "zhHant": "勢得頭籌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3042niujin-ed53cf0c/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3042niujin/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "niujin--3042niujin--1dead01",
+      "resourceId": "3042niujin/1dead01",
+      "text": "这包围圈太厚，老牛，尽力了……",
+      "textLocalized": {
+        "zhHans": "这包围圈太厚，老牛，尽力了……",
+        "zhHant": "這包圍圈太厚，老牛，盡力了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3042niujin-ed53cf0c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3042niujin/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "niujin--3042niujin--4dead01",
+      "resourceId": "3042niujin/4dead01",
+      "text": "四面都是蜀军，是我托大了……",
+      "textLocalized": {
+        "zhHans": "四面都是蜀军，是我托大了……",
+        "zhHant": "四面都是蜀軍，是我託大了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304203",
+          "name": "陷阵冲锋",
+          "displayName": {
+            "zhHans": "陷阵冲锋",
+            "zhHant": "陷陣衝鋒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3042niujin-ed53cf0c/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3042niujin/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

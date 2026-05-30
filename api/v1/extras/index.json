@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a32e62c3d5f1ff64c3a211604f2bbdcb6b15e4ce22140bb891367985fa98d8c0
-size 1155
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "categoryCount": 3,
+  "itemCount": 338,
+  "categories": [
+    {
+      "slug": "background-music",
+      "name": "背景音乐",
+      "displayName": {
+        "zhHans": "背景音乐",
+        "zhHant": "背景音樂"
+      },
+      "itemCount": 35,
+      "endpoint": "api/v1/extras/background-music.json"
+    },
+    {
+      "slug": "card-effects",
+      "name": "卡牌配音",
+      "displayName": {
+        "zhHans": "卡牌配音",
+        "zhHant": "卡牌配音"
+      },
+      "itemCount": 261,
+      "endpoint": "api/v1/extras/card-effects.json"
+    },
+    {
+      "slug": "chat",
+      "name": "聊天配音",
+      "displayName": {
+        "zhHans": "聊天配音",
+        "zhHant": "聊天配音"
+      },
+      "itemCount": 42,
+      "endpoint": "api/v1/extras/chat.json"
+    }
+  ],
+  "report": {
+    "included": {
+      "卡牌配音": 261,
+      "聊天配音": 42,
+      "背景音乐": 35
+    },
+    "excluded": {
+      "将灵": 25,
+      "武将配音专业版": 100,
+      "武将配音经典版": 70
+    }
+  }
+}

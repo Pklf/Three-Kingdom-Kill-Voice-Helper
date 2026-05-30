@@ -1,3 +1,311 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:00629776ba8819ab3376190e32a3b68b0c02ea70b791bc7fa97d04990cfe2a98
-size 8466
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zoushi",
+    "command": "zoushi",
+    "name": "邹氏",
+    "displayName": {
+      "zhHans": "邹氏",
+      "zhHant": "鄒氏"
+    },
+    "names": [
+      "邹氏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "邹氏",
+        "zhHant": "鄒氏"
+      }
+    ],
+    "ids": [
+      "2059"
+    ],
+    "sourceNames": [
+      "邹氏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "邹氏",
+        "zhHant": "鄒氏"
+      }
+    ],
+    "sourceIds": [
+      "2059"
+    ],
+    "searchNames": [
+      "zoushi",
+      "邹氏",
+      "鄒氏"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zoushi/groups/dead.json"
+      },
+      {
+        "slug": "spell-2112",
+        "name": "祸水",
+        "displayName": {
+          "zhHans": "祸水",
+          "zhHant": "禍水"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zoushi/groups/spell-2112.json"
+      },
+      {
+        "slug": "spell-2113",
+        "name": "倾城",
+        "displayName": {
+          "zhHans": "倾城",
+          "zhHant": "傾城"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zoushi/groups/spell-2113.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-205904",
+        "name": "切切于心",
+        "displayName": {
+          "zhHans": "切切于心",
+          "zhHant": "切切於心"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205904.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205905",
+        "name": "娇媚暗波",
+        "displayName": {
+          "zhHans": "娇媚暗波",
+          "zhHant": "嬌媚暗波"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205905.json"
+      },
+      {
+        "slug": "skin-205902",
+        "name": "淯水香魂",
+        "displayName": {
+          "zhHans": "淯水香魂",
+          "zhHant": "淯水香魂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205902.json"
+      },
+      {
+        "slug": "skin-205902-205903",
+        "name": "淯水香魂,艳若桃李",
+        "displayName": {
+          "zhHans": "淯水香魂,艳若桃李",
+          "zhHant": "淯水香魂,豔若桃李"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205902-205903.json"
+      },
+      {
+        "slug": "skin-205903",
+        "name": "艳若桃李",
+        "displayName": {
+          "zhHans": "艳若桃李",
+          "zhHant": "豔若桃李"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zoushi.json",
+      "groups": "api/v1/tts/characters/zoushi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zoushi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zoushi/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zoushi--2059zoushi--4dead01",
+      "resourceId": "2059zoushi/4dead01",
+      "text": "明日淯[yù]水头，遗韵埋香魂。",
+      "textLocalized": {
+        "zhHans": "明日淯[yù]水头，遗韵埋香魂。",
+        "zhHant": "明日淯[yù]水頭，遺韻埋香魂。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205904",
+          "name": "切切于心",
+          "displayName": {
+            "zhHans": "切切于心",
+            "zhHant": "切切於心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--1dead01",
+      "resourceId": "2059zoushi/1dead01",
+      "text": "年老色衰了吗？",
+      "textLocalized": {
+        "zhHans": "年老色衰了吗？",
+        "zhHant": "年老色衰了嗎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--5dead01",
+      "resourceId": "2059zoushi/5dead01",
+      "text": "世间的成败得失，都要怪红颜祸水么？",
+      "textLocalized": {
+        "zhHans": "世间的成败得失，都要怪红颜祸水么？",
+        "zhHant": "世間的成敗得失，都要怪紅顏禍水麼？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205905",
+          "name": "娇媚暗波",
+          "displayName": {
+            "zhHans": "娇媚暗波",
+            "zhHant": "嬌媚暗波"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--3dead01",
+      "resourceId": "2059zoushi/3dead01",
+      "text": "乱世，从不怜惜女子。",
+      "textLocalized": {
+        "zhHans": "乱世，从不怜惜女子。",
+        "zhHant": "亂世，從不憐惜女子。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205902",
+          "name": "淯水香魂",
+          "displayName": {
+            "zhHans": "淯水香魂",
+            "zhHant": "淯水香魂"
+          }
+        },
+        {
+          "slug": "skin-205903",
+          "name": "艳若桃李",
+          "displayName": {
+            "zhHans": "艳若桃李",
+            "zhHant": "豔若桃李"
+          }
+        },
+        {
+          "slug": "skin-205902-205903",
+          "name": "淯水香魂,艳若桃李",
+          "displayName": {
+            "zhHans": "淯水香魂,艳若桃李",
+            "zhHant": "淯水香魂,豔若桃李"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

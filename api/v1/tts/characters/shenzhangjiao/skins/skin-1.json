@@ -1,3 +1,345 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:584c2dd725cd39b5c3351000f34b12dc73ce454574338443ee32b4d960196048
-size 9749
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenzhangjiao",
+    "command": "shenzhangjiao",
+    "name": "神张角",
+    "displayName": {
+      "zhHans": "神张角",
+      "zhHant": "神張角"
+    },
+    "names": [
+      "神张角"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神张角",
+        "zhHant": "神張角"
+      }
+    ],
+    "ids": [
+      "227"
+    ],
+    "sourceNames": [
+      "神张角"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神张角",
+        "zhHant": "神張角"
+      }
+    ],
+    "sourceIds": [
+      "227"
+    ],
+    "searchNames": [
+      "shenzhangjiao",
+      "神张角",
+      "神張角"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenzhangjiao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3238",
+        "name": "异兆",
+        "displayName": {
+          "zhHans": "异兆",
+          "zhHant": "異兆"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhangjiao/groups/spell-3238.json"
+      },
+      {
+        "slug": "spell-3240",
+        "name": "肆军",
+        "displayName": {
+          "zhHans": "肆军",
+          "zhHant": "肆軍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhangjiao/groups/spell-3240.json"
+      },
+      {
+        "slug": "spell-3241",
+        "name": "天劫",
+        "displayName": {
+          "zhHans": "天劫",
+          "zhHant": "天劫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenzhangjiao/groups/spell-3241.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhangjiao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-22702",
+        "name": "清淼没川",
+        "displayName": {
+          "zhHans": "清淼没川",
+          "zhHant": "清淼沒川"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhangjiao/skins/skin-22702.json"
+      },
+      {
+        "slug": "skin-22701",
+        "name": "驭道震泽",
+        "displayName": {
+          "zhHans": "驭道震泽",
+          "zhHant": "馭道震澤"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhangjiao/skins/skin-22701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenzhangjiao.json",
+      "groups": "api/v1/tts/characters/shenzhangjiao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenzhangjiao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/shenzhangjiao/skins/skin-1.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "shenzhangjiao--227shenzhangjiao--1dead01",
+      "resourceId": "227shenzhangjiao/1dead01",
+      "text": "诸君唤我为贼，然我所窃何物？",
+      "textLocalized": {
+        "zhHans": "诸君唤我为贼，然我所窃何物？",
+        "zhHant": "諸君喚我爲賊，然我所竊何物？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/227shenzhangjiao-90cdd198/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangjiao--227shenzhangjiao--1skill1_1",
+      "resourceId": "227shenzhangjiao/1skill1_1",
+      "text": "苍天已死，此黄天当立之时。",
+      "textLocalized": {
+        "zhHans": "苍天已死，此黄天当立之时。",
+        "zhHant": "蒼天已死，此黃天當立之時。"
+      },
+      "group": {
+        "slug": "spell-3238",
+        "name": "异兆",
+        "displayName": {
+          "zhHans": "异兆",
+          "zhHant": "異兆"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/227shenzhangjiao-90cdd198/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangjiao--227shenzhangjiao--1skill1_2",
+      "resourceId": "227shenzhangjiao/1skill1_2",
+      "text": "甲子尚水，显炎汉将亡之兆。",
+      "textLocalized": {
+        "zhHans": "甲子尚水，显炎汉将亡之兆。",
+        "zhHant": "甲子尚水，顯炎漢將亡之兆。"
+      },
+      "group": {
+        "slug": "spell-3238",
+        "name": "异兆",
+        "displayName": {
+          "zhHans": "异兆",
+          "zhHant": "異兆"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/227shenzhangjiao-90cdd198/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangjiao--227shenzhangjiao--1skill2_1",
+      "resourceId": "227shenzhangjiao/1skill2_1",
+      "text": "联九州黎庶，撼一家之王庭。",
+      "textLocalized": {
+        "zhHans": "联九州黎庶，撼一家之王庭。",
+        "zhHant": "聯九州黎庶，撼一家之王庭。"
+      },
+      "group": {
+        "slug": "spell-3240",
+        "name": "肆军",
+        "displayName": {
+          "zhHans": "肆军",
+          "zhHant": "肆軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/227shenzhangjiao-90cdd198/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangjiao--227shenzhangjiao--1skill2_2",
+      "resourceId": "227shenzhangjiao/1skill2_2",
+      "text": "吾以此身为药，欲医天下之疾。",
+      "textLocalized": {
+        "zhHans": "吾以此身为药，欲医天下之疾。",
+        "zhHant": "吾以此身爲藥，欲醫天下之疾。"
+      },
+      "group": {
+        "slug": "spell-3240",
+        "name": "肆军",
+        "displayName": {
+          "zhHans": "肆军",
+          "zhHant": "肆軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/227shenzhangjiao-90cdd198/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangjiao--227shenzhangjiao--1skill3_1",
+      "resourceId": "227shenzhangjiao/1skill3_1",
+      "text": "苍天既死，贫道当替天行道。",
+      "textLocalized": {
+        "zhHans": "苍天既死，贫道当替天行道。",
+        "zhHant": "蒼天既死，貧道當替天行道。"
+      },
+      "group": {
+        "slug": "spell-3241",
+        "name": "天劫",
+        "displayName": {
+          "zhHans": "天劫",
+          "zhHant": "天劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/227shenzhangjiao-90cdd198/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/227shenzhangjiao/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

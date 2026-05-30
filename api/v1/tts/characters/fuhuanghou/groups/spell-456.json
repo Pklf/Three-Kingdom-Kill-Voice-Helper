@@ -1,3 +1,572 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b0daf70513ae9f414cfc4c1c6eb3d5a318033c6e258aab5d1e59f233f26ed936
-size 16519
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "fuhuanghou",
+    "command": "fuhuanghou",
+    "name": "伏皇后",
+    "displayName": {
+      "zhHans": "伏皇后",
+      "zhHant": "伏皇后"
+    },
+    "names": [
+      "伏皇后"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "伏皇后",
+        "zhHant": "伏皇后"
+      }
+    ],
+    "ids": [
+      "183"
+    ],
+    "sourceNames": [
+      "伏皇后"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "伏皇后",
+        "zhHant": "伏皇后"
+      }
+    ],
+    "sourceIds": [
+      "183"
+    ],
+    "searchNames": [
+      "fuhuanghou",
+      "伏皇后"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/groups/dead.json"
+      },
+      {
+        "slug": "spell-455",
+        "name": "惴恐",
+        "displayName": {
+          "zhHans": "惴恐",
+          "zhHant": "惴恐"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/groups/spell-455.json"
+      },
+      {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/groups/spell-456.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-18306",
+        "name": "困凰权碎",
+        "displayName": {
+          "zhHans": "困凰权碎",
+          "zhHant": "困凰權碎"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18306.json"
+      },
+      {
+        "slug": "skin-18301",
+        "name": "孤注一掷",
+        "displayName": {
+          "zhHans": "孤注一掷",
+          "zhHant": "孤注一擲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18301.json"
+      },
+      {
+        "slug": "skin-18309",
+        "name": "悲凄别离",
+        "displayName": {
+          "zhHans": "悲凄别离",
+          "zhHant": "悲悽別離"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18309.json"
+      },
+      {
+        "slug": "skin-18308",
+        "name": "烟雨涳濛",
+        "displayName": {
+          "zhHans": "烟雨涳濛",
+          "zhHant": "煙雨涳濛"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18308.json"
+      },
+      {
+        "slug": "skin-18305",
+        "name": "班政兰闺",
+        "displayName": {
+          "zhHans": "班政兰闺",
+          "zhHant": "班政蘭閨"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18305.json"
+      },
+      {
+        "slug": "skin-18303",
+        "name": "霜夜凤诏",
+        "displayName": {
+          "zhHans": "霜夜凤诏",
+          "zhHant": "霜夜鳳詔"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18303.json"
+      },
+      {
+        "slug": "skin-18303-18305-18309",
+        "name": "霜夜凤诏,班政兰闺,悲凄别离",
+        "displayName": {
+          "zhHans": "霜夜凤诏,班政兰闺,悲凄别离",
+          "zhHant": "霜夜鳳詔,班政蘭閨,悲悽別離"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/fuhuanghou/skins/skin-18303-18305-18309.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/fuhuanghou.json",
+      "groups": "api/v1/tts/characters/fuhuanghou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/fuhuanghou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-456",
+    "name": "求援",
+    "displayName": {
+      "zhHans": "求援",
+      "zhHant": "求援"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/fuhuanghou/groups/spell-456.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "fuhuanghou--183fuhuanghou--1skill2_1",
+      "resourceId": "183fuhuanghou/1skill2_1",
+      "text": "逆贼逞凶，卿可灭之！",
+      "textLocalized": {
+        "zhHans": "逆贼逞凶，卿可灭之！",
+        "zhHant": "逆賊逞兇，卿可滅之！"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--1skill2_2",
+      "resourceId": "183fuhuanghou/1skill2_2",
+      "text": "求父亲救救大汉江山吧！",
+      "textLocalized": {
+        "zhHans": "求父亲救救大汉江山吧！",
+        "zhHant": "求父親救救大漢江山吧！"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--5skill2_1",
+      "resourceId": "183fuhuanghou/5skill2_1",
+      "text": "大汉四百年基业，岂可毁于曹贼之手？",
+      "textLocalized": {
+        "zhHans": "大汉四百年基业，岂可毁于曹贼之手？",
+        "zhHant": "大漢四百年基業，豈可毀於曹賊之手？"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18306",
+          "name": "困凰权碎",
+          "displayName": {
+            "zhHans": "困凰权碎",
+            "zhHant": "困凰權碎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--5skill2_2",
+      "resourceId": "183fuhuanghou/5skill2_2",
+      "text": "这天下，还有道理吗？",
+      "textLocalized": {
+        "zhHans": "这天下，还有道理吗？",
+        "zhHant": "這天下，還有道理嗎？"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18306",
+          "name": "困凰权碎",
+          "displayName": {
+            "zhHans": "困凰权碎",
+            "zhHant": "困凰權碎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--3skill2_1",
+      "resourceId": "183fuhuanghou/3skill2_1",
+      "text": "陛下，我该怎么办？",
+      "textLocalized": {
+        "zhHans": "陛下，我该怎么办？",
+        "zhHant": "陛下，我該怎麼辦？"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18301",
+          "name": "孤注一掷",
+          "displayName": {
+            "zhHans": "孤注一掷",
+            "zhHant": "孤注一擲"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--3skill2_2",
+      "resourceId": "183fuhuanghou/3skill2_2",
+      "text": "曹贼暴虐，谁可诛之！",
+      "textLocalized": {
+        "zhHans": "曹贼暴虐，谁可诛之！",
+        "zhHant": "曹賊暴虐，誰可誅之！"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18301",
+          "name": "孤注一掷",
+          "displayName": {
+            "zhHans": "孤注一掷",
+            "zhHant": "孤注一擲"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--6skill2_1",
+      "resourceId": "183fuhuanghou/6skill2_1",
+      "text": "曹贼野心，谁能为妾身分担？",
+      "textLocalized": {
+        "zhHans": "曹贼野心，谁能为妾身分担？",
+        "zhHant": "曹賊野心，誰能爲妾身分擔？"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18308",
+          "name": "烟雨涳濛",
+          "displayName": {
+            "zhHans": "烟雨涳濛",
+            "zhHant": "煙雨涳濛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--6skill2_2",
+      "resourceId": "183fuhuanghou/6skill2_2",
+      "text": "踽踽独行，何人援之？",
+      "textLocalized": {
+        "zhHans": "踽踽独行，何人援之？",
+        "zhHant": "踽踽獨行，何人援之？"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18308",
+          "name": "烟雨涳濛",
+          "displayName": {
+            "zhHans": "烟雨涳濛",
+            "zhHant": "煙雨涳濛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--4skill2_1",
+      "resourceId": "183fuhuanghou/4skill2_1",
+      "text": "这是最后的希望。",
+      "textLocalized": {
+        "zhHans": "这是最后的希望。",
+        "zhHant": "這是最後的希望。"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18309",
+          "name": "悲凄别离",
+          "displayName": {
+            "zhHans": "悲凄别离",
+            "zhHant": "悲悽別離"
+          }
+        },
+        {
+          "slug": "skin-18305",
+          "name": "班政兰闺",
+          "displayName": {
+            "zhHans": "班政兰闺",
+            "zhHant": "班政蘭閨"
+          }
+        },
+        {
+          "slug": "skin-18303",
+          "name": "霜夜凤诏",
+          "displayName": {
+            "zhHans": "霜夜凤诏",
+            "zhHant": "霜夜鳳詔"
+          }
+        },
+        {
+          "slug": "skin-18303-18305-18309",
+          "name": "霜夜凤诏,班政兰闺,悲凄别离",
+          "displayName": {
+            "zhHans": "霜夜凤诏,班政兰闺,悲凄别离",
+            "zhHant": "霜夜鳳詔,班政蘭閨,悲悽別離"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuhuanghou--183fuhuanghou--4skill2_2",
+      "resourceId": "183fuhuanghou/4skill2_2",
+      "text": "诛此国贼者，加官进爵！",
+      "textLocalized": {
+        "zhHans": "诛此国贼者，加官进爵！",
+        "zhHant": "誅此國賊者，加官進爵！"
+      },
+      "group": {
+        "slug": "spell-456",
+        "name": "求援",
+        "displayName": {
+          "zhHans": "求援",
+          "zhHant": "求援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18309",
+          "name": "悲凄别离",
+          "displayName": {
+            "zhHans": "悲凄别离",
+            "zhHant": "悲悽別離"
+          }
+        },
+        {
+          "slug": "skin-18305",
+          "name": "班政兰闺",
+          "displayName": {
+            "zhHans": "班政兰闺",
+            "zhHant": "班政蘭閨"
+          }
+        },
+        {
+          "slug": "skin-18303",
+          "name": "霜夜凤诏",
+          "displayName": {
+            "zhHans": "霜夜凤诏",
+            "zhHant": "霜夜鳳詔"
+          }
+        },
+        {
+          "slug": "skin-18303-18305-18309",
+          "name": "霜夜凤诏,班政兰闺,悲凄别离",
+          "displayName": {
+            "zhHans": "霜夜凤诏,班政兰闺,悲凄别离",
+            "zhHant": "霜夜鳳詔,班政蘭閨,悲悽別離"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/183fuhuanghou-28197504/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/183fuhuanghou/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,386 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a34230627b188ba41aa506312a4dfe7067c88984eabf271b0dabd0f5f06f4992
-size 8250
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liyi",
+    "command": "liyi",
+    "name": "李异",
+    "displayName": {
+      "zhHans": "李异",
+      "zhHant": "李異"
+    },
+    "names": [
+      "李异"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李异",
+        "zhHant": "李異"
+      }
+    ],
+    "ids": [
+      "607"
+    ],
+    "sourceNames": [
+      "李异"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李异",
+        "zhHant": "李異"
+      }
+    ],
+    "sourceIds": [
+      "607"
+    ],
+    "searchNames": [
+      "liyi",
+      "李异",
+      "李異"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-3431",
+        "name": "缠双",
+        "displayName": {
+          "zhHans": "缠双",
+          "zhHant": "纏雙"
+        },
+        "ids": [
+          "3431"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-3432",
+        "name": "蘸金",
+        "displayName": {
+          "zhHans": "蘸金",
+          "zhHant": "蘸金"
+        },
+        "ids": [
+          "3432"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/liyi.json",
+      "lines": "api/v1/characters/liyi/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3431",
+    "ids": [
+      "3431"
+    ],
+    "name": "缠双",
+    "displayName": {
+      "zhHans": "缠双",
+      "zhHant": "纏雙"
+    },
+    "names": [
+      "缠双"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "缠双",
+        "zhHant": "纏雙"
+      }
+    ]
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "liyi--607liyi--1skill1_1",
+      "resourceId": "607liyi/1skill1_1",
+      "text": "武艺精熟，勇冠三军。",
+      "textLocalized": {
+        "zhHans": "武艺精熟，勇冠三军。",
+        "zhHant": "武藝精熟，勇冠三軍。"
+      },
+      "character": {
+        "slug": "liyi",
+        "command": "liyi",
+        "id": "607",
+        "ids": [
+          "607"
+        ],
+        "name": "李异",
+        "displayName": {
+          "zhHans": "李异",
+          "zhHant": "李異"
+        },
+        "names": [
+          "李异"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "李异",
+            "zhHant": "李異"
+          }
+        ],
+        "sourceIds": [
+          "607"
+        ],
+        "sourceNames": [
+          "李异"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "李异",
+            "zhHant": "李異"
+          }
+        ],
+        "searchNames": [
+          "李异",
+          "李異",
+          "liyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-3431",
+        "ids": [
+          "3431"
+        ],
+        "name": "缠双",
+        "displayName": {
+          "zhHans": "缠双",
+          "zhHant": "纏雙"
+        },
+        "names": [
+          "缠双"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "缠双",
+            "zhHant": "纏雙"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "607",
+        "skinKey": "-1",
+        "spellKey": "3431",
+        "rowIndex": 1,
+        "characterNames": [
+          "李异"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/607liyi-6f0a679c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/607liyi/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyi--607liyi--1skill1_2",
+      "resourceId": "607liyi/1skill1_2",
+      "text": "以一敌二，易如反掌。",
+      "textLocalized": {
+        "zhHans": "以一敌二，易如反掌。",
+        "zhHant": "以一敵二，易如反掌。"
+      },
+      "character": {
+        "slug": "liyi",
+        "command": "liyi",
+        "id": "607",
+        "ids": [
+          "607"
+        ],
+        "name": "李异",
+        "displayName": {
+          "zhHans": "李异",
+          "zhHant": "李異"
+        },
+        "names": [
+          "李异"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "李异",
+            "zhHant": "李異"
+          }
+        ],
+        "sourceIds": [
+          "607"
+        ],
+        "sourceNames": [
+          "李异"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "李异",
+            "zhHant": "李異"
+          }
+        ],
+        "searchNames": [
+          "李异",
+          "李異",
+          "liyi"
+        ]
+      },
+      "group": {
+        "slug": "spell-3431",
+        "ids": [
+          "3431"
+        ],
+        "name": "缠双",
+        "displayName": {
+          "zhHans": "缠双",
+          "zhHant": "纏雙"
+        },
+        "names": [
+          "缠双"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "缠双",
+            "zhHant": "纏雙"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "607",
+        "skinKey": "-1",
+        "spellKey": "3431",
+        "rowIndex": 2,
+        "characterNames": [
+          "李异"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/607liyi-6f0a679c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/607liyi/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

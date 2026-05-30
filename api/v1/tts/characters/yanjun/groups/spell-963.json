@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ccdaacac0e0046d683cc9cb9a42d1de52938d7d2c82af38d1744b46153f0513e
-size 6792
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yanjun",
+    "command": "yanjun",
+    "name": "严畯",
+    "displayName": {
+      "zhHans": "严畯",
+      "zhHant": "嚴畯"
+    },
+    "names": [
+      "严畯"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "严畯",
+        "zhHant": "嚴畯"
+      }
+    ],
+    "ids": [
+      "473"
+    ],
+    "sourceNames": [
+      "严畯"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "严畯",
+        "zhHant": "嚴畯"
+      }
+    ],
+    "sourceIds": [
+      "473"
+    ],
+    "searchNames": [
+      "yanjun",
+      "严畯",
+      "嚴畯"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yanjun/groups/dead.json"
+      },
+      {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanjun/groups/spell-963.json"
+      },
+      {
+        "slug": "spell-964",
+        "name": "逊贤",
+        "displayName": {
+          "zhHans": "逊贤",
+          "zhHant": "遜賢"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanjun/groups/spell-964.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yanjun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-47301",
+        "name": "观潮笔录",
+        "displayName": {
+          "zhHans": "观潮笔录",
+          "zhHant": "觀潮筆錄"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yanjun/skins/skin-47301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yanjun.json",
+      "groups": "api/v1/tts/characters/yanjun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yanjun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-963",
+    "name": "观潮",
+    "displayName": {
+      "zhHans": "观潮",
+      "zhHant": "觀潮"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/yanjun/groups/spell-963.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "yanjun--473yanjun--1skill1_1",
+      "resourceId": "473yanjun/1skill1_1",
+      "text": "朝夕之间，可知所进退。",
+      "textLocalized": {
+        "zhHans": "朝夕之间，可知所进退。",
+        "zhHant": "朝夕之間，可知所進退。"
+      },
+      "group": {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--1skill1_2",
+      "resourceId": "473yanjun/1skill1_2",
+      "text": "月盈，潮起晨暮也；月亏，潮起日半也。",
+      "textLocalized": {
+        "zhHans": "月盈，潮起晨暮也；月亏，潮起日半也。",
+        "zhHant": "月盈，潮起晨暮也；月虧，潮起日半也。"
+      },
+      "group": {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--2skill1_1",
+      "resourceId": "473yanjun/2skill1_1",
+      "text": "潮起潮落，盈亏自得。",
+      "textLocalized": {
+        "zhHans": "潮起潮落，盈亏自得。",
+        "zhHant": "潮起潮落，盈虧自得。"
+      },
+      "group": {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47301",
+          "name": "观潮笔录",
+          "displayName": {
+            "zhHans": "观潮笔录",
+            "zhHant": "觀潮筆錄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--2skill1_2",
+      "resourceId": "473yanjun/2skill1_2",
+      "text": "水文之象，起落可循。",
+      "textLocalized": {
+        "zhHans": "水文之象，起落可循。",
+        "zhHant": "水文之象，起落可循。"
+      },
+      "group": {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47301",
+          "name": "观潮笔录",
+          "displayName": {
+            "zhHans": "观潮笔录",
+            "zhHant": "觀潮筆錄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

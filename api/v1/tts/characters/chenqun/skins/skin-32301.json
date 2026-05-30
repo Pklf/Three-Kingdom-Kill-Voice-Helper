@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0835922278df6d90c91c7ebe5dede23a0a460bacbec41a24d2b175292f8e60e8
-size 8409
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chenqun",
+    "command": "chenqun",
+    "name": "陈群",
+    "displayName": {
+      "zhHans": "陈群",
+      "zhHant": "陳羣"
+    },
+    "names": [
+      "陈群"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈群",
+        "zhHant": "陳羣"
+      }
+    ],
+    "ids": [
+      "323"
+    ],
+    "sourceNames": [
+      "陈群"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈群",
+        "zhHant": "陳羣"
+      }
+    ],
+    "sourceIds": [
+      "323"
+    ],
+    "searchNames": [
+      "chenqun",
+      "陈群",
+      "陳羣"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/chenqun/groups/dead.json"
+      },
+      {
+        "slug": "spell-480",
+        "name": "品第",
+        "displayName": {
+          "zhHans": "品第",
+          "zhHant": "品第"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/chenqun/groups/spell-480.json"
+      },
+      {
+        "slug": "spell-481",
+        "name": "法恩",
+        "displayName": {
+          "zhHans": "法恩",
+          "zhHant": "法恩"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/chenqun/groups/spell-481.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-32302",
+        "name": "动仗名义",
+        "displayName": {
+          "zhHans": "动仗名义",
+          "zhHant": "動仗名義"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenqun/skins/skin-32302.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenqun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32301",
+        "name": "清流雅望",
+        "displayName": {
+          "zhHans": "清流雅望",
+          "zhHant": "清流雅望"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenqun/skins/skin-32301.json"
+      },
+      {
+        "slug": "skin-32305",
+        "name": "贵雅清丽",
+        "displayName": {
+          "zhHans": "贵雅清丽",
+          "zhHant": "貴雅清麗"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenqun/skins/skin-32305.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chenqun.json",
+      "groups": "api/v1/tts/characters/chenqun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chenqun/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-32301",
+    "name": "清流雅望",
+    "displayName": {
+      "zhHans": "清流雅望",
+      "zhHant": "清流雅望"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chenqun/skins/skin-32301.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chenqun--323chenqun--3dead01",
+      "resourceId": "323chenqun/3dead01",
+      "text": "功成名就……勿念……",
+      "textLocalized": {
+        "zhHans": "功成名就……勿念……",
+        "zhHant": "功成名就……勿念……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32301",
+          "name": "清流雅望",
+          "displayName": {
+            "zhHans": "清流雅望",
+            "zhHant": "清流雅望"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/323chenqun-e2e259e4/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/323chenqun/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenqun--323chenqun--3skill1_1",
+      "resourceId": "323chenqun/3skill1_1",
+      "text": "依才封级，以能定品。",
+      "textLocalized": {
+        "zhHans": "依才封级，以能定品。",
+        "zhHant": "依才封級，以能定品。"
+      },
+      "group": {
+        "slug": "spell-480",
+        "name": "品第",
+        "displayName": {
+          "zhHans": "品第",
+          "zhHant": "品第"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32301",
+          "name": "清流雅望",
+          "displayName": {
+            "zhHans": "清流雅望",
+            "zhHant": "清流雅望"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/323chenqun-e2e259e4/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/323chenqun/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenqun--323chenqun--3skill1_2",
+      "resourceId": "323chenqun/3skill1_2",
+      "text": "德以定阶，才乃论品。",
+      "textLocalized": {
+        "zhHans": "德以定阶，才乃论品。",
+        "zhHant": "德以定階，才乃論品。"
+      },
+      "group": {
+        "slug": "spell-480",
+        "name": "品第",
+        "displayName": {
+          "zhHans": "品第",
+          "zhHant": "品第"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32301",
+          "name": "清流雅望",
+          "displayName": {
+            "zhHans": "清流雅望",
+            "zhHant": "清流雅望"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/323chenqun-e2e259e4/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/323chenqun/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenqun--323chenqun--3skill2_1",
+      "resourceId": "323chenqun/3skill2_1",
+      "text": "法为国治，恩典万民。",
+      "textLocalized": {
+        "zhHans": "法为国治，恩典万民。",
+        "zhHant": "法爲國治，恩典萬民。"
+      },
+      "group": {
+        "slug": "spell-481",
+        "name": "法恩",
+        "displayName": {
+          "zhHans": "法恩",
+          "zhHant": "法恩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32301",
+          "name": "清流雅望",
+          "displayName": {
+            "zhHans": "清流雅望",
+            "zhHant": "清流雅望"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/323chenqun-e2e259e4/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/323chenqun/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenqun--323chenqun--3skill2_2",
+      "resourceId": "323chenqun/3skill2_2",
+      "text": "恩威并重，方可治国。",
+      "textLocalized": {
+        "zhHans": "恩威并重，方可治国。",
+        "zhHant": "恩威並重，方可治國。"
+      },
+      "group": {
+        "slug": "spell-481",
+        "name": "法恩",
+        "displayName": {
+          "zhHans": "法恩",
+          "zhHant": "法恩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32301",
+          "name": "清流雅望",
+          "displayName": {
+            "zhHans": "清流雅望",
+            "zhHant": "清流雅望"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/323chenqun-e2e259e4/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/323chenqun/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,156 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e35a01019bbddcffacc4b1a75943844df32f19cd079d4d9084397eaf18c4627b
-size 3886
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "haizhu",
+    "command": "haizhu",
+    "name": "亥猪",
+    "displayName": {
+      "zhHans": "亥猪",
+      "zhHant": "亥豬"
+    },
+    "names": [
+      "亥猪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "亥猪",
+        "zhHant": "亥豬"
+      }
+    ],
+    "ids": [
+      "4094"
+    ],
+    "sourceNames": [
+      "亥猪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "亥猪",
+        "zhHant": "亥豬"
+      }
+    ],
+    "sourceIds": [
+      "4094"
+    ],
+    "searchNames": [
+      "haizhu",
+      "亥猪",
+      "亥豬"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/haizhu/groups/dead.json"
+      },
+      {
+        "slug": "spell-1212",
+        "name": "亥猪",
+        "displayName": {
+          "zhHans": "亥猪",
+          "zhHant": "亥豬"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/haizhu/groups/spell-1212.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/haizhu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/haizhu.json",
+      "groups": "api/v1/tts/characters/haizhu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/haizhu/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "haizhu--4094haizhu--1dead01",
+      "resourceId": "4094haizhu/1dead01",
+      "text": "噢，果然，还是吃太多了。",
+      "textLocalized": {
+        "zhHans": "噢，果然，还是吃太多了。",
+        "zhHant": "噢，果然，還是喫太多了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4094haizhu-c93c5de8/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4094haizhu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "haizhu--4094haizhu--1skill1_1",
+      "resourceId": "4094haizhu/1skill1_1",
+      "text": "这些，都归我吧。",
+      "textLocalized": {
+        "zhHans": "这些，都归我吧。",
+        "zhHant": "這些，都歸我吧。"
+      },
+      "group": {
+        "slug": "spell-1212",
+        "name": "亥猪",
+        "displayName": {
+          "zhHans": "亥猪",
+          "zhHant": "亥豬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4094haizhu-c93c5de8/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4094haizhu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

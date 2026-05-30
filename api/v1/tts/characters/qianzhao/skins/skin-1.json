@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ebe4b023fc075db4fb6b701e380a6f04d6f1c379ef1af13533e2e692feff0c20
-size 7762
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qianzhao",
+    "command": "qianzhao",
+    "name": "牵招",
+    "displayName": {
+      "zhHans": "牵招",
+      "zhHant": "牽招"
+    },
+    "names": [
+      "牵招"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "牵招",
+        "zhHant": "牽招"
+      }
+    ],
+    "ids": [
+      "580"
+    ],
+    "sourceNames": [
+      "牵招"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "牵招",
+        "zhHant": "牽招"
+      }
+    ],
+    "sourceIds": [
+      "580"
+    ],
+    "searchNames": [
+      "qianzhao",
+      "牵招",
+      "牽招"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/qianzhao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3365",
+        "name": "威抚",
+        "displayName": {
+          "zhHans": "威抚",
+          "zhHant": "威撫"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qianzhao/groups/spell-3365.json"
+      },
+      {
+        "slug": "spell-3366",
+        "name": "款塞",
+        "displayName": {
+          "zhHans": "款塞",
+          "zhHant": "款塞"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qianzhao/groups/spell-3366.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "58001",
+        "name": "58001",
+        "displayName": {
+          "zhHans": "58001",
+          "zhHant": "58001"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qianzhao/skins/58001.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qianzhao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/qianzhao.json",
+      "groups": "api/v1/tts/characters/qianzhao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/qianzhao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/qianzhao/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "qianzhao--580qianzhao--1dead01",
+      "resourceId": "580qianzhao/1dead01",
+      "text": "玄德兄，弟来迟矣。",
+      "textLocalized": {
+        "zhHans": "玄德兄，弟来迟矣。",
+        "zhHant": "玄德兄，弟來遲矣。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qianzhao--580qianzhao--1skill1_1",
+      "resourceId": "580qianzhao/1skill1_1",
+      "text": "蛮人畏威，当束甲抚之。",
+      "textLocalized": {
+        "zhHans": "蛮人畏威，当束甲抚之。",
+        "zhHant": "蠻人畏威，當束甲撫之。"
+      },
+      "group": {
+        "slug": "spell-3365",
+        "name": "威抚",
+        "displayName": {
+          "zhHans": "威抚",
+          "zhHant": "威撫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qianzhao--580qianzhao--1skill1_2",
+      "resourceId": "580qianzhao/1skill1_2",
+      "text": "以威为抚，可定万世之太平。",
+      "textLocalized": {
+        "zhHans": "以威为抚，可定万世之太平。",
+        "zhHant": "以威爲撫，可定萬世之太平。"
+      },
+      "group": {
+        "slug": "spell-3365",
+        "name": "威抚",
+        "displayName": {
+          "zhHans": "威抚",
+          "zhHant": "威撫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qianzhao--580qianzhao--1skill2_1",
+      "resourceId": "580qianzhao/1skill2_1",
+      "text": "君既以礼相待，我何干戈相向。",
+      "textLocalized": {
+        "zhHans": "君既以礼相待，我何干戈相向。",
+        "zhHant": "君既以禮相待，我何干戈相向。"
+      },
+      "group": {
+        "slug": "spell-3366",
+        "name": "款塞",
+        "displayName": {
+          "zhHans": "款塞",
+          "zhHant": "款塞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qianzhao--580qianzhao--1skill2_2",
+      "resourceId": "580qianzhao/1skill2_2",
+      "text": "我备美酒，待君玉帛。",
+      "textLocalized": {
+        "zhHans": "我备美酒，待君玉帛。",
+        "zhHant": "我備美酒，待君玉帛。"
+      },
+      "group": {
+        "slug": "spell-3366",
+        "name": "款塞",
+        "displayName": {
+          "zhHans": "款塞",
+          "zhHant": "款塞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/580qianzhao-176ad60b/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/580qianzhao/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

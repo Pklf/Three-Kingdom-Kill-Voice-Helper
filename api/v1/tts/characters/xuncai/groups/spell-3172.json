@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ea74021a785ec842b2111c572bd392461139178fcc6ba204318f9624588e2d24
-size 7414
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuncai",
+    "command": "xuncai",
+    "name": "族荀采",
+    "displayName": {
+      "zhHans": "族荀采",
+      "zhHant": "族荀採"
+    },
+    "names": [
+      "族荀采"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "ids": [
+      "524"
+    ],
+    "sourceNames": [
+      "族荀采"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "sourceIds": [
+      "524"
+    ],
+    "searchNames": [
+      "xuncai",
+      "族荀采",
+      "族荀採"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3171.json"
+      },
+      {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3172.json"
+      },
+      {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3173.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52401",
+        "name": "雅柔映采",
+        "displayName": {
+          "zhHans": "雅柔映采",
+          "zhHant": "雅柔映採"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-52401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuncai.json",
+      "groups": "api/v1/tts/characters/xuncai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuncai/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3172",
+    "name": "点盏",
+    "displayName": {
+      "zhHans": "点盏",
+      "zhHant": "點盞"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3172.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xuncai--524xuncai--1skill2_1",
+      "resourceId": "524xuncai/1skill2_1",
+      "text": "此灯如我，独向光明。",
+      "textLocalized": {
+        "zhHans": "此灯如我，独向光明。",
+        "zhHant": "此燈如我，獨向光明。"
+      },
+      "group": {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill2_2",
+      "resourceId": "524xuncai/1skill2_2",
+      "text": "此间皆暗，唯灯瞩明。",
+      "textLocalized": {
+        "zhHans": "此间皆暗，唯灯瞩明。",
+        "zhHant": "此間皆暗，唯燈矚明。"
+      },
+      "group": {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--2skill2_1",
+      "resourceId": "524xuncai/2skill2_1",
+      "text": "曾与君言誓白首，青丝未雪君先逝。",
+      "textLocalized": {
+        "zhHans": "曾与君言誓白首，青丝未雪君先逝。",
+        "zhHant": "曾與君言誓白首，青絲未雪君先逝。"
+      },
+      "group": {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52401",
+          "name": "雅柔映采",
+          "displayName": {
+            "zhHans": "雅柔映采",
+            "zhHant": "雅柔映採"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--2skill2_2",
+      "resourceId": "524xuncai/2skill2_2",
+      "text": "可以明灯妆白头，此去黄泉未违誓。",
+      "textLocalized": {
+        "zhHans": "可以明灯妆白头，此去黄泉未违誓。",
+        "zhHant": "可以明燈妝白頭，此去黃泉未違誓。"
+      },
+      "group": {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52401",
+          "name": "雅柔映采",
+          "displayName": {
+            "zhHans": "雅柔映采",
+            "zhHant": "雅柔映採"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,318 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c70fdc6e34ff9872eb1b1505becacaf3d78a1d3061993456afe1ac0a312fb7e
-size 8713
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tianfeng",
+    "command": "tianfeng",
+    "name": "田丰",
+    "displayName": {
+      "zhHans": "田丰",
+      "zhHant": "田豐"
+    },
+    "names": [
+      "田丰",
+      "4078"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "田丰",
+        "zhHant": "田豐"
+      },
+      {
+        "zhHans": "4078",
+        "zhHant": "4078"
+      }
+    ],
+    "ids": [
+      "2057",
+      "4078"
+    ],
+    "sourceNames": [
+      "田丰"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "田丰",
+        "zhHant": "田豐"
+      }
+    ],
+    "sourceIds": [
+      "2057",
+      "4078"
+    ],
+    "searchNames": [
+      "tianfeng",
+      "田丰",
+      "田豐",
+      "4078"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tianfeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-2109",
+        "name": "死谏",
+        "displayName": {
+          "zhHans": "死谏",
+          "zhHant": "死諫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tianfeng/groups/spell-2109.json"
+      },
+      {
+        "slug": "spell-2110",
+        "name": "随势",
+        "displayName": {
+          "zhHans": "随势",
+          "zhHant": "隨勢"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tianfeng/groups/spell-2110.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-205703",
+        "name": "刚而谏上",
+        "displayName": {
+          "zhHans": "刚而谏上",
+          "zhHant": "剛而諫上"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205703.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205704",
+        "name": "直言被困",
+        "displayName": {
+          "zhHans": "直言被困",
+          "zhHant": "直言被困"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205704.json"
+      },
+      {
+        "slug": "skin-205701",
+        "name": "计权合变",
+        "displayName": {
+          "zhHans": "计权合变",
+          "zhHant": "計權合變"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tianfeng.json",
+      "groups": "api/v1/tts/characters/tianfeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tianfeng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-205704",
+    "name": "直言被困",
+    "displayName": {
+      "zhHans": "直言被困",
+      "zhHant": "直言被困"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/tianfeng/skins/skin-205704.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "tianfeng--2057tianfeng--5dead01",
+      "resourceId": "2057tianfeng/5dead01",
+      "text": "乱箭齐下，难免忠奸难辨哪！",
+      "textLocalized": {
+        "zhHans": "乱箭齐下，难免忠奸难辨哪！",
+        "zhHant": "亂箭齊下，難免忠奸難辨哪！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205704",
+          "name": "直言被困",
+          "displayName": {
+            "zhHans": "直言被困",
+            "zhHant": "直言被困"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--5skill1_1",
+      "resourceId": "2057tianfeng/5skill1_1",
+      "text": "这是我的，最后一谏。",
+      "textLocalized": {
+        "zhHans": "这是我的，最后一谏。",
+        "zhHant": "這是我的，最後一諫。"
+      },
+      "group": {
+        "slug": "spell-2109",
+        "name": "死谏",
+        "displayName": {
+          "zhHans": "死谏",
+          "zhHant": "死諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205704",
+          "name": "直言被困",
+          "displayName": {
+            "zhHans": "直言被困",
+            "zhHant": "直言被困"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--5skill1_2",
+      "resourceId": "2057tianfeng/5skill1_2",
+      "text": "呵呵呵呵，臣就是这么洒脱。",
+      "textLocalized": {
+        "zhHans": "呵呵呵呵，臣就是这么洒脱。",
+        "zhHant": "呵呵呵呵，臣就是這麼灑脫。"
+      },
+      "group": {
+        "slug": "spell-2109",
+        "name": "死谏",
+        "displayName": {
+          "zhHans": "死谏",
+          "zhHant": "死諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205704",
+          "name": "直言被困",
+          "displayName": {
+            "zhHans": "直言被困",
+            "zhHant": "直言被困"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--5skill2_1",
+      "resourceId": "2057tianfeng/5skill2_1",
+      "text": "时事如此，我只能从之。",
+      "textLocalized": {
+        "zhHans": "时事如此，我只能从之。",
+        "zhHant": "時事如此，我只能從之。"
+      },
+      "group": {
+        "slug": "spell-2110",
+        "name": "随势",
+        "displayName": {
+          "zhHans": "随势",
+          "zhHant": "隨勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205704",
+          "name": "直言被困",
+          "displayName": {
+            "zhHans": "直言被困",
+            "zhHant": "直言被困"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tianfeng--2057tianfeng--5skill2_2",
+      "resourceId": "2057tianfeng/5skill2_2",
+      "text": "大势不可逆，莫要执迷不悟！",
+      "textLocalized": {
+        "zhHans": "大势不可逆，莫要执迷不悟！",
+        "zhHant": "大勢不可逆，莫要執迷不悟！"
+      },
+      "group": {
+        "slug": "spell-2110",
+        "name": "随势",
+        "displayName": {
+          "zhHans": "随势",
+          "zhHant": "隨勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205704",
+          "name": "直言被困",
+          "displayName": {
+            "zhHans": "直言被困",
+            "zhHant": "直言被困"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2057tianfeng-d700e020/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2057tianfeng/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

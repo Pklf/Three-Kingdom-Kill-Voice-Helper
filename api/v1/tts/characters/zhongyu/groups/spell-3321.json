@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a97ecc98ec5c60764ccd47ac637f19600396d12c31dff8d73195c691b17dd4d7
-size 7252
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhongyu",
+    "command": "zhongyu",
+    "name": "族钟毓",
+    "displayName": {
+      "zhHans": "族钟毓",
+      "zhHant": "族鍾毓"
+    },
+    "names": [
+      "族钟毓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟毓",
+        "zhHant": "族鍾毓"
+      }
+    ],
+    "ids": [
+      "566"
+    ],
+    "sourceNames": [
+      "族钟毓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟毓",
+        "zhHant": "族鍾毓"
+      }
+    ],
+    "sourceIds": [
+      "566"
+    ],
+    "searchNames": [
+      "zhongyu",
+      "族钟毓",
+      "族鍾毓"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3320",
+        "name": "捷谏",
+        "displayName": {
+          "zhHans": "捷谏",
+          "zhHant": "捷諫"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3320.json"
+      },
+      {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3321.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-56601",
+        "name": "决胜千里",
+        "displayName": {
+          "zhHans": "决胜千里",
+          "zhHant": "決勝千里"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongyu/skins/skin-56601.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongyu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhongyu.json",
+      "groups": "api/v1/tts/characters/zhongyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhongyu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3321",
+    "name": "惶汗",
+    "displayName": {
+      "zhHans": "惶汗",
+      "zhHant": "惶汗"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3321.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhongyu--566zhongyu--2skill2_1",
+      "resourceId": "566zhongyu/2skill2_1",
+      "text": "臣一介凡夫，睹龙颜、摄龙威，敢不惶恐。",
+      "textLocalized": {
+        "zhHans": "臣一介凡夫，睹龙颜、摄龙威，敢不惶恐。",
+        "zhHant": "臣一介凡夫，睹龍顏、攝龍威，敢不惶恐。"
+      },
+      "group": {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56601",
+          "name": "决胜千里",
+          "displayName": {
+            "zhHans": "决胜千里",
+            "zhHant": "決勝千里"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--2skill2_2",
+      "resourceId": "566zhongyu/2skill2_2",
+      "text": "帝王者，臣子之君父，父威如煌，安敢不惧。",
+      "textLocalized": {
+        "zhHans": "帝王者，臣子之君父，父威如煌，安敢不惧。",
+        "zhHant": "帝王者，臣子之君父，父威如煌，安敢不懼。"
+      },
+      "group": {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56601",
+          "name": "决胜千里",
+          "displayName": {
+            "zhHans": "决胜千里",
+            "zhHant": "決勝千里"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill2_1",
+      "resourceId": "566zhongyu/1skill2_1",
+      "text": "居天子阶下，故诚惶诚恐。",
+      "textLocalized": {
+        "zhHans": "居天子阶下，故诚惶诚恐。",
+        "zhHant": "居天子階下，故誠惶誠恐。"
+      },
+      "group": {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill2_2",
+      "resourceId": "566zhongyu/1skill2_2",
+      "text": "战战惶惶，汗出如浆。",
+      "textLocalized": {
+        "zhHans": "战战惶惶，汗出如浆。",
+        "zhHant": "戰戰惶惶，汗出如漿。"
+      },
+      "group": {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

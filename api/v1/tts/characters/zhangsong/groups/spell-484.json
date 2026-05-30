@@ -1,3 +1,495 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9454b9569f8b8cb8b9a68e084e47f010f86ff491d17f194e194d798644907ed6
-size 14131
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangsong",
+    "command": "zhangsong",
+    "name": "张松",
+    "displayName": {
+      "zhHans": "张松",
+      "zhHant": "張松"
+    },
+    "names": [
+      "张松"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张松",
+        "zhHant": "張松"
+      }
+    ],
+    "ids": [
+      "326"
+    ],
+    "sourceNames": [
+      "张松"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张松",
+        "zhHant": "張松"
+      }
+    ],
+    "sourceIds": [
+      "326"
+    ],
+    "searchNames": [
+      "zhangsong",
+      "张松",
+      "張松"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/groups/dead.json"
+      },
+      {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhangsong/groups/spell-484.json"
+      },
+      {
+        "slug": "spell-485",
+        "name": "献图",
+        "displayName": {
+          "zhHans": "献图",
+          "zhHant": "獻圖"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhangsong/groups/spell-485.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32603",
+        "name": "大展宏图",
+        "displayName": {
+          "zhHans": "大展宏图",
+          "zhHant": "大展宏圖"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32603.json"
+      },
+      {
+        "slug": "skin-32606",
+        "name": "沃鲤泽汉",
+        "displayName": {
+          "zhHans": "沃鲤泽汉",
+          "zhHant": "沃鯉澤漢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32606.json"
+      },
+      {
+        "slug": "skin-32601",
+        "name": "西川之图",
+        "displayName": {
+          "zhHans": "西川之图",
+          "zhHant": "西川之圖"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32601.json"
+      },
+      {
+        "slug": "skin-32604",
+        "name": "阴怀谋妄",
+        "displayName": {
+          "zhHans": "阴怀谋妄",
+          "zhHant": "陰懷謀妄"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32604.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangsong.json",
+      "groups": "api/v1/tts/characters/zhangsong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangsong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-484",
+    "name": "强识",
+    "displayName": {
+      "zhHans": "强识",
+      "zhHant": "強識"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/zhangsong/groups/spell-484.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "zhangsong--326zhangsong--1skill1_1",
+      "resourceId": "326zhangsong/1skill1_1",
+      "text": "容我过目，即刻咏来！",
+      "textLocalized": {
+        "zhHans": "容我过目，即刻咏来！",
+        "zhHant": "容我過目，即刻詠來！"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--1skill1_2",
+      "resourceId": "326zhangsong/1skill1_2",
+      "text": "文书强识，才可博于运筹！",
+      "textLocalized": {
+        "zhHans": "文书强识，才可博于运筹！",
+        "zhHant": "文書強識，纔可博於運籌！"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--4skill1_1",
+      "resourceId": "326zhangsong/4skill1_1",
+      "text": "娴熟于心，神识于记！",
+      "textLocalized": {
+        "zhHans": "娴熟于心，神识于记！",
+        "zhHant": "嫺熟於心，神識於記！"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32603",
+          "name": "大展宏图",
+          "displayName": {
+            "zhHans": "大展宏图",
+            "zhHant": "大展宏圖"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--4skill1_2",
+      "resourceId": "326zhangsong/4skill1_2",
+      "text": "过目成诵，为我所用！",
+      "textLocalized": {
+        "zhHans": "过目成诵，为我所用！",
+        "zhHant": "過目成誦，爲我所用！"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32603",
+          "name": "大展宏图",
+          "displayName": {
+            "zhHans": "大展宏图",
+            "zhHant": "大展宏圖"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--6skill1_1",
+      "resourceId": "326zhangsong/6skill1_1",
+      "text": "讨伐大任，就交予你了。",
+      "textLocalized": {
+        "zhHans": "讨伐大任，就交予你了。",
+        "zhHant": "討伐大任，就交予你了。"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32606",
+          "name": "沃鲤泽汉",
+          "displayName": {
+            "zhHans": "沃鲤泽汉",
+            "zhHant": "沃鯉澤漢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--6skill1_2",
+      "resourceId": "326zhangsong/6skill1_2",
+      "text": "不过是拾前人牙惠，何足道哉？",
+      "textLocalized": {
+        "zhHans": "不过是拾前人牙惠，何足道哉？",
+        "zhHant": "不過是拾前人牙惠，何足道哉？"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32606",
+          "name": "沃鲤泽汉",
+          "displayName": {
+            "zhHans": "沃鲤泽汉",
+            "zhHant": "沃鯉澤漢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--3skill1_1",
+      "resourceId": "326zhangsong/3skill1_1",
+      "text": "闻将军著有兵法一卷，容松观之。",
+      "textLocalized": {
+        "zhHans": "闻将军著有兵法一卷，容松观之。",
+        "zhHant": "聞將軍著有兵法一卷，容松觀之。"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32601",
+          "name": "西川之图",
+          "displayName": {
+            "zhHans": "西川之图",
+            "zhHant": "西川之圖"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--3skill1_2",
+      "resourceId": "326zhangsong/3skill1_2",
+      "text": "所阅所读，过目不忘！",
+      "textLocalized": {
+        "zhHans": "所阅所读，过目不忘！",
+        "zhHant": "所閱所讀，過目不忘！"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32601",
+          "name": "西川之图",
+          "displayName": {
+            "zhHans": "西川之图",
+            "zhHant": "西川之圖"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--5skill1_1",
+      "resourceId": "326zhangsong/5skill1_1",
+      "text": "此蜀中三尺小童亦可暗诵，更何况在下？",
+      "textLocalized": {
+        "zhHans": "此蜀中三尺小童亦可暗诵，更何况在下？",
+        "zhHant": "此蜀中三尺小童亦可闇誦，更何況在下？"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32604",
+          "name": "阴怀谋妄",
+          "displayName": {
+            "zhHans": "阴怀谋妄",
+            "zhHant": "陰懷謀妄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--5skill1_2",
+      "resourceId": "326zhangsong/5skill1_2",
+      "text": "语倾三峡水，目视十行书。",
+      "textLocalized": {
+        "zhHans": "语倾三峡水，目视十行书。",
+        "zhHant": "語傾三峽水，目視十行書。"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32604",
+          "name": "阴怀谋妄",
+          "displayName": {
+            "zhHans": "阴怀谋妄",
+            "zhHant": "陰懷謀妄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,515 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fef029e9f773e1914b0f08a0b45daf53d37acc1792b57f88bf39b9df9810f4ee
-size 14443
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoying",
+    "command": "caoying",
+    "name": "曹婴",
+    "displayName": {
+      "zhHans": "曹婴",
+      "zhHant": "曹嬰"
+    },
+    "names": [
+      "曹婴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹婴",
+        "zhHant": "曹嬰"
+      }
+    ],
+    "ids": [
+      "353"
+    ],
+    "sourceNames": [
+      "曹婴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹婴",
+        "zhHant": "曹嬰"
+      }
+    ],
+    "sourceIds": [
+      "353"
+    ],
+    "searchNames": [
+      "caoying",
+      "曹婴",
+      "曹嬰"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoying/groups/dead.json"
+      },
+      {
+        "slug": "spell-105",
+        "name": "行殇",
+        "displayName": {
+          "zhHans": "行殇",
+          "zhHant": "行殤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-105.json"
+      },
+      {
+        "slug": "spell-717",
+        "name": "奸雄",
+        "displayName": {
+          "zhHans": "奸雄",
+          "zhHant": "奸雄"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-717.json"
+      },
+      {
+        "slug": "spell-850",
+        "name": "凌人",
+        "displayName": {
+          "zhHans": "凌人",
+          "zhHant": "凌人"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-850.json"
+      },
+      {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-851.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-35304",
+        "name": "劲弩飒姿",
+        "displayName": {
+          "zhHans": "劲弩飒姿",
+          "zhHant": "勁弩颯姿"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35304.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35301",
+        "name": "芦曳意坚",
+        "displayName": {
+          "zhHans": "芦曳意坚",
+          "zhHant": "蘆曳意堅"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35301.json"
+      },
+      {
+        "slug": "skin-35303",
+        "name": "金枝玉叶",
+        "displayName": {
+          "zhHans": "金枝玉叶",
+          "zhHant": "金枝玉葉"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35303.json"
+      },
+      {
+        "slug": "skin-35302",
+        "name": "魏缨凤鸣",
+        "displayName": {
+          "zhHans": "魏缨凤鸣",
+          "zhHant": "魏纓鳳鳴"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoying.json",
+      "groups": "api/v1/tts/characters/caoying/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoying/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-851",
+    "name": "伏间",
+    "displayName": {
+      "zhHans": "伏间",
+      "zhHant": "伏間"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/caoying/groups/spell-851.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "caoying--353caoying--6skill2_1",
+      "resourceId": "353caoying/6skill2_1",
+      "text": "栖身隐伏，暗查敌情。",
+      "textLocalized": {
+        "zhHans": "栖身隐伏，暗查敌情。",
+        "zhHant": "棲身隱伏，暗查敵情。"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35304",
+          "name": "劲弩飒姿",
+          "displayName": {
+            "zhHans": "劲弩飒姿",
+            "zhHant": "勁弩颯姿"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--6skill2_2",
+      "resourceId": "353caoying/6skill2_2",
+      "text": "隐伏暗藏，待敌入阵！",
+      "textLocalized": {
+        "zhHans": "隐伏暗藏，待敌入阵！",
+        "zhHant": "隱伏暗藏，待敵入陣！"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35304",
+          "name": "劲弩飒姿",
+          "displayName": {
+            "zhHans": "劲弩飒姿",
+            "zhHant": "勁弩颯姿"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--1skill2_1",
+      "resourceId": "353caoying/1skill2_1",
+      "text": "兵者，诡道也。",
+      "textLocalized": {
+        "zhHans": "兵者，诡道也。",
+        "zhHant": "兵者，詭道也。"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--1skill2_2",
+      "resourceId": "353caoying/1skill2_2",
+      "text": "粮资军备，一览无遗。",
+      "textLocalized": {
+        "zhHans": "粮资军备，一览无遗。",
+        "zhHant": "糧資軍備，一覽無遺。"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--3skill2_1",
+      "resourceId": "353caoying/3skill2_1",
+      "text": "若非耳目齐备，何以手眼通天？",
+      "textLocalized": {
+        "zhHans": "若非耳目齐备，何以手眼通天？",
+        "zhHant": "若非耳目齊備，何以手眼通天？"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35301",
+          "name": "芦曳意坚",
+          "displayName": {
+            "zhHans": "芦曳意坚",
+            "zhHant": "蘆曳意堅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--3skill2_2",
+      "resourceId": "353caoying/3skill2_2",
+      "text": "欲晓敌之态势，无所不用其极。",
+      "textLocalized": {
+        "zhHans": "欲晓敌之态势，无所不用其极。",
+        "zhHant": "欲曉敵之態勢，無所不用其極。"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35301",
+          "name": "芦曳意坚",
+          "displayName": {
+            "zhHans": "芦曳意坚",
+            "zhHant": "蘆曳意堅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--5skill2_1",
+      "resourceId": "353caoying/5skill2_1",
+      "text": "敌军已出，吾等将速对阵！",
+      "textLocalized": {
+        "zhHans": "敌军已出，吾等将速对阵！",
+        "zhHant": "敵軍已出，吾等將速對陣！"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35303",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--5skill2_2",
+      "resourceId": "353caoying/5skill2_2",
+      "text": "我已在此，等候将军多时了。",
+      "textLocalized": {
+        "zhHans": "我已在此，等候将军多时了。",
+        "zhHant": "我已在此，等候將軍多時了。"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35303",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--4skill2_1",
+      "resourceId": "353caoying/4skill2_1",
+      "text": "埋伏在此，就等将军你来了！",
+      "textLocalized": {
+        "zhHans": "埋伏在此，就等将军你来了！",
+        "zhHant": "埋伏在此，就等將軍你來了！"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35302",
+          "name": "魏缨凤鸣",
+          "displayName": {
+            "zhHans": "魏缨凤鸣",
+            "zhHant": "魏纓鳳鳴"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--4skill2_2",
+      "resourceId": "353caoying/4skill2_2",
+      "text": "你还是太弱了！",
+      "textLocalized": {
+        "zhHans": "你还是太弱了！",
+        "zhHant": "你還是太弱了！"
+      },
+      "group": {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35302",
+          "name": "魏缨凤鸣",
+          "displayName": {
+            "zhHans": "魏缨凤鸣",
+            "zhHant": "魏纓鳳鳴"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

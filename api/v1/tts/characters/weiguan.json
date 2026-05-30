@@ -1,3 +1,456 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:15bd3cd16d974cdb6cf6c0895b25614757e5a1e2b1e64bb8648d84df003322a9
-size 12567
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "weiguan",
+    "command": "weiguan",
+    "name": "卫瓘",
+    "displayName": {
+      "zhHans": "卫瓘",
+      "zhHant": "衛瓘"
+    },
+    "names": [
+      "卫瓘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卫瓘",
+        "zhHant": "衛瓘"
+      }
+    ],
+    "ids": [
+      "7013"
+    ],
+    "sourceNames": [
+      "卫瓘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卫瓘",
+        "zhHant": "衛瓘"
+      }
+    ],
+    "sourceIds": [
+      "7013"
+    ],
+    "searchNames": [
+      "weiguan",
+      "卫瓘",
+      "衛瓘"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/weiguan/groups/dead.json"
+      },
+      {
+        "slug": "spell-977",
+        "name": "忠允",
+        "displayName": {
+          "zhHans": "忠允",
+          "zhHant": "忠允"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/weiguan/groups/spell-977.json"
+      },
+      {
+        "slug": "spell-978",
+        "name": "神品",
+        "displayName": {
+          "zhHans": "神品",
+          "zhHant": "神品"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/weiguan/groups/spell-978.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "701302",
+        "name": "701302",
+        "displayName": {
+          "zhHans": "701302",
+          "zhHant": "701302"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiguan/skins/701302.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiguan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/weiguan.json",
+      "groups": "api/v1/tts/characters/weiguan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/weiguan/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "weiguan--7013weiguan--2dead01",
+      "resourceId": "7013weiguan/2dead01",
+      "text": "谋图废立之罪，吾难辩解。",
+      "textLocalized": {
+        "zhHans": "谋图废立之罪，吾难辩解。",
+        "zhHant": "謀圖廢立之罪，吾難辯解。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "701302",
+          "name": "701302",
+          "displayName": {
+            "zhHans": "701302",
+            "zhHant": "701302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiguan--7013weiguan--1dead01",
+      "resourceId": "7013weiguan/1dead01",
+      "text": "辞荣善终，不可求……",
+      "textLocalized": {
+        "zhHans": "辞荣善终，不可求……",
+        "zhHant": "辭榮善終，不可求……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiguan--7013weiguan--2skill1_1",
+      "resourceId": "7013weiguan/2skill1_1",
+      "text": "性负静有名理，明识清允。",
+      "textLocalized": {
+        "zhHans": "性负静有名理，明识清允。",
+        "zhHant": "性負靜有名理，明識清允。"
+      },
+      "group": {
+        "slug": "spell-977",
+        "name": "忠允",
+        "displayName": {
+          "zhHans": "忠允",
+          "zhHant": "忠允"
+        }
+      },
+      "skins": [
+        {
+          "slug": "701302",
+          "name": "701302",
+          "displayName": {
+            "zhHans": "701302",
+            "zhHant": "701302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiguan--7013weiguan--2skill1_2",
+      "resourceId": "7013weiguan/2skill1_2",
+      "text": "性负静有名理，明识清允。",
+      "textLocalized": {
+        "zhHans": "性负静有名理，明识清允。",
+        "zhHant": "性負靜有名理，明識清允。"
+      },
+      "group": {
+        "slug": "spell-977",
+        "name": "忠允",
+        "displayName": {
+          "zhHans": "忠允",
+          "zhHant": "忠允"
+        }
+      },
+      "skins": [
+        {
+          "slug": "701302",
+          "name": "701302",
+          "displayName": {
+            "zhHans": "701302",
+            "zhHant": "701302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiguan--7013weiguan--1skill1_1",
+      "resourceId": "7013weiguan/1skill1_1",
+      "text": "秉公行事，无所亲疏",
+      "textLocalized": {
+        "zhHans": "秉公行事，无所亲疏",
+        "zhHant": "秉公行事，無所親疏"
+      },
+      "group": {
+        "slug": "spell-977",
+        "name": "忠允",
+        "displayName": {
+          "zhHans": "忠允",
+          "zhHant": "忠允"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiguan--7013weiguan--1skill1_2",
+      "resourceId": "7013weiguan/1skill1_2",
+      "text": "明晰法理，通晓人情。",
+      "textLocalized": {
+        "zhHans": "明晰法理，通晓人情。",
+        "zhHant": "明晰法理，通曉人情。"
+      },
+      "group": {
+        "slug": "spell-977",
+        "name": "忠允",
+        "displayName": {
+          "zhHans": "忠允",
+          "zhHant": "忠允"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiguan--7013weiguan--2skill2_1",
+      "resourceId": "7013weiguan/2skill2_1",
+      "text": "薤叶不真，笔势明劲。",
+      "textLocalized": {
+        "zhHans": "薤叶不真，笔势明劲。",
+        "zhHant": "薤葉不真，筆勢明勁。"
+      },
+      "group": {
+        "slug": "spell-978",
+        "name": "神品",
+        "displayName": {
+          "zhHans": "神品",
+          "zhHant": "神品"
+        }
+      },
+      "skins": [
+        {
+          "slug": "701302",
+          "name": "701302",
+          "displayName": {
+            "zhHans": "701302",
+            "zhHant": "701302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiguan--7013weiguan--2skill2_2",
+      "resourceId": "7013weiguan/2skill2_2",
+      "text": "纵任轻巧，流转风韵。",
+      "textLocalized": {
+        "zhHans": "纵任轻巧，流转风韵。",
+        "zhHant": "縱任輕巧，流轉風韻。"
+      },
+      "group": {
+        "slug": "spell-978",
+        "name": "神品",
+        "displayName": {
+          "zhHans": "神品",
+          "zhHant": "神品"
+        }
+      },
+      "skins": [
+        {
+          "slug": "701302",
+          "name": "701302",
+          "displayName": {
+            "zhHans": "701302",
+            "zhHant": "701302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiguan--7013weiguan--1skill2_1",
+      "resourceId": "7013weiguan/1skill2_1",
+      "text": "考其遗法，肃若神明。",
+      "textLocalized": {
+        "zhHans": "考其遗法，肃若神明。",
+        "zhHant": "考其遺法，肅若神明。"
+      },
+      "group": {
+        "slug": "spell-978",
+        "name": "神品",
+        "displayName": {
+          "zhHans": "神品",
+          "zhHant": "神品"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiguan--7013weiguan--1skill2_2",
+      "resourceId": "7013weiguan/1skill2_2",
+      "text": "气韵生动，出于天成。",
+      "textLocalized": {
+        "zhHans": "气韵生动，出于天成。",
+        "zhHant": "氣韻生動，出於天成。"
+      },
+      "group": {
+        "slug": "spell-978",
+        "name": "神品",
+        "displayName": {
+          "zhHans": "神品",
+          "zhHant": "神品"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7013weiguan-037c6567/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7013weiguan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

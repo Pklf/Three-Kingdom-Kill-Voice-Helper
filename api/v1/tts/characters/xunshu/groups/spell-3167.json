@@ -1,3 +1,334 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d1291e54c91c72e5c4f3fd6ed7c1834c81ddd07b38f97c89024b0c404efe9cb
-size 9529
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xunshu",
+    "command": "xunshu",
+    "name": "族荀淑",
+    "displayName": {
+      "zhHans": "族荀淑",
+      "zhHant": "族荀淑"
+    },
+    "names": [
+      "族荀淑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀淑",
+        "zhHant": "族荀淑"
+      }
+    ],
+    "ids": [
+      "522"
+    ],
+    "sourceNames": [
+      "族荀淑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀淑",
+        "zhHant": "族荀淑"
+      }
+    ],
+    "sourceIds": [
+      "522"
+    ],
+    "searchNames": [
+      "xunshu",
+      "族荀淑"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3167.json"
+      },
+      {
+        "slug": "spell-3168",
+        "name": "八龙",
+        "displayName": {
+          "zhHans": "八龙",
+          "zhHant": "八龍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3168.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xunshu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52201",
+        "name": "鹤轸飞鸿",
+        "displayName": {
+          "zhHans": "鹤轸飞鸿",
+          "zhHant": "鶴軫飛鴻"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/xunshu/skins/skin-52201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xunshu.json",
+      "groups": "api/v1/tts/characters/xunshu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xunshu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3167",
+    "name": "神君",
+    "displayName": {
+      "zhHans": "神君",
+      "zhHant": "神君"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3167.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "xunshu--522xunshu--1skill1_1",
+      "resourceId": "522xunshu/1skill1_1",
+      "text": "区区障眼之法，难遮神人之目。",
+      "textLocalized": {
+        "zhHans": "区区障眼之法，难遮神人之目。",
+        "zhHant": "區區障眼之法，難遮神人之目。"
+      },
+      "group": {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--1skill1_2",
+      "resourceId": "522xunshu/1skill1_2",
+      "text": "我以天地为师，自可道法自然。",
+      "textLocalized": {
+        "zhHans": "我以天地为师，自可道法自然。",
+        "zhHant": "我以天地爲師，自可道法自然。"
+      },
+      "group": {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--2skill1_1",
+      "resourceId": "522xunshu/2skill1_1",
+      "text": "清早起听琴，可带劲了，这日子过的也赛大仙儿。",
+      "textLocalized": {
+        "zhHans": "清早起听琴，可带劲了，这日子过的也赛大仙儿。",
+        "zhHant": "清早起聽琴，可帶勁了，這日子過的也賽大仙兒。"
+      },
+      "group": {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52201",
+          "name": "鹤轸飞鸿",
+          "displayName": {
+            "zhHans": "鹤轸飞鸿",
+            "zhHant": "鶴軫飛鴻"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--2skill1_2",
+      "resourceId": "522xunshu/2skill1_2",
+      "text": "中，这曲儿真中，都撵上天上的神仙弹哩了。",
+      "textLocalized": {
+        "zhHans": "中，这曲儿真中，都撵上天上的神仙弹哩了。",
+        "zhHant": "中，這曲兒真中，都攆上天上的神仙彈哩了。"
+      },
+      "group": {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52201",
+          "name": "鹤轸飞鸿",
+          "displayName": {
+            "zhHans": "鹤轸飞鸿",
+            "zhHant": "鶴軫飛鴻"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--2skill1_3",
+      "resourceId": "522xunshu/2skill1_3",
+      "text": "道万物之妙法可窥神，定万世之太平可尊圣。",
+      "textLocalized": {
+        "zhHans": "道万物之妙法可窥神，定万世之太平可尊圣。",
+        "zhHant": "道萬物之妙法可窺神，定萬世之太平可尊聖。"
+      },
+      "group": {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52201",
+          "name": "鹤轸飞鸿",
+          "displayName": {
+            "zhHans": "鹤轸飞鸿",
+            "zhHant": "鶴軫飛鴻"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/2skill1-3-f96f1898.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/2skill1_3.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--2skill1_4",
+      "resourceId": "522xunshu/2skill1_4",
+      "text": "餍欲之名，于我如浮云耳。此间百味，可长清风。",
+      "textLocalized": {
+        "zhHans": "餍欲之名，于我如浮云耳。此间百味，可长清风。",
+        "zhHant": "饜欲之名，於我如浮雲耳。此間百味，可長清風。"
+      },
+      "group": {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52201",
+          "name": "鹤轸飞鸿",
+          "displayName": {
+            "zhHans": "鹤轸飞鸿",
+            "zhHant": "鶴軫飛鴻"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/2skill1-4-22dbc826.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/2skill1_4.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,240 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41a3626eb99810dd2da3599c349401573312f0ad2a9768cb520741bb77ec78b0
-size 4950
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sishe",
+    "command": "sishe",
+    "name": "巳蛇",
+    "displayName": {
+      "zhHans": "巳蛇",
+      "zhHant": "巳蛇"
+    },
+    "names": [
+      "巳蛇"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "巳蛇",
+        "zhHant": "巳蛇"
+      }
+    ],
+    "ids": [
+      "4088"
+    ],
+    "sourceNames": [
+      "巳蛇"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "巳蛇",
+        "zhHant": "巳蛇"
+      }
+    ],
+    "sourceIds": [
+      "4088"
+    ],
+    "searchNames": [
+      "sishe",
+      "巳蛇"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-1206",
+        "name": "巳蛇",
+        "displayName": {
+          "zhHans": "巳蛇",
+          "zhHant": "巳蛇"
+        },
+        "ids": [
+          "1206"
+        ],
+        "lineCount": 1
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/sishe.json",
+      "lines": "api/v1/characters/sishe/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "sishe--4088sishe--1dead01",
+      "resourceId": "4088sishe/1dead01",
+      "text": "我的毒液失效了……",
+      "textLocalized": {
+        "zhHans": "我的毒液失效了……",
+        "zhHant": "我的毒液失效了……"
+      },
+      "character": {
+        "slug": "sishe",
+        "command": "sishe",
+        "id": "4088",
+        "ids": [
+          "4088"
+        ],
+        "name": "巳蛇",
+        "displayName": {
+          "zhHans": "巳蛇",
+          "zhHant": "巳蛇"
+        },
+        "names": [
+          "巳蛇"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "巳蛇",
+            "zhHant": "巳蛇"
+          }
+        ],
+        "sourceIds": [
+          "4088"
+        ],
+        "sourceNames": [
+          "巳蛇"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "巳蛇",
+            "zhHant": "巳蛇"
+          }
+        ],
+        "searchNames": [
+          "巳蛇",
+          "sishe"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4088",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "巳蛇"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4088sishe-7c35f1a3/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4088sishe/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,334 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:29527daac29de3feec89a773b1394218eb3d503c1ac69abbe1c43fc6a1d445ae
-size 9140
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chengong",
+    "command": "chengong",
+    "name": "陈宫",
+    "displayName": {
+      "zhHans": "陈宫",
+      "zhHant": "陳宮"
+    },
+    "names": [
+      "陈宫",
+      "界陈宫"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈宫",
+        "zhHant": "陳宮"
+      },
+      {
+        "zhHans": "界陈宫",
+        "zhHant": "界陳宮"
+      }
+    ],
+    "ids": [
+      "153",
+      "597"
+    ],
+    "sourceNames": [
+      "陈宫",
+      "界陈宫"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈宫",
+        "zhHant": "陳宮"
+      },
+      {
+        "zhHans": "界陈宫",
+        "zhHant": "界陳宮"
+      }
+    ],
+    "sourceIds": [
+      "153",
+      "597"
+    ],
+    "searchNames": [
+      "chengong",
+      "陈宫",
+      "陳宮",
+      "界陈宫",
+      "界陳宮"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/groups/dead.json"
+      },
+      {
+        "slug": "spell-405",
+        "name": "明策",
+        "displayName": {
+          "zhHans": "明策",
+          "zhHant": "明策"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chengong/groups/spell-405.json"
+      },
+      {
+        "slug": "spell-406",
+        "name": "智迟",
+        "displayName": {
+          "zhHans": "智迟",
+          "zhHant": "智遲"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chengong/groups/spell-406.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "15302-15304",
+        "name": "15302/15304",
+        "displayName": {
+          "zhHans": "15302/15304",
+          "zhHant": "15302/15304"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/15302-15304.json"
+      },
+      {
+        "slug": "skin-15303",
+        "name": "一战而就",
+        "displayName": {
+          "zhHans": "一战而就",
+          "zhHant": "一戰而就"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/skin-15303.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-15306",
+        "name": "有谋而迟",
+        "displayName": {
+          "zhHans": "有谋而迟",
+          "zhHant": "有謀而遲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/skin-15306.json"
+      },
+      {
+        "slug": "skin-59701",
+        "name": "纵墨乾坤",
+        "displayName": {
+          "zhHans": "纵墨乾坤",
+          "zhHant": "縱墨乾坤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/skin-59701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chengong.json",
+      "groups": "api/v1/tts/characters/chengong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chengong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "15302-15304",
+    "name": "15302/15304",
+    "displayName": {
+      "zhHans": "15302/15304",
+      "zhHant": "15302/15304"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chengong/skins/15302-15304.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chengong--153chengong--3dead01",
+      "resourceId": "153chengong/3dead01",
+      "text": "将军若用吾计，不至于此！",
+      "textLocalized": {
+        "zhHans": "将军若用吾计，不至于此！",
+        "zhHant": "將軍若用吾計，不至於此！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "15302-15304",
+          "name": "15302/15304",
+          "displayName": {
+            "zhHans": "15302/15304",
+            "zhHant": "15302/15304"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengong--153chengong--3skill1_1",
+      "resourceId": "153chengong/3skill1_1",
+      "text": "依臣之计，可保万无一失。",
+      "textLocalized": {
+        "zhHans": "依臣之计，可保万无一失。",
+        "zhHant": "依臣之計，可保萬無一失。"
+      },
+      "group": {
+        "slug": "spell-405",
+        "name": "明策",
+        "displayName": {
+          "zhHans": "明策",
+          "zhHant": "明策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "15302-15304",
+          "name": "15302/15304",
+          "displayName": {
+            "zhHans": "15302/15304",
+            "zhHant": "15302/15304"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengong--153chengong--3skill1_2",
+      "resourceId": "153chengong/3skill1_2",
+      "text": "此计进可攻，退可守，万全之策也。",
+      "textLocalized": {
+        "zhHans": "此计进可攻，退可守，万全之策也。",
+        "zhHant": "此計進可攻，退可守，萬全之策也。"
+      },
+      "group": {
+        "slug": "spell-405",
+        "name": "明策",
+        "displayName": {
+          "zhHans": "明策",
+          "zhHant": "明策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "15302-15304",
+          "name": "15302/15304",
+          "displayName": {
+            "zhHans": "15302/15304",
+            "zhHant": "15302/15304"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengong--153chengong--3skill2_1",
+      "resourceId": "153chengong/3skill2_1",
+      "text": "先寻取安身之地，那时再来未迟。",
+      "textLocalized": {
+        "zhHans": "先寻取安身之地，那时再来未迟。",
+        "zhHant": "先尋取安身之地，那時再來未遲。"
+      },
+      "group": {
+        "slug": "spell-406",
+        "name": "智迟",
+        "displayName": {
+          "zhHans": "智迟",
+          "zhHant": "智遲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "15302-15304",
+          "name": "15302/15304",
+          "displayName": {
+            "zhHans": "15302/15304",
+            "zhHant": "15302/15304"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengong--153chengong--3skill2_2",
+      "resourceId": "153chengong/3skill2_2",
+      "text": "以退为进，趋利避害。",
+      "textLocalized": {
+        "zhHans": "以退为进，趋利避害。",
+        "zhHant": "以退爲進，趨利避害。"
+      },
+      "group": {
+        "slug": "spell-406",
+        "name": "智迟",
+        "displayName": {
+          "zhHans": "智迟",
+          "zhHant": "智遲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "15302-15304",
+          "name": "15302/15304",
+          "displayName": {
+            "zhHans": "15302/15304",
+            "zhHant": "15302/15304"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,211 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ba56b28b12bdb81c304032bd779c1731f91e918455e9f08c9f95f20a7b22ae27
-size 5471
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "mateng",
+    "command": "mateng",
+    "name": "马腾",
+    "displayName": {
+      "zhHans": "马腾",
+      "zhHant": "馬騰"
+    },
+    "names": [
+      "马腾"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "马腾",
+        "zhHant": "馬騰"
+      }
+    ],
+    "ids": [
+      "2054"
+    ],
+    "sourceNames": [
+      "马腾"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "马腾",
+        "zhHant": "馬騰"
+      }
+    ],
+    "sourceIds": [
+      "2054"
+    ],
+    "searchNames": [
+      "mateng",
+      "马腾",
+      "馬騰"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/mateng/groups/dead.json"
+      },
+      {
+        "slug": "spell-2105",
+        "name": "雄异",
+        "displayName": {
+          "zhHans": "雄异",
+          "zhHant": "雄異"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/mateng/groups/spell-2105.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mateng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205401",
+        "name": "夜袭许昌",
+        "displayName": {
+          "zhHans": "夜袭许昌",
+          "zhHant": "夜襲許昌"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mateng/skins/skin-205401.json"
+      },
+      {
+        "slug": "skin-205401-205402",
+        "name": "夜袭许昌,安狄将军",
+        "displayName": {
+          "zhHans": "夜袭许昌,安狄将军",
+          "zhHant": "夜襲許昌,安狄將軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mateng/skins/skin-205401-205402.json"
+      },
+      {
+        "slug": "skin-205402",
+        "name": "安狄将军",
+        "displayName": {
+          "zhHans": "安狄将军",
+          "zhHant": "安狄將軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mateng/skins/skin-205402.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/mateng.json",
+      "groups": "api/v1/tts/characters/mateng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/mateng/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/mateng/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "mateng--2054mateng--1dead01",
+      "resourceId": "2054mateng/1dead01",
+      "text": "儿子，为爹报仇啊。",
+      "textLocalized": {
+        "zhHans": "儿子，为爹报仇啊。",
+        "zhHant": "兒子，爲爹報仇啊。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2054mateng-c31ef413/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2054mateng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mateng--2054mateng--3dead01",
+      "resourceId": "2054mateng/3dead01",
+      "text": "吾儿，坑爹呀……",
+      "textLocalized": {
+        "zhHans": "吾儿，坑爹呀……",
+        "zhHant": "吾兒，坑爹呀……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205401",
+          "name": "夜袭许昌",
+          "displayName": {
+            "zhHans": "夜袭许昌",
+            "zhHant": "夜襲許昌"
+          }
+        },
+        {
+          "slug": "skin-205402",
+          "name": "安狄将军",
+          "displayName": {
+            "zhHans": "安狄将军",
+            "zhHant": "安狄將軍"
+          }
+        },
+        {
+          "slug": "skin-205401-205402",
+          "name": "夜袭许昌,安狄将军",
+          "displayName": {
+            "zhHans": "夜袭许昌,安狄将军",
+            "zhHant": "夜襲許昌,安狄將軍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2054mateng-c31ef413/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2054mateng/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

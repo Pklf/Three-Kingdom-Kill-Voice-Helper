@@ -1,3 +1,130 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1d70775a319c09ad1da24f0424cd44f77e872ceefa386977a5facb8cb8c129d0
-size 3124
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "cheliji",
+    "command": "cheliji",
+    "name": "彻里吉",
+    "displayName": {
+      "zhHans": "彻里吉",
+      "zhHant": "徹裏吉"
+    },
+    "names": [
+      "彻里吉"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "彻里吉",
+        "zhHant": "徹裏吉"
+      }
+    ],
+    "ids": [
+      "7012"
+    ],
+    "sourceNames": [
+      "彻里吉"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "彻里吉",
+        "zhHant": "徹裏吉"
+      }
+    ],
+    "sourceIds": [
+      "7012"
+    ],
+    "searchNames": [
+      "cheliji",
+      "彻里吉",
+      "徹裏吉"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/cheliji/groups/dead.json"
+      },
+      {
+        "slug": "spell-973",
+        "name": "车悬",
+        "displayName": {
+          "zhHans": "车悬",
+          "zhHant": "車懸"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/cheliji/groups/spell-973.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/cheliji/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/cheliji.json",
+      "groups": "api/v1/tts/characters/cheliji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/cheliji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/cheliji/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "cheliji--7012cheliji--1dead01",
+      "resourceId": "7012cheliji/1dead01",
+      "text": "元气已伤，不如归去。",
+      "textLocalized": {
+        "zhHans": "元气已伤，不如归去。",
+        "zhHant": "元氣已傷，不如歸去。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7012cheliji-b3cd2d99/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7012cheliji/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,242 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f84065c5487bccfe5cbfa007c1fbb48e61f21835978aefc72395e86bc39d0418
-size 5090
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "cheliji",
+    "command": "cheliji",
+    "name": "彻里吉",
+    "displayName": {
+      "zhHans": "彻里吉",
+      "zhHant": "徹裏吉"
+    },
+    "names": [
+      "彻里吉"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "彻里吉",
+        "zhHant": "徹裏吉"
+      }
+    ],
+    "ids": [
+      "7012"
+    ],
+    "sourceNames": [
+      "彻里吉"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "彻里吉",
+        "zhHant": "徹裏吉"
+      }
+    ],
+    "sourceIds": [
+      "7012"
+    ],
+    "searchNames": [
+      "cheliji",
+      "彻里吉",
+      "徹裏吉"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-973",
+        "name": "车悬",
+        "displayName": {
+          "zhHans": "车悬",
+          "zhHant": "車懸"
+        },
+        "ids": [
+          "973"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/cheliji.json",
+      "lines": "api/v1/characters/cheliji/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "cheliji--7012cheliji--1dead01",
+      "resourceId": "7012cheliji/1dead01",
+      "text": "元气已伤，不如归去。",
+      "textLocalized": {
+        "zhHans": "元气已伤，不如归去。",
+        "zhHant": "元氣已傷，不如歸去。"
+      },
+      "character": {
+        "slug": "cheliji",
+        "command": "cheliji",
+        "id": "7012",
+        "ids": [
+          "7012"
+        ],
+        "name": "彻里吉",
+        "displayName": {
+          "zhHans": "彻里吉",
+          "zhHant": "徹裏吉"
+        },
+        "names": [
+          "彻里吉"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "彻里吉",
+            "zhHant": "徹裏吉"
+          }
+        ],
+        "sourceIds": [
+          "7012"
+        ],
+        "sourceNames": [
+          "彻里吉"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "彻里吉",
+            "zhHant": "徹裏吉"
+          }
+        ],
+        "searchNames": [
+          "彻里吉",
+          "徹裏吉",
+          "cheliji"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7012",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "彻里吉"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7012cheliji-b3cd2d99/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7012cheliji/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

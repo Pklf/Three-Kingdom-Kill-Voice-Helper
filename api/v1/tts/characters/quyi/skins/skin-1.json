@@ -1,3 +1,340 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b3bd6ea7eaa377f2d054118983bdc690ce1871cecd324f8bc727cb18799a9856
-size 9190
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "quyi",
+    "command": "quyi",
+    "name": "麹义",
+    "displayName": {
+      "zhHans": "麹义",
+      "zhHant": "麴義"
+    },
+    "names": [
+      "麹义"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "麹义",
+        "zhHant": "麴義"
+      }
+    ],
+    "ids": [
+      "374"
+    ],
+    "sourceNames": [
+      "麹义"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "麹义",
+        "zhHant": "麴義"
+      }
+    ],
+    "sourceIds": [
+      "374"
+    ],
+    "searchNames": [
+      "quyi",
+      "麹义",
+      "麴義"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quyi/groups/dead.json"
+      },
+      {
+        "slug": "spell-374",
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/quyi/groups/spell-374.json"
+      },
+      {
+        "slug": "spell-375",
+        "name": "骄恣",
+        "displayName": {
+          "zhHans": "骄恣",
+          "zhHant": "驕恣"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/quyi/groups/spell-375.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-37403",
+        "name": "勇战不羁",
+        "displayName": {
+          "zhHans": "勇战不羁",
+          "zhHant": "勇戰不羈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quyi/skins/skin-37403.json"
+      },
+      {
+        "slug": "skin-37403-37405",
+        "name": "勇战不羁,能战善谋",
+        "displayName": {
+          "zhHans": "勇战不羁,能战善谋",
+          "zhHant": "勇戰不羈,能戰善謀"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quyi/skins/skin-37403-37405.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quyi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37407",
+        "name": "突阵奋威",
+        "displayName": {
+          "zhHans": "突阵奋威",
+          "zhHant": "突陣奮威"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quyi/skins/skin-37407.json"
+      },
+      {
+        "slug": "skin-37406",
+        "name": "竞驹伏骊",
+        "displayName": {
+          "zhHans": "竞驹伏骊",
+          "zhHant": "競駒伏驪"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quyi/skins/skin-37406.json"
+      },
+      {
+        "slug": "skin-37405",
+        "name": "能战善谋",
+        "displayName": {
+          "zhHans": "能战善谋",
+          "zhHant": "能戰善謀"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quyi/skins/skin-37405.json"
+      },
+      {
+        "slug": "skin-37401",
+        "name": "连战冲阵",
+        "displayName": {
+          "zhHans": "连战冲阵",
+          "zhHant": "連戰衝陣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/quyi/skins/skin-37401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/quyi.json",
+      "groups": "api/v1/tts/characters/quyi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/quyi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/quyi/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "quyi--374quyi--1dead01",
+      "resourceId": "374quyi/1dead01",
+      "text": "为主公戎马一生，主公为何如此对我！",
+      "textLocalized": {
+        "zhHans": "为主公戎马一生，主公为何如此对我！",
+        "zhHant": "爲主公戎馬一生，主公爲何如此對我！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--1skill1_1",
+      "resourceId": "374quyi/1skill1_1",
+      "text": "既来之，休走之！",
+      "textLocalized": {
+        "zhHans": "既来之，休走之！",
+        "zhHant": "既來之，休走之！"
+      },
+      "group": {
+        "slug": "spell-374",
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--1skill1_2",
+      "resourceId": "374quyi/1skill1_2",
+      "text": "白马？哼！定叫他有来无回！",
+      "textLocalized": {
+        "zhHans": "白马？哼！定叫他有来无回！",
+        "zhHant": "白馬？哼！定叫他有來無回！"
+      },
+      "group": {
+        "slug": "spell-374",
+        "name": "伏骑",
+        "displayName": {
+          "zhHans": "伏骑",
+          "zhHant": "伏騎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--1skill2_1",
+      "resourceId": "374quyi/1skill2_1",
+      "text": "今日之获，皆是吾之功劳。",
+      "textLocalized": {
+        "zhHans": "今日之获，皆是吾之功劳。",
+        "zhHant": "今日之獲，皆是吾之功勞。"
+      },
+      "group": {
+        "slug": "spell-375",
+        "name": "骄恣",
+        "displayName": {
+          "zhHans": "骄恣",
+          "zhHant": "驕恣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quyi--374quyi--1skill2_2",
+      "resourceId": "374quyi/1skill2_2",
+      "text": "今吾于此，尔等皆为飞灰。",
+      "textLocalized": {
+        "zhHans": "今吾于此，尔等皆为飞灰。",
+        "zhHant": "今吾於此，爾等皆爲飛灰。"
+      },
+      "group": {
+        "slug": "spell-375",
+        "name": "骄恣",
+        "displayName": {
+          "zhHans": "骄恣",
+          "zhHant": "驕恣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/374quyi-9fdbe6b4/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/374quyi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

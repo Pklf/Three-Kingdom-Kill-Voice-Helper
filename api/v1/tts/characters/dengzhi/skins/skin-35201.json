@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c56246ebb0d056acee6bd979c104a792b7565fdd4b89d709ac33b8592b981cb
-size 8549
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dengzhi",
+    "command": "dengzhi",
+    "name": "邓芝",
+    "displayName": {
+      "zhHans": "邓芝",
+      "zhHant": "鄧芝"
+    },
+    "names": [
+      "邓芝"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "邓芝",
+        "zhHant": "鄧芝"
+      }
+    ],
+    "ids": [
+      "352"
+    ],
+    "sourceNames": [
+      "邓芝"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "邓芝",
+        "zhHant": "鄧芝"
+      }
+    ],
+    "sourceIds": [
+      "352"
+    ],
+    "searchNames": [
+      "dengzhi",
+      "邓芝",
+      "鄧芝"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/dengzhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3030",
+        "name": "修好",
+        "displayName": {
+          "zhHans": "修好",
+          "zhHant": "修好"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dengzhi/groups/spell-3030.json"
+      },
+      {
+        "slug": "spell-3031",
+        "name": "素俭",
+        "displayName": {
+          "zhHans": "素俭",
+          "zhHant": "素儉"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dengzhi/groups/spell-3031.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dengzhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35201",
+        "name": "洞若观龙",
+        "displayName": {
+          "zhHans": "洞若观龙",
+          "zhHant": "洞若觀龍"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dengzhi/skins/skin-35201.json"
+      },
+      {
+        "slug": "skin-35202",
+        "name": "渡江使吴",
+        "displayName": {
+          "zhHans": "渡江使吴",
+          "zhHant": "渡江使吳"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dengzhi/skins/skin-35202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dengzhi.json",
+      "groups": "api/v1/tts/characters/dengzhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dengzhi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-35201",
+    "name": "洞若观龙",
+    "displayName": {
+      "zhHans": "洞若观龙",
+      "zhHant": "洞若觀龍"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/dengzhi/skins/skin-35201.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "dengzhi--352dengzhi--2dead01",
+      "resourceId": "352dengzhi/2dead01",
+      "text": "箕谷之败，罪在芝，而不在丞相……",
+      "textLocalized": {
+        "zhHans": "箕谷之败，罪在芝，而不在丞相……",
+        "zhHant": "箕谷之敗，罪在芝，而不在丞相……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35201",
+          "name": "洞若观龙",
+          "displayName": {
+            "zhHans": "洞若观龙",
+            "zhHant": "洞若觀龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhi--352dengzhi--2skill1_1",
+      "resourceId": "352dengzhi/2skill1_1",
+      "text": "臣有贰言，请吴侯静听，前说修好，后盟伐魏。",
+      "textLocalized": {
+        "zhHans": "臣有贰言，请吴侯静听，前说修好，后盟伐魏。",
+        "zhHant": "臣有貳言，請吳侯靜聽，前說修好，後盟伐魏。"
+      },
+      "group": {
+        "slug": "spell-3030",
+        "name": "修好",
+        "displayName": {
+          "zhHans": "修好",
+          "zhHant": "修好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35201",
+          "name": "洞若观龙",
+          "displayName": {
+            "zhHans": "洞若观龙",
+            "zhHant": "洞若觀龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhi--352dengzhi--2skill1_2",
+      "resourceId": "352dengzhi/2skill1_2",
+      "text": "吴王有书给予旧事，书上二字：|一曰和，一曰睦。",
+      "textLocalized": {
+        "zhHans": "吴王有书给予旧事，书上二字：|一曰和，一曰睦。",
+        "zhHant": "吳王有書給予舊事，書上二字：|一曰和，一曰睦。"
+      },
+      "group": {
+        "slug": "spell-3030",
+        "name": "修好",
+        "displayName": {
+          "zhHans": "修好",
+          "zhHant": "修好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35201",
+          "name": "洞若观龙",
+          "displayName": {
+            "zhHans": "洞若观龙",
+            "zhHant": "洞若觀龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhi--352dengzhi--2skill2_1",
+      "resourceId": "352dengzhi/2skill2_1",
+      "text": "为臣不慕财，为将不畏死，此为忠君之道！",
+      "textLocalized": {
+        "zhHans": "为臣不慕财，为将不畏死，此为忠君之道！",
+        "zhHant": "爲臣不慕財，爲將不畏死，此爲忠君之道！"
+      },
+      "group": {
+        "slug": "spell-3031",
+        "name": "素俭",
+        "displayName": {
+          "zhHans": "素俭",
+          "zhHant": "素儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35201",
+          "name": "洞若观龙",
+          "displayName": {
+            "zhHans": "洞若观龙",
+            "zhHant": "洞若觀龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhi--352dengzhi--2skill2_2",
+      "resourceId": "352dengzhi/2skill2_2",
+      "text": "简以修己身，善以养黎庶，方成国士无双！",
+      "textLocalized": {
+        "zhHans": "简以修己身，善以养黎庶，方成国士无双！",
+        "zhHant": "簡以修己身，善以養黎庶，方成國士無雙！"
+      },
+      "group": {
+        "slug": "spell-3031",
+        "name": "素俭",
+        "displayName": {
+          "zhHans": "素俭",
+          "zhHant": "素儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35201",
+          "name": "洞若观龙",
+          "displayName": {
+            "zhHans": "洞若观龙",
+            "zhHant": "洞若觀龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

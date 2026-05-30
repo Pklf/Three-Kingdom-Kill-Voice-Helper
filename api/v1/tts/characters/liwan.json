@@ -1,3 +1,825 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6895a7a8dfb03bbf41ed74341997d6feb74504ca49ccef544c72653821dc586e
-size 23804
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "liwan",
+    "command": "liwan",
+    "name": "李婉",
+    "displayName": {
+      "zhHans": "李婉",
+      "zhHant": "李婉"
+    },
+    "names": [
+      "李婉"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李婉",
+        "zhHant": "李婉"
+      }
+    ],
+    "ids": [
+      "577"
+    ],
+    "sourceNames": [
+      "李婉"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李婉",
+        "zhHant": "李婉"
+      }
+    ],
+    "sourceIds": [
+      "577"
+    ],
+    "searchNames": [
+      "liwan",
+      "李婉"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liwan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liwan/groups/spell-3511.json"
+      },
+      {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liwan/groups/spell-3512.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "57701",
+        "name": "57701",
+        "displayName": {
+          "zhHans": "57701",
+          "zhHant": "57701"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liwan/skins/57701.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liwan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-57702",
+        "name": "沐风婉转",
+        "displayName": {
+          "zhHans": "沐风婉转",
+          "zhHant": "沐風婉轉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liwan/skins/skin-57702.json"
+      },
+      {
+        "slug": "skin-57703",
+        "name": "闲暇作赋",
+        "displayName": {
+          "zhHans": "闲暇作赋",
+          "zhHant": "閒暇作賦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liwan/skins/skin-57703.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liwan.json",
+      "groups": "api/v1/tts/characters/liwan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liwan/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 20,
+  "lines": [
+    {
+      "id": "liwan--577liwan--2dead01",
+      "resourceId": "577liwan/2dead01",
+      "text": "人生寥寥几十秋，何妨一醉。",
+      "textLocalized": {
+        "zhHans": "人生寥寥几十秋，何妨一醉。",
+        "zhHant": "人生寥寥幾十秋，何妨一醉。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--1dead01",
+      "resourceId": "577liwan/1dead01",
+      "text": "及尔偕老，老使我怨。",
+      "textLocalized": {
+        "zhHans": "及尔偕老，老使我怨。",
+        "zhHant": "及爾偕老，老使我怨。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--3dead01",
+      "resourceId": "577liwan/3dead01",
+      "text": "妾身如浮萍，何忍扰君安宁。",
+      "textLocalized": {
+        "zhHans": "妾身如浮萍，何忍扰君安宁。",
+        "zhHant": "妾身如浮萍，何忍擾君安寧。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57702",
+          "name": "沐风婉转",
+          "displayName": {
+            "zhHans": "沐风婉转",
+            "zhHant": "沐風婉轉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--4dead01",
+      "resourceId": "577liwan/4dead01",
+      "text": "生未同室，死可同穴否？",
+      "textLocalized": {
+        "zhHans": "生未同室，死可同穴否？",
+        "zhHant": "生未同室，死可同穴否？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57703",
+          "name": "闲暇作赋",
+          "displayName": {
+            "zhHans": "闲暇作赋",
+            "zhHant": "閒暇作賦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--2skill1_1",
+      "resourceId": "577liwan/2skill1_1",
+      "text": "佳节岁好，与君奉酒，共歌千里之婵娟。",
+      "textLocalized": {
+        "zhHans": "佳节岁好，与君奉酒，共歌千里之婵娟。",
+        "zhHant": "佳節歲好，與君奉酒，共歌千里之嬋娟。"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--2skill1_2",
+      "resourceId": "577liwan/2skill1_2",
+      "text": "旧年换新符，当窗贴花黄，话经年晴圆。",
+      "textLocalized": {
+        "zhHans": "旧年换新符，当窗贴花黄，话经年晴圆。",
+        "zhHant": "舊年換新符，當窗貼花黃，話經年晴圓。"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--1skill1_1",
+      "resourceId": "577liwan/1skill1_1",
+      "text": "室中是阿谁？叹息声正悲。",
+      "textLocalized": {
+        "zhHans": "室中是阿谁？叹息声正悲。",
+        "zhHant": "室中是阿誰？嘆息聲正悲。"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--1skill1_2",
+      "resourceId": "577liwan/1skill1_2",
+      "text": "叹息亦何为？但恐大义亏。",
+      "textLocalized": {
+        "zhHans": "叹息亦何为？但恐大义亏。",
+        "zhHant": "嘆息亦何爲？但恐大義虧。"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--3skill1_1",
+      "resourceId": "577liwan/3skill1_1",
+      "text": "我本将心向明月，奈何落花随流水。",
+      "textLocalized": {
+        "zhHans": "我本将心向明月，奈何落花随流水。",
+        "zhHant": "我本將心向明月，奈何落花隨流水。"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57702",
+          "name": "沐风婉转",
+          "displayName": {
+            "zhHans": "沐风婉转",
+            "zhHant": "沐風婉轉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--3skill1_2",
+      "resourceId": "577liwan/3skill1_2",
+      "text": "昔日山盟犹在，何时寄得锦书？",
+      "textLocalized": {
+        "zhHans": "昔日山盟犹在，何时寄得锦书？",
+        "zhHant": "昔日山盟猶在，何時寄得錦書？"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57702",
+          "name": "沐风婉转",
+          "displayName": {
+            "zhHans": "沐风婉转",
+            "zhHant": "沐風婉轉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--4skill1_1",
+      "resourceId": "577liwan/4skill1_1",
+      "text": "雷击并蒂木，余我歌北风。",
+      "textLocalized": {
+        "zhHans": "雷击并蒂木，余我歌北风。",
+        "zhHant": "雷擊並蒂木，餘我歌北風。"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57703",
+          "name": "闲暇作赋",
+          "displayName": {
+            "zhHans": "闲暇作赋",
+            "zhHant": "閒暇作賦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--4skill1_2",
+      "resourceId": "577liwan/4skill1_2",
+      "text": "女子秉节，何让须眉之义！",
+      "textLocalized": {
+        "zhHans": "女子秉节，何让须眉之义！",
+        "zhHant": "女子秉節，何讓鬚眉之義！"
+      },
+      "group": {
+        "slug": "spell-3511",
+        "name": "联句",
+        "displayName": {
+          "zhHans": "联句",
+          "zhHant": "聯句"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57703",
+          "name": "闲暇作赋",
+          "displayName": {
+            "zhHans": "闲暇作赋",
+            "zhHant": "閒暇作賦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--2skill2_1",
+      "resourceId": "577liwan/2skill2_1",
+      "text": "彼夜思，此夜思，星雨入梦，东风花千树。",
+      "textLocalized": {
+        "zhHans": "彼夜思，此夜思，星雨入梦，东风花千树。",
+        "zhHant": "彼夜思，此夜思，星雨入夢，東風花千樹。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--2skill2_2",
+      "resourceId": "577liwan/2skill2_2",
+      "text": "玉案白觞，清酒珍馐，一杯相思敬与君。",
+      "textLocalized": {
+        "zhHans": "玉案白觞，清酒珍馐，一杯相思敬与君。",
+        "zhHant": "玉案白觴，清酒珍饈，一杯相思敬與君。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "57701",
+          "name": "57701",
+          "displayName": {
+            "zhHans": "57701",
+            "zhHant": "57701"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--1skill2_1",
+      "resourceId": "577liwan/1skill2_1",
+      "text": "大义同胶漆，匪石心不移。",
+      "textLocalized": {
+        "zhHans": "大义同胶漆，匪石心不移。",
+        "zhHant": "大義同膠漆，匪石心不移。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--1skill2_2",
+      "resourceId": "577liwan/1skill2_2",
+      "text": "人谁不虑终，日月有合离。",
+      "textLocalized": {
+        "zhHans": "人谁不虑终，日月有合离。",
+        "zhHant": "人誰不慮終，日月有合離。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--3skill2_1",
+      "resourceId": "577liwan/3skill2_1",
+      "text": "此去苦寒之地，不舍者，唯君尔。",
+      "textLocalized": {
+        "zhHans": "此去苦寒之地，不舍者，唯君尔。",
+        "zhHant": "此去苦寒之地，不捨者，唯君爾。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57702",
+          "name": "沐风婉转",
+          "displayName": {
+            "zhHans": "沐风婉转",
+            "zhHant": "沐風婉轉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--3skill2_2",
+      "resourceId": "577liwan/3skill2_2",
+      "text": "思君之心如流水，奔东海，不停息。",
+      "textLocalized": {
+        "zhHans": "思君之心如流水，奔东海，不停息。",
+        "zhHant": "思君之心如流水，奔東海，不停息。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57702",
+          "name": "沐风婉转",
+          "displayName": {
+            "zhHans": "沐风婉转",
+            "zhHant": "沐風婉轉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--4skill2_1",
+      "resourceId": "577liwan/4skill2_1",
+      "text": "公闾即吾乡，此心可安此处。",
+      "textLocalized": {
+        "zhHans": "公闾即吾乡，此心可安此处。",
+        "zhHant": "公閭即吾鄉，此心可安此處。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57703",
+          "name": "闲暇作赋",
+          "displayName": {
+            "zhHans": "闲暇作赋",
+            "zhHant": "閒暇作賦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liwan--577liwan--4skill2_2",
+      "resourceId": "577liwan/4skill2_2",
+      "text": "思乡之情未断绝，青鸟寄归鸿。",
+      "textLocalized": {
+        "zhHans": "思乡之情未断绝，青鸟寄归鸿。",
+        "zhHant": "思鄉之情未斷絕，青鳥寄歸鴻。"
+      },
+      "group": {
+        "slug": "spell-3512",
+        "name": "思闾",
+        "displayName": {
+          "zhHans": "思闾",
+          "zhHant": "思閭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57703",
+          "name": "闲暇作赋",
+          "displayName": {
+            "zhHans": "闲暇作赋",
+            "zhHant": "閒暇作賦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/577liwan-95bcc5b4/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/577liwan/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

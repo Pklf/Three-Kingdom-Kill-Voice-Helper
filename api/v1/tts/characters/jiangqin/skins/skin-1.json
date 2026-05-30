@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5afb73854958e1a0e889a32c8509f9b6a0340f8176f0c68d0ce3b88643fe0089
-size 8105
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiangqin",
+    "command": "jiangqin",
+    "name": "蒋钦",
+    "displayName": {
+      "zhHans": "蒋钦",
+      "zhHant": "蔣欽"
+    },
+    "names": [
+      "蒋钦"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蒋钦",
+        "zhHant": "蔣欽"
+      }
+    ],
+    "ids": [
+      "2074"
+    ],
+    "sourceNames": [
+      "蒋钦"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蒋钦",
+        "zhHant": "蔣欽"
+      }
+    ],
+    "sourceIds": [
+      "2074"
+    ],
+    "searchNames": [
+      "jiangqin",
+      "蒋钦",
+      "蔣欽"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiangqin/groups/dead.json"
+      },
+      {
+        "slug": "spell-2138",
+        "name": "尚义",
+        "displayName": {
+          "zhHans": "尚义",
+          "zhHant": "尚義"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiangqin/groups/spell-2138.json"
+      },
+      {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiangqin/groups/spell-2139.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-207404",
+        "name": "奋敌护主",
+        "displayName": {
+          "zhHans": "奋敌护主",
+          "zhHant": "奮敵護主"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-207404.json"
+      },
+      {
+        "slug": "skin-207403",
+        "name": "海天箭走",
+        "displayName": {
+          "zhHans": "海天箭走",
+          "zhHant": "海天箭走"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-207403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiangqin.json",
+      "groups": "api/v1/tts/characters/jiangqin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiangqin/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jiangqin--2074jiangqin--1dead01",
+      "resourceId": "2074jiangqin/1dead01",
+      "text": "静，破我阵法。",
+      "textLocalized": {
+        "zhHans": "静，破我阵法。",
+        "zhHant": "靜，破我陣法。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--1skill1_1",
+      "resourceId": "2074jiangqin/1skill1_1",
+      "text": "大丈夫为人坦荡，看下手牌算什么！",
+      "textLocalized": {
+        "zhHans": "大丈夫为人坦荡，看下手牌算什么！",
+        "zhHant": "大丈夫爲人坦蕩，看下手牌算什麼！"
+      },
+      "group": {
+        "slug": "spell-2138",
+        "name": "尚义",
+        "displayName": {
+          "zhHans": "尚义",
+          "zhHant": "尚義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--1skill1_2",
+      "resourceId": "2074jiangqin/1skill1_2",
+      "text": "敌情已了然于胸，即刻出发！",
+      "textLocalized": {
+        "zhHans": "敌情已了然于胸，即刻出发！",
+        "zhHant": "敵情已瞭然於胸，即刻出發！"
+      },
+      "group": {
+        "slug": "spell-2138",
+        "name": "尚义",
+        "displayName": {
+          "zhHans": "尚义",
+          "zhHant": "尚義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--1skill2_1",
+      "resourceId": "2074jiangqin/1skill2_1",
+      "text": "此战，必是有死无生！",
+      "textLocalized": {
+        "zhHans": "此战，必是有死无生！",
+        "zhHant": "此戰，必是有死無生！"
+      },
+      "group": {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--1skill2_2",
+      "resourceId": "2074jiangqin/1skill2_2",
+      "text": "抢占先机，占尽优势！",
+      "textLocalized": {
+        "zhHans": "抢占先机，占尽优势！",
+        "zhHant": "搶佔先機，佔盡優勢！"
+      },
+      "group": {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

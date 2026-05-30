@@ -1,3 +1,194 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:03603fbd160b5bab37239ec107e8ab649f8c89bcdd7bfd19e25b5e29f6b7e0b9
-size 4998
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangcan",
+    "command": "wangcan",
+    "name": "王粲",
+    "displayName": {
+      "zhHans": "王粲",
+      "zhHant": "王粲"
+    },
+    "names": [
+      "王粲"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王粲",
+        "zhHant": "王粲"
+      }
+    ],
+    "ids": [
+      "428"
+    ],
+    "sourceNames": [
+      "王粲"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王粲",
+        "zhHant": "王粲"
+      }
+    ],
+    "sourceIds": [
+      "428"
+    ],
+    "searchNames": [
+      "wangcan",
+      "王粲"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wangcan/groups/dead.json"
+      },
+      {
+        "slug": "spell-898",
+        "name": "散文",
+        "displayName": {
+          "zhHans": "散文",
+          "zhHant": "散文"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangcan/groups/spell-898.json"
+      },
+      {
+        "slug": "spell-899",
+        "name": "七哀",
+        "displayName": {
+          "zhHans": "七哀",
+          "zhHant": "七哀"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangcan/groups/spell-899.json"
+      },
+      {
+        "slug": "spell-900",
+        "name": "登楼",
+        "displayName": {
+          "zhHans": "登楼",
+          "zhHant": "登樓"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangcan/groups/spell-900.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangcan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42801",
+        "name": "登高赋词",
+        "displayName": {
+          "zhHans": "登高赋词",
+          "zhHant": "登高賦詞"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangcan/skins/skin-42801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangcan.json",
+      "groups": "api/v1/tts/characters/wangcan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangcan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/wangcan/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "wangcan--428wangcan--1dead01",
+      "resourceId": "428wangcan/1dead01",
+      "text": "一作驴鸣悲，万古送葬别。",
+      "textLocalized": {
+        "zhHans": "一作驴鸣悲，万古送葬别。",
+        "zhHant": "一作驢鳴悲，萬古送葬別。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/428wangcan-3bdcb2fd/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/428wangcan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangcan--428wangcan--2dead01",
+      "resourceId": "428wangcan/2dead01",
+      "text": "心於悒[yì]而感怀，意惆怅而不平。",
+      "textLocalized": {
+        "zhHans": "心於悒[yì]而感怀，意惆怅而不平。",
+        "zhHant": "心於悒[yì]而感懷，意惆悵而不平。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42801",
+          "name": "登高赋词",
+          "displayName": {
+            "zhHans": "登高赋词",
+            "zhHant": "登高賦詞"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/428wangcan-3bdcb2fd/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/428wangcan/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

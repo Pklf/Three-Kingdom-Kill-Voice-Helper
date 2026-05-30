@@ -1,3 +1,420 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cae23d7911ab1ec024ca1f5c776ac098b31a15f6468e6ee8d24f57a8f5943617
-size 11812
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhugezhan",
+    "command": "zhugezhan",
+    "name": "诸葛瞻",
+    "displayName": {
+      "zhHans": "诸葛瞻",
+      "zhHant": "諸葛瞻"
+    },
+    "names": [
+      "诸葛瞻"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "诸葛瞻",
+        "zhHant": "諸葛瞻"
+      }
+    ],
+    "ids": [
+      "410"
+    ],
+    "sourceNames": [
+      "诸葛瞻"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "诸葛瞻",
+        "zhHant": "諸葛瞻"
+      }
+    ],
+    "sourceIds": [
+      "410"
+    ],
+    "searchNames": [
+      "zhugezhan",
+      "诸葛瞻",
+      "諸葛瞻"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugezhan/groups/dead.json"
+      },
+      {
+        "slug": "spell-818",
+        "name": "罪论",
+        "displayName": {
+          "zhHans": "罪论",
+          "zhHant": "罪論"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhugezhan/groups/spell-818.json"
+      },
+      {
+        "slug": "spell-819",
+        "name": "父荫",
+        "displayName": {
+          "zhHans": "父荫",
+          "zhHant": "父蔭"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhugezhan/groups/spell-819.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-41001",
+        "name": "决战邓艾",
+        "displayName": {
+          "zhHans": "决战邓艾",
+          "zhHant": "決戰鄧艾"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugezhan/skins/skin-41001.json"
+      },
+      {
+        "slug": "skin-41001-41004",
+        "name": "决战邓艾,父佑瞻战",
+        "displayName": {
+          "zhHans": "决战邓艾,父佑瞻战",
+          "zhHant": "決戰鄧艾,父佑瞻戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugezhan/skins/skin-41001-41004.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugezhan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41002",
+        "name": "忠节不降",
+        "displayName": {
+          "zhHans": "忠节不降",
+          "zhHant": "忠節不降"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugezhan/skins/skin-41002.json"
+      },
+      {
+        "slug": "skin-41005",
+        "name": "斩使决死",
+        "displayName": {
+          "zhHans": "斩使决死",
+          "zhHant": "斬使決死"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugezhan/skins/skin-41005.json"
+      },
+      {
+        "slug": "skin-41004",
+        "name": "父佑瞻战",
+        "displayName": {
+          "zhHans": "父佑瞻战",
+          "zhHant": "父佑瞻戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugezhan/skins/skin-41004.json"
+      },
+      {
+        "slug": "skin-41006",
+        "name": "铗剑回天",
+        "displayName": {
+          "zhHans": "铗剑回天",
+          "zhHant": "鋏劍迴天"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugezhan/skins/skin-41006.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhugezhan.json",
+      "groups": "api/v1/tts/characters/zhugezhan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhugezhan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-41001",
+    "name": "决战邓艾",
+    "displayName": {
+      "zhHans": "决战邓艾",
+      "zhHant": "決戰鄧艾"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhugezhan/skins/skin-41001.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhugezhan--410zhugezhan--3dead01",
+      "resourceId": "410zhugezhan/3dead01",
+      "text": "不听黄崇，错失良机。",
+      "textLocalized": {
+        "zhHans": "不听黄崇，错失良机。",
+        "zhHant": "不聽黃崇，錯失良機。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41001",
+          "name": "决战邓艾",
+          "displayName": {
+            "zhHans": "决战邓艾",
+            "zhHant": "決戰鄧艾"
+          }
+        },
+        {
+          "slug": "skin-41004",
+          "name": "父佑瞻战",
+          "displayName": {
+            "zhHans": "父佑瞻战",
+            "zhHant": "父佑瞻戰"
+          }
+        },
+        {
+          "slug": "skin-41001-41004",
+          "name": "决战邓艾,父佑瞻战",
+          "displayName": {
+            "zhHans": "决战邓艾,父佑瞻战",
+            "zhHant": "決戰鄧艾,父佑瞻戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/410zhugezhan-39dfd571/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/410zhugezhan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugezhan--410zhugezhan--3skill1_1",
+      "resourceId": "410zhugezhan/3skill1_1",
+      "text": "吾罪难消，无颜故土。",
+      "textLocalized": {
+        "zhHans": "吾罪难消，无颜故土。",
+        "zhHant": "吾罪難消，無顏故土。"
+      },
+      "group": {
+        "slug": "spell-818",
+        "name": "罪论",
+        "displayName": {
+          "zhHans": "罪论",
+          "zhHant": "罪論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41001",
+          "name": "决战邓艾",
+          "displayName": {
+            "zhHans": "决战邓艾",
+            "zhHant": "決戰鄧艾"
+          }
+        },
+        {
+          "slug": "skin-41004",
+          "name": "父佑瞻战",
+          "displayName": {
+            "zhHans": "父佑瞻战",
+            "zhHant": "父佑瞻戰"
+          }
+        },
+        {
+          "slug": "skin-41001-41004",
+          "name": "决战邓艾,父佑瞻战",
+          "displayName": {
+            "zhHans": "决战邓艾,父佑瞻战",
+            "zhHant": "決戰鄧艾,父佑瞻戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/410zhugezhan-39dfd571/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/410zhugezhan/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugezhan--410zhugezhan--3skill1_2",
+      "resourceId": "410zhugezhan/3skill1_2",
+      "text": "父嘱帝咐，吾却失约。",
+      "textLocalized": {
+        "zhHans": "父嘱帝咐，吾却失约。",
+        "zhHant": "父囑帝咐，吾卻失約。"
+      },
+      "group": {
+        "slug": "spell-818",
+        "name": "罪论",
+        "displayName": {
+          "zhHans": "罪论",
+          "zhHant": "罪論"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41001",
+          "name": "决战邓艾",
+          "displayName": {
+            "zhHans": "决战邓艾",
+            "zhHant": "決戰鄧艾"
+          }
+        },
+        {
+          "slug": "skin-41004",
+          "name": "父佑瞻战",
+          "displayName": {
+            "zhHans": "父佑瞻战",
+            "zhHant": "父佑瞻戰"
+          }
+        },
+        {
+          "slug": "skin-41001-41004",
+          "name": "决战邓艾,父佑瞻战",
+          "displayName": {
+            "zhHans": "决战邓艾,父佑瞻战",
+            "zhHant": "決戰鄧艾,父佑瞻戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/410zhugezhan-39dfd571/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/410zhugezhan/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugezhan--410zhugezhan--3skill2_1",
+      "resourceId": "410zhugezhan/3skill2_1",
+      "text": "遵父言，静修身，俭养德。",
+      "textLocalized": {
+        "zhHans": "遵父言，静修身，俭养德。",
+        "zhHant": "遵父言，靜修身，儉養德。"
+      },
+      "group": {
+        "slug": "spell-819",
+        "name": "父荫",
+        "displayName": {
+          "zhHans": "父荫",
+          "zhHant": "父蔭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41001",
+          "name": "决战邓艾",
+          "displayName": {
+            "zhHans": "决战邓艾",
+            "zhHant": "決戰鄧艾"
+          }
+        },
+        {
+          "slug": "skin-41004",
+          "name": "父佑瞻战",
+          "displayName": {
+            "zhHans": "父佑瞻战",
+            "zhHant": "父佑瞻戰"
+          }
+        },
+        {
+          "slug": "skin-41001-41004",
+          "name": "决战邓艾,父佑瞻战",
+          "displayName": {
+            "zhHans": "决战邓艾,父佑瞻战",
+            "zhHant": "決戰鄧艾,父佑瞻戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/410zhugezhan-39dfd571/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/410zhugezhan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugezhan--410zhugezhan--3skill2_2",
+      "resourceId": "410zhugezhan/3skill2_2",
+      "text": "励精图治，不可慆慢险躁。",
+      "textLocalized": {
+        "zhHans": "励精图治，不可慆慢险躁。",
+        "zhHant": "勵精圖治，不可慆慢險躁。"
+      },
+      "group": {
+        "slug": "spell-819",
+        "name": "父荫",
+        "displayName": {
+          "zhHans": "父荫",
+          "zhHant": "父蔭"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41001",
+          "name": "决战邓艾",
+          "displayName": {
+            "zhHans": "决战邓艾",
+            "zhHant": "決戰鄧艾"
+          }
+        },
+        {
+          "slug": "skin-41004",
+          "name": "父佑瞻战",
+          "displayName": {
+            "zhHans": "父佑瞻战",
+            "zhHant": "父佑瞻戰"
+          }
+        },
+        {
+          "slug": "skin-41001-41004",
+          "name": "决战邓艾,父佑瞻战",
+          "displayName": {
+            "zhHans": "决战邓艾,父佑瞻战",
+            "zhHant": "決戰鄧艾,父佑瞻戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/410zhugezhan-39dfd571/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/410zhugezhan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,359 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f61b1c18179d5fe3a2218b018452c9bf05f67a383f36526ab9d4a82f8fa1570d
-size 9787
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoyu",
+    "command": "caoyu",
+    "name": "曹宇",
+    "displayName": {
+      "zhHans": "曹宇",
+      "zhHant": "曹宇"
+    },
+    "names": [
+      "曹宇"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹宇",
+        "zhHant": "曹宇"
+      }
+    ],
+    "ids": [
+      "596"
+    ],
+    "sourceNames": [
+      "曹宇"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹宇",
+        "zhHant": "曹宇"
+      }
+    ],
+    "sourceIds": [
+      "596"
+    ],
+    "searchNames": [
+      "caoyu",
+      "曹宇"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/caoyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3410",
+        "name": "恭节",
+        "displayName": {
+          "zhHans": "恭节",
+          "zhHant": "恭節"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caoyu/groups/spell-3410.json"
+      },
+      {
+        "slug": "spell-3411",
+        "name": "相胥",
+        "displayName": {
+          "zhHans": "相胥",
+          "zhHant": "相胥"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caoyu/groups/spell-3411.json"
+      },
+      {
+        "slug": "spell-3412",
+        "name": "襄胙",
+        "displayName": {
+          "zhHans": "襄胙",
+          "zhHant": "襄胙"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caoyu/groups/spell-3412.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoyu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoyu.json",
+      "groups": "api/v1/tts/characters/caoyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoyu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/caoyu/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "caoyu--596caoyu--1dead01",
+      "resourceId": "596caoyu/1dead01",
+      "text": "满园秋霜落，一人叹奈何。",
+      "textLocalized": {
+        "zhHans": "满园秋霜落，一人叹奈何。",
+        "zhHant": "滿園秋霜落，一人嘆奈何。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/596caoyu-deba8167/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/596caoyu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoyu--596caoyu--1skill1_1",
+      "resourceId": "596caoyu/1skill1_1",
+      "text": "身负浩然之气，当以恭节待人。",
+      "textLocalized": {
+        "zhHans": "身负浩然之气，当以恭节待人。",
+        "zhHant": "身負浩然之氣，當以恭節待人。"
+      },
+      "group": {
+        "slug": "spell-3410",
+        "name": "恭节",
+        "displayName": {
+          "zhHans": "恭节",
+          "zhHant": "恭節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/596caoyu-deba8167/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/596caoyu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoyu--596caoyu--1skill1_2",
+      "resourceId": "596caoyu/1skill1_2",
+      "text": "生于帝王之家，不可忘恭失节。",
+      "textLocalized": {
+        "zhHans": "生于帝王之家，不可忘恭失节。",
+        "zhHant": "生於帝王之家，不可忘恭失節。"
+      },
+      "group": {
+        "slug": "spell-3410",
+        "name": "恭节",
+        "displayName": {
+          "zhHans": "恭节",
+          "zhHant": "恭節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/596caoyu-deba8167/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/596caoyu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoyu--596caoyu--1skill2_1",
+      "resourceId": "596caoyu/1skill2_1",
+      "text": "今之大魏，非一家一姓之国。",
+      "textLocalized": {
+        "zhHans": "今之大魏，非一家一姓之国。",
+        "zhHant": "今之大魏，非一家一姓之國。"
+      },
+      "group": {
+        "slug": "spell-3411",
+        "name": "相胥",
+        "displayName": {
+          "zhHans": "相胥",
+          "zhHant": "相胥"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/596caoyu-deba8167/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/596caoyu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoyu--596caoyu--1skill2_2",
+      "resourceId": "596caoyu/1skill2_2",
+      "text": "宇内同庆，奏凯歌于长垣。",
+      "textLocalized": {
+        "zhHans": "宇内同庆，奏凯歌于长垣。",
+        "zhHant": "宇內同慶，奏凱歌於長垣。"
+      },
+      "group": {
+        "slug": "spell-3411",
+        "name": "相胥",
+        "displayName": {
+          "zhHans": "相胥",
+          "zhHant": "相胥"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/596caoyu-deba8167/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/596caoyu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoyu--596caoyu--1skill3_1",
+      "resourceId": "596caoyu/1skill3_1",
+      "text": "怀济沧海之心，徒拔剑而茫然。",
+      "textLocalized": {
+        "zhHans": "怀济沧海之心，徒拔剑而茫然。",
+        "zhHant": "懷濟滄海之心，徒拔劍而茫然。"
+      },
+      "group": {
+        "slug": "spell-3412",
+        "name": "襄胙",
+        "displayName": {
+          "zhHans": "襄胙",
+          "zhHant": "襄胙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/596caoyu-deba8167/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/596caoyu/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoyu--596caoyu--1skill3_2",
+      "resourceId": "596caoyu/1skill3_2",
+      "text": "执三尺之青锋，卫大魏之宗庙。",
+      "textLocalized": {
+        "zhHans": "执三尺之青锋，卫大魏之宗庙。",
+        "zhHant": "執三尺之青鋒，衛大魏之宗廟。"
+      },
+      "group": {
+        "slug": "spell-3412",
+        "name": "襄胙",
+        "displayName": {
+          "zhHans": "襄胙",
+          "zhHant": "襄胙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/596caoyu-deba8167/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/596caoyu/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

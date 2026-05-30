@@ -1,3 +1,164 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1188088dff13543d095eaff702f0076315885dbe109200c3d9af2211e80d2f94
-size 4100
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huban",
+    "command": "huban",
+    "name": "胡班",
+    "displayName": {
+      "zhHans": "胡班",
+      "zhHant": "胡班"
+    },
+    "names": [
+      "胡班"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "胡班",
+        "zhHant": "胡班"
+      }
+    ],
+    "ids": [
+      "534"
+    ],
+    "sourceNames": [
+      "胡班"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "胡班",
+        "zhHant": "胡班"
+      }
+    ],
+    "sourceIds": [
+      "534"
+    ],
+    "searchNames": [
+      "huban",
+      "胡班"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/huban/groups/dead.json"
+      },
+      {
+        "slug": "spell-3210",
+        "name": "晖云",
+        "displayName": {
+          "zhHans": "晖云",
+          "zhHant": "暉雲"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/huban/groups/spell-3210.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huban/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huban.json",
+      "groups": "api/v1/tts/characters/huban/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huban/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3210",
+    "name": "晖云",
+    "displayName": {
+      "zhHans": "晖云",
+      "zhHant": "暉雲"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/huban/groups/spell-3210.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "huban--534huban--1skill1_1",
+      "resourceId": "534huban/1skill1_1",
+      "text": "舍身饲离火，不负万古名。",
+      "textLocalized": {
+        "zhHans": "舍身饲离火，不负万古名。",
+        "zhHant": "捨身飼離火，不負萬古名。"
+      },
+      "group": {
+        "slug": "spell-3210",
+        "name": "晖云",
+        "displayName": {
+          "zhHans": "晖云",
+          "zhHant": "暉雲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/534huban-078727fa/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/534huban/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huban--534huban--1skill1_2",
+      "resourceId": "534huban/1skill1_2",
+      "text": "义士今犹在，青笺气干云。",
+      "textLocalized": {
+        "zhHans": "义士今犹在，青笺气干云。",
+        "zhHant": "義士今猶在，青箋氣幹雲。"
+      },
+      "group": {
+        "slug": "spell-3210",
+        "name": "晖云",
+        "displayName": {
+          "zhHans": "晖云",
+          "zhHant": "暉雲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/534huban-078727fa/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/534huban/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

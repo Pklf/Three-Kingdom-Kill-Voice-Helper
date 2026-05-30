@@ -1,3 +1,887 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f5d44d96e59f66223c968c10e09980a87546677bfda8e13f2b995156d46ad1b2
-size 20343
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "fanchou",
+    "command": "fanchou",
+    "name": "樊稠",
+    "displayName": {
+      "zhHans": "樊稠",
+      "zhHant": "樊稠"
+    },
+    "names": [
+      "樊稠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "樊稠",
+        "zhHant": "樊稠"
+      }
+    ],
+    "ids": [
+      "423"
+    ],
+    "sourceNames": [
+      "樊稠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "樊稠",
+        "zhHant": "樊稠"
+      }
+    ],
+    "sourceIds": [
+      "423"
+    ],
+    "searchNames": [
+      "fanchou",
+      "樊稠"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-862",
+        "name": "兴乱",
+        "displayName": {
+          "zhHans": "兴乱",
+          "zhHant": "興亂"
+        },
+        "ids": [
+          "862"
+        ],
+        "lineCount": 4
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-42301",
+        "ids": [
+          "42301"
+        ],
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/fanchou.json",
+      "lines": "api/v1/characters/fanchou/lines.json"
+    }
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "fanchou--423fanchou--1dead01",
+      "resourceId": "423fanchou/1dead01",
+      "text": "唉，稚然疑心，甚重。",
+      "textLocalized": {
+        "zhHans": "唉，稚然疑心，甚重。",
+        "zhHant": "唉，稚然疑心，甚重。"
+      },
+      "character": {
+        "slug": "fanchou",
+        "command": "fanchou",
+        "id": "423",
+        "ids": [
+          "423"
+        ],
+        "name": "樊稠",
+        "displayName": {
+          "zhHans": "樊稠",
+          "zhHant": "樊稠"
+        },
+        "names": [
+          "樊稠"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "sourceIds": [
+          "423"
+        ],
+        "sourceNames": [
+          "樊稠"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "searchNames": [
+          "樊稠",
+          "fanchou"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "423",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "樊稠"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fanchou--423fanchou--3dead01",
+      "resourceId": "423fanchou/3dead01",
+      "text": "此生奔走四方，却落得如此收场。",
+      "textLocalized": {
+        "zhHans": "此生奔走四方，却落得如此收场。",
+        "zhHant": "此生奔走四方，卻落得如此收場。"
+      },
+      "character": {
+        "slug": "fanchou",
+        "command": "fanchou",
+        "id": "423",
+        "ids": [
+          "423"
+        ],
+        "name": "樊稠",
+        "displayName": {
+          "zhHans": "樊稠",
+          "zhHant": "樊稠"
+        },
+        "names": [
+          "樊稠"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "sourceIds": [
+          "423"
+        ],
+        "sourceNames": [
+          "樊稠"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "searchNames": [
+          "樊稠",
+          "fanchou"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42301",
+        "ids": [
+          "42301"
+        ],
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "names": [
+          "文和乱武"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-42301",
+          "id": "42301",
+          "ids": [
+            "42301"
+          ],
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          },
+          "names": [
+            "文和乱武"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "文和乱武",
+              "zhHant": "文和亂武"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "423",
+        "skinKey": "42301",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "樊稠"
+        ],
+        "skinNames": [
+          "文和乱武"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/3dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fanchou--423fanchou--1skill1_1",
+      "resourceId": "423fanchou/1skill1_1",
+      "text": "大兴兵争，长安当乱！",
+      "textLocalized": {
+        "zhHans": "大兴兵争，长安当乱！",
+        "zhHant": "大興兵爭，長安當亂！"
+      },
+      "character": {
+        "slug": "fanchou",
+        "command": "fanchou",
+        "id": "423",
+        "ids": [
+          "423"
+        ],
+        "name": "樊稠",
+        "displayName": {
+          "zhHans": "樊稠",
+          "zhHant": "樊稠"
+        },
+        "names": [
+          "樊稠"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "sourceIds": [
+          "423"
+        ],
+        "sourceNames": [
+          "樊稠"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "searchNames": [
+          "樊稠",
+          "fanchou"
+        ]
+      },
+      "group": {
+        "slug": "spell-862",
+        "ids": [
+          "862"
+        ],
+        "name": "兴乱",
+        "displayName": {
+          "zhHans": "兴乱",
+          "zhHant": "興亂"
+        },
+        "names": [
+          "兴乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "兴乱",
+            "zhHant": "興亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "423",
+        "skinKey": "-1",
+        "spellKey": "862",
+        "rowIndex": 1,
+        "characterNames": [
+          "樊稠"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fanchou--423fanchou--1skill1_2",
+      "resourceId": "423fanchou/1skill1_2",
+      "text": "勇猛兴军，乱世当立！",
+      "textLocalized": {
+        "zhHans": "勇猛兴军，乱世当立！",
+        "zhHant": "勇猛興軍，亂世當立！"
+      },
+      "character": {
+        "slug": "fanchou",
+        "command": "fanchou",
+        "id": "423",
+        "ids": [
+          "423"
+        ],
+        "name": "樊稠",
+        "displayName": {
+          "zhHans": "樊稠",
+          "zhHant": "樊稠"
+        },
+        "names": [
+          "樊稠"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "sourceIds": [
+          "423"
+        ],
+        "sourceNames": [
+          "樊稠"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "searchNames": [
+          "樊稠",
+          "fanchou"
+        ]
+      },
+      "group": {
+        "slug": "spell-862",
+        "ids": [
+          "862"
+        ],
+        "name": "兴乱",
+        "displayName": {
+          "zhHans": "兴乱",
+          "zhHant": "興亂"
+        },
+        "names": [
+          "兴乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "兴乱",
+            "zhHant": "興亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "423",
+        "skinKey": "-1",
+        "spellKey": "862",
+        "rowIndex": 2,
+        "characterNames": [
+          "樊稠"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fanchou--423fanchou--3skill1_1",
+      "resourceId": "423fanchou/3skill1_1",
+      "text": "此地已战乱如此，不如再加一把。|哈哈哈哈哈。",
+      "textLocalized": {
+        "zhHans": "此地已战乱如此，不如再加一把。|哈哈哈哈哈。",
+        "zhHant": "此地已戰亂如此，不如再加一把。|哈哈哈哈哈。"
+      },
+      "character": {
+        "slug": "fanchou",
+        "command": "fanchou",
+        "id": "423",
+        "ids": [
+          "423"
+        ],
+        "name": "樊稠",
+        "displayName": {
+          "zhHans": "樊稠",
+          "zhHant": "樊稠"
+        },
+        "names": [
+          "樊稠"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "sourceIds": [
+          "423"
+        ],
+        "sourceNames": [
+          "樊稠"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "searchNames": [
+          "樊稠",
+          "fanchou"
+        ]
+      },
+      "group": {
+        "slug": "spell-862",
+        "ids": [
+          "862"
+        ],
+        "name": "兴乱",
+        "displayName": {
+          "zhHans": "兴乱",
+          "zhHant": "興亂"
+        },
+        "names": [
+          "兴乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "兴乱",
+            "zhHant": "興亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42301",
+        "ids": [
+          "42301"
+        ],
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "names": [
+          "文和乱武"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-42301",
+          "id": "42301",
+          "ids": [
+            "42301"
+          ],
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          },
+          "names": [
+            "文和乱武"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "文和乱武",
+              "zhHant": "文和亂武"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "423",
+        "skinKey": "42301",
+        "spellKey": "862",
+        "rowIndex": 1,
+        "characterNames": [
+          "樊稠"
+        ],
+        "skinNames": [
+          "文和乱武"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fanchou--423fanchou--3skill1_2",
+      "resourceId": "423fanchou/3skill1_2",
+      "text": "乱战之中，吾自有妙计。",
+      "textLocalized": {
+        "zhHans": "乱战之中，吾自有妙计。",
+        "zhHant": "亂戰之中，吾自有妙計。"
+      },
+      "character": {
+        "slug": "fanchou",
+        "command": "fanchou",
+        "id": "423",
+        "ids": [
+          "423"
+        ],
+        "name": "樊稠",
+        "displayName": {
+          "zhHans": "樊稠",
+          "zhHant": "樊稠"
+        },
+        "names": [
+          "樊稠"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "sourceIds": [
+          "423"
+        ],
+        "sourceNames": [
+          "樊稠"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "樊稠",
+            "zhHant": "樊稠"
+          }
+        ],
+        "searchNames": [
+          "樊稠",
+          "fanchou"
+        ]
+      },
+      "group": {
+        "slug": "spell-862",
+        "ids": [
+          "862"
+        ],
+        "name": "兴乱",
+        "displayName": {
+          "zhHans": "兴乱",
+          "zhHant": "興亂"
+        },
+        "names": [
+          "兴乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "兴乱",
+            "zhHant": "興亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42301",
+        "ids": [
+          "42301"
+        ],
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "names": [
+          "文和乱武"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-42301",
+          "id": "42301",
+          "ids": [
+            "42301"
+          ],
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          },
+          "names": [
+            "文和乱武"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "文和乱武",
+              "zhHant": "文和亂武"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "423",
+        "skinKey": "42301",
+        "spellKey": "862",
+        "rowIndex": 2,
+        "characterNames": [
+          "樊稠"
+        ],
+        "skinNames": [
+          "文和乱武"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

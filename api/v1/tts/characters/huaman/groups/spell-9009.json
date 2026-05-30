@@ -1,3 +1,604 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a91628d9710ca6e2d2ca328229114c9e9aa83582d7c7979bd4f24cfec67587d
-size 17104
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huaman",
+    "command": "huaman",
+    "name": "花鬘",
+    "displayName": {
+      "zhHans": "花鬘",
+      "zhHant": "花鬘"
+    },
+    "names": [
+      "花鬘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "花鬘",
+        "zhHant": "花鬘"
+      }
+    ],
+    "ids": [
+      "436"
+    ],
+    "sourceNames": [
+      "花鬘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "花鬘",
+        "zhHant": "花鬘"
+      }
+    ],
+    "sourceIds": [
+      "436"
+    ],
+    "searchNames": [
+      "huaman",
+      "花鬘"
+    ],
+    "lineCount": 66,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/huaman/groups/dead.json"
+      },
+      {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9009.json"
+      },
+      {
+        "slug": "spell-9010",
+        "name": "蛮嗣",
+        "displayName": {
+          "zhHans": "蛮嗣",
+          "zhHant": "蠻嗣"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9010.json"
+      },
+      {
+        "slug": "spell-9011",
+        "name": "薮影",
+        "displayName": {
+          "zhHans": "薮影",
+          "zhHant": "藪影"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9011.json"
+      },
+      {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9012.json"
+      },
+      {
+        "slug": "spell-9013",
+        "name": "系力",
+        "displayName": {
+          "zhHans": "系力",
+          "zhHant": "系力"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9013.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "43605",
+        "name": "43605",
+        "displayName": {
+          "zhHans": "43605",
+          "zhHant": "43605"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/43605.json"
+      },
+      {
+        "slug": "skin-43601",
+        "name": "南中花俏",
+        "displayName": {
+          "zhHans": "南中花俏",
+          "zhHant": "南中花俏"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-43601.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43602",
+        "name": "花谷烂漫",
+        "displayName": {
+          "zhHans": "花谷烂漫",
+          "zhHant": "花谷爛漫"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-43602.json"
+      },
+      {
+        "slug": "skin-43604",
+        "name": "虚拟天团",
+        "displayName": {
+          "zhHans": "虚拟天团",
+          "zhHant": "虛擬天團"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-43604.json"
+      },
+      {
+        "slug": "skin-43603",
+        "name": "锋丽鬘影",
+        "displayName": {
+          "zhHans": "锋丽鬘影",
+          "zhHant": "鋒麗鬘影"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-43603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huaman.json",
+      "groups": "api/v1/tts/characters/huaman/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huaman/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-9009",
+    "name": "蛮裔",
+    "displayName": {
+      "zhHans": "蛮裔",
+      "zhHant": "蠻裔"
+    },
+    "lineCount": 12,
+    "endpoint": "api/v1/tts/characters/huaman/groups/spell-9009.json"
+  },
+  "lineCount": 12,
+  "lines": [
+    {
+      "id": "huaman--436huaman--8skill1_1",
+      "resourceId": "436huaman/8skill1_1",
+      "text": "蛮裔奋威，必教湖海激荡、山河倒悬！",
+      "textLocalized": {
+        "zhHans": "蛮裔奋威，必教湖海激荡、山河倒悬！",
+        "zhHant": "蠻裔奮威，必教湖海激盪、山河倒懸！"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43605",
+          "name": "43605",
+          "displayName": {
+            "zhHans": "43605",
+            "zhHant": "43605"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/8skill1-1-5b2970c1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/8skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--8skill1_2",
+      "resourceId": "436huaman/8skill1_2",
+      "text": "解阖家之粮，宴数族之兵，击垒石之垣。",
+      "textLocalized": {
+        "zhHans": "解阖家之粮，宴数族之兵，击垒石之垣。",
+        "zhHant": "解闔家之糧，宴數族之兵，擊壘石之垣。"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43605",
+          "name": "43605",
+          "displayName": {
+            "zhHans": "43605",
+            "zhHant": "43605"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/8skill1-2-cb529c9b.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/8skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--4skill1_1",
+      "resourceId": "436huaman/4skill1_1",
+      "text": "你还是省省吧！",
+      "textLocalized": {
+        "zhHans": "你还是省省吧！",
+        "zhHant": "你還是省省吧！"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43601",
+          "name": "南中花俏",
+          "displayName": {
+            "zhHans": "南中花俏",
+            "zhHant": "南中花俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--4skill1_2",
+      "resourceId": "436huaman/4skill1_2",
+      "text": "这招可不管用！",
+      "textLocalized": {
+        "zhHans": "这招可不管用！",
+        "zhHant": "這招可不管用！"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43601",
+          "name": "南中花俏",
+          "displayName": {
+            "zhHans": "南中花俏",
+            "zhHant": "南中花俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--1skill1_1",
+      "resourceId": "436huaman/1skill1_1",
+      "text": "蛮族的力量，你可不要小瞧！",
+      "textLocalized": {
+        "zhHans": "蛮族的力量，你可不要小瞧！",
+        "zhHant": "蠻族的力量，你可不要小瞧！"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--1skill1_2",
+      "resourceId": "436huaman/1skill1_2",
+      "text": "南蛮女子，该当英勇善战！",
+      "textLocalized": {
+        "zhHans": "南蛮女子，该当英勇善战！",
+        "zhHant": "南蠻女子，該當英勇善戰！"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--5skill1_1",
+      "resourceId": "436huaman/5skill1_1",
+      "text": "南疆凶瘴，犹有娇花，独绽穷山恶水间。",
+      "textLocalized": {
+        "zhHans": "南疆凶瘴，犹有娇花，独绽穷山恶水间。",
+        "zhHant": "南疆兇瘴，猶有嬌花，獨綻窮山惡水間。"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43602",
+          "name": "花谷烂漫",
+          "displayName": {
+            "zhHans": "花谷烂漫",
+            "zhHant": "花谷爛漫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--5skill1_2",
+      "resourceId": "436huaman/5skill1_2",
+      "text": "我乃蛮王之女，九黎之兵不伤九黎之人。",
+      "textLocalized": {
+        "zhHans": "我乃蛮王之女，九黎之兵不伤九黎之人。",
+        "zhHant": "我乃蠻王之女，九黎之兵不傷九黎之人。"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43602",
+          "name": "花谷烂漫",
+          "displayName": {
+            "zhHans": "花谷烂漫",
+            "zhHant": "花谷爛漫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--7skill1_1",
+      "resourceId": "436huaman/7skill1_1",
+      "text": "这一切让你熟悉吗？",
+      "textLocalized": {
+        "zhHans": "这一切让你熟悉吗？",
+        "zhHant": "這一切讓你熟悉嗎？"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43604",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/7skill1-1-4d1f92a3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/7skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--7skill1_2",
+      "resourceId": "436huaman/7skill1_2",
+      "text": "南蛮王的血统！",
+      "textLocalized": {
+        "zhHans": "南蛮王的血统！",
+        "zhHant": "南蠻王的血統！"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43604",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/7skill1-2-5d53dc16.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/7skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--6skill1_1",
+      "resourceId": "436huaman/6skill1_1",
+      "text": "九黎兴兵，不向南中百族。",
+      "textLocalized": {
+        "zhHans": "九黎兴兵，不向南中百族。",
+        "zhHant": "九黎興兵，不向南中百族。"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43603",
+          "name": "锋丽鬘影",
+          "displayName": {
+            "zhHans": "锋丽鬘影",
+            "zhHant": "鋒麗鬘影"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--6skill1_2",
+      "resourceId": "436huaman/6skill1_2",
+      "text": "南中出军，锋指山外之人。",
+      "textLocalized": {
+        "zhHans": "南中出军，锋指山外之人。",
+        "zhHant": "南中出軍，鋒指山外之人。"
+      },
+      "group": {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43603",
+          "name": "锋丽鬘影",
+          "displayName": {
+            "zhHans": "锋丽鬘影",
+            "zhHant": "鋒麗鬘影"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

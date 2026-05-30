@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:34b3aaad22e34d7263ab924a386d0359a182b8235eada4c272c3828f4037568b
-size 8288
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xurong",
+    "command": "xurong",
+    "name": "徐荣",
+    "displayName": {
+      "zhHans": "徐荣",
+      "zhHant": "徐榮"
+    },
+    "names": [
+      "徐荣"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "徐荣",
+        "zhHant": "徐榮"
+      }
+    ],
+    "ids": [
+      "417"
+    ],
+    "sourceNames": [
+      "徐荣"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "徐荣",
+        "zhHant": "徐榮"
+      }
+    ],
+    "sourceIds": [
+      "417"
+    ],
+    "searchNames": [
+      "xurong",
+      "徐荣",
+      "徐榮"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xurong/groups/dead.json"
+      },
+      {
+        "slug": "spell-852",
+        "name": "凶镬",
+        "displayName": {
+          "zhHans": "凶镬",
+          "zhHant": "兇鑊"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xurong/groups/spell-852.json"
+      },
+      {
+        "slug": "spell-853",
+        "name": "杀绝",
+        "displayName": {
+          "zhHans": "杀绝",
+          "zhHant": "殺絕"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xurong/groups/spell-853.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-41703",
+        "name": "凶励杀绝",
+        "displayName": {
+          "zhHans": "凶励杀绝",
+          "zhHant": "兇勵殺絕"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xurong/skins/skin-41703.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xurong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41701",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xurong/skins/skin-41701.json"
+      },
+      {
+        "slug": "skin-41702",
+        "name": "镬惩俘兵",
+        "displayName": {
+          "zhHans": "镬惩俘兵",
+          "zhHant": "鑊懲俘兵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xurong/skins/skin-41702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xurong.json",
+      "groups": "api/v1/tts/characters/xurong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xurong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/xurong/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "xurong--417xurong--1dead01",
+      "resourceId": "417xurong/1dead01",
+      "text": "此生无悔，心中无愧。",
+      "textLocalized": {
+        "zhHans": "此生无悔，心中无愧。",
+        "zhHant": "此生無悔，心中無愧。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/417xurong-f1b98bd1/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/417xurong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xurong--417xurong--1skill1_1",
+      "resourceId": "417xurong/1skill1_1",
+      "text": "此镬[huò]加之于你，定有所伤。",
+      "textLocalized": {
+        "zhHans": "此镬[huò]加之于你，定有所伤。",
+        "zhHant": "此鑊[huò]加之於你，定有所傷。"
+      },
+      "group": {
+        "slug": "spell-852",
+        "name": "凶镬",
+        "displayName": {
+          "zhHans": "凶镬",
+          "zhHant": "兇鑊"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/417xurong-f1b98bd1/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/417xurong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xurong--417xurong--1skill1_2",
+      "resourceId": "417xurong/1skill1_2",
+      "text": "凶镬[huò]沿袭，怎会轻易无伤？",
+      "textLocalized": {
+        "zhHans": "凶镬[huò]沿袭，怎会轻易无伤？",
+        "zhHant": "兇鑊[huò]沿襲，怎會輕易無傷？"
+      },
+      "group": {
+        "slug": "spell-852",
+        "name": "凶镬",
+        "displayName": {
+          "zhHans": "凶镬",
+          "zhHant": "兇鑊"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/417xurong-f1b98bd1/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/417xurong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xurong--417xurong--1skill2_1",
+      "resourceId": "417xurong/1skill2_1",
+      "text": "杀伐决绝，不留后患。",
+      "textLocalized": {
+        "zhHans": "杀伐决绝，不留后患。",
+        "zhHant": "殺伐決絕，不留後患。"
+      },
+      "group": {
+        "slug": "spell-853",
+        "name": "杀绝",
+        "displayName": {
+          "zhHans": "杀绝",
+          "zhHant": "殺絕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/417xurong-f1b98bd1/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/417xurong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xurong--417xurong--1skill2_2",
+      "resourceId": "417xurong/1skill2_2",
+      "text": "吾即出，必绝之。",
+      "textLocalized": {
+        "zhHans": "吾即出，必绝之。",
+        "zhHant": "吾即出，必絕之。"
+      },
+      "group": {
+        "slug": "spell-853",
+        "name": "杀绝",
+        "displayName": {
+          "zhHans": "杀绝",
+          "zhHant": "殺絕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/417xurong-f1b98bd1/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/417xurong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

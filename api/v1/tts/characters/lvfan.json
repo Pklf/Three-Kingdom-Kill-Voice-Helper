@@ -1,3 +1,271 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:267fc5f1de98db27f0eeee8c7b7fcc12da0c89226799b81f609526cd2bd17356
-size 7149
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "lvfan",
+    "command": "lvfan",
+    "name": "吕范",
+    "displayName": {
+      "zhHans": "吕范",
+      "zhHant": "呂範"
+    },
+    "names": [
+      "吕范"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "吕范",
+        "zhHant": "呂範"
+      }
+    ],
+    "ids": [
+      "2079"
+    ],
+    "sourceNames": [
+      "吕范"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "吕范",
+        "zhHant": "呂範"
+      }
+    ],
+    "sourceIds": [
+      "2079"
+    ],
+    "searchNames": [
+      "lvfan",
+      "吕范",
+      "呂範"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/lvfan/groups/dead.json"
+      },
+      {
+        "slug": "spell-927",
+        "name": "调度",
+        "displayName": {
+          "zhHans": "调度",
+          "zhHant": "調度"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lvfan/groups/spell-927.json"
+      },
+      {
+        "slug": "spell-928",
+        "name": "典财",
+        "displayName": {
+          "zhHans": "典财",
+          "zhHant": "典財"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lvfan/groups/spell-928.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lvfan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lvfan.json",
+      "groups": "api/v1/tts/characters/lvfan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lvfan/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "lvfan--2079lvfan--1dead01",
+      "resourceId": "2079lvfan/1dead01",
+      "text": "印绶未下，疾病已发……",
+      "textLocalized": {
+        "zhHans": "印绶未下，疾病已发……",
+        "zhHant": "印綬未下，疾病已發……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2079lvfan-c0fd0a49/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvfan--2079lvfan--1skill1_1",
+      "resourceId": "2079lvfan/1skill1_1",
+      "text": "开源节流，作法于凉。",
+      "textLocalized": {
+        "zhHans": "开源节流，作法于凉。",
+        "zhHant": "開源節流，作法於涼。"
+      },
+      "group": {
+        "slug": "spell-927",
+        "name": "调度",
+        "displayName": {
+          "zhHans": "调度",
+          "zhHant": "調度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2079lvfan-c0fd0a49/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvfan--2079lvfan--1skill1_2",
+      "resourceId": "2079lvfan/1skill1_2",
+      "text": "调度征求，省刑薄敛。",
+      "textLocalized": {
+        "zhHans": "调度征求，省刑薄敛。",
+        "zhHant": "調度徵求，省刑薄斂。"
+      },
+      "group": {
+        "slug": "spell-927",
+        "name": "调度",
+        "displayName": {
+          "zhHans": "调度",
+          "zhHant": "調度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2079lvfan-c0fd0a49/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvfan--2079lvfan--1skill2_1",
+      "resourceId": "2079lvfan/1skill2_1",
+      "text": "量入为出，利析秋毫。",
+      "textLocalized": {
+        "zhHans": "量入为出，利析秋毫。",
+        "zhHant": "量入爲出，利析秋毫。"
+      },
+      "group": {
+        "slug": "spell-928",
+        "name": "典财",
+        "displayName": {
+          "zhHans": "典财",
+          "zhHant": "典財"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2079lvfan-c0fd0a49/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvfan--2079lvfan--1skill2_2",
+      "resourceId": "2079lvfan/1skill2_2",
+      "text": "天下熙攘，皆为利往。",
+      "textLocalized": {
+        "zhHans": "天下熙攘，皆为利往。",
+        "zhHant": "天下熙攘，皆爲利往。"
+      },
+      "group": {
+        "slug": "spell-928",
+        "name": "典财",
+        "displayName": {
+          "zhHans": "典财",
+          "zhHant": "典財"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2079lvfan-c0fd0a49/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

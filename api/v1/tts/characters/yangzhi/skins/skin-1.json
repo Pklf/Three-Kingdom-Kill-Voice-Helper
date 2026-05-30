@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd49444297a8eb88cd1f40b171743545c5a86193836aeca5371192d75aeae4de
-size 8293
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangzhi",
+    "command": "yangzhi",
+    "name": "杨芷",
+    "displayName": {
+      "zhHans": "杨芷",
+      "zhHant": "楊芷"
+    },
+    "names": [
+      "杨芷"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨芷",
+        "zhHant": "楊芷"
+      }
+    ],
+    "ids": [
+      "7017"
+    ],
+    "sourceNames": [
+      "杨芷"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨芷",
+        "zhHant": "楊芷"
+      }
+    ],
+    "sourceIds": [
+      "7017"
+    ],
+    "searchNames": [
+      "yangzhi",
+      "杨芷",
+      "楊芷"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yangzhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3040",
+        "name": "婉嫕",
+        "displayName": {
+          "zhHans": "婉嫕",
+          "zhHant": "婉嫕"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangzhi/groups/spell-3040.json"
+      },
+      {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangzhi/groups/spell-3041.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "701703",
+        "name": "701703",
+        "displayName": {
+          "zhHans": "701703",
+          "zhHant": "701703"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/701703.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-701702",
+        "name": "妍芷艳质",
+        "displayName": {
+          "zhHans": "妍芷艳质",
+          "zhHant": "妍芷豔質"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-701702.json"
+      },
+      {
+        "slug": "skin-701704",
+        "name": "繁花独秀",
+        "displayName": {
+          "zhHans": "繁花独秀",
+          "zhHant": "繁花獨秀"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-701704.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yangzhi.json",
+      "groups": "api/v1/tts/characters/yangzhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yangzhi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "yangzhi--7017yangzhi--1dead01",
+      "resourceId": "7017yangzhi/1dead01",
+      "text": "贾氏……构陷……",
+      "textLocalized": {
+        "zhHans": "贾氏……构陷……",
+        "zhHant": "賈氏……構陷……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--1skill1_1",
+      "resourceId": "7017yangzhi/1skill1_1",
+      "text": "天性婉嫕[yì]，易以道御。",
+      "textLocalized": {
+        "zhHans": "天性婉嫕[yì]，易以道御。",
+        "zhHant": "天性婉嫕[yì]，易以道御。"
+      },
+      "group": {
+        "slug": "spell-3040",
+        "name": "婉嫕",
+        "displayName": {
+          "zhHans": "婉嫕",
+          "zhHant": "婉嫕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--1skill1_2",
+      "resourceId": "7017yangzhi/1skill1_2",
+      "text": "婉嫕[yì]利贞，为后攸行。",
+      "textLocalized": {
+        "zhHans": "婉嫕[yì]利贞，为后攸行。",
+        "zhHant": "婉嫕[yì]利貞，爲後攸行。"
+      },
+      "group": {
+        "slug": "spell-3040",
+        "name": "婉嫕",
+        "displayName": {
+          "zhHans": "婉嫕",
+          "zhHant": "婉嫕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--1skill2_1",
+      "resourceId": "7017yangzhi/1skill2_1",
+      "text": "祸根未绝，转而滋蔓。",
+      "textLocalized": {
+        "zhHans": "祸根未绝，转而滋蔓。",
+        "zhHant": "禍根未絕，轉而滋蔓。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--1skill2_2",
+      "resourceId": "7017yangzhi/1skill2_2",
+      "text": "无德之亲，终为祸根。",
+      "textLocalized": {
+        "zhHans": "无德之亲，终为祸根。",
+        "zhHant": "無德之親，終爲禍根。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

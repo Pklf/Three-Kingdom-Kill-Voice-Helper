@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:caa163ae67e0c5286072745ebf097d36cd6e63f073c4babb0cc4e9a6e4d48c23
-size 7232
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liuyu",
+    "command": "liuyu",
+    "name": "刘虞",
+    "displayName": {
+      "zhHans": "刘虞",
+      "zhHant": "劉虞"
+    },
+    "names": [
+      "刘虞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘虞",
+        "zhHant": "劉虞"
+      }
+    ],
+    "ids": [
+      "383"
+    ],
+    "sourceNames": [
+      "刘虞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘虞",
+        "zhHant": "劉虞"
+      }
+    ],
+    "sourceIds": [
+      "383"
+    ],
+    "searchNames": [
+      "liuyu",
+      "刘虞",
+      "劉虞"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liuyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-767",
+        "name": "止戈",
+        "displayName": {
+          "zhHans": "止戈",
+          "zhHant": "止戈"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liuyu/groups/spell-767.json"
+      },
+      {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liuyu/groups/spell-768.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-38304",
+        "name": "北疆征战",
+        "displayName": {
+          "zhHans": "北疆征战",
+          "zhHant": "北疆征戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyu/skins/skin-38304.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-38303",
+        "name": "布施严令",
+        "displayName": {
+          "zhHans": "布施严令",
+          "zhHant": "佈施嚴令"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyu/skins/skin-38303.json"
+      },
+      {
+        "slug": "skin-38302",
+        "name": "饬身厉行",
+        "displayName": {
+          "zhHans": "饬身厉行",
+          "zhHant": "飭身厲行"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyu/skins/skin-38302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liuyu.json",
+      "groups": "api/v1/tts/characters/liuyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liuyu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/liuyu/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "liuyu--383liuyu--5dead01",
+      "resourceId": "383liuyu/5dead01",
+      "text": "汉室衰颓，人怀异心。",
+      "textLocalized": {
+        "zhHans": "汉室衰颓，人怀异心。",
+        "zhHant": "漢室衰頹，人懷異心。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38304",
+          "name": "北疆征战",
+          "displayName": {
+            "zhHans": "北疆征战",
+            "zhHant": "北疆征戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--1dead01",
+      "resourceId": "383liuyu/1dead01",
+      "text": "怀柔之计终非良策。",
+      "textLocalized": {
+        "zhHans": "怀柔之计终非良策。",
+        "zhHant": "懷柔之計終非良策。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--4dead01",
+      "resourceId": "383liuyu/4dead01",
+      "text": "怀恩救黎庶，弄武终自负。",
+      "textLocalized": {
+        "zhHans": "怀恩救黎庶，弄武终自负。",
+        "zhHant": "懷恩救黎庶，弄武終自負。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38303",
+          "name": "布施严令",
+          "displayName": {
+            "zhHans": "布施严令",
+            "zhHant": "佈施嚴令"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--3dead01",
+      "resourceId": "383liuyu/3dead01",
+      "text": "汉室衰颓，人怀异心。",
+      "textLocalized": {
+        "zhHans": "汉室衰颓，人怀异心。",
+        "zhHant": "漢室衰頹，人懷異心。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38302",
+          "name": "饬身厉行",
+          "displayName": {
+            "zhHans": "饬身厉行",
+            "zhHant": "飭身厲行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

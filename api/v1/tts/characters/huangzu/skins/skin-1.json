@@ -1,3 +1,220 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c8e8d5a6d083df121b8ac54e859f8ae03a2de3cf767a10267fe2cd1ac44c129
-size 5671
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huangzu",
+    "command": "huangzu",
+    "name": "黄祖",
+    "displayName": {
+      "zhHans": "黄祖",
+      "zhHant": "黃祖"
+    },
+    "names": [
+      "黄祖"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "黄祖",
+        "zhHant": "黃祖"
+      }
+    ],
+    "ids": [
+      "477"
+    ],
+    "sourceNames": [
+      "黄祖"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "黄祖",
+        "zhHant": "黃祖"
+      }
+    ],
+    "sourceIds": [
+      "477"
+    ],
+    "searchNames": [
+      "huangzu",
+      "黄祖",
+      "黃祖"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huangzu/groups/dead.json"
+      },
+      {
+        "slug": "spell-972",
+        "name": "挽弓",
+        "displayName": {
+          "zhHans": "挽弓",
+          "zhHant": "挽弓"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/huangzu/groups/spell-972.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-47701",
+        "name": "一箭取首",
+        "displayName": {
+          "zhHans": "一箭取首",
+          "zhHant": "一箭取首"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huangzu/skins/skin-47701.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huangzu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-47702",
+        "name": "簇箭伏波",
+        "displayName": {
+          "zhHans": "簇箭伏波",
+          "zhHant": "簇箭伏波"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huangzu/skins/skin-47702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huangzu.json",
+      "groups": "api/v1/tts/characters/huangzu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huangzu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/huangzu/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "huangzu--477huangzu--1dead01",
+      "resourceId": "477huangzu/1dead01",
+      "text": "命也……势也……",
+      "textLocalized": {
+        "zhHans": "命也……势也……",
+        "zhHant": "命也……勢也……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/477huangzu-c4c6e8a0/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/477huangzu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangzu--477huangzu--1skill1_1",
+      "resourceId": "477huangzu/1skill1_1",
+      "text": "强弓挽之，以射长箭！",
+      "textLocalized": {
+        "zhHans": "强弓挽之，以射长箭！",
+        "zhHant": "強弓挽之，以射長箭！"
+      },
+      "group": {
+        "slug": "spell-972",
+        "name": "挽弓",
+        "displayName": {
+          "zhHans": "挽弓",
+          "zhHant": "挽弓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/477huangzu-c4c6e8a0/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/477huangzu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangzu--477huangzu--1skill1_2",
+      "resourceId": "477huangzu/1skill1_2",
+      "text": "挽弓如月，克定江夏。",
+      "textLocalized": {
+        "zhHans": "挽弓如月，克定江夏。",
+        "zhHant": "挽弓如月，克定江夏。"
+      },
+      "group": {
+        "slug": "spell-972",
+        "name": "挽弓",
+        "displayName": {
+          "zhHans": "挽弓",
+          "zhHant": "挽弓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/477huangzu-c4c6e8a0/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/477huangzu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

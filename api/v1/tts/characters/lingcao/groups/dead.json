@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a12d5a74948f38208e2f0fc26c9049fe8b7850a5cf135a6ca08ccb5838b08659
-size 3124
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lingcao",
+    "command": "lingcao",
+    "name": "凌操",
+    "displayName": {
+      "zhHans": "凌操",
+      "zhHant": "凌操"
+    },
+    "names": [
+      "凌操"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "凌操",
+        "zhHant": "凌操"
+      }
+    ],
+    "ids": [
+      "598"
+    ],
+    "sourceNames": [
+      "凌操"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "凌操",
+        "zhHant": "凌操"
+      }
+    ],
+    "sourceIds": [
+      "598"
+    ],
+    "searchNames": [
+      "lingcao",
+      "凌操"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/lingcao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3414",
+        "name": "独进",
+        "displayName": {
+          "zhHans": "独进",
+          "zhHant": "獨進"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lingcao/groups/spell-3414.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/lingcao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lingcao.json",
+      "groups": "api/v1/tts/characters/lingcao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lingcao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/lingcao/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "lingcao--598lingcao--1dead01",
+      "resourceId": "598lingcao/1dead01",
+      "text": "呃啊！(落水声) 咳，此箭，何来......",
+      "textLocalized": {
+        "zhHans": "呃啊！(落水声) 咳，此箭，何来......",
+        "zhHant": "呃啊！(落水聲) 咳，此箭，何來......"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/598lingcao-b23b7e45/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/598lingcao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

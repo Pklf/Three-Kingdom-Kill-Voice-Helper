@@ -1,3 +1,209 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c6ad91b77e7c7e0374030c528080e54abf97098b597be0d7a37dbd8f2031354
-size 5378
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "fanchou",
+    "command": "fanchou",
+    "name": "樊稠",
+    "displayName": {
+      "zhHans": "樊稠",
+      "zhHant": "樊稠"
+    },
+    "names": [
+      "樊稠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "樊稠",
+        "zhHant": "樊稠"
+      }
+    ],
+    "ids": [
+      "423"
+    ],
+    "sourceNames": [
+      "樊稠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "樊稠",
+        "zhHant": "樊稠"
+      }
+    ],
+    "sourceIds": [
+      "423"
+    ],
+    "searchNames": [
+      "fanchou",
+      "樊稠"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/fanchou/groups/dead.json"
+      },
+      {
+        "slug": "spell-862",
+        "name": "兴乱",
+        "displayName": {
+          "zhHans": "兴乱",
+          "zhHant": "興亂"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/fanchou/groups/spell-862.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/fanchou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42301",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/fanchou/skins/skin-42301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/fanchou.json",
+      "groups": "api/v1/tts/characters/fanchou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/fanchou/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/fanchou/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "fanchou--423fanchou--1dead01",
+      "resourceId": "423fanchou/1dead01",
+      "text": "唉，稚然疑心，甚重。",
+      "textLocalized": {
+        "zhHans": "唉，稚然疑心，甚重。",
+        "zhHant": "唉，稚然疑心，甚重。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fanchou--423fanchou--1skill1_1",
+      "resourceId": "423fanchou/1skill1_1",
+      "text": "大兴兵争，长安当乱！",
+      "textLocalized": {
+        "zhHans": "大兴兵争，长安当乱！",
+        "zhHant": "大興兵爭，長安當亂！"
+      },
+      "group": {
+        "slug": "spell-862",
+        "name": "兴乱",
+        "displayName": {
+          "zhHans": "兴乱",
+          "zhHant": "興亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fanchou--423fanchou--1skill1_2",
+      "resourceId": "423fanchou/1skill1_2",
+      "text": "勇猛兴军，乱世当立！",
+      "textLocalized": {
+        "zhHans": "勇猛兴军，乱世当立！",
+        "zhHant": "勇猛興軍，亂世當立！"
+      },
+      "group": {
+        "slug": "spell-862",
+        "name": "兴乱",
+        "displayName": {
+          "zhHans": "兴乱",
+          "zhHant": "興亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

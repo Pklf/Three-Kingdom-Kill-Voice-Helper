@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:34c1671b4af0fa51183e4c4938360c37e8c60b84f57e4a181946f846793609d1
-size 6796
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lvkai",
+    "command": "lvkai",
+    "name": "吕凯",
+    "displayName": {
+      "zhHans": "吕凯",
+      "zhHant": "呂凱"
+    },
+    "names": [
+      "吕凯"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "吕凯",
+        "zhHant": "呂凱"
+      }
+    ],
+    "ids": [
+      "465"
+    ],
+    "sourceNames": [
+      "吕凯"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "吕凯",
+        "zhHant": "呂凱"
+      }
+    ],
+    "sourceIds": [
+      "465"
+    ],
+    "searchNames": [
+      "lvkai",
+      "吕凯",
+      "呂凱"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lvkai/groups/dead.json"
+      },
+      {
+        "slug": "spell-943",
+        "name": "图南",
+        "displayName": {
+          "zhHans": "图南",
+          "zhHant": "圖南"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lvkai/groups/spell-943.json"
+      },
+      {
+        "slug": "spell-944",
+        "name": "闭境",
+        "displayName": {
+          "zhHans": "闭境",
+          "zhHant": "閉境"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lvkai/groups/spell-944.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-46501",
+        "name": "与闿密书",
+        "displayName": {
+          "zhHans": "与闿密书",
+          "zhHant": "與闓密書"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lvkai/skins/skin-46501.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lvkai/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lvkai.json",
+      "groups": "api/v1/tts/characters/lvkai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lvkai/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-943",
+    "name": "图南",
+    "displayName": {
+      "zhHans": "图南",
+      "zhHant": "圖南"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/lvkai/groups/spell-943.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "lvkai--465lvkai--2skill1_1",
+      "resourceId": "465lvkai/2skill1_1",
+      "text": "崩于江浦，何足可悲！惟将军察焉。",
+      "textLocalized": {
+        "zhHans": "崩于江浦，何足可悲！惟将军察焉。",
+        "zhHant": "崩於江浦，何足可悲！惟將軍察焉。"
+      },
+      "group": {
+        "slug": "spell-943",
+        "name": "图南",
+        "displayName": {
+          "zhHans": "图南",
+          "zhHant": "圖南"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46501",
+          "name": "与闿密书",
+          "displayName": {
+            "zhHans": "与闿密书",
+            "zhHant": "與闓密書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/465lvkai-54f37873/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/465lvkai/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkai--465lvkai--2skill1_2",
+      "resourceId": "465lvkai/2skill1_2",
+      "text": "天降丧乱，奸雄乘衅，天下切齿。",
+      "textLocalized": {
+        "zhHans": "天降丧乱，奸雄乘衅，天下切齿。",
+        "zhHant": "天降喪亂，奸雄乘釁，天下切齒。"
+      },
+      "group": {
+        "slug": "spell-943",
+        "name": "图南",
+        "displayName": {
+          "zhHans": "图南",
+          "zhHant": "圖南"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46501",
+          "name": "与闿密书",
+          "displayName": {
+            "zhHans": "与闿密书",
+            "zhHant": "與闓密書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/465lvkai-54f37873/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/465lvkai/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkai--465lvkai--1skill1_1",
+      "resourceId": "465lvkai/1skill1_1",
+      "text": "敢问丞相，何时挥师南下？",
+      "textLocalized": {
+        "zhHans": "敢问丞相，何时挥师南下？",
+        "zhHant": "敢問丞相，何時揮師南下？"
+      },
+      "group": {
+        "slug": "spell-943",
+        "name": "图南",
+        "displayName": {
+          "zhHans": "图南",
+          "zhHant": "圖南"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/465lvkai-54f37873/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/465lvkai/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkai--465lvkai--1skill1_2",
+      "resourceId": "465lvkai/1skill1_2",
+      "text": "攻伐之道，一念之间。",
+      "textLocalized": {
+        "zhHans": "攻伐之道，一念之间。",
+        "zhHant": "攻伐之道，一念之間。"
+      },
+      "group": {
+        "slug": "spell-943",
+        "name": "图南",
+        "displayName": {
+          "zhHans": "图南",
+          "zhHant": "圖南"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/465lvkai-54f37873/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/465lvkai/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

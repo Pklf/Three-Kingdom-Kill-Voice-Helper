@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e859372b1e81683fa418943143479b45d93331a4c08b9369536f184f6afb5863
-size 4352
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liupi",
+    "command": "liupi",
+    "name": "刘辟",
+    "displayName": {
+      "zhHans": "刘辟",
+      "zhHant": "劉闢"
+    },
+    "names": [
+      "刘辟"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘辟",
+        "zhHant": "劉闢"
+      }
+    ],
+    "ids": [
+      "612"
+    ],
+    "sourceNames": [
+      "刘辟"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘辟",
+        "zhHant": "劉闢"
+      }
+    ],
+    "sourceIds": [
+      "612"
+    ],
+    "searchNames": [
+      "liupi",
+      "刘辟",
+      "劉闢"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liupi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3440",
+        "name": "易城",
+        "displayName": {
+          "zhHans": "易城",
+          "zhHant": "易城"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liupi/groups/spell-3440.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "61201",
+        "name": "61201",
+        "displayName": {
+          "zhHans": "61201",
+          "zhHant": "61201"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liupi/skins/61201.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liupi/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liupi.json",
+      "groups": "api/v1/tts/characters/liupi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liupi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/liupi/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "liupi--612liupi--2dead01",
+      "resourceId": "612liupi/2dead01",
+      "text": "盲夏侯逞凶，且先让他三分。",
+      "textLocalized": {
+        "zhHans": "盲夏侯逞凶，且先让他三分。",
+        "zhHant": "盲夏侯逞兇，且先讓他三分。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "61201",
+          "name": "61201",
+          "displayName": {
+            "zhHans": "61201",
+            "zhHant": "61201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/612liupi-8fefe4b0/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/612liupi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liupi--612liupi--1dead01",
+      "resourceId": "612liupi/1dead01",
+      "text": "玄德公速行，曹军某自当之。",
+      "textLocalized": {
+        "zhHans": "玄德公速行，曹军某自当之。",
+        "zhHant": "玄德公速行，曹軍某自當之。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/612liupi-8fefe4b0/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/612liupi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

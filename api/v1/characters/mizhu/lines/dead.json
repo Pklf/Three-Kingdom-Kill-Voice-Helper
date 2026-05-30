@@ -1,3 +1,721 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c116c749349f9c9502cc0095ce14e84d9af90d889092c8f2b0fdb38de617e0f
-size 16137
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "mizhu",
+    "command": "mizhu",
+    "name": "糜竺",
+    "displayName": {
+      "zhHans": "糜竺",
+      "zhHant": "糜竺"
+    },
+    "names": [
+      "糜竺"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "糜竺",
+        "zhHant": "糜竺"
+      }
+    ],
+    "ids": [
+      "365"
+    ],
+    "sourceNames": [
+      "糜竺"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "糜竺",
+        "zhHant": "糜竺"
+      }
+    ],
+    "sourceIds": [
+      "365"
+    ],
+    "searchNames": [
+      "mizhu",
+      "糜竺"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-291",
+        "name": "资援",
+        "displayName": {
+          "zhHans": "资援",
+          "zhHant": "資援"
+        },
+        "ids": [
+          "291"
+        ],
+        "lineCount": 8
+      },
+      {
+        "slug": "spell-292",
+        "name": "巨贾",
+        "displayName": {
+          "zhHans": "巨贾",
+          "zhHant": "巨賈"
+        },
+        "ids": [
+          "292"
+        ],
+        "lineCount": 8
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-36505",
+        "ids": [
+          "36505"
+        ],
+        "name": "惬意巡猎",
+        "displayName": {
+          "zhHans": "惬意巡猎",
+          "zhHant": "愜意巡獵"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-36504",
+        "ids": [
+          "36504"
+        ],
+        "name": "设宴玄德",
+        "displayName": {
+          "zhHans": "设宴玄德",
+          "zhHant": "設宴玄德"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-36502",
+        "ids": [
+          "36502"
+        ],
+        "name": "豪商巨贾",
+        "displayName": {
+          "zhHans": "豪商巨贾",
+          "zhHant": "豪商巨賈"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-36506",
+        "ids": [
+          "36506"
+        ],
+        "name": "金奁玉宝",
+        "displayName": {
+          "zhHans": "金奁玉宝",
+          "zhHant": "金奩玉寶"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/mizhu.json",
+      "lines": "api/v1/characters/mizhu/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "mizhu--365mizhu--1dead01",
+      "resourceId": "365mizhu/1dead01",
+      "text": "劣弟背主，我之罪也。",
+      "textLocalized": {
+        "zhHans": "劣弟背主，我之罪也。",
+        "zhHant": "劣弟背主，我之罪也。"
+      },
+      "character": {
+        "slug": "mizhu",
+        "command": "mizhu",
+        "id": "365",
+        "ids": [
+          "365"
+        ],
+        "name": "糜竺",
+        "displayName": {
+          "zhHans": "糜竺",
+          "zhHant": "糜竺"
+        },
+        "names": [
+          "糜竺"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "糜竺",
+            "zhHant": "糜竺"
+          }
+        ],
+        "sourceIds": [
+          "365"
+        ],
+        "sourceNames": [
+          "糜竺"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "糜竺",
+            "zhHant": "糜竺"
+          }
+        ],
+        "searchNames": [
+          "糜竺",
+          "mizhu"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "365",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "糜竺"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--4dead01",
+      "resourceId": "365mizhu/4dead01",
+      "text": "请照顾好……舍妹……",
+      "textLocalized": {
+        "zhHans": "请照顾好……舍妹……",
+        "zhHant": "請照顧好……舍妹……"
+      },
+      "character": {
+        "slug": "mizhu",
+        "command": "mizhu",
+        "id": "365",
+        "ids": [
+          "365"
+        ],
+        "name": "糜竺",
+        "displayName": {
+          "zhHans": "糜竺",
+          "zhHant": "糜竺"
+        },
+        "names": [
+          "糜竺"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "糜竺",
+            "zhHant": "糜竺"
+          }
+        ],
+        "sourceIds": [
+          "365"
+        ],
+        "sourceNames": [
+          "糜竺"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "糜竺",
+            "zhHant": "糜竺"
+          }
+        ],
+        "searchNames": [
+          "糜竺",
+          "mizhu"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-36504",
+        "ids": [
+          "36504"
+        ],
+        "name": "设宴玄德",
+        "displayName": {
+          "zhHans": "设宴玄德",
+          "zhHant": "設宴玄德"
+        },
+        "names": [
+          "设宴玄德"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "设宴玄德",
+            "zhHant": "設宴玄德"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-36504",
+          "id": "36504",
+          "ids": [
+            "36504"
+          ],
+          "name": "设宴玄德",
+          "displayName": {
+            "zhHans": "设宴玄德",
+            "zhHant": "設宴玄德"
+          },
+          "names": [
+            "设宴玄德"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "设宴玄德",
+              "zhHant": "設宴玄德"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "365",
+        "skinKey": "36504",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "糜竺"
+        ],
+        "skinNames": [
+          "设宴玄德"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/4dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--3dead01",
+      "resourceId": "365mizhu/3dead01",
+      "text": "钱财，散尽……",
+      "textLocalized": {
+        "zhHans": "钱财，散尽……",
+        "zhHant": "錢財，散盡……"
+      },
+      "character": {
+        "slug": "mizhu",
+        "command": "mizhu",
+        "id": "365",
+        "ids": [
+          "365"
+        ],
+        "name": "糜竺",
+        "displayName": {
+          "zhHans": "糜竺",
+          "zhHant": "糜竺"
+        },
+        "names": [
+          "糜竺"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "糜竺",
+            "zhHant": "糜竺"
+          }
+        ],
+        "sourceIds": [
+          "365"
+        ],
+        "sourceNames": [
+          "糜竺"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "糜竺",
+            "zhHant": "糜竺"
+          }
+        ],
+        "searchNames": [
+          "糜竺",
+          "mizhu"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-36502-36505",
+        "ids": [
+          "36502",
+          "36505"
+        ],
+        "name": "豪商巨贾,惬意巡猎",
+        "displayName": {
+          "zhHans": "豪商巨贾,惬意巡猎",
+          "zhHant": "豪商巨賈,愜意巡獵"
+        },
+        "names": [
+          "豪商巨贾",
+          "惬意巡猎"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "豪商巨贾",
+            "zhHant": "豪商巨賈"
+          },
+          {
+            "zhHans": "惬意巡猎",
+            "zhHant": "愜意巡獵"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-36505",
+          "id": "36505",
+          "ids": [
+            "36505"
+          ],
+          "name": "惬意巡猎",
+          "displayName": {
+            "zhHans": "惬意巡猎",
+            "zhHant": "愜意巡獵"
+          },
+          "names": [
+            "惬意巡猎"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "惬意巡猎",
+              "zhHant": "愜意巡獵"
+            }
+          ]
+        },
+        {
+          "slug": "skin-36502",
+          "id": "36502",
+          "ids": [
+            "36502"
+          ],
+          "name": "豪商巨贾",
+          "displayName": {
+            "zhHans": "豪商巨贾",
+            "zhHant": "豪商巨賈"
+          },
+          "names": [
+            "豪商巨贾"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "豪商巨贾",
+              "zhHant": "豪商巨賈"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "365",
+        "skinKey": "36502;36505",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "糜竺"
+        ],
+        "skinNames": [
+          "豪商巨贾",
+          "惬意巡猎"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/3dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--5dead01",
+      "resourceId": "365mizhu/5dead01",
+      "text": "千金终散尽……",
+      "textLocalized": {
+        "zhHans": "千金终散尽……",
+        "zhHant": "千金終散盡……"
+      },
+      "character": {
+        "slug": "mizhu",
+        "command": "mizhu",
+        "id": "365",
+        "ids": [
+          "365"
+        ],
+        "name": "糜竺",
+        "displayName": {
+          "zhHans": "糜竺",
+          "zhHant": "糜竺"
+        },
+        "names": [
+          "糜竺"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "糜竺",
+            "zhHant": "糜竺"
+          }
+        ],
+        "sourceIds": [
+          "365"
+        ],
+        "sourceNames": [
+          "糜竺"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "糜竺",
+            "zhHant": "糜竺"
+          }
+        ],
+        "searchNames": [
+          "糜竺",
+          "mizhu"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-36506",
+        "ids": [
+          "36506"
+        ],
+        "name": "金奁玉宝",
+        "displayName": {
+          "zhHans": "金奁玉宝",
+          "zhHant": "金奩玉寶"
+        },
+        "names": [
+          "金奁玉宝"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "金奁玉宝",
+            "zhHant": "金奩玉寶"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-36506",
+          "id": "36506",
+          "ids": [
+            "36506"
+          ],
+          "name": "金奁玉宝",
+          "displayName": {
+            "zhHans": "金奁玉宝",
+            "zhHant": "金奩玉寶"
+          },
+          "names": [
+            "金奁玉宝"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "金奁玉宝",
+              "zhHant": "金奩玉寶"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "365",
+        "skinKey": "36506",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "糜竺"
+        ],
+        "skinNames": [
+          "金奁玉宝"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/5dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

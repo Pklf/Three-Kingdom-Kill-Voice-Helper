@@ -1,3 +1,130 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ad7a6645f08667e81a8c363c00de9c3e9d156392204df013a2e8b588567e4548
-size 3123
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huangzhong",
+    "command": "huangzhong",
+    "name": "黄忠",
+    "displayName": {
+      "zhHans": "黄忠",
+      "zhHant": "黃忠"
+    },
+    "names": [
+      "黄忠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "黄忠",
+        "zhHant": "黃忠"
+      }
+    ],
+    "ids": [
+      "61"
+    ],
+    "sourceNames": [
+      "黄忠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "黄忠",
+        "zhHant": "黃忠"
+      }
+    ],
+    "sourceIds": [
+      "61"
+    ],
+    "searchNames": [
+      "huangzhong",
+      "黄忠",
+      "黃忠"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/huangzhong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3264-71",
+        "name": "烈弓",
+        "displayName": {
+          "zhHans": "烈弓",
+          "zhHant": "烈弓"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/huangzhong/groups/spell-3264-71.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huangzhong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huangzhong.json",
+      "groups": "api/v1/tts/characters/huangzhong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huangzhong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/huangzhong/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "huangzhong--61huangzhong--1dead01",
+      "resourceId": "61huangzhong/1dead01",
+      "text": "末将有负主公重托。",
+      "textLocalized": {
+        "zhHans": "末将有负主公重托。",
+        "zhHant": "末將有負主公重託。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/61huangzhong-a560510d/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/61huangzhong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

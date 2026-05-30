@@ -1,3 +1,934 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5cc51c21cb4f8973368839a035f42d59da8e907d14f6970e4cfdb7ebd27284fd
-size 21429
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhugedan",
+    "command": "zhugedan",
+    "name": "诸葛诞",
+    "displayName": {
+      "zhHans": "诸葛诞",
+      "zhHant": "諸葛誕"
+    },
+    "names": [
+      "诸葛诞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "诸葛诞",
+        "zhHant": "諸葛誕"
+      }
+    ],
+    "ids": [
+      "129"
+    ],
+    "sourceNames": [
+      "诸葛诞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "诸葛诞",
+        "zhHant": "諸葛誕"
+      }
+    ],
+    "sourceIds": [
+      "129"
+    ],
+    "searchNames": [
+      "zhugedan",
+      "诸葛诞",
+      "諸葛誕"
+    ],
+    "lineCount": 43,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 5
+      },
+      {
+        "slug": "spell-111",
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "ids": [
+          "111"
+        ],
+        "lineCount": 9
+      },
+      {
+        "slug": "spell-232",
+        "name": "功獒",
+        "displayName": {
+          "zhHans": "功獒",
+          "zhHant": "功獒"
+        },
+        "ids": [
+          "232"
+        ],
+        "lineCount": 10
+      },
+      {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        },
+        "ids": [
+          "233"
+        ],
+        "lineCount": 10
+      },
+      {
+        "slug": "spell-239",
+        "name": "威重",
+        "displayName": {
+          "zhHans": "威重",
+          "zhHant": "威重"
+        },
+        "ids": [
+          "239"
+        ],
+        "lineCount": 9
+      }
+    ],
+    "skins": [
+      {
+        "slug": "12905",
+        "ids": [
+          "12905"
+        ],
+        "name": "12905",
+        "displayName": {
+          "zhHans": "12905",
+          "zhHant": "12905"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-12902",
+        "ids": [
+          "12902"
+        ],
+        "name": "东兴之战",
+        "displayName": {
+          "zhHans": "东兴之战",
+          "zhHant": "東興之戰"
+        },
+        "lineCount": 7
+      },
+      {
+        "slug": "skin-12901",
+        "ids": [
+          "12901"
+        ],
+        "name": "严毅威重",
+        "displayName": {
+          "zhHans": "严毅威重",
+          "zhHant": "嚴毅威重"
+        },
+        "lineCount": 7
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-12908",
+        "ids": [
+          "12908"
+        ],
+        "name": "威凛淮阳",
+        "displayName": {
+          "zhHans": "威凛淮阳",
+          "zhHant": "威凜淮陽"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-12903",
+        "ids": [
+          "12903"
+        ],
+        "name": "挥剑惊石",
+        "displayName": {
+          "zhHans": "挥剑惊石",
+          "zhHant": "揮劍驚石"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-12904",
+        "ids": [
+          "12904"
+        ],
+        "name": "矢志不渝",
+        "displayName": {
+          "zhHans": "矢志不渝",
+          "zhHant": "矢志不渝"
+        },
+        "lineCount": 9
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/zhugedan.json",
+      "lines": "api/v1/characters/zhugedan/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhugedan--129zhugedan--3dead01",
+      "resourceId": "129zhugedan/3dead01",
+      "text": "粮尽援绝，军心溃散。",
+      "textLocalized": {
+        "zhHans": "粮尽援绝，军心溃散。",
+        "zhHant": "糧盡援絕，軍心潰散。"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12901-12902",
+        "ids": [
+          "12901",
+          "12902"
+        ],
+        "name": "严毅威重,东兴之战",
+        "displayName": {
+          "zhHans": "严毅威重,东兴之战",
+          "zhHant": "嚴毅威重,東興之戰"
+        },
+        "names": [
+          "严毅威重",
+          "东兴之战"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "严毅威重",
+            "zhHant": "嚴毅威重"
+          },
+          {
+            "zhHans": "东兴之战",
+            "zhHant": "東興之戰"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12902",
+          "id": "12902",
+          "ids": [
+            "12902"
+          ],
+          "name": "东兴之战",
+          "displayName": {
+            "zhHans": "东兴之战",
+            "zhHant": "東興之戰"
+          },
+          "names": [
+            "东兴之战"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "东兴之战",
+              "zhHant": "東興之戰"
+            }
+          ]
+        },
+        {
+          "slug": "skin-12901",
+          "id": "12901",
+          "ids": [
+            "12901"
+          ],
+          "name": "严毅威重",
+          "displayName": {
+            "zhHans": "严毅威重",
+            "zhHant": "嚴毅威重"
+          },
+          "names": [
+            "严毅威重"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "严毅威重",
+              "zhHant": "嚴毅威重"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12901;12902",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "严毅威重",
+          "东兴之战"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/3dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--1dead01",
+      "resourceId": "129zhugedan/1dead01",
+      "text": "诸葛一氏，定会为我复仇！",
+      "textLocalized": {
+        "zhHans": "诸葛一氏，定会为我复仇！",
+        "zhHant": "諸葛一氏，定會爲我復仇！"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--6dead01",
+      "resourceId": "129zhugedan/6dead01",
+      "text": "某无愧于大魏，无愧于诸葛。",
+      "textLocalized": {
+        "zhHans": "某无愧于大魏，无愧于诸葛。",
+        "zhHant": "某無愧於大魏，無愧於諸葛。"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12908",
+        "ids": [
+          "12908"
+        ],
+        "name": "威凛淮阳",
+        "displayName": {
+          "zhHans": "威凛淮阳",
+          "zhHant": "威凜淮陽"
+        },
+        "names": [
+          "威凛淮阳"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "威凛淮阳",
+            "zhHant": "威凜淮陽"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12908",
+          "id": "12908",
+          "ids": [
+            "12908"
+          ],
+          "name": "威凛淮阳",
+          "displayName": {
+            "zhHans": "威凛淮阳",
+            "zhHant": "威凜淮陽"
+          },
+          "names": [
+            "威凛淮阳"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "威凛淮阳",
+              "zhHant": "威凜淮陽"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12908",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "威凛淮阳"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/6dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4dead01",
+      "resourceId": "129zhugedan/4dead01",
+      "text": "这天下，还有谁能阻止司马氏……",
+      "textLocalized": {
+        "zhHans": "这天下，还有谁能阻止司马氏……",
+        "zhHant": "這天下，還有誰能阻止司馬氏……"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12903",
+        "ids": [
+          "12903"
+        ],
+        "name": "挥剑惊石",
+        "displayName": {
+          "zhHans": "挥剑惊石",
+          "zhHant": "揮劍驚石"
+        },
+        "names": [
+          "挥剑惊石"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "id": "12903",
+          "ids": [
+            "12903"
+          ],
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          },
+          "names": [
+            "挥剑惊石"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "挥剑惊石",
+              "zhHant": "揮劍驚石"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12903",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "挥剑惊石"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--5dead01",
+      "resourceId": "129zhugedan/5dead01",
+      "text": "大丈夫死则死矣！",
+      "textLocalized": {
+        "zhHans": "大丈夫死则死矣！",
+        "zhHant": "大丈夫死則死矣！"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "12905",
+        "ids": [
+          "12904",
+          "12905"
+        ],
+        "name": "矢志不渝,12905",
+        "displayName": {
+          "zhHans": "矢志不渝,12905",
+          "zhHant": "矢志不渝,12905"
+        },
+        "names": [
+          "矢志不渝",
+          "12905"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "矢志不渝",
+            "zhHant": "矢志不渝"
+          },
+          {
+            "zhHans": "12905",
+            "zhHant": "12905"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "12905",
+          "id": "12905",
+          "ids": [
+            "12905"
+          ],
+          "name": "12905",
+          "displayName": {
+            "zhHans": "12905",
+            "zhHant": "12905"
+          },
+          "names": [
+            "12905"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "12905",
+              "zhHant": "12905"
+            }
+          ]
+        },
+        {
+          "slug": "skin-12904",
+          "id": "12904",
+          "ids": [
+            "12904"
+          ],
+          "name": "矢志不渝",
+          "displayName": {
+            "zhHans": "矢志不渝",
+            "zhHant": "矢志不渝"
+          },
+          "names": [
+            "矢志不渝"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "矢志不渝",
+              "zhHant": "矢志不渝"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12904;12905",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "矢志不渝",
+          "12905"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/5dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

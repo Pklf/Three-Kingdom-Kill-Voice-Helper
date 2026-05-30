@@ -1,3 +1,279 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f82384b648cc9b1aca049979e2138d1e1124169065b12f569964ac38f591bb11
-size 7426
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caimao",
+    "command": "caimao",
+    "name": "蔡瑁",
+    "displayName": {
+      "zhHans": "蔡瑁",
+      "zhHant": "蔡瑁"
+    },
+    "names": [
+      "蔡瑁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蔡瑁",
+        "zhHant": "蔡瑁"
+      }
+    ],
+    "ids": [
+      "631"
+    ],
+    "sourceNames": [
+      "蔡瑁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蔡瑁",
+        "zhHant": "蔡瑁"
+      }
+    ],
+    "sourceIds": [
+      "631"
+    ],
+    "searchNames": [
+      "caimao",
+      "蔡瑁"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/caimao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3488",
+        "name": "佐练",
+        "displayName": {
+          "zhHans": "佐练",
+          "zhHant": "佐練"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caimao/groups/spell-3488.json"
+      },
+      {
+        "slug": "spell-3489",
+        "name": "精舟",
+        "displayName": {
+          "zhHans": "精舟",
+          "zhHant": "精舟"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caimao/groups/spell-3489.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caimao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caimao.json",
+      "groups": "api/v1/tts/characters/caimao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caimao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caimao/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caimao--631caimao--1dead01",
+      "resourceId": "631caimao/1dead01",
+      "text": "丞相，末将忠心耿耿呀！",
+      "textLocalized": {
+        "zhHans": "丞相，末将忠心耿耿呀！",
+        "zhHant": "丞相，末將忠心耿耿呀！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/631caimao-bf9910ae/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/631caimao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caimao--631caimao--1skill1_1",
+      "resourceId": "631caimao/1skill1_1",
+      "text": "有我操练水军，曹公大可放心！",
+      "textLocalized": {
+        "zhHans": "有我操练水军，曹公大可放心！",
+        "zhHant": "有我操練水軍，曹公大可放心！"
+      },
+      "group": {
+        "slug": "spell-3488",
+        "name": "佐练",
+        "displayName": {
+          "zhHans": "佐练",
+          "zhHant": "佐練"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/631caimao-bf9910ae/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/631caimao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caimao--631caimao--1skill1_2",
+      "resourceId": "631caimao/1skill1_2",
+      "text": "好！儿郎们很有精神！",
+      "textLocalized": {
+        "zhHans": "好！儿郎们很有精神！",
+        "zhHant": "好！兒郎們很有精神！"
+      },
+      "group": {
+        "slug": "spell-3488",
+        "name": "佐练",
+        "displayName": {
+          "zhHans": "佐练",
+          "zhHant": "佐練"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/631caimao-bf9910ae/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/631caimao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caimao--631caimao--1skill2_1",
+      "resourceId": "631caimao/1skill2_1",
+      "text": "艨艟连江，敌必不战自退。",
+      "textLocalized": {
+        "zhHans": "艨艟连江，敌必不战自退。",
+        "zhHant": "艨艟連江，敵必不戰自退。"
+      },
+      "group": {
+        "slug": "spell-3489",
+        "name": "精舟",
+        "displayName": {
+          "zhHans": "精舟",
+          "zhHant": "精舟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/631caimao-bf9910ae/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/631caimao/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caimao--631caimao--1skill2_2",
+      "resourceId": "631caimao/1skill2_2",
+      "text": "精舟锐进，直捣孙家老巢。",
+      "textLocalized": {
+        "zhHans": "精舟锐进，直捣孙家老巢。",
+        "zhHant": "精舟銳進，直搗孫家老巢。"
+      },
+      "group": {
+        "slug": "spell-3489",
+        "name": "精舟",
+        "displayName": {
+          "zhHans": "精舟",
+          "zhHant": "精舟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/631caimao-bf9910ae/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/631caimao/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

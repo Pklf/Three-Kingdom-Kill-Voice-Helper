@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e888efc010e989e61a19b3050b43b27d46372f4768bc42d292a7e83028d2422
-size 7354
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunqian",
+    "command": "sunqian",
+    "name": "孙乾",
+    "displayName": {
+      "zhHans": "孙乾",
+      "zhHant": "孫乾"
+    },
+    "names": [
+      "孙乾"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙乾",
+        "zhHant": "孫乾"
+      }
+    ],
+    "ids": [
+      "376"
+    ],
+    "sourceNames": [
+      "孙乾"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙乾",
+        "zhHant": "孫乾"
+      }
+    ],
+    "sourceIds": [
+      "376"
+    ],
+    "searchNames": [
+      "sunqian",
+      "孙乾",
+      "孫乾"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/sunqian/groups/dead.json"
+      },
+      {
+        "slug": "spell-378",
+        "name": "谦雅",
+        "displayName": {
+          "zhHans": "谦雅",
+          "zhHant": "謙雅"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sunqian/groups/spell-378.json"
+      },
+      {
+        "slug": "spell-379",
+        "name": "说盟",
+        "displayName": {
+          "zhHans": "说盟",
+          "zhHant": "說盟"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sunqian/groups/spell-379.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37601",
+        "name": "谈笑风生",
+        "displayName": {
+          "zhHans": "谈笑风生",
+          "zhHant": "談笑風生"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37601.json"
+      },
+      {
+        "slug": "skin-37602",
+        "name": "雍容风议",
+        "displayName": {
+          "zhHans": "雍容风议",
+          "zhHant": "雍容風議"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37602.json"
+      },
+      {
+        "slug": "skin-37603",
+        "name": "雪夜面袁",
+        "displayName": {
+          "zhHans": "雪夜面袁",
+          "zhHant": "雪夜面袁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunqian.json",
+      "groups": "api/v1/tts/characters/sunqian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunqian/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/sunqian/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "sunqian--376sunqian--1dead01",
+      "resourceId": "376sunqian/1dead01",
+      "text": "恨不能得见皇叔早登大宝……",
+      "textLocalized": {
+        "zhHans": "恨不能得见皇叔早登大宝……",
+        "zhHant": "恨不能得見皇叔早登大寶……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--3dead01",
+      "resourceId": "376sunqian/3dead01",
+      "text": "此次，也有失言时……",
+      "textLocalized": {
+        "zhHans": "此次，也有失言时……",
+        "zhHant": "此次，也有失言時……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37601",
+          "name": "谈笑风生",
+          "displayName": {
+            "zhHans": "谈笑风生",
+            "zhHant": "談笑風生"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--4dead01",
+      "resourceId": "376sunqian/4dead01",
+      "text": "说盟无果，恐有忧患……",
+      "textLocalized": {
+        "zhHans": "说盟无果，恐有忧患……",
+        "zhHant": "說盟無果，恐有憂患……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37602",
+          "name": "雍容风议",
+          "displayName": {
+            "zhHans": "雍容风议",
+            "zhHant": "雍容風議"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--5dead01",
+      "resourceId": "376sunqian/5dead01",
+      "text": "辜负皇叔所托，吾有愧矣……",
+      "textLocalized": {
+        "zhHans": "辜负皇叔所托，吾有愧矣……",
+        "zhHant": "辜負皇叔所託，吾有愧矣……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37603",
+          "name": "雪夜面袁",
+          "displayName": {
+            "zhHans": "雪夜面袁",
+            "zhHant": "雪夜面袁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

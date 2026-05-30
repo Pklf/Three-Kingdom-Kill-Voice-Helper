@@ -1,3 +1,244 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e33b96cdb321f3fbb3ab4490d1949c46a704363b83b0e6ffcb7cf100fe88bdee
-size 6406
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "gongsunzan",
+    "command": "gongsunzan",
+    "name": "公孙瓒",
+    "displayName": {
+      "zhHans": "公孙瓒",
+      "zhHant": "公孫瓚"
+    },
+    "names": [
+      "公孙瓒",
+      "界公孙瓒"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "公孙瓒",
+        "zhHant": "公孫瓚"
+      },
+      {
+        "zhHans": "界公孙瓒",
+        "zhHant": "界公孫瓚"
+      }
+    ],
+    "ids": [
+      "101",
+      "320"
+    ],
+    "sourceNames": [
+      "公孙瓒",
+      "界公孙瓒"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "公孙瓒",
+        "zhHant": "公孫瓚"
+      },
+      {
+        "zhHans": "界公孙瓒",
+        "zhHant": "界公孫瓚"
+      }
+    ],
+    "sourceIds": [
+      "101",
+      "320"
+    ],
+    "searchNames": [
+      "gongsunzan",
+      "公孙瓒",
+      "公孫瓚",
+      "界公孙瓒",
+      "界公孫瓚"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/gongsunzan/groups/dead.json"
+      },
+      {
+        "slug": "spell-204",
+        "name": "义从",
+        "displayName": {
+          "zhHans": "义从",
+          "zhHant": "義從"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/gongsunzan/groups/spell-204.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-10101",
+        "name": "扬旗立威",
+        "displayName": {
+          "zhHans": "扬旗立威",
+          "zhHant": "揚旗立威"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-10101.json"
+      },
+      {
+        "slug": "skin-10105",
+        "name": "武才趫猛",
+        "displayName": {
+          "zhHans": "武才趫猛",
+          "zhHant": "武才趫猛"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-10105.json"
+      },
+      {
+        "slug": "skin-10106",
+        "name": "疾行跃马",
+        "displayName": {
+          "zhHans": "疾行跃马",
+          "zhHant": "疾行躍馬"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-10106.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/gongsunzan.json",
+      "groups": "api/v1/tts/characters/gongsunzan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/gongsunzan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "gongsunzan--101gongsunzan--1dead01",
+      "resourceId": "101gongsunzan/1dead01",
+      "text": "我军将败，我已无颜苟活于世……",
+      "textLocalized": {
+        "zhHans": "我军将败，我已无颜苟活于世……",
+        "zhHant": "我軍將敗，我已無顏苟活於世……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/101gongsunzan-d9158c2a/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/101gongsunzan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gongsunzan--101gongsunzan--1skill1_1",
+      "resourceId": "101gongsunzan/1skill1_1",
+      "text": "众将听令！摆好阵势，御敌！",
+      "textLocalized": {
+        "zhHans": "众将听令！摆好阵势，御敌！",
+        "zhHant": "衆將聽令！擺好陣勢，禦敵！"
+      },
+      "group": {
+        "slug": "spell-204",
+        "name": "义从",
+        "displayName": {
+          "zhHans": "义从",
+          "zhHant": "義從"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/101gongsunzan-d9158c2a/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/101gongsunzan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gongsunzan--101gongsunzan--1skill1_2",
+      "resourceId": "101gongsunzan/1skill1_2",
+      "text": "冲啊！",
+      "textLocalized": {
+        "zhHans": "冲啊！",
+        "zhHant": "衝啊！"
+      },
+      "group": {
+        "slug": "spell-204",
+        "name": "义从",
+        "displayName": {
+          "zhHans": "义从",
+          "zhHant": "義從"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/101gongsunzan-d9158c2a/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/101gongsunzan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

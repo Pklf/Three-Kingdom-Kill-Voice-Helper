@@ -1,3 +1,479 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c1e612dc5b3aea692ed972c9fc2cd8042c3974092cfaddc8046588d3d0b8b5a8
-size 13615
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caozhi",
+    "command": "caozhi",
+    "name": "曹植",
+    "displayName": {
+      "zhHans": "曹植",
+      "zhHant": "曹植"
+    },
+    "names": [
+      "曹植"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹植",
+        "zhHant": "曹植"
+      }
+    ],
+    "ids": [
+      "151"
+    ],
+    "sourceNames": [
+      "曹植"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹植",
+        "zhHant": "曹植"
+      }
+    ],
+    "sourceIds": [
+      "151"
+    ],
+    "searchNames": [
+      "caozhi",
+      "曹植"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caozhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/caozhi/groups/spell-401.json"
+      },
+      {
+        "slug": "spell-402",
+        "name": "酒诗",
+        "displayName": {
+          "zhHans": "酒诗",
+          "zhHant": "酒詩"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/caozhi/groups/spell-402.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-15104",
+        "name": "七步绝章",
+        "displayName": {
+          "zhHans": "七步绝章",
+          "zhHant": "七步絕章"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15104.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-15103",
+        "name": "情兼雅怨",
+        "displayName": {
+          "zhHans": "情兼雅怨",
+          "zhHant": "情兼雅怨"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15103.json"
+      },
+      {
+        "slug": "skin-15107",
+        "name": "情化诗赋",
+        "displayName": {
+          "zhHans": "情化诗赋",
+          "zhHant": "情化詩賦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15107.json"
+      },
+      {
+        "slug": "skin-15110",
+        "name": "玉露清辉",
+        "displayName": {
+          "zhHans": "玉露清辉",
+          "zhHant": "玉露清輝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15110.json"
+      },
+      {
+        "slug": "skin-15108",
+        "name": "睹物思人",
+        "displayName": {
+          "zhHans": "睹物思人",
+          "zhHant": "睹物思人"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15108.json"
+      },
+      {
+        "slug": "skin-15109",
+        "name": "虚拟天团",
+        "displayName": {
+          "zhHans": "虚拟天团",
+          "zhHant": "虛擬天團"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15109.json"
+      },
+      {
+        "slug": "skin-15102",
+        "name": "风华绝代",
+        "displayName": {
+          "zhHans": "风华绝代",
+          "zhHant": "風華絕代"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15102.json"
+      },
+      {
+        "slug": "skin-15102-15103-15108",
+        "name": "风华绝代,情兼雅怨,睹物思人",
+        "displayName": {
+          "zhHans": "风华绝代,情兼雅怨,睹物思人",
+          "zhHant": "風華絕代,情兼雅怨,睹物思人"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15102-15103-15108.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caozhi.json",
+      "groups": "api/v1/tts/characters/caozhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caozhi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-15103",
+    "name": "情兼雅怨",
+    "displayName": {
+      "zhHans": "情兼雅怨",
+      "zhHant": "情兼雅怨"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15103.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caozhi--151caozhi--3dead01",
+      "resourceId": "151caozhi/3dead01",
+      "text": "奈何花落去，酌酒饮尘埃。",
+      "textLocalized": {
+        "zhHans": "奈何花落去，酌酒饮尘埃。",
+        "zhHant": "奈何花落去，酌酒飲塵埃。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15103",
+          "name": "情兼雅怨",
+          "displayName": {
+            "zhHans": "情兼雅怨",
+            "zhHant": "情兼雅怨"
+          }
+        },
+        {
+          "slug": "skin-15108",
+          "name": "睹物思人",
+          "displayName": {
+            "zhHans": "睹物思人",
+            "zhHant": "睹物思人"
+          }
+        },
+        {
+          "slug": "skin-15102",
+          "name": "风华绝代",
+          "displayName": {
+            "zhHans": "风华绝代",
+            "zhHant": "風華絕代"
+          }
+        },
+        {
+          "slug": "skin-15102-15103-15108",
+          "name": "风华绝代,情兼雅怨,睹物思人",
+          "displayName": {
+            "zhHans": "风华绝代,情兼雅怨,睹物思人",
+            "zhHant": "風華絕代,情兼雅怨,睹物思人"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--3skill1_1",
+      "resourceId": "151caozhi/3skill1_1",
+      "text": "落花虽有时，英姿安犹在。",
+      "textLocalized": {
+        "zhHans": "落花虽有时，英姿安犹在。",
+        "zhHant": "落花雖有時，英姿安猶在。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15103",
+          "name": "情兼雅怨",
+          "displayName": {
+            "zhHans": "情兼雅怨",
+            "zhHant": "情兼雅怨"
+          }
+        },
+        {
+          "slug": "skin-15108",
+          "name": "睹物思人",
+          "displayName": {
+            "zhHans": "睹物思人",
+            "zhHant": "睹物思人"
+          }
+        },
+        {
+          "slug": "skin-15102",
+          "name": "风华绝代",
+          "displayName": {
+            "zhHans": "风华绝代",
+            "zhHant": "風華絕代"
+          }
+        },
+        {
+          "slug": "skin-15102-15103-15108",
+          "name": "风华绝代,情兼雅怨,睹物思人",
+          "displayName": {
+            "zhHans": "风华绝代,情兼雅怨,睹物思人",
+            "zhHant": "風華絕代,情兼雅怨,睹物思人"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--3skill1_2",
+      "resourceId": "151caozhi/3skill1_2",
+      "text": "远眺洛神步，近拾落花情。",
+      "textLocalized": {
+        "zhHans": "远眺洛神步，近拾落花情。",
+        "zhHant": "遠眺洛神步，近拾落花情。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15103",
+          "name": "情兼雅怨",
+          "displayName": {
+            "zhHans": "情兼雅怨",
+            "zhHant": "情兼雅怨"
+          }
+        },
+        {
+          "slug": "skin-15108",
+          "name": "睹物思人",
+          "displayName": {
+            "zhHans": "睹物思人",
+            "zhHant": "睹物思人"
+          }
+        },
+        {
+          "slug": "skin-15102",
+          "name": "风华绝代",
+          "displayName": {
+            "zhHans": "风华绝代",
+            "zhHant": "風華絕代"
+          }
+        },
+        {
+          "slug": "skin-15102-15103-15108",
+          "name": "风华绝代,情兼雅怨,睹物思人",
+          "displayName": {
+            "zhHans": "风华绝代,情兼雅怨,睹物思人",
+            "zhHant": "風華絕代,情兼雅怨,睹物思人"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--3skill2_1",
+      "resourceId": "151caozhi/3skill2_1",
+      "text": "千杯何来醉？倾词信笔游。",
+      "textLocalized": {
+        "zhHans": "千杯何来醉？倾词信笔游。",
+        "zhHant": "千杯何來醉？傾詞信筆遊。"
+      },
+      "group": {
+        "slug": "spell-402",
+        "name": "酒诗",
+        "displayName": {
+          "zhHans": "酒诗",
+          "zhHant": "酒詩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15103",
+          "name": "情兼雅怨",
+          "displayName": {
+            "zhHans": "情兼雅怨",
+            "zhHant": "情兼雅怨"
+          }
+        },
+        {
+          "slug": "skin-15108",
+          "name": "睹物思人",
+          "displayName": {
+            "zhHans": "睹物思人",
+            "zhHant": "睹物思人"
+          }
+        },
+        {
+          "slug": "skin-15102",
+          "name": "风华绝代",
+          "displayName": {
+            "zhHans": "风华绝代",
+            "zhHant": "風華絕代"
+          }
+        },
+        {
+          "slug": "skin-15102-15103-15108",
+          "name": "风华绝代,情兼雅怨,睹物思人",
+          "displayName": {
+            "zhHans": "风华绝代,情兼雅怨,睹物思人",
+            "zhHant": "風華絕代,情兼雅怨,睹物思人"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--3skill2_2",
+      "resourceId": "151caozhi/3skill2_2",
+      "text": "无酒何以成诗？无诗何须饮酒？",
+      "textLocalized": {
+        "zhHans": "无酒何以成诗？无诗何须饮酒？",
+        "zhHant": "無酒何以成詩？無詩何須飲酒？"
+      },
+      "group": {
+        "slug": "spell-402",
+        "name": "酒诗",
+        "displayName": {
+          "zhHans": "酒诗",
+          "zhHant": "酒詩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15103",
+          "name": "情兼雅怨",
+          "displayName": {
+            "zhHans": "情兼雅怨",
+            "zhHant": "情兼雅怨"
+          }
+        },
+        {
+          "slug": "skin-15108",
+          "name": "睹物思人",
+          "displayName": {
+            "zhHans": "睹物思人",
+            "zhHant": "睹物思人"
+          }
+        },
+        {
+          "slug": "skin-15102",
+          "name": "风华绝代",
+          "displayName": {
+            "zhHans": "风华绝代",
+            "zhHant": "風華絕代"
+          }
+        },
+        {
+          "slug": "skin-15102-15103-15108",
+          "name": "风华绝代,情兼雅怨,睹物思人",
+          "displayName": {
+            "zhHans": "风华绝代,情兼雅怨,睹物思人",
+            "zhHant": "風華絕代,情兼雅怨,睹物思人"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

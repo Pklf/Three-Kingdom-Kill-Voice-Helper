@@ -1,3 +1,220 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dd0aa7dd85211537ac0e9dea178e3dee31c95a86848ff4e0393f2287657b3876
-size 5680
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "mazhong",
+    "command": "mazhong",
+    "name": "马忠",
+    "displayName": {
+      "zhHans": "马忠",
+      "zhHant": "馬忠"
+    },
+    "names": [
+      "马忠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "马忠",
+        "zhHant": "馬忠"
+      }
+    ],
+    "ids": [
+      "370"
+    ],
+    "sourceNames": [
+      "马忠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "马忠",
+        "zhHant": "馬忠"
+      }
+    ],
+    "sourceIds": [
+      "370"
+    ],
+    "searchNames": [
+      "mazhong",
+      "马忠",
+      "馬忠"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mazhong/groups/dead.json"
+      },
+      {
+        "slug": "spell-360",
+        "name": "抚蛮",
+        "displayName": {
+          "zhHans": "抚蛮",
+          "zhHant": "撫蠻"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/mazhong/groups/spell-360.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-37003",
+        "name": "南征蛮夷",
+        "displayName": {
+          "zhHans": "南征蛮夷",
+          "zhHant": "南征蠻夷"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mazhong/skins/skin-37003.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mazhong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37001",
+        "name": "讨平叛乱",
+        "displayName": {
+          "zhHans": "讨平叛乱",
+          "zhHant": "討平叛亂"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/mazhong/skins/skin-37001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/mazhong.json",
+      "groups": "api/v1/tts/characters/mazhong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/mazhong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/mazhong/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "mazhong--370mazhong--1dead01",
+      "resourceId": "370mazhong/1dead01",
+      "text": "丞相不在，你们竟然……",
+      "textLocalized": {
+        "zhHans": "丞相不在，你们竟然……",
+        "zhHant": "丞相不在，你們竟然……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/370mazhong-279c7cfd/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/370mazhong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mazhong--370mazhong--1skill1_1",
+      "resourceId": "370mazhong/1skill1_1",
+      "text": "恩威并施，蛮夷可为我所用！",
+      "textLocalized": {
+        "zhHans": "恩威并施，蛮夷可为我所用！",
+        "zhHant": "恩威並施，蠻夷可爲我所用！"
+      },
+      "group": {
+        "slug": "spell-360",
+        "name": "抚蛮",
+        "displayName": {
+          "zhHans": "抚蛮",
+          "zhHant": "撫蠻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/370mazhong-279c7cfd/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/370mazhong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mazhong--370mazhong--1skill1_2",
+      "resourceId": "370mazhong/1skill1_2",
+      "text": "发兵器了！",
+      "textLocalized": {
+        "zhHans": "发兵器了！",
+        "zhHant": "發兵器了！"
+      },
+      "group": {
+        "slug": "spell-360",
+        "name": "抚蛮",
+        "displayName": {
+          "zhHans": "抚蛮",
+          "zhHant": "撫蠻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/370mazhong-279c7cfd/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/370mazhong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

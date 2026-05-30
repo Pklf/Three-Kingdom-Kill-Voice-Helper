@@ -1,3 +1,476 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2913017e37179d1d3e6b8605962b92c8814bb0dbab724de4b0f483b4a71f1380
-size 13162
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xiahouba",
+    "command": "xiahouba",
+    "name": "夏侯霸",
+    "displayName": {
+      "zhHans": "夏侯霸",
+      "zhHant": "夏侯霸"
+    },
+    "names": [
+      "夏侯霸"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "夏侯霸",
+        "zhHant": "夏侯霸"
+      }
+    ],
+    "ids": [
+      "116"
+    ],
+    "sourceNames": [
+      "夏侯霸"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "夏侯霸",
+        "zhHant": "夏侯霸"
+      }
+    ],
+    "sourceIds": [
+      "116"
+    ],
+    "searchNames": [
+      "xiahouba",
+      "夏侯霸"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xiahouba/groups/dead.json"
+      },
+      {
+        "slug": "spell-125",
+        "name": "挑衅",
+        "displayName": {
+          "zhHans": "挑衅",
+          "zhHant": "挑釁"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouba/groups/spell-125.json"
+      },
+      {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouba/groups/spell-34.json"
+      },
+      {
+        "slug": "spell-363",
+        "name": "神速",
+        "displayName": {
+          "zhHans": "神速",
+          "zhHant": "神速"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouba/groups/spell-363.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouba/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-11605",
+        "name": "玄弓上阵",
+        "displayName": {
+          "zhHans": "玄弓上阵",
+          "zhHant": "玄弓上陣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouba/skins/skin-11605.json"
+      },
+      {
+        "slug": "skin-11602",
+        "name": "穿云裂石",
+        "displayName": {
+          "zhHans": "穿云裂石",
+          "zhHant": "穿雲裂石"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouba/skins/skin-11602.json"
+      },
+      {
+        "slug": "skin-11601",
+        "name": "虎将无双",
+        "displayName": {
+          "zhHans": "虎将无双",
+          "zhHant": "虎將無雙"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouba/skins/skin-11601.json"
+      },
+      {
+        "slug": "skin-11601-11602",
+        "name": "虎将无双,穿云裂石",
+        "displayName": {
+          "zhHans": "虎将无双,穿云裂石",
+          "zhHant": "虎將無雙,穿雲裂石"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouba/skins/skin-11601-11602.json"
+      },
+      {
+        "slug": "skin-11607",
+        "name": "阵前待令",
+        "displayName": {
+          "zhHans": "阵前待令",
+          "zhHant": "陣前待令"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouba/skins/skin-11607.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xiahouba.json",
+      "groups": "api/v1/tts/characters/xiahouba/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xiahouba/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-34",
+    "name": "咆哮",
+    "displayName": {
+      "zhHans": "咆哮",
+      "zhHant": "咆哮"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/xiahouba/groups/spell-34.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "xiahouba--116xiahouba--1skill3_1",
+      "resourceId": "116xiahouba/1skill3_1",
+      "text": "喝！",
+      "textLocalized": {
+        "zhHans": "喝！",
+        "zhHant": "喝！"
+      },
+      "group": {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/116xiahouba-8f7015dc/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/116xiahouba/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouba--116xiahouba--1skill3_2",
+      "resourceId": "116xiahouba/1skill3_2",
+      "text": "受死吧！",
+      "textLocalized": {
+        "zhHans": "受死吧！",
+        "zhHant": "受死吧！"
+      },
+      "group": {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/116xiahouba-8f7015dc/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/116xiahouba/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouba--116xiahouba--4skill3_1",
+      "resourceId": "116xiahouba/4skill3_1",
+      "text": "今日，可大开杀戒！",
+      "textLocalized": {
+        "zhHans": "今日，可大开杀戒！",
+        "zhHant": "今日，可大開殺戒！"
+      },
+      "group": {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11605",
+          "name": "玄弓上阵",
+          "displayName": {
+            "zhHans": "玄弓上阵",
+            "zhHant": "玄弓上陣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/116xiahouba-8f7015dc/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/116xiahouba/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouba--116xiahouba--4skill3_2",
+      "resourceId": "116xiahouba/4skill3_2",
+      "text": "将士们，冲！",
+      "textLocalized": {
+        "zhHans": "将士们，冲！",
+        "zhHant": "將士們，衝！"
+      },
+      "group": {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11605",
+          "name": "玄弓上阵",
+          "displayName": {
+            "zhHans": "玄弓上阵",
+            "zhHant": "玄弓上陣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/116xiahouba-8f7015dc/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/116xiahouba/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouba--116xiahouba--3skill3_1",
+      "resourceId": "116xiahouba/3skill3_1",
+      "text": "今日，杀他个痛快！",
+      "textLocalized": {
+        "zhHans": "今日，杀他个痛快！",
+        "zhHant": "今日，殺他個痛快！"
+      },
+      "group": {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11602",
+          "name": "穿云裂石",
+          "displayName": {
+            "zhHans": "穿云裂石",
+            "zhHant": "穿雲裂石"
+          }
+        },
+        {
+          "slug": "skin-11601",
+          "name": "虎将无双",
+          "displayName": {
+            "zhHans": "虎将无双",
+            "zhHant": "虎將無雙"
+          }
+        },
+        {
+          "slug": "skin-11601-11602",
+          "name": "虎将无双,穿云裂石",
+          "displayName": {
+            "zhHans": "虎将无双,穿云裂石",
+            "zhHant": "虎將無雙,穿雲裂石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/116xiahouba-8f7015dc/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/116xiahouba/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouba--116xiahouba--3skill3_2",
+      "resourceId": "116xiahouba/3skill3_2",
+      "text": "想要灭我？等来世吧！",
+      "textLocalized": {
+        "zhHans": "想要灭我？等来世吧！",
+        "zhHant": "想要滅我？等來世吧！"
+      },
+      "group": {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11602",
+          "name": "穿云裂石",
+          "displayName": {
+            "zhHans": "穿云裂石",
+            "zhHant": "穿雲裂石"
+          }
+        },
+        {
+          "slug": "skin-11601",
+          "name": "虎将无双",
+          "displayName": {
+            "zhHans": "虎将无双",
+            "zhHant": "虎將無雙"
+          }
+        },
+        {
+          "slug": "skin-11601-11602",
+          "name": "虎将无双,穿云裂石",
+          "displayName": {
+            "zhHans": "虎将无双,穿云裂石",
+            "zhHant": "虎將無雙,穿雲裂石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/116xiahouba-8f7015dc/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/116xiahouba/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouba--116xiahouba--5skill3_1",
+      "resourceId": "116xiahouba/5skill3_1",
+      "text": "吾岂容尔等小觑[qù]？",
+      "textLocalized": {
+        "zhHans": "吾岂容尔等小觑[qù]？",
+        "zhHant": "吾豈容爾等小覷[qù]？"
+      },
+      "group": {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11607",
+          "name": "阵前待令",
+          "displayName": {
+            "zhHans": "阵前待令",
+            "zhHant": "陣前待令"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/116xiahouba-8f7015dc/5skill3-1-81c515c2.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/116xiahouba/5skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouba--116xiahouba--5skill3_2",
+      "resourceId": "116xiahouba/5skill3_2",
+      "text": "杀，杀他个片甲不留！",
+      "textLocalized": {
+        "zhHans": "杀，杀他个片甲不留！",
+        "zhHant": "殺，殺他個片甲不留！"
+      },
+      "group": {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11607",
+          "name": "阵前待令",
+          "displayName": {
+            "zhHans": "阵前待令",
+            "zhHant": "陣前待令"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/116xiahouba-8f7015dc/5skill3-2-edc71423.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/116xiahouba/5skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

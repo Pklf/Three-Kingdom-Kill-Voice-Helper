@@ -1,3 +1,184 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ba5bda25d281577ce70463d201ec63fd2570949ea079e7ad44ec4e314d224dcb
-size 4794
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yuanji",
+    "command": "yuanji",
+    "name": "袁姬",
+    "displayName": {
+      "zhHans": "袁姬",
+      "zhHant": "袁姬"
+    },
+    "names": [
+      "袁姬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "袁姬",
+        "zhHant": "袁姬"
+      }
+    ],
+    "ids": [
+      "652"
+    ],
+    "sourceNames": [
+      "袁姬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "袁姬",
+        "zhHant": "袁姬"
+      }
+    ],
+    "sourceIds": [
+      "652"
+    ],
+    "searchNames": [
+      "yuanji",
+      "袁姬"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/yuanji/groups/dead.json"
+      },
+      {
+        "slug": "spell-3540",
+        "name": "节言",
+        "displayName": {
+          "zhHans": "节言",
+          "zhHant": "節言"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yuanji/groups/spell-3540.json"
+      },
+      {
+        "slug": "spell-3541",
+        "name": "镜花",
+        "displayName": {
+          "zhHans": "镜花",
+          "zhHant": "鏡花"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yuanji/groups/spell-3541.json"
+      },
+      {
+        "slug": "spell-3542",
+        "name": "水月",
+        "displayName": {
+          "zhHans": "水月",
+          "zhHant": "水月"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yuanji/groups/spell-3542.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "65201",
+        "name": "65201",
+        "displayName": {
+          "zhHans": "65201",
+          "zhHant": "65201"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/yuanji/skins/65201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yuanji.json",
+      "groups": "api/v1/tts/characters/yuanji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yuanji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3541",
+    "name": "镜花",
+    "displayName": {
+      "zhHans": "镜花",
+      "zhHant": "鏡花"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/yuanji/groups/spell-3541.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "yuanji--652yuanji--2skill2_1",
+      "resourceId": "652yuanji/2skill2_1",
+      "text": "丹桂佐绿蚁，酒香伴花香，今夕美景配良辰。",
+      "textLocalized": {
+        "zhHans": "丹桂佐绿蚁，酒香伴花香，今夕美景配良辰。",
+        "zhHant": "丹桂佐綠蟻，酒香伴花香，今夕美景配良辰。"
+      },
+      "group": {
+        "slug": "spell-3541",
+        "name": "镜花",
+        "displayName": {
+          "zhHans": "镜花",
+          "zhHant": "鏡花"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65201",
+          "name": "65201",
+          "displayName": {
+            "zhHans": "65201",
+            "zhHant": "65201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/652yuanji-f3c5f0c5/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/652yuanji/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanji--652yuanji--2skill2_2",
+      "resourceId": "652yuanji/2skill2_2",
+      "text": "桂花飘香，落红点酒，此夜可与明月同醉。",
+      "textLocalized": {
+        "zhHans": "桂花飘香，落红点酒，此夜可与明月同醉。",
+        "zhHant": "桂花飄香，落紅點酒，此夜可與明月同醉。"
+      },
+      "group": {
+        "slug": "spell-3541",
+        "name": "镜花",
+        "displayName": {
+          "zhHans": "镜花",
+          "zhHant": "鏡花"
+        }
+      },
+      "skins": [
+        {
+          "slug": "65201",
+          "name": "65201",
+          "displayName": {
+            "zhHans": "65201",
+            "zhHant": "65201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/652yuanji-f3c5f0c5/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/652yuanji/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

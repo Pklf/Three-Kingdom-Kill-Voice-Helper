@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6313fa769b9bf431aac884b5c8c58b439b73a79f093d7d0bf3bf8e25b0239141
-size 8664
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunqian",
+    "command": "sunqian",
+    "name": "孙乾",
+    "displayName": {
+      "zhHans": "孙乾",
+      "zhHant": "孫乾"
+    },
+    "names": [
+      "孙乾"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙乾",
+        "zhHant": "孫乾"
+      }
+    ],
+    "ids": [
+      "376"
+    ],
+    "sourceNames": [
+      "孙乾"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙乾",
+        "zhHant": "孫乾"
+      }
+    ],
+    "sourceIds": [
+      "376"
+    ],
+    "searchNames": [
+      "sunqian",
+      "孙乾",
+      "孫乾"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/sunqian/groups/dead.json"
+      },
+      {
+        "slug": "spell-378",
+        "name": "谦雅",
+        "displayName": {
+          "zhHans": "谦雅",
+          "zhHant": "謙雅"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sunqian/groups/spell-378.json"
+      },
+      {
+        "slug": "spell-379",
+        "name": "说盟",
+        "displayName": {
+          "zhHans": "说盟",
+          "zhHant": "說盟"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sunqian/groups/spell-379.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37601",
+        "name": "谈笑风生",
+        "displayName": {
+          "zhHans": "谈笑风生",
+          "zhHant": "談笑風生"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37601.json"
+      },
+      {
+        "slug": "skin-37602",
+        "name": "雍容风议",
+        "displayName": {
+          "zhHans": "雍容风议",
+          "zhHant": "雍容風議"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37602.json"
+      },
+      {
+        "slug": "skin-37603",
+        "name": "雪夜面袁",
+        "displayName": {
+          "zhHans": "雪夜面袁",
+          "zhHant": "雪夜面袁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunqian.json",
+      "groups": "api/v1/tts/characters/sunqian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunqian/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-37602",
+    "name": "雍容风议",
+    "displayName": {
+      "zhHans": "雍容风议",
+      "zhHant": "雍容風議"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/sunqian/skins/skin-37602.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "sunqian--376sunqian--4dead01",
+      "resourceId": "376sunqian/4dead01",
+      "text": "说盟无果，恐有忧患……",
+      "textLocalized": {
+        "zhHans": "说盟无果，恐有忧患……",
+        "zhHant": "說盟無果，恐有憂患……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37602",
+          "name": "雍容风议",
+          "displayName": {
+            "zhHans": "雍容风议",
+            "zhHant": "雍容風議"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--4skill1_1",
+      "resourceId": "376sunqian/4skill1_1",
+      "text": "皇叔，不可以一时成败论英雄！",
+      "textLocalized": {
+        "zhHans": "皇叔，不可以一时成败论英雄！",
+        "zhHant": "皇叔，不可以一時成敗論英雄！"
+      },
+      "group": {
+        "slug": "spell-378",
+        "name": "谦雅",
+        "displayName": {
+          "zhHans": "谦雅",
+          "zhHant": "謙雅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37602",
+          "name": "雍容风议",
+          "displayName": {
+            "zhHans": "雍容风议",
+            "zhHant": "雍容風議"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--4skill1_2",
+      "resourceId": "376sunqian/4skill1_2",
+      "text": "若是论功行赏，公祐万万不及足下。",
+      "textLocalized": {
+        "zhHans": "若是论功行赏，公祐万万不及足下。",
+        "zhHant": "若是論功行賞，公祐萬萬不及足下。"
+      },
+      "group": {
+        "slug": "spell-378",
+        "name": "谦雅",
+        "displayName": {
+          "zhHans": "谦雅",
+          "zhHant": "謙雅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37602",
+          "name": "雍容风议",
+          "displayName": {
+            "zhHans": "雍容风议",
+            "zhHant": "雍容風議"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--4skill2_1",
+      "resourceId": "376sunqian/4skill2_1",
+      "text": "将军可知春秋三晋？|三晋合而秦弱，三晋离而秦强。",
+      "textLocalized": {
+        "zhHans": "将军可知春秋三晋？|三晋合而秦弱，三晋离而秦强。",
+        "zhHant": "將軍可知春秋三晉？|三晉合而秦弱，三晉離而秦強。"
+      },
+      "group": {
+        "slug": "spell-379",
+        "name": "说盟",
+        "displayName": {
+          "zhHans": "说盟",
+          "zhHant": "說盟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37602",
+          "name": "雍容风议",
+          "displayName": {
+            "zhHans": "雍容风议",
+            "zhHant": "雍容風議"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunqian--376sunqian--4skill2_2",
+      "resourceId": "376sunqian/4skill2_2",
+      "text": "我主与君一脉相承，望将军莫要",
+      "textLocalized": {
+        "zhHans": "我主与君一脉相承，望将军莫要",
+        "zhHant": "我主與君一脈相承，望將軍莫要"
+      },
+      "group": {
+        "slug": "spell-379",
+        "name": "说盟",
+        "displayName": {
+          "zhHans": "说盟",
+          "zhHant": "說盟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37602",
+          "name": "雍容风议",
+          "displayName": {
+            "zhHans": "雍容风议",
+            "zhHant": "雍容風議"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/376sunqian-97213549/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/376sunqian/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

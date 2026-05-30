@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d96dbd6ce1f66620d5fe0499cf81dc2f6d9799c63afde1b40f995f8909ec7a59
-size 6728
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yanrou",
+    "command": "yanrou",
+    "name": "阎柔",
+    "displayName": {
+      "zhHans": "阎柔",
+      "zhHant": "閻柔"
+    },
+    "names": [
+      "阎柔"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阎柔",
+        "zhHant": "閻柔"
+      }
+    ],
+    "ids": [
+      "521"
+    ],
+    "sourceNames": [
+      "阎柔"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阎柔",
+        "zhHant": "閻柔"
+      }
+    ],
+    "sourceIds": [
+      "521"
+    ],
+    "searchNames": [
+      "yanrou",
+      "阎柔",
+      "閻柔"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yanrou/groups/dead.json"
+      },
+      {
+        "slug": "spell-3164",
+        "name": "仇讨",
+        "displayName": {
+          "zhHans": "仇讨",
+          "zhHant": "仇討"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanrou/groups/spell-3164.json"
+      },
+      {
+        "slug": "spell-3165",
+        "name": "襄戍",
+        "displayName": {
+          "zhHans": "襄戍",
+          "zhHant": "襄戍"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanrou/groups/spell-3165.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "52101",
+        "name": "52101",
+        "displayName": {
+          "zhHans": "52101",
+          "zhHant": "52101"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yanrou/skins/52101.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yanrou/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yanrou.json",
+      "groups": "api/v1/tts/characters/yanrou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yanrou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3164",
+    "name": "仇讨",
+    "displayName": {
+      "zhHans": "仇讨",
+      "zhHant": "仇討"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/yanrou/groups/spell-3164.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "yanrou--521yanrou--2skill1_1",
+      "resourceId": "521yanrou/2skill1_1",
+      "text": "公孙瓒，还我明公刘伯安命来！",
+      "textLocalized": {
+        "zhHans": "公孙瓒，还我明公刘伯安命来！",
+        "zhHant": "公孫瓚，還我明公劉伯安命來！"
+      },
+      "group": {
+        "slug": "spell-3164",
+        "name": "仇讨",
+        "displayName": {
+          "zhHans": "仇讨",
+          "zhHant": "仇討"
+        }
+      },
+      "skins": [
+        {
+          "slug": "52101",
+          "name": "52101",
+          "displayName": {
+            "zhHans": "52101",
+            "zhHant": "52101"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/521yanrou-6173341b/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/521yanrou/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanrou--521yanrou--2skill1_2",
+      "resourceId": "521yanrou/2skill1_2",
+      "text": "幽辽暗无天日，且以我剑涤破障云。",
+      "textLocalized": {
+        "zhHans": "幽辽暗无天日，且以我剑涤破障云。",
+        "zhHant": "幽遼暗無天日，且以我劍滌破障雲。"
+      },
+      "group": {
+        "slug": "spell-3164",
+        "name": "仇讨",
+        "displayName": {
+          "zhHans": "仇讨",
+          "zhHant": "仇討"
+        }
+      },
+      "skins": [
+        {
+          "slug": "52101",
+          "name": "52101",
+          "displayName": {
+            "zhHans": "52101",
+            "zhHant": "52101"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/521yanrou-6173341b/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/521yanrou/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanrou--521yanrou--1skill1_1",
+      "resourceId": "521yanrou/1skill1_1",
+      "text": "大恨深仇，此剑讨之！",
+      "textLocalized": {
+        "zhHans": "大恨深仇，此剑讨之！",
+        "zhHant": "大恨深仇，此劍討之！"
+      },
+      "group": {
+        "slug": "spell-3164",
+        "name": "仇讨",
+        "displayName": {
+          "zhHans": "仇讨",
+          "zhHant": "仇討"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/521yanrou-6173341b/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/521yanrou/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanrou--521yanrou--1skill1_2",
+      "resourceId": "521yanrou/1skill1_2",
+      "text": "是非恩怨，此役决之！",
+      "textLocalized": {
+        "zhHans": "是非恩怨，此役决之！",
+        "zhHant": "是非恩怨，此役決之！"
+      },
+      "group": {
+        "slug": "spell-3164",
+        "name": "仇讨",
+        "displayName": {
+          "zhHans": "仇讨",
+          "zhHant": "仇討"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/521yanrou-6173341b/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/521yanrou/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

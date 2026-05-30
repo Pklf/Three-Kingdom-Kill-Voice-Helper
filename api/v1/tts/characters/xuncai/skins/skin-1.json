@@ -1,3 +1,450 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c23279d00f3222790225121ce1203596acdc72c588abbb6d78e5443ffd2d0c8
-size 12280
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuncai",
+    "command": "xuncai",
+    "name": "族荀采",
+    "displayName": {
+      "zhHans": "族荀采",
+      "zhHant": "族荀採"
+    },
+    "names": [
+      "族荀采"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "ids": [
+      "524"
+    ],
+    "sourceNames": [
+      "族荀采"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "sourceIds": [
+      "524"
+    ],
+    "searchNames": [
+      "xuncai",
+      "族荀采",
+      "族荀採"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3171.json"
+      },
+      {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3172.json"
+      },
+      {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3173.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52401",
+        "name": "雅柔映采",
+        "displayName": {
+          "zhHans": "雅柔映采",
+          "zhHant": "雅柔映採"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-52401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuncai.json",
+      "groups": "api/v1/tts/characters/xuncai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuncai/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 9,
+    "endpoint": "api/v1/tts/characters/xuncai/skins/skin-1.json"
+  },
+  "lineCount": 9,
+  "lines": [
+    {
+      "id": "xuncai--524xuncai--1dead01",
+      "resourceId": "524xuncai/1dead01",
+      "text": "苦难已过，世间大好。",
+      "textLocalized": {
+        "zhHans": "苦难已过，世间大好。",
+        "zhHant": "苦難已過，世間大好。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill4_1",
+      "resourceId": "524xuncai/1skill4_1",
+      "text": "女子有节，宁死蹈之。",
+      "textLocalized": {
+        "zhHans": "女子有节，宁死蹈之。",
+        "zhHant": "女子有節，寧死蹈之。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill4-1-0d7b9304.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill4_2",
+      "resourceId": "524xuncai/1skill4_2",
+      "text": "荀氏三纲，死不贰嫁。",
+      "textLocalized": {
+        "zhHans": "荀氏三纲，死不贰嫁。",
+        "zhHant": "荀氏三綱，死不貳嫁。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill4-2-2415e0dd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill1_1",
+      "resourceId": "524xuncai/1skill1_1",
+      "text": "拭刃为誓，女无二夫。",
+      "textLocalized": {
+        "zhHans": "拭刃为誓，女无二夫。",
+        "zhHant": "拭刃爲誓，女無二夫。"
+      },
+      "group": {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill1_2",
+      "resourceId": "524xuncai/1skill1_2",
+      "text": "霜刃证言，宁死不贰。",
+      "textLocalized": {
+        "zhHans": "霜刃证言，宁死不贰。",
+        "zhHant": "霜刃證言，寧死不貳。"
+      },
+      "group": {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill2_1",
+      "resourceId": "524xuncai/1skill2_1",
+      "text": "此灯如我，独向光明。",
+      "textLocalized": {
+        "zhHans": "此灯如我，独向光明。",
+        "zhHant": "此燈如我，獨向光明。"
+      },
+      "group": {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill2_2",
+      "resourceId": "524xuncai/1skill2_2",
+      "text": "此间皆暗，唯灯瞩明。",
+      "textLocalized": {
+        "zhHans": "此间皆暗，唯灯瞩明。",
+        "zhHant": "此間皆暗，唯燈矚明。"
+      },
+      "group": {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill3_1",
+      "resourceId": "524xuncai/1skill3_1",
+      "text": "且将此身，还于阴氏。",
+      "textLocalized": {
+        "zhHans": "且将此身，还于阴氏。",
+        "zhHant": "且將此身，還於陰氏。"
+      },
+      "group": {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill3_2",
+      "resourceId": "524xuncai/1skill3_2",
+      "text": "生不得同户，死可葬同穴乎？",
+      "textLocalized": {
+        "zhHans": "生不得同户，死可葬同穴乎？",
+        "zhHant": "生不得同戶，死可葬同穴乎？"
+      },
+      "group": {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

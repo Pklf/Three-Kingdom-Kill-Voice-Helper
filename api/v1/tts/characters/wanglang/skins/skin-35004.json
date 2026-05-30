@@ -1,3 +1,319 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b3ff8c75f3e49fb389812d19c40caa4c69eb4cb3decd49bf43e8a7a043587ca8
-size 8800
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wanglang",
+    "command": "wanglang",
+    "name": "王朗",
+    "displayName": {
+      "zhHans": "王朗",
+      "zhHant": "王朗"
+    },
+    "names": [
+      "王朗"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王朗",
+        "zhHant": "王朗"
+      }
+    ],
+    "ids": [
+      "350"
+    ],
+    "sourceNames": [
+      "王朗"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王朗",
+        "zhHant": "王朗"
+      }
+    ],
+    "sourceIds": [
+      "350"
+    ],
+    "searchNames": [
+      "wanglang",
+      "王朗"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/dead.json"
+      },
+      {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/spell-280.json"
+      },
+      {
+        "slug": "spell-281",
+        "name": "激词",
+        "displayName": {
+          "zhHans": "激词",
+          "zhHant": "激詞"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/spell-281.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35005",
+        "name": "四世三公",
+        "displayName": {
+          "zhHans": "四世三公",
+          "zhHant": "四世三公"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35005.json"
+      },
+      {
+        "slug": "skin-35003",
+        "name": "抒言辨思",
+        "displayName": {
+          "zhHans": "抒言辨思",
+          "zhHant": "抒言辨思"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35003.json"
+      },
+      {
+        "slug": "skin-35004",
+        "name": "渊薮临危",
+        "displayName": {
+          "zhHans": "渊薮临危",
+          "zhHant": "淵藪臨危"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35004.json"
+      },
+      {
+        "slug": "skin-35006",
+        "name": "骧龙御宇",
+        "displayName": {
+          "zhHans": "骧龙御宇",
+          "zhHant": "驤龍御宇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35006.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wanglang.json",
+      "groups": "api/v1/tts/characters/wanglang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wanglang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-35004",
+    "name": "渊薮临危",
+    "displayName": {
+      "zhHans": "渊薮临危",
+      "zhHant": "淵藪臨危"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35004.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "wanglang--350wanglang--4dead01",
+      "resourceId": "350wanglang/4dead01",
+      "text": "荒谬之言！荒谬之言！",
+      "textLocalized": {
+        "zhHans": "荒谬之言！荒谬之言！",
+        "zhHant": "荒謬之言！荒謬之言！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35004",
+          "name": "渊薮临危",
+          "displayName": {
+            "zhHans": "渊薮临危",
+            "zhHant": "淵藪臨危"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--4skill1_1",
+      "resourceId": "350wanglang/4skill1_1",
+      "text": "万姓倾心，四方仰德。",
+      "textLocalized": {
+        "zhHans": "万姓倾心，四方仰德。",
+        "zhHant": "萬姓傾心，四方仰德。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35004",
+          "name": "渊薮临危",
+          "displayName": {
+            "zhHans": "渊薮临危",
+            "zhHant": "淵藪臨危"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--4skill1_2",
+      "resourceId": "350wanglang/4skill1_2",
+      "text": "饶舌之蛊心，敌自败也。",
+      "textLocalized": {
+        "zhHans": "饶舌之蛊心，敌自败也。",
+        "zhHant": "饒舌之蠱心，敵自敗也。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35004",
+          "name": "渊薮临危",
+          "displayName": {
+            "zhHans": "渊薮临危",
+            "zhHant": "淵藪臨危"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--4skill2_1",
+      "resourceId": "350wanglang/4skill2_1",
+      "text": "应天合人，岂非天心人意乎？",
+      "textLocalized": {
+        "zhHans": "应天合人，岂非天心人意乎？",
+        "zhHant": "應天合人，豈非天心人意乎？"
+      },
+      "group": {
+        "slug": "spell-281",
+        "name": "激词",
+        "displayName": {
+          "zhHans": "激词",
+          "zhHant": "激詞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35004",
+          "name": "渊薮临危",
+          "displayName": {
+            "zhHans": "渊薮临危",
+            "zhHant": "淵藪臨危"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--4skill2_2",
+      "resourceId": "350wanglang/4skill2_2",
+      "text": "非以权势取之，实天命所归也。",
+      "textLocalized": {
+        "zhHans": "非以权势取之，实天命所归也。",
+        "zhHant": "非以權勢取之，實天命所歸也。"
+      },
+      "group": {
+        "slug": "spell-281",
+        "name": "激词",
+        "displayName": {
+          "zhHans": "激词",
+          "zhHant": "激詞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35004",
+          "name": "渊薮临危",
+          "displayName": {
+            "zhHans": "渊薮临危",
+            "zhHant": "淵藪臨危"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

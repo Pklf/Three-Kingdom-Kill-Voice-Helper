@@ -1,3 +1,309 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6017002dc1fecedb1c3b16f9b511600addae082d66a5f7588fa566c4159899a3
-size 8657
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qinghegongzhu",
+    "command": "qinghegongzhu",
+    "name": "清河公主",
+    "displayName": {
+      "zhHans": "清河公主",
+      "zhHant": "清河公主"
+    },
+    "names": [
+      "清河公主"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "清河公主",
+        "zhHant": "清河公主"
+      }
+    ],
+    "ids": [
+      "498"
+    ],
+    "sourceNames": [
+      "清河公主"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "清河公主",
+        "zhHant": "清河公主"
+      }
+    ],
+    "sourceIds": [
+      "498"
+    ],
+    "searchNames": [
+      "qinghegongzhu",
+      "清河公主"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qinghegongzhu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3085",
+        "name": "谮构",
+        "displayName": {
+          "zhHans": "谮构",
+          "zhHant": "譖構"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/qinghegongzhu/groups/spell-3085.json"
+      },
+      {
+        "slug": "spell-3086",
+        "name": "长姬",
+        "displayName": {
+          "zhHans": "长姬",
+          "zhHant": "長姬"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/qinghegongzhu/groups/spell-3086.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qinghegongzhu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49802",
+        "name": "瑞雪芳梅",
+        "displayName": {
+          "zhHans": "瑞雪芳梅",
+          "zhHant": "瑞雪芳梅"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qinghegongzhu/skins/skin-49802.json"
+      },
+      {
+        "slug": "skin-49803",
+        "name": "荷怜清盈",
+        "displayName": {
+          "zhHans": "荷怜清盈",
+          "zhHant": "荷憐清盈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qinghegongzhu/skins/skin-49803.json"
+      },
+      {
+        "slug": "skin-49801",
+        "name": "馨香清欢",
+        "displayName": {
+          "zhHans": "馨香清欢",
+          "zhHant": "馨香清歡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qinghegongzhu/skins/skin-49801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/qinghegongzhu.json",
+      "groups": "api/v1/tts/characters/qinghegongzhu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/qinghegongzhu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/qinghegongzhu/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "qinghegongzhu--498qinghegongzhu--1dead01",
+      "resourceId": "498qinghegongzhu/1dead01",
+      "text": "我言非虚，君上何疑于我？",
+      "textLocalized": {
+        "zhHans": "我言非虚，君上何疑于我？",
+        "zhHant": "我言非虛，君上何疑於我？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/498qinghegongzhu-bf906f4e/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/498qinghegongzhu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinghegongzhu--498qinghegongzhu--1skill1_1",
+      "resourceId": "498qinghegongzhu/1skill1_1",
+      "text": "此书定能置夏侯楙[máo]于死地。",
+      "textLocalized": {
+        "zhHans": "此书定能置夏侯楙[máo]于死地。",
+        "zhHant": "此書定能置夏侯楙[máo]於死地。"
+      },
+      "group": {
+        "slug": "spell-3085",
+        "name": "谮构",
+        "displayName": {
+          "zhHans": "谮构",
+          "zhHant": "譖構"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/498qinghegongzhu-bf906f4e/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/498qinghegongzhu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinghegongzhu--498qinghegongzhu--1skill1_2",
+      "resourceId": "498qinghegongzhu/1skill1_2",
+      "text": "夏侯违制，请君上定夺。",
+      "textLocalized": {
+        "zhHans": "夏侯违制，请君上定夺。",
+        "zhHant": "夏侯違制，請君上定奪。"
+      },
+      "group": {
+        "slug": "spell-3085",
+        "name": "谮构",
+        "displayName": {
+          "zhHans": "谮构",
+          "zhHant": "譖構"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/498qinghegongzhu-bf906f4e/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/498qinghegongzhu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinghegongzhu--498qinghegongzhu--1skill2_1",
+      "resourceId": "498qinghegongzhu/1skill2_1",
+      "text": "魏武有子数十，唯我最长。",
+      "textLocalized": {
+        "zhHans": "魏武有子数十，唯我最长。",
+        "zhHant": "魏武有子數十，唯我最長。"
+      },
+      "group": {
+        "slug": "spell-3086",
+        "name": "长姬",
+        "displayName": {
+          "zhHans": "长姬",
+          "zhHant": "長姬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/498qinghegongzhu-bf906f4e/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/498qinghegongzhu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinghegongzhu--498qinghegongzhu--1skill2_2",
+      "resourceId": "498qinghegongzhu/1skill2_2",
+      "text": "长姐为大，众弟怎可背之？",
+      "textLocalized": {
+        "zhHans": "长姐为大，众弟怎可背之？",
+        "zhHant": "長姐爲大，衆弟怎可背之？"
+      },
+      "group": {
+        "slug": "spell-3086",
+        "name": "长姬",
+        "displayName": {
+          "zhHans": "长姬",
+          "zhHant": "長姬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/498qinghegongzhu-bf906f4e/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/498qinghegongzhu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

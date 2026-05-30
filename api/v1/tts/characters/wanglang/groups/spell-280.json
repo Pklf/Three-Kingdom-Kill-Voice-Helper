@@ -1,3 +1,494 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0cff2f64bd8eebd8c7ee6a4c0b10b5fa081895273048774a59de23131840b8e3
-size 14538
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wanglang",
+    "command": "wanglang",
+    "name": "王朗",
+    "displayName": {
+      "zhHans": "王朗",
+      "zhHant": "王朗"
+    },
+    "names": [
+      "王朗"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王朗",
+        "zhHant": "王朗"
+      }
+    ],
+    "ids": [
+      "350"
+    ],
+    "sourceNames": [
+      "王朗"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王朗",
+        "zhHant": "王朗"
+      }
+    ],
+    "sourceIds": [
+      "350"
+    ],
+    "searchNames": [
+      "wanglang",
+      "王朗"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/dead.json"
+      },
+      {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/spell-280.json"
+      },
+      {
+        "slug": "spell-281",
+        "name": "激词",
+        "displayName": {
+          "zhHans": "激词",
+          "zhHant": "激詞"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/spell-281.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35005",
+        "name": "四世三公",
+        "displayName": {
+          "zhHans": "四世三公",
+          "zhHant": "四世三公"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35005.json"
+      },
+      {
+        "slug": "skin-35003",
+        "name": "抒言辨思",
+        "displayName": {
+          "zhHans": "抒言辨思",
+          "zhHant": "抒言辨思"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35003.json"
+      },
+      {
+        "slug": "skin-35004",
+        "name": "渊薮临危",
+        "displayName": {
+          "zhHans": "渊薮临危",
+          "zhHant": "淵藪臨危"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35004.json"
+      },
+      {
+        "slug": "skin-35006",
+        "name": "骧龙御宇",
+        "displayName": {
+          "zhHans": "骧龙御宇",
+          "zhHant": "驤龍御宇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35006.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wanglang.json",
+      "groups": "api/v1/tts/characters/wanglang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wanglang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-280",
+    "name": "鼓舌",
+    "displayName": {
+      "zhHans": "鼓舌",
+      "zhHant": "鼓舌"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/wanglang/groups/spell-280.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "wanglang--350wanglang--1skill1_1",
+      "resourceId": "350wanglang/1skill1_1",
+      "text": "公既知天命，识时务，|为何要兴无名之师，犯我疆界？",
+      "textLocalized": {
+        "zhHans": "公既知天命，识时务，|为何要兴无名之师，犯我疆界？",
+        "zhHant": "公既知天命，識時務，|爲何要興無名之師，犯我疆界？"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--1skill1_2",
+      "resourceId": "350wanglang/1skill1_2",
+      "text": "你若倒戈卸甲，以礼来降，仍不失封侯之位。|国安民乐，岂不美哉？",
+      "textLocalized": {
+        "zhHans": "你若倒戈卸甲，以礼来降，仍不失封侯之位。|国安民乐，岂不美哉？",
+        "zhHant": "你若倒戈卸甲，以禮來降，仍不失封侯之位。|國安民樂，豈不美哉？"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--5skill1_1",
+      "resourceId": "350wanglang/5skill1_1",
+      "text": "此话一出，定叫蜀兵不战自退。",
+      "textLocalized": {
+        "zhHans": "此话一出，定叫蜀兵不战自退。",
+        "zhHant": "此話一出，定叫蜀兵不戰自退。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35005",
+          "name": "四世三公",
+          "displayName": {
+            "zhHans": "四世三公",
+            "zhHant": "四世三公"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--5skill1_2",
+      "resourceId": "350wanglang/5skill1_2",
+      "text": "高论之谈，必叫汝拱手而降。",
+      "textLocalized": {
+        "zhHans": "高论之谈，必叫汝拱手而降。",
+        "zhHant": "高論之談，必叫汝拱手而降。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35005",
+          "name": "四世三公",
+          "displayName": {
+            "zhHans": "四世三公",
+            "zhHant": "四世三公"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--3skill1_1",
+      "resourceId": "350wanglang/3skill1_1",
+      "text": "清扫六合，席卷八荒。",
+      "textLocalized": {
+        "zhHans": "清扫六合，席卷八荒。",
+        "zhHant": "清掃六合，席捲八荒。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35003",
+          "name": "抒言辨思",
+          "displayName": {
+            "zhHans": "抒言辨思",
+            "zhHant": "抒言辨思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--3skill1_2",
+      "resourceId": "350wanglang/3skill1_2",
+      "text": "神文圣武，以应大统。",
+      "textLocalized": {
+        "zhHans": "神文圣武，以应大统。",
+        "zhHant": "神文聖武，以應大統。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35003",
+          "name": "抒言辨思",
+          "displayName": {
+            "zhHans": "抒言辨思",
+            "zhHant": "抒言辨思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--4skill1_1",
+      "resourceId": "350wanglang/4skill1_1",
+      "text": "万姓倾心，四方仰德。",
+      "textLocalized": {
+        "zhHans": "万姓倾心，四方仰德。",
+        "zhHant": "萬姓傾心，四方仰德。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35004",
+          "name": "渊薮临危",
+          "displayName": {
+            "zhHans": "渊薮临危",
+            "zhHant": "淵藪臨危"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--4skill1_2",
+      "resourceId": "350wanglang/4skill1_2",
+      "text": "饶舌之蛊心，敌自败也。",
+      "textLocalized": {
+        "zhHans": "饶舌之蛊心，敌自败也。",
+        "zhHant": "饒舌之蠱心，敵自敗也。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35004",
+          "name": "渊薮临危",
+          "displayName": {
+            "zhHans": "渊薮临危",
+            "zhHant": "淵藪臨危"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--6skill1_1",
+      "resourceId": "350wanglang/6skill1_1",
+      "text": "承寇贼之要，相时而后动，|择地而后行，一举更无余事。",
+      "textLocalized": {
+        "zhHans": "承寇贼之要，相时而后动，|择地而后行，一举更无余事。",
+        "zhHant": "承寇賊之要，相時而後動，|擇地而後行，一舉更無餘事。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35006",
+          "name": "骧龙御宇",
+          "displayName": {
+            "zhHans": "骧龙御宇",
+            "zhHant": "驤龍御宇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--6skill1_2",
+      "resourceId": "350wanglang/6skill1_2",
+      "text": "春秋之义，求诸侯莫如勤王。|今天王在魏都，宜遣使奉承王命。",
+      "textLocalized": {
+        "zhHans": "春秋之义，求诸侯莫如勤王。|今天王在魏都，宜遣使奉承王命。",
+        "zhHant": "春秋之義，求諸侯莫如勤王。|今天王在魏都，宜遣使奉承王命。"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35006",
+          "name": "骧龙御宇",
+          "displayName": {
+            "zhHans": "骧龙御宇",
+            "zhHant": "驤龍御宇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,155 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:33777455ef4d8fef43630bbc0bb4d9f5e43795788d6e0501c7eeb10d7595b310
-size 3832
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "xugou",
+    "command": "xugou",
+    "name": "戌狗",
+    "displayName": {
+      "zhHans": "戌狗",
+      "zhHant": "戌狗"
+    },
+    "names": [
+      "戌狗"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "戌狗",
+        "zhHant": "戌狗"
+      }
+    ],
+    "ids": [
+      "4093"
+    ],
+    "sourceNames": [
+      "戌狗"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "戌狗",
+        "zhHant": "戌狗"
+      }
+    ],
+    "sourceIds": [
+      "4093"
+    ],
+    "searchNames": [
+      "xugou",
+      "戌狗"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/xugou/groups/dead.json"
+      },
+      {
+        "slug": "spell-1211",
+        "name": "戌狗",
+        "displayName": {
+          "zhHans": "戌狗",
+          "zhHant": "戌狗"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/xugou/groups/spell-1211.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xugou/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xugou.json",
+      "groups": "api/v1/tts/characters/xugou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xugou/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "xugou--4093xugou--1dead01",
+      "resourceId": "4093xugou/1dead01",
+      "text": "不能守护家园了。",
+      "textLocalized": {
+        "zhHans": "不能守护家园了。",
+        "zhHant": "不能守護家園了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4093xugou-d0e1284f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4093xugou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xugou--4093xugou--1skill1_1",
+      "resourceId": "4093xugou/1skill1_1",
+      "text": "驱邪吠恶，遇凶斩杀！",
+      "textLocalized": {
+        "zhHans": "驱邪吠恶，遇凶斩杀！",
+        "zhHant": "驅邪吠惡，遇兇斬殺！"
+      },
+      "group": {
+        "slug": "spell-1211",
+        "name": "戌狗",
+        "displayName": {
+          "zhHans": "戌狗",
+          "zhHant": "戌狗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4093xugou-d0e1284f/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4093xugou/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

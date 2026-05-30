@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f0420bda819dac2e4f026c97ab5e629bf15e48ce87b458097a6101d604eb8f8a
-size 8574
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiezhoufang",
+    "command": "jiezhoufang",
+    "name": "周鲂",
+    "displayName": {
+      "zhHans": "周鲂",
+      "zhHant": "周魴"
+    },
+    "names": [
+      "周鲂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周鲂",
+        "zhHant": "周魴"
+      }
+    ],
+    "ids": [
+      "468"
+    ],
+    "sourceNames": [
+      "周鲂"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周鲂",
+        "zhHant": "周魴"
+      }
+    ],
+    "sourceIds": [
+      "468"
+    ],
+    "searchNames": [
+      "jiezhoufang",
+      "周鲂",
+      "周魴"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/groups/dead.json"
+      },
+      {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/groups/spell-953.json"
+      },
+      {
+        "slug": "spell-954",
+        "name": "断发",
+        "displayName": {
+          "zhHans": "断发",
+          "zhHant": "斷髮"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/groups/spell-954.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-46802",
+        "name": "书笺诱休",
+        "displayName": {
+          "zhHans": "书笺诱休",
+          "zhHant": "書箋誘休"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/skins/skin-46802.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46803",
+        "name": "带军鄱阳",
+        "displayName": {
+          "zhHans": "带军鄱阳",
+          "zhHant": "帶軍鄱陽"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/skins/skin-46803.json"
+      },
+      {
+        "slug": "skin-46801",
+        "name": "笺书诱敌",
+        "displayName": {
+          "zhHans": "笺书诱敌",
+          "zhHant": "箋書誘敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezhoufang/skins/skin-46801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiezhoufang.json",
+      "groups": "api/v1/tts/characters/jiezhoufang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiezhoufang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-46801",
+    "name": "笺书诱敌",
+    "displayName": {
+      "zhHans": "笺书诱敌",
+      "zhHant": "箋書誘敵"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jiezhoufang/skins/skin-46801.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jiezhoufang--468jiezhoufang--2dead01",
+      "resourceId": "468jiezhoufang/2dead01",
+      "text": "毁家纾[shū]难，功败垂成。",
+      "textLocalized": {
+        "zhHans": "毁家纾[shū]难，功败垂成。",
+        "zhHant": "毀家紓[shū]難，功敗垂成。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46801",
+          "name": "笺书诱敌",
+          "displayName": {
+            "zhHans": "笺书诱敌",
+            "zhHant": "箋書誘敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--2skill1_1",
+      "resourceId": "468jiezhoufang/2skill1_1",
+      "text": "抛砖引玉，黄雀捕蝉",
+      "textLocalized": {
+        "zhHans": "抛砖引玉，黄雀捕蝉",
+        "zhHant": "拋磚引玉，黃雀捕蟬"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46801",
+          "name": "笺书诱敌",
+          "displayName": {
+            "zhHans": "笺书诱敌",
+            "zhHant": "箋書誘敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--2skill1_2",
+      "resourceId": "468jiezhoufang/2skill1_2",
+      "text": "引蛇出洞，诱敌入伏！",
+      "textLocalized": {
+        "zhHans": "引蛇出洞，诱敌入伏！",
+        "zhHant": "引蛇出洞，誘敵入伏！"
+      },
+      "group": {
+        "slug": "spell-953",
+        "name": "诱敌",
+        "displayName": {
+          "zhHans": "诱敌",
+          "zhHant": "誘敵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46801",
+          "name": "笺书诱敌",
+          "displayName": {
+            "zhHans": "笺书诱敌",
+            "zhHant": "箋書誘敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--2skill2_1",
+      "resourceId": "468jiezhoufang/2skill2_1",
+      "text": "发肤之创，焉能无信？",
+      "textLocalized": {
+        "zhHans": "发肤之创，焉能无信？",
+        "zhHant": "髮膚之創，焉能無信？"
+      },
+      "group": {
+        "slug": "spell-954",
+        "name": "断发",
+        "displayName": {
+          "zhHans": "断发",
+          "zhHant": "斷髮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46801",
+          "name": "笺书诱敌",
+          "displayName": {
+            "zhHans": "笺书诱敌",
+            "zhHant": "箋書誘敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezhoufang--468jiezhoufang--2skill2_2",
+      "resourceId": "468jiezhoufang/2skill2_2",
+      "text": "以发明誓，足证我心。",
+      "textLocalized": {
+        "zhHans": "以发明誓，足证我心。",
+        "zhHant": "以發明誓，足證我心。"
+      },
+      "group": {
+        "slug": "spell-954",
+        "name": "断发",
+        "displayName": {
+          "zhHans": "断发",
+          "zhHant": "斷髮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46801",
+          "name": "笺书诱敌",
+          "displayName": {
+            "zhHans": "笺书诱敌",
+            "zhHant": "箋書誘敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/468jiezhoufang-0af873e2/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/468jiezhoufang/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

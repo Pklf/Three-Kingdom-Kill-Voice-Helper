@@ -1,3 +1,334 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6e5f59a596181aa24fd450de5116564404e61829a3557f7926266e6eb5d79fd4
-size 9237
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangyi",
+    "command": "zhangyi",
+    "name": "张嶷",
+    "displayName": {
+      "zhHans": "张嶷",
+      "zhHant": "張嶷"
+    },
+    "names": [
+      "张嶷",
+      "张翼"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张嶷",
+        "zhHant": "張嶷"
+      },
+      {
+        "zhHans": "张翼",
+        "zhHant": "張翼"
+      }
+    ],
+    "ids": [
+      "337",
+      "541"
+    ],
+    "sourceNames": [
+      "张嶷",
+      "张翼"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张嶷",
+        "zhHant": "張嶷"
+      },
+      {
+        "zhHans": "张翼",
+        "zhHant": "張翼"
+      }
+    ],
+    "sourceIds": [
+      "337",
+      "541"
+    ],
+    "searchNames": [
+      "zhangyi",
+      "张嶷",
+      "張嶷",
+      "张翼",
+      "張翼"
+    ],
+    "lineCount": 19,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangyi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3234",
+        "name": "殿军",
+        "displayName": {
+          "zhHans": "殿军",
+          "zhHant": "殿軍"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangyi/groups/spell-3234.json"
+      },
+      {
+        "slug": "spell-3235",
+        "name": "亢锐",
+        "displayName": {
+          "zhHans": "亢锐",
+          "zhHant": "亢銳"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangyi/groups/spell-3235.json"
+      },
+      {
+        "slug": "spell-740",
+        "name": "怃戎",
+        "displayName": {
+          "zhHans": "怃戎",
+          "zhHant": "憮戎"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhangyi/groups/spell-740.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangyi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-33703",
+        "name": "持刀破敌",
+        "displayName": {
+          "zhHans": "持刀破敌",
+          "zhHant": "持刀破敵"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangyi/skins/skin-33703.json"
+      },
+      {
+        "slug": "skin-54101",
+        "name": "百战酣胆",
+        "displayName": {
+          "zhHans": "百战酣胆",
+          "zhHant": "百戰酣膽"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangyi/skins/skin-54101.json"
+      },
+      {
+        "slug": "skin-33702",
+        "name": "秋叶横刀",
+        "displayName": {
+          "zhHans": "秋叶横刀",
+          "zhHant": "秋葉橫刀"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangyi/skins/skin-33702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangyi.json",
+      "groups": "api/v1/tts/characters/zhangyi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangyi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-54101",
+    "name": "百战酣胆",
+    "displayName": {
+      "zhHans": "百战酣胆",
+      "zhHant": "百戰酣膽"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhangyi/skins/skin-54101.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhangyi--541zhangyi--2dead01",
+      "resourceId": "541zhangyi/2dead01",
+      "text": "将军死沙场，其死得其所。",
+      "textLocalized": {
+        "zhHans": "将军死沙场，其死得其所。",
+        "zhHant": "將軍死沙場，其死得其所。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54101",
+          "name": "百战酣胆",
+          "displayName": {
+            "zhHans": "百战酣胆",
+            "zhHant": "百戰酣膽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/541zhangyi-73203df9/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/541zhangyi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangyi--541zhangyi--2skill1_1",
+      "resourceId": "541zhangyi/2skill1_1",
+      "text": "典军司校，此间无规矩不可成其方圆。",
+      "textLocalized": {
+        "zhHans": "典军司校，此间无规矩不可成其方圆。",
+        "zhHant": "典軍司校，此間無規矩不可成其方圓。"
+      },
+      "group": {
+        "slug": "spell-3234",
+        "name": "殿军",
+        "displayName": {
+          "zhHans": "殿军",
+          "zhHant": "殿軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54101",
+          "name": "百战酣胆",
+          "displayName": {
+            "zhHans": "百战酣胆",
+            "zhHant": "百戰酣膽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/541zhangyi-73203df9/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/541zhangyi/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangyi--541zhangyi--2skill1_2",
+      "resourceId": "541zhangyi/2skill1_2",
+      "text": "三军之锐为先锋，三军之柱为司殿。",
+      "textLocalized": {
+        "zhHans": "三军之锐为先锋，三军之柱为司殿。",
+        "zhHant": "三軍之銳爲先鋒，三軍之柱爲司殿。"
+      },
+      "group": {
+        "slug": "spell-3234",
+        "name": "殿军",
+        "displayName": {
+          "zhHans": "殿军",
+          "zhHant": "殿軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54101",
+          "name": "百战酣胆",
+          "displayName": {
+            "zhHans": "百战酣胆",
+            "zhHant": "百戰酣膽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/541zhangyi-73203df9/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/541zhangyi/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangyi--541zhangyi--2skill2_1",
+      "resourceId": "541zhangyi/2skill2_1",
+      "text": "逆贼在侧，赳赳大汉之武夫岂能卧榻而束手。",
+      "textLocalized": {
+        "zhHans": "逆贼在侧，赳赳大汉之武夫岂能卧榻而束手。",
+        "zhHant": "逆賊在側，赳赳大漢之武夫豈能臥榻而束手。"
+      },
+      "group": {
+        "slug": "spell-3235",
+        "name": "亢锐",
+        "displayName": {
+          "zhHans": "亢锐",
+          "zhHant": "亢銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54101",
+          "name": "百战酣胆",
+          "displayName": {
+            "zhHans": "百战酣胆",
+            "zhHant": "百戰酣膽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/541zhangyi-73203df9/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/541zhangyi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangyi--541zhangyi--2skill2_2",
+      "resourceId": "541zhangyi/2skill2_2",
+      "text": "沙场行役，一鼓作气，直捣伪魏之黄龙。",
+      "textLocalized": {
+        "zhHans": "沙场行役，一鼓作气，直捣伪魏之黄龙。",
+        "zhHant": "沙場行役，一鼓作氣，直搗僞魏之黃龍。"
+      },
+      "group": {
+        "slug": "spell-3235",
+        "name": "亢锐",
+        "displayName": {
+          "zhHans": "亢锐",
+          "zhHant": "亢銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54101",
+          "name": "百战酣胆",
+          "displayName": {
+            "zhHans": "百战酣胆",
+            "zhHant": "百戰酣膽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/541zhangyi-73203df9/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/541zhangyi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

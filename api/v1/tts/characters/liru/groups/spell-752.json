@@ -1,3 +1,476 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:343e4ae179b25937b6818a4582502f8b3f1a3e92eeed2a85c961fc7adcb094a1
-size 13120
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liru",
+    "command": "liru",
+    "name": "李儒",
+    "displayName": {
+      "zhHans": "李儒",
+      "zhHant": "李儒"
+    },
+    "names": [
+      "李儒"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李儒",
+        "zhHant": "李儒"
+      }
+    ],
+    "ids": [
+      "184"
+    ],
+    "sourceNames": [
+      "李儒"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李儒",
+        "zhHant": "李儒"
+      }
+    ],
+    "sourceIds": [
+      "184"
+    ],
+    "searchNames": [
+      "liru",
+      "李儒"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liru/groups/dead.json"
+      },
+      {
+        "slug": "spell-750",
+        "name": "灭计",
+        "displayName": {
+          "zhHans": "灭计",
+          "zhHant": "滅計"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liru/groups/spell-750.json"
+      },
+      {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liru/groups/spell-751.json"
+      },
+      {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liru/groups/spell-752.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "q",
+        "name": "Q版形象",
+        "displayName": {
+          "zhHans": "Q版形象",
+          "zhHant": "Q版形象"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/q.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-18405",
+        "name": "烈火焚城",
+        "displayName": {
+          "zhHans": "烈火焚城",
+          "zhHant": "烈火焚城"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-18405.json"
+      },
+      {
+        "slug": "skin-18402",
+        "name": "绝世之谋",
+        "displayName": {
+          "zhHans": "绝世之谋",
+          "zhHant": "絕世之謀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-18402.json"
+      },
+      {
+        "slug": "skin-18406",
+        "name": "绝策魔仕",
+        "displayName": {
+          "zhHans": "绝策魔仕",
+          "zhHant": "絕策魔仕"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-18406.json"
+      },
+      {
+        "slug": "skin-18407",
+        "name": "送毒篡权",
+        "displayName": {
+          "zhHans": "送毒篡权",
+          "zhHant": "送毒篡權"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-18407.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liru.json",
+      "groups": "api/v1/tts/characters/liru/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liru/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-752",
+    "name": "焚城",
+    "displayName": {
+      "zhHans": "焚城",
+      "zhHant": "焚城"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/liru/groups/spell-752.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "liru--184liru--3skill3_1",
+      "resourceId": "184liru/3skill3_1",
+      "text": "此城，于我已无用！",
+      "textLocalized": {
+        "zhHans": "此城，于我已无用！",
+        "zhHant": "此城，於我已無用！"
+      },
+      "group": {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-18402",
+          "name": "绝世之谋",
+          "displayName": {
+            "zhHans": "绝世之谋",
+            "zhHant": "絕世之謀"
+          }
+        },
+        {
+          "slug": "skin-18407",
+          "name": "送毒篡权",
+          "displayName": {
+            "zhHans": "送毒篡权",
+            "zhHant": "送毒篡權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--3skill3_2",
+      "resourceId": "184liru/3skill3_2",
+      "text": "哼哈哈哈，看你们再往哪里躲！",
+      "textLocalized": {
+        "zhHans": "哼哈哈哈，看你们再往哪里躲！",
+        "zhHant": "哼哈哈哈，看你們再往哪裏躲！"
+      },
+      "group": {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-18402",
+          "name": "绝世之谋",
+          "displayName": {
+            "zhHans": "绝世之谋",
+            "zhHant": "絕世之謀"
+          }
+        },
+        {
+          "slug": "skin-18407",
+          "name": "送毒篡权",
+          "displayName": {
+            "zhHans": "送毒篡权",
+            "zhHant": "送毒篡權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--1skill3_1",
+      "resourceId": "184liru/1skill3_1",
+      "text": "让这一切都灰飞烟灭吧！",
+      "textLocalized": {
+        "zhHans": "让这一切都灰飞烟灭吧！",
+        "zhHant": "讓這一切都灰飛煙滅吧！"
+      },
+      "group": {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--1skill3_2",
+      "resourceId": "184liru/1skill3_2",
+      "text": "我得不到的，你们也别想得到！",
+      "textLocalized": {
+        "zhHans": "我得不到的，你们也别想得到！",
+        "zhHant": "我得不到的，你們也別想得到！"
+      },
+      "group": {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--4skill3_1",
+      "resourceId": "184liru/4skill3_1",
+      "text": "我要这满城的人都来给你陪葬。",
+      "textLocalized": {
+        "zhHans": "我要这满城的人都来给你陪葬。",
+        "zhHant": "我要這滿城的人都來給你陪葬。"
+      },
+      "group": {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18405",
+          "name": "烈火焚城",
+          "displayName": {
+            "zhHans": "烈火焚城",
+            "zhHant": "烈火焚城"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--4skill3_2",
+      "resourceId": "184liru/4skill3_2",
+      "text": "一把火烧他个精光吧！",
+      "textLocalized": {
+        "zhHans": "一把火烧他个精光吧！",
+        "zhHant": "一把火燒他個精光吧！"
+      },
+      "group": {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18405",
+          "name": "烈火焚城",
+          "displayName": {
+            "zhHans": "烈火焚城",
+            "zhHant": "烈火焚城"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--5skill3_1",
+      "resourceId": "184liru/5skill3_1",
+      "text": "城郭燃烧时的惨叫，是如此的动听。",
+      "textLocalized": {
+        "zhHans": "城郭燃烧时的惨叫，是如此的动听。",
+        "zhHant": "城郭燃燒時的慘叫，是如此的動聽。"
+      },
+      "group": {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18406",
+          "name": "绝策魔仕",
+          "displayName": {
+            "zhHans": "绝策魔仕",
+            "zhHant": "絕策魔仕"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/5skill3-1-81c515c2.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/5skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--5skill3_2",
+      "resourceId": "184liru/5skill3_2",
+      "text": "尽情哀嚎吧，这是你们最后的声音。",
+      "textLocalized": {
+        "zhHans": "尽情哀嚎吧，这是你们最后的声音。",
+        "zhHant": "盡情哀嚎吧，這是你們最後的聲音。"
+      },
+      "group": {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18406",
+          "name": "绝策魔仕",
+          "displayName": {
+            "zhHans": "绝策魔仕",
+            "zhHant": "絕策魔仕"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/5skill3-2-edc71423.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/5skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

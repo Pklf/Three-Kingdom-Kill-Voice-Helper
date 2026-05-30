@@ -1,3 +1,410 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2609d1f2bcfdfac4c3914ea31ea6fdc355a95cceaf66f5bd055fc77d6edc4a94
-size 11477
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "handang",
+    "command": "handang",
+    "name": "韩当",
+    "displayName": {
+      "zhHans": "韩当",
+      "zhHant": "韓當"
+    },
+    "names": [
+      "韩当"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "韩当",
+        "zhHant": "韓當"
+      }
+    ],
+    "ids": [
+      "170"
+    ],
+    "sourceNames": [
+      "韩当"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "韩当",
+        "zhHant": "韓當"
+      }
+    ],
+    "sourceIds": [
+      "170"
+    ],
+    "searchNames": [
+      "handang",
+      "韩当",
+      "韓當"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/handang/groups/dead.json"
+      },
+      {
+        "slug": "spell-433",
+        "name": "弓骑",
+        "displayName": {
+          "zhHans": "弓骑",
+          "zhHant": "弓騎"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/handang/groups/spell-433.json"
+      },
+      {
+        "slug": "spell-434",
+        "name": "解烦",
+        "displayName": {
+          "zhHans": "解烦",
+          "zhHant": "解煩"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/handang/groups/spell-434.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-17001",
+        "name": "从击敌寇",
+        "displayName": {
+          "zhHans": "从击敌寇",
+          "zhHant": "從擊敵寇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/handang/skins/skin-17001.json"
+      },
+      {
+        "slug": "skin-17001-17002",
+        "name": "从击敌寇,厉兵昭武",
+        "displayName": {
+          "zhHans": "从击敌寇,厉兵昭武",
+          "zhHant": "從擊敵寇,厲兵昭武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/handang/skins/skin-17001-17002.json"
+      },
+      {
+        "slug": "skin-17002",
+        "name": "厉兵昭武",
+        "displayName": {
+          "zhHans": "厉兵昭武",
+          "zhHant": "厲兵昭武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/handang/skins/skin-17002.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/handang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-17003",
+        "name": "旋击敌寇",
+        "displayName": {
+          "zhHans": "旋击敌寇",
+          "zhHant": "旋擊敵寇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/handang/skins/skin-17003.json"
+      },
+      {
+        "slug": "skin-17006",
+        "name": "箭厉沙场",
+        "displayName": {
+          "zhHans": "箭厉沙场",
+          "zhHant": "箭厲沙場"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/handang/skins/skin-17006.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/handang.json",
+      "groups": "api/v1/tts/characters/handang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/handang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-17001-17002",
+    "name": "从击敌寇,厉兵昭武",
+    "displayName": {
+      "zhHans": "从击敌寇,厉兵昭武",
+      "zhHant": "從擊敵寇,厲兵昭武"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/handang/skins/skin-17001-17002.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "handang--170handang--3dead01",
+      "resourceId": "170handang/3dead01",
+      "text": "臣将战死，难为君王解忧了。",
+      "textLocalized": {
+        "zhHans": "臣将战死，难为君王解忧了。",
+        "zhHant": "臣將戰死，難爲君王解憂了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17001",
+          "name": "从击敌寇",
+          "displayName": {
+            "zhHans": "从击敌寇",
+            "zhHant": "從擊敵寇"
+          }
+        },
+        {
+          "slug": "skin-17002",
+          "name": "厉兵昭武",
+          "displayName": {
+            "zhHans": "厉兵昭武",
+            "zhHant": "厲兵昭武"
+          }
+        },
+        {
+          "slug": "skin-17001-17002",
+          "name": "从击敌寇,厉兵昭武",
+          "displayName": {
+            "zhHans": "从击敌寇,厉兵昭武",
+            "zhHant": "從擊敵寇,厲兵昭武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/170handang-b94faf19/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/170handang/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "handang--170handang--3skill1_1",
+      "resourceId": "170handang/3skill1_1",
+      "text": "看我箭弩弓张，取你性命！",
+      "textLocalized": {
+        "zhHans": "看我箭弩弓张，取你性命！",
+        "zhHant": "看我箭弩弓張，取你性命！"
+      },
+      "group": {
+        "slug": "spell-433",
+        "name": "弓骑",
+        "displayName": {
+          "zhHans": "弓骑",
+          "zhHant": "弓騎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17001",
+          "name": "从击敌寇",
+          "displayName": {
+            "zhHans": "从击敌寇",
+            "zhHant": "從擊敵寇"
+          }
+        },
+        {
+          "slug": "skin-17002",
+          "name": "厉兵昭武",
+          "displayName": {
+            "zhHans": "厉兵昭武",
+            "zhHant": "厲兵昭武"
+          }
+        },
+        {
+          "slug": "skin-17001-17002",
+          "name": "从击敌寇,厉兵昭武",
+          "displayName": {
+            "zhHans": "从击敌寇,厉兵昭武",
+            "zhHant": "從擊敵寇,厲兵昭武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/170handang-b94faf19/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/170handang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "handang--170handang--3skill1_2",
+      "resourceId": "170handang/3skill1_2",
+      "text": "龙驹陷阵，神弓破敌！",
+      "textLocalized": {
+        "zhHans": "龙驹陷阵，神弓破敌！",
+        "zhHant": "龍駒陷陣，神弓破敵！"
+      },
+      "group": {
+        "slug": "spell-433",
+        "name": "弓骑",
+        "displayName": {
+          "zhHans": "弓骑",
+          "zhHant": "弓騎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17001",
+          "name": "从击敌寇",
+          "displayName": {
+            "zhHans": "从击敌寇",
+            "zhHant": "從擊敵寇"
+          }
+        },
+        {
+          "slug": "skin-17002",
+          "name": "厉兵昭武",
+          "displayName": {
+            "zhHans": "厉兵昭武",
+            "zhHant": "厲兵昭武"
+          }
+        },
+        {
+          "slug": "skin-17001-17002",
+          "name": "从击敌寇,厉兵昭武",
+          "displayName": {
+            "zhHans": "从击敌寇,厉兵昭武",
+            "zhHant": "從擊敵寇,厲兵昭武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/170handang-b94faf19/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/170handang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "handang--170handang--3skill2_1",
+      "resourceId": "170handang/3skill2_1",
+      "text": "公且放心，这里有我。",
+      "textLocalized": {
+        "zhHans": "公且放心，这里有我。",
+        "zhHant": "公且放心，這裏有我。"
+      },
+      "group": {
+        "slug": "spell-434",
+        "name": "解烦",
+        "displayName": {
+          "zhHans": "解烦",
+          "zhHant": "解煩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17001",
+          "name": "从击敌寇",
+          "displayName": {
+            "zhHans": "从击敌寇",
+            "zhHant": "從擊敵寇"
+          }
+        },
+        {
+          "slug": "skin-17002",
+          "name": "厉兵昭武",
+          "displayName": {
+            "zhHans": "厉兵昭武",
+            "zhHant": "厲兵昭武"
+          }
+        },
+        {
+          "slug": "skin-17001-17002",
+          "name": "从击敌寇,厉兵昭武",
+          "displayName": {
+            "zhHans": "从击敌寇,厉兵昭武",
+            "zhHant": "從擊敵寇,厲兵昭武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/170handang-b94faf19/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/170handang/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "handang--170handang--3skill2_2",
+      "resourceId": "170handang/3skill2_2",
+      "text": "排愁消烦忧，祛害避凶邪。",
+      "textLocalized": {
+        "zhHans": "排愁消烦忧，祛害避凶邪。",
+        "zhHant": "排愁消煩憂，祛害避兇邪。"
+      },
+      "group": {
+        "slug": "spell-434",
+        "name": "解烦",
+        "displayName": {
+          "zhHans": "解烦",
+          "zhHant": "解煩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17001",
+          "name": "从击敌寇",
+          "displayName": {
+            "zhHans": "从击敌寇",
+            "zhHant": "從擊敵寇"
+          }
+        },
+        {
+          "slug": "skin-17002",
+          "name": "厉兵昭武",
+          "displayName": {
+            "zhHans": "厉兵昭武",
+            "zhHant": "厲兵昭武"
+          }
+        },
+        {
+          "slug": "skin-17001-17002",
+          "name": "从击敌寇,厉兵昭武",
+          "displayName": {
+            "zhHans": "从击敌寇,厉兵昭武",
+            "zhHant": "從擊敵寇,厲兵昭武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/170handang-b94faf19/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/170handang/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

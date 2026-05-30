@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:005286e1a175a848e8f4618e804d04ac46529a008412347d355e101eba175b76
-size 4771
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wanghun",
+    "command": "wanghun",
+    "name": "族王浑",
+    "displayName": {
+      "zhHans": "族王浑",
+      "zhHant": "族王渾"
+    },
+    "names": [
+      "族王浑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族王浑",
+        "zhHant": "族王渾"
+      }
+    ],
+    "ids": [
+      "574"
+    ],
+    "sourceNames": [
+      "族王浑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族王浑",
+        "zhHant": "族王渾"
+      }
+    ],
+    "sourceIds": [
+      "574"
+    ],
+    "searchNames": [
+      "wanghun",
+      "族王浑",
+      "族王渾"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wanghun/groups/dead.json"
+      },
+      {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wanghun/groups/spell-3297.json"
+      },
+      {
+        "slug": "spell-3339",
+        "name": "抚循",
+        "displayName": {
+          "zhHans": "抚循",
+          "zhHant": "撫循"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wanghun/groups/spell-3339.json"
+      },
+      {
+        "slug": "spell-3340",
+        "name": "沉雅",
+        "displayName": {
+          "zhHans": "沉雅",
+          "zhHant": "沉雅"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wanghun/groups/spell-3340.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wanghun/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wanghun.json",
+      "groups": "api/v1/tts/characters/wanghun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wanghun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3297",
+    "name": "中流",
+    "displayName": {
+      "zhHans": "中流",
+      "zhHant": "中流"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/wanghun/groups/spell-3297.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "wanghun--574wanghun--1skill3_1",
+      "resourceId": "574wanghun/1skill3_1",
+      "text": "国潮汹涌，当为中流之砥柱。",
+      "textLocalized": {
+        "zhHans": "国潮汹涌，当为中流之砥柱。",
+        "zhHant": "國潮洶湧，當爲中流之砥柱。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/574wanghun-77d9c649/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/574wanghun/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanghun--574wanghun--1skill3_2",
+      "resourceId": "574wanghun/1skill3_2",
+      "text": "执剑斩巨浪，息风波者出我辈。",
+      "textLocalized": {
+        "zhHans": "执剑斩巨浪，息风波者出我辈。",
+        "zhHant": "執劍斬巨浪，息風波者出我輩。"
+      },
+      "group": {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/574wanghun-77d9c649/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/574wanghun/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

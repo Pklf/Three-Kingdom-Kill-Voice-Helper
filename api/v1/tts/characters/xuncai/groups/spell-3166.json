@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a405c5f32b9243ffa6568a6f26f3f3f50a547ff64b9b2c4d466f8a10f7b3cf6f
-size 7432
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuncai",
+    "command": "xuncai",
+    "name": "族荀采",
+    "displayName": {
+      "zhHans": "族荀采",
+      "zhHant": "族荀採"
+    },
+    "names": [
+      "族荀采"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "ids": [
+      "524"
+    ],
+    "sourceNames": [
+      "族荀采"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "sourceIds": [
+      "524"
+    ],
+    "searchNames": [
+      "xuncai",
+      "族荀采",
+      "族荀採"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3171.json"
+      },
+      {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3172.json"
+      },
+      {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3173.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52401",
+        "name": "雅柔映采",
+        "displayName": {
+          "zhHans": "雅柔映采",
+          "zhHant": "雅柔映採"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-52401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuncai.json",
+      "groups": "api/v1/tts/characters/xuncai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuncai/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3166",
+    "name": "蹈节",
+    "displayName": {
+      "zhHans": "蹈节",
+      "zhHant": "蹈節"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3166.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xuncai--524xuncai--1skill4_1",
+      "resourceId": "524xuncai/1skill4_1",
+      "text": "女子有节，宁死蹈之。",
+      "textLocalized": {
+        "zhHans": "女子有节，宁死蹈之。",
+        "zhHant": "女子有節，寧死蹈之。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill4-1-0d7b9304.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill4_2",
+      "resourceId": "524xuncai/1skill4_2",
+      "text": "荀氏三纲，死不贰嫁。",
+      "textLocalized": {
+        "zhHans": "荀氏三纲，死不贰嫁。",
+        "zhHant": "荀氏三綱，死不貳嫁。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill4-2-2415e0dd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--2skill4_1",
+      "resourceId": "524xuncai/2skill4_1",
+      "text": "父教我以仁，然今日为何教我以不仁乎？",
+      "textLocalized": {
+        "zhHans": "父教我以仁，然今日为何教我以不仁乎？",
+        "zhHant": "父教我以仁，然今日爲何教我以不仁乎？"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52401",
+          "name": "雅柔映采",
+          "displayName": {
+            "zhHans": "雅柔映采",
+            "zhHant": "雅柔映採"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/2skill4-1-460ffad0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/2skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--2skill4_2",
+      "resourceId": "524xuncai/2skill4_2",
+      "text": "我以节义待人，然人待我何其薄也。",
+      "textLocalized": {
+        "zhHans": "我以节义待人，然人待我何其薄也。",
+        "zhHant": "我以節義待人，然人待我何其薄也。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52401",
+          "name": "雅柔映采",
+          "displayName": {
+            "zhHans": "雅柔映采",
+            "zhHant": "雅柔映採"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/2skill4-2-23d7d1d9.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/2skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,415 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a69736ad03775078a57c29e4e730fb78b39b86fc2e92f228fa6f848362aa8fd3
-size 11715
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangzhi",
+    "command": "zhangzhi",
+    "name": "张芝",
+    "displayName": {
+      "zhHans": "张芝",
+      "zhHant": "張芝"
+    },
+    "names": [
+      "张芝"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张芝",
+        "zhHant": "張芝"
+      }
+    ],
+    "ids": [
+      "516"
+    ],
+    "sourceNames": [
+      "张芝"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张芝",
+        "zhHant": "張芝"
+      }
+    ],
+    "sourceIds": [
+      "516"
+    ],
+    "searchNames": [
+      "zhangzhi",
+      "张芝",
+      "張芝"
+    ],
+    "lineCount": 24,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangzhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3132",
+        "name": "笔心",
+        "displayName": {
+          "zhHans": "笔心",
+          "zhHant": "筆心"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhangzhi/groups/spell-3132.json"
+      },
+      {
+        "slug": "spell-3133",
+        "name": "洗墨",
+        "displayName": {
+          "zhHans": "洗墨",
+          "zhHant": "洗墨"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhangzhi/groups/spell-3133.json"
+      },
+      {
+        "slug": "spell-3134",
+        "name": "飞白",
+        "displayName": {
+          "zhHans": "飞白",
+          "zhHant": "飛白"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhangzhi/groups/spell-3134.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangzhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51601",
+        "name": "墨书清流",
+        "displayName": {
+          "zhHans": "墨书清流",
+          "zhHant": "墨書清流"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangzhi/skins/skin-51601.json"
+      },
+      {
+        "slug": "skin-51602",
+        "name": "韵墨濯荷",
+        "displayName": {
+          "zhHans": "韵墨濯荷",
+          "zhHant": "韻墨濯荷"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangzhi/skins/skin-51602.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangzhi.json",
+      "groups": "api/v1/tts/characters/zhangzhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangzhi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-51601",
+    "name": "墨书清流",
+    "displayName": {
+      "zhHans": "墨书清流",
+      "zhHant": "墨書清流"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/zhangzhi/skins/skin-51601.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "zhangzhi--516zhangzhi--2dead01",
+      "resourceId": "516zhangzhi/2dead01",
+      "text": "墨有干涸之时，人有寿尽之日。",
+      "textLocalized": {
+        "zhHans": "墨有干涸之时，人有寿尽之日。",
+        "zhHant": "墨有乾涸之時，人有壽盡之日。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51601",
+          "name": "墨书清流",
+          "displayName": {
+            "zhHans": "墨书清流",
+            "zhHant": "墨書清流"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/516zhangzhi-0feea0d3/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/516zhangzhi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangzhi--516zhangzhi--2skill1_1",
+      "resourceId": "516zhangzhi/2skill1_1",
+      "text": "论年鬓已斑，落笔心犹壮！",
+      "textLocalized": {
+        "zhHans": "论年鬓已斑，落笔心犹壮！",
+        "zhHant": "論年鬢已斑，落筆心猶壯！"
+      },
+      "group": {
+        "slug": "spell-3132",
+        "name": "笔心",
+        "displayName": {
+          "zhHans": "笔心",
+          "zhHant": "筆心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51601",
+          "name": "墨书清流",
+          "displayName": {
+            "zhHans": "墨书清流",
+            "zhHant": "墨書清流"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/516zhangzhi-0feea0d3/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/516zhangzhi/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangzhi--516zhangzhi--2skill1_2",
+      "resourceId": "516zhangzhi/2skill1_2",
+      "text": "雄文念当序，举笔心先扬。",
+      "textLocalized": {
+        "zhHans": "雄文念当序，举笔心先扬。",
+        "zhHant": "雄文念當序，舉筆心先揚。"
+      },
+      "group": {
+        "slug": "spell-3132",
+        "name": "笔心",
+        "displayName": {
+          "zhHans": "笔心",
+          "zhHant": "筆心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51601",
+          "name": "墨书清流",
+          "displayName": {
+            "zhHans": "墨书清流",
+            "zhHant": "墨書清流"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/516zhangzhi-0feea0d3/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/516zhangzhi/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangzhi--516zhangzhi--2skill2_1",
+      "resourceId": "516zhangzhi/2skill2_1",
+      "text": "池水尽墨，布帛余残。",
+      "textLocalized": {
+        "zhHans": "池水尽墨，布帛余残。",
+        "zhHant": "池水盡墨，布帛餘殘。"
+      },
+      "group": {
+        "slug": "spell-3133",
+        "name": "洗墨",
+        "displayName": {
+          "zhHans": "洗墨",
+          "zhHant": "洗墨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51601",
+          "name": "墨书清流",
+          "displayName": {
+            "zhHans": "墨书清流",
+            "zhHant": "墨書清流"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/516zhangzhi-0feea0d3/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/516zhangzhi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangzhi--516zhangzhi--2skill2_2",
+      "resourceId": "516zhangzhi/2skill2_2",
+      "text": "笔耕不辍，以待功成。",
+      "textLocalized": {
+        "zhHans": "笔耕不辍，以待功成。",
+        "zhHant": "筆耕不輟，以待功成。"
+      },
+      "group": {
+        "slug": "spell-3133",
+        "name": "洗墨",
+        "displayName": {
+          "zhHans": "洗墨",
+          "zhHant": "洗墨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51601",
+          "name": "墨书清流",
+          "displayName": {
+            "zhHans": "墨书清流",
+            "zhHant": "墨書清流"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/516zhangzhi-0feea0d3/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/516zhangzhi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangzhi--516zhangzhi--2skill2_3",
+      "resourceId": "516zhangzhi/2skill2_3",
+      "text": "苦练数十寒暑，皆为此时风采。",
+      "textLocalized": {
+        "zhHans": "苦练数十寒暑，皆为此时风采。",
+        "zhHant": "苦練數十寒暑，皆爲此時風采。"
+      },
+      "group": {
+        "slug": "spell-3133",
+        "name": "洗墨",
+        "displayName": {
+          "zhHans": "洗墨",
+          "zhHant": "洗墨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51601",
+          "name": "墨书清流",
+          "displayName": {
+            "zhHans": "墨书清流",
+            "zhHant": "墨書清流"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/516zhangzhi-0feea0d3/2skill2-3-2348e111.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/516zhangzhi/2skill2_3.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangzhi--516zhangzhi--2skill3_1",
+      "resourceId": "516zhangzhi/2skill3_1",
+      "text": "习前人之法，因而变之，以成今草。",
+      "textLocalized": {
+        "zhHans": "习前人之法，因而变之，以成今草。",
+        "zhHant": "習前人之法，因而變之，以成今草。"
+      },
+      "group": {
+        "slug": "spell-3134",
+        "name": "飞白",
+        "displayName": {
+          "zhHans": "飞白",
+          "zhHant": "飛白"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51601",
+          "name": "墨书清流",
+          "displayName": {
+            "zhHans": "墨书清流",
+            "zhHant": "墨書清流"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/516zhangzhi-0feea0d3/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/516zhangzhi/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangzhi--516zhangzhi--2skill3_2",
+      "resourceId": "516zhangzhi/2skill3_2",
+      "text": "若清涧长源，流而无限。",
+      "textLocalized": {
+        "zhHans": "若清涧长源，流而无限。",
+        "zhHant": "若清澗長源，流而無限。"
+      },
+      "group": {
+        "slug": "spell-3134",
+        "name": "飞白",
+        "displayName": {
+          "zhHans": "飞白",
+          "zhHant": "飛白"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51601",
+          "name": "墨书清流",
+          "displayName": {
+            "zhHans": "墨书清流",
+            "zhHant": "墨書清流"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/516zhangzhi-0feea0d3/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/516zhangzhi/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

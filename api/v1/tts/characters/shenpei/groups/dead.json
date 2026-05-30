@@ -1,3 +1,230 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e7356c79f8771e4daf74cae9e17d12b993d170c37175f535ca58fe277f0882f
-size 5976
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenpei",
+    "command": "shenpei",
+    "name": "审配",
+    "displayName": {
+      "zhHans": "审配",
+      "zhHant": "審配"
+    },
+    "names": [
+      "审配"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "审配",
+        "zhHant": "審配"
+      }
+    ],
+    "ids": [
+      "459"
+    ],
+    "sourceNames": [
+      "审配"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "审配",
+        "zhHant": "審配"
+      }
+    ],
+    "sourceIds": [
+      "459"
+    ],
+    "searchNames": [
+      "shenpei",
+      "审配",
+      "審配"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenpei/groups/dead.json"
+      },
+      {
+        "slug": "spell-1185",
+        "name": "刚直",
+        "displayName": {
+          "zhHans": "刚直",
+          "zhHant": "剛直"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenpei/groups/spell-1185.json"
+      },
+      {
+        "slug": "spell-1186",
+        "name": "备战",
+        "displayName": {
+          "zhHans": "备战",
+          "zhHant": "備戰"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenpei/groups/spell-1186.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenpei/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-45901",
+        "name": "坚守拒降",
+        "displayName": {
+          "zhHans": "坚守拒降",
+          "zhHant": "堅守拒降"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenpei/skins/skin-45901.json"
+      },
+      {
+        "slug": "skin-45902",
+        "name": "领弓破曹",
+        "displayName": {
+          "zhHans": "领弓破曹",
+          "zhHant": "領弓破曹"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenpei/skins/skin-45902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenpei.json",
+      "groups": "api/v1/tts/characters/shenpei/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenpei/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/shenpei/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "shenpei--459shenpei--1dead01",
+      "resourceId": "459shenpei/1dead01",
+      "text": "吾君在北，但求面北而亡。",
+      "textLocalized": {
+        "zhHans": "吾君在北，但求面北而亡。",
+        "zhHant": "吾君在北，但求面北而亡。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--4dead01",
+      "resourceId": "459shenpei/4dead01",
+      "text": "心与古人参，命因昏主丧。",
+      "textLocalized": {
+        "zhHans": "心与古人参，命因昏主丧。",
+        "zhHant": "心與古人蔘，命因昏主喪。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-45901",
+          "name": "坚守拒降",
+          "displayName": {
+            "zhHans": "坚守拒降",
+            "zhHant": "堅守拒降"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--5dead01",
+      "resourceId": "459shenpei/5dead01",
+      "text": "恨弩少耳。",
+      "textLocalized": {
+        "zhHans": "恨弩少耳。",
+        "zhHant": "恨弩少耳。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-45902",
+          "name": "领弓破曹",
+          "displayName": {
+            "zhHans": "领弓破曹",
+            "zhHant": "領弓破曹"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

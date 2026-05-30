@@ -1,3 +1,229 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8417d8c01c3d2e69ea075c18ecc309f666397ac753761a255404e2625740e68f
-size 5999
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xunshu",
+    "command": "xunshu",
+    "name": "族荀淑",
+    "displayName": {
+      "zhHans": "族荀淑",
+      "zhHant": "族荀淑"
+    },
+    "names": [
+      "族荀淑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀淑",
+        "zhHant": "族荀淑"
+      }
+    ],
+    "ids": [
+      "522"
+    ],
+    "sourceNames": [
+      "族荀淑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀淑",
+        "zhHant": "族荀淑"
+      }
+    ],
+    "sourceIds": [
+      "522"
+    ],
+    "searchNames": [
+      "xunshu",
+      "族荀淑"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3167.json"
+      },
+      {
+        "slug": "spell-3168",
+        "name": "八龙",
+        "displayName": {
+          "zhHans": "八龙",
+          "zhHant": "八龍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3168.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xunshu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52201",
+        "name": "鹤轸飞鸿",
+        "displayName": {
+          "zhHans": "鹤轸飞鸿",
+          "zhHant": "鶴軫飛鴻"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/xunshu/skins/skin-52201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xunshu.json",
+      "groups": "api/v1/tts/characters/xunshu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xunshu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/xunshu/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "xunshu--522xunshu--1dead01",
+      "resourceId": "522xunshu/1dead01",
+      "text": "天下陆沉，荀氏难支。",
+      "textLocalized": {
+        "zhHans": "天下陆沉，荀氏难支。",
+        "zhHant": "天下陸沉，荀氏難支。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--2dead01",
+      "resourceId": "522xunshu/2dead01",
+      "text": "我哩乖乖，这是弄啥嘞！",
+      "textLocalized": {
+        "zhHans": "我哩乖乖，这是弄啥嘞！",
+        "zhHant": "我哩乖乖，這是弄啥嘞！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52201",
+          "name": "鹤轸飞鸿",
+          "displayName": {
+            "zhHans": "鹤轸飞鸿",
+            "zhHant": "鶴軫飛鴻"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--2dead02",
+      "resourceId": "522xunshu/2dead02",
+      "text": "为何不见明主，扫清此间寰宇？",
+      "textLocalized": {
+        "zhHans": "为何不见明主，扫清此间寰宇？",
+        "zhHant": "爲何不見明主，掃清此間寰宇？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52201",
+          "name": "鹤轸飞鸿",
+          "displayName": {
+            "zhHans": "鹤轸飞鸿",
+            "zhHant": "鶴軫飛鴻"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/2dead02-2d3057e7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/2dead02.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,219 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59e46eec4a1b54b1bb1c5d224264e17f1a5b6ce33c0463a61d1b36da4e29b875
-size 5901
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yanliangwenchou",
+    "command": "yanliangwenchou",
+    "name": "颜良&文丑",
+    "displayName": {
+      "zhHans": "颜良&文丑",
+      "zhHant": "顏良&文丑"
+    },
+    "names": [
+      "颜良&文丑",
+      "界颜良文丑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "颜良&文丑",
+        "zhHant": "顏良&文丑"
+      },
+      {
+        "zhHans": "界颜良文丑",
+        "zhHant": "界顏良文丑"
+      }
+    ],
+    "ids": [
+      "40",
+      "550"
+    ],
+    "sourceNames": [
+      "颜良&文丑",
+      "界颜良文丑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "颜良&文丑",
+        "zhHant": "顏良&文丑"
+      },
+      {
+        "zhHans": "界颜良文丑",
+        "zhHant": "界顏良文丑"
+      }
+    ],
+    "sourceIds": [
+      "40",
+      "550"
+    ],
+    "searchNames": [
+      "yanliangwenchou",
+      "颜良&文丑",
+      "顏良&文丑",
+      "界颜良文丑",
+      "界顏良文丑"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanliangwenchou/groups/dead.json"
+      },
+      {
+        "slug": "spell-101",
+        "name": "双雄",
+        "displayName": {
+          "zhHans": "双雄",
+          "zhHant": "雙雄"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yanliangwenchou/groups/spell-101.json"
+      },
+      {
+        "slug": "spell-101-3269",
+        "name": "双雄",
+        "displayName": {
+          "zhHans": "双雄",
+          "zhHant": "雙雄"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/yanliangwenchou/groups/spell-101-3269.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanliangwenchou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-4005",
+        "name": "并肩破敌",
+        "displayName": {
+          "zhHans": "并肩破敌",
+          "zhHant": "並肩破敵"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanliangwenchou/skins/skin-4005.json"
+      },
+      {
+        "slug": "skin-4003",
+        "name": "披坚执锐",
+        "displayName": {
+          "zhHans": "披坚执锐",
+          "zhHant": "披堅執銳"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanliangwenchou/skins/skin-4003.json"
+      },
+      {
+        "slug": "skin-4004",
+        "name": "齐心戮力",
+        "displayName": {
+          "zhHans": "齐心戮力",
+          "zhHant": "齊心戮力"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanliangwenchou/skins/skin-4004.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yanliangwenchou.json",
+      "groups": "api/v1/tts/characters/yanliangwenchou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yanliangwenchou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-101",
+    "name": "双雄",
+    "displayName": {
+      "zhHans": "双雄",
+      "zhHant": "雙雄"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/yanliangwenchou/groups/spell-101.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "yanliangwenchou--40yanliangwenchou--1skill1_1",
+      "resourceId": "40yanliangwenchou/1skill1_1",
+      "text": "吾乃河北上将颜良（文丑）是也！",
+      "textLocalized": {
+        "zhHans": "吾乃河北上将颜良（文丑）是也！",
+        "zhHant": "吾乃河北上將顏良（文丑）是也！"
+      },
+      "group": {
+        "slug": "spell-101",
+        "name": "双雄",
+        "displayName": {
+          "zhHans": "双雄",
+          "zhHant": "雙雄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/40yanliangwenchou-bd2332ec/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/40yanliangwenchou/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanliangwenchou--40yanliangwenchou--1skill1_2",
+      "resourceId": "40yanliangwenchou/1skill1_2",
+      "text": "快来与我等决一死战！",
+      "textLocalized": {
+        "zhHans": "快来与我等决一死战！",
+        "zhHant": "快來與我等決一死戰！"
+      },
+      "group": {
+        "slug": "spell-101",
+        "name": "双雄",
+        "displayName": {
+          "zhHans": "双雄",
+          "zhHant": "雙雄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/40yanliangwenchou-bd2332ec/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/40yanliangwenchou/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

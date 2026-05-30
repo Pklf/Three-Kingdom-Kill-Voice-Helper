@@ -1,3 +1,339 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dea8f2e9265b6a4164ffea451d34311ad9f72faa2f6604fc9270f587d0ade4b5
-size 9285
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jushou",
+    "command": "jushou",
+    "name": "沮授",
+    "displayName": {
+      "zhHans": "沮授",
+      "zhHant": "沮授"
+    },
+    "names": [
+      "沮授"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "沮授",
+        "zhHant": "沮授"
+      }
+    ],
+    "ids": [
+      "330"
+    ],
+    "sourceNames": [
+      "沮授"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "沮授",
+        "zhHant": "沮授"
+      }
+    ],
+    "sourceIds": [
+      "330"
+    ],
+    "searchNames": [
+      "jushou",
+      "沮授"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/groups/dead.json"
+      },
+      {
+        "slug": "spell-491",
+        "name": "渐营",
+        "displayName": {
+          "zhHans": "渐营",
+          "zhHant": "漸營"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/jushou/groups/spell-491.json"
+      },
+      {
+        "slug": "spell-492",
+        "name": "矢北",
+        "displayName": {
+          "zhHans": "矢北",
+          "zhHant": "矢北"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/jushou/groups/spell-492.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-33003",
+        "name": "夺马归袁",
+        "displayName": {
+          "zhHans": "夺马归袁",
+          "zhHant": "奪馬歸袁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33003.json"
+      },
+      {
+        "slug": "skin-33003-33005",
+        "name": "夺马归袁,忠贞辅袁",
+        "displayName": {
+          "zhHans": "夺马归袁,忠贞辅袁",
+          "zhHant": "奪馬歸袁,忠貞輔袁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33003-33005.json"
+      },
+      {
+        "slug": "skin-33005",
+        "name": "忠贞辅袁",
+        "displayName": {
+          "zhHans": "忠贞辅袁",
+          "zhHant": "忠貞輔袁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33005.json"
+      },
+      {
+        "slug": "skin-33004",
+        "name": "献策不绝",
+        "displayName": {
+          "zhHans": "献策不绝",
+          "zhHant": "獻策不絕"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33004.json"
+      },
+      {
+        "slug": "skin-33001",
+        "name": "监军谋国",
+        "displayName": {
+          "zhHans": "监军谋国",
+          "zhHant": "監軍謀國"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33001.json"
+      },
+      {
+        "slug": "skin-33006",
+        "name": "策胜珠玑",
+        "displayName": {
+          "zhHans": "策胜珠玑",
+          "zhHant": "策勝珠璣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jushou/skins/skin-33006.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jushou.json",
+      "groups": "api/v1/tts/characters/jushou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jushou/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-33001",
+    "name": "监军谋国",
+    "displayName": {
+      "zhHans": "监军谋国",
+      "zhHant": "監軍謀國"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jushou/skins/skin-33001.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jushou--330jushou--3dead01",
+      "resourceId": "330jushou/3dead01",
+      "text": "宁侍庸主，不媚汉贼！",
+      "textLocalized": {
+        "zhHans": "宁侍庸主，不媚汉贼！",
+        "zhHant": "寧侍庸主，不媚漢賊！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33001",
+          "name": "监军谋国",
+          "displayName": {
+            "zhHans": "监军谋国",
+            "zhHant": "監軍謀國"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jushou--330jushou--3skill1_1",
+      "resourceId": "330jushou/3skill1_1",
+      "text": "缓而耗之，曹军自乱。",
+      "textLocalized": {
+        "zhHans": "缓而耗之，曹军自乱。",
+        "zhHant": "緩而耗之，曹軍自亂。"
+      },
+      "group": {
+        "slug": "spell-491",
+        "name": "渐营",
+        "displayName": {
+          "zhHans": "渐营",
+          "zhHant": "漸營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33001",
+          "name": "监军谋国",
+          "displayName": {
+            "zhHans": "监军谋国",
+            "zhHant": "監軍謀國"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jushou--330jushou--3skill1_2",
+      "resourceId": "330jushou/3skill1_2",
+      "text": "徐以攻敌，缓图天下。",
+      "textLocalized": {
+        "zhHans": "徐以攻敌，缓图天下。",
+        "zhHant": "徐以攻敵，緩圖天下。"
+      },
+      "group": {
+        "slug": "spell-491",
+        "name": "渐营",
+        "displayName": {
+          "zhHans": "渐营",
+          "zhHant": "漸營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33001",
+          "name": "监军谋国",
+          "displayName": {
+            "zhHans": "监军谋国",
+            "zhHant": "監軍謀國"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jushou--330jushou--3skill2_1",
+      "resourceId": "330jushou/3skill2_1",
+      "text": "矢志不降，克定北还！",
+      "textLocalized": {
+        "zhHans": "矢志不降，克定北还！",
+        "zhHant": "矢志不降，克定北還！"
+      },
+      "group": {
+        "slug": "spell-492",
+        "name": "矢北",
+        "displayName": {
+          "zhHans": "矢北",
+          "zhHant": "矢北"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33001",
+          "name": "监军谋国",
+          "displayName": {
+            "zhHans": "监军谋国",
+            "zhHant": "監軍謀國"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jushou--330jushou--3skill2_2",
+      "resourceId": "330jushou/3skill2_2",
+      "text": "心如归雁，死不足拦。",
+      "textLocalized": {
+        "zhHans": "心如归雁，死不足拦。",
+        "zhHant": "心如歸雁，死不足攔。"
+      },
+      "group": {
+        "slug": "spell-492",
+        "name": "矢北",
+        "displayName": {
+          "zhHans": "矢北",
+          "zhHant": "矢北"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33001",
+          "name": "监军谋国",
+          "displayName": {
+            "zhHans": "监军谋国",
+            "zhHant": "監軍謀國"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/330jushou-a56c6534/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/330jushou/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

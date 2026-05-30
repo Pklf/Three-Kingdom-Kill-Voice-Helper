@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0bf393e63657a36c647f848a1861013c029bb16ff50e2b3552e7d168792ee717
-size 8357
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xunshen",
+    "command": "xunshen",
+    "name": "荀谌",
+    "displayName": {
+      "zhHans": "荀谌",
+      "zhHant": "荀諶"
+    },
+    "names": [
+      "荀谌"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "荀谌",
+        "zhHant": "荀諶"
+      }
+    ],
+    "ids": [
+      "460"
+    ],
+    "sourceNames": [
+      "荀谌"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "荀谌",
+        "zhHant": "荀諶"
+      }
+    ],
+    "sourceIds": [
+      "460"
+    ],
+    "searchNames": [
+      "xunshen",
+      "荀谌",
+      "荀諶"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xunshen/groups/dead.json"
+      },
+      {
+        "slug": "spell-1189",
+        "name": "锋略",
+        "displayName": {
+          "zhHans": "锋略",
+          "zhHant": "鋒略"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshen/groups/spell-1189.json"
+      },
+      {
+        "slug": "spell-1190",
+        "name": "谋识",
+        "displayName": {
+          "zhHans": "谋识",
+          "zhHant": "謀識"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshen/groups/spell-1190.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-46001",
+        "name": "乱世谋主",
+        "displayName": {
+          "zhHans": "乱世谋主",
+          "zhHant": "亂世謀主"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunshen/skins/skin-46001.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunshen/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46002",
+        "name": "挥兵方寸",
+        "displayName": {
+          "zhHans": "挥兵方寸",
+          "zhHant": "揮兵方寸"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunshen/skins/skin-46002.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xunshen.json",
+      "groups": "api/v1/tts/characters/xunshen/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xunshen/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-46002",
+    "name": "挥兵方寸",
+    "displayName": {
+      "zhHans": "挥兵方寸",
+      "zhHant": "揮兵方寸"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/xunshen/skins/skin-46002.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "xunshen--460xunshen--3dead01",
+      "resourceId": "460xunshen/3dead01",
+      "text": "我观官渡相战，恐吉凶难料......",
+      "textLocalized": {
+        "zhHans": "我观官渡相战，恐吉凶难料......",
+        "zhHant": "我觀官渡相戰，恐吉凶難料......"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46002",
+          "name": "挥兵方寸",
+          "displayName": {
+            "zhHans": "挥兵方寸",
+            "zhHant": "揮兵方寸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshen--460xunshen--3skill1_1",
+      "resourceId": "460xunshen/3skill1_1",
+      "text": "操笔为锋，挥毫成略，绘锦绣江山。",
+      "textLocalized": {
+        "zhHans": "操笔为锋，挥毫成略，绘锦绣江山。",
+        "zhHant": "操筆爲鋒，揮毫成略，繪錦繡江山。"
+      },
+      "group": {
+        "slug": "spell-1189",
+        "name": "锋略",
+        "displayName": {
+          "zhHans": "锋略",
+          "zhHant": "鋒略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46002",
+          "name": "挥兵方寸",
+          "displayName": {
+            "zhHans": "挥兵方寸",
+            "zhHant": "揮兵方寸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshen--460xunshen--3skill1_2",
+      "resourceId": "460xunshen/3skill1_2",
+      "text": "运筹帷幄，计行千里，定万世太平。",
+      "textLocalized": {
+        "zhHans": "运筹帷幄，计行千里，定万世太平。",
+        "zhHant": "運籌帷幄，計行千里，定萬世太平。"
+      },
+      "group": {
+        "slug": "spell-1189",
+        "name": "锋略",
+        "displayName": {
+          "zhHans": "锋略",
+          "zhHant": "鋒略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46002",
+          "name": "挥兵方寸",
+          "displayName": {
+            "zhHans": "挥兵方寸",
+            "zhHant": "揮兵方寸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshen--460xunshen--3skill2_1",
+      "resourceId": "460xunshen/3skill2_1",
+      "text": "高客识卓，举手投足彰雄才伟略。",
+      "textLocalized": {
+        "zhHans": "高客识卓，举手投足彰雄才伟略。",
+        "zhHant": "高客識卓，舉手投足彰雄才偉略。"
+      },
+      "group": {
+        "slug": "spell-1190",
+        "name": "谋识",
+        "displayName": {
+          "zhHans": "谋识",
+          "zhHant": "謀識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46002",
+          "name": "挥兵方寸",
+          "displayName": {
+            "zhHans": "挥兵方寸",
+            "zhHant": "揮兵方寸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshen--460xunshen--3skill2_2",
+      "resourceId": "460xunshen/3skill2_2",
+      "text": "良士出谋，建言二三而得益千万。",
+      "textLocalized": {
+        "zhHans": "良士出谋，建言二三而得益千万。",
+        "zhHant": "良士出謀，建言二三而得益千萬。"
+      },
+      "group": {
+        "slug": "spell-1190",
+        "name": "谋识",
+        "displayName": {
+          "zhHans": "谋识",
+          "zhHant": "謀識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46002",
+          "name": "挥兵方寸",
+          "displayName": {
+            "zhHans": "挥兵方寸",
+            "zhHant": "揮兵方寸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

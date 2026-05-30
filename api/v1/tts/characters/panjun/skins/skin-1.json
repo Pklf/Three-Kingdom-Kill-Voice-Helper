@@ -1,3 +1,289 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9bc2fb90b240d54dd487f2ce92596181260f7b13b1a286829180152cc190bfee
-size 7745
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "panjun",
+    "command": "panjun",
+    "name": "潘濬",
+    "displayName": {
+      "zhHans": "潘濬",
+      "zhHant": "潘濬"
+    },
+    "names": [
+      "潘濬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "潘濬",
+        "zhHant": "潘濬"
+      }
+    ],
+    "ids": [
+      "472"
+    ],
+    "sourceNames": [
+      "潘濬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "潘濬",
+        "zhHant": "潘濬"
+      }
+    ],
+    "sourceIds": [
+      "472"
+    ],
+    "searchNames": [
+      "panjun",
+      "潘濬"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/panjun/groups/dead.json"
+      },
+      {
+        "slug": "spell-961",
+        "name": "观微",
+        "displayName": {
+          "zhHans": "观微",
+          "zhHant": "觀微"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/panjun/groups/spell-961.json"
+      },
+      {
+        "slug": "spell-962",
+        "name": "公清",
+        "displayName": {
+          "zhHans": "公清",
+          "zhHant": "公清"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/panjun/groups/spell-962.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panjun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-47201",
+        "name": "大破溪蛮",
+        "displayName": {
+          "zhHans": "大破溪蛮",
+          "zhHant": "大破溪蠻"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panjun/skins/skin-47201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/panjun.json",
+      "groups": "api/v1/tts/characters/panjun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/panjun/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/panjun/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "panjun--472panjun--1dead01",
+      "resourceId": "472panjun/1dead01",
+      "text": "耻失荆州，耻失荆州啊！",
+      "textLocalized": {
+        "zhHans": "耻失荆州，耻失荆州啊！",
+        "zhHant": "恥失荊州，恥失荊州啊！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/472panjun-f110ceaa/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/472panjun/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panjun--472panjun--1skill1_1",
+      "resourceId": "472panjun/1skill1_1",
+      "text": "天下未定，请主公以大局为重。",
+      "textLocalized": {
+        "zhHans": "天下未定，请主公以大局为重。",
+        "zhHant": "天下未定，請主公以大局爲重。"
+      },
+      "group": {
+        "slug": "spell-961",
+        "name": "观微",
+        "displayName": {
+          "zhHans": "观微",
+          "zhHant": "觀微"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/472panjun-f110ceaa/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/472panjun/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panjun--472panjun--1skill1_2",
+      "resourceId": "472panjun/1skill1_2",
+      "text": "今日宴请诸位，有要事相商。",
+      "textLocalized": {
+        "zhHans": "今日宴请诸位，有要事相商。",
+        "zhHant": "今日宴請諸位，有要事相商。"
+      },
+      "group": {
+        "slug": "spell-961",
+        "name": "观微",
+        "displayName": {
+          "zhHans": "观微",
+          "zhHant": "觀微"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/472panjun-f110ceaa/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/472panjun/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panjun--472panjun--1skill2_1",
+      "resourceId": "472panjun/1skill2_1",
+      "text": "尔辈何故与降虏[lǔ]交善！",
+      "textLocalized": {
+        "zhHans": "尔辈何故与降虏[lǔ]交善！",
+        "zhHant": "爾輩何故與降虜[lǔ]交善！"
+      },
+      "group": {
+        "slug": "spell-962",
+        "name": "公清",
+        "displayName": {
+          "zhHans": "公清",
+          "zhHant": "公清"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/472panjun-f110ceaa/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/472panjun/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panjun--472panjun--1skill2_2",
+      "resourceId": "472panjun/1skill2_2",
+      "text": "豪将在外，增兵必成祸患啊！",
+      "textLocalized": {
+        "zhHans": "豪将在外，增兵必成祸患啊！",
+        "zhHant": "豪將在外，增兵必成禍患啊！"
+      },
+      "group": {
+        "slug": "spell-962",
+        "name": "公清",
+        "displayName": {
+          "zhHans": "公清",
+          "zhHant": "公清"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/472panjun-f110ceaa/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/472panjun/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

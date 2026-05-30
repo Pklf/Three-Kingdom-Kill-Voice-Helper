@@ -1,3 +1,160 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ca33fff68fc01e6735c458b1d9d4d8d79ab186360205e5c3af9ac06dc4631ed6
-size 4045
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhuanlunwang",
+    "command": "zhuanlunwang",
+    "name": "转轮王",
+    "displayName": {
+      "zhHans": "转轮王",
+      "zhHant": "轉輪王"
+    },
+    "names": [
+      "转轮王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "转轮王",
+        "zhHant": "轉輪王"
+      }
+    ],
+    "ids": [
+      "4509"
+    ],
+    "sourceNames": [
+      "转轮王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "转轮王",
+        "zhHant": "轉輪王"
+      }
+    ],
+    "sourceIds": [
+      "4509"
+    ],
+    "searchNames": [
+      "zhuanlunwang",
+      "转轮王",
+      "轉輪王"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zhuanlunwang/groups/dead.json"
+      },
+      {
+        "slug": "spell-1304",
+        "name": "轮回",
+        "displayName": {
+          "zhHans": "轮回",
+          "zhHant": "輪迴"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zhuanlunwang/groups/spell-1304.json"
+      },
+      {
+        "slug": "spell-1305",
+        "name": "往生",
+        "displayName": {
+          "zhHans": "往生",
+          "zhHant": "往生"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zhuanlunwang/groups/spell-1305.json"
+      },
+      {
+        "slug": "spell-1306",
+        "name": "反噬",
+        "displayName": {
+          "zhHans": "反噬",
+          "zhHant": "反噬"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zhuanlunwang/groups/spell-1306.json"
+      },
+      {
+        "slug": "spell-632",
+        "name": "魔道",
+        "displayName": {
+          "zhHans": "魔道",
+          "zhHant": "魔道"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zhuanlunwang/groups/spell-632.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhuanlunwang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhuanlunwang.json",
+      "groups": "api/v1/tts/characters/zhuanlunwang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhuanlunwang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/zhuanlunwang/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "zhuanlunwang--4509zhuanlunwang--1dead01",
+      "resourceId": "4509zhuanlunwang/1dead01",
+      "text": "你居然走到了最后……",
+      "textLocalized": {
+        "zhHans": "你居然走到了最后……",
+        "zhHant": "你居然走到了最後……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4509zhuanlunwang-9daefe65/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4509zhuanlunwang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

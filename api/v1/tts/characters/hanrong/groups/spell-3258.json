@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f04d172b55715e373af70925b4573ec6833f8924b427717e7e42df75ab3ea426
-size 7243
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hanrong",
+    "command": "hanrong",
+    "name": "族韩融",
+    "displayName": {
+      "zhHans": "族韩融",
+      "zhHant": "族韓融"
+    },
+    "names": [
+      "族韩融"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族韩融",
+        "zhHant": "族韓融"
+      }
+    ],
+    "ids": [
+      "547"
+    ],
+    "sourceNames": [
+      "族韩融"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族韩融",
+        "zhHant": "族韓融"
+      }
+    ],
+    "sourceIds": [
+      "547"
+    ],
+    "searchNames": [
+      "hanrong",
+      "族韩融",
+      "族韓融"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/hanrong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3255",
+        "name": "恤民",
+        "displayName": {
+          "zhHans": "恤民",
+          "zhHant": "恤民"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hanrong/groups/spell-3255.json"
+      },
+      {
+        "slug": "spell-3258",
+        "name": "连和",
+        "displayName": {
+          "zhHans": "连和",
+          "zhHant": "連和"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hanrong/groups/spell-3258.json"
+      },
+      {
+        "slug": "spell-3259",
+        "name": "缓颊",
+        "displayName": {
+          "zhHans": "缓颊",
+          "zhHant": "緩頰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hanrong/groups/spell-3259.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/hanrong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54701",
+        "name": "只身说虎",
+        "displayName": {
+          "zhHans": "只身说虎",
+          "zhHant": "隻身說虎"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/hanrong/skins/skin-54701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/hanrong.json",
+      "groups": "api/v1/tts/characters/hanrong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/hanrong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3258",
+    "name": "连和",
+    "displayName": {
+      "zhHans": "连和",
+      "zhHant": "連和"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/hanrong/groups/spell-3258.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "hanrong--547hanrong--1skill1_1",
+      "resourceId": "547hanrong/1skill1_1",
+      "text": "枯草难存于劲风，唯抱簇得生。",
+      "textLocalized": {
+        "zhHans": "枯草难存于劲风，唯抱簇得生。",
+        "zhHant": "枯草難存於勁風，唯抱簇得生。"
+      },
+      "group": {
+        "slug": "spell-3258",
+        "name": "连和",
+        "displayName": {
+          "zhHans": "连和",
+          "zhHant": "連和"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/547hanrong-de93d89a/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/547hanrong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanrong--547hanrong--1skill1_2",
+      "resourceId": "547hanrong/1skill1_2",
+      "text": "吾所来之由，一为好，二为和。",
+      "textLocalized": {
+        "zhHans": "吾所来之由，一为好，二为和。",
+        "zhHant": "吾所來之由，一爲好，二爲和。"
+      },
+      "group": {
+        "slug": "spell-3258",
+        "name": "连和",
+        "displayName": {
+          "zhHans": "连和",
+          "zhHant": "連和"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/547hanrong-de93d89a/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/547hanrong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanrong--547hanrong--2skill1_1",
+      "resourceId": "547hanrong/2skill1_1",
+      "text": "今天下汹汹，诸君和则生，分则死。",
+      "textLocalized": {
+        "zhHans": "今天下汹汹，诸君和则生，分则死。",
+        "zhHant": "今天下洶洶，諸君和則生，分則死。"
+      },
+      "group": {
+        "slug": "spell-3258",
+        "name": "连和",
+        "displayName": {
+          "zhHans": "连和",
+          "zhHant": "連和"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54701",
+          "name": "只身说虎",
+          "displayName": {
+            "zhHans": "只身说虎",
+            "zhHant": "隻身說虎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/547hanrong-de93d89a/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/547hanrong/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanrong--547hanrong--2skill1_2",
+      "resourceId": "547hanrong/2skill1_2",
+      "text": "昔年青鸟衔彩枝，今我拄节而顾君。",
+      "textLocalized": {
+        "zhHans": "昔年青鸟衔彩枝，今我拄节而顾君。",
+        "zhHant": "昔年青鳥銜彩枝，今我拄節而顧君。"
+      },
+      "group": {
+        "slug": "spell-3258",
+        "name": "连和",
+        "displayName": {
+          "zhHans": "连和",
+          "zhHant": "連和"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54701",
+          "name": "只身说虎",
+          "displayName": {
+            "zhHans": "只身说虎",
+            "zhHant": "隻身說虎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/547hanrong-de93d89a/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/547hanrong/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

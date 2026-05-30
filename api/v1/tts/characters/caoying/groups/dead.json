@@ -1,3 +1,340 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:06724dd10474eb4a80777546f0870f3b5e5f75a98b133c8ed30f4c3a61f264e7
-size 9270
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoying",
+    "command": "caoying",
+    "name": "曹婴",
+    "displayName": {
+      "zhHans": "曹婴",
+      "zhHant": "曹嬰"
+    },
+    "names": [
+      "曹婴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹婴",
+        "zhHant": "曹嬰"
+      }
+    ],
+    "ids": [
+      "353"
+    ],
+    "sourceNames": [
+      "曹婴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹婴",
+        "zhHant": "曹嬰"
+      }
+    ],
+    "sourceIds": [
+      "353"
+    ],
+    "searchNames": [
+      "caoying",
+      "曹婴",
+      "曹嬰"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoying/groups/dead.json"
+      },
+      {
+        "slug": "spell-105",
+        "name": "行殇",
+        "displayName": {
+          "zhHans": "行殇",
+          "zhHant": "行殤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-105.json"
+      },
+      {
+        "slug": "spell-717",
+        "name": "奸雄",
+        "displayName": {
+          "zhHans": "奸雄",
+          "zhHant": "奸雄"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-717.json"
+      },
+      {
+        "slug": "spell-850",
+        "name": "凌人",
+        "displayName": {
+          "zhHans": "凌人",
+          "zhHant": "凌人"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-850.json"
+      },
+      {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-851.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-35304",
+        "name": "劲弩飒姿",
+        "displayName": {
+          "zhHans": "劲弩飒姿",
+          "zhHant": "勁弩颯姿"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35304.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35301",
+        "name": "芦曳意坚",
+        "displayName": {
+          "zhHans": "芦曳意坚",
+          "zhHant": "蘆曳意堅"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35301.json"
+      },
+      {
+        "slug": "skin-35303",
+        "name": "金枝玉叶",
+        "displayName": {
+          "zhHans": "金枝玉叶",
+          "zhHant": "金枝玉葉"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35303.json"
+      },
+      {
+        "slug": "skin-35302",
+        "name": "魏缨凤鸣",
+        "displayName": {
+          "zhHans": "魏缨凤鸣",
+          "zhHant": "魏纓鳳鳴"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoying.json",
+      "groups": "api/v1/tts/characters/caoying/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoying/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caoying/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caoying--353caoying--6dead01",
+      "resourceId": "353caoying/6dead01",
+      "text": "蜀军此役，我还是低估了……",
+      "textLocalized": {
+        "zhHans": "蜀军此役，我还是低估了……",
+        "zhHant": "蜀軍此役，我還是低估了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35304",
+          "name": "劲弩飒姿",
+          "displayName": {
+            "zhHans": "劲弩飒姿",
+            "zhHant": "勁弩颯姿"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--1dead01",
+      "resourceId": "353caoying/1dead01",
+      "text": "曹魏天下存，魂归故土安……",
+      "textLocalized": {
+        "zhHans": "曹魏天下存，魂归故土安……",
+        "zhHant": "曹魏天下存，魂歸故土安……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--3dead01",
+      "resourceId": "353caoying/3dead01",
+      "text": "爷爷志向，吾一生秉承无憾……",
+      "textLocalized": {
+        "zhHans": "爷爷志向，吾一生秉承无憾……",
+        "zhHant": "爺爺志向，吾一生秉承無憾……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35301",
+          "name": "芦曳意坚",
+          "displayName": {
+            "zhHans": "芦曳意坚",
+            "zhHant": "蘆曳意堅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--5dead01",
+      "resourceId": "353caoying/5dead01",
+      "text": "曹魏河山，我还能守护几时？",
+      "textLocalized": {
+        "zhHans": "曹魏河山，我还能守护几时？",
+        "zhHant": "曹魏河山，我還能守護幾時？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35303",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--4dead01",
+      "resourceId": "353caoying/4dead01",
+      "text": "外敌易御，内奸难挡。",
+      "textLocalized": {
+        "zhHans": "外敌易御，内奸难挡。",
+        "zhHant": "外敵易御，內奸難擋。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35302",
+          "name": "魏缨凤鸣",
+          "displayName": {
+            "zhHans": "魏缨凤鸣",
+            "zhHant": "魏纓鳳鳴"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

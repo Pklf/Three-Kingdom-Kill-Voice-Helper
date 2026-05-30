@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7039485e068591bb54c3bc1f1d22cc8af81b73610bc0e2bf1adf88369d3df119
-size 7968
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huojun",
+    "command": "huojun",
+    "name": "霍峻",
+    "displayName": {
+      "zhHans": "霍峻",
+      "zhHant": "霍峻"
+    },
+    "names": [
+      "霍峻"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "霍峻",
+        "zhHant": "霍峻"
+      }
+    ],
+    "ids": [
+      "513"
+    ],
+    "sourceNames": [
+      "霍峻"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "霍峻",
+        "zhHant": "霍峻"
+      }
+    ],
+    "sourceIds": [
+      "513"
+    ],
+    "searchNames": [
+      "huojun",
+      "霍峻"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huojun/groups/dead.json"
+      },
+      {
+        "slug": "spell-3121",
+        "name": "穷守",
+        "displayName": {
+          "zhHans": "穷守",
+          "zhHant": "窮守"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/huojun/groups/spell-3121.json"
+      },
+      {
+        "slug": "spell-3122",
+        "name": "奋锐",
+        "displayName": {
+          "zhHans": "奋锐",
+          "zhHant": "奮銳"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/huojun/groups/spell-3122.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huojun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51301",
+        "name": "狭路奋勇",
+        "displayName": {
+          "zhHans": "狭路奋勇",
+          "zhHant": "狹路奮勇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huojun/skins/skin-51301.json"
+      },
+      {
+        "slug": "skin-51302",
+        "name": "登城鏖战",
+        "displayName": {
+          "zhHans": "登城鏖战",
+          "zhHant": "登城鏖戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huojun/skins/skin-51302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huojun.json",
+      "groups": "api/v1/tts/characters/huojun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huojun/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/huojun/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "huojun--513huojun--1dead01",
+      "resourceId": "513huojun/1dead01",
+      "text": "主公，峻有负所托！",
+      "textLocalized": {
+        "zhHans": "主公，峻有负所托！",
+        "zhHant": "主公，峻有負所託！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huojun--513huojun--1skill1_1",
+      "resourceId": "513huojun/1skill1_1",
+      "text": "戍守孤城，其势不侵！",
+      "textLocalized": {
+        "zhHans": "戍守孤城，其势不侵！",
+        "zhHant": "戍守孤城，其勢不侵！"
+      },
+      "group": {
+        "slug": "spell-3121",
+        "name": "穷守",
+        "displayName": {
+          "zhHans": "穷守",
+          "zhHant": "窮守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huojun--513huojun--1skill1_2",
+      "resourceId": "513huojun/1skill1_2",
+      "text": "吾头可得，而城不可得！",
+      "textLocalized": {
+        "zhHans": "吾头可得，而城不可得！",
+        "zhHant": "吾頭可得，而城不可得！"
+      },
+      "group": {
+        "slug": "spell-3121",
+        "name": "穷守",
+        "displayName": {
+          "zhHans": "穷守",
+          "zhHant": "窮守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huojun--513huojun--1skill2_1",
+      "resourceId": "513huojun/1skill2_1",
+      "text": "待其疲敝，则可一击破之！",
+      "textLocalized": {
+        "zhHans": "待其疲敝，则可一击破之！",
+        "zhHant": "待其疲敝，則可一擊破之！"
+      },
+      "group": {
+        "slug": "spell-3122",
+        "name": "奋锐",
+        "displayName": {
+          "zhHans": "奋锐",
+          "zhHant": "奮銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huojun--513huojun--1skill2_2",
+      "resourceId": "513huojun/1skill2_2",
+      "text": "覆军斩将，便在旦夕之间！",
+      "textLocalized": {
+        "zhHans": "覆军斩将，便在旦夕之间！",
+        "zhHant": "覆軍斬將，便在旦夕之間！"
+      },
+      "group": {
+        "slug": "spell-3122",
+        "name": "奋锐",
+        "displayName": {
+          "zhHans": "奋锐",
+          "zhHant": "奮銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

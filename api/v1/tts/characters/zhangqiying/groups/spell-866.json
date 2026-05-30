@@ -1,3 +1,425 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:29a024d34f293055772659e922063dcc5654fc9263bb509f73922e11771756b6
-size 12155
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangqiying",
+    "command": "zhangqiying",
+    "name": "张琪瑛",
+    "displayName": {
+      "zhHans": "张琪瑛",
+      "zhHant": "張琪瑛"
+    },
+    "names": [
+      "张琪瑛"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张琪瑛",
+        "zhHant": "張琪瑛"
+      }
+    ],
+    "ids": [
+      "425"
+    ],
+    "sourceNames": [
+      "张琪瑛"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张琪瑛",
+        "zhHant": "張琪瑛"
+      }
+    ],
+    "sourceIds": [
+      "425"
+    ],
+    "searchNames": [
+      "zhangqiying",
+      "张琪瑛",
+      "張琪瑛"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangqiying/groups/dead.json"
+      },
+      {
+        "slug": "spell-865",
+        "name": "法箓",
+        "displayName": {
+          "zhHans": "法箓",
+          "zhHant": "法籙"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangqiying/groups/spell-865.json"
+      },
+      {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangqiying/groups/spell-866.json"
+      },
+      {
+        "slug": "spell-867",
+        "name": "点化",
+        "displayName": {
+          "zhHans": "点化",
+          "zhHant": "點化"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangqiying/groups/spell-867.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhangqiying/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42501",
+        "name": "欢庆丰收",
+        "displayName": {
+          "zhHans": "欢庆丰收",
+          "zhHant": "歡慶豐收"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhangqiying/skins/skin-42501.json"
+      },
+      {
+        "slug": "skin-42503",
+        "name": "金桂月华",
+        "displayName": {
+          "zhHans": "金桂月华",
+          "zhHant": "金桂月華"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhangqiying/skins/skin-42503.json"
+      },
+      {
+        "slug": "skin-42502",
+        "name": "金钰微秋",
+        "displayName": {
+          "zhHans": "金钰微秋",
+          "zhHant": "金鈺微秋"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhangqiying/skins/skin-42502.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangqiying.json",
+      "groups": "api/v1/tts/characters/zhangqiying/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangqiying/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-866",
+    "name": "真仪",
+    "displayName": {
+      "zhHans": "真仪",
+      "zhHant": "真儀"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/zhangqiying/groups/spell-866.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "zhangqiying--425zhangqiying--1skill2_1",
+      "resourceId": "425zhangqiying/1skill2_1",
+      "text": "不疾不徐，自爱自重。",
+      "textLocalized": {
+        "zhHans": "不疾不徐，自爱自重。",
+        "zhHant": "不疾不徐，自愛自重。"
+      },
+      "group": {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--1skill2_2",
+      "resourceId": "425zhangqiying/1skill2_2",
+      "text": "紫薇星辰，斗数之仪。",
+      "textLocalized": {
+        "zhHans": "紫薇星辰，斗数之仪。",
+        "zhHant": "紫薇星辰，斗數之儀。"
+      },
+      "group": {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--3skill2_1",
+      "resourceId": "425zhangqiying/3skill2_1",
+      "text": "朦胧不清，心神不宁。",
+      "textLocalized": {
+        "zhHans": "朦胧不清，心神不宁。",
+        "zhHant": "朦朧不清，心神不寧。"
+      },
+      "group": {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42501",
+          "name": "欢庆丰收",
+          "displayName": {
+            "zhHans": "欢庆丰收",
+            "zhHant": "歡慶豐收"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--3skill2_2",
+      "resourceId": "425zhangqiying/3skill2_2",
+      "text": "万千皮囊，真我不改。",
+      "textLocalized": {
+        "zhHans": "万千皮囊，真我不改。",
+        "zhHant": "萬千皮囊，真我不改。"
+      },
+      "group": {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42501",
+          "name": "欢庆丰收",
+          "displayName": {
+            "zhHans": "欢庆丰收",
+            "zhHant": "歡慶豐收"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--5skill2_1",
+      "resourceId": "425zhangqiying/5skill2_1",
+      "text": "玉露染秋风，凝清霜紫骊，策团圆万里。",
+      "textLocalized": {
+        "zhHans": "玉露染秋风，凝清霜紫骊，策团圆万里。",
+        "zhHant": "玉露染秋風，凝清霜紫驪，策團圓萬里。"
+      },
+      "group": {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42503",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--5skill2_2",
+      "resourceId": "425zhangqiying/5skill2_2",
+      "text": "峨眉显真仪，舞长袖婀娜，邀玉黛醉宴。",
+      "textLocalized": {
+        "zhHans": "峨眉显真仪，舞长袖婀娜，邀玉黛醉宴。",
+        "zhHant": "峨眉顯真儀，舞長袖婀娜，邀玉黛醉宴。"
+      },
+      "group": {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42503",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--4skill2_1",
+      "resourceId": "425zhangqiying/4skill2_1",
+      "text": "真仪性无主，生死皆虚妄。",
+      "textLocalized": {
+        "zhHans": "真仪性无主，生死皆虚妄。",
+        "zhHant": "真儀性無主，生死皆虛妄。"
+      },
+      "group": {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42502",
+          "name": "金钰微秋",
+          "displayName": {
+            "zhHans": "金钰微秋",
+            "zhHant": "金鈺微秋"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangqiying--425zhangqiying--4skill2_2",
+      "resourceId": "425zhangqiying/4skill2_2",
+      "text": "执真仪为友，则天清地明。",
+      "textLocalized": {
+        "zhHans": "执真仪为友，则天清地明。",
+        "zhHant": "執真儀爲友，則天清地明。"
+      },
+      "group": {
+        "slug": "spell-866",
+        "name": "真仪",
+        "displayName": {
+          "zhHans": "真仪",
+          "zhHant": "真儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42502",
+          "name": "金钰微秋",
+          "displayName": {
+            "zhHans": "金钰微秋",
+            "zhHant": "金鈺微秋"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/425zhangqiying-7792a218/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/425zhangqiying/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

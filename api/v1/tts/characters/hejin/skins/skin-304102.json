@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0db63aeea40e119b2786695e6596592c326030f9b72342652cff4818664002ac
-size 8107
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hejin",
+    "command": "hejin",
+    "name": "何进",
+    "displayName": {
+      "zhHans": "何进",
+      "zhHant": "何進"
+    },
+    "names": [
+      "何进"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "何进",
+        "zhHant": "何進"
+      }
+    ],
+    "ids": [
+      "3041"
+    ],
+    "sourceNames": [
+      "何进"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "何进",
+        "zhHant": "何進"
+      }
+    ],
+    "sourceIds": [
+      "3041"
+    ],
+    "searchNames": [
+      "hejin",
+      "何进",
+      "何進"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/hejin/groups/dead.json"
+      },
+      {
+        "slug": "spell-4063",
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/hejin/groups/spell-4063.json"
+      },
+      {
+        "slug": "spell-4064",
+        "name": "延祸",
+        "displayName": {
+          "zhHans": "延祸",
+          "zhHant": "延禍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/hejin/groups/spell-4064.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/hejin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-304102",
+        "name": "屠猪贩肉",
+        "displayName": {
+          "zhHans": "屠猪贩肉",
+          "zhHant": "屠豬販肉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/hejin/skins/skin-304102.json"
+      },
+      {
+        "slug": "skin-304104",
+        "name": "谋诛宦官",
+        "displayName": {
+          "zhHans": "谋诛宦官",
+          "zhHant": "謀誅宦官"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/hejin/skins/skin-304104.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/hejin.json",
+      "groups": "api/v1/tts/characters/hejin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/hejin/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-304102",
+    "name": "屠猪贩肉",
+    "displayName": {
+      "zhHans": "屠猪贩肉",
+      "zhHant": "屠豬販肉"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/hejin/skins/skin-304102.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "hejin--3041hejin--3dead01",
+      "resourceId": "3041hejin/3dead01",
+      "text": "傻妹妹，你害的为兄好惨哪！",
+      "textLocalized": {
+        "zhHans": "傻妹妹，你害的为兄好惨哪！",
+        "zhHant": "傻妹妹，你害的爲兄好慘哪！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304102",
+          "name": "屠猪贩肉",
+          "displayName": {
+            "zhHans": "屠猪贩肉",
+            "zhHant": "屠豬販肉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hejin--3041hejin--3skill1_1",
+      "resourceId": "3041hejin/3skill1_1",
+      "text": "待宰羔羊，还想反抗？",
+      "textLocalized": {
+        "zhHans": "待宰羔羊，还想反抗？",
+        "zhHant": "待宰羔羊，還想反抗？"
+      },
+      "group": {
+        "slug": "spell-4063",
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304102",
+          "name": "屠猪贩肉",
+          "displayName": {
+            "zhHans": "屠猪贩肉",
+            "zhHant": "屠豬販肉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hejin--3041hejin--3skill1_2",
+      "resourceId": "3041hejin/3skill1_2",
+      "text": "杀！杀尽天下宦官！",
+      "textLocalized": {
+        "zhHans": "杀！杀尽天下宦官！",
+        "zhHant": "殺！殺盡天下宦官！"
+      },
+      "group": {
+        "slug": "spell-4063",
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304102",
+          "name": "屠猪贩肉",
+          "displayName": {
+            "zhHans": "屠猪贩肉",
+            "zhHant": "屠豬販肉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hejin--3041hejin--3skill2_1",
+      "resourceId": "3041hejin/3skill2_1",
+      "text": "我，不会任人鱼肉的！",
+      "textLocalized": {
+        "zhHans": "我，不会任人鱼肉的！",
+        "zhHant": "我，不會任人魚肉的！"
+      },
+      "group": {
+        "slug": "spell-4064",
+        "name": "延祸",
+        "displayName": {
+          "zhHans": "延祸",
+          "zhHant": "延禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304102",
+          "name": "屠猪贩肉",
+          "displayName": {
+            "zhHans": "屠猪贩肉",
+            "zhHant": "屠豬販肉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hejin--3041hejin--3skill2_2",
+      "resourceId": "3041hejin/3skill2_2",
+      "text": "我的人，会为我报仇的。",
+      "textLocalized": {
+        "zhHans": "我的人，会为我报仇的。",
+        "zhHant": "我的人，會爲我報仇的。"
+      },
+      "group": {
+        "slug": "spell-4064",
+        "name": "延祸",
+        "displayName": {
+          "zhHans": "延祸",
+          "zhHant": "延禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304102",
+          "name": "屠猪贩肉",
+          "displayName": {
+            "zhHans": "屠猪贩肉",
+            "zhHant": "屠豬販肉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

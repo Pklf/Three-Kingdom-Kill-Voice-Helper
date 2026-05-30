@@ -1,3 +1,298 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7e32a0338691b59de029705133fa977458973388a42ffd940387a0dc571c92e8
-size 8051
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "madai",
+    "command": "madai",
+    "name": "马岱",
+    "displayName": {
+      "zhHans": "马岱",
+      "zhHant": "馬岱"
+    },
+    "names": [
+      "马岱"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "马岱",
+        "zhHant": "馬岱"
+      }
+    ],
+    "ids": [
+      "167"
+    ],
+    "sourceNames": [
+      "马岱"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "马岱",
+        "zhHant": "馬岱"
+      }
+    ],
+    "sourceIds": [
+      "167"
+    ],
+    "searchNames": [
+      "madai",
+      "马岱",
+      "馬岱"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/madai/groups/dead.json"
+      },
+      {
+        "slug": "spell-474-428",
+        "name": "潜袭",
+        "displayName": {
+          "zhHans": "潜袭",
+          "zhHant": "潛襲"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/madai/groups/spell-474-428.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-16705",
+        "name": "一合而斩",
+        "displayName": {
+          "zhHans": "一合而斩",
+          "zhHant": "一合而斬"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16705.json"
+      },
+      {
+        "slug": "skin-16706",
+        "name": "临危受命",
+        "displayName": {
+          "zhHans": "临危受命",
+          "zhHant": "臨危受命"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16706.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-16701",
+        "name": "平北将军",
+        "displayName": {
+          "zhHans": "平北将军",
+          "zhHant": "平北將軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16701.json"
+      },
+      {
+        "slug": "skin-16704",
+        "name": "征西将军",
+        "displayName": {
+          "zhHans": "征西将军",
+          "zhHant": "徵西將軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16704.json"
+      },
+      {
+        "slug": "skin-16704-16706",
+        "name": "征西将军,临危受命",
+        "displayName": {
+          "zhHans": "征西将军,临危受命",
+          "zhHant": "徵西將軍,臨危受命"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16704-16706.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/madai.json",
+      "groups": "api/v1/tts/characters/madai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/madai/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-16704",
+    "name": "征西将军",
+    "displayName": {
+      "zhHans": "征西将军",
+      "zhHant": "徵西將軍"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/madai/skins/skin-16704.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "madai--167madai--4dead01",
+      "resourceId": "167madai/4dead01",
+      "text": "原来，你早有防备。",
+      "textLocalized": {
+        "zhHans": "原来，你早有防备。",
+        "zhHant": "原來，你早有防備。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16706",
+          "name": "临危受命",
+          "displayName": {
+            "zhHans": "临危受命",
+            "zhHant": "臨危受命"
+          }
+        },
+        {
+          "slug": "skin-16704",
+          "name": "征西将军",
+          "displayName": {
+            "zhHans": "征西将军",
+            "zhHant": "徵西將軍"
+          }
+        },
+        {
+          "slug": "skin-16704-16706",
+          "name": "征西将军,临危受命",
+          "displayName": {
+            "zhHans": "征西将军,临危受命",
+            "zhHant": "徵西將軍,臨危受命"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/167madai-9b8e52f6/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "madai--167madai--4skill2_1",
+      "resourceId": "167madai/4skill2_1",
+      "text": "叛夫小儿，快快授首！",
+      "textLocalized": {
+        "zhHans": "叛夫小儿，快快授首！",
+        "zhHant": "叛夫小兒，快快授首！"
+      },
+      "group": {
+        "slug": "spell-474-428",
+        "name": "潜袭",
+        "displayName": {
+          "zhHans": "潜袭",
+          "zhHant": "潛襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16706",
+          "name": "临危受命",
+          "displayName": {
+            "zhHans": "临危受命",
+            "zhHant": "臨危受命"
+          }
+        },
+        {
+          "slug": "skin-16704",
+          "name": "征西将军",
+          "displayName": {
+            "zhHans": "征西将军",
+            "zhHant": "徵西將軍"
+          }
+        },
+        {
+          "slug": "skin-16704-16706",
+          "name": "征西将军,临危受命",
+          "displayName": {
+            "zhHans": "征西将军,临危受命",
+            "zhHant": "徵西將軍,臨危受命"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/167madai-9b8e52f6/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "madai--167madai--4skill2_2",
+      "resourceId": "167madai/4skill2_2",
+      "text": "潜军待阵，袭杀逆贼！",
+      "textLocalized": {
+        "zhHans": "潜军待阵，袭杀逆贼！",
+        "zhHant": "潛軍待陣，襲殺逆賊！"
+      },
+      "group": {
+        "slug": "spell-474-428",
+        "name": "潜袭",
+        "displayName": {
+          "zhHans": "潜袭",
+          "zhHant": "潛襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16706",
+          "name": "临危受命",
+          "displayName": {
+            "zhHans": "临危受命",
+            "zhHant": "臨危受命"
+          }
+        },
+        {
+          "slug": "skin-16704",
+          "name": "征西将军",
+          "displayName": {
+            "zhHans": "征西将军",
+            "zhHant": "徵西將軍"
+          }
+        },
+        {
+          "slug": "skin-16704-16706",
+          "name": "征西将军,临危受命",
+          "displayName": {
+            "zhHans": "征西将军,临危受命",
+            "zhHant": "徵西將軍,臨危受命"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/167madai-9b8e52f6/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

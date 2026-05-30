@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:826a4c89020beec369895e5c680e2453d5a423c80e52694bfccba34101ff7b45
-size 7812
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dengzhong",
+    "command": "dengzhong",
+    "name": "邓忠",
+    "displayName": {
+      "zhHans": "邓忠",
+      "zhHant": "鄧忠"
+    },
+    "names": [
+      "邓忠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "邓忠",
+        "zhHant": "鄧忠"
+      }
+    ],
+    "ids": [
+      "512"
+    ],
+    "sourceNames": [
+      "邓忠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "邓忠",
+        "zhHant": "鄧忠"
+      }
+    ],
+    "sourceIds": [
+      "512"
+    ],
+    "searchNames": [
+      "dengzhong",
+      "邓忠",
+      "鄧忠"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/dengzhong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3119",
+        "name": "勘破",
+        "displayName": {
+          "zhHans": "勘破",
+          "zhHant": "勘破"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/dengzhong/groups/spell-3119.json"
+      },
+      {
+        "slug": "spell-3120",
+        "name": "更战",
+        "displayName": {
+          "zhHans": "更战",
+          "zhHant": "更戰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/dengzhong/groups/spell-3120.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dengzhong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51201",
+        "name": "蓝缕启林",
+        "displayName": {
+          "zhHans": "蓝缕启林",
+          "zhHant": "藍縷啓林"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dengzhong/skins/skin-51201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dengzhong.json",
+      "groups": "api/v1/tts/characters/dengzhong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dengzhong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/dengzhong/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "dengzhong--512dengzhong--1dead01",
+      "resourceId": "512dengzhong/1dead01",
+      "text": "杀身报国，死得其所……",
+      "textLocalized": {
+        "zhHans": "杀身报国，死得其所……",
+        "zhHant": "殺身報國，死得其所……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/512dengzhong-524ea071/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/512dengzhong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhong--512dengzhong--1skill1_1",
+      "resourceId": "512dengzhong/1skill1_1",
+      "text": "兵锋相交，便可知其玄机！",
+      "textLocalized": {
+        "zhHans": "兵锋相交，便可知其玄机！",
+        "zhHant": "兵鋒相交，便可知其玄機！"
+      },
+      "group": {
+        "slug": "spell-3119",
+        "name": "勘破",
+        "displayName": {
+          "zhHans": "勘破",
+          "zhHant": "勘破"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/512dengzhong-524ea071/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/512dengzhong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhong--512dengzhong--1skill1_2",
+      "resourceId": "512dengzhong/1skill1_2",
+      "text": "先发一军，以探敌营虚实！",
+      "textLocalized": {
+        "zhHans": "先发一军，以探敌营虚实！",
+        "zhHant": "先發一軍，以探敵營虛實！"
+      },
+      "group": {
+        "slug": "spell-3119",
+        "name": "勘破",
+        "displayName": {
+          "zhHans": "勘破",
+          "zhHant": "勘破"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/512dengzhong-524ea071/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/512dengzhong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhong--512dengzhong--1skill2_1",
+      "resourceId": "512dengzhong/1skill2_1",
+      "text": "将无常败，军可常胜。",
+      "textLocalized": {
+        "zhHans": "将无常败，军可常胜。",
+        "zhHant": "將無常敗，軍可常勝。"
+      },
+      "group": {
+        "slug": "spell-3120",
+        "name": "更战",
+        "displayName": {
+          "zhHans": "更战",
+          "zhHant": "更戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/512dengzhong-524ea071/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/512dengzhong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhong--512dengzhong--1skill2_2",
+      "resourceId": "512dengzhong/1skill2_2",
+      "text": "前进可活，后退即死！",
+      "textLocalized": {
+        "zhHans": "前进可活，后退即死！",
+        "zhHant": "前進可活，後退即死！"
+      },
+      "group": {
+        "slug": "spell-3120",
+        "name": "更战",
+        "displayName": {
+          "zhHans": "更战",
+          "zhHant": "更戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/512dengzhong-524ea071/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/512dengzhong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

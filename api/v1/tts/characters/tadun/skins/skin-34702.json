@@ -1,3 +1,288 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47dc02382d51c7fba4cd644c455bf70f9e740ea5bfd0e2a22c95d8df843583ae
-size 7769
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tadun",
+    "command": "tadun",
+    "name": "蹋顿",
+    "displayName": {
+      "zhHans": "蹋顿",
+      "zhHant": "蹋頓"
+    },
+    "names": [
+      "蹋顿"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蹋顿",
+        "zhHant": "蹋頓"
+      }
+    ],
+    "ids": [
+      "347"
+    ],
+    "sourceNames": [
+      "蹋顿"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蹋顿",
+        "zhHant": "蹋頓"
+      }
+    ],
+    "sourceIds": [
+      "347"
+    ],
+    "searchNames": [
+      "tadun",
+      "蹋顿",
+      "蹋頓"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/tadun/groups/dead.json"
+      },
+      {
+        "slug": "spell-275",
+        "name": "乱战",
+        "displayName": {
+          "zhHans": "乱战",
+          "zhHant": "亂戰"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/tadun/groups/spell-275.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-34701",
+        "name": "凶桀骁猛",
+        "displayName": {
+          "zhHans": "凶桀骁猛",
+          "zhHant": "兇桀驍猛"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/tadun/skins/skin-34701.json"
+      },
+      {
+        "slug": "skin-34701-34702",
+        "name": "凶桀骁猛,勇雄百蛮",
+        "displayName": {
+          "zhHans": "凶桀骁猛,勇雄百蛮",
+          "zhHant": "兇桀驍猛,勇雄百蠻"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/tadun/skins/skin-34701-34702.json"
+      },
+      {
+        "slug": "skin-34702",
+        "name": "勇雄百蛮",
+        "displayName": {
+          "zhHans": "勇雄百蛮",
+          "zhHant": "勇雄百蠻"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/tadun/skins/skin-34702.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/tadun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34703",
+        "name": "骁武百蛮",
+        "displayName": {
+          "zhHans": "骁武百蛮",
+          "zhHant": "驍武百蠻"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/tadun/skins/skin-34703.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tadun.json",
+      "groups": "api/v1/tts/characters/tadun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tadun/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-34702",
+    "name": "勇雄百蛮",
+    "displayName": {
+      "zhHans": "勇雄百蛮",
+      "zhHant": "勇雄百蠻"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/tadun/skins/skin-34702.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "tadun--347tadun--4dead01",
+      "resourceId": "347tadun/4dead01",
+      "text": "曹贼，你好生奸诈……",
+      "textLocalized": {
+        "zhHans": "曹贼，你好生奸诈……",
+        "zhHant": "曹賊，你好生奸詐……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34701",
+          "name": "凶桀骁猛",
+          "displayName": {
+            "zhHans": "凶桀骁猛",
+            "zhHant": "兇桀驍猛"
+          }
+        },
+        {
+          "slug": "skin-34702",
+          "name": "勇雄百蛮",
+          "displayName": {
+            "zhHans": "勇雄百蛮",
+            "zhHant": "勇雄百蠻"
+          }
+        },
+        {
+          "slug": "skin-34701-34702",
+          "name": "凶桀骁猛,勇雄百蛮",
+          "displayName": {
+            "zhHans": "凶桀骁猛,勇雄百蛮",
+            "zhHant": "兇桀驍猛,勇雄百蠻"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/347tadun-79bafe68/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/347tadun/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tadun--347tadun--4skill1_1",
+      "resourceId": "347tadun/4skill1_1",
+      "text": "乘势南军，席卷中原！",
+      "textLocalized": {
+        "zhHans": "乘势南军，席卷中原！",
+        "zhHant": "乘勢南軍，席捲中原！"
+      },
+      "group": {
+        "slug": "spell-275",
+        "name": "乱战",
+        "displayName": {
+          "zhHans": "乱战",
+          "zhHant": "亂戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34701",
+          "name": "凶桀骁猛",
+          "displayName": {
+            "zhHans": "凶桀骁猛",
+            "zhHant": "兇桀驍猛"
+          }
+        },
+        {
+          "slug": "skin-34702",
+          "name": "勇雄百蛮",
+          "displayName": {
+            "zhHans": "勇雄百蛮",
+            "zhHant": "勇雄百蠻"
+          }
+        },
+        {
+          "slug": "skin-34701-34702",
+          "name": "凶桀骁猛,勇雄百蛮",
+          "displayName": {
+            "zhHans": "凶桀骁猛,勇雄百蛮",
+            "zhHant": "兇桀驍猛,勇雄百蠻"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/347tadun-79bafe68/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/347tadun/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tadun--347tadun--4skill1_2",
+      "resourceId": "347tadun/4skill1_2",
+      "text": "错杀一千，也不放过一个！",
+      "textLocalized": {
+        "zhHans": "错杀一千，也不放过一个！",
+        "zhHant": "錯殺一千，也不放過一個！"
+      },
+      "group": {
+        "slug": "spell-275",
+        "name": "乱战",
+        "displayName": {
+          "zhHans": "乱战",
+          "zhHant": "亂戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34701",
+          "name": "凶桀骁猛",
+          "displayName": {
+            "zhHans": "凶桀骁猛",
+            "zhHant": "兇桀驍猛"
+          }
+        },
+        {
+          "slug": "skin-34702",
+          "name": "勇雄百蛮",
+          "displayName": {
+            "zhHans": "勇雄百蛮",
+            "zhHant": "勇雄百蠻"
+          }
+        },
+        {
+          "slug": "skin-34701-34702",
+          "name": "凶桀骁猛,勇雄百蛮",
+          "displayName": {
+            "zhHans": "凶桀骁猛,勇雄百蛮",
+            "zhHant": "兇桀驍猛,勇雄百蠻"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/347tadun-79bafe68/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/347tadun/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

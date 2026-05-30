@@ -1,3 +1,294 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d2ed5e14454c4c3daa84abc3b107f5aae8a24e7f856567da2e1a61849055ed1c
-size 7789
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhaoyun",
+    "command": "zhaoyun",
+    "name": "赵云",
+    "displayName": {
+      "zhHans": "赵云",
+      "zhHant": "趙雲"
+    },
+    "names": [
+      "赵云",
+      "界赵云"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "赵云",
+        "zhHant": "趙雲"
+      },
+      {
+        "zhHans": "界赵云",
+        "zhHant": "界趙雲"
+      }
+    ],
+    "ids": [
+      "5",
+      "302"
+    ],
+    "sourceNames": [
+      "赵云",
+      "界赵云"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "赵云",
+        "zhHant": "趙雲"
+      },
+      {
+        "zhHans": "界赵云",
+        "zhHant": "界趙雲"
+      }
+    ],
+    "sourceIds": [
+      "5",
+      "302"
+    ],
+    "searchNames": [
+      "zhaoyun",
+      "赵云",
+      "趙雲",
+      "界赵云",
+      "界趙雲"
+    ],
+    "lineCount": 19,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhaoyun/groups/dead.json"
+      },
+      {
+        "slug": "spell-37",
+        "name": "龙胆",
+        "displayName": {
+          "zhHans": "龙胆",
+          "zhHant": "龍膽"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhaoyun/groups/spell-37.json"
+      },
+      {
+        "slug": "spell-37-940",
+        "name": "龙胆",
+        "displayName": {
+          "zhHans": "龙胆",
+          "zhHant": "龍膽"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhaoyun/groups/spell-37-940.json"
+      },
+      {
+        "slug": "spell-703",
+        "name": "涯角",
+        "displayName": {
+          "zhHans": "涯角",
+          "zhHant": "涯角"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhaoyun/groups/spell-703.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-507",
+        "name": "勇战佑龙",
+        "displayName": {
+          "zhHans": "勇战佑龙",
+          "zhHant": "勇戰佑龍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhaoyun/skins/skin-507.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhaoyun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-504",
+        "name": "只身救稚",
+        "displayName": {
+          "zhHans": "只身救稚",
+          "zhHant": "隻身救稚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhaoyun/skins/skin-504.json"
+      },
+      {
+        "slug": "skin-506",
+        "name": "挥枪稳心",
+        "displayName": {
+          "zhHans": "挥枪稳心",
+          "zhHant": "揮槍穩心"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhaoyun/skins/skin-506.json"
+      },
+      {
+        "slug": "skin-505",
+        "name": "汉水破曹",
+        "displayName": {
+          "zhHans": "汉水破曹",
+          "zhHant": "漢水破曹"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhaoyun/skins/skin-505.json"
+      },
+      {
+        "slug": "skin-505-506",
+        "name": "汉水破曹,挥枪稳心",
+        "displayName": {
+          "zhHans": "汉水破曹,挥枪稳心",
+          "zhHant": "漢水破曹,揮槍穩心"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhaoyun/skins/skin-505-506.json"
+      },
+      {
+        "slug": "skin-2",
+        "name": "经典",
+        "displayName": {
+          "zhHans": "经典",
+          "zhHant": "經典"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhaoyun/skins/skin-2.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhaoyun.json",
+      "groups": "api/v1/tts/characters/zhaoyun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhaoyun/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-507",
+    "name": "勇战佑龙",
+    "displayName": {
+      "zhHans": "勇战佑龙",
+      "zhHant": "勇戰佑龍"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/zhaoyun/skins/skin-507.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "zhaoyun--5zhaoyun--5dead01",
+      "resourceId": "5zhaoyun/5dead01",
+      "text": "咳咳……这次……是我输了……",
+      "textLocalized": {
+        "zhHans": "咳咳……这次……是我输了……",
+        "zhHant": "咳咳……這次……是我輸了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-507",
+          "name": "勇战佑龙",
+          "displayName": {
+            "zhHans": "勇战佑龙",
+            "zhHant": "勇戰佑龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/5zhaoyun-307af6f8/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/5zhaoyun/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhaoyun--5zhaoyun--5skill1_1",
+      "resourceId": "5zhaoyun/5skill1_1",
+      "text": "七进七出，如入无人之境。",
+      "textLocalized": {
+        "zhHans": "七进七出，如入无人之境。",
+        "zhHant": "七進七出，如入無人之境。"
+      },
+      "group": {
+        "slug": "spell-37-940",
+        "name": "龙胆",
+        "displayName": {
+          "zhHans": "龙胆",
+          "zhHant": "龍膽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-507",
+          "name": "勇战佑龙",
+          "displayName": {
+            "zhHans": "勇战佑龙",
+            "zhHant": "勇戰佑龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/5zhaoyun-307af6f8/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/5zhaoyun/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhaoyun--5zhaoyun--5skill1_2",
+      "resourceId": "5zhaoyun/5skill1_2",
+      "text": "攻必克，守必固。",
+      "textLocalized": {
+        "zhHans": "攻必克，守必固。",
+        "zhHant": "攻必克，守必固。"
+      },
+      "group": {
+        "slug": "spell-37-940",
+        "name": "龙胆",
+        "displayName": {
+          "zhHans": "龙胆",
+          "zhHant": "龍膽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-507",
+          "name": "勇战佑龙",
+          "displayName": {
+            "zhHans": "勇战佑龙",
+            "zhHant": "勇戰佑龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/5zhaoyun-307af6f8/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/5zhaoyun/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

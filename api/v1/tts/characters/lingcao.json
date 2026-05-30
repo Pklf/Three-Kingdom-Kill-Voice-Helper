@@ -1,3 +1,190 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:94e6c832ef462847ecce314d6d39c0bc0c653a08bbb90e2a08587f65698d4c4a
-size 4976
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "lingcao",
+    "command": "lingcao",
+    "name": "凌操",
+    "displayName": {
+      "zhHans": "凌操",
+      "zhHant": "凌操"
+    },
+    "names": [
+      "凌操"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "凌操",
+        "zhHant": "凌操"
+      }
+    ],
+    "ids": [
+      "598"
+    ],
+    "sourceNames": [
+      "凌操"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "凌操",
+        "zhHant": "凌操"
+      }
+    ],
+    "sourceIds": [
+      "598"
+    ],
+    "searchNames": [
+      "lingcao",
+      "凌操"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/lingcao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3414",
+        "name": "独进",
+        "displayName": {
+          "zhHans": "独进",
+          "zhHant": "獨進"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lingcao/groups/spell-3414.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/lingcao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lingcao.json",
+      "groups": "api/v1/tts/characters/lingcao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lingcao/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "lingcao--598lingcao--1dead01",
+      "resourceId": "598lingcao/1dead01",
+      "text": "呃啊！(落水声) 咳，此箭，何来......",
+      "textLocalized": {
+        "zhHans": "呃啊！(落水声) 咳，此箭，何来......",
+        "zhHant": "呃啊！(落水聲) 咳，此箭，何來......"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/598lingcao-b23b7e45/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/598lingcao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingcao--598lingcao--1skill1_1",
+      "resourceId": "598lingcao/1skill1_1",
+      "text": "带兵十万，不如老夫多甲一件。",
+      "textLocalized": {
+        "zhHans": "带兵十万，不如老夫多甲一件。",
+        "zhHant": "帶兵十萬，不如老夫多甲一件。"
+      },
+      "group": {
+        "slug": "spell-3414",
+        "name": "独进",
+        "displayName": {
+          "zhHans": "独进",
+          "zhHant": "獨進"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/598lingcao-b23b7e45/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/598lingcao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingcao--598lingcao--1skill1_2",
+      "resourceId": "598lingcao/1skill1_2",
+      "text": "轻舟独进，破敌先锋。",
+      "textLocalized": {
+        "zhHans": "轻舟独进，破敌先锋。",
+        "zhHant": "輕舟獨進，破敵先鋒。"
+      },
+      "group": {
+        "slug": "spell-3414",
+        "name": "独进",
+        "displayName": {
+          "zhHans": "独进",
+          "zhHant": "獨進"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/598lingcao-b23b7e45/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/598lingcao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dfe03c7339cf47295cc96ab94af24919658a962e4d0d453eb9b1174837a14297
-size 4373
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wuyan",
+    "command": "wuyan",
+    "name": "吾彦",
+    "displayName": {
+      "zhHans": "吾彦",
+      "zhHant": "吾彥"
+    },
+    "names": [
+      "吾彦"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "吾彦",
+        "zhHant": "吾彥"
+      }
+    ],
+    "ids": [
+      "356"
+    ],
+    "sourceNames": [
+      "吾彦"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "吾彦",
+        "zhHant": "吾彥"
+      }
+    ],
+    "sourceIds": [
+      "356"
+    ],
+    "searchNames": [
+      "wuyan",
+      "吾彦",
+      "吾彥"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wuyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3072",
+        "name": "澜疆",
+        "displayName": {
+          "zhHans": "澜疆",
+          "zhHant": "瀾疆"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wuyan/groups/spell-3072.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wuyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35601",
+        "name": "搏虎显威",
+        "displayName": {
+          "zhHans": "搏虎显威",
+          "zhHant": "搏虎顯威"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wuyan/skins/skin-35601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wuyan.json",
+      "groups": "api/v1/tts/characters/wuyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wuyan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/wuyan/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "wuyan--356wuyan--1dead01",
+      "resourceId": "356wuyan/1dead01",
+      "text": "世间再无擒虎客……",
+      "textLocalized": {
+        "zhHans": "世间再无擒虎客……",
+        "zhHant": "世間再無擒虎客……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/356wuyan-c7ac8f7a/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/356wuyan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuyan--356wuyan--2dead01",
+      "resourceId": "356wuyan/2dead01",
+      "text": "进亦死，退亦死，死战可乎。",
+      "textLocalized": {
+        "zhHans": "进亦死，退亦死，死战可乎。",
+        "zhHant": "進亦死，退亦死，死戰可乎。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35601",
+          "name": "搏虎显威",
+          "displayName": {
+            "zhHans": "搏虎显威",
+            "zhHant": "搏虎顯威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/356wuyan-c7ac8f7a/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/356wuyan/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:61c0c1950719d80d7b78a39628f84d37cb2dc1dc5d6619b0cd6ff3d0810d3964
-size 3063
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sishe",
+    "command": "sishe",
+    "name": "巳蛇",
+    "displayName": {
+      "zhHans": "巳蛇",
+      "zhHant": "巳蛇"
+    },
+    "names": [
+      "巳蛇"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "巳蛇",
+        "zhHant": "巳蛇"
+      }
+    ],
+    "ids": [
+      "4088"
+    ],
+    "sourceNames": [
+      "巳蛇"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "巳蛇",
+        "zhHant": "巳蛇"
+      }
+    ],
+    "sourceIds": [
+      "4088"
+    ],
+    "searchNames": [
+      "sishe",
+      "巳蛇"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/sishe/groups/dead.json"
+      },
+      {
+        "slug": "spell-1206",
+        "name": "巳蛇",
+        "displayName": {
+          "zhHans": "巳蛇",
+          "zhHant": "巳蛇"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/sishe/groups/spell-1206.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/sishe/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sishe.json",
+      "groups": "api/v1/tts/characters/sishe/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sishe/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1206",
+    "name": "巳蛇",
+    "displayName": {
+      "zhHans": "巳蛇",
+      "zhHant": "巳蛇"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/sishe/groups/spell-1206.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "sishe--4088sishe--1skill1_1",
+      "resourceId": "4088sishe/1skill1_1",
+      "text": "伤我者，一一奉还。",
+      "textLocalized": {
+        "zhHans": "伤我者，一一奉还。",
+        "zhHant": "傷我者，一一奉還。"
+      },
+      "group": {
+        "slug": "spell-1206",
+        "name": "巳蛇",
+        "displayName": {
+          "zhHans": "巳蛇",
+          "zhHant": "巳蛇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4088sishe-7c35f1a3/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4088sishe/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

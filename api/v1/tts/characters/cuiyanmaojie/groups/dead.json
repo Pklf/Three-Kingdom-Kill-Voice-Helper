@@ -1,3 +1,139 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:495cab88464f306dd6075f96e1e3b452f88750eec677916c15db1b125f8cb010
-size 3494
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "cuiyanmaojie",
+    "command": "cuiyanmaojie",
+    "name": "崔琰&毛玠",
+    "displayName": {
+      "zhHans": "崔琰&毛玠",
+      "zhHant": "崔琰&毛玠"
+    },
+    "names": [
+      "崔琰&毛玠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "崔琰&毛玠",
+        "zhHant": "崔琰&毛玠"
+      }
+    ],
+    "ids": [
+      "2101"
+    ],
+    "sourceNames": [
+      "崔琰&毛玠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "崔琰&毛玠",
+        "zhHant": "崔琰&毛玠"
+      }
+    ],
+    "sourceIds": [
+      "2101"
+    ],
+    "searchNames": [
+      "cuiyanmaojie",
+      "崔琰&毛玠"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/cuiyanmaojie/groups/dead.json"
+      },
+      {
+        "slug": "spell-2157",
+        "name": "征辟",
+        "displayName": {
+          "zhHans": "征辟",
+          "zhHant": "徵辟"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/cuiyanmaojie/groups/spell-2157.json"
+      },
+      {
+        "slug": "spell-2158",
+        "name": "奉迎",
+        "displayName": {
+          "zhHans": "奉迎",
+          "zhHant": "奉迎"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/cuiyanmaojie/groups/spell-2158.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cuiyanmaojie/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/cuiyanmaojie.json",
+      "groups": "api/v1/tts/characters/cuiyanmaojie/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/cuiyanmaojie/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/cuiyanmaojie/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "cuiyanmaojie--2101cuiyanmaojie--1dead01",
+      "resourceId": "2101cuiyanmaojie/1dead01",
+      "text": "为世所痛惜，冤哉。",
+      "textLocalized": {
+        "zhHans": "为世所痛惜，冤哉。",
+        "zhHant": "爲世所痛惜，冤哉。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2101cuiyanmaojie-f5023e4c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2101cuiyanmaojie/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

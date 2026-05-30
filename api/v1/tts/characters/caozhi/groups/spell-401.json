@@ -1,3 +1,652 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1bd0e57910cb411561cdbfac8b458dc3776dddbc7345644cd3905d70d7d13020
-size 18630
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caozhi",
+    "command": "caozhi",
+    "name": "曹植",
+    "displayName": {
+      "zhHans": "曹植",
+      "zhHant": "曹植"
+    },
+    "names": [
+      "曹植"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹植",
+        "zhHant": "曹植"
+      }
+    ],
+    "ids": [
+      "151"
+    ],
+    "sourceNames": [
+      "曹植"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹植",
+        "zhHant": "曹植"
+      }
+    ],
+    "sourceIds": [
+      "151"
+    ],
+    "searchNames": [
+      "caozhi",
+      "曹植"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caozhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/caozhi/groups/spell-401.json"
+      },
+      {
+        "slug": "spell-402",
+        "name": "酒诗",
+        "displayName": {
+          "zhHans": "酒诗",
+          "zhHant": "酒詩"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/caozhi/groups/spell-402.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-15104",
+        "name": "七步绝章",
+        "displayName": {
+          "zhHans": "七步绝章",
+          "zhHant": "七步絕章"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15104.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-15103",
+        "name": "情兼雅怨",
+        "displayName": {
+          "zhHans": "情兼雅怨",
+          "zhHant": "情兼雅怨"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15103.json"
+      },
+      {
+        "slug": "skin-15107",
+        "name": "情化诗赋",
+        "displayName": {
+          "zhHans": "情化诗赋",
+          "zhHant": "情化詩賦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15107.json"
+      },
+      {
+        "slug": "skin-15110",
+        "name": "玉露清辉",
+        "displayName": {
+          "zhHans": "玉露清辉",
+          "zhHant": "玉露清輝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15110.json"
+      },
+      {
+        "slug": "skin-15108",
+        "name": "睹物思人",
+        "displayName": {
+          "zhHans": "睹物思人",
+          "zhHant": "睹物思人"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15108.json"
+      },
+      {
+        "slug": "skin-15109",
+        "name": "虚拟天团",
+        "displayName": {
+          "zhHans": "虚拟天团",
+          "zhHant": "虛擬天團"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15109.json"
+      },
+      {
+        "slug": "skin-15102",
+        "name": "风华绝代",
+        "displayName": {
+          "zhHans": "风华绝代",
+          "zhHant": "風華絕代"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15102.json"
+      },
+      {
+        "slug": "skin-15102-15103-15108",
+        "name": "风华绝代,情兼雅怨,睹物思人",
+        "displayName": {
+          "zhHans": "风华绝代,情兼雅怨,睹物思人",
+          "zhHant": "風華絕代,情兼雅怨,睹物思人"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15102-15103-15108.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caozhi.json",
+      "groups": "api/v1/tts/characters/caozhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caozhi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-401",
+    "name": "落英",
+    "displayName": {
+      "zhHans": "落英",
+      "zhHant": "落英"
+    },
+    "lineCount": 12,
+    "endpoint": "api/v1/tts/characters/caozhi/groups/spell-401.json"
+  },
+  "lineCount": 12,
+  "lines": [
+    {
+      "id": "caozhi--151caozhi--4skill1_1",
+      "resourceId": "151caozhi/4skill1_1",
+      "text": "梅花尽落人尽散。",
+      "textLocalized": {
+        "zhHans": "梅花尽落人尽散。",
+        "zhHant": "梅花盡落人盡散。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15104",
+          "name": "七步绝章",
+          "displayName": {
+            "zhHans": "七步绝章",
+            "zhHant": "七步絕章"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--4skill1_2",
+      "resourceId": "151caozhi/4skill1_2",
+      "text": "落英何处去，随我诉衷肠。",
+      "textLocalized": {
+        "zhHans": "落英何处去，随我诉衷肠。",
+        "zhHant": "落英何處去，隨我訴衷腸。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15104",
+          "name": "七步绝章",
+          "displayName": {
+            "zhHans": "七步绝章",
+            "zhHant": "七步絕章"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--1skill1_1",
+      "resourceId": "151caozhi/1skill1_1",
+      "text": "这些都是我的。",
+      "textLocalized": {
+        "zhHans": "这些都是我的。",
+        "zhHant": "這些都是我的。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--1skill1_2",
+      "resourceId": "151caozhi/1skill1_2",
+      "text": "别着急扔，给我就好。",
+      "textLocalized": {
+        "zhHans": "别着急扔，给我就好。",
+        "zhHant": "彆着急扔，給我就好。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--5skill1_1",
+      "resourceId": "151caozhi/5skill1_1",
+      "text": "感悟伤我怀，俯心常叹息。",
+      "textLocalized": {
+        "zhHans": "感悟伤我怀，俯心常叹息。",
+        "zhHant": "感悟傷我懷，俯心常嘆息。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15107",
+          "name": "情化诗赋",
+          "displayName": {
+            "zhHans": "情化诗赋",
+            "zhHant": "情化詩賦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--5skill1_2",
+      "resourceId": "151caozhi/5skill1_2",
+      "text": "流水自无言，落英知我愿。",
+      "textLocalized": {
+        "zhHans": "流水自无言，落英知我愿。",
+        "zhHant": "流水自無言，落英知我願。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15107",
+          "name": "情化诗赋",
+          "displayName": {
+            "zhHans": "情化诗赋",
+            "zhHant": "情化詩賦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--7skill1_1",
+      "resourceId": "151caozhi/7skill1_1",
+      "text": "借问谁家子，幽并游侠儿。",
+      "textLocalized": {
+        "zhHans": "借问谁家子，幽并游侠儿。",
+        "zhHant": "借問誰家子，幽並遊俠兒。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15110",
+          "name": "玉露清辉",
+          "displayName": {
+            "zhHans": "玉露清辉",
+            "zhHant": "玉露清輝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/7skill1-1-4d1f92a3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/7skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--7skill1_2",
+      "resourceId": "151caozhi/7skill1_2",
+      "text": "浮沉各异势，会合何时谐？",
+      "textLocalized": {
+        "zhHans": "浮沉各异势，会合何时谐？",
+        "zhHant": "浮沉各異勢，會合何時諧？"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15110",
+          "name": "玉露清辉",
+          "displayName": {
+            "zhHans": "玉露清辉",
+            "zhHant": "玉露清輝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/7skill1-2-5d53dc16.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/7skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--6skill1_1",
+      "resourceId": "151caozhi/6skill1_1",
+      "text": "吐粲若兮霓户，绝阿阁乎落英。",
+      "textLocalized": {
+        "zhHans": "吐粲若兮霓户，绝阿阁乎落英。",
+        "zhHant": "吐粲若兮霓戶，絕阿閣乎落英。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15109",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--6skill1_2",
+      "resourceId": "151caozhi/6skill1_2",
+      "text": "顾秋华而零落，感岁莫而伤心。",
+      "textLocalized": {
+        "zhHans": "顾秋华而零落，感岁莫而伤心。",
+        "zhHant": "顧秋華而零落，感歲莫而傷心。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15109",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--3skill1_1",
+      "resourceId": "151caozhi/3skill1_1",
+      "text": "落花虽有时，英姿安犹在。",
+      "textLocalized": {
+        "zhHans": "落花虽有时，英姿安犹在。",
+        "zhHant": "落花雖有時，英姿安猶在。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15103",
+          "name": "情兼雅怨",
+          "displayName": {
+            "zhHans": "情兼雅怨",
+            "zhHant": "情兼雅怨"
+          }
+        },
+        {
+          "slug": "skin-15108",
+          "name": "睹物思人",
+          "displayName": {
+            "zhHans": "睹物思人",
+            "zhHant": "睹物思人"
+          }
+        },
+        {
+          "slug": "skin-15102",
+          "name": "风华绝代",
+          "displayName": {
+            "zhHans": "风华绝代",
+            "zhHant": "風華絕代"
+          }
+        },
+        {
+          "slug": "skin-15102-15103-15108",
+          "name": "风华绝代,情兼雅怨,睹物思人",
+          "displayName": {
+            "zhHans": "风华绝代,情兼雅怨,睹物思人",
+            "zhHant": "風華絕代,情兼雅怨,睹物思人"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--3skill1_2",
+      "resourceId": "151caozhi/3skill1_2",
+      "text": "远眺洛神步，近拾落花情。",
+      "textLocalized": {
+        "zhHans": "远眺洛神步，近拾落花情。",
+        "zhHant": "遠眺洛神步，近拾落花情。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15103",
+          "name": "情兼雅怨",
+          "displayName": {
+            "zhHans": "情兼雅怨",
+            "zhHant": "情兼雅怨"
+          }
+        },
+        {
+          "slug": "skin-15108",
+          "name": "睹物思人",
+          "displayName": {
+            "zhHans": "睹物思人",
+            "zhHant": "睹物思人"
+          }
+        },
+        {
+          "slug": "skin-15102",
+          "name": "风华绝代",
+          "displayName": {
+            "zhHans": "风华绝代",
+            "zhHant": "風華絕代"
+          }
+        },
+        {
+          "slug": "skin-15102-15103-15108",
+          "name": "风华绝代,情兼雅怨,睹物思人",
+          "displayName": {
+            "zhHans": "风华绝代,情兼雅怨,睹物思人",
+            "zhHant": "風華絕代,情兼雅怨,睹物思人"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

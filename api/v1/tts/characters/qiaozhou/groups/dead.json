@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e72542840859cc1c76164fb0d9a01d5f092247d2e09dc1d65d2e10852acded72
-size 4772
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qiaozhou",
+    "command": "qiaozhou",
+    "name": "谯周",
+    "displayName": {
+      "zhHans": "谯周",
+      "zhHant": "譙周"
+    },
+    "names": [
+      "谯周"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "谯周",
+        "zhHant": "譙周"
+      }
+    ],
+    "ids": [
+      "540"
+    ],
+    "sourceNames": [
+      "谯周"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "谯周",
+        "zhHant": "譙周"
+      }
+    ],
+    "sourceIds": [
+      "540"
+    ],
+    "searchNames": [
+      "qiaozhou",
+      "谯周",
+      "譙周"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/qiaozhou/groups/dead.json"
+      },
+      {
+        "slug": "spell-3232",
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qiaozhou/groups/spell-3232.json"
+      },
+      {
+        "slug": "spell-3233",
+        "name": "星卜",
+        "displayName": {
+          "zhHans": "星卜",
+          "zhHant": "星卜"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qiaozhou/groups/spell-3233.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qiaozhou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54001",
+        "name": "寓星沉祚",
+        "displayName": {
+          "zhHans": "寓星沉祚",
+          "zhHant": "寓星沉祚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qiaozhou/skins/skin-54001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/qiaozhou.json",
+      "groups": "api/v1/tts/characters/qiaozhou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/qiaozhou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/qiaozhou/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "qiaozhou--540qiaozhou--1dead01",
+      "resourceId": "540qiaozhou/1dead01",
+      "text": "老夫死不足惜，|但求蜀地百姓无虞。",
+      "textLocalized": {
+        "zhHans": "老夫死不足惜，|但求蜀地百姓无虞。",
+        "zhHant": "老夫死不足惜，|但求蜀地百姓無虞。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--2dead01",
+      "resourceId": "540qiaozhou/2dead01",
+      "text": "俛首而事雠，非居正道也。",
+      "textLocalized": {
+        "zhHans": "俛首而事雠，非居正道也。",
+        "zhHant": "俛首而事讎，非居正道也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54001",
+          "name": "寓星沉祚",
+          "displayName": {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

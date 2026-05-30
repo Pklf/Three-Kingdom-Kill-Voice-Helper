@@ -1,3 +1,199 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7fa0a1da2f9b022e331259f50feb814d923ccc03b2d26c6c2b9620ed3862f510
-size 5144
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "mouyuanshu",
+    "command": "mouyuanshu",
+    "name": "谋袁术",
+    "displayName": {
+      "zhHans": "谋袁术",
+      "zhHant": "謀袁術"
+    },
+    "names": [
+      "谋袁术",
+      "袁术"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "谋袁术",
+        "zhHant": "謀袁術"
+      },
+      {
+        "zhHans": "袁术",
+        "zhHant": "袁術"
+      }
+    ],
+    "ids": [
+      "646",
+      "100"
+    ],
+    "sourceNames": [
+      "谋袁术",
+      "袁术"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "谋袁术",
+        "zhHant": "謀袁術"
+      },
+      {
+        "zhHans": "袁术",
+        "zhHant": "袁術"
+      }
+    ],
+    "sourceIds": [
+      "646",
+      "100"
+    ],
+    "searchNames": [
+      "mouyuanshu",
+      "谋袁术",
+      "謀袁術",
+      "袁术",
+      "袁術"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/mouyuanshu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3521",
+        "name": "矜名",
+        "displayName": {
+          "zhHans": "矜名",
+          "zhHant": "矜名"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/mouyuanshu/groups/spell-3521.json"
+      },
+      {
+        "slug": "spell-3522",
+        "name": "枭噬",
+        "displayName": {
+          "zhHans": "枭噬",
+          "zhHant": "梟噬"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/mouyuanshu/groups/spell-3522.json"
+      },
+      {
+        "slug": "spell-3523",
+        "name": "厌粱",
+        "displayName": {
+          "zhHans": "厌粱",
+          "zhHant": "厭粱"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/mouyuanshu/groups/spell-3523.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "64601",
+        "name": "64601",
+        "displayName": {
+          "zhHans": "64601",
+          "zhHant": "64601"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/mouyuanshu/skins/64601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/mouyuanshu.json",
+      "groups": "api/v1/tts/characters/mouyuanshu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/mouyuanshu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3523",
+    "name": "厌粱",
+    "displayName": {
+      "zhHans": "厌粱",
+      "zhHant": "厭粱"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/mouyuanshu/groups/spell-3523.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "mouyuanshu--646mouyuanshu--2skill3_1",
+      "resourceId": "646mouyuanshu/2skill3_1",
+      "text": "父女同宴话团圆，秋风皓月两不厌。",
+      "textLocalized": {
+        "zhHans": "父女同宴话团圆，秋风皓月两不厌。",
+        "zhHant": "父女同宴話團圓，秋風皓月兩不厭。"
+      },
+      "group": {
+        "slug": "spell-3523",
+        "name": "厌粱",
+        "displayName": {
+          "zhHans": "厌粱",
+          "zhHant": "厭粱"
+        }
+      },
+      "skins": [
+        {
+          "slug": "64601",
+          "name": "64601",
+          "displayName": {
+            "zhHans": "64601",
+            "zhHant": "64601"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/646mouyuanshu-cbfcd916/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/646mouyuanshu/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mouyuanshu--646mouyuanshu--2skill3_2",
+      "resourceId": "646mouyuanshu/2skill3_2",
+      "text": "一觞酒，一缕风，举杯邀月，且消万古愁。",
+      "textLocalized": {
+        "zhHans": "一觞酒，一缕风，举杯邀月，且消万古愁。",
+        "zhHant": "一觴酒，一縷風，舉杯邀月，且消萬古愁。"
+      },
+      "group": {
+        "slug": "spell-3523",
+        "name": "厌粱",
+        "displayName": {
+          "zhHans": "厌粱",
+          "zhHant": "厭粱"
+        }
+      },
+      "skins": [
+        {
+          "slug": "64601",
+          "name": "64601",
+          "displayName": {
+            "zhHans": "64601",
+            "zhHant": "64601"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/646mouyuanshu-cbfcd916/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/646mouyuanshu/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

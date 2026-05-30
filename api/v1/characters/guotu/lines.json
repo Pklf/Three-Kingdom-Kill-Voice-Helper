@@ -1,3 +1,1434 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0472c638def1aa84e002aa3a20e6e4abcafd7054540df253acf386c2285db258
-size 32469
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guotu",
+    "command": "guotu",
+    "name": "郭图",
+    "displayName": {
+      "zhHans": "郭图",
+      "zhHant": "郭圖"
+    },
+    "names": [
+      "郭图"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "郭图",
+        "zhHant": "郭圖"
+      }
+    ],
+    "ids": [
+      "624"
+    ],
+    "sourceNames": [
+      "郭图"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "郭图",
+        "zhHant": "郭圖"
+      }
+    ],
+    "sourceIds": [
+      "624"
+    ],
+    "searchNames": [
+      "guotu",
+      "郭图",
+      "郭圖"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-3476",
+        "name": "趋势",
+        "displayName": {
+          "zhHans": "趋势",
+          "zhHant": "趨勢"
+        },
+        "ids": [
+          "3476"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-3477",
+        "name": "诿解",
+        "displayName": {
+          "zhHans": "诿解",
+          "zhHant": "諉解"
+        },
+        "ids": [
+          "3477"
+        ],
+        "lineCount": 4
+      }
+    ],
+    "skins": [
+      {
+        "slug": "62401",
+        "ids": [
+          "62401"
+        ],
+        "name": "62401",
+        "displayName": {
+          "zhHans": "62401",
+          "zhHant": "62401"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/guotu.json",
+      "lines": "api/v1/characters/guotu/lines.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "guotu--624guotu--2dead01",
+      "resourceId": "624guotu/2dead01",
+      "text": "子不如父，空丧大业。",
+      "textLocalized": {
+        "zhHans": "子不如父，空丧大业。",
+        "zhHant": "子不如父，空喪大業。"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "62401",
+        "ids": [
+          "62401"
+        ],
+        "name": "62401",
+        "displayName": {
+          "zhHans": "62401",
+          "zhHant": "62401"
+        },
+        "names": [
+          "62401"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "62401",
+          "id": "62401",
+          "ids": [
+            "62401"
+          ],
+          "name": "62401",
+          "displayName": {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          },
+          "names": [
+            "62401"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "62401",
+              "zhHant": "62401"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "62401",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "62401"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/2dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotu--624guotu--1dead01",
+      "resourceId": "624guotu/1dead01",
+      "text": "工于心计而不成事，匹夫怀其罪。",
+      "textLocalized": {
+        "zhHans": "工于心计而不成事，匹夫怀其罪。",
+        "zhHant": "工於心計而不成事，匹夫懷其罪。"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotu--624guotu--2skill1_1",
+      "resourceId": "624guotu/2skill1_1",
+      "text": "海纳百川，所以成其大。",
+      "textLocalized": {
+        "zhHans": "海纳百川，所以成其大。",
+        "zhHant": "海納百川，所以成其大。"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "spell-3476",
+        "ids": [
+          "3476"
+        ],
+        "name": "趋势",
+        "displayName": {
+          "zhHans": "趋势",
+          "zhHant": "趨勢"
+        },
+        "names": [
+          "趋势"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "趋势",
+            "zhHant": "趨勢"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "62401",
+        "ids": [
+          "62401"
+        ],
+        "name": "62401",
+        "displayName": {
+          "zhHans": "62401",
+          "zhHant": "62401"
+        },
+        "names": [
+          "62401"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "62401",
+          "id": "62401",
+          "ids": [
+            "62401"
+          ],
+          "name": "62401",
+          "displayName": {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          },
+          "names": [
+            "62401"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "62401",
+              "zhHant": "62401"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "62401",
+        "spellKey": "3476",
+        "rowIndex": 1,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "62401"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotu--624guotu--2skill1_2",
+      "resourceId": "624guotu/2skill1_2",
+      "text": "袁门根深蒂固，我愿为树上猢狲。",
+      "textLocalized": {
+        "zhHans": "袁门根深蒂固，我愿为树上猢狲。",
+        "zhHant": "袁門根深蒂固，我願爲樹上猢猻。"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "spell-3476",
+        "ids": [
+          "3476"
+        ],
+        "name": "趋势",
+        "displayName": {
+          "zhHans": "趋势",
+          "zhHant": "趨勢"
+        },
+        "names": [
+          "趋势"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "趋势",
+            "zhHant": "趨勢"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "62401",
+        "ids": [
+          "62401"
+        ],
+        "name": "62401",
+        "displayName": {
+          "zhHans": "62401",
+          "zhHant": "62401"
+        },
+        "names": [
+          "62401"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "62401",
+          "id": "62401",
+          "ids": [
+            "62401"
+          ],
+          "name": "62401",
+          "displayName": {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          },
+          "names": [
+            "62401"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "62401",
+              "zhHant": "62401"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "62401",
+        "spellKey": "3476",
+        "rowIndex": 2,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "62401"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotu--624guotu--1skill1_1",
+      "resourceId": "624guotu/1skill1_1",
+      "text": "将军天人之姿，可令四海归心。",
+      "textLocalized": {
+        "zhHans": "将军天人之姿，可令四海归心。",
+        "zhHant": "將軍天人之姿，可令四海歸心。"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "spell-3476",
+        "ids": [
+          "3476"
+        ],
+        "name": "趋势",
+        "displayName": {
+          "zhHans": "趋势",
+          "zhHant": "趨勢"
+        },
+        "names": [
+          "趋势"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "趋势",
+            "zhHant": "趨勢"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "-1",
+        "spellKey": "3476",
+        "rowIndex": 1,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotu--624guotu--1skill1_2",
+      "resourceId": "624guotu/1skill1_2",
+      "text": "小小锦上之花，难表一腔敬意。",
+      "textLocalized": {
+        "zhHans": "小小锦上之花，难表一腔敬意。",
+        "zhHant": "小小錦上之花，難表一腔敬意。"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "spell-3476",
+        "ids": [
+          "3476"
+        ],
+        "name": "趋势",
+        "displayName": {
+          "zhHans": "趋势",
+          "zhHant": "趨勢"
+        },
+        "names": [
+          "趋势"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "趋势",
+            "zhHant": "趨勢"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "-1",
+        "spellKey": "3476",
+        "rowIndex": 2,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotu--624guotu--2skill2_1",
+      "resourceId": "624guotu/2skill2_1",
+      "text": "某家说你有罪，汝便在劫难逃！",
+      "textLocalized": {
+        "zhHans": "某家说你有罪，汝便在劫难逃！",
+        "zhHant": "某家說你有罪，汝便在劫難逃！"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "spell-3477",
+        "ids": [
+          "3477"
+        ],
+        "name": "诿解",
+        "displayName": {
+          "zhHans": "诿解",
+          "zhHant": "諉解"
+        },
+        "names": [
+          "诿解"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诿解",
+            "zhHant": "諉解"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "62401",
+        "ids": [
+          "62401"
+        ],
+        "name": "62401",
+        "displayName": {
+          "zhHans": "62401",
+          "zhHant": "62401"
+        },
+        "names": [
+          "62401"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "62401",
+          "id": "62401",
+          "ids": [
+            "62401"
+          ],
+          "name": "62401",
+          "displayName": {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          },
+          "names": [
+            "62401"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "62401",
+              "zhHant": "62401"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "62401",
+        "spellKey": "3477",
+        "rowIndex": 1,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "62401"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/2skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotu--624guotu--2skill2_2",
+      "resourceId": "624guotu/2skill2_2",
+      "text": "堂堂七尺男儿，有错为何不认？",
+      "textLocalized": {
+        "zhHans": "堂堂七尺男儿，有错为何不认？",
+        "zhHant": "堂堂七尺男兒，有錯爲何不認？"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "spell-3477",
+        "ids": [
+          "3477"
+        ],
+        "name": "诿解",
+        "displayName": {
+          "zhHans": "诿解",
+          "zhHant": "諉解"
+        },
+        "names": [
+          "诿解"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诿解",
+            "zhHant": "諉解"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "62401",
+        "ids": [
+          "62401"
+        ],
+        "name": "62401",
+        "displayName": {
+          "zhHans": "62401",
+          "zhHant": "62401"
+        },
+        "names": [
+          "62401"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "62401",
+          "id": "62401",
+          "ids": [
+            "62401"
+          ],
+          "name": "62401",
+          "displayName": {
+            "zhHans": "62401",
+            "zhHant": "62401"
+          },
+          "names": [
+            "62401"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "62401",
+              "zhHant": "62401"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "62401",
+        "spellKey": "3477",
+        "rowIndex": 2,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "62401"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/2skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotu--624guotu--1skill2_1",
+      "resourceId": "624guotu/1skill2_1",
+      "text": "败战之罪在你，休要多言！",
+      "textLocalized": {
+        "zhHans": "败战之罪在你，休要多言！",
+        "zhHant": "敗戰之罪在你，休要多言！"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "spell-3477",
+        "ids": [
+          "3477"
+        ],
+        "name": "诿解",
+        "displayName": {
+          "zhHans": "诿解",
+          "zhHant": "諉解"
+        },
+        "names": [
+          "诿解"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诿解",
+            "zhHant": "諉解"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "-1",
+        "spellKey": "3477",
+        "rowIndex": 1,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guotu--624guotu--1skill2_2",
+      "resourceId": "624guotu/1skill2_2",
+      "text": "纵汝舌灿莲花，亦难逃死罪。",
+      "textLocalized": {
+        "zhHans": "纵汝舌灿莲花，亦难逃死罪。",
+        "zhHant": "縱汝舌燦蓮花，亦難逃死罪。"
+      },
+      "character": {
+        "slug": "guotu",
+        "command": "guotu",
+        "id": "624",
+        "ids": [
+          "624"
+        ],
+        "name": "郭图",
+        "displayName": {
+          "zhHans": "郭图",
+          "zhHant": "郭圖"
+        },
+        "names": [
+          "郭图"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "sourceIds": [
+          "624"
+        ],
+        "sourceNames": [
+          "郭图"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "郭图",
+            "zhHant": "郭圖"
+          }
+        ],
+        "searchNames": [
+          "郭图",
+          "郭圖",
+          "guotu"
+        ]
+      },
+      "group": {
+        "slug": "spell-3477",
+        "ids": [
+          "3477"
+        ],
+        "name": "诿解",
+        "displayName": {
+          "zhHans": "诿解",
+          "zhHant": "諉解"
+        },
+        "names": [
+          "诿解"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诿解",
+            "zhHant": "諉解"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "624",
+        "skinKey": "-1",
+        "spellKey": "3477",
+        "rowIndex": 2,
+        "characterNames": [
+          "郭图"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/624guotu-bdf783ef/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/624guotu/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

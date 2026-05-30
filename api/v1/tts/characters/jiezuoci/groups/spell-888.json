@@ -1,3 +1,227 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1bcc441f3a7fb6582d2b4c9e6ca4bfa12e21367aaf9935dcccd7c15a663db2d4
-size 5812
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiezuoci",
+    "command": "jiezuoci",
+    "name": "界左慈",
+    "displayName": {
+      "zhHans": "界左慈",
+      "zhHant": "界左慈"
+    },
+    "names": [
+      "界左慈",
+      "左慈"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界左慈",
+        "zhHant": "界左慈"
+      },
+      {
+        "zhHans": "左慈",
+        "zhHant": "左慈"
+      }
+    ],
+    "ids": [
+      "447",
+      "56"
+    ],
+    "sourceNames": [
+      "界左慈",
+      "左慈"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界左慈",
+        "zhHant": "界左慈"
+      },
+      {
+        "zhHans": "左慈",
+        "zhHant": "左慈"
+      }
+    ],
+    "sourceIds": [
+      "447",
+      "56"
+    ],
+    "searchNames": [
+      "jiezuoci",
+      "界左慈",
+      "左慈"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiezuoci/groups/dead.json"
+      },
+      {
+        "slug": "spell-135-881",
+        "name": "化身",
+        "displayName": {
+          "zhHans": "化身",
+          "zhHant": "化身"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiezuoci/groups/spell-135-881.json"
+      },
+      {
+        "slug": "spell-136-888",
+        "name": "新生",
+        "displayName": {
+          "zhHans": "新生",
+          "zhHant": "新生"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiezuoci/groups/spell-136-888.json"
+      },
+      {
+        "slug": "spell-881",
+        "name": "化身",
+        "displayName": {
+          "zhHans": "化身",
+          "zhHant": "化身"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiezuoci/groups/spell-881.json"
+      },
+      {
+        "slug": "spell-888",
+        "name": "新生",
+        "displayName": {
+          "zhHans": "新生",
+          "zhHant": "新生"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiezuoci/groups/spell-888.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezuoci/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-44702",
+        "name": "微妙玄通",
+        "displayName": {
+          "zhHans": "微妙玄通",
+          "zhHant": "微妙玄通"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezuoci/skins/skin-44702.json"
+      },
+      {
+        "slug": "skin-44701",
+        "name": "通晓阴阳",
+        "displayName": {
+          "zhHans": "通晓阴阳",
+          "zhHant": "通曉陰陽"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiezuoci/skins/skin-44701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiezuoci.json",
+      "groups": "api/v1/tts/characters/jiezuoci/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiezuoci/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-888",
+    "name": "新生",
+    "displayName": {
+      "zhHans": "新生",
+      "zhHant": "新生"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jiezuoci/groups/spell-888.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jiezuoci--447jiezuoci--1skill2_1",
+      "resourceId": "447jiezuoci/1skill2_1",
+      "text": "风靡云涌，万丈光芒。",
+      "textLocalized": {
+        "zhHans": "风靡云涌，万丈光芒。",
+        "zhHant": "風靡雲湧，萬丈光芒。"
+      },
+      "group": {
+        "slug": "spell-888",
+        "name": "新生",
+        "displayName": {
+          "zhHans": "新生",
+          "zhHant": "新生"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/447jiezuoci-e0097e10/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/447jiezuoci/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiezuoci--447jiezuoci--1skill2_2",
+      "resourceId": "447jiezuoci/1skill2_2",
+      "text": "枯木发荣，朽木逢春。",
+      "textLocalized": {
+        "zhHans": "枯木发荣，朽木逢春。",
+        "zhHant": "枯木發榮，朽木逢春。"
+      },
+      "group": {
+        "slug": "spell-888",
+        "name": "新生",
+        "displayName": {
+          "zhHans": "新生",
+          "zhHant": "新生"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/447jiezuoci-e0097e10/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/447jiezuoci/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

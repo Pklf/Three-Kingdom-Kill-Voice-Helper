@@ -1,3 +1,140 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2a8cbde3cf82c5fe425e811327c86b39de563274c0f7d30e2a077c711149dae8
-size 3370
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hanmeng",
+    "command": "hanmeng",
+    "name": "韩猛",
+    "displayName": {
+      "zhHans": "韩猛",
+      "zhHant": "韓猛"
+    },
+    "names": [
+      "韩猛"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "韩猛",
+        "zhHant": "韓猛"
+      }
+    ],
+    "ids": [
+      "4220"
+    ],
+    "sourceNames": [
+      "韩猛"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "韩猛",
+        "zhHant": "韓猛"
+      }
+    ],
+    "sourceIds": [
+      "4220"
+    ],
+    "searchNames": [
+      "hanmeng",
+      "韩猛",
+      "韓猛"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/hanmeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-1525",
+        "name": "截粮",
+        "displayName": {
+          "zhHans": "截粮",
+          "zhHant": "截糧"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/hanmeng/groups/spell-1525.json"
+      },
+      {
+        "slug": "spell-1526",
+        "name": "劝酒",
+        "displayName": {
+          "zhHans": "劝酒",
+          "zhHant": "勸酒"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/hanmeng/groups/spell-1526.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/hanmeng/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/hanmeng.json",
+      "groups": "api/v1/tts/characters/hanmeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/hanmeng/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/hanmeng/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "hanmeng--4220hanmeng--1dead01",
+      "resourceId": "4220hanmeng/1dead01",
+      "text": "曹操狡诈，防不胜防。",
+      "textLocalized": {
+        "zhHans": "曹操狡诈，防不胜防。",
+        "zhHant": "曹操狡詐，防不勝防。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4220hanmeng-0d05695c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4220hanmeng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

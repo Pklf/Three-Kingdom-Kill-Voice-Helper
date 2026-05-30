@@ -1,3 +1,393 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6218f4dd4ee18ce53abf14eb390c43328c05bfdd11dcdac7d19ef21a4cd7a48e
-size 10937
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhuhuan",
+    "command": "zhuhuan",
+    "name": "朱桓",
+    "displayName": {
+      "zhHans": "朱桓",
+      "zhHant": "朱桓"
+    },
+    "names": [
+      "朱桓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "朱桓",
+        "zhHant": "朱桓"
+      }
+    ],
+    "ids": [
+      "328"
+    ],
+    "sourceNames": [
+      "朱桓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "朱桓",
+        "zhHant": "朱桓"
+      }
+    ],
+    "sourceIds": [
+      "328"
+    ],
+    "searchNames": [
+      "zhuhuan",
+      "朱桓"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhuhuan/groups/dead.json"
+      },
+      {
+        "slug": "spell-396",
+        "name": "奋励",
+        "displayName": {
+          "zhHans": "奋励",
+          "zhHant": "奮勵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhuhuan/groups/spell-396.json"
+      },
+      {
+        "slug": "spell-397",
+        "name": "平寇",
+        "displayName": {
+          "zhHans": "平寇",
+          "zhHant": "平寇"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhuhuan/groups/spell-397.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-32805",
+        "name": "亲断敌降",
+        "displayName": {
+          "zhHans": "亲断敌降",
+          "zhHant": "親斷敵降"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhuhuan/skins/skin-32805.json"
+      },
+      {
+        "slug": "skin-32802",
+        "name": "傲世轻物",
+        "displayName": {
+          "zhHans": "傲世轻物",
+          "zhHant": "傲世輕物"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhuhuan/skins/skin-32802.json"
+      },
+      {
+        "slug": "skin-32802-32803",
+        "name": "傲世轻物,飞刀制敌",
+        "displayName": {
+          "zhHans": "傲世轻物,飞刀制敌",
+          "zhHant": "傲世輕物,飛刀制敵"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhuhuan/skins/skin-32802-32803.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhuhuan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32804",
+        "name": "带兵镇守",
+        "displayName": {
+          "zhHans": "带兵镇守",
+          "zhHant": "帶兵鎮守"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhuhuan/skins/skin-32804.json"
+      },
+      {
+        "slug": "skin-32803",
+        "name": "飞刀制敌",
+        "displayName": {
+          "zhHans": "飞刀制敌",
+          "zhHant": "飛刀制敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhuhuan/skins/skin-32803.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhuhuan.json",
+      "groups": "api/v1/tts/characters/zhuhuan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhuhuan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-32803",
+    "name": "飞刀制敌",
+    "displayName": {
+      "zhHans": "飞刀制敌",
+      "zhHant": "飛刀制敵"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhuhuan/skins/skin-32803.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhuhuan--328zhuhuan--4dead01",
+      "resourceId": "328zhuhuan/4dead01",
+      "text": "我已诱敌至此，为何伏兵不出？",
+      "textLocalized": {
+        "zhHans": "我已诱敌至此，为何伏兵不出？",
+        "zhHant": "我已誘敵至此，爲何伏兵不出？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32803",
+          "name": "飞刀制敌",
+          "displayName": {
+            "zhHans": "飞刀制敌",
+            "zhHant": "飛刀制敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuhuan--328zhuhuan--5skill1_1",
+      "resourceId": "328zhuhuan/5skill1_1",
+      "text": "两军对阵，胜负在将，不在兵。",
+      "textLocalized": {
+        "zhHans": "两军对阵，胜负在将，不在兵。",
+        "zhHant": "兩軍對陣，勝負在將，不在兵。"
+      },
+      "group": {
+        "slug": "spell-396",
+        "name": "奋励",
+        "displayName": {
+          "zhHans": "奋励",
+          "zhHant": "奮勵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32802",
+          "name": "傲世轻物",
+          "displayName": {
+            "zhHans": "傲世轻物",
+            "zhHant": "傲世輕物"
+          }
+        },
+        {
+          "slug": "skin-32803",
+          "name": "飞刀制敌",
+          "displayName": {
+            "zhHans": "飞刀制敌",
+            "zhHant": "飛刀制敵"
+          }
+        },
+        {
+          "slug": "skin-32802-32803",
+          "name": "傲世轻物,飞刀制敌",
+          "displayName": {
+            "zhHans": "傲世轻物,飞刀制敌",
+            "zhHant": "傲世輕物,飛刀制敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuhuan--328zhuhuan--5skill1_2",
+      "resourceId": "328zhuhuan/5skill1_2",
+      "text": "凭城而守，可御万敌。",
+      "textLocalized": {
+        "zhHans": "凭城而守，可御万敌。",
+        "zhHant": "憑城而守，可御萬敵。"
+      },
+      "group": {
+        "slug": "spell-396",
+        "name": "奋励",
+        "displayName": {
+          "zhHans": "奋励",
+          "zhHant": "奮勵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32802",
+          "name": "傲世轻物",
+          "displayName": {
+            "zhHans": "傲世轻物",
+            "zhHant": "傲世輕物"
+          }
+        },
+        {
+          "slug": "skin-32803",
+          "name": "飞刀制敌",
+          "displayName": {
+            "zhHans": "飞刀制敌",
+            "zhHant": "飛刀制敵"
+          }
+        },
+        {
+          "slug": "skin-32802-32803",
+          "name": "傲世轻物,飞刀制敌",
+          "displayName": {
+            "zhHans": "傲世轻物,飞刀制敌",
+            "zhHant": "傲世輕物,飛刀制敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuhuan--328zhuhuan--5skill2_1",
+      "resourceId": "328zhuhuan/5skill2_1",
+      "text": "就是现在了，杀！",
+      "textLocalized": {
+        "zhHans": "就是现在了，杀！",
+        "zhHant": "就是現在了，殺！"
+      },
+      "group": {
+        "slug": "spell-397",
+        "name": "平寇",
+        "displayName": {
+          "zhHans": "平寇",
+          "zhHant": "平寇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32802",
+          "name": "傲世轻物",
+          "displayName": {
+            "zhHans": "傲世轻物",
+            "zhHant": "傲世輕物"
+          }
+        },
+        {
+          "slug": "skin-32803",
+          "name": "飞刀制敌",
+          "displayName": {
+            "zhHans": "飞刀制敌",
+            "zhHant": "飛刀制敵"
+          }
+        },
+        {
+          "slug": "skin-32802-32803",
+          "name": "傲世轻物,飞刀制敌",
+          "displayName": {
+            "zhHans": "傲世轻物,飞刀制敌",
+            "zhHant": "傲世輕物,飛刀制敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuhuan--328zhuhuan--5skill2_2",
+      "resourceId": "328zhuhuan/5skill2_2",
+      "text": "时机已到，尽诛敌寇。",
+      "textLocalized": {
+        "zhHans": "时机已到，尽诛敌寇。",
+        "zhHant": "時機已到，盡誅敵寇。"
+      },
+      "group": {
+        "slug": "spell-397",
+        "name": "平寇",
+        "displayName": {
+          "zhHans": "平寇",
+          "zhHant": "平寇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32802",
+          "name": "傲世轻物",
+          "displayName": {
+            "zhHans": "傲世轻物",
+            "zhHant": "傲世輕物"
+          }
+        },
+        {
+          "slug": "skin-32803",
+          "name": "飞刀制敌",
+          "displayName": {
+            "zhHans": "飞刀制敌",
+            "zhHant": "飛刀制敵"
+          }
+        },
+        {
+          "slug": "skin-32802-32803",
+          "name": "傲世轻物,飞刀制敌",
+          "displayName": {
+            "zhHans": "傲世轻物,飞刀制敌",
+            "zhHant": "傲世輕物,飛刀制敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/328zhuhuan-f10efa95/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/328zhuhuan/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

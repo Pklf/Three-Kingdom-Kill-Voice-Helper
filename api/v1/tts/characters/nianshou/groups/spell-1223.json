@@ -1,3 +1,186 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:62527f7cd24d9a61c9326a83bd5562639cfe1df7e8f63267ba7e08f947a7ec63
-size 4510
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "nianshou",
+    "command": "nianshou",
+    "name": "年兽",
+    "displayName": {
+      "zhHans": "年兽",
+      "zhHant": "年獸"
+    },
+    "names": [
+      "年兽",
+      "4097",
+      "4096"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "年兽",
+        "zhHant": "年獸"
+      },
+      {
+        "zhHans": "4097",
+        "zhHant": "4097"
+      },
+      {
+        "zhHans": "4096",
+        "zhHant": "4096"
+      }
+    ],
+    "ids": [
+      "4095",
+      "4097",
+      "4096"
+    ],
+    "sourceNames": [
+      "年兽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "年兽",
+        "zhHant": "年獸"
+      }
+    ],
+    "sourceIds": [
+      "4095",
+      "4097",
+      "4096"
+    ],
+    "searchNames": [
+      "nianshou",
+      "年兽",
+      "年獸",
+      "4097",
+      "4096"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/nianshou/groups/dead.json"
+      },
+      {
+        "slug": "spell-1217",
+        "name": "汲源",
+        "displayName": {
+          "zhHans": "汲源",
+          "zhHant": "汲源"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/nianshou/groups/spell-1217.json"
+      },
+      {
+        "slug": "spell-1218",
+        "name": "年裔",
+        "displayName": {
+          "zhHans": "年裔",
+          "zhHant": "年裔"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/nianshou/groups/spell-1218.json"
+      },
+      {
+        "slug": "spell-1221",
+        "name": "岁终",
+        "displayName": {
+          "zhHans": "岁终",
+          "zhHant": "歲終"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/nianshou/groups/spell-1221.json"
+      },
+      {
+        "slug": "spell-1223",
+        "name": "摧枯",
+        "displayName": {
+          "zhHans": "摧枯",
+          "zhHant": "摧枯"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/nianshou/groups/spell-1223.json"
+      },
+      {
+        "slug": "spell-1354",
+        "name": "暴怒",
+        "displayName": {
+          "zhHans": "暴怒",
+          "zhHant": "暴怒"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/nianshou/groups/spell-1354.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/nianshou/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/nianshou.json",
+      "groups": "api/v1/tts/characters/nianshou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/nianshou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1223",
+    "name": "摧枯",
+    "displayName": {
+      "zhHans": "摧枯",
+      "zhHant": "摧枯"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/nianshou/groups/spell-1223.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "nianshou--4095nianshou--1skill3_1",
+      "resourceId": "4095nianshou/1skill3_1",
+      "text": "尔如朽木，弹爪可破。",
+      "textLocalized": {
+        "zhHans": "尔如朽木，弹爪可破。",
+        "zhHant": "爾如朽木，彈爪可破。"
+      },
+      "group": {
+        "slug": "spell-1223",
+        "name": "摧枯",
+        "displayName": {
+          "zhHans": "摧枯",
+          "zhHant": "摧枯"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4095nianshou-097d22f9/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4095nianshou/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

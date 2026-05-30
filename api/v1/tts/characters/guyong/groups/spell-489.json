@@ -1,3 +1,467 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0d97720132019d77abe3d2ebfe928db8e745b33bb479af2507b25efee9c85333
-size 12984
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guyong",
+    "command": "guyong",
+    "name": "顾雍",
+    "displayName": {
+      "zhHans": "顾雍",
+      "zhHant": "顧雍"
+    },
+    "names": [
+      "顾雍"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "顾雍",
+        "zhHant": "顧雍"
+      }
+    ],
+    "ids": [
+      "329"
+    ],
+    "sourceNames": [
+      "顾雍"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "顾雍",
+        "zhHant": "顧雍"
+      }
+    ],
+    "sourceIds": [
+      "329"
+    ],
+    "searchNames": [
+      "guyong",
+      "顾雍",
+      "顧雍"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/guyong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3125-490",
+        "name": "秉壹",
+        "displayName": {
+          "zhHans": "秉壹",
+          "zhHant": "秉壹"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guyong/groups/spell-3125-490.json"
+      },
+      {
+        "slug": "spell-489",
+        "name": "慎行",
+        "displayName": {
+          "zhHans": "慎行",
+          "zhHant": "慎行"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guyong/groups/spell-489.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-32905",
+        "name": "公正无私",
+        "displayName": {
+          "zhHans": "公正无私",
+          "zhHant": "公正無私"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guyong/skins/skin-32905.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guyong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32903",
+        "name": "稍安勿躁",
+        "displayName": {
+          "zhHans": "稍安勿躁",
+          "zhHant": "稍安勿躁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guyong/skins/skin-32903.json"
+      },
+      {
+        "slug": "skin-32902",
+        "name": "赞国经纶",
+        "displayName": {
+          "zhHans": "赞国经纶",
+          "zhHant": "贊國經綸"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guyong/skins/skin-32902.json"
+      },
+      {
+        "slug": "skin-32902-32903",
+        "name": "赞国经纶,稍安勿躁",
+        "displayName": {
+          "zhHans": "赞国经纶,稍安勿躁",
+          "zhHant": "贊國經綸,稍安勿躁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guyong/skins/skin-32902-32903.json"
+      },
+      {
+        "slug": "skin-32904",
+        "name": "随能所任",
+        "displayName": {
+          "zhHans": "随能所任",
+          "zhHant": "隨能所任"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guyong/skins/skin-32904.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guyong.json",
+      "groups": "api/v1/tts/characters/guyong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guyong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-489",
+    "name": "慎行",
+    "displayName": {
+      "zhHans": "慎行",
+      "zhHant": "慎行"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/guyong/groups/spell-489.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "guyong--329guyong--5skill1_1",
+      "resourceId": "329guyong/5skill1_1",
+      "text": "慎思重虑，行可无误。",
+      "textLocalized": {
+        "zhHans": "慎思重虑，行可无误。",
+        "zhHant": "慎思重慮，行可無誤。"
+      },
+      "group": {
+        "slug": "spell-489",
+        "name": "慎行",
+        "displayName": {
+          "zhHans": "慎行",
+          "zhHant": "慎行"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32905",
+          "name": "公正无私",
+          "displayName": {
+            "zhHans": "公正无私",
+            "zhHant": "公正無私"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/329guyong-9580821f/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/329guyong/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guyong--329guyong--5skill1_2",
+      "resourceId": "329guyong/5skill1_2",
+      "text": "得失岂在一刻，慎虑方有灼见。",
+      "textLocalized": {
+        "zhHans": "得失岂在一刻，慎虑方有灼见。",
+        "zhHant": "得失豈在一刻，慎慮方有灼見。"
+      },
+      "group": {
+        "slug": "spell-489",
+        "name": "慎行",
+        "displayName": {
+          "zhHans": "慎行",
+          "zhHant": "慎行"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32905",
+          "name": "公正无私",
+          "displayName": {
+            "zhHans": "公正无私",
+            "zhHant": "公正無私"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/329guyong-9580821f/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/329guyong/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guyong--329guyong--1skill1_1",
+      "resourceId": "329guyong/1skill1_1",
+      "text": "此须，斟酌一二。",
+      "textLocalized": {
+        "zhHans": "此须，斟酌一二。",
+        "zhHant": "此須，斟酌一二。"
+      },
+      "group": {
+        "slug": "spell-489",
+        "name": "慎行",
+        "displayName": {
+          "zhHans": "慎行",
+          "zhHant": "慎行"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/329guyong-9580821f/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/329guyong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guyong--329guyong--1skill1_2",
+      "resourceId": "329guyong/1skill1_2",
+      "text": "审时度[duó]势，乃容万变。",
+      "textLocalized": {
+        "zhHans": "审时度[duó]势，乃容万变。",
+        "zhHant": "審時度[duó]勢，乃容萬變。"
+      },
+      "group": {
+        "slug": "spell-489",
+        "name": "慎行",
+        "displayName": {
+          "zhHans": "慎行",
+          "zhHant": "慎行"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/329guyong-9580821f/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/329guyong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guyong--329guyong--3skill1_1",
+      "resourceId": "329guyong/3skill1_1",
+      "text": "上兵伐谋，三思而行。",
+      "textLocalized": {
+        "zhHans": "上兵伐谋，三思而行。",
+        "zhHant": "上兵伐謀，三思而行。"
+      },
+      "group": {
+        "slug": "spell-489",
+        "name": "慎行",
+        "displayName": {
+          "zhHans": "慎行",
+          "zhHant": "慎行"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32903",
+          "name": "稍安勿躁",
+          "displayName": {
+            "zhHans": "稍安勿躁",
+            "zhHant": "稍安勿躁"
+          }
+        },
+        {
+          "slug": "skin-32902",
+          "name": "赞国经纶",
+          "displayName": {
+            "zhHans": "赞国经纶",
+            "zhHant": "贊國經綸"
+          }
+        },
+        {
+          "slug": "skin-32902-32903",
+          "name": "赞国经纶,稍安勿躁",
+          "displayName": {
+            "zhHans": "赞国经纶,稍安勿躁",
+            "zhHant": "贊國經綸,稍安勿躁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/329guyong-9580821f/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/329guyong/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guyong--329guyong--3skill1_2",
+      "resourceId": "329guyong/3skill1_2",
+      "text": "精益求精，慎之再慎。",
+      "textLocalized": {
+        "zhHans": "精益求精，慎之再慎。",
+        "zhHant": "精益求精，慎之再慎。"
+      },
+      "group": {
+        "slug": "spell-489",
+        "name": "慎行",
+        "displayName": {
+          "zhHans": "慎行",
+          "zhHant": "慎行"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32903",
+          "name": "稍安勿躁",
+          "displayName": {
+            "zhHans": "稍安勿躁",
+            "zhHant": "稍安勿躁"
+          }
+        },
+        {
+          "slug": "skin-32902",
+          "name": "赞国经纶",
+          "displayName": {
+            "zhHans": "赞国经纶",
+            "zhHant": "贊國經綸"
+          }
+        },
+        {
+          "slug": "skin-32902-32903",
+          "name": "赞国经纶,稍安勿躁",
+          "displayName": {
+            "zhHans": "赞国经纶,稍安勿躁",
+            "zhHant": "贊國經綸,稍安勿躁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/329guyong-9580821f/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/329guyong/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guyong--329guyong--4skill1_1",
+      "resourceId": "329guyong/4skill1_1",
+      "text": "不言则已，言出必中。",
+      "textLocalized": {
+        "zhHans": "不言则已，言出必中。",
+        "zhHant": "不言則已，言出必中。"
+      },
+      "group": {
+        "slug": "spell-489",
+        "name": "慎行",
+        "displayName": {
+          "zhHans": "慎行",
+          "zhHant": "慎行"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32904",
+          "name": "随能所任",
+          "displayName": {
+            "zhHans": "随能所任",
+            "zhHant": "隨能所任"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/329guyong-9580821f/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/329guyong/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guyong--329guyong--4skill1_2",
+      "resourceId": "329guyong/4skill1_2",
+      "text": "言必信，行必果。",
+      "textLocalized": {
+        "zhHans": "言必信，行必果。",
+        "zhHant": "言必信，行必果。"
+      },
+      "group": {
+        "slug": "spell-489",
+        "name": "慎行",
+        "displayName": {
+          "zhHans": "慎行",
+          "zhHant": "慎行"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32904",
+          "name": "随能所任",
+          "displayName": {
+            "zhHans": "随能所任",
+            "zhHant": "隨能所任"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/329guyong-9580821f/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/329guyong/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

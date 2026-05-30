@@ -1,3 +1,320 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2183b8c60ccde638da8b5a56d12ce7da1dd3960bc154625ef68caa184c7b01d1
-size 9001
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangsong",
+    "command": "zhangsong",
+    "name": "张松",
+    "displayName": {
+      "zhHans": "张松",
+      "zhHant": "張松"
+    },
+    "names": [
+      "张松"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张松",
+        "zhHant": "張松"
+      }
+    ],
+    "ids": [
+      "326"
+    ],
+    "sourceNames": [
+      "张松"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张松",
+        "zhHant": "張松"
+      }
+    ],
+    "sourceIds": [
+      "326"
+    ],
+    "searchNames": [
+      "zhangsong",
+      "张松",
+      "張松"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/groups/dead.json"
+      },
+      {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhangsong/groups/spell-484.json"
+      },
+      {
+        "slug": "spell-485",
+        "name": "献图",
+        "displayName": {
+          "zhHans": "献图",
+          "zhHant": "獻圖"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhangsong/groups/spell-485.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32603",
+        "name": "大展宏图",
+        "displayName": {
+          "zhHans": "大展宏图",
+          "zhHant": "大展宏圖"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32603.json"
+      },
+      {
+        "slug": "skin-32606",
+        "name": "沃鲤泽汉",
+        "displayName": {
+          "zhHans": "沃鲤泽汉",
+          "zhHant": "沃鯉澤漢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32606.json"
+      },
+      {
+        "slug": "skin-32601",
+        "name": "西川之图",
+        "displayName": {
+          "zhHans": "西川之图",
+          "zhHant": "西川之圖"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32601.json"
+      },
+      {
+        "slug": "skin-32604",
+        "name": "阴怀谋妄",
+        "displayName": {
+          "zhHans": "阴怀谋妄",
+          "zhHant": "陰懷謀妄"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32604.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangsong.json",
+      "groups": "api/v1/tts/characters/zhangsong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangsong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-32606",
+    "name": "沃鲤泽汉",
+    "displayName": {
+      "zhHans": "沃鲤泽汉",
+      "zhHant": "沃鯉澤漢"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32606.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhangsong--326zhangsong--6dead01",
+      "resourceId": "326zhangsong/6dead01",
+      "text": "将相协力，魏室……可兴……",
+      "textLocalized": {
+        "zhHans": "将相协力，魏室……可兴……",
+        "zhHant": "將相協力，魏室……可興……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32606",
+          "name": "沃鲤泽汉",
+          "displayName": {
+            "zhHans": "沃鲤泽汉",
+            "zhHant": "沃鯉澤漢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--6skill1_1",
+      "resourceId": "326zhangsong/6skill1_1",
+      "text": "讨伐大任，就交予你了。",
+      "textLocalized": {
+        "zhHans": "讨伐大任，就交予你了。",
+        "zhHant": "討伐大任，就交予你了。"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32606",
+          "name": "沃鲤泽汉",
+          "displayName": {
+            "zhHans": "沃鲤泽汉",
+            "zhHant": "沃鯉澤漢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--6skill1_2",
+      "resourceId": "326zhangsong/6skill1_2",
+      "text": "不过是拾前人牙惠，何足道哉？",
+      "textLocalized": {
+        "zhHans": "不过是拾前人牙惠，何足道哉？",
+        "zhHant": "不過是拾前人牙惠，何足道哉？"
+      },
+      "group": {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32606",
+          "name": "沃鲤泽汉",
+          "displayName": {
+            "zhHans": "沃鲤泽汉",
+            "zhHant": "沃鯉澤漢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--6skill2_1",
+      "resourceId": "326zhangsong/6skill2_1",
+      "text": "吾国之兴衰，还望诸位一力护持。",
+      "textLocalized": {
+        "zhHans": "吾国之兴衰，还望诸位一力护持。",
+        "zhHant": "吾國之興衰，還望諸位一力護持。"
+      },
+      "group": {
+        "slug": "spell-485",
+        "name": "献图",
+        "displayName": {
+          "zhHans": "献图",
+          "zhHant": "獻圖"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32606",
+          "name": "沃鲤泽汉",
+          "displayName": {
+            "zhHans": "沃鲤泽汉",
+            "zhHant": "沃鯉澤漢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--6skill2_2",
+      "resourceId": "326zhangsong/6skill2_2",
+      "text": "川中险要，皆在此图之中，还请将军切莫踟蹰。",
+      "textLocalized": {
+        "zhHans": "川中险要，皆在此图之中，还请将军切莫踟蹰。",
+        "zhHant": "川中險要，皆在此圖之中，還請將軍切莫踟躕。"
+      },
+      "group": {
+        "slug": "spell-485",
+        "name": "献图",
+        "displayName": {
+          "zhHans": "献图",
+          "zhHant": "獻圖"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32606",
+          "name": "沃鲤泽汉",
+          "displayName": {
+            "zhHans": "沃鲤泽汉",
+            "zhHant": "沃鯉澤漢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,324 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:43b3e96cf36f5cc5fb60268f8377d565c22021c0c09f41f40a961b7b784a95d2
-size 9004
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiemenghuo",
+    "command": "jiemenghuo",
+    "name": "界孟获",
+    "displayName": {
+      "zhHans": "界孟获",
+      "zhHant": "界孟獲"
+    },
+    "names": [
+      "界孟获",
+      "孟获"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界孟获",
+        "zhHant": "界孟獲"
+      },
+      {
+        "zhHans": "孟获",
+        "zhHant": "孟獲"
+      }
+    ],
+    "ids": [
+      "492",
+      "47"
+    ],
+    "sourceNames": [
+      "界孟获",
+      "孟获"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界孟获",
+        "zhHant": "界孟獲"
+      },
+      {
+        "zhHans": "孟获",
+        "zhHant": "孟獲"
+      }
+    ],
+    "sourceIds": [
+      "492",
+      "47"
+    ],
+    "searchNames": [
+      "jiemenghuo",
+      "界孟获",
+      "界孟獲",
+      "孟获",
+      "孟獲"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/groups/dead.json"
+      },
+      {
+        "slug": "spell-115",
+        "name": "祸首",
+        "displayName": {
+          "zhHans": "祸首",
+          "zhHant": "禍首"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/groups/spell-115.json"
+      },
+      {
+        "slug": "spell-3066",
+        "name": "再起",
+        "displayName": {
+          "zhHans": "再起",
+          "zhHant": "再起"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/groups/spell-3066.json"
+      },
+      {
+        "slug": "spell-887-116-3066",
+        "name": "再起",
+        "displayName": {
+          "zhHans": "再起",
+          "zhHant": "再起"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/groups/spell-887-116-3066.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49201",
+        "name": "斧过城摧",
+        "displayName": {
+          "zhHans": "斧过城摧",
+          "zhHant": "斧過城摧"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/skins/skin-49201.json"
+      },
+      {
+        "slug": "skin-49202",
+        "name": "莽林鏖兵",
+        "displayName": {
+          "zhHans": "莽林鏖兵",
+          "zhHant": "莽林鏖兵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiemenghuo/skins/skin-49202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiemenghuo.json",
+      "groups": "api/v1/tts/characters/jiemenghuo/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiemenghuo/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-49202",
+    "name": "莽林鏖兵",
+    "displayName": {
+      "zhHans": "莽林鏖兵",
+      "zhHant": "莽林鏖兵"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jiemenghuo/skins/skin-49202.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jiemenghuo--492jiemenghuo--3dead01",
+      "resourceId": "492jiemenghuo/3dead01",
+      "text": "蛮夷尤知忠义，纵死亦不反汉。",
+      "textLocalized": {
+        "zhHans": "蛮夷尤知忠义，纵死亦不反汉。",
+        "zhHant": "蠻夷尤知忠義，縱死亦不反漢。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49202",
+          "name": "莽林鏖兵",
+          "displayName": {
+            "zhHans": "莽林鏖兵",
+            "zhHant": "莽林鏖兵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/492jiemenghuo-385cf856/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiemenghuo--492jiemenghuo--3skill1_1",
+      "resourceId": "492jiemenghuo/3skill1_1",
+      "text": "南夷行掠，听神鬼哭、健儿啸。",
+      "textLocalized": {
+        "zhHans": "南夷行掠，听神鬼哭、健儿啸。",
+        "zhHant": "南夷行掠，聽神鬼哭、健兒嘯。"
+      },
+      "group": {
+        "slug": "spell-115",
+        "name": "祸首",
+        "displayName": {
+          "zhHans": "祸首",
+          "zhHant": "禍首"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49202",
+          "name": "莽林鏖兵",
+          "displayName": {
+            "zhHans": "莽林鏖兵",
+            "zhHant": "莽林鏖兵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/492jiemenghuo-385cf856/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiemenghuo--492jiemenghuo--3skill1_2",
+      "resourceId": "492jiemenghuo/3skill1_2",
+      "text": "蛮王击缶，则山将崩、地将裂。",
+      "textLocalized": {
+        "zhHans": "蛮王击缶，则山将崩、地将裂。",
+        "zhHant": "蠻王擊缶，則山將崩、地將裂。"
+      },
+      "group": {
+        "slug": "spell-115",
+        "name": "祸首",
+        "displayName": {
+          "zhHans": "祸首",
+          "zhHant": "禍首"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49202",
+          "name": "莽林鏖兵",
+          "displayName": {
+            "zhHans": "莽林鏖兵",
+            "zhHant": "莽林鏖兵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/492jiemenghuo-385cf856/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiemenghuo--492jiemenghuo--3skill2_1",
+      "resourceId": "492jiemenghuo/3skill2_1",
+      "text": "某不畏败，不畏威，不畏死。",
+      "textLocalized": {
+        "zhHans": "某不畏败，不畏威，不畏死。",
+        "zhHant": "某不畏敗，不畏威，不畏死。"
+      },
+      "group": {
+        "slug": "spell-887-116-3066",
+        "name": "再起",
+        "displayName": {
+          "zhHans": "再起",
+          "zhHant": "再起"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49202",
+          "name": "莽林鏖兵",
+          "displayName": {
+            "zhHans": "莽林鏖兵",
+            "zhHant": "莽林鏖兵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/492jiemenghuo-385cf856/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiemenghuo--492jiemenghuo--3skill2_2",
+      "resourceId": "492jiemenghuo/3skill2_2",
+      "text": "此山长青，此水长流，此命长生。",
+      "textLocalized": {
+        "zhHans": "此山长青，此水长流，此命长生。",
+        "zhHant": "此山長青，此水長流，此命長生。"
+      },
+      "group": {
+        "slug": "spell-887-116-3066",
+        "name": "再起",
+        "displayName": {
+          "zhHans": "再起",
+          "zhHant": "再起"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49202",
+          "name": "莽林鏖兵",
+          "displayName": {
+            "zhHans": "莽林鏖兵",
+            "zhHant": "莽林鏖兵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/492jiemenghuo-385cf856/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/492jiemenghuo/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

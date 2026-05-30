@@ -1,3 +1,511 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f12fdf5a35fcb52385a51bf5cedfb0ee4c4835be18dd517d78974d7fdeb4abfa
-size 14412
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhoucang",
+    "command": "zhoucang",
+    "name": "周仓",
+    "displayName": {
+      "zhHans": "周仓",
+      "zhHant": "周倉"
+    },
+    "names": [
+      "周仓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周仓",
+        "zhHant": "周倉"
+      }
+    ],
+    "ids": [
+      "325"
+    ],
+    "sourceNames": [
+      "周仓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周仓",
+        "zhHant": "周倉"
+      }
+    ],
+    "sourceIds": [
+      "325"
+    ],
+    "searchNames": [
+      "zhoucang",
+      "周仓",
+      "周倉"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoucang/groups/dead.json"
+      },
+      {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhoucang/groups/spell-483.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-32505",
+        "name": "为君献刀",
+        "displayName": {
+          "zhHans": "为君献刀",
+          "zhHant": "爲君獻刀"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32505.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32506",
+        "name": "忠勇助关",
+        "displayName": {
+          "zhHans": "忠勇助关",
+          "zhHant": "忠勇助關"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32506.json"
+      },
+      {
+        "slug": "skin-32501",
+        "name": "忠勇当先",
+        "displayName": {
+          "zhHans": "忠勇当先",
+          "zhHant": "忠勇當先"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32501.json"
+      },
+      {
+        "slug": "skin-32503",
+        "name": "忠贯白日",
+        "displayName": {
+          "zhHans": "忠贯白日",
+          "zhHant": "忠貫白日"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32503.json"
+      },
+      {
+        "slug": "skin-32504",
+        "name": "草莽志士",
+        "displayName": {
+          "zhHans": "草莽志士",
+          "zhHant": "草莽志士"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32504.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhoucang.json",
+      "groups": "api/v1/tts/characters/zhoucang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhoucang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-483",
+    "name": "忠勇",
+    "displayName": {
+      "zhHans": "忠勇",
+      "zhHant": "忠勇"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/zhoucang/groups/spell-483.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "zhoucang--325zhoucang--1skill1_1",
+      "resourceId": "325zhoucang/1skill1_1",
+      "text": "为将军提刀携马，万死不辞！",
+      "textLocalized": {
+        "zhHans": "为将军提刀携马，万死不辞！",
+        "zhHant": "爲將軍提刀攜馬，萬死不辭！"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--1skill1_2",
+      "resourceId": "325zhoucang/1skill1_2",
+      "text": "驱刀飞血，直取寇首！",
+      "textLocalized": {
+        "zhHans": "驱刀飞血，直取寇首！",
+        "zhHant": "驅刀飛血，直取寇首！"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--6skill1_1",
+      "resourceId": "325zhoucang/6skill1_1",
+      "text": "忠勇绝伦，人言奋发！",
+      "textLocalized": {
+        "zhHans": "忠勇绝伦，人言奋发！",
+        "zhHant": "忠勇絕倫，人言奮發！"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32506",
+          "name": "忠勇助关",
+          "displayName": {
+            "zhHans": "忠勇助关",
+            "zhHant": "忠勇助關"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--6skill1_2",
+      "resourceId": "325zhoucang/6skill1_2",
+      "text": "为人忠勇，可挡一面。",
+      "textLocalized": {
+        "zhHans": "为人忠勇，可挡一面。",
+        "zhHant": "爲人忠勇，可擋一面。"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32506",
+          "name": "忠勇助关",
+          "displayName": {
+            "zhHans": "忠勇助关",
+            "zhHant": "忠勇助關"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--3skill1_1",
+      "resourceId": "325zhoucang/3skill1_1",
+      "text": "亦忠亦勇，承关将军之风！",
+      "textLocalized": {
+        "zhHans": "亦忠亦勇，承关将军之风！",
+        "zhHant": "亦忠亦勇，承關將軍之風！"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32505",
+          "name": "为君献刀",
+          "displayName": {
+            "zhHans": "为君献刀",
+            "zhHant": "爲君獻刀"
+          }
+        },
+        {
+          "slug": "skin-32501",
+          "name": "忠勇当先",
+          "displayName": {
+            "zhHans": "忠勇当先",
+            "zhHant": "忠勇當先"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--3skill1_2",
+      "resourceId": "325zhoucang/3skill1_2",
+      "text": "吾乃关公麾下，还不受降！",
+      "textLocalized": {
+        "zhHans": "吾乃关公麾下，还不受降！",
+        "zhHant": "吾乃關公麾下，還不受降！"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32505",
+          "name": "为君献刀",
+          "displayName": {
+            "zhHans": "为君献刀",
+            "zhHant": "爲君獻刀"
+          }
+        },
+        {
+          "slug": "skin-32501",
+          "name": "忠勇当先",
+          "displayName": {
+            "zhHans": "忠勇当先",
+            "zhHant": "忠勇當先"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--4skill1_1",
+      "resourceId": "325zhoucang/4skill1_1",
+      "text": "关将军，借你青龙宝刀一用！",
+      "textLocalized": {
+        "zhHans": "关将军，借你青龙宝刀一用！",
+        "zhHant": "關將軍，借你青龍寶刀一用！"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32503",
+          "name": "忠贯白日",
+          "displayName": {
+            "zhHans": "忠贯白日",
+            "zhHant": "忠貫白日"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--4skill1_2",
+      "resourceId": "325zhoucang/4skill1_2",
+      "text": "君侯坐前，鼠辈安得猖狂！",
+      "textLocalized": {
+        "zhHans": "君侯坐前，鼠辈安得猖狂！",
+        "zhHant": "君侯坐前，鼠輩安得猖狂！"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32503",
+          "name": "忠贯白日",
+          "displayName": {
+            "zhHans": "忠贯白日",
+            "zhHant": "忠貫白日"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--5skill1_1",
+      "resourceId": "325zhoucang/5skill1_1",
+      "text": "尽忠恃勇，提刀陷阵！",
+      "textLocalized": {
+        "zhHans": "尽忠恃勇，提刀陷阵！",
+        "zhHant": "盡忠恃勇，提刀陷陣！"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32504",
+          "name": "草莽志士",
+          "displayName": {
+            "zhHans": "草莽志士",
+            "zhHant": "草莽志士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--5skill1_2",
+      "resourceId": "325zhoucang/5skill1_2",
+      "text": "我会一直追随将军的！",
+      "textLocalized": {
+        "zhHans": "我会一直追随将军的！",
+        "zhHant": "我會一直追隨將軍的！"
+      },
+      "group": {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32504",
+          "name": "草莽志士",
+          "displayName": {
+            "zhHans": "草莽志士",
+            "zhHant": "草莽志士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

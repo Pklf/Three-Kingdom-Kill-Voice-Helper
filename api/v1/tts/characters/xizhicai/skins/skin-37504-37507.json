@@ -1,3 +1,552 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:057d21d090efd88cebca3896bec406f65fc43c9d096bf2bb230008686d9d5349
-size 15656
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xizhicai",
+    "command": "xizhicai",
+    "name": "戏志才",
+    "displayName": {
+      "zhHans": "戏志才",
+      "zhHant": "戲志才"
+    },
+    "names": [
+      "戏志才"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "戏志才",
+        "zhHant": "戲志才"
+      }
+    ],
+    "ids": [
+      "375"
+    ],
+    "sourceNames": [
+      "戏志才"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "戏志才",
+        "zhHant": "戲志才"
+      }
+    ],
+    "sourceIds": [
+      "375"
+    ],
+    "searchNames": [
+      "xizhicai",
+      "戏志才",
+      "戲志才"
+    ],
+    "lineCount": 42,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xizhicai/groups/dead.json"
+      },
+      {
+        "slug": "spell-376",
+        "name": "先辅",
+        "displayName": {
+          "zhHans": "先辅",
+          "zhHant": "先輔"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/xizhicai/groups/spell-376.json"
+      },
+      {
+        "slug": "spell-377",
+        "name": "筹策",
+        "displayName": {
+          "zhHans": "筹策",
+          "zhHant": "籌策"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/xizhicai/groups/spell-377.json"
+      },
+      {
+        "slug": "spell-51",
+        "name": "天妒",
+        "displayName": {
+          "zhHans": "天妒",
+          "zhHant": "天妒"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/xizhicai/groups/spell-51.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "35702",
+        "name": "35702",
+        "displayName": {
+          "zhHans": "35702",
+          "zhHant": "35702"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xizhicai/skins/35702.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xizhicai/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37509",
+        "name": "忠魏河山",
+        "displayName": {
+          "zhHans": "忠魏河山",
+          "zhHant": "忠魏河山"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xizhicai/skins/skin-37509.json"
+      },
+      {
+        "slug": "skin-37507",
+        "name": "怀志寻知",
+        "displayName": {
+          "zhHans": "怀志寻知",
+          "zhHant": "懷志尋知"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xizhicai/skins/skin-37507.json"
+      },
+      {
+        "slug": "skin-37505",
+        "name": "扇留魂志",
+        "displayName": {
+          "zhHans": "扇留魂志",
+          "zhHant": "扇留魂志"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xizhicai/skins/skin-37505.json"
+      },
+      {
+        "slug": "skin-37504",
+        "name": "筹策自握",
+        "displayName": {
+          "zhHans": "筹策自握",
+          "zhHant": "籌策自握"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xizhicai/skins/skin-37504.json"
+      },
+      {
+        "slug": "skin-37504-37507",
+        "name": "筹策自握,怀志寻知",
+        "displayName": {
+          "zhHans": "筹策自握,怀志寻知",
+          "zhHant": "籌策自握,懷志尋知"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xizhicai/skins/skin-37504-37507.json"
+      },
+      {
+        "slug": "skin-37506",
+        "name": "逸志俊才",
+        "displayName": {
+          "zhHans": "逸志俊才",
+          "zhHant": "逸志俊才"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xizhicai/skins/skin-37506.json"
+      },
+      {
+        "slug": "skin-37501",
+        "name": "颍川之才",
+        "displayName": {
+          "zhHans": "颍川之才",
+          "zhHant": "潁川之才"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xizhicai/skins/skin-37501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xizhicai.json",
+      "groups": "api/v1/tts/characters/xizhicai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xizhicai/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-37504-37507",
+    "name": "筹策自握,怀志寻知",
+    "displayName": {
+      "zhHans": "筹策自握,怀志寻知",
+      "zhHant": "籌策自握,懷志尋知"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/xizhicai/skins/skin-37504-37507.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "xizhicai--375xizhicai--5dead01",
+      "resourceId": "375xizhicai/5dead01",
+      "text": "只恨不能……再替主公……献策……",
+      "textLocalized": {
+        "zhHans": "只恨不能……再替主公……献策……",
+        "zhHant": "只恨不能……再替主公……獻策……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37507",
+          "name": "怀志寻知",
+          "displayName": {
+            "zhHans": "怀志寻知",
+            "zhHant": "懷志尋知"
+          }
+        },
+        {
+          "slug": "skin-37504",
+          "name": "筹策自握",
+          "displayName": {
+            "zhHans": "筹策自握",
+            "zhHant": "籌策自握"
+          }
+        },
+        {
+          "slug": "skin-37504-37507",
+          "name": "筹策自握,怀志寻知",
+          "displayName": {
+            "zhHans": "筹策自握,怀志寻知",
+            "zhHant": "籌策自握,懷志尋知"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/375xizhicai-2c572573/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/375xizhicai/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xizhicai--375xizhicai--5skill2_1",
+      "resourceId": "375xizhicai/5skill2_1",
+      "text": "谢主公赏赐。",
+      "textLocalized": {
+        "zhHans": "谢主公赏赐。",
+        "zhHant": "謝主公賞賜。"
+      },
+      "group": {
+        "slug": "spell-376",
+        "name": "先辅",
+        "displayName": {
+          "zhHans": "先辅",
+          "zhHant": "先輔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37507",
+          "name": "怀志寻知",
+          "displayName": {
+            "zhHans": "怀志寻知",
+            "zhHant": "懷志尋知"
+          }
+        },
+        {
+          "slug": "skin-37504",
+          "name": "筹策自握",
+          "displayName": {
+            "zhHans": "筹策自握",
+            "zhHant": "籌策自握"
+          }
+        },
+        {
+          "slug": "skin-37504-37507",
+          "name": "筹策自握,怀志寻知",
+          "displayName": {
+            "zhHans": "筹策自握,怀志寻知",
+            "zhHant": "籌策自握,懷志尋知"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/375xizhicai-2c572573/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/375xizhicai/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xizhicai--375xizhicai--5skill2_2",
+      "resourceId": "375xizhicai/5skill2_2",
+      "text": "得主公器重，吾，必尽全力。",
+      "textLocalized": {
+        "zhHans": "得主公器重，吾，必尽全力。",
+        "zhHant": "得主公器重，吾，必盡全力。"
+      },
+      "group": {
+        "slug": "spell-376",
+        "name": "先辅",
+        "displayName": {
+          "zhHans": "先辅",
+          "zhHant": "先輔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37507",
+          "name": "怀志寻知",
+          "displayName": {
+            "zhHans": "怀志寻知",
+            "zhHant": "懷志尋知"
+          }
+        },
+        {
+          "slug": "skin-37504",
+          "name": "筹策自握",
+          "displayName": {
+            "zhHans": "筹策自握",
+            "zhHant": "籌策自握"
+          }
+        },
+        {
+          "slug": "skin-37504-37507",
+          "name": "筹策自握,怀志寻知",
+          "displayName": {
+            "zhHans": "筹策自握,怀志寻知",
+            "zhHant": "籌策自握,懷志尋知"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/375xizhicai-2c572573/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/375xizhicai/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xizhicai--375xizhicai--5skill3_1",
+      "resourceId": "375xizhicai/5skill3_1",
+      "text": "活学活用，胜读万卷兵书。",
+      "textLocalized": {
+        "zhHans": "活学活用，胜读万卷兵书。",
+        "zhHant": "活學活用，勝讀萬卷兵書。"
+      },
+      "group": {
+        "slug": "spell-377",
+        "name": "筹策",
+        "displayName": {
+          "zhHans": "筹策",
+          "zhHant": "籌策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37507",
+          "name": "怀志寻知",
+          "displayName": {
+            "zhHans": "怀志寻知",
+            "zhHant": "懷志尋知"
+          }
+        },
+        {
+          "slug": "skin-37504",
+          "name": "筹策自握",
+          "displayName": {
+            "zhHans": "筹策自握",
+            "zhHant": "籌策自握"
+          }
+        },
+        {
+          "slug": "skin-37504-37507",
+          "name": "筹策自握,怀志寻知",
+          "displayName": {
+            "zhHans": "筹策自握,怀志寻知",
+            "zhHant": "籌策自握,懷志尋知"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/375xizhicai-2c572573/5skill3-1-81c515c2.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/375xizhicai/5skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xizhicai--375xizhicai--5skill3_2",
+      "resourceId": "375xizhicai/5skill3_2",
+      "text": "料事知人，临危不惧。",
+      "textLocalized": {
+        "zhHans": "料事知人，临危不惧。",
+        "zhHant": "料事知人，臨危不懼。"
+      },
+      "group": {
+        "slug": "spell-377",
+        "name": "筹策",
+        "displayName": {
+          "zhHans": "筹策",
+          "zhHant": "籌策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37507",
+          "name": "怀志寻知",
+          "displayName": {
+            "zhHans": "怀志寻知",
+            "zhHant": "懷志尋知"
+          }
+        },
+        {
+          "slug": "skin-37504",
+          "name": "筹策自握",
+          "displayName": {
+            "zhHans": "筹策自握",
+            "zhHant": "籌策自握"
+          }
+        },
+        {
+          "slug": "skin-37504-37507",
+          "name": "筹策自握,怀志寻知",
+          "displayName": {
+            "zhHans": "筹策自握,怀志寻知",
+            "zhHant": "籌策自握,懷志尋知"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/375xizhicai-2c572573/5skill3-2-edc71423.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/375xizhicai/5skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xizhicai--375xizhicai--5skill1_1",
+      "resourceId": "375xizhicai/5skill1_1",
+      "text": "学会接受这一切吧。",
+      "textLocalized": {
+        "zhHans": "学会接受这一切吧。",
+        "zhHant": "學會接受這一切吧。"
+      },
+      "group": {
+        "slug": "spell-51",
+        "name": "天妒",
+        "displayName": {
+          "zhHans": "天妒",
+          "zhHant": "天妒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37507",
+          "name": "怀志寻知",
+          "displayName": {
+            "zhHans": "怀志寻知",
+            "zhHant": "懷志尋知"
+          }
+        },
+        {
+          "slug": "skin-37504",
+          "name": "筹策自握",
+          "displayName": {
+            "zhHans": "筹策自握",
+            "zhHant": "籌策自握"
+          }
+        },
+        {
+          "slug": "skin-37504-37507",
+          "name": "筹策自握,怀志寻知",
+          "displayName": {
+            "zhHans": "筹策自握,怀志寻知",
+            "zhHant": "籌策自握,懷志尋知"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/375xizhicai-2c572573/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/375xizhicai/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xizhicai--375xizhicai--5skill1_2",
+      "resourceId": "375xizhicai/5skill1_2",
+      "text": "天与之，或自取之。",
+      "textLocalized": {
+        "zhHans": "天与之，或自取之。",
+        "zhHant": "天與之，或自取之。"
+      },
+      "group": {
+        "slug": "spell-51",
+        "name": "天妒",
+        "displayName": {
+          "zhHans": "天妒",
+          "zhHant": "天妒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37507",
+          "name": "怀志寻知",
+          "displayName": {
+            "zhHans": "怀志寻知",
+            "zhHant": "懷志尋知"
+          }
+        },
+        {
+          "slug": "skin-37504",
+          "name": "筹策自握",
+          "displayName": {
+            "zhHans": "筹策自握",
+            "zhHant": "籌策自握"
+          }
+        },
+        {
+          "slug": "skin-37504-37507",
+          "name": "筹策自握,怀志寻知",
+          "displayName": {
+            "zhHans": "筹策自握,怀志寻知",
+            "zhHant": "籌策自握,懷志尋知"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/375xizhicai-2c572573/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/375xizhicai/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

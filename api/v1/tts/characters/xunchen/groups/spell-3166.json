@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:70ffe1b2368a0c6c4bd170f262ca76dc7e7c1735ffa098dd20c58b2bccc67e5d
-size 7198
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xunchen",
+    "command": "xunchen",
+    "name": "族荀谌",
+    "displayName": {
+      "zhHans": "族荀谌",
+      "zhHant": "族荀諶"
+    },
+    "names": [
+      "族荀谌"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀谌",
+        "zhHant": "族荀諶"
+      }
+    ],
+    "ids": [
+      "523"
+    ],
+    "sourceNames": [
+      "族荀谌"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀谌",
+        "zhHant": "族荀諶"
+      }
+    ],
+    "sourceIds": [
+      "523"
+    ],
+    "searchNames": [
+      "xunchen",
+      "族荀谌",
+      "族荀諶"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3169",
+        "name": "三恇",
+        "displayName": {
+          "zhHans": "三恇",
+          "zhHant": "三恇"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3169.json"
+      },
+      {
+        "slug": "spell-3170",
+        "name": "卑势",
+        "displayName": {
+          "zhHans": "卑势",
+          "zhHant": "卑勢"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3170.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xunchen/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52301",
+        "name": "栖木之择",
+        "displayName": {
+          "zhHans": "栖木之择",
+          "zhHant": "棲木之擇"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xunchen/skins/skin-52301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xunchen.json",
+      "groups": "api/v1/tts/characters/xunchen/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xunchen/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3166",
+    "name": "蹈节",
+    "displayName": {
+      "zhHans": "蹈节",
+      "zhHant": "蹈節"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3166.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xunchen--523xunchen--1skill3_1",
+      "resourceId": "523xunchen/1skill3_1",
+      "text": "此生所重者，慷慨之节也。",
+      "textLocalized": {
+        "zhHans": "此生所重者，慷慨之节也。",
+        "zhHant": "此生所重者，慷慨之節也。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunchen--523xunchen--1skill3_2",
+      "resourceId": "523xunchen/1skill3_2",
+      "text": "愿以此身，全清尚之节。",
+      "textLocalized": {
+        "zhHans": "愿以此身，全清尚之节。",
+        "zhHant": "願以此身，全清尚之節。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunchen--523xunchen--2skill3_1",
+      "resourceId": "523xunchen/2skill3_1",
+      "text": "家风蔚然，不敢扰己心、辱门庭。",
+      "textLocalized": {
+        "zhHans": "家风蔚然，不敢扰己心、辱门庭。",
+        "zhHant": "家風蔚然，不敢擾己心、辱門庭。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52301",
+          "name": "栖木之择",
+          "displayName": {
+            "zhHans": "栖木之择",
+            "zhHant": "棲木之擇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunchen--523xunchen--2skill3_2",
+      "resourceId": "523xunchen/2skill3_2",
+      "text": "学成满腹之才，欲卖与天下有节高士。",
+      "textLocalized": {
+        "zhHans": "学成满腹之才，欲卖与天下有节高士。",
+        "zhHant": "學成滿腹之才，欲賣與天下有節高士。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52301",
+          "name": "栖木之择",
+          "displayName": {
+            "zhHans": "栖木之择",
+            "zhHant": "棲木之擇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

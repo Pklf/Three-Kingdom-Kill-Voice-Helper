@@ -1,3 +1,139 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a59db93fd9ab4b3b9845f97f87d64139b3439f69a2ce8fc078c79660df38820f
-size 3485
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "taishanwang",
+    "command": "taishanwang",
+    "name": "泰山王",
+    "displayName": {
+      "zhHans": "泰山王",
+      "zhHant": "泰山王"
+    },
+    "names": [
+      "泰山王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "泰山王",
+        "zhHant": "泰山王"
+      }
+    ],
+    "ids": [
+      "4506"
+    ],
+    "sourceNames": [
+      "泰山王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "泰山王",
+        "zhHant": "泰山王"
+      }
+    ],
+    "sourceIds": [
+      "4506"
+    ],
+    "searchNames": [
+      "taishanwang",
+      "泰山王"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "spell-1295",
+        "name": "服毒",
+        "displayName": {
+          "zhHans": "服毒",
+          "zhHant": "服毒"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/taishanwang/groups/spell-1295.json"
+      },
+      {
+        "slug": "spell-1296",
+        "name": "苦酒",
+        "displayName": {
+          "zhHans": "苦酒",
+          "zhHant": "苦酒"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/taishanwang/groups/spell-1296.json"
+      },
+      {
+        "slug": "spell-1297",
+        "name": "热恼",
+        "displayName": {
+          "zhHans": "热恼",
+          "zhHant": "熱惱"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/taishanwang/groups/spell-1297.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/taishanwang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/taishanwang.json",
+      "groups": "api/v1/tts/characters/taishanwang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/taishanwang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1295",
+    "name": "服毒",
+    "displayName": {
+      "zhHans": "服毒",
+      "zhHant": "服毒"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/taishanwang/groups/spell-1295.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "taishanwang--4506taishanwang--1skill1_1",
+      "resourceId": "4506taishanwang/1skill1_1",
+      "text": "服药止血，反被毒伤。",
+      "textLocalized": {
+        "zhHans": "服药止血，反被毒伤。",
+        "zhHant": "服藥止血，反被毒傷。"
+      },
+      "group": {
+        "slug": "spell-1295",
+        "name": "服毒",
+        "displayName": {
+          "zhHans": "服毒",
+          "zhHant": "服毒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4506taishanwang-f9eb7c69/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4506taishanwang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,400 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:96f713448799261e99ff4a0d7f0ce0a27f245471a31e637ea61b02a0e913095c
-size 11060
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhanglu",
+    "command": "zhanglu",
+    "name": "张鲁",
+    "displayName": {
+      "zhHans": "张鲁",
+      "zhHant": "張魯"
+    },
+    "names": [
+      "张鲁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张鲁",
+        "zhHant": "張魯"
+      }
+    ],
+    "ids": [
+      "343"
+    ],
+    "sourceNames": [
+      "张鲁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张鲁",
+        "zhHant": "張魯"
+      }
+    ],
+    "sourceIds": [
+      "343"
+    ],
+    "searchNames": [
+      "zhanglu",
+      "张鲁",
+      "張魯"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/dead.json"
+      },
+      {
+        "slug": "spell-259",
+        "name": "义舍",
+        "displayName": {
+          "zhHans": "义舍",
+          "zhHant": "義舍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/spell-259.json"
+      },
+      {
+        "slug": "spell-260",
+        "name": "布施",
+        "displayName": {
+          "zhHans": "布施",
+          "zhHant": "佈施"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/spell-260.json"
+      },
+      {
+        "slug": "spell-261",
+        "name": "米道",
+        "displayName": {
+          "zhHans": "米道",
+          "zhHant": "米道"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/spell-261.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-34301",
+        "name": "不鏖遗民",
+        "displayName": {
+          "zhHans": "不鏖遗民",
+          "zhHant": "不鏖遺民"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34301.json"
+      },
+      {
+        "slug": "skin-34301-34304",
+        "name": "不鏖遗民,喜迎孟起",
+        "displayName": {
+          "zhHans": "不鏖遗民,喜迎孟起",
+          "zhHant": "不鏖遺民,喜迎孟起"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34301-34304.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34304",
+        "name": "喜迎孟起",
+        "displayName": {
+          "zhHans": "喜迎孟起",
+          "zhHant": "喜迎孟起"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34304.json"
+      },
+      {
+        "slug": "skin-34303",
+        "name": "米道师君",
+        "displayName": {
+          "zhHans": "米道师君",
+          "zhHant": "米道師君"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34303.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhanglu.json",
+      "groups": "api/v1/tts/characters/zhanglu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhanglu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "zhanglu--343zhanglu--1dead01",
+      "resourceId": "343zhanglu/1dead01",
+      "text": "但，归置于道，无意凡世争斗……",
+      "textLocalized": {
+        "zhHans": "但，归置于道，无意凡世争斗……",
+        "zhHant": "但，歸置於道，無意凡世爭鬥……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--1skill1_1",
+      "resourceId": "343zhanglu/1skill1_1",
+      "text": "行大义之举，须有向道之心。",
+      "textLocalized": {
+        "zhHans": "行大义之举，须有向道之心。",
+        "zhHant": "行大義之舉，須有向道之心。"
+      },
+      "group": {
+        "slug": "spell-259",
+        "name": "义舍",
+        "displayName": {
+          "zhHans": "义舍",
+          "zhHant": "義舍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--1skill1_2",
+      "resourceId": "343zhanglu/1skill1_2",
+      "text": "你有你的权谋，我？哼，自有我的道义。",
+      "textLocalized": {
+        "zhHans": "你有你的权谋，我？哼，自有我的道义。",
+        "zhHant": "你有你的權謀，我？哼，自有我的道義。"
+      },
+      "group": {
+        "slug": "spell-259",
+        "name": "义舍",
+        "displayName": {
+          "zhHans": "义舍",
+          "zhHant": "義舍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--1skill2_1",
+      "resourceId": "343zhanglu/1skill2_1",
+      "text": "布施行善，乃道义之本。",
+      "textLocalized": {
+        "zhHans": "布施行善，乃道义之本。",
+        "zhHant": "佈施行善，乃道義之本。"
+      },
+      "group": {
+        "slug": "spell-260",
+        "name": "布施",
+        "displayName": {
+          "zhHans": "布施",
+          "zhHant": "佈施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--1skill2_2",
+      "resourceId": "343zhanglu/1skill2_2",
+      "text": "行布施，得天道。",
+      "textLocalized": {
+        "zhHans": "行布施，得天道。",
+        "zhHant": "行佈施，得天道。"
+      },
+      "group": {
+        "slug": "spell-260",
+        "name": "布施",
+        "displayName": {
+          "zhHans": "布施",
+          "zhHant": "佈施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--1skill3_1",
+      "resourceId": "343zhanglu/1skill3_1",
+      "text": "兼济天下，解百姓之忧。",
+      "textLocalized": {
+        "zhHans": "兼济天下，解百姓之忧。",
+        "zhHant": "兼濟天下，解百姓之憂。"
+      },
+      "group": {
+        "slug": "spell-261",
+        "name": "米道",
+        "displayName": {
+          "zhHans": "米道",
+          "zhHant": "米道"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--1skill3_2",
+      "resourceId": "343zhanglu/1skill3_2",
+      "text": "从善从良，从五斗米道。",
+      "textLocalized": {
+        "zhHans": "从善从良，从五斗米道。",
+        "zhHant": "從善從良，從五斗米道。"
+      },
+      "group": {
+        "slug": "spell-261",
+        "name": "米道",
+        "displayName": {
+          "zhHans": "米道",
+          "zhHant": "米道"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

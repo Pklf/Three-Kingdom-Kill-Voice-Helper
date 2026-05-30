@@ -1,3 +1,164 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:023ceb908748819a1d1d5fd01acaee5a6057a4127adca7633c51442f53c8e837
-size 4041
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "maotu",
+    "command": "maotu",
+    "name": "卯兔",
+    "displayName": {
+      "zhHans": "卯兔",
+      "zhHant": "卯兔"
+    },
+    "names": [
+      "卯兔"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卯兔",
+        "zhHant": "卯兔"
+      }
+    ],
+    "ids": [
+      "4086"
+    ],
+    "sourceNames": [
+      "卯兔"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卯兔",
+        "zhHant": "卯兔"
+      }
+    ],
+    "sourceIds": [
+      "4086"
+    ],
+    "searchNames": [
+      "maotu",
+      "卯兔"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/maotu/groups/dead.json"
+      },
+      {
+        "slug": "spell-1204",
+        "name": "卯兔",
+        "displayName": {
+          "zhHans": "卯兔",
+          "zhHant": "卯兔"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/maotu/groups/spell-1204.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/maotu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/maotu.json",
+      "groups": "api/v1/tts/characters/maotu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/maotu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/maotu/skins/skin-1.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "maotu--4086maotu--1dead01",
+      "resourceId": "4086maotu/1dead01",
+      "text": "这灾祸，是躲不过了。",
+      "textLocalized": {
+        "zhHans": "这灾祸，是躲不过了。",
+        "zhHant": "這災禍，是躲不過了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4086maotu-1e2b9a7d/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4086maotu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maotu--4086maotu--1skill1_1",
+      "resourceId": "4086maotu/1skill1_1",
+      "text": "想抓到我？不可能！",
+      "textLocalized": {
+        "zhHans": "想抓到我？不可能！",
+        "zhHant": "想抓到我？不可能！"
+      },
+      "group": {
+        "slug": "spell-1204",
+        "name": "卯兔",
+        "displayName": {
+          "zhHans": "卯兔",
+          "zhHant": "卯兔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4086maotu-1e2b9a7d/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4086maotu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

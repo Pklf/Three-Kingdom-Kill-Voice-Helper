@@ -1,3 +1,627 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c626599304e35fbf66d9555a30e3048ac94f8799c42f95ba327edc57e3281af
-size 17650
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lingju",
+    "command": "lingju",
+    "name": "灵雎",
+    "displayName": {
+      "zhHans": "灵雎",
+      "zhHant": "靈雎"
+    },
+    "names": [
+      "灵雎"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "灵雎",
+        "zhHant": "靈雎"
+      }
+    ],
+    "ids": [
+      "74"
+    ],
+    "sourceNames": [
+      "灵雎"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "灵雎",
+        "zhHant": "靈雎"
+      }
+    ],
+    "sourceIds": [
+      "74"
+    ],
+    "searchNames": [
+      "lingju",
+      "灵雎",
+      "靈雎"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/lingju/groups/dead.json"
+      },
+      {
+        "slug": "spell-606",
+        "name": "竭缘",
+        "displayName": {
+          "zhHans": "竭缘",
+          "zhHant": "竭緣"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/lingju/groups/spell-606.json"
+      },
+      {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/lingju/groups/spell-607.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lingju/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-7406",
+        "name": "持匕待机",
+        "displayName": {
+          "zhHans": "持匕待机",
+          "zhHant": "持匕待機"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lingju/skins/skin-7406.json"
+      },
+      {
+        "slug": "skin-7403",
+        "name": "浴火焚心",
+        "displayName": {
+          "zhHans": "浴火焚心",
+          "zhHant": "浴火焚心"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lingju/skins/skin-7403.json"
+      },
+      {
+        "slug": "skin-7403-7406",
+        "name": "浴火焚心,持匕待机",
+        "displayName": {
+          "zhHans": "浴火焚心,持匕待机",
+          "zhHant": "浴火焚心,持匕待機"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lingju/skins/skin-7403-7406.json"
+      },
+      {
+        "slug": "skin-7409",
+        "name": "舞魅蛊心",
+        "displayName": {
+          "zhHans": "舞魅蛊心",
+          "zhHant": "舞魅蠱心"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lingju/skins/skin-7409.json"
+      },
+      {
+        "slug": "skin-7402",
+        "name": "艳绝无双",
+        "displayName": {
+          "zhHans": "艳绝无双",
+          "zhHant": "豔絕無雙"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lingju/skins/skin-7402.json"
+      },
+      {
+        "slug": "skin-7404",
+        "name": "花舞血带",
+        "displayName": {
+          "zhHans": "花舞血带",
+          "zhHant": "花舞血帶"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lingju/skins/skin-7404.json"
+      },
+      {
+        "slug": "skin-7407",
+        "name": "金枝玉叶",
+        "displayName": {
+          "zhHans": "金枝玉叶",
+          "zhHant": "金枝玉葉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lingju/skins/skin-7407.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lingju.json",
+      "groups": "api/v1/tts/characters/lingju/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lingju/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-607",
+    "name": "焚心",
+    "displayName": {
+      "zhHans": "焚心",
+      "zhHant": "焚心"
+    },
+    "lineCount": 12,
+    "endpoint": "api/v1/tts/characters/lingju/groups/spell-607.json"
+  },
+  "lineCount": 12,
+  "lines": [
+    {
+      "id": "lingju--74lingju--1skill2_1",
+      "resourceId": "74lingju/1skill2_1",
+      "text": "杀人，诛心。",
+      "textLocalized": {
+        "zhHans": "杀人，诛心。",
+        "zhHant": "殺人，誅心。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--1skill2_2",
+      "resourceId": "74lingju/1skill2_2",
+      "text": "主上，这是最后的机会！",
+      "textLocalized": {
+        "zhHans": "主上，这是最后的机会！",
+        "zhHant": "主上，這是最後的機會！"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--4skill2_1",
+      "resourceId": "74lingju/4skill2_1",
+      "text": "醉酒浇愁，焚心志失。",
+      "textLocalized": {
+        "zhHans": "醉酒浇愁，焚心志失。",
+        "zhHant": "醉酒澆愁，焚心志失。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7406",
+          "name": "持匕待机",
+          "displayName": {
+            "zhHans": "持匕待机",
+            "zhHant": "持匕待機"
+          }
+        },
+        {
+          "slug": "skin-7403",
+          "name": "浴火焚心",
+          "displayName": {
+            "zhHans": "浴火焚心",
+            "zhHant": "浴火焚心"
+          }
+        },
+        {
+          "slug": "skin-7403-7406",
+          "name": "浴火焚心,持匕待机",
+          "displayName": {
+            "zhHans": "浴火焚心,持匕待机",
+            "zhHant": "浴火焚心,持匕待機"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--4skill2_2",
+      "resourceId": "74lingju/4skill2_2",
+      "text": "要知道，女人都是善变的。",
+      "textLocalized": {
+        "zhHans": "要知道，女人都是善变的。",
+        "zhHant": "要知道，女人都是善變的。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7406",
+          "name": "持匕待机",
+          "displayName": {
+            "zhHans": "持匕待机",
+            "zhHant": "持匕待機"
+          }
+        },
+        {
+          "slug": "skin-7403",
+          "name": "浴火焚心",
+          "displayName": {
+            "zhHans": "浴火焚心",
+            "zhHant": "浴火焚心"
+          }
+        },
+        {
+          "slug": "skin-7403-7406",
+          "name": "浴火焚心,持匕待机",
+          "displayName": {
+            "zhHans": "浴火焚心,持匕待机",
+            "zhHant": "浴火焚心,持匕待機"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--7skill2_1",
+      "resourceId": "74lingju/7skill2_1",
+      "text": "焚销诛心，汝不得安生。",
+      "textLocalized": {
+        "zhHans": "焚销诛心，汝不得安生。",
+        "zhHant": "焚銷誅心，汝不得安生。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7409",
+          "name": "舞魅蛊心",
+          "displayName": {
+            "zhHans": "舞魅蛊心",
+            "zhHant": "舞魅蠱心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/7skill2-1-780aba2a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/7skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--7skill2_2",
+      "resourceId": "74lingju/7skill2_2",
+      "text": "这些煎熬折磨，你也该尝尝。",
+      "textLocalized": {
+        "zhHans": "这些煎熬折磨，你也该尝尝。",
+        "zhHant": "這些煎熬折磨，你也該嚐嚐。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7409",
+          "name": "舞魅蛊心",
+          "displayName": {
+            "zhHans": "舞魅蛊心",
+            "zhHant": "舞魅蠱心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/7skill2-2-de81ab1f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/7skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--3skill2_1",
+      "resourceId": "74lingju/3skill2_1",
+      "text": "过去的一切，都与我无关了。",
+      "textLocalized": {
+        "zhHans": "过去的一切，都与我无关了。",
+        "zhHant": "過去的一切，都與我無關了。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7402",
+          "name": "艳绝无双",
+          "displayName": {
+            "zhHans": "艳绝无双",
+            "zhHant": "豔絕無雙"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--3skill2_2",
+      "resourceId": "74lingju/3skill2_2",
+      "text": "从今天起，只为自己而活。",
+      "textLocalized": {
+        "zhHans": "从今天起，只为自己而活。",
+        "zhHant": "從今天起，只爲自己而活。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7402",
+          "name": "艳绝无双",
+          "displayName": {
+            "zhHans": "艳绝无双",
+            "zhHant": "豔絕無雙"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--5skill2_1",
+      "resourceId": "74lingju/5skill2_1",
+      "text": "身份，不过是个代号而已。",
+      "textLocalized": {
+        "zhHans": "身份，不过是个代号而已。",
+        "zhHant": "身份，不過是個代號而已。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7404",
+          "name": "花舞血带",
+          "displayName": {
+            "zhHans": "花舞血带",
+            "zhHant": "花舞血帶"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--5skill2_2",
+      "resourceId": "74lingju/5skill2_2",
+      "text": "你，是敌还是友？",
+      "textLocalized": {
+        "zhHans": "你，是敌还是友？",
+        "zhHant": "你，是敵還是友？"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7404",
+          "name": "花舞血带",
+          "displayName": {
+            "zhHans": "花舞血带",
+            "zhHant": "花舞血帶"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--6skill2_1",
+      "resourceId": "74lingju/6skill2_1",
+      "text": "你的身份，我已为你抹去。",
+      "textLocalized": {
+        "zhHans": "你的身份，我已为你抹去。",
+        "zhHant": "你的身份，我已爲你抹去。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7407",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lingju--74lingju--6skill2_2",
+      "resourceId": "74lingju/6skill2_2",
+      "text": "伤我心神，焚汝身骨。",
+      "textLocalized": {
+        "zhHans": "伤我心神，焚汝身骨。",
+        "zhHant": "傷我心神，焚汝身骨。"
+      },
+      "group": {
+        "slug": "spell-607",
+        "name": "焚心",
+        "displayName": {
+          "zhHans": "焚心",
+          "zhHant": "焚心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7407",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/74lingju-2124c8f3/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/74lingju/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

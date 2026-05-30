@@ -1,3 +1,200 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:006f99b493b0c344c2b0eeeef098a904572a4190f2087e0bbd09f10e3429953b
-size 5223
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dongtuna",
+    "command": "dongtuna",
+    "name": "神秘武将",
+    "displayName": {
+      "zhHans": "神秘武将",
+      "zhHant": "神祕武將"
+    },
+    "names": [
+      "神秘武将"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神秘武将",
+        "zhHant": "神祕武將"
+      }
+    ],
+    "ids": [
+      "530"
+    ],
+    "sourceNames": [
+      "神秘武将"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神秘武将",
+        "zhHant": "神祕武將"
+      }
+    ],
+    "sourceIds": [
+      "530"
+    ],
+    "searchNames": [
+      "dongtuna",
+      "神秘武将",
+      "神祕武將"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/dongtuna/groups/dead.json"
+      },
+      {
+        "slug": "spell-3206",
+        "name": "鹣蛮",
+        "displayName": {
+          "zhHans": "鹣蛮",
+          "zhHant": "鶼蠻"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/dongtuna/groups/spell-3206.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/dongtuna/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dongtuna.json",
+      "groups": "api/v1/tts/characters/dongtuna/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dongtuna/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/dongtuna/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "dongtuna--530dongtuna--1dead01",
+      "resourceId": "530dongtuna/1dead01",
+      "text": "孟获小儿，安敢杀我。",
+      "textLocalized": {
+        "zhHans": "孟获小儿，安敢杀我。",
+        "zhHant": "孟獲小兒，安敢殺我。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/530dongtuna-0eebdf70/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/530dongtuna/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongtuna--530dongtuna--1skill1_1",
+      "resourceId": "530dongtuna/1skill1_1",
+      "text": "鹄巡山野，见腐羝而聒鸣！",
+      "textLocalized": {
+        "zhHans": "鹄巡山野，见腐羝而聒鸣！",
+        "zhHant": "鵠巡山野，見腐羝而聒鳴！"
+      },
+      "group": {
+        "slug": "spell-3206",
+        "name": "鹣蛮",
+        "displayName": {
+          "zhHans": "鹣蛮",
+          "zhHant": "鶼蠻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/530dongtuna-0eebdf70/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/530dongtuna/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongtuna--530dongtuna--1skill1_2",
+      "resourceId": "530dongtuna/1skill1_2",
+      "text": "我蛮夷也，进退可无矩。",
+      "textLocalized": {
+        "zhHans": "我蛮夷也，进退可无矩。",
+        "zhHant": "我蠻夷也，進退可無矩。"
+      },
+      "group": {
+        "slug": "spell-3206",
+        "name": "鹣蛮",
+        "displayName": {
+          "zhHans": "鹣蛮",
+          "zhHant": "鶼蠻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/530dongtuna-0eebdf70/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/530dongtuna/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

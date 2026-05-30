@@ -1,3 +1,386 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:54f708898f665d3dfbc4c6a9e0602cc64f9dbbdfa9e812c0a9287695ac867355
-size 8277
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lvfan",
+    "command": "lvfan",
+    "name": "吕范",
+    "displayName": {
+      "zhHans": "吕范",
+      "zhHant": "呂範"
+    },
+    "names": [
+      "吕范"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "吕范",
+        "zhHant": "呂範"
+      }
+    ],
+    "ids": [
+      "2079"
+    ],
+    "sourceNames": [
+      "吕范"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "吕范",
+        "zhHant": "呂範"
+      }
+    ],
+    "sourceIds": [
+      "2079"
+    ],
+    "searchNames": [
+      "lvfan",
+      "吕范",
+      "呂範"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-927",
+        "name": "调度",
+        "displayName": {
+          "zhHans": "调度",
+          "zhHant": "調度"
+        },
+        "ids": [
+          "927"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-928",
+        "name": "典财",
+        "displayName": {
+          "zhHans": "典财",
+          "zhHant": "典財"
+        },
+        "ids": [
+          "928"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/lvfan.json",
+      "lines": "api/v1/characters/lvfan/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-927",
+    "ids": [
+      "927"
+    ],
+    "name": "调度",
+    "displayName": {
+      "zhHans": "调度",
+      "zhHant": "調度"
+    },
+    "names": [
+      "调度"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "调度",
+        "zhHant": "調度"
+      }
+    ]
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "lvfan--2079lvfan--1skill1_1",
+      "resourceId": "2079lvfan/1skill1_1",
+      "text": "开源节流，作法于凉。",
+      "textLocalized": {
+        "zhHans": "开源节流，作法于凉。",
+        "zhHant": "開源節流，作法於涼。"
+      },
+      "character": {
+        "slug": "lvfan",
+        "command": "lvfan",
+        "id": "2079",
+        "ids": [
+          "2079"
+        ],
+        "name": "吕范",
+        "displayName": {
+          "zhHans": "吕范",
+          "zhHant": "呂範"
+        },
+        "names": [
+          "吕范"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "吕范",
+            "zhHant": "呂範"
+          }
+        ],
+        "sourceIds": [
+          "2079"
+        ],
+        "sourceNames": [
+          "吕范"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "吕范",
+            "zhHant": "呂範"
+          }
+        ],
+        "searchNames": [
+          "吕范",
+          "呂範",
+          "lvfan"
+        ]
+      },
+      "group": {
+        "slug": "spell-927",
+        "ids": [
+          "927"
+        ],
+        "name": "调度",
+        "displayName": {
+          "zhHans": "调度",
+          "zhHant": "調度"
+        },
+        "names": [
+          "调度"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "调度",
+            "zhHant": "調度"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "2079",
+        "skinKey": "-1",
+        "spellKey": "927",
+        "rowIndex": 1,
+        "characterNames": [
+          "吕范"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/2079lvfan-c0fd0a49/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvfan--2079lvfan--1skill1_2",
+      "resourceId": "2079lvfan/1skill1_2",
+      "text": "调度征求，省刑薄敛。",
+      "textLocalized": {
+        "zhHans": "调度征求，省刑薄敛。",
+        "zhHant": "調度徵求，省刑薄斂。"
+      },
+      "character": {
+        "slug": "lvfan",
+        "command": "lvfan",
+        "id": "2079",
+        "ids": [
+          "2079"
+        ],
+        "name": "吕范",
+        "displayName": {
+          "zhHans": "吕范",
+          "zhHant": "呂範"
+        },
+        "names": [
+          "吕范"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "吕范",
+            "zhHant": "呂範"
+          }
+        ],
+        "sourceIds": [
+          "2079"
+        ],
+        "sourceNames": [
+          "吕范"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "吕范",
+            "zhHant": "呂範"
+          }
+        ],
+        "searchNames": [
+          "吕范",
+          "呂範",
+          "lvfan"
+        ]
+      },
+      "group": {
+        "slug": "spell-927",
+        "ids": [
+          "927"
+        ],
+        "name": "调度",
+        "displayName": {
+          "zhHans": "调度",
+          "zhHant": "調度"
+        },
+        "names": [
+          "调度"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "调度",
+            "zhHant": "調度"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "2079",
+        "skinKey": "-1",
+        "spellKey": "927",
+        "rowIndex": 2,
+        "characterNames": [
+          "吕范"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/2079lvfan-c0fd0a49/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2079lvfan/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

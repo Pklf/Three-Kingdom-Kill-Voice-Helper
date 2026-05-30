@@ -1,3 +1,435 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ee626d785c687f2b2ae64302bd320010f0c5c3fc10b00d6eb2e084e9b76f1c61
-size 12025
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simahui",
+    "command": "simahui",
+    "name": "司马徽",
+    "displayName": {
+      "zhHans": "司马徽",
+      "zhHant": "司馬徽"
+    },
+    "names": [
+      "司马徽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马徽",
+        "zhHant": "司馬徽"
+      }
+    ],
+    "ids": [
+      "416"
+    ],
+    "sourceNames": [
+      "司马徽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马徽",
+        "zhHant": "司馬徽"
+      }
+    ],
+    "sourceIds": [
+      "416"
+    ],
+    "searchNames": [
+      "simahui",
+      "司马徽",
+      "司馬徽"
+    ],
+    "lineCount": 36,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simahui/groups/dead.json"
+      },
+      {
+        "slug": "spell-844",
+        "name": "荐杰",
+        "displayName": {
+          "zhHans": "荐杰",
+          "zhHant": "薦傑"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/simahui/groups/spell-844.json"
+      },
+      {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simahui/groups/spell-845.json"
+      },
+      {
+        "slug": "spell-846",
+        "name": "隐士",
+        "displayName": {
+          "zhHans": "隐士",
+          "zhHant": "隱士"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simahui/groups/spell-846.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41604",
+        "name": "坐隐乾坤",
+        "displayName": {
+          "zhHans": "坐隐乾坤",
+          "zhHant": "坐隱乾坤"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41604.json"
+      },
+      {
+        "slug": "skin-41601",
+        "name": "山林隐士",
+        "displayName": {
+          "zhHans": "山林隐士",
+          "zhHant": "山林隱士"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41601.json"
+      },
+      {
+        "slug": "skin-41602",
+        "name": "教诲不倦",
+        "displayName": {
+          "zhHans": "教诲不倦",
+          "zhHant": "教誨不倦"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41602.json"
+      },
+      {
+        "slug": "skin-41603",
+        "name": "隐秘观局",
+        "displayName": {
+          "zhHans": "隐秘观局",
+          "zhHant": "隱祕觀局"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/simahui/skins/skin-41603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simahui.json",
+      "groups": "api/v1/tts/characters/simahui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simahui/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/simahui/skins/skin-1.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "simahui--416simahui--1dead01",
+      "resourceId": "416simahui/1dead01",
+      "text": "这似乎，没那么好了。",
+      "textLocalized": {
+        "zhHans": "这似乎，没那么好了。",
+        "zhHant": "這似乎，沒那麼好了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--1skill1_1",
+      "resourceId": "416simahui/1skill1_1",
+      "text": "卧龙凤雏，二者得一，可安天下。",
+      "textLocalized": {
+        "zhHans": "卧龙凤雏，二者得一，可安天下。",
+        "zhHant": "臥龍鳳雛，二者得一，可安天下。"
+      },
+      "group": {
+        "slug": "spell-844",
+        "name": "荐杰",
+        "displayName": {
+          "zhHans": "荐杰",
+          "zhHant": "薦傑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--1skill1_2",
+      "resourceId": "416simahui/1skill1_2",
+      "text": "公怀王佐之才，宜择人而仕。",
+      "textLocalized": {
+        "zhHans": "公怀王佐之才，宜择人而仕。",
+        "zhHant": "公懷王佐之才，宜擇人而仕。"
+      },
+      "group": {
+        "slug": "spell-844",
+        "name": "荐杰",
+        "displayName": {
+          "zhHans": "荐杰",
+          "zhHant": "薦傑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--1skill1_3",
+      "resourceId": "416simahui/1skill1_3",
+      "text": "二人齐聚，汉室可兴矣。",
+      "textLocalized": {
+        "zhHans": "二人齐聚，汉室可兴矣。",
+        "zhHant": "二人齊聚，漢室可興矣。"
+      },
+      "group": {
+        "slug": "spell-844",
+        "name": "荐杰",
+        "displayName": {
+          "zhHans": "荐杰",
+          "zhHant": "薦傑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1skill1-3-ac42c22e.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1skill1_3.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--1skill2_1",
+      "resourceId": "416simahui/1skill2_1",
+      "text": "好，很好，非常好！",
+      "textLocalized": {
+        "zhHans": "好，很好，非常好！",
+        "zhHant": "好，很好，非常好！"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--1skill2_2",
+      "resourceId": "416simahui/1skill2_2",
+      "text": "您的话也很好。",
+      "textLocalized": {
+        "zhHans": "您的话也很好。",
+        "zhHant": "您的話也很好。"
+      },
+      "group": {
+        "slug": "spell-845",
+        "name": "称好",
+        "displayName": {
+          "zhHans": "称好",
+          "zhHant": "稱好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--1skill3_1",
+      "resourceId": "416simahui/1skill3_1",
+      "text": "山野闲散之人，不堪世用。",
+      "textLocalized": {
+        "zhHans": "山野闲散之人，不堪世用。",
+        "zhHant": "山野閒散之人，不堪世用。"
+      },
+      "group": {
+        "slug": "spell-846",
+        "name": "隐士",
+        "displayName": {
+          "zhHans": "隐士",
+          "zhHant": "隱士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simahui--416simahui--1skill3_2",
+      "resourceId": "416simahui/1skill3_2",
+      "text": "我老了，会有胜我十倍的人来帮助你。",
+      "textLocalized": {
+        "zhHans": "我老了，会有胜我十倍的人来帮助你。",
+        "zhHant": "我老了，會有勝我十倍的人來幫助你。"
+      },
+      "group": {
+        "slug": "spell-846",
+        "name": "隐士",
+        "displayName": {
+          "zhHans": "隐士",
+          "zhHant": "隱士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/416simahui-b2d94032/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/416simahui/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

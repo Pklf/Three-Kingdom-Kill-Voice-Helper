@@ -1,3 +1,328 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a695b0f7da7dbd8e4e5f3f11b810e5618788d36089aa1798e959ed903e1d26de
-size 8921
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangping",
+    "command": "wangping",
+    "name": "王平",
+    "displayName": {
+      "zhHans": "王平",
+      "zhHant": "王平"
+    },
+    "names": [
+      "王平",
+      "2099"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王平",
+        "zhHant": "王平"
+      },
+      {
+        "zhHans": "2099",
+        "zhHant": "2099"
+      }
+    ],
+    "ids": [
+      "401",
+      "2099"
+    ],
+    "sourceNames": [
+      "王平"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王平",
+        "zhHant": "王平"
+      }
+    ],
+    "sourceIds": [
+      "401",
+      "2099"
+    ],
+    "searchNames": [
+      "wangping",
+      "王平",
+      "2099"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangping/groups/dead.json"
+      },
+      {
+        "slug": "spell-2154",
+        "name": "将略",
+        "displayName": {
+          "zhHans": "将略",
+          "zhHant": "將略"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wangping/groups/spell-2154.json"
+      },
+      {
+        "slug": "spell-802",
+        "name": "飞军",
+        "displayName": {
+          "zhHans": "飞军",
+          "zhHant": "飛軍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wangping/groups/spell-802.json"
+      },
+      {
+        "slug": "spell-803",
+        "name": "兵略",
+        "displayName": {
+          "zhHans": "兵略",
+          "zhHant": "兵略"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wangping/groups/spell-803.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-40105",
+        "name": "坚守镇防",
+        "displayName": {
+          "zhHans": "坚守镇防",
+          "zhHant": "堅守鎮防"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40105.json"
+      },
+      {
+        "slug": "skin-40104",
+        "name": "安汉侯臣",
+        "displayName": {
+          "zhHans": "安汉侯臣",
+          "zhHant": "安漢侯臣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40104.json"
+      },
+      {
+        "slug": "skin-40104-40106",
+        "name": "安汉侯臣,忠勇护蜀",
+        "displayName": {
+          "zhHans": "安汉侯臣,忠勇护蜀",
+          "zhHant": "安漢侯臣,忠勇護蜀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40104-40106.json"
+      },
+      {
+        "slug": "skin-40106",
+        "name": "忠勇护蜀",
+        "displayName": {
+          "zhHans": "忠勇护蜀",
+          "zhHant": "忠勇護蜀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40106.json"
+      },
+      {
+        "slug": "skin-40102",
+        "name": "汉中显威",
+        "displayName": {
+          "zhHans": "汉中显威",
+          "zhHant": "漢中顯威"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangping/skins/skin-40102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangping.json",
+      "groups": "api/v1/tts/characters/wangping/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangping/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/wangping/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "wangping--401wangping--1dead01",
+      "resourceId": "401wangping/1dead01",
+      "text": "无当飞军，也有困于山林之时。",
+      "textLocalized": {
+        "zhHans": "无当飞军，也有困于山林之时。",
+        "zhHant": "無當飛軍，也有困於山林之時。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/401wangping-79fa240c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/401wangping/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangping--401wangping--5dead01",
+      "resourceId": "401wangping/5dead01",
+      "text": "蜀汉兴盛，不复当年了。",
+      "textLocalized": {
+        "zhHans": "蜀汉兴盛，不复当年了。",
+        "zhHant": "蜀漢興盛，不復當年了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40105",
+          "name": "坚守镇防",
+          "displayName": {
+            "zhHans": "坚守镇防",
+            "zhHant": "堅守鎮防"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/401wangping-79fa240c/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/401wangping/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangping--401wangping--4dead01",
+      "resourceId": "401wangping/4dead01",
+      "text": "若丞相在，也不至这个地步！",
+      "textLocalized": {
+        "zhHans": "若丞相在，也不至这个地步！",
+        "zhHant": "若丞相在，也不至這個地步！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40104",
+          "name": "安汉侯臣",
+          "displayName": {
+            "zhHans": "安汉侯臣",
+            "zhHant": "安漢侯臣"
+          }
+        },
+        {
+          "slug": "skin-40106",
+          "name": "忠勇护蜀",
+          "displayName": {
+            "zhHans": "忠勇护蜀",
+            "zhHant": "忠勇護蜀"
+          }
+        },
+        {
+          "slug": "skin-40104-40106",
+          "name": "安汉侯臣,忠勇护蜀",
+          "displayName": {
+            "zhHans": "安汉侯臣,忠勇护蜀",
+            "zhHant": "安漢侯臣,忠勇護蜀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/401wangping-79fa240c/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/401wangping/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangping--401wangping--3dead01",
+      "resourceId": "401wangping/3dead01",
+      "text": "这书史，我能识得只有一二。",
+      "textLocalized": {
+        "zhHans": "这书史，我能识得只有一二。",
+        "zhHant": "這書史，我能識得只有一二。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40102",
+          "name": "汉中显威",
+          "displayName": {
+            "zhHans": "汉中显威",
+            "zhHant": "漢中顯威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/401wangping-79fa240c/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/401wangping/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

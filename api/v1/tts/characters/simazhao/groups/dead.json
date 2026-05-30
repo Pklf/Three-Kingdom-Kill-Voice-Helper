@@ -1,3 +1,295 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ee7ea43a772d0935df17ec4926ab8681c31c34b1cb3313d2bf916e94ee55bce
-size 8008
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simazhao",
+    "command": "simazhao",
+    "name": "司马昭",
+    "displayName": {
+      "zhHans": "司马昭",
+      "zhHant": "司馬昭"
+    },
+    "names": [
+      "司马昭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马昭",
+        "zhHant": "司馬昭"
+      }
+    ],
+    "ids": [
+      "7004"
+    ],
+    "sourceNames": [
+      "司马昭"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马昭",
+        "zhHant": "司馬昭"
+      }
+    ],
+    "sourceIds": [
+      "7004"
+    ],
+    "searchNames": [
+      "simazhao",
+      "司马昭",
+      "司馬昭"
+    ],
+    "lineCount": 36,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/dead.json"
+      },
+      {
+        "slug": "spell-7012",
+        "name": "推弑",
+        "displayName": {
+          "zhHans": "推弑",
+          "zhHant": "推弒"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/spell-7012.json"
+      },
+      {
+        "slug": "spell-7013",
+        "name": "筹伐",
+        "displayName": {
+          "zhHans": "筹伐",
+          "zhHant": "籌伐"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/spell-7013.json"
+      },
+      {
+        "slug": "spell-7014",
+        "name": "昭然",
+        "displayName": {
+          "zhHans": "昭然",
+          "zhHant": "昭然"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/spell-7014.json"
+      },
+      {
+        "slug": "spell-7015",
+        "name": "成务",
+        "displayName": {
+          "zhHans": "成务",
+          "zhHant": "成務"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simazhao/groups/spell-7015.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-700403",
+        "name": "勇夺魁首",
+        "displayName": {
+          "zhHans": "勇夺魁首",
+          "zhHant": "勇奪魁首"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simazhao/skins/skin-700403.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simazhao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700401",
+        "name": "昭苏元心",
+        "displayName": {
+          "zhHans": "昭苏元心",
+          "zhHant": "昭蘇元心"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simazhao/skins/skin-700401.json"
+      },
+      {
+        "slug": "skin-700402",
+        "name": "温情良缘",
+        "displayName": {
+          "zhHans": "温情良缘",
+          "zhHant": "溫情良緣"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simazhao/skins/skin-700402.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simazhao.json",
+      "groups": "api/v1/tts/characters/simazhao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simazhao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/simazhao/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "simazhao--7004simazhao--4dead01",
+      "resourceId": "7004simazhao/4dead01",
+      "text": "得国不正，终为所弑……",
+      "textLocalized": {
+        "zhHans": "得国不正，终为所弑……",
+        "zhHant": "得國不正，終爲所弒……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700403",
+          "name": "勇夺魁首",
+          "displayName": {
+            "zhHans": "勇夺魁首",
+            "zhHant": "勇奪魁首"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--1dead01",
+      "resourceId": "7004simazhao/1dead01",
+      "text": "司马三代，一梦成空……",
+      "textLocalized": {
+        "zhHans": "司马三代，一梦成空……",
+        "zhHant": "司馬三代，一夢成空……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--2dead01",
+      "resourceId": "7004simazhao/2dead01",
+      "text": "帝梦成呓，空做嫁衣。",
+      "textLocalized": {
+        "zhHans": "帝梦成呓，空做嫁衣。",
+        "zhHant": "帝夢成囈，空做嫁衣。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700401",
+          "name": "昭苏元心",
+          "displayName": {
+            "zhHans": "昭苏元心",
+            "zhHant": "昭蘇元心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhao--7004simazhao--3dead01",
+      "resourceId": "7004simazhao/3dead01",
+      "text": "元姬务当竭力致养，以兴家室……",
+      "textLocalized": {
+        "zhHans": "元姬务当竭力致养，以兴家室……",
+        "zhHant": "元姬務當竭力致養，以興家室……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700402",
+          "name": "温情良缘",
+          "displayName": {
+            "zhHans": "温情良缘",
+            "zhHant": "溫情良緣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7004simazhao-480c0e73/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7004simazhao/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

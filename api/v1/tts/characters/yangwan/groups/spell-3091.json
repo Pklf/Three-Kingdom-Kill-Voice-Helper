@@ -1,3 +1,441 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ccf86b5df7d23d9e40c571fa51fa78375b4032ba979e9de3c07345b3b899bb91
-size 12255
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangwan",
+    "command": "yangwan",
+    "name": "杨婉",
+    "displayName": {
+      "zhHans": "杨婉",
+      "zhHant": "楊婉"
+    },
+    "names": [
+      "杨婉"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨婉",
+        "zhHant": "楊婉"
+      }
+    ],
+    "ids": [
+      "499"
+    ],
+    "sourceNames": [
+      "杨婉"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨婉",
+        "zhHant": "楊婉"
+      }
+    ],
+    "sourceIds": [
+      "499"
+    ],
+    "searchNames": [
+      "yangwan",
+      "杨婉",
+      "楊婉"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yangwan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangwan/groups/spell-3091.json"
+      },
+      {
+        "slug": "spell-3092",
+        "name": "追还",
+        "displayName": {
+          "zhHans": "追还",
+          "zhHant": "追還"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangwan/groups/spell-3092.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "49904",
+        "name": "49904",
+        "displayName": {
+          "zhHans": "49904",
+          "zhHant": "49904"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/49904.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49902",
+        "name": "新桃迎卯",
+        "displayName": {
+          "zhHans": "新桃迎卯",
+          "zhHant": "新桃迎卯"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/skin-49902.json"
+      },
+      {
+        "slug": "skin-49901",
+        "name": "星光淑婉",
+        "displayName": {
+          "zhHans": "星光淑婉",
+          "zhHant": "星光淑婉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/skin-49901.json"
+      },
+      {
+        "slug": "skin-49903",
+        "name": "梦牧敕勒",
+        "displayName": {
+          "zhHans": "梦牧敕勒",
+          "zhHant": "夢牧敕勒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangwan/skins/skin-49903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yangwan.json",
+      "groups": "api/v1/tts/characters/yangwan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yangwan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3091",
+    "name": "诱言",
+    "displayName": {
+      "zhHans": "诱言",
+      "zhHant": "誘言"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/yangwan/groups/spell-3091.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "yangwan--499yangwan--1skill1_1",
+      "resourceId": "499yangwan/1skill1_1",
+      "text": "诱言者，为人所不齿。",
+      "textLocalized": {
+        "zhHans": "诱言者，为人所不齿。",
+        "zhHant": "誘言者，爲人所不齒。"
+      },
+      "group": {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--1skill1_2",
+      "resourceId": "499yangwan/1skill1_2",
+      "text": "诱言之弊，不可不慎。",
+      "textLocalized": {
+        "zhHans": "诱言之弊，不可不慎。",
+        "zhHant": "誘言之弊，不可不慎。"
+      },
+      "group": {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--3skill1_1",
+      "resourceId": "499yangwan/3skill1_1",
+      "text": "送暖春风温黄酒，此日除夕鸣爆竹。",
+      "textLocalized": {
+        "zhHans": "送暖春风温黄酒，此日除夕鸣爆竹。",
+        "zhHant": "送暖春風溫黃酒，此日除夕鳴爆竹。"
+      },
+      "group": {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49902",
+          "name": "新桃迎卯",
+          "displayName": {
+            "zhHans": "新桃迎卯",
+            "zhHant": "新桃迎卯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--3skill1_2",
+      "resourceId": "499yangwan/3skill1_2",
+      "text": "万言千语绣新桃，曈曈春日换颜色。",
+      "textLocalized": {
+        "zhHans": "万言千语绣新桃，曈曈春日换颜色。",
+        "zhHant": "萬言千語繡新桃，曈曈春日換顏色。"
+      },
+      "group": {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49902",
+          "name": "新桃迎卯",
+          "displayName": {
+            "zhHans": "新桃迎卯",
+            "zhHant": "新桃迎卯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--2skill1_1",
+      "resourceId": "499yangwan/2skill1_1",
+      "text": "诱言者，巧言而令色，鲜矣仁。",
+      "textLocalized": {
+        "zhHans": "诱言者，巧言而令色，鲜矣仁。",
+        "zhHant": "誘言者，巧言而令色，鮮矣仁。"
+      },
+      "group": {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "49904",
+          "name": "49904",
+          "displayName": {
+            "zhHans": "49904",
+            "zhHant": "49904"
+          }
+        },
+        {
+          "slug": "skin-49901",
+          "name": "星光淑婉",
+          "displayName": {
+            "zhHans": "星光淑婉",
+            "zhHant": "星光淑婉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--2skill1_2",
+      "resourceId": "499yangwan/2skill1_2",
+      "text": "巧佞[nìng]卑谄，诱言者皆为之。",
+      "textLocalized": {
+        "zhHans": "巧佞[nìng]卑谄，诱言者皆为之。",
+        "zhHant": "巧佞[nìng]卑諂，誘言者皆爲之。"
+      },
+      "group": {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "49904",
+          "name": "49904",
+          "displayName": {
+            "zhHans": "49904",
+            "zhHant": "49904"
+          }
+        },
+        {
+          "slug": "skin-49901",
+          "name": "星光淑婉",
+          "displayName": {
+            "zhHans": "星光淑婉",
+            "zhHant": "星光淑婉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--4skill1_1",
+      "resourceId": "499yangwan/4skill1_1",
+      "text": "何人言可谓之真？",
+      "textLocalized": {
+        "zhHans": "何人言可谓之真？",
+        "zhHant": "何人言可謂之真？"
+      },
+      "group": {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49903",
+          "name": "梦牧敕勒",
+          "displayName": {
+            "zhHans": "梦牧敕勒",
+            "zhHant": "夢牧敕勒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangwan--499yangwan--4skill1_2",
+      "resourceId": "499yangwan/4skill1_2",
+      "text": "诱言者，寡廉而鲜耻。",
+      "textLocalized": {
+        "zhHans": "诱言者，寡廉而鲜耻。",
+        "zhHant": "誘言者，寡廉而鮮恥。"
+      },
+      "group": {
+        "slug": "spell-3091",
+        "name": "诱言",
+        "displayName": {
+          "zhHans": "诱言",
+          "zhHant": "誘言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49903",
+          "name": "梦牧敕勒",
+          "displayName": {
+            "zhHans": "梦牧敕勒",
+            "zhHant": "夢牧敕勒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/499yangwan-f0e75ac9/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/499yangwan/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

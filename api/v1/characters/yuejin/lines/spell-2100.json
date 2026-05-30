@@ -1,3 +1,982 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:01c80dd0b4fe453fde01fc0d89ae0b34c48790836b7216e23daeb18e15a68830
-size 22320
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yuejin",
+    "command": "yuejin",
+    "name": "乐进",
+    "displayName": {
+      "zhHans": "乐进",
+      "zhHant": "樂進"
+    },
+    "names": [
+      "乐进",
+      "2014"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "乐进",
+        "zhHant": "樂進"
+      },
+      {
+        "zhHans": "2014",
+        "zhHant": "2014"
+      }
+    ],
+    "ids": [
+      "121",
+      "2014"
+    ],
+    "sourceNames": [
+      "乐进"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "乐进",
+        "zhHant": "樂進"
+      }
+    ],
+    "sourceIds": [
+      "121",
+      "2014"
+    ],
+    "searchNames": [
+      "yuejin",
+      "乐进",
+      "樂進",
+      "2014"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-2100",
+        "name": "骁果",
+        "displayName": {
+          "zhHans": "骁果",
+          "zhHant": "驍果"
+        },
+        "ids": [
+          "2100"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "12103-12104",
+        "ids": [
+          "12103,12104"
+        ],
+        "name": "12103,12104",
+        "displayName": {
+          "zhHans": "12103,12104",
+          "zhHant": "12103,12104"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-12102",
+        "ids": [
+          "12102"
+        ],
+        "name": "勇猛精进",
+        "displayName": {
+          "zhHans": "勇猛精进",
+          "zhHant": "勇猛精進"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/yuejin.json",
+      "lines": "api/v1/characters/yuejin/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-2100",
+    "ids": [
+      "2100"
+    ],
+    "name": "骁果",
+    "displayName": {
+      "zhHans": "骁果",
+      "zhHant": "驍果"
+    },
+    "names": [
+      "骁果"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "骁果",
+        "zhHant": "驍果"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "yuejin--121yuejin--4skill1_1",
+      "resourceId": "121yuejin/4skill1_1",
+      "text": "亲临战场，必为三军表帅！",
+      "textLocalized": {
+        "zhHans": "亲临战场，必为三军表帅！",
+        "zhHant": "親臨戰場，必爲三軍表帥！"
+      },
+      "character": {
+        "slug": "yuejin",
+        "command": "yuejin",
+        "id": "2014",
+        "ids": [
+          "121",
+          "2014"
+        ],
+        "name": "乐进",
+        "displayName": {
+          "zhHans": "乐进",
+          "zhHant": "樂進"
+        },
+        "names": [
+          "乐进",
+          "2014"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          },
+          {
+            "zhHans": "2014",
+            "zhHant": "2014"
+          }
+        ],
+        "sourceIds": [
+          "121",
+          "2014"
+        ],
+        "sourceNames": [
+          "乐进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          }
+        ],
+        "searchNames": [
+          "乐进",
+          "樂進",
+          "yuejin",
+          "2014"
+        ]
+      },
+      "group": {
+        "slug": "spell-2100",
+        "ids": [
+          "2100"
+        ],
+        "name": "骁果",
+        "displayName": {
+          "zhHans": "骁果",
+          "zhHant": "驍果"
+        },
+        "names": [
+          "骁果"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁果",
+            "zhHant": "驍果"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "12103-12104",
+        "ids": [
+          "12103,12104"
+        ],
+        "name": "12103,12104",
+        "displayName": {
+          "zhHans": "12103,12104",
+          "zhHant": "12103,12104"
+        },
+        "names": [
+          "12103,12104"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "12103,12104",
+            "zhHant": "12103,12104"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "12103-12104",
+          "id": "12103,12104",
+          "ids": [
+            "12103,12104"
+          ],
+          "name": "12103,12104",
+          "displayName": {
+            "zhHans": "12103,12104",
+            "zhHant": "12103,12104"
+          },
+          "names": [
+            "12103,12104"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "12103,12104",
+              "zhHant": "12103,12104"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "121,2014",
+        "skinKey": "12103,12104",
+        "spellKey": "2100",
+        "rowIndex": 1,
+        "characterNames": [
+          "乐进"
+        ],
+        "skinNames": [
+          "12103,12104"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/121yuejin-f7966a8a/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/4skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuejin--121yuejin--4skill1_2",
+      "resourceId": "121yuejin/4skill1_2",
+      "text": "统御师旅，抚众则和，奉令无犯！",
+      "textLocalized": {
+        "zhHans": "统御师旅，抚众则和，奉令无犯！",
+        "zhHant": "統御師旅，撫衆則和，奉令無犯！"
+      },
+      "character": {
+        "slug": "yuejin",
+        "command": "yuejin",
+        "id": "2014",
+        "ids": [
+          "121",
+          "2014"
+        ],
+        "name": "乐进",
+        "displayName": {
+          "zhHans": "乐进",
+          "zhHant": "樂進"
+        },
+        "names": [
+          "乐进",
+          "2014"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          },
+          {
+            "zhHans": "2014",
+            "zhHant": "2014"
+          }
+        ],
+        "sourceIds": [
+          "121",
+          "2014"
+        ],
+        "sourceNames": [
+          "乐进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          }
+        ],
+        "searchNames": [
+          "乐进",
+          "樂進",
+          "yuejin",
+          "2014"
+        ]
+      },
+      "group": {
+        "slug": "spell-2100",
+        "ids": [
+          "2100"
+        ],
+        "name": "骁果",
+        "displayName": {
+          "zhHans": "骁果",
+          "zhHant": "驍果"
+        },
+        "names": [
+          "骁果"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁果",
+            "zhHant": "驍果"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "12103-12104",
+        "ids": [
+          "12103,12104"
+        ],
+        "name": "12103,12104",
+        "displayName": {
+          "zhHans": "12103,12104",
+          "zhHant": "12103,12104"
+        },
+        "names": [
+          "12103,12104"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "12103,12104",
+            "zhHant": "12103,12104"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "12103-12104",
+          "id": "12103,12104",
+          "ids": [
+            "12103,12104"
+          ],
+          "name": "12103,12104",
+          "displayName": {
+            "zhHans": "12103,12104",
+            "zhHant": "12103,12104"
+          },
+          "names": [
+            "12103,12104"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "12103,12104",
+              "zhHant": "12103,12104"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "121,2014",
+        "skinKey": "12103,12104",
+        "spellKey": "2100",
+        "rowIndex": 2,
+        "characterNames": [
+          "乐进"
+        ],
+        "skinNames": [
+          "12103,12104"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/121yuejin-f7966a8a/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/4skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuejin--121yuejin--3skill1_1",
+      "resourceId": "121yuejin/3skill1_1",
+      "text": "当敌制决，靡有遗失！",
+      "textLocalized": {
+        "zhHans": "当敌制决，靡有遗失！",
+        "zhHant": "當敵制決，靡有遺失！"
+      },
+      "character": {
+        "slug": "yuejin",
+        "command": "yuejin",
+        "id": "2014",
+        "ids": [
+          "121",
+          "2014"
+        ],
+        "name": "乐进",
+        "displayName": {
+          "zhHans": "乐进",
+          "zhHant": "樂進"
+        },
+        "names": [
+          "乐进",
+          "2014"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          },
+          {
+            "zhHans": "2014",
+            "zhHant": "2014"
+          }
+        ],
+        "sourceIds": [
+          "121",
+          "2014"
+        ],
+        "sourceNames": [
+          "乐进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          }
+        ],
+        "searchNames": [
+          "乐进",
+          "樂進",
+          "yuejin",
+          "2014"
+        ]
+      },
+      "group": {
+        "slug": "spell-2100",
+        "ids": [
+          "2100"
+        ],
+        "name": "骁果",
+        "displayName": {
+          "zhHans": "骁果",
+          "zhHant": "驍果"
+        },
+        "names": [
+          "骁果"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁果",
+            "zhHant": "驍果"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12102",
+        "ids": [
+          "12102"
+        ],
+        "name": "勇猛精进",
+        "displayName": {
+          "zhHans": "勇猛精进",
+          "zhHant": "勇猛精進"
+        },
+        "names": [
+          "勇猛精进"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "勇猛精进",
+            "zhHant": "勇猛精進"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12102",
+          "id": "12102",
+          "ids": [
+            "12102"
+          ],
+          "name": "勇猛精进",
+          "displayName": {
+            "zhHans": "勇猛精进",
+            "zhHant": "勇猛精進"
+          },
+          "names": [
+            "勇猛精进"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "勇猛精进",
+              "zhHant": "勇猛精進"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "121,2014",
+        "skinKey": "12102",
+        "spellKey": "2100",
+        "rowIndex": 1,
+        "characterNames": [
+          "乐进"
+        ],
+        "skinNames": [
+          "勇猛精进"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/121yuejin-f7966a8a/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuejin--121yuejin--3skill1_2",
+      "resourceId": "121yuejin/3skill1_2",
+      "text": "奋强突固，无坚不可陷！",
+      "textLocalized": {
+        "zhHans": "奋强突固，无坚不可陷！",
+        "zhHant": "奮強突固，無堅不可陷！"
+      },
+      "character": {
+        "slug": "yuejin",
+        "command": "yuejin",
+        "id": "2014",
+        "ids": [
+          "121",
+          "2014"
+        ],
+        "name": "乐进",
+        "displayName": {
+          "zhHans": "乐进",
+          "zhHant": "樂進"
+        },
+        "names": [
+          "乐进",
+          "2014"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          },
+          {
+            "zhHans": "2014",
+            "zhHant": "2014"
+          }
+        ],
+        "sourceIds": [
+          "121",
+          "2014"
+        ],
+        "sourceNames": [
+          "乐进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          }
+        ],
+        "searchNames": [
+          "乐进",
+          "樂進",
+          "yuejin",
+          "2014"
+        ]
+      },
+      "group": {
+        "slug": "spell-2100",
+        "ids": [
+          "2100"
+        ],
+        "name": "骁果",
+        "displayName": {
+          "zhHans": "骁果",
+          "zhHant": "驍果"
+        },
+        "names": [
+          "骁果"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁果",
+            "zhHant": "驍果"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12102",
+        "ids": [
+          "12102"
+        ],
+        "name": "勇猛精进",
+        "displayName": {
+          "zhHans": "勇猛精进",
+          "zhHant": "勇猛精進"
+        },
+        "names": [
+          "勇猛精进"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "勇猛精进",
+            "zhHant": "勇猛精進"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12102",
+          "id": "12102",
+          "ids": [
+            "12102"
+          ],
+          "name": "勇猛精进",
+          "displayName": {
+            "zhHans": "勇猛精进",
+            "zhHant": "勇猛精進"
+          },
+          "names": [
+            "勇猛精进"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "勇猛精进",
+              "zhHant": "勇猛精進"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "121,2014",
+        "skinKey": "12102",
+        "spellKey": "2100",
+        "rowIndex": 2,
+        "characterNames": [
+          "乐进"
+        ],
+        "skinNames": [
+          "勇猛精进"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/121yuejin-f7966a8a/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuejin--121yuejin--1skill1_1",
+      "resourceId": "121yuejin/1skill1_1",
+      "text": "三军听我号令，不得撤退！",
+      "textLocalized": {
+        "zhHans": "三军听我号令，不得撤退！",
+        "zhHant": "三軍聽我號令，不得撤退！"
+      },
+      "character": {
+        "slug": "yuejin",
+        "command": "yuejin",
+        "id": "2014",
+        "ids": [
+          "121",
+          "2014"
+        ],
+        "name": "乐进",
+        "displayName": {
+          "zhHans": "乐进",
+          "zhHant": "樂進"
+        },
+        "names": [
+          "乐进",
+          "2014"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          },
+          {
+            "zhHans": "2014",
+            "zhHant": "2014"
+          }
+        ],
+        "sourceIds": [
+          "121",
+          "2014"
+        ],
+        "sourceNames": [
+          "乐进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          }
+        ],
+        "searchNames": [
+          "乐进",
+          "樂進",
+          "yuejin",
+          "2014"
+        ]
+      },
+      "group": {
+        "slug": "spell-2100",
+        "ids": [
+          "2100"
+        ],
+        "name": "骁果",
+        "displayName": {
+          "zhHans": "骁果",
+          "zhHant": "驍果"
+        },
+        "names": [
+          "骁果"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁果",
+            "zhHant": "驍果"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "121,2014",
+        "skinKey": "-1",
+        "spellKey": "2100",
+        "rowIndex": 1,
+        "characterNames": [
+          "乐进"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/121yuejin-f7966a8a/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuejin--121yuejin--1skill1_2",
+      "resourceId": "121yuejin/1skill1_2",
+      "text": "看我先登城头，立下首功！",
+      "textLocalized": {
+        "zhHans": "看我先登城头，立下首功！",
+        "zhHant": "看我先登城頭，立下首功！"
+      },
+      "character": {
+        "slug": "yuejin",
+        "command": "yuejin",
+        "id": "2014",
+        "ids": [
+          "121",
+          "2014"
+        ],
+        "name": "乐进",
+        "displayName": {
+          "zhHans": "乐进",
+          "zhHant": "樂進"
+        },
+        "names": [
+          "乐进",
+          "2014"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          },
+          {
+            "zhHans": "2014",
+            "zhHant": "2014"
+          }
+        ],
+        "sourceIds": [
+          "121",
+          "2014"
+        ],
+        "sourceNames": [
+          "乐进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "乐进",
+            "zhHant": "樂進"
+          }
+        ],
+        "searchNames": [
+          "乐进",
+          "樂進",
+          "yuejin",
+          "2014"
+        ]
+      },
+      "group": {
+        "slug": "spell-2100",
+        "ids": [
+          "2100"
+        ],
+        "name": "骁果",
+        "displayName": {
+          "zhHans": "骁果",
+          "zhHant": "驍果"
+        },
+        "names": [
+          "骁果"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "骁果",
+            "zhHant": "驍果"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "121,2014",
+        "skinKey": "-1",
+        "spellKey": "2100",
+        "rowIndex": 2,
+        "characterNames": [
+          "乐进"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/121yuejin-f7966a8a/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/121yuejin/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

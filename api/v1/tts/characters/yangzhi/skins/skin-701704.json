@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4bd14ea9caf02f247a70199cb8b76c5246d65a76c6b3cc6045fd266c11e907ff
-size 8586
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangzhi",
+    "command": "yangzhi",
+    "name": "杨芷",
+    "displayName": {
+      "zhHans": "杨芷",
+      "zhHant": "楊芷"
+    },
+    "names": [
+      "杨芷"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨芷",
+        "zhHant": "楊芷"
+      }
+    ],
+    "ids": [
+      "7017"
+    ],
+    "sourceNames": [
+      "杨芷"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨芷",
+        "zhHant": "楊芷"
+      }
+    ],
+    "sourceIds": [
+      "7017"
+    ],
+    "searchNames": [
+      "yangzhi",
+      "杨芷",
+      "楊芷"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yangzhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3040",
+        "name": "婉嫕",
+        "displayName": {
+          "zhHans": "婉嫕",
+          "zhHant": "婉嫕"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangzhi/groups/spell-3040.json"
+      },
+      {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangzhi/groups/spell-3041.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "701703",
+        "name": "701703",
+        "displayName": {
+          "zhHans": "701703",
+          "zhHant": "701703"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/701703.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-701702",
+        "name": "妍芷艳质",
+        "displayName": {
+          "zhHans": "妍芷艳质",
+          "zhHant": "妍芷豔質"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-701702.json"
+      },
+      {
+        "slug": "skin-701704",
+        "name": "繁花独秀",
+        "displayName": {
+          "zhHans": "繁花独秀",
+          "zhHant": "繁花獨秀"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-701704.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yangzhi.json",
+      "groups": "api/v1/tts/characters/yangzhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yangzhi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-701704",
+    "name": "繁花独秀",
+    "displayName": {
+      "zhHans": "繁花独秀",
+      "zhHant": "繁花獨秀"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-701704.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "yangzhi--7017yangzhi--4dead01",
+      "resourceId": "7017yangzhi/4dead01",
+      "text": "此城可囚我，彼时亦囚汝。",
+      "textLocalized": {
+        "zhHans": "此城可囚我，彼时亦囚汝。",
+        "zhHant": "此城可囚我，彼時亦囚汝。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701704",
+          "name": "繁花独秀",
+          "displayName": {
+            "zhHans": "繁花独秀",
+            "zhHant": "繁花獨秀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--4skill1_1",
+      "resourceId": "7017yangzhi/4skill1_1",
+      "text": "今日躬桑于西郊，请为大王衣。",
+      "textLocalized": {
+        "zhHans": "今日躬桑于西郊，请为大王衣。",
+        "zhHant": "今日躬桑於西郊，請爲大王衣。"
+      },
+      "group": {
+        "slug": "spell-3040",
+        "name": "婉嫕",
+        "displayName": {
+          "zhHans": "婉嫕",
+          "zhHant": "婉嫕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701704",
+          "name": "繁花独秀",
+          "displayName": {
+            "zhHans": "繁花独秀",
+            "zhHant": "繁花獨秀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--4skill1_2",
+      "resourceId": "7017yangzhi/4skill1_2",
+      "text": "今日躬桑于西郊，请为大王衣。",
+      "textLocalized": {
+        "zhHans": "今日躬桑于西郊，请为大王衣。",
+        "zhHant": "今日躬桑於西郊，請爲大王衣。"
+      },
+      "group": {
+        "slug": "spell-3040",
+        "name": "婉嫕",
+        "displayName": {
+          "zhHans": "婉嫕",
+          "zhHant": "婉嫕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701704",
+          "name": "繁花独秀",
+          "displayName": {
+            "zhHans": "繁花独秀",
+            "zhHant": "繁花獨秀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--4skill2_1",
+      "resourceId": "7017yangzhi/4skill2_1",
+      "text": "陛下任人不明，所托绝非良人。",
+      "textLocalized": {
+        "zhHans": "陛下任人不明，所托绝非良人。",
+        "zhHant": "陛下任人不明，所託絕非良人。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701704",
+          "name": "繁花独秀",
+          "displayName": {
+            "zhHans": "繁花独秀",
+            "zhHant": "繁花獨秀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--4skill2_2",
+      "resourceId": "7017yangzhi/4skill2_2",
+      "text": "陛下任人不明，所托绝非良人。",
+      "textLocalized": {
+        "zhHans": "陛下任人不明，所托绝非良人。",
+        "zhHant": "陛下任人不明，所託絕非良人。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701704",
+          "name": "繁花独秀",
+          "displayName": {
+            "zhHans": "繁花独秀",
+            "zhHant": "繁花獨秀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

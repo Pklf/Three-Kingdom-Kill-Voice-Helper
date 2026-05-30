@@ -1,3 +1,456 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:178c5e84c44d1a25ab56d7f4bd6a9d1dfa6d45ca21101cf2a3fa1c9940882ec6
-size 12755
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "liuba",
+    "command": "liuba",
+    "name": "刘巴",
+    "displayName": {
+      "zhHans": "刘巴",
+      "zhHant": "劉巴"
+    },
+    "names": [
+      "刘巴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘巴",
+        "zhHant": "劉巴"
+      }
+    ],
+    "ids": [
+      "536"
+    ],
+    "sourceNames": [
+      "刘巴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘巴",
+        "zhHant": "劉巴"
+      }
+    ],
+    "sourceIds": [
+      "536"
+    ],
+    "searchNames": [
+      "liuba",
+      "刘巴",
+      "劉巴"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liuba/groups/dead.json"
+      },
+      {
+        "slug": "spell-3217",
+        "name": "统度",
+        "displayName": {
+          "zhHans": "统度",
+          "zhHant": "統度"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liuba/groups/spell-3217.json"
+      },
+      {
+        "slug": "spell-3218",
+        "name": "铸币",
+        "displayName": {
+          "zhHans": "铸币",
+          "zhHant": "鑄幣"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liuba/groups/spell-3218.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuba/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-53601",
+        "name": "泽沃锦官",
+        "displayName": {
+          "zhHans": "泽沃锦官",
+          "zhHant": "澤沃錦官"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuba/skins/skin-53601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liuba.json",
+      "groups": "api/v1/tts/characters/liuba/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liuba/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "liuba--536liuba--1dead01",
+      "resourceId": "536liuba/1dead01",
+      "text": "恨未见，铸兵为币之日。",
+      "textLocalized": {
+        "zhHans": "恨未见，铸兵为币之日。",
+        "zhHant": "恨未見，鑄兵爲幣之日。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--2dead01",
+      "resourceId": "536liuba/2dead01",
+      "text": "我本清流，奈何舍身逐污？",
+      "textLocalized": {
+        "zhHans": "我本清流，奈何舍身逐污？",
+        "zhHant": "我本清流，奈何捨身逐污？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53601",
+          "name": "泽沃锦官",
+          "displayName": {
+            "zhHans": "泽沃锦官",
+            "zhHant": "澤沃錦官"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--1skill1_1",
+      "resourceId": "536liuba/1skill1_1",
+      "text": "上下调度，臣工皆有所为。",
+      "textLocalized": {
+        "zhHans": "上下调度，臣工皆有所为。",
+        "zhHant": "上下調度，臣工皆有所爲。"
+      },
+      "group": {
+        "slug": "spell-3217",
+        "name": "统度",
+        "displayName": {
+          "zhHans": "统度",
+          "zhHant": "統度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--1skill1_2",
+      "resourceId": "536liuba/1skill1_2",
+      "text": "统筹部划，不糜[mí]国力分毫。",
+      "textLocalized": {
+        "zhHans": "统筹部划，不糜[mí]国力分毫。",
+        "zhHant": "統籌部劃，不糜[mí]國力分毫。"
+      },
+      "group": {
+        "slug": "spell-3217",
+        "name": "统度",
+        "displayName": {
+          "zhHans": "统度",
+          "zhHant": "統度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--2skill1_1",
+      "resourceId": "536liuba/2skill1_1",
+      "text": "臣受命部划，必不使钱粮有所失。",
+      "textLocalized": {
+        "zhHans": "臣受命部划，必不使钱粮有所失。",
+        "zhHant": "臣受命部劃，必不使錢糧有所失。"
+      },
+      "group": {
+        "slug": "spell-3217",
+        "name": "统度",
+        "displayName": {
+          "zhHans": "统度",
+          "zhHant": "統度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53601",
+          "name": "泽沃锦官",
+          "displayName": {
+            "zhHans": "泽沃锦官",
+            "zhHant": "澤沃錦官"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--2skill1_2",
+      "resourceId": "536liuba/2skill1_2",
+      "text": "昔年萧相居中筹谋，此臣工之楷模。",
+      "textLocalized": {
+        "zhHans": "昔年萧相居中筹谋，此臣工之楷模。",
+        "zhHant": "昔年蕭相居中籌謀，此臣工之楷模。"
+      },
+      "group": {
+        "slug": "spell-3217",
+        "name": "统度",
+        "displayName": {
+          "zhHans": "统度",
+          "zhHant": "統度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53601",
+          "name": "泽沃锦官",
+          "displayName": {
+            "zhHans": "泽沃锦官",
+            "zhHant": "澤沃錦官"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--1skill2_1",
+      "resourceId": "536liuba/1skill2_1",
+      "text": "钱货之通者，在乎币。",
+      "textLocalized": {
+        "zhHans": "钱货之通者，在乎币。",
+        "zhHant": "錢貨之通者，在乎幣。"
+      },
+      "group": {
+        "slug": "spell-3218",
+        "name": "铸币",
+        "displayName": {
+          "zhHans": "铸币",
+          "zhHant": "鑄幣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--1skill2_2",
+      "resourceId": "536liuba/1skill2_2",
+      "text": "融金为料，可铸五铢。",
+      "textLocalized": {
+        "zhHans": "融金为料，可铸五铢。",
+        "zhHant": "融金爲料，可鑄五銖。"
+      },
+      "group": {
+        "slug": "spell-3218",
+        "name": "铸币",
+        "displayName": {
+          "zhHans": "铸币",
+          "zhHant": "鑄幣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--2skill2_1",
+      "resourceId": "536liuba/2skill2_1",
+      "text": "欲兴市则需货足，货足在币通。",
+      "textLocalized": {
+        "zhHans": "欲兴市则需货足，货足在币通。",
+        "zhHant": "欲興市則需貨足，貨足在幣通。"
+      },
+      "group": {
+        "slug": "spell-3218",
+        "name": "铸币",
+        "displayName": {
+          "zhHans": "铸币",
+          "zhHant": "鑄幣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53601",
+          "name": "泽沃锦官",
+          "displayName": {
+            "zhHans": "泽沃锦官",
+            "zhHant": "澤沃錦官"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--2skill2_2",
+      "resourceId": "536liuba/2skill2_2",
+      "text": "今蜀中有币类数十，其互不通。",
+      "textLocalized": {
+        "zhHans": "今蜀中有币类数十，其互不通。",
+        "zhHant": "今蜀中有幣類數十，其互不通。"
+      },
+      "group": {
+        "slug": "spell-3218",
+        "name": "铸币",
+        "displayName": {
+          "zhHans": "铸币",
+          "zhHant": "鑄幣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53601",
+          "name": "泽沃锦官",
+          "displayName": {
+            "zhHans": "泽沃锦官",
+            "zhHant": "澤沃錦官"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

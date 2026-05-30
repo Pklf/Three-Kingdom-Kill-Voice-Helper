@@ -1,3 +1,329 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d6da8d57fc958316165e2810cec325e31944108985d7c5907abf212196946001
-size 9172
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jielidian",
+    "command": "jielidian",
+    "name": "界李典",
+    "displayName": {
+      "zhHans": "界李典",
+      "zhHant": "界李典"
+    },
+    "names": [
+      "界李典"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界李典",
+        "zhHant": "界李典"
+      }
+    ],
+    "ids": [
+      "317"
+    ],
+    "sourceNames": [
+      "界李典"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界李典",
+        "zhHant": "界李典"
+      }
+    ],
+    "sourceIds": [
+      "317"
+    ],
+    "searchNames": [
+      "jielidian",
+      "界李典"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jielidian/groups/dead.json"
+      },
+      {
+        "slug": "spell-3310-726",
+        "name": "忘隙",
+        "displayName": {
+          "zhHans": "忘隙",
+          "zhHant": "忘隙"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jielidian/groups/spell-3310-726.json"
+      },
+      {
+        "slug": "spell-725",
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jielidian/groups/spell-725.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-31702",
+        "name": "义忘私隙",
+        "displayName": {
+          "zhHans": "义忘私隙",
+          "zhHant": "義忘私隙"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31702.json"
+      },
+      {
+        "slug": "skin-31702-31703",
+        "name": "义忘私隙,离狐太守",
+        "displayName": {
+          "zhHans": "义忘私隙,离狐太守",
+          "zhHant": "義忘私隙,離狐太守"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31702-31703.json"
+      },
+      {
+        "slug": "skin-31705",
+        "name": "儒雅之风",
+        "displayName": {
+          "zhHans": "儒雅之风",
+          "zhHant": "儒雅之風"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31705.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-31701",
+        "name": "破虏大将",
+        "displayName": {
+          "zhHans": "破虏大将",
+          "zhHant": "破虜大將"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31701.json"
+      },
+      {
+        "slug": "skin-31703",
+        "name": "离狐太守",
+        "displayName": {
+          "zhHans": "离狐太守",
+          "zhHant": "離狐太守"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31703.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jielidian.json",
+      "groups": "api/v1/tts/characters/jielidian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jielidian/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-31701",
+    "name": "破虏大将",
+    "displayName": {
+      "zhHans": "破虏大将",
+      "zhHant": "破虜大將"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31701.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jielidian--317jielidian--3dead01",
+      "resourceId": "317jielidian/3dead01",
+      "text": "丞相知遇，此生无憾也……",
+      "textLocalized": {
+        "zhHans": "丞相知遇，此生无憾也……",
+        "zhHant": "丞相知遇，此生無憾也……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31701",
+          "name": "破虏大将",
+          "displayName": {
+            "zhHans": "破虏大将",
+            "zhHant": "破虜大將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielidian--317jielidian--3skill2_1",
+      "resourceId": "317jielidian/3skill2_1",
+      "text": "以德报怨，怨消恨解。",
+      "textLocalized": {
+        "zhHans": "以德报怨，怨消恨解。",
+        "zhHant": "以德報怨，怨消恨解。"
+      },
+      "group": {
+        "slug": "spell-3310-726",
+        "name": "忘隙",
+        "displayName": {
+          "zhHans": "忘隙",
+          "zhHant": "忘隙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31701",
+          "name": "破虏大将",
+          "displayName": {
+            "zhHans": "破虏大将",
+            "zhHant": "破虜大將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielidian--317jielidian--3skill2_2",
+      "resourceId": "317jielidian/3skill2_2",
+      "text": "冤冤相报，何时能了",
+      "textLocalized": {
+        "zhHans": "冤冤相报，何时能了",
+        "zhHant": "冤冤相報，何時能了"
+      },
+      "group": {
+        "slug": "spell-3310-726",
+        "name": "忘隙",
+        "displayName": {
+          "zhHans": "忘隙",
+          "zhHant": "忘隙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31701",
+          "name": "破虏大将",
+          "displayName": {
+            "zhHans": "破虏大将",
+            "zhHant": "破虜大將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielidian--317jielidian--3skill1_1",
+      "resourceId": "317jielidian/3skill1_1",
+      "text": "怠慢之处，还望包涵。",
+      "textLocalized": {
+        "zhHans": "怠慢之处，还望包涵。",
+        "zhHant": "怠慢之處，還望包涵。"
+      },
+      "group": {
+        "slug": "spell-725",
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31701",
+          "name": "破虏大将",
+          "displayName": {
+            "zhHans": "破虏大将",
+            "zhHant": "破虜大將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielidian--317jielidian--3skill1_2",
+      "resourceId": "317jielidian/3skill1_2",
+      "text": "严以律己，宽待将兵。",
+      "textLocalized": {
+        "zhHans": "严以律己，宽待将兵。",
+        "zhHant": "嚴以律己，寬待將兵。"
+      },
+      "group": {
+        "slug": "spell-725",
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31701",
+          "name": "破虏大将",
+          "displayName": {
+            "zhHans": "破虏大将",
+            "zhHant": "破虜大將"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

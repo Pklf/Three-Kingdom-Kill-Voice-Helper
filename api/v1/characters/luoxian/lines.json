@@ -1,3 +1,894 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:30bdb70958f54dd37b0bade8eeaaa813ae84ab4226a00b8c5e130c1964655a1a
-size 20584
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "luoxian",
+    "command": "luoxian",
+    "name": "罗宪",
+    "displayName": {
+      "zhHans": "罗宪",
+      "zhHant": "羅憲"
+    },
+    "names": [
+      "罗宪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "罗宪",
+        "zhHant": "羅憲"
+      }
+    ],
+    "ids": [
+      "545"
+    ],
+    "sourceNames": [
+      "罗宪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "罗宪",
+        "zhHant": "羅憲"
+      }
+    ],
+    "sourceIds": [
+      "545"
+    ],
+    "searchNames": [
+      "luoxian",
+      "罗宪",
+      "羅憲"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-3254",
+        "name": "带砺",
+        "displayName": {
+          "zhHans": "带砺",
+          "zhHant": "帶礪"
+        },
+        "ids": [
+          "3254"
+        ],
+        "lineCount": 4
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-54501",
+        "ids": [
+          "54501"
+        ],
+        "name": "舍身酬国",
+        "displayName": {
+          "zhHans": "舍身酬国",
+          "zhHant": "捨身酬國"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/luoxian.json",
+      "lines": "api/v1/characters/luoxian/lines.json"
+    }
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "luoxian--545luoxian--1dead01",
+      "resourceId": "545luoxian/1dead01",
+      "text": "汉亡矣，命休矣。",
+      "textLocalized": {
+        "zhHans": "汉亡矣，命休矣。",
+        "zhHant": "漢亡矣，命休矣。"
+      },
+      "character": {
+        "slug": "luoxian",
+        "command": "luoxian",
+        "id": "545",
+        "ids": [
+          "545"
+        ],
+        "name": "罗宪",
+        "displayName": {
+          "zhHans": "罗宪",
+          "zhHant": "羅憲"
+        },
+        "names": [
+          "罗宪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "sourceIds": [
+          "545"
+        ],
+        "sourceNames": [
+          "罗宪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "searchNames": [
+          "罗宪",
+          "羅憲",
+          "luoxian"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "545",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "罗宪"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/545luoxian-9a5d6f46/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/545luoxian/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luoxian--545luoxian--2dead01",
+      "resourceId": "545luoxian/2dead01",
+      "text": "国朝用命之时，奈何无计可施。",
+      "textLocalized": {
+        "zhHans": "国朝用命之时，奈何无计可施。",
+        "zhHant": "國朝用命之時，奈何無計可施。"
+      },
+      "character": {
+        "slug": "luoxian",
+        "command": "luoxian",
+        "id": "545",
+        "ids": [
+          "545"
+        ],
+        "name": "罗宪",
+        "displayName": {
+          "zhHans": "罗宪",
+          "zhHant": "羅憲"
+        },
+        "names": [
+          "罗宪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "sourceIds": [
+          "545"
+        ],
+        "sourceNames": [
+          "罗宪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "searchNames": [
+          "罗宪",
+          "羅憲",
+          "luoxian"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-54501",
+        "ids": [
+          "54501"
+        ],
+        "name": "舍身酬国",
+        "displayName": {
+          "zhHans": "舍身酬国",
+          "zhHant": "捨身酬國"
+        },
+        "names": [
+          "舍身酬国"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "舍身酬国",
+            "zhHant": "捨身酬國"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-54501",
+          "id": "54501",
+          "ids": [
+            "54501"
+          ],
+          "name": "舍身酬国",
+          "displayName": {
+            "zhHans": "舍身酬国",
+            "zhHant": "捨身酬國"
+          },
+          "names": [
+            "舍身酬国"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "舍身酬国",
+              "zhHant": "捨身酬國"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "545",
+        "skinKey": "54501",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "罗宪"
+        ],
+        "skinNames": [
+          "舍身酬国"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/545luoxian-9a5d6f46/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/545luoxian/2dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luoxian--545luoxian--1skill1_1",
+      "resourceId": "545luoxian/1skill1_1",
+      "text": "国朝倾覆，吾宁当为降虏[lǔ]乎！",
+      "textLocalized": {
+        "zhHans": "国朝倾覆，吾宁当为降虏[lǔ]乎！",
+        "zhHant": "國朝傾覆，吾寧當爲降虜[lǔ]乎！"
+      },
+      "character": {
+        "slug": "luoxian",
+        "command": "luoxian",
+        "id": "545",
+        "ids": [
+          "545"
+        ],
+        "name": "罗宪",
+        "displayName": {
+          "zhHans": "罗宪",
+          "zhHant": "羅憲"
+        },
+        "names": [
+          "罗宪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "sourceIds": [
+          "545"
+        ],
+        "sourceNames": [
+          "罗宪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "searchNames": [
+          "罗宪",
+          "羅憲",
+          "luoxian"
+        ]
+      },
+      "group": {
+        "slug": "spell-3254",
+        "ids": [
+          "3254"
+        ],
+        "name": "带砺",
+        "displayName": {
+          "zhHans": "带砺",
+          "zhHant": "帶礪"
+        },
+        "names": [
+          "带砺"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "带砺",
+            "zhHant": "帶礪"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "545",
+        "skinKey": "-1",
+        "spellKey": "3254",
+        "rowIndex": 1,
+        "characterNames": [
+          "罗宪"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/545luoxian-9a5d6f46/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/545luoxian/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luoxian--545luoxian--1skill1_2",
+      "resourceId": "545luoxian/1skill1_2",
+      "text": "弃百姓之所仰，君子不为也。",
+      "textLocalized": {
+        "zhHans": "弃百姓之所仰，君子不为也。",
+        "zhHant": "棄百姓之所仰，君子不爲也。"
+      },
+      "character": {
+        "slug": "luoxian",
+        "command": "luoxian",
+        "id": "545",
+        "ids": [
+          "545"
+        ],
+        "name": "罗宪",
+        "displayName": {
+          "zhHans": "罗宪",
+          "zhHant": "羅憲"
+        },
+        "names": [
+          "罗宪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "sourceIds": [
+          "545"
+        ],
+        "sourceNames": [
+          "罗宪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "searchNames": [
+          "罗宪",
+          "羅憲",
+          "luoxian"
+        ]
+      },
+      "group": {
+        "slug": "spell-3254",
+        "ids": [
+          "3254"
+        ],
+        "name": "带砺",
+        "displayName": {
+          "zhHans": "带砺",
+          "zhHant": "帶礪"
+        },
+        "names": [
+          "带砺"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "带砺",
+            "zhHant": "帶礪"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "545",
+        "skinKey": "-1",
+        "spellKey": "3254",
+        "rowIndex": 2,
+        "characterNames": [
+          "罗宪"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/545luoxian-9a5d6f46/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/545luoxian/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luoxian--545luoxian--2skill1_1",
+      "resourceId": "545luoxian/2skill1_1",
+      "text": "今指山河为誓，此生不过江南、不从吴狗。",
+      "textLocalized": {
+        "zhHans": "今指山河为誓，此生不过江南、不从吴狗。",
+        "zhHant": "今指山河爲誓，此生不過江南、不從吳狗。"
+      },
+      "character": {
+        "slug": "luoxian",
+        "command": "luoxian",
+        "id": "545",
+        "ids": [
+          "545"
+        ],
+        "name": "罗宪",
+        "displayName": {
+          "zhHans": "罗宪",
+          "zhHant": "羅憲"
+        },
+        "names": [
+          "罗宪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "sourceIds": [
+          "545"
+        ],
+        "sourceNames": [
+          "罗宪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "searchNames": [
+          "罗宪",
+          "羅憲",
+          "luoxian"
+        ]
+      },
+      "group": {
+        "slug": "spell-3254",
+        "ids": [
+          "3254"
+        ],
+        "name": "带砺",
+        "displayName": {
+          "zhHans": "带砺",
+          "zhHant": "帶礪"
+        },
+        "names": [
+          "带砺"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "带砺",
+            "zhHant": "帶礪"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-54501",
+        "ids": [
+          "54501"
+        ],
+        "name": "舍身酬国",
+        "displayName": {
+          "zhHans": "舍身酬国",
+          "zhHant": "捨身酬國"
+        },
+        "names": [
+          "舍身酬国"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "舍身酬国",
+            "zhHant": "捨身酬國"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-54501",
+          "id": "54501",
+          "ids": [
+            "54501"
+          ],
+          "name": "舍身酬国",
+          "displayName": {
+            "zhHans": "舍身酬国",
+            "zhHant": "捨身酬國"
+          },
+          "names": [
+            "舍身酬国"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "舍身酬国",
+              "zhHant": "捨身酬國"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "545",
+        "skinKey": "54501",
+        "spellKey": "3254",
+        "rowIndex": 1,
+        "characterNames": [
+          "罗宪"
+        ],
+        "skinNames": [
+          "舍身酬国"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/545luoxian-9a5d6f46/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/545luoxian/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luoxian--545luoxian--2skill1_2",
+      "resourceId": "545luoxian/2skill1_2",
+      "text": "长河如衣带，高山如砥石，国可得久安。",
+      "textLocalized": {
+        "zhHans": "长河如衣带，高山如砥石，国可得久安。",
+        "zhHant": "長河如衣帶，高山如砥石，國可得久安。"
+      },
+      "character": {
+        "slug": "luoxian",
+        "command": "luoxian",
+        "id": "545",
+        "ids": [
+          "545"
+        ],
+        "name": "罗宪",
+        "displayName": {
+          "zhHans": "罗宪",
+          "zhHant": "羅憲"
+        },
+        "names": [
+          "罗宪"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "sourceIds": [
+          "545"
+        ],
+        "sourceNames": [
+          "罗宪"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "罗宪",
+            "zhHant": "羅憲"
+          }
+        ],
+        "searchNames": [
+          "罗宪",
+          "羅憲",
+          "luoxian"
+        ]
+      },
+      "group": {
+        "slug": "spell-3254",
+        "ids": [
+          "3254"
+        ],
+        "name": "带砺",
+        "displayName": {
+          "zhHans": "带砺",
+          "zhHant": "帶礪"
+        },
+        "names": [
+          "带砺"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "带砺",
+            "zhHant": "帶礪"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-54501",
+        "ids": [
+          "54501"
+        ],
+        "name": "舍身酬国",
+        "displayName": {
+          "zhHans": "舍身酬国",
+          "zhHant": "捨身酬國"
+        },
+        "names": [
+          "舍身酬国"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "舍身酬国",
+            "zhHant": "捨身酬國"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-54501",
+          "id": "54501",
+          "ids": [
+            "54501"
+          ],
+          "name": "舍身酬国",
+          "displayName": {
+            "zhHans": "舍身酬国",
+            "zhHant": "捨身酬國"
+          },
+          "names": [
+            "舍身酬国"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "舍身酬国",
+              "zhHant": "捨身酬國"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "545",
+        "skinKey": "54501",
+        "spellKey": "3254",
+        "rowIndex": 2,
+        "characterNames": [
+          "罗宪"
+        ],
+        "skinNames": [
+          "舍身酬国"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/545luoxian-9a5d6f46/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/545luoxian/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,240 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf5f897774a3bafb2633940d9f4feed387e3f6980becaa8e6f86d3c927bc5f4e
-size 4932
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zishu",
+    "command": "zishu",
+    "name": "子鼠",
+    "displayName": {
+      "zhHans": "子鼠",
+      "zhHant": "子鼠"
+    },
+    "names": [
+      "子鼠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "子鼠",
+        "zhHant": "子鼠"
+      }
+    ],
+    "ids": [
+      "4083"
+    ],
+    "sourceNames": [
+      "子鼠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "子鼠",
+        "zhHant": "子鼠"
+      }
+    ],
+    "sourceIds": [
+      "4083"
+    ],
+    "searchNames": [
+      "zishu",
+      "子鼠"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-1201",
+        "name": "子鼠",
+        "displayName": {
+          "zhHans": "子鼠",
+          "zhHant": "子鼠"
+        },
+        "ids": [
+          "1201"
+        ],
+        "lineCount": 1
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/zishu.json",
+      "lines": "api/v1/characters/zishu/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "zishu--4083zishu--1dead01",
+      "resourceId": "4083zishu/1dead01",
+      "text": "油米全没了……",
+      "textLocalized": {
+        "zhHans": "油米全没了……",
+        "zhHant": "油米全沒了……"
+      },
+      "character": {
+        "slug": "zishu",
+        "command": "zishu",
+        "id": "4083",
+        "ids": [
+          "4083"
+        ],
+        "name": "子鼠",
+        "displayName": {
+          "zhHans": "子鼠",
+          "zhHant": "子鼠"
+        },
+        "names": [
+          "子鼠"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "子鼠",
+            "zhHant": "子鼠"
+          }
+        ],
+        "sourceIds": [
+          "4083"
+        ],
+        "sourceNames": [
+          "子鼠"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "子鼠",
+            "zhHant": "子鼠"
+          }
+        ],
+        "searchNames": [
+          "子鼠",
+          "zishu"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4083",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "子鼠"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4083zishu-7ec455ee/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4083zishu/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

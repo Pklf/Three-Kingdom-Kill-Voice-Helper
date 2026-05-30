@@ -1,3 +1,254 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8dd0a52dd287216dff7d4a955c1a4d5f5e0f743f91dc3e955c431ff4b0c22f7
-size 6948
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dingyuan",
+    "command": "dingyuan",
+    "name": "丁原",
+    "displayName": {
+      "zhHans": "丁原",
+      "zhHant": "丁原"
+    },
+    "names": [
+      "丁原"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "丁原",
+        "zhHant": "丁原"
+      }
+    ],
+    "ids": [
+      "437"
+    ],
+    "sourceNames": [
+      "丁原"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "丁原",
+        "zhHant": "丁原"
+      }
+    ],
+    "sourceIds": [
+      "437"
+    ],
+    "searchNames": [
+      "dingyuan",
+      "丁原"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/dingyuan/groups/dead.json"
+      },
+      {
+        "slug": "spell-9014",
+        "name": "慈孝",
+        "displayName": {
+          "zhHans": "慈孝",
+          "zhHant": "慈孝"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/dingyuan/groups/spell-9014.json"
+      },
+      {
+        "slug": "spell-9015",
+        "name": "先率",
+        "displayName": {
+          "zhHans": "先率",
+          "zhHant": "先率"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/dingyuan/groups/spell-9015.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dingyuan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43701",
+        "name": "龙腾寰宇",
+        "displayName": {
+          "zhHans": "龙腾寰宇",
+          "zhHant": "龍騰寰宇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dingyuan/skins/skin-43701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dingyuan.json",
+      "groups": "api/v1/tts/characters/dingyuan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dingyuan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-9014",
+    "name": "慈孝",
+    "displayName": {
+      "zhHans": "慈孝",
+      "zhHant": "慈孝"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/dingyuan/groups/spell-9014.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "dingyuan--437dingyuan--1skill1_1",
+      "resourceId": "437dingyuan/1skill1_1",
+      "text": "吾儿奉先，天下无敌！",
+      "textLocalized": {
+        "zhHans": "吾儿奉先，天下无敌！",
+        "zhHant": "吾兒奉先，天下無敵！"
+      },
+      "group": {
+        "slug": "spell-9014",
+        "name": "慈孝",
+        "displayName": {
+          "zhHans": "慈孝",
+          "zhHant": "慈孝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/437dingyuan-4a2e5a34/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/437dingyuan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingyuan--437dingyuan--1skill1_2",
+      "resourceId": "437dingyuan/1skill1_2",
+      "text": "父慈子孝，义理为先！",
+      "textLocalized": {
+        "zhHans": "父慈子孝，义理为先！",
+        "zhHant": "父慈子孝，義理爲先！"
+      },
+      "group": {
+        "slug": "spell-9014",
+        "name": "慈孝",
+        "displayName": {
+          "zhHans": "慈孝",
+          "zhHant": "慈孝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/437dingyuan-4a2e5a34/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/437dingyuan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingyuan--437dingyuan--2skill1_1",
+      "resourceId": "437dingyuan/2skill1_1",
+      "text": "吾有一愿，麾下可纳百川，聚千子，定万世！",
+      "textLocalized": {
+        "zhHans": "吾有一愿，麾下可纳百川，聚千子，定万世！",
+        "zhHant": "吾有一願，麾下可納百川，聚千子，定萬世！"
+      },
+      "group": {
+        "slug": "spell-9014",
+        "name": "慈孝",
+        "displayName": {
+          "zhHans": "慈孝",
+          "zhHant": "慈孝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43701",
+          "name": "龙腾寰宇",
+          "displayName": {
+            "zhHans": "龙腾寰宇",
+            "zhHant": "龍騰寰宇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/437dingyuan-4a2e5a34/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/437dingyuan/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingyuan--437dingyuan--2skill1_2",
+      "resourceId": "437dingyuan/2skill1_2",
+      "text": "吾有一子，其勇可冠三军，覆四海，震九原！",
+      "textLocalized": {
+        "zhHans": "吾有一子，其勇可冠三军，覆四海，震九原！",
+        "zhHant": "吾有一子，其勇可冠三軍，覆四海，震九原！"
+      },
+      "group": {
+        "slug": "spell-9014",
+        "name": "慈孝",
+        "displayName": {
+          "zhHans": "慈孝",
+          "zhHant": "慈孝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43701",
+          "name": "龙腾寰宇",
+          "displayName": {
+            "zhHans": "龙腾寰宇",
+            "zhHant": "龍騰寰宇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/437dingyuan-4a2e5a34/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/437dingyuan/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

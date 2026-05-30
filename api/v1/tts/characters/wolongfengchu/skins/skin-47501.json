@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:91d3588a7705abf0658625436ad51c0a9ada1c9b44b803923fc4c0b8ffe42049
-size 8572
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wolongfengchu",
+    "command": "wolongfengchu",
+    "name": "卧龙凤雏",
+    "displayName": {
+      "zhHans": "卧龙凤雏",
+      "zhHant": "臥龍鳳雛"
+    },
+    "names": [
+      "卧龙凤雏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卧龙凤雏",
+        "zhHant": "臥龍鳳雛"
+      }
+    ],
+    "ids": [
+      "475"
+    ],
+    "sourceNames": [
+      "卧龙凤雏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卧龙凤雏",
+        "zhHant": "臥龍鳳雛"
+      }
+    ],
+    "sourceIds": [
+      "475"
+    ],
+    "searchNames": [
+      "wolongfengchu",
+      "卧龙凤雏",
+      "臥龍鳳雛"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/groups/dead.json"
+      },
+      {
+        "slug": "spell-968",
+        "name": "游龙",
+        "displayName": {
+          "zhHans": "游龙",
+          "zhHant": "游龍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/groups/spell-968.json"
+      },
+      {
+        "slug": "spell-969",
+        "name": "鸾凤",
+        "displayName": {
+          "zhHans": "鸾凤",
+          "zhHant": "鸞鳳"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/groups/spell-969.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-47501",
+        "name": "赤壁链火",
+        "displayName": {
+          "zhHans": "赤壁链火",
+          "zhHant": "赤壁鏈火"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/skins/skin-47501.json"
+      },
+      {
+        "slug": "skin-47502",
+        "name": "青羽锦绣",
+        "displayName": {
+          "zhHans": "青羽锦绣",
+          "zhHant": "青羽錦繡"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/skins/skin-47502.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wolongfengchu.json",
+      "groups": "api/v1/tts/characters/wolongfengchu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wolongfengchu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-47501",
+    "name": "赤壁链火",
+    "displayName": {
+      "zhHans": "赤壁链火",
+      "zhHant": "赤壁鏈火"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/wolongfengchu/skins/skin-47501.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "wolongfengchu--475wolongfengchu--2dead01",
+      "resourceId": "475wolongfengchu/2dead01",
+      "text": "天意难违，卧龙凤雏兼得又如何……",
+      "textLocalized": {
+        "zhHans": "天意难违，卧龙凤雏兼得又如何……",
+        "zhHant": "天意難違，臥龍鳳雛兼得又如何……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47501",
+          "name": "赤壁链火",
+          "displayName": {
+            "zhHans": "赤壁链火",
+            "zhHant": "赤壁鏈火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/475wolongfengchu-2bd8f8a1/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wolongfengchu--475wolongfengchu--2skill1_1",
+      "resourceId": "475wolongfengchu/2skill1_1",
+      "text": "龙御九天，舍江海而率千军。",
+      "textLocalized": {
+        "zhHans": "龙御九天，舍江海而率千军。",
+        "zhHant": "龍御九天，舍江海而率千軍。"
+      },
+      "group": {
+        "slug": "spell-968",
+        "name": "游龙",
+        "displayName": {
+          "zhHans": "游龙",
+          "zhHant": "游龍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47501",
+          "name": "赤壁链火",
+          "displayName": {
+            "zhHans": "赤壁链火",
+            "zhHant": "赤壁鏈火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/475wolongfengchu-2bd8f8a1/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wolongfengchu--475wolongfengchu--2skill1_2",
+      "resourceId": "475wolongfengchu/2skill1_2",
+      "text": "卧拥六合，大梦醒而驱百策。",
+      "textLocalized": {
+        "zhHans": "卧拥六合，大梦醒而驱百策。",
+        "zhHant": "臥擁六合，大夢醒而驅百策。"
+      },
+      "group": {
+        "slug": "spell-968",
+        "name": "游龙",
+        "displayName": {
+          "zhHans": "游龙",
+          "zhHant": "游龍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47501",
+          "name": "赤壁链火",
+          "displayName": {
+            "zhHans": "赤壁链火",
+            "zhHant": "赤壁鏈火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/475wolongfengchu-2bd8f8a1/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wolongfengchu--475wolongfengchu--2skill2_1",
+      "resourceId": "475wolongfengchu/2skill2_1",
+      "text": "病树砺火，繁花寥落雏芽生。",
+      "textLocalized": {
+        "zhHans": "病树砺火，繁花寥落雏芽生。",
+        "zhHant": "病樹礪火，繁花寥落雛芽生。"
+      },
+      "group": {
+        "slug": "spell-969",
+        "name": "鸾凤",
+        "displayName": {
+          "zhHans": "鸾凤",
+          "zhHant": "鸞鳳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47501",
+          "name": "赤壁链火",
+          "displayName": {
+            "zhHans": "赤壁链火",
+            "zhHant": "赤壁鏈火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/475wolongfengchu-2bd8f8a1/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wolongfengchu--475wolongfengchu--2skill2_2",
+      "resourceId": "475wolongfengchu/2skill2_2",
+      "text": "凤舞丹穴，劫波渡尽心骨成。",
+      "textLocalized": {
+        "zhHans": "凤舞丹穴，劫波渡尽心骨成。",
+        "zhHant": "鳳舞丹穴，劫波渡盡心骨成。"
+      },
+      "group": {
+        "slug": "spell-969",
+        "name": "鸾凤",
+        "displayName": {
+          "zhHans": "鸾凤",
+          "zhHant": "鸞鳳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47501",
+          "name": "赤壁链火",
+          "displayName": {
+            "zhHans": "赤壁链火",
+            "zhHant": "赤壁鏈火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/475wolongfengchu-2bd8f8a1/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c2abf6b77959b028dbfba9847162066e0a92b9d824cfe9a2488e4d2ca47e96f0
-size 7103
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenzhangliao",
+    "command": "shenzhangliao",
+    "name": "神张辽",
+    "displayName": {
+      "zhHans": "神张辽",
+      "zhHant": "神張遼"
+    },
+    "names": [
+      "神张辽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神张辽",
+        "zhHant": "神張遼"
+      }
+    ],
+    "ids": [
+      "225"
+    ],
+    "sourceNames": [
+      "神张辽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神张辽",
+        "zhHant": "神張遼"
+      }
+    ],
+    "sourceIds": [
+      "225"
+    ],
+    "searchNames": [
+      "shenzhangliao",
+      "神张辽",
+      "神張遼"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/groups/dead.json"
+      },
+      {
+        "slug": "spell-923",
+        "name": "夺锐",
+        "displayName": {
+          "zhHans": "夺锐",
+          "zhHant": "奪銳"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/groups/spell-923.json"
+      },
+      {
+        "slug": "spell-924",
+        "name": "止啼",
+        "displayName": {
+          "zhHans": "止啼",
+          "zhHant": "止啼"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/groups/spell-924.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-22501",
+        "name": "夺锐争锋",
+        "displayName": {
+          "zhHans": "夺锐争锋",
+          "zhHant": "奪銳爭鋒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/skins/skin-22501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenzhangliao.json",
+      "groups": "api/v1/tts/characters/shenzhangliao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenzhangliao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-923",
+    "name": "夺锐",
+    "displayName": {
+      "zhHans": "夺锐",
+      "zhHant": "奪銳"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/shenzhangliao/groups/spell-923.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "shenzhangliao--225shenzhangliao--1skill1_1",
+      "resourceId": "225shenzhangliao/1skill1_1",
+      "text": "夺敌军锐气，杀敌方士气。",
+      "textLocalized": {
+        "zhHans": "夺敌军锐气，杀敌方士气。",
+        "zhHant": "奪敵軍銳氣，殺敵方士氣。"
+      },
+      "group": {
+        "slug": "spell-923",
+        "name": "夺锐",
+        "displayName": {
+          "zhHans": "夺锐",
+          "zhHant": "奪銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/225shenzhangliao-8bf6546c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/225shenzhangliao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangliao--225shenzhangliao--1skill1_2",
+      "resourceId": "225shenzhangliao/1skill1_2",
+      "text": "尖锐之势，吾亦可一人夺之。",
+      "textLocalized": {
+        "zhHans": "尖锐之势，吾亦可一人夺之。",
+        "zhHant": "尖銳之勢，吾亦可一人奪之。"
+      },
+      "group": {
+        "slug": "spell-923",
+        "name": "夺锐",
+        "displayName": {
+          "zhHans": "夺锐",
+          "zhHant": "奪銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/225shenzhangliao-8bf6546c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/225shenzhangliao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangliao--225shenzhangliao--2skill1_1",
+      "resourceId": "225shenzhangliao/2skill1_1",
+      "text": "天下雄兵之锐，吾一人可尽夺之！",
+      "textLocalized": {
+        "zhHans": "天下雄兵之锐，吾一人可尽夺之！",
+        "zhHant": "天下雄兵之銳，吾一人可盡奪之！"
+      },
+      "group": {
+        "slug": "spell-923",
+        "name": "夺锐",
+        "displayName": {
+          "zhHans": "夺锐",
+          "zhHant": "奪銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22501",
+          "name": "夺锐争锋",
+          "displayName": {
+            "zhHans": "夺锐争锋",
+            "zhHant": "奪銳爭鋒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/225shenzhangliao-8bf6546c/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/225shenzhangliao/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangliao--225shenzhangliao--2skill1_2",
+      "resourceId": "225shenzhangliao/2skill1_2",
+      "text": "夺旗者勇，夺命者戾，夺锐者神！",
+      "textLocalized": {
+        "zhHans": "夺旗者勇，夺命者戾，夺锐者神！",
+        "zhHant": "奪旗者勇，奪命者戾，奪銳者神！"
+      },
+      "group": {
+        "slug": "spell-923",
+        "name": "夺锐",
+        "displayName": {
+          "zhHans": "夺锐",
+          "zhHant": "奪銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22501",
+          "name": "夺锐争锋",
+          "displayName": {
+            "zhHans": "夺锐争锋",
+            "zhHant": "奪銳爭鋒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/225shenzhangliao-8bf6546c/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/225shenzhangliao/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

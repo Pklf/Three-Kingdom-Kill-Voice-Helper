@@ -1,3 +1,424 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:257dbe7d1cbbb234fab19c7bcd09deb121f811b1333304b8f6e71406801b22cc
-size 12051
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xiahouhui",
+    "command": "xiahouhui",
+    "name": "夏侯徽",
+    "displayName": {
+      "zhHans": "夏侯徽",
+      "zhHant": "夏侯徽"
+    },
+    "names": [
+      "夏侯徽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "夏侯徽",
+        "zhHant": "夏侯徽"
+      }
+    ],
+    "ids": [
+      "7001"
+    ],
+    "sourceNames": [
+      "夏侯徽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "夏侯徽",
+        "zhHant": "夏侯徽"
+      }
+    ],
+    "sourceIds": [
+      "7001"
+    ],
+    "searchNames": [
+      "xiahouhui",
+      "夏侯徽"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/dead.json"
+      },
+      {
+        "slug": "spell-7001",
+        "name": "宝箧",
+        "displayName": {
+          "zhHans": "宝箧",
+          "zhHant": "寶篋"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7001.json"
+      },
+      {
+        "slug": "spell-7002",
+        "name": "宜室",
+        "displayName": {
+          "zhHans": "宜室",
+          "zhHant": "宜室"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7002.json"
+      },
+      {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7003.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700101",
+        "name": "浩淼情缘",
+        "displayName": {
+          "zhHans": "浩淼情缘",
+          "zhHant": "浩淼情緣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700101.json"
+      },
+      {
+        "slug": "skin-700103",
+        "name": "熠熠珠玉",
+        "displayName": {
+          "zhHans": "熠熠珠玉",
+          "zhHant": "熠熠珠玉"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700103.json"
+      },
+      {
+        "slug": "skin-700102",
+        "name": "闲适悠趣",
+        "displayName": {
+          "zhHans": "闲适悠趣",
+          "zhHant": "閒適悠趣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xiahouhui.json",
+      "groups": "api/v1/tts/characters/xiahouhui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xiahouhui/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-7003",
+    "name": "识度",
+    "displayName": {
+      "zhHans": "识度",
+      "zhHant": "識度"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7003.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "xiahouhui--7001xiahouhui--1skill3_1",
+      "resourceId": "7001xiahouhui/1skill3_1",
+      "text": "鉴识得体，气度雅涵。",
+      "textLocalized": {
+        "zhHans": "鉴识得体，气度雅涵。",
+        "zhHant": "鑑識得體，氣度雅涵。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--1skill3_2",
+      "resourceId": "7001xiahouhui/1skill3_2",
+      "text": "宽容体谅，宽人益己。",
+      "textLocalized": {
+        "zhHans": "宽容体谅，宽人益己。",
+        "zhHant": "寬容體諒，寬人益己。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--2skill3_1",
+      "resourceId": "7001xiahouhui/2skill3_1",
+      "text": "举止淑德，不失身份。",
+      "textLocalized": {
+        "zhHans": "举止淑德，不失身份。",
+        "zhHant": "舉止淑德，不失身份。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700101",
+          "name": "浩淼情缘",
+          "displayName": {
+            "zhHans": "浩淼情缘",
+            "zhHant": "浩淼情緣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--2skill3_2",
+      "resourceId": "7001xiahouhui/2skill3_2",
+      "text": "娴雅适度，进退得体。",
+      "textLocalized": {
+        "zhHans": "娴雅适度，进退得体。",
+        "zhHant": "嫺雅適度，進退得體。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700101",
+          "name": "浩淼情缘",
+          "displayName": {
+            "zhHans": "浩淼情缘",
+            "zhHant": "浩淼情緣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--4skill3_1",
+      "resourceId": "7001xiahouhui/4skill3_1",
+      "text": "进退有仪，收受有度，见微而知著。",
+      "textLocalized": {
+        "zhHans": "进退有仪，收受有度，见微而知著。",
+        "zhHant": "進退有儀，收受有度，見微而知著。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700103",
+          "name": "熠熠珠玉",
+          "displayName": {
+            "zhHans": "熠熠珠玉",
+            "zhHant": "熠熠珠玉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--4skill3_2",
+      "resourceId": "7001xiahouhui/4skill3_2",
+      "text": "温言于表，喜怒于内，形色皆意会。",
+      "textLocalized": {
+        "zhHans": "温言于表，喜怒于内，形色皆意会。",
+        "zhHant": "溫言於表，喜怒於內，形色皆意會。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700103",
+          "name": "熠熠珠玉",
+          "displayName": {
+            "zhHans": "熠熠珠玉",
+            "zhHant": "熠熠珠玉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--3skill3_1",
+      "resourceId": "7001xiahouhui/3skill3_1",
+      "text": "揣度[duó]本心，知事知因。",
+      "textLocalized": {
+        "zhHans": "揣度[duó]本心，知事知因。",
+        "zhHant": "揣度[duó]本心，知事知因。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--3skill3_2",
+      "resourceId": "7001xiahouhui/3skill3_2",
+      "text": "揆[kuí]度深浅，得失周全。",
+      "textLocalized": {
+        "zhHans": "揆[kuí]度深浅，得失周全。",
+        "zhHant": "揆[kuí]度深淺，得失周全。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

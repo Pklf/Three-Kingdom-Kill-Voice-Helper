@@ -1,3 +1,410 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:12a516fa3bde456e740add9459a2d6f4b7c5b745bab15154823bfb2b30ad5f21
-size 11399
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liuchen",
+    "command": "liuchen",
+    "name": "刘谌",
+    "displayName": {
+      "zhHans": "刘谌",
+      "zhHant": "劉諶"
+    },
+    "names": [
+      "刘谌"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘谌",
+        "zhHant": "劉諶"
+      }
+    ],
+    "ids": [
+      "335"
+    ],
+    "sourceNames": [
+      "刘谌"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘谌",
+        "zhHant": "劉諶"
+      }
+    ],
+    "sourceIds": [
+      "335"
+    ],
+    "searchNames": [
+      "liuchen",
+      "刘谌",
+      "劉諶"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liuchen/groups/dead.json"
+      },
+      {
+        "slug": "spell-736",
+        "name": "战绝",
+        "displayName": {
+          "zhHans": "战绝",
+          "zhHant": "戰絕"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liuchen/groups/spell-736.json"
+      },
+      {
+        "slug": "spell-737",
+        "name": "勤王",
+        "displayName": {
+          "zhHans": "勤王",
+          "zhHant": "勤王"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liuchen/groups/spell-737.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-33501",
+        "name": "北地亲王",
+        "displayName": {
+          "zhHans": "北地亲王",
+          "zhHant": "北地親王"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuchen/skins/skin-33501.json"
+      },
+      {
+        "slug": "skin-33501-33504",
+        "name": "北地亲王,昭烈自灭",
+        "displayName": {
+          "zhHans": "北地亲王,昭烈自灭",
+          "zhHant": "北地親王,昭烈自滅"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuchen/skins/skin-33501-33504.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuchen/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-33504",
+        "name": "昭烈自灭",
+        "displayName": {
+          "zhHans": "昭烈自灭",
+          "zhHant": "昭烈自滅"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuchen/skins/skin-33504.json"
+      },
+      {
+        "slug": "skin-33502",
+        "name": "烈帝后裔",
+        "displayName": {
+          "zhHans": "烈帝后裔",
+          "zhHant": "烈帝后裔"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuchen/skins/skin-33502.json"
+      },
+      {
+        "slug": "skin-33505",
+        "name": "醉饮感伤",
+        "displayName": {
+          "zhHans": "醉饮感伤",
+          "zhHant": "醉飲感傷"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuchen/skins/skin-33505.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liuchen.json",
+      "groups": "api/v1/tts/characters/liuchen/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liuchen/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-33504",
+    "name": "昭烈自灭",
+    "displayName": {
+      "zhHans": "昭烈自灭",
+      "zhHant": "昭烈自滅"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/liuchen/skins/skin-33504.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "liuchen--335liuchen--3dead01",
+      "resourceId": "335liuchen/3dead01",
+      "text": "吾妻儿，当为社稷而亡！",
+      "textLocalized": {
+        "zhHans": "吾妻儿，当为社稷而亡！",
+        "zhHant": "吾妻兒，當爲社稷而亡！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33501",
+          "name": "北地亲王",
+          "displayName": {
+            "zhHans": "北地亲王",
+            "zhHant": "北地親王"
+          }
+        },
+        {
+          "slug": "skin-33504",
+          "name": "昭烈自灭",
+          "displayName": {
+            "zhHans": "昭烈自灭",
+            "zhHant": "昭烈自滅"
+          }
+        },
+        {
+          "slug": "skin-33501-33504",
+          "name": "北地亲王,昭烈自灭",
+          "displayName": {
+            "zhHans": "北地亲王,昭烈自灭",
+            "zhHant": "北地親王,昭烈自滅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/335liuchen-47e56d3f/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/335liuchen/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuchen--335liuchen--3skill1_1",
+      "resourceId": "335liuchen/3skill1_1",
+      "text": "孤注一掷，也要殊死一搏！",
+      "textLocalized": {
+        "zhHans": "孤注一掷，也要殊死一搏！",
+        "zhHant": "孤注一擲，也要殊死一搏！"
+      },
+      "group": {
+        "slug": "spell-736",
+        "name": "战绝",
+        "displayName": {
+          "zhHans": "战绝",
+          "zhHant": "戰絕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33501",
+          "name": "北地亲王",
+          "displayName": {
+            "zhHans": "北地亲王",
+            "zhHant": "北地親王"
+          }
+        },
+        {
+          "slug": "skin-33504",
+          "name": "昭烈自灭",
+          "displayName": {
+            "zhHans": "昭烈自灭",
+            "zhHant": "昭烈自滅"
+          }
+        },
+        {
+          "slug": "skin-33501-33504",
+          "name": "北地亲王,昭烈自灭",
+          "displayName": {
+            "zhHans": "北地亲王,昭烈自灭",
+            "zhHant": "北地親王,昭烈自滅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/335liuchen-47e56d3f/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/335liuchen/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuchen--335liuchen--3skill1_2",
+      "resourceId": "335liuchen/3skill1_2",
+      "text": "我，已经无路可退了！",
+      "textLocalized": {
+        "zhHans": "我，已经无路可退了！",
+        "zhHant": "我，已經無路可退了！"
+      },
+      "group": {
+        "slug": "spell-736",
+        "name": "战绝",
+        "displayName": {
+          "zhHans": "战绝",
+          "zhHant": "戰絕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33501",
+          "name": "北地亲王",
+          "displayName": {
+            "zhHans": "北地亲王",
+            "zhHant": "北地親王"
+          }
+        },
+        {
+          "slug": "skin-33504",
+          "name": "昭烈自灭",
+          "displayName": {
+            "zhHans": "昭烈自灭",
+            "zhHant": "昭烈自滅"
+          }
+        },
+        {
+          "slug": "skin-33501-33504",
+          "name": "北地亲王,昭烈自灭",
+          "displayName": {
+            "zhHans": "北地亲王,昭烈自灭",
+            "zhHant": "北地親王,昭烈自滅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/335liuchen-47e56d3f/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/335liuchen/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuchen--335liuchen--3skill2_1",
+      "resourceId": "335liuchen/3skill2_1",
+      "text": "谁能救我大汉江山？",
+      "textLocalized": {
+        "zhHans": "谁能救我大汉江山？",
+        "zhHant": "誰能救我大漢江山？"
+      },
+      "group": {
+        "slug": "spell-737",
+        "name": "勤王",
+        "displayName": {
+          "zhHans": "勤王",
+          "zhHant": "勤王"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33501",
+          "name": "北地亲王",
+          "displayName": {
+            "zhHans": "北地亲王",
+            "zhHant": "北地親王"
+          }
+        },
+        {
+          "slug": "skin-33504",
+          "name": "昭烈自灭",
+          "displayName": {
+            "zhHans": "昭烈自灭",
+            "zhHant": "昭烈自滅"
+          }
+        },
+        {
+          "slug": "skin-33501-33504",
+          "name": "北地亲王,昭烈自灭",
+          "displayName": {
+            "zhHans": "北地亲王,昭烈自灭",
+            "zhHant": "北地親王,昭烈自滅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/335liuchen-47e56d3f/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/335liuchen/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuchen--335liuchen--3skill2_2",
+      "resourceId": "335liuchen/3skill2_2",
+      "text": "国破家亡，如何苟活于世？",
+      "textLocalized": {
+        "zhHans": "国破家亡，如何苟活于世？",
+        "zhHant": "國破家亡，如何苟活於世？"
+      },
+      "group": {
+        "slug": "spell-737",
+        "name": "勤王",
+        "displayName": {
+          "zhHans": "勤王",
+          "zhHant": "勤王"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33501",
+          "name": "北地亲王",
+          "displayName": {
+            "zhHans": "北地亲王",
+            "zhHant": "北地親王"
+          }
+        },
+        {
+          "slug": "skin-33504",
+          "name": "昭烈自灭",
+          "displayName": {
+            "zhHans": "昭烈自灭",
+            "zhHant": "昭烈自滅"
+          }
+        },
+        {
+          "slug": "skin-33501-33504",
+          "name": "北地亲王,昭烈自灭",
+          "displayName": {
+            "zhHans": "北地亲王,昭烈自灭",
+            "zhHant": "北地親王,昭烈自滅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/335liuchen-47e56d3f/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/335liuchen/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,319 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:db946694951dbc2b8ef38845308eacefb05c00d39144e4d9c60eec776b8a868c
-size 8833
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wanglang",
+    "command": "wanglang",
+    "name": "王朗",
+    "displayName": {
+      "zhHans": "王朗",
+      "zhHant": "王朗"
+    },
+    "names": [
+      "王朗"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王朗",
+        "zhHant": "王朗"
+      }
+    ],
+    "ids": [
+      "350"
+    ],
+    "sourceNames": [
+      "王朗"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王朗",
+        "zhHant": "王朗"
+      }
+    ],
+    "sourceIds": [
+      "350"
+    ],
+    "searchNames": [
+      "wanglang",
+      "王朗"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/dead.json"
+      },
+      {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/spell-280.json"
+      },
+      {
+        "slug": "spell-281",
+        "name": "激词",
+        "displayName": {
+          "zhHans": "激词",
+          "zhHant": "激詞"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/spell-281.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35005",
+        "name": "四世三公",
+        "displayName": {
+          "zhHans": "四世三公",
+          "zhHant": "四世三公"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35005.json"
+      },
+      {
+        "slug": "skin-35003",
+        "name": "抒言辨思",
+        "displayName": {
+          "zhHans": "抒言辨思",
+          "zhHant": "抒言辨思"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35003.json"
+      },
+      {
+        "slug": "skin-35004",
+        "name": "渊薮临危",
+        "displayName": {
+          "zhHans": "渊薮临危",
+          "zhHant": "淵藪臨危"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35004.json"
+      },
+      {
+        "slug": "skin-35006",
+        "name": "骧龙御宇",
+        "displayName": {
+          "zhHans": "骧龙御宇",
+          "zhHant": "驤龍御宇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35006.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wanglang.json",
+      "groups": "api/v1/tts/characters/wanglang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wanglang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/wanglang/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "wanglang--350wanglang--1dead01",
+      "resourceId": "350wanglang/1dead01",
+      "text": "你！你！",
+      "textLocalized": {
+        "zhHans": "你！你！",
+        "zhHant": "你！你！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--5dead01",
+      "resourceId": "350wanglang/5dead01",
+      "text": "呃，呃啊……啊！（曹真、郭淮：“王司徒！王司徒……”）",
+      "textLocalized": {
+        "zhHans": "呃，呃啊……啊！（曹真、郭淮：“王司徒！王司徒……”）",
+        "zhHant": "呃，呃啊……啊！（曹真、郭淮：“王司徒！王司徒……”）"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35005",
+          "name": "四世三公",
+          "displayName": {
+            "zhHans": "四世三公",
+            "zhHant": "四世三公"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--3dead01",
+      "resourceId": "350wanglang/3dead01",
+      "text": "呃……啊！呃——啊……（坠马声）",
+      "textLocalized": {
+        "zhHans": "呃……啊！呃——啊……（坠马声）",
+        "zhHant": "呃……啊！呃——啊……（墜馬聲）"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35003",
+          "name": "抒言辨思",
+          "displayName": {
+            "zhHans": "抒言辨思",
+            "zhHant": "抒言辨思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--4dead01",
+      "resourceId": "350wanglang/4dead01",
+      "text": "荒谬之言！荒谬之言！",
+      "textLocalized": {
+        "zhHans": "荒谬之言！荒谬之言！",
+        "zhHant": "荒謬之言！荒謬之言！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35004",
+          "name": "渊薮临危",
+          "displayName": {
+            "zhHans": "渊薮临危",
+            "zhHant": "淵藪臨危"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--6dead01",
+      "resourceId": "350wanglang/6dead01",
+      "text": "我本东海弄墨客，如何枉做沙场魂。",
+      "textLocalized": {
+        "zhHans": "我本东海弄墨客，如何枉做沙场魂。",
+        "zhHant": "我本東海弄墨客，如何枉做沙場魂。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35006",
+          "name": "骧龙御宇",
+          "displayName": {
+            "zhHans": "骧龙御宇",
+            "zhHant": "驤龍御宇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

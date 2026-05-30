@@ -1,3 +1,1479 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f536904745729e81e970a699f8b54c54299bb3f58a80de9f193d0ba301fa2903
-size 33939
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zuofen",
+    "command": "zuofen",
+    "name": "左棻",
+    "displayName": {
+      "zhHans": "左棻",
+      "zhHant": "左棻"
+    },
+    "names": [
+      "左棻"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "左棻",
+        "zhHant": "左棻"
+      }
+    ],
+    "ids": [
+      "354"
+    ],
+    "sourceNames": [
+      "左棻"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "左棻",
+        "zhHant": "左棻"
+      }
+    ],
+    "sourceIds": [
+      "354"
+    ],
+    "searchNames": [
+      "zuofen",
+      "左棻"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 5
+      },
+      {
+        "slug": "spell-3042",
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "ids": [
+          "3042"
+        ],
+        "lineCount": 10
+      },
+      {
+        "slug": "spell-3043",
+        "name": "离思",
+        "displayName": {
+          "zhHans": "离思",
+          "zhHant": "離思"
+        },
+        "ids": [
+          "3043"
+        ],
+        "lineCount": 10
+      }
+    ],
+    "skins": [
+      {
+        "slug": "35404",
+        "ids": [
+          "35404"
+        ],
+        "name": "35404",
+        "displayName": {
+          "zhHans": "35404",
+          "zhHant": "35404"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-35401",
+        "ids": [
+          "35401"
+        ],
+        "name": "凝脂铅华",
+        "displayName": {
+          "zhHans": "凝脂铅华",
+          "zhHant": "凝脂鉛華"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-35402",
+        "ids": [
+          "35402"
+        ],
+        "name": "诗赋才情",
+        "displayName": {
+          "zhHans": "诗赋才情",
+          "zhHant": "詩賦才情"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-35403",
+        "ids": [
+          "35403"
+        ],
+        "name": "青荷粽香",
+        "displayName": {
+          "zhHans": "青荷粽香",
+          "zhHant": "青荷糉香"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/zuofen.json",
+      "lines": "api/v1/characters/zuofen/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3042",
+    "ids": [
+      "3042"
+    ],
+    "name": "诏颂",
+    "displayName": {
+      "zhHans": "诏颂",
+      "zhHant": "詔頌"
+    },
+    "names": [
+      "诏颂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "诏颂",
+        "zhHant": "詔頌"
+      }
+    ]
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "zuofen--354zuofen--5skill1_1",
+      "resourceId": "354zuofen/5skill1_1",
+      "text": "无诏则不见事宜，必有所犯。",
+      "textLocalized": {
+        "zhHans": "无诏则不见事宜，必有所犯。",
+        "zhHant": "無詔則不見事宜，必有所犯。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "35404",
+        "ids": [
+          "35404"
+        ],
+        "name": "35404",
+        "displayName": {
+          "zhHans": "35404",
+          "zhHant": "35404"
+        },
+        "names": [
+          "35404"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "35404",
+            "zhHant": "35404"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "35404",
+          "id": "35404",
+          "ids": [
+            "35404"
+          ],
+          "name": "35404",
+          "displayName": {
+            "zhHans": "35404",
+            "zhHant": "35404"
+          },
+          "names": [
+            "35404"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "35404",
+              "zhHant": "35404"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "35404",
+        "spellKey": "3042",
+        "rowIndex": 1,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "35404"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/5skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--5skill1_2",
+      "resourceId": "354zuofen/5skill1_2",
+      "text": "诏以宣志，颂王者之志乎。",
+      "textLocalized": {
+        "zhHans": "诏以宣志，颂王者之志乎。",
+        "zhHant": "詔以宣志，頌王者之志乎。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "35404",
+        "ids": [
+          "35404"
+        ],
+        "name": "35404",
+        "displayName": {
+          "zhHans": "35404",
+          "zhHant": "35404"
+        },
+        "names": [
+          "35404"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "35404",
+            "zhHant": "35404"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "35404",
+          "id": "35404",
+          "ids": [
+            "35404"
+          ],
+          "name": "35404",
+          "displayName": {
+            "zhHans": "35404",
+            "zhHant": "35404"
+          },
+          "names": [
+            "35404"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "35404",
+              "zhHant": "35404"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "35404",
+        "spellKey": "3042",
+        "rowIndex": 2,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "35404"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/5skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--2skill1_1",
+      "resourceId": "354zuofen/2skill1_1",
+      "text": "颂诏以告，从之而表顺也。",
+      "textLocalized": {
+        "zhHans": "颂诏以告，从之而表顺也。",
+        "zhHant": "頌詔以告，從之而表順也。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-35401",
+        "ids": [
+          "35401"
+        ],
+        "name": "凝脂铅华",
+        "displayName": {
+          "zhHans": "凝脂铅华",
+          "zhHant": "凝脂鉛華"
+        },
+        "names": [
+          "凝脂铅华"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "凝脂铅华",
+            "zhHant": "凝脂鉛華"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-35401",
+          "id": "35401",
+          "ids": [
+            "35401"
+          ],
+          "name": "凝脂铅华",
+          "displayName": {
+            "zhHans": "凝脂铅华",
+            "zhHant": "凝脂鉛華"
+          },
+          "names": [
+            "凝脂铅华"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "凝脂铅华",
+              "zhHant": "凝脂鉛華"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "35401",
+        "spellKey": "3042",
+        "rowIndex": 1,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "凝脂铅华"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--2skill1_2",
+      "resourceId": "354zuofen/2skill1_2",
+      "text": "为帝其妃，必能诏其臣。",
+      "textLocalized": {
+        "zhHans": "为帝其妃，必能诏其臣。",
+        "zhHant": "爲帝其妃，必能詔其臣。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-35401",
+        "ids": [
+          "35401"
+        ],
+        "name": "凝脂铅华",
+        "displayName": {
+          "zhHans": "凝脂铅华",
+          "zhHant": "凝脂鉛華"
+        },
+        "names": [
+          "凝脂铅华"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "凝脂铅华",
+            "zhHant": "凝脂鉛華"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-35401",
+          "id": "35401",
+          "ids": [
+            "35401"
+          ],
+          "name": "凝脂铅华",
+          "displayName": {
+            "zhHans": "凝脂铅华",
+            "zhHant": "凝脂鉛華"
+          },
+          "names": [
+            "凝脂铅华"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "凝脂铅华",
+              "zhHant": "凝脂鉛華"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "35401",
+        "spellKey": "3042",
+        "rowIndex": 2,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "凝脂铅华"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--1skill1_1",
+      "resourceId": "354zuofen/1skill1_1",
+      "text": "领诏者，可上而颂之。",
+      "textLocalized": {
+        "zhHans": "领诏者，可上而颂之。",
+        "zhHant": "領詔者，可上而頌之。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "-1",
+        "spellKey": "3042",
+        "rowIndex": 1,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--1skill1_2",
+      "resourceId": "354zuofen/1skill1_2",
+      "text": "今为诏，以上告下也。",
+      "textLocalized": {
+        "zhHans": "今为诏，以上告下也。",
+        "zhHant": "今爲詔，以上告下也。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "-1",
+        "spellKey": "3042",
+        "rowIndex": 2,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--3skill1_1",
+      "resourceId": "354zuofen/3skill1_1",
+      "text": "明功颂德，以诏后世。",
+      "textLocalized": {
+        "zhHans": "明功颂德，以诏后世。",
+        "zhHant": "明功頌德，以詔後世。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-35402",
+        "ids": [
+          "35402"
+        ],
+        "name": "诗赋才情",
+        "displayName": {
+          "zhHans": "诗赋才情",
+          "zhHant": "詩賦才情"
+        },
+        "names": [
+          "诗赋才情"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诗赋才情",
+            "zhHant": "詩賦才情"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-35402",
+          "id": "35402",
+          "ids": [
+            "35402"
+          ],
+          "name": "诗赋才情",
+          "displayName": {
+            "zhHans": "诗赋才情",
+            "zhHant": "詩賦才情"
+          },
+          "names": [
+            "诗赋才情"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "诗赋才情",
+              "zhHant": "詩賦才情"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "35402",
+        "spellKey": "3042",
+        "rowIndex": 1,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "诗赋才情"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--3skill1_2",
+      "resourceId": "354zuofen/3skill1_2",
+      "text": "帝之诏也，吾代为颂之。",
+      "textLocalized": {
+        "zhHans": "帝之诏也，吾代为颂之。",
+        "zhHant": "帝之詔也，吾代爲頌之。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-35402",
+        "ids": [
+          "35402"
+        ],
+        "name": "诗赋才情",
+        "displayName": {
+          "zhHans": "诗赋才情",
+          "zhHant": "詩賦才情"
+        },
+        "names": [
+          "诗赋才情"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诗赋才情",
+            "zhHant": "詩賦才情"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-35402",
+          "id": "35402",
+          "ids": [
+            "35402"
+          ],
+          "name": "诗赋才情",
+          "displayName": {
+            "zhHans": "诗赋才情",
+            "zhHant": "詩賦才情"
+          },
+          "names": [
+            "诗赋才情"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "诗赋才情",
+              "zhHant": "詩賦才情"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "35402",
+        "spellKey": "3042",
+        "rowIndex": 2,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "诗赋才情"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--4skill1_1",
+      "resourceId": "354zuofen/4skill1_1",
+      "text": "欲面试者，非有诏不得上。",
+      "textLocalized": {
+        "zhHans": "欲面试者，非有诏不得上。",
+        "zhHant": "欲面試者，非有詔不得上。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-35403",
+        "ids": [
+          "35403"
+        ],
+        "name": "青荷粽香",
+        "displayName": {
+          "zhHans": "青荷粽香",
+          "zhHant": "青荷糉香"
+        },
+        "names": [
+          "青荷粽香"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "青荷粽香",
+            "zhHant": "青荷糉香"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-35403",
+          "id": "35403",
+          "ids": [
+            "35403"
+          ],
+          "name": "青荷粽香",
+          "displayName": {
+            "zhHans": "青荷粽香",
+            "zhHant": "青荷糉香"
+          },
+          "names": [
+            "青荷粽香"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "青荷粽香",
+              "zhHant": "青荷糉香"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "35403",
+        "spellKey": "3042",
+        "rowIndex": 1,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "青荷粽香"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/4skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--4skill1_2",
+      "resourceId": "354zuofen/4skill1_2",
+      "text": "以诏示之，使昭然知所由也。",
+      "textLocalized": {
+        "zhHans": "以诏示之，使昭然知所由也。",
+        "zhHant": "以詔示之，使昭然知所由也。"
+      },
+      "character": {
+        "slug": "zuofen",
+        "command": "zuofen",
+        "id": "354",
+        "ids": [
+          "354"
+        ],
+        "name": "左棻",
+        "displayName": {
+          "zhHans": "左棻",
+          "zhHant": "左棻"
+        },
+        "names": [
+          "左棻"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "sourceIds": [
+          "354"
+        ],
+        "sourceNames": [
+          "左棻"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "左棻",
+            "zhHant": "左棻"
+          }
+        ],
+        "searchNames": [
+          "左棻",
+          "zuofen"
+        ]
+      },
+      "group": {
+        "slug": "spell-3042",
+        "ids": [
+          "3042"
+        ],
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "names": [
+          "诏颂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诏颂",
+            "zhHant": "詔頌"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-35403",
+        "ids": [
+          "35403"
+        ],
+        "name": "青荷粽香",
+        "displayName": {
+          "zhHans": "青荷粽香",
+          "zhHant": "青荷糉香"
+        },
+        "names": [
+          "青荷粽香"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "青荷粽香",
+            "zhHant": "青荷糉香"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-35403",
+          "id": "35403",
+          "ids": [
+            "35403"
+          ],
+          "name": "青荷粽香",
+          "displayName": {
+            "zhHans": "青荷粽香",
+            "zhHant": "青荷糉香"
+          },
+          "names": [
+            "青荷粽香"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "青荷粽香",
+              "zhHant": "青荷糉香"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "354",
+        "skinKey": "35403",
+        "spellKey": "3042",
+        "rowIndex": 2,
+        "characterNames": [
+          "左棻"
+        ],
+        "skinNames": [
+          "青荷粽香"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/4skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

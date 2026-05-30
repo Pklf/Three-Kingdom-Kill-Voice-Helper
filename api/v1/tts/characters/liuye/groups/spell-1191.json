@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9cf8f7bb12e15973d9fbe899522632c4759822e4cb0830b194269111c5c1c99c
-size 4393
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liuye",
+    "command": "liuye",
+    "name": "刘晔",
+    "displayName": {
+      "zhHans": "刘晔",
+      "zhHant": "劉曄"
+    },
+    "names": [
+      "刘晔"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘晔",
+        "zhHant": "劉曄"
+      }
+    ],
+    "ids": [
+      "4080"
+    ],
+    "sourceNames": [
+      "刘晔"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘晔",
+        "zhHant": "劉曄"
+      }
+    ],
+    "sourceIds": [
+      "4080"
+    ],
+    "searchNames": [
+      "liuye",
+      "刘晔",
+      "劉曄"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/liuye/groups/dead.json"
+      },
+      {
+        "slug": "spell-1191",
+        "name": "破橹",
+        "displayName": {
+          "zhHans": "破橹",
+          "zhHant": "破櫓"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liuye/groups/spell-1191.json"
+      },
+      {
+        "slug": "spell-1192",
+        "name": "筹略",
+        "displayName": {
+          "zhHans": "筹略",
+          "zhHant": "籌略"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liuye/groups/spell-1192.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuye/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liuye.json",
+      "groups": "api/v1/tts/characters/liuye/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liuye/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1191",
+    "name": "破橹",
+    "displayName": {
+      "zhHans": "破橹",
+      "zhHant": "破櫓"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/liuye/groups/spell-1191.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "liuye--4080liuye--1skill1_1",
+      "resourceId": "4080liuye/1skill1_1",
+      "text": "设此发石车，可破袁军高橹。",
+      "textLocalized": {
+        "zhHans": "设此发石车，可破袁军高橹。",
+        "zhHant": "設此發石車，可破袁軍高櫓。"
+      },
+      "group": {
+        "slug": "spell-1191",
+        "name": "破橹",
+        "displayName": {
+          "zhHans": "破橹",
+          "zhHant": "破櫓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4080liuye-d91c6f76/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4080liuye/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuye--4080liuye--1skill1_2",
+      "resourceId": "4080liuye/1skill1_2",
+      "text": "霹雳之声，震丧敌胆。",
+      "textLocalized": {
+        "zhHans": "霹雳之声，震丧敌胆。",
+        "zhHant": "霹靂之聲，震喪敵膽。"
+      },
+      "group": {
+        "slug": "spell-1191",
+        "name": "破橹",
+        "displayName": {
+          "zhHans": "破橹",
+          "zhHant": "破櫓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4080liuye-d91c6f76/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4080liuye/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,380 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:440b1df618635cd0b5ce84b6ed7d8aa3d45c7a11761eebe7baa527f61175c74e
-size 10779
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guanqiujian",
+    "command": "guanqiujian",
+    "name": "毌丘俭",
+    "displayName": {
+      "zhHans": "毌丘俭",
+      "zhHant": "毌丘儉"
+    },
+    "names": [
+      "毌丘俭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "毌丘俭",
+        "zhHant": "毌丘儉"
+      }
+    ],
+    "ids": [
+      "413"
+    ],
+    "sourceNames": [
+      "毌丘俭"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "毌丘俭",
+        "zhHant": "毌丘儉"
+      }
+    ],
+    "sourceIds": [
+      "413"
+    ],
+    "searchNames": [
+      "guanqiujian",
+      "毌丘俭",
+      "毌丘儉"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guanqiujian/groups/dead.json"
+      },
+      {
+        "slug": "spell-827",
+        "name": "征荣",
+        "displayName": {
+          "zhHans": "征荣",
+          "zhHant": "徵榮"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guanqiujian/groups/spell-827.json"
+      },
+      {
+        "slug": "spell-828",
+        "name": "鸿举",
+        "displayName": {
+          "zhHans": "鸿举",
+          "zhHant": "鴻舉"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guanqiujian/groups/spell-828.json"
+      },
+      {
+        "slug": "spell-829",
+        "name": "清侧",
+        "displayName": {
+          "zhHans": "清侧",
+          "zhHant": "清側"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guanqiujian/groups/spell-829.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/guanqiujian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41303",
+        "name": "威重忠义",
+        "displayName": {
+          "zhHans": "威重忠义",
+          "zhHant": "威重忠義"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/guanqiujian/skins/skin-41303.json"
+      },
+      {
+        "slug": "skin-41302",
+        "name": "攻敌挫士",
+        "displayName": {
+          "zhHans": "攻敌挫士",
+          "zhHant": "攻敵挫士"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/guanqiujian/skins/skin-41302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guanqiujian.json",
+      "groups": "api/v1/tts/characters/guanqiujian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guanqiujian/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-41303",
+    "name": "威重忠义",
+    "displayName": {
+      "zhHans": "威重忠义",
+      "zhHant": "威重忠義"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/guanqiujian/skins/skin-41303.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "guanqiujian--413guanqiujian--4dead01",
+      "resourceId": "413guanqiujian/4dead01",
+      "text": "空有鸿鹄之志。",
+      "textLocalized": {
+        "zhHans": "空有鸿鹄之志。",
+        "zhHant": "空有鴻鵠之志。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41303",
+          "name": "威重忠义",
+          "displayName": {
+            "zhHans": "威重忠义",
+            "zhHant": "威重忠義"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanqiujian--413guanqiujian--4skill1_1",
+      "resourceId": "413guanqiujian/4skill1_1",
+      "text": "王用出征，有嘉折首。",
+      "textLocalized": {
+        "zhHans": "王用出征，有嘉折首。",
+        "zhHant": "王用出徵，有嘉折首。"
+      },
+      "group": {
+        "slug": "spell-827",
+        "name": "征荣",
+        "displayName": {
+          "zhHans": "征荣",
+          "zhHant": "徵榮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41303",
+          "name": "威重忠义",
+          "displayName": {
+            "zhHans": "威重忠义",
+            "zhHant": "威重忠義"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanqiujian--413guanqiujian--4skill1_2",
+      "resourceId": "413guanqiujian/4skill1_2",
+      "text": "诸将出征，与民除害！",
+      "textLocalized": {
+        "zhHans": "诸将出征，与民除害！",
+        "zhHant": "諸將出徵，與民除害！"
+      },
+      "group": {
+        "slug": "spell-827",
+        "name": "征荣",
+        "displayName": {
+          "zhHans": "征荣",
+          "zhHant": "徵榮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41303",
+          "name": "威重忠义",
+          "displayName": {
+            "zhHans": "威重忠义",
+            "zhHant": "威重忠義"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanqiujian--413guanqiujian--4skill2_1",
+      "resourceId": "413guanqiujian/4skill2_1",
+      "text": "飞腾冲云天，奋迅协光熙！",
+      "textLocalized": {
+        "zhHans": "飞腾冲云天，奋迅协光熙！",
+        "zhHant": "飛騰衝雲天，奮迅協光熙！"
+      },
+      "group": {
+        "slug": "spell-828",
+        "name": "鸿举",
+        "displayName": {
+          "zhHans": "鸿举",
+          "zhHant": "鴻舉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41303",
+          "name": "威重忠义",
+          "displayName": {
+            "zhHans": "威重忠义",
+            "zhHant": "威重忠義"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanqiujian--413guanqiujian--4skill2_2",
+      "resourceId": "413guanqiujian/4skill2_2",
+      "text": "但当养羽翮[hé]，鸿举必有期。",
+      "textLocalized": {
+        "zhHans": "但当养羽翮[hé]，鸿举必有期。",
+        "zhHant": "但當養羽翮[hé]，鴻舉必有期。"
+      },
+      "group": {
+        "slug": "spell-828",
+        "name": "鸿举",
+        "displayName": {
+          "zhHans": "鸿举",
+          "zhHant": "鴻舉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41303",
+          "name": "威重忠义",
+          "displayName": {
+            "zhHans": "威重忠义",
+            "zhHant": "威重忠義"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanqiujian--413guanqiujian--4skill3_1",
+      "resourceId": "413guanqiujian/4skill3_1",
+      "text": "案师之罪，宜加大辟，以彰奸慝[tè]！",
+      "textLocalized": {
+        "zhHans": "案师之罪，宜加大辟，以彰奸慝[tè]！",
+        "zhHant": "案師之罪，宜加大辟，以彰奸慝[tè]！"
+      },
+      "group": {
+        "slug": "spell-829",
+        "name": "清侧",
+        "displayName": {
+          "zhHans": "清侧",
+          "zhHant": "清側"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41303",
+          "name": "威重忠义",
+          "displayName": {
+            "zhHans": "威重忠义",
+            "zhHant": "威重忠義"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanqiujian--413guanqiujian--4skill3_2",
+      "resourceId": "413guanqiujian/4skill3_2",
+      "text": "奸臣当道，誓以死清君侧！",
+      "textLocalized": {
+        "zhHans": "奸臣当道，誓以死清君侧！",
+        "zhHant": "奸臣當道，誓以死清君側！"
+      },
+      "group": {
+        "slug": "spell-829",
+        "name": "清侧",
+        "displayName": {
+          "zhHans": "清侧",
+          "zhHant": "清側"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41303",
+          "name": "威重忠义",
+          "displayName": {
+            "zhHans": "威重忠义",
+            "zhHant": "威重忠義"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

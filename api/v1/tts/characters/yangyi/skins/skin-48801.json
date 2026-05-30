@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ea9228248a2dace866583ebf58b90eece60db7f0e4024c4ce2ebf287ca125a40
-size 8678
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangyi",
+    "command": "yangyi",
+    "name": "杨仪",
+    "displayName": {
+      "zhHans": "杨仪",
+      "zhHant": "楊儀"
+    },
+    "names": [
+      "杨仪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨仪",
+        "zhHant": "楊儀"
+      }
+    ],
+    "ids": [
+      "488"
+    ],
+    "sourceNames": [
+      "杨仪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨仪",
+        "zhHant": "楊儀"
+      }
+    ],
+    "sourceIds": [
+      "488"
+    ],
+    "searchNames": [
+      "yangyi",
+      "杨仪",
+      "楊儀"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yangyi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3053",
+        "name": "狷狭",
+        "displayName": {
+          "zhHans": "狷狭",
+          "zhHant": "狷狹"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangyi/groups/spell-3053.json"
+      },
+      {
+        "slug": "spell-3054",
+        "name": "定措",
+        "displayName": {
+          "zhHans": "定措",
+          "zhHant": "定措"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangyi/groups/spell-3054.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-48801",
+        "name": "狷狭激愤",
+        "displayName": {
+          "zhHans": "狷狭激愤",
+          "zhHant": "狷狹激憤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyi/skins/skin-48801.json"
+      },
+      {
+        "slug": "skin-48802",
+        "name": "落笔成谏",
+        "displayName": {
+          "zhHans": "落笔成谏",
+          "zhHant": "落筆成諫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyi/skins/skin-48802.json"
+      },
+      {
+        "slug": "skin-48803",
+        "name": "驭雷伏乱",
+        "displayName": {
+          "zhHans": "驭雷伏乱",
+          "zhHant": "馭雷伏亂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyi/skins/skin-48803.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yangyi.json",
+      "groups": "api/v1/tts/characters/yangyi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yangyi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-48801",
+    "name": "狷狭激愤",
+    "displayName": {
+      "zhHans": "狷狭激愤",
+      "zhHant": "狷狹激憤"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/yangyi/skins/skin-48801.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "yangyi--488yangyi--2dead01",
+      "resourceId": "488yangyi/2dead01",
+      "text": "捕我入狱，可谓自断股肱[gōng]。",
+      "textLocalized": {
+        "zhHans": "捕我入狱，可谓自断股肱[gōng]。",
+        "zhHant": "捕我入獄，可謂自斷股肱[gōng]。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48801",
+          "name": "狷狭激愤",
+          "displayName": {
+            "zhHans": "狷狭激愤",
+            "zhHant": "狷狹激憤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--2skill1_1",
+      "resourceId": "488yangyi/2skill1_1",
+      "text": "无胸可扩千疏万卷，却不学计如庸位置",
+      "textLocalized": {
+        "zhHans": "无胸可扩千疏万卷，却不学计如庸位置",
+        "zhHant": "無胸可擴千疏萬卷，卻不學計如庸位置"
+      },
+      "group": {
+        "slug": "spell-3053",
+        "name": "狷狭",
+        "displayName": {
+          "zhHans": "狷狭",
+          "zhHant": "狷狹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48801",
+          "name": "狷狭激愤",
+          "displayName": {
+            "zhHans": "狷狭激愤",
+            "zhHant": "狷狹激憤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--2skill1_2",
+      "resourceId": "488yangyi/2skill1_2",
+      "text": "吾目可囊千山万水，唯不容得反骨之砾。",
+      "textLocalized": {
+        "zhHans": "吾目可囊千山万水，唯不容得反骨之砾。",
+        "zhHant": "吾目可囊千山萬水，唯不容得反骨之礫。"
+      },
+      "group": {
+        "slug": "spell-3053",
+        "name": "狷狭",
+        "displayName": {
+          "zhHans": "狷狭",
+          "zhHant": "狷狹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48801",
+          "name": "狷狭激愤",
+          "displayName": {
+            "zhHans": "狷狭激愤",
+            "zhHant": "狷狹激憤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--2skill2_1",
+      "resourceId": "488yangyi/2skill2_1",
+      "text": "内调营收、外度攻守，非吾不可定之。",
+      "textLocalized": {
+        "zhHans": "内调营收、外度攻守，非吾不可定之。",
+        "zhHant": "內調營收、外度攻守，非吾不可定之。"
+      },
+      "group": {
+        "slug": "spell-3054",
+        "name": "定措",
+        "displayName": {
+          "zhHans": "定措",
+          "zhHant": "定措"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48801",
+          "name": "狷狭激愤",
+          "displayName": {
+            "zhHans": "狷狭激愤",
+            "zhHant": "狷狹激憤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--2skill2_2",
+      "resourceId": "488yangyi/2skill2_2",
+      "text": "政通令达、安民定国，依吾策可为之。",
+      "textLocalized": {
+        "zhHans": "政通令达、安民定国，依吾策可为之。",
+        "zhHant": "政通令達、安民定國，依吾策可爲之。"
+      },
+      "group": {
+        "slug": "spell-3054",
+        "name": "定措",
+        "displayName": {
+          "zhHans": "定措",
+          "zhHant": "定措"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48801",
+          "name": "狷狭激愤",
+          "displayName": {
+            "zhHans": "狷狭激愤",
+            "zhHant": "狷狹激憤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

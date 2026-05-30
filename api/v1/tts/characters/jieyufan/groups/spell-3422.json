@@ -1,3 +1,174 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:44aef2a02c17f1a39d11a035416c98f5635a3166193eac71f5fc0657f706f9b2
-size 4531
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jieyufan",
+    "command": "jieyufan",
+    "name": "界虞翻",
+    "displayName": {
+      "zhHans": "界虞翻",
+      "zhHant": "界虞翻"
+    },
+    "names": [
+      "界虞翻"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界虞翻",
+        "zhHant": "界虞翻"
+      }
+    ],
+    "ids": [
+      "603"
+    ],
+    "sourceNames": [
+      "界虞翻"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界虞翻",
+        "zhHant": "界虞翻"
+      }
+    ],
+    "sourceIds": [
+      "603"
+    ],
+    "searchNames": [
+      "jieyufan",
+      "界虞翻"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jieyufan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3421",
+        "name": "纵玄",
+        "displayName": {
+          "zhHans": "纵玄",
+          "zhHant": "縱玄"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jieyufan/groups/spell-3421.json"
+      },
+      {
+        "slug": "spell-3422",
+        "name": "直言",
+        "displayName": {
+          "zhHans": "直言",
+          "zhHant": "直言"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jieyufan/groups/spell-3422.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jieyufan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jieyufan.json",
+      "groups": "api/v1/tts/characters/jieyufan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jieyufan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3422",
+    "name": "直言",
+    "displayName": {
+      "zhHans": "直言",
+      "zhHant": "直言"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jieyufan/groups/spell-3422.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jieyufan--603jieyufan--1skill2_1",
+      "resourceId": "603jieyufan/1skill2_1",
+      "text": "尔降虏，何敢与吾君齐马首乎！",
+      "textLocalized": {
+        "zhHans": "尔降虏，何敢与吾君齐马首乎！",
+        "zhHant": "爾降虜，何敢與吾君齊馬首乎！"
+      },
+      "group": {
+        "slug": "spell-3422",
+        "name": "直言",
+        "displayName": {
+          "zhHans": "直言",
+          "zhHant": "直言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/603jieyufan-0443f3eb/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/603jieyufan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jieyufan--603jieyufan--1skill2_2",
+      "resourceId": "603jieyufan/1skill2_2",
+      "text": "当闭反开，当开反闭，匹夫何故反复？",
+      "textLocalized": {
+        "zhHans": "当闭反开，当开反闭，匹夫何故反复？",
+        "zhHant": "當閉反開，當開反閉，匹夫何故反覆？"
+      },
+      "group": {
+        "slug": "spell-3422",
+        "name": "直言",
+        "displayName": {
+          "zhHans": "直言",
+          "zhHant": "直言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/603jieyufan-0443f3eb/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/603jieyufan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

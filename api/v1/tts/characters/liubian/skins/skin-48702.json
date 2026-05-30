@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b1f64b56d367dcea91da645b867019cfc977a473ad0d19d0c371324ac5811d49
-size 8294
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liubian",
+    "command": "liubian",
+    "name": "刘辩",
+    "displayName": {
+      "zhHans": "刘辩",
+      "zhHant": "劉辯"
+    },
+    "names": [
+      "刘辩"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘辩",
+        "zhHant": "劉辯"
+      }
+    ],
+    "ids": [
+      "487"
+    ],
+    "sourceNames": [
+      "刘辩"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘辩",
+        "zhHant": "劉辯"
+      }
+    ],
+    "sourceIds": [
+      "487"
+    ],
+    "searchNames": [
+      "liubian",
+      "刘辩",
+      "劉辯"
+    ],
+    "lineCount": 13,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liubian/groups/dead.json"
+      },
+      {
+        "slug": "spell-3050",
+        "name": "诗怨",
+        "displayName": {
+          "zhHans": "诗怨",
+          "zhHant": "詩怨"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liubian/groups/spell-3050.json"
+      },
+      {
+        "slug": "spell-3051",
+        "name": "毒逝",
+        "displayName": {
+          "zhHans": "毒逝",
+          "zhHant": "毒逝"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liubian/groups/spell-3051.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liubian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-48701",
+        "name": "彼岸幽霜",
+        "displayName": {
+          "zhHans": "彼岸幽霜",
+          "zhHant": "彼岸幽霜"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubian/skins/skin-48701.json"
+      },
+      {
+        "slug": "skin-48702",
+        "name": "鹊乐织欣",
+        "displayName": {
+          "zhHans": "鹊乐织欣",
+          "zhHant": "鵲樂織欣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubian/skins/skin-48702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liubian.json",
+      "groups": "api/v1/tts/characters/liubian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liubian/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-48702",
+    "name": "鹊乐织欣",
+    "displayName": {
+      "zhHans": "鹊乐织欣",
+      "zhHant": "鵲樂織欣"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/liubian/skins/skin-48702.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "liubian--487liubian--3dead01",
+      "resourceId": "487liubian/3dead01",
+      "text": "彼之砒霜，吾之蜜糖。",
+      "textLocalized": {
+        "zhHans": "彼之砒霜，吾之蜜糖。",
+        "zhHant": "彼之砒霜，吾之蜜糖。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48702",
+          "name": "鹊乐织欣",
+          "displayName": {
+            "zhHans": "鹊乐织欣",
+            "zhHant": "鵲樂織欣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubian--487liubian--3skill1_1",
+      "resourceId": "487liubian/3skill1_1",
+      "text": "我死后，切勿从粲、午之言。",
+      "textLocalized": {
+        "zhHans": "我死后，切勿从粲、午之言。",
+        "zhHant": "我死後，切勿從粲、午之言。"
+      },
+      "group": {
+        "slug": "spell-3050",
+        "name": "诗怨",
+        "displayName": {
+          "zhHans": "诗怨",
+          "zhHant": "詩怨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48702",
+          "name": "鹊乐织欣",
+          "displayName": {
+            "zhHans": "鹊乐织欣",
+            "zhHant": "鵲樂織欣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubian--487liubian--3skill1_2",
+      "resourceId": "487liubian/3skill1_2",
+      "text": "愿将心中万语千言，化为诗赋寄于卿。",
+      "textLocalized": {
+        "zhHans": "愿将心中万语千言，化为诗赋寄于卿。",
+        "zhHant": "願將心中萬語千言，化爲詩賦寄於卿。"
+      },
+      "group": {
+        "slug": "spell-3050",
+        "name": "诗怨",
+        "displayName": {
+          "zhHans": "诗怨",
+          "zhHant": "詩怨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48702",
+          "name": "鹊乐织欣",
+          "displayName": {
+            "zhHans": "鹊乐织欣",
+            "zhHant": "鵲樂織欣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubian--487liubian--3skill2_1",
+      "resourceId": "487liubian/3skill2_1",
+      "text": "非我善妒，实乃汝之过也。",
+      "textLocalized": {
+        "zhHans": "非我善妒，实乃汝之过也。",
+        "zhHant": "非我善妒，實乃汝之過也。"
+      },
+      "group": {
+        "slug": "spell-3051",
+        "name": "毒逝",
+        "displayName": {
+          "zhHans": "毒逝",
+          "zhHant": "毒逝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48702",
+          "name": "鹊乐织欣",
+          "displayName": {
+            "zhHans": "鹊乐织欣",
+            "zhHant": "鵲樂織欣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubian--487liubian--3skill2_2",
+      "resourceId": "487liubian/3skill2_2",
+      "text": "相爱未得相守，此痛彻心扉、透骨肉。",
+      "textLocalized": {
+        "zhHans": "相爱未得相守，此痛彻心扉、透骨肉。",
+        "zhHant": "相愛未得相守，此痛徹心扉、透骨肉。"
+      },
+      "group": {
+        "slug": "spell-3051",
+        "name": "毒逝",
+        "displayName": {
+          "zhHans": "毒逝",
+          "zhHant": "毒逝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48702",
+          "name": "鹊乐织欣",
+          "displayName": {
+            "zhHans": "鹊乐织欣",
+            "zhHant": "鵲樂織欣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

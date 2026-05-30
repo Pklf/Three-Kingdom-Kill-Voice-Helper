@@ -1,3 +1,335 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5dc4a65121339abe1608802288d63e28ee8b1e35d03179b64e0f7f067df71da1
-size 9179
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenpei",
+    "command": "shenpei",
+    "name": "审配",
+    "displayName": {
+      "zhHans": "审配",
+      "zhHant": "審配"
+    },
+    "names": [
+      "审配"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "审配",
+        "zhHant": "審配"
+      }
+    ],
+    "ids": [
+      "459"
+    ],
+    "sourceNames": [
+      "审配"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "审配",
+        "zhHant": "審配"
+      }
+    ],
+    "sourceIds": [
+      "459"
+    ],
+    "searchNames": [
+      "shenpei",
+      "审配",
+      "審配"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenpei/groups/dead.json"
+      },
+      {
+        "slug": "spell-1185",
+        "name": "刚直",
+        "displayName": {
+          "zhHans": "刚直",
+          "zhHant": "剛直"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenpei/groups/spell-1185.json"
+      },
+      {
+        "slug": "spell-1186",
+        "name": "备战",
+        "displayName": {
+          "zhHans": "备战",
+          "zhHant": "備戰"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenpei/groups/spell-1186.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenpei/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-45901",
+        "name": "坚守拒降",
+        "displayName": {
+          "zhHans": "坚守拒降",
+          "zhHant": "堅守拒降"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenpei/skins/skin-45901.json"
+      },
+      {
+        "slug": "skin-45902",
+        "name": "领弓破曹",
+        "displayName": {
+          "zhHans": "领弓破曹",
+          "zhHant": "領弓破曹"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenpei/skins/skin-45902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenpei.json",
+      "groups": "api/v1/tts/characters/shenpei/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenpei/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1186",
+    "name": "备战",
+    "displayName": {
+      "zhHans": "备战",
+      "zhHant": "備戰"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/shenpei/groups/spell-1186.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "shenpei--459shenpei--1skill2_1",
+      "resourceId": "459shenpei/1skill2_1",
+      "text": "今伐曹氏，譬如覆手之举。",
+      "textLocalized": {
+        "zhHans": "今伐曹氏，譬如覆手之举。",
+        "zhHant": "今伐曹氏，譬如覆手之舉。"
+      },
+      "group": {
+        "slug": "spell-1186",
+        "name": "备战",
+        "displayName": {
+          "zhHans": "备战",
+          "zhHant": "備戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--1skill2_2",
+      "resourceId": "459shenpei/1skill2_2",
+      "text": "十，则围之；五，则攻之。",
+      "textLocalized": {
+        "zhHans": "十，则围之；五，则攻之。",
+        "zhHant": "十，則圍之；五，則攻之。"
+      },
+      "group": {
+        "slug": "spell-1186",
+        "name": "备战",
+        "displayName": {
+          "zhHans": "备战",
+          "zhHant": "備戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--4skill2_1",
+      "resourceId": "459shenpei/4skill2_1",
+      "text": "今不时取，后难图也。",
+      "textLocalized": {
+        "zhHans": "今不时取，后难图也。",
+        "zhHant": "今不時取，後難圖也。"
+      },
+      "group": {
+        "slug": "spell-1186",
+        "name": "备战",
+        "displayName": {
+          "zhHans": "备战",
+          "zhHant": "備戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-45901",
+          "name": "坚守拒降",
+          "displayName": {
+            "zhHans": "坚守拒降",
+            "zhHant": "堅守拒降"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--4skill2_2",
+      "resourceId": "459shenpei/4skill2_2",
+      "text": "以明公之神武，曹贼不足为虑。",
+      "textLocalized": {
+        "zhHans": "以明公之神武，曹贼不足为虑。",
+        "zhHant": "以明公之神武，曹賊不足爲慮。"
+      },
+      "group": {
+        "slug": "spell-1186",
+        "name": "备战",
+        "displayName": {
+          "zhHans": "备战",
+          "zhHant": "備戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-45901",
+          "name": "坚守拒降",
+          "displayName": {
+            "zhHans": "坚守拒降",
+            "zhHant": "堅守拒降"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--5skill2_1",
+      "resourceId": "459shenpei/5skill2_1",
+      "text": "备战千日，决胜须臾！",
+      "textLocalized": {
+        "zhHans": "备战千日，决胜须臾！",
+        "zhHant": "備戰千日，決勝須臾！"
+      },
+      "group": {
+        "slug": "spell-1186",
+        "name": "备战",
+        "displayName": {
+          "zhHans": "备战",
+          "zhHant": "備戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-45902",
+          "name": "领弓破曹",
+          "displayName": {
+            "zhHans": "领弓破曹",
+            "zhHant": "領弓破曹"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--5skill2_2",
+      "resourceId": "459shenpei/5skill2_2",
+      "text": "擐甲执兵，固即死也！",
+      "textLocalized": {
+        "zhHans": "擐甲执兵，固即死也！",
+        "zhHant": "擐甲執兵，固即死也！"
+      },
+      "group": {
+        "slug": "spell-1186",
+        "name": "备战",
+        "displayName": {
+          "zhHans": "备战",
+          "zhHant": "備戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-45902",
+          "name": "领弓破曹",
+          "displayName": {
+            "zhHans": "领弓破曹",
+            "zhHant": "領弓破曹"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

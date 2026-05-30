@@ -1,3 +1,220 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fd6017dd65afe05444c56094bbb92d2350db3aeaffc1449801540b338a0828db
-size 5866
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "gongsunyuan",
+    "command": "gongsunyuan",
+    "name": "公孙渊",
+    "displayName": {
+      "zhHans": "公孙渊",
+      "zhHant": "公孫淵"
+    },
+    "names": [
+      "公孙渊"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "公孙渊",
+        "zhHant": "公孫淵"
+      }
+    ],
+    "ids": [
+      "341"
+    ],
+    "sourceNames": [
+      "公孙渊"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "公孙渊",
+        "zhHant": "公孫淵"
+      }
+    ],
+    "sourceIds": [
+      "341"
+    ],
+    "searchNames": [
+      "gongsunyuan",
+      "公孙渊",
+      "公孫淵"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/groups/dead.json"
+      },
+      {
+        "slug": "spell-747",
+        "name": "怀异",
+        "displayName": {
+          "zhHans": "怀异",
+          "zhHant": "懷異"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/groups/spell-747.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34104",
+        "name": "快心遂意",
+        "displayName": {
+          "zhHans": "快心遂意",
+          "zhHant": "快心遂意"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/skins/skin-34104.json"
+      },
+      {
+        "slug": "skin-34103",
+        "name": "独饮醉卧",
+        "displayName": {
+          "zhHans": "独饮醉卧",
+          "zhHant": "獨飲醉臥"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunyuan/skins/skin-34103.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/gongsunyuan.json",
+      "groups": "api/v1/tts/characters/gongsunyuan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/gongsunyuan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/gongsunyuan/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "gongsunyuan--341gongsunyuan--1dead01",
+      "resourceId": "341gongsunyuan/1dead01",
+      "text": "天不容我公孙家……",
+      "textLocalized": {
+        "zhHans": "天不容我公孙家……",
+        "zhHant": "天不容我公孫家……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/341gongsunyuan-99361e9c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/341gongsunyuan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gongsunyuan--341gongsunyuan--1skill1_1",
+      "resourceId": "341gongsunyuan/1skill1_1",
+      "text": "此等小利，焉能安吾雄心？",
+      "textLocalized": {
+        "zhHans": "此等小利，焉能安吾雄心？",
+        "zhHant": "此等小利，焉能安吾雄心？"
+      },
+      "group": {
+        "slug": "spell-747",
+        "name": "怀异",
+        "displayName": {
+          "zhHans": "怀异",
+          "zhHant": "懷異"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/341gongsunyuan-99361e9c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/341gongsunyuan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gongsunyuan--341gongsunyuan--1skill1_2",
+      "resourceId": "341gongsunyuan/1skill1_2",
+      "text": "一生纵横，怎可对他人称臣？",
+      "textLocalized": {
+        "zhHans": "一生纵横，怎可对他人称臣？",
+        "zhHant": "一生縱橫，怎可對他人稱臣？"
+      },
+      "group": {
+        "slug": "spell-747",
+        "name": "怀异",
+        "displayName": {
+          "zhHans": "怀异",
+          "zhHant": "懷異"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/341gongsunyuan-99361e9c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/341gongsunyuan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

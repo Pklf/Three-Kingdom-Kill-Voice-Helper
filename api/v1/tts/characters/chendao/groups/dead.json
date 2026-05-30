@@ -1,3 +1,220 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:225059abd7df81f8d780b3961df448608eae71b898307ce11cada33fc964f22b
-size 5786
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chendao",
+    "command": "chendao",
+    "name": "陈到",
+    "displayName": {
+      "zhHans": "陈到",
+      "zhHant": "陳到"
+    },
+    "names": [
+      "陈到"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈到",
+        "zhHant": "陳到"
+      }
+    ],
+    "ids": [
+      "409"
+    ],
+    "sourceNames": [
+      "陈到"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈到",
+        "zhHant": "陳到"
+      }
+    ],
+    "sourceIds": [
+      "409"
+    ],
+    "searchNames": [
+      "chendao",
+      "陈到",
+      "陳到"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/chendao/groups/dead.json"
+      },
+      {
+        "slug": "spell-817",
+        "name": "往烈",
+        "displayName": {
+          "zhHans": "往烈",
+          "zhHant": "往烈"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/chendao/groups/spell-817.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/chendao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-40902",
+        "name": "战场忠勇",
+        "displayName": {
+          "zhHans": "战场忠勇",
+          "zhHant": "戰場忠勇"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/chendao/skins/skin-40902.json"
+      },
+      {
+        "slug": "skin-40903",
+        "name": "白毦当先",
+        "displayName": {
+          "zhHans": "白毦当先",
+          "zhHant": "白毦當先"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/chendao/skins/skin-40903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chendao.json",
+      "groups": "api/v1/tts/characters/chendao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chendao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/chendao/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "chendao--409chendao--1dead01",
+      "resourceId": "409chendao/1dead01",
+      "text": "我的白毦兵，再也不能为先帝出力了！",
+      "textLocalized": {
+        "zhHans": "我的白毦兵，再也不能为先帝出力了！",
+        "zhHant": "我的白毦兵，再也不能爲先帝出力了！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/409chendao-3688f5af/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/409chendao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendao--409chendao--2dead01",
+      "resourceId": "409chendao/2dead01",
+      "text": "征南厚重，忠心厚土。",
+      "textLocalized": {
+        "zhHans": "征南厚重，忠心厚土。",
+        "zhHant": "徵南厚重，忠心厚土。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40902",
+          "name": "战场忠勇",
+          "displayName": {
+            "zhHans": "战场忠勇",
+            "zhHant": "戰場忠勇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/409chendao-3688f5af/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/409chendao/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendao--409chendao--3dead01",
+      "resourceId": "409chendao/3dead01",
+      "text": "岂俱百战苦，高歌入黄泉。",
+      "textLocalized": {
+        "zhHans": "岂俱百战苦，高歌入黄泉。",
+        "zhHant": "豈俱百戰苦，高歌入黃泉。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40903",
+          "name": "白毦当先",
+          "displayName": {
+            "zhHans": "白毦当先",
+            "zhHant": "白毦當先"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/409chendao-3688f5af/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/409chendao/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

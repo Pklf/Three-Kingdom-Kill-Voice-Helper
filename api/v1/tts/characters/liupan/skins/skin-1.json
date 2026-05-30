@@ -1,3 +1,200 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:42be9b589ab731f3c320e0db068f8de1bbef1d23b49bfc2f513312a2331a9dba
-size 5170
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liupan",
+    "command": "liupan",
+    "name": "刘磐",
+    "displayName": {
+      "zhHans": "刘磐",
+      "zhHant": "劉磐"
+    },
+    "names": [
+      "刘磐"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘磐",
+        "zhHant": "劉磐"
+      }
+    ],
+    "ids": [
+      "611"
+    ],
+    "sourceNames": [
+      "刘磐"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘磐",
+        "zhHant": "劉磐"
+      }
+    ],
+    "sourceIds": [
+      "611"
+    ],
+    "searchNames": [
+      "liupan",
+      "刘磐",
+      "劉磐"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/liupan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3439",
+        "name": "披荆",
+        "displayName": {
+          "zhHans": "披荆",
+          "zhHant": "披荊"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liupan/groups/spell-3439.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liupan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liupan.json",
+      "groups": "api/v1/tts/characters/liupan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liupan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/liupan/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "liupan--611liupan--1dead01",
+      "resourceId": "611liupan/1dead01",
+      "text": "今袍泽离散，无以为战。",
+      "textLocalized": {
+        "zhHans": "今袍泽离散，无以为战。",
+        "zhHant": "今袍澤離散，無以爲戰。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/611liupan-06a1c3d8/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/611liupan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liupan--611liupan--1skill1_1",
+      "resourceId": "611liupan/1skill1_1",
+      "text": "今青锋在手，必破敌军于域外。",
+      "textLocalized": {
+        "zhHans": "今青锋在手，必破敌军于域外。",
+        "zhHant": "今青鋒在手，必破敵軍於域外。"
+      },
+      "group": {
+        "slug": "spell-3439",
+        "name": "披荆",
+        "displayName": {
+          "zhHans": "披荆",
+          "zhHant": "披荊"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/611liupan-06a1c3d8/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/611liupan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liupan--611liupan--1skill1_2",
+      "resourceId": "611liupan/1skill1_2",
+      "text": "荆楚多锦绣，安能丧于小儿之手！",
+      "textLocalized": {
+        "zhHans": "荆楚多锦绣，安能丧于小儿之手！",
+        "zhHant": "荊楚多錦繡，安能喪於小兒之手！"
+      },
+      "group": {
+        "slug": "spell-3439",
+        "name": "披荆",
+        "displayName": {
+          "zhHans": "披荆",
+          "zhHant": "披荊"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/611liupan-06a1c3d8/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/611liupan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

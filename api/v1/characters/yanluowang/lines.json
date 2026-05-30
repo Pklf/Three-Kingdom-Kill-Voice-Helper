@@ -1,3 +1,498 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1d12e516c0f4ff396ca29ab098718f56cbbfb96178cba5de142e749ed2a41e36
-size 11265
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yanluowang",
+    "command": "yanluowang",
+    "name": "阎罗王",
+    "displayName": {
+      "zhHans": "阎罗王",
+      "zhHant": "閻羅王"
+    },
+    "names": [
+      "阎罗王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阎罗王",
+        "zhHant": "閻羅王"
+      }
+    ],
+    "ids": [
+      "4504"
+    ],
+    "sourceNames": [
+      "阎罗王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阎罗王",
+        "zhHant": "閻羅王"
+      }
+    ],
+    "sourceIds": [
+      "4504"
+    ],
+    "searchNames": [
+      "yanluowang",
+      "阎罗王",
+      "閻羅王"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "spell-1289",
+        "name": "铁面",
+        "displayName": {
+          "zhHans": "铁面",
+          "zhHant": "鐵面"
+        },
+        "ids": [
+          "1289"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-1290",
+        "name": "铡刀",
+        "displayName": {
+          "zhHans": "铡刀",
+          "zhHant": "鍘刀"
+        },
+        "ids": [
+          "1290"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-1291",
+        "name": "诛心",
+        "displayName": {
+          "zhHans": "诛心",
+          "zhHant": "誅心"
+        },
+        "ids": [
+          "1291"
+        ],
+        "lineCount": 1
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/yanluowang.json",
+      "lines": "api/v1/characters/yanluowang/lines.json"
+    }
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "yanluowang--4504yanluowang--1skill1_1",
+      "resourceId": "4504yanluowang/1skill1_1",
+      "text": "铁面无私，刚正不阿。",
+      "textLocalized": {
+        "zhHans": "铁面无私，刚正不阿。",
+        "zhHant": "鐵面無私，剛正不阿。"
+      },
+      "character": {
+        "slug": "yanluowang",
+        "command": "yanluowang",
+        "id": "4504",
+        "ids": [
+          "4504"
+        ],
+        "name": "阎罗王",
+        "displayName": {
+          "zhHans": "阎罗王",
+          "zhHant": "閻羅王"
+        },
+        "names": [
+          "阎罗王"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阎罗王",
+            "zhHant": "閻羅王"
+          }
+        ],
+        "sourceIds": [
+          "4504"
+        ],
+        "sourceNames": [
+          "阎罗王"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "阎罗王",
+            "zhHant": "閻羅王"
+          }
+        ],
+        "searchNames": [
+          "阎罗王",
+          "閻羅王",
+          "yanluowang"
+        ]
+      },
+      "group": {
+        "slug": "spell-1289",
+        "ids": [
+          "1289"
+        ],
+        "name": "铁面",
+        "displayName": {
+          "zhHans": "铁面",
+          "zhHant": "鐵面"
+        },
+        "names": [
+          "铁面"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "铁面",
+            "zhHant": "鐵面"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4504",
+        "skinKey": "-1",
+        "spellKey": "1289",
+        "rowIndex": 1,
+        "characterNames": [
+          "阎罗王"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4504yanluowang-f3981966/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4504yanluowang/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanluowang--4504yanluowang--1skill2_1",
+      "resourceId": "4504yanluowang/1skill2_1",
+      "text": "铡刀之下，皆是恶徒。",
+      "textLocalized": {
+        "zhHans": "铡刀之下，皆是恶徒。",
+        "zhHant": "鍘刀之下，皆是惡徒。"
+      },
+      "character": {
+        "slug": "yanluowang",
+        "command": "yanluowang",
+        "id": "4504",
+        "ids": [
+          "4504"
+        ],
+        "name": "阎罗王",
+        "displayName": {
+          "zhHans": "阎罗王",
+          "zhHant": "閻羅王"
+        },
+        "names": [
+          "阎罗王"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阎罗王",
+            "zhHant": "閻羅王"
+          }
+        ],
+        "sourceIds": [
+          "4504"
+        ],
+        "sourceNames": [
+          "阎罗王"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "阎罗王",
+            "zhHant": "閻羅王"
+          }
+        ],
+        "searchNames": [
+          "阎罗王",
+          "閻羅王",
+          "yanluowang"
+        ]
+      },
+      "group": {
+        "slug": "spell-1290",
+        "ids": [
+          "1290"
+        ],
+        "name": "铡刀",
+        "displayName": {
+          "zhHans": "铡刀",
+          "zhHant": "鍘刀"
+        },
+        "names": [
+          "铡刀"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "铡刀",
+            "zhHant": "鍘刀"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4504",
+        "skinKey": "-1",
+        "spellKey": "1290",
+        "rowIndex": 1,
+        "characterNames": [
+          "阎罗王"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4504yanluowang-f3981966/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4504yanluowang/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanluowang--4504yanluowang--1skill3_1",
+      "resourceId": "4504yanluowang/1skill3_1",
+      "text": "诛人心魄，灭人心智。",
+      "textLocalized": {
+        "zhHans": "诛人心魄，灭人心智。",
+        "zhHant": "誅人心魄，滅人心智。"
+      },
+      "character": {
+        "slug": "yanluowang",
+        "command": "yanluowang",
+        "id": "4504",
+        "ids": [
+          "4504"
+        ],
+        "name": "阎罗王",
+        "displayName": {
+          "zhHans": "阎罗王",
+          "zhHant": "閻羅王"
+        },
+        "names": [
+          "阎罗王"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阎罗王",
+            "zhHant": "閻羅王"
+          }
+        ],
+        "sourceIds": [
+          "4504"
+        ],
+        "sourceNames": [
+          "阎罗王"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "阎罗王",
+            "zhHant": "閻羅王"
+          }
+        ],
+        "searchNames": [
+          "阎罗王",
+          "閻羅王",
+          "yanluowang"
+        ]
+      },
+      "group": {
+        "slug": "spell-1291",
+        "ids": [
+          "1291"
+        ],
+        "name": "诛心",
+        "displayName": {
+          "zhHans": "诛心",
+          "zhHant": "誅心"
+        },
+        "names": [
+          "诛心"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诛心",
+            "zhHant": "誅心"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4504",
+        "skinKey": "-1",
+        "spellKey": "1291",
+        "rowIndex": 1,
+        "characterNames": [
+          "阎罗王"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4504yanluowang-f3981966/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4504yanluowang/1skill3_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

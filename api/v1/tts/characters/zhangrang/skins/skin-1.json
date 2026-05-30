@@ -1,3 +1,260 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:81c0063c4dca575b311dadd14dc2254b445ea1659e72e18333d8d5051b5b6e99
-size 7127
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangrang",
+    "command": "zhangrang",
+    "name": "张让",
+    "displayName": {
+      "zhHans": "张让",
+      "zhHant": "張讓"
+    },
+    "names": [
+      "张让"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张让",
+        "zhHant": "張讓"
+      }
+    ],
+    "ids": [
+      "387"
+    ],
+    "sourceNames": [
+      "张让"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张让",
+        "zhHant": "張讓"
+      }
+    ],
+    "sourceIds": [
+      "387"
+    ],
+    "searchNames": [
+      "zhangrang",
+      "张让",
+      "張讓"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangrang/groups/dead.json"
+      },
+      {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhangrang/groups/spell-775.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-38707",
+        "name": "幕天修罗",
+        "displayName": {
+          "zhHans": "幕天修罗",
+          "zhHant": "幕天修羅"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38707.json"
+      },
+      {
+        "slug": "skin-38705",
+        "name": "投河陨命",
+        "displayName": {
+          "zhHans": "投河陨命",
+          "zhHant": "投河隕命"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38705.json"
+      },
+      {
+        "slug": "skin-38703",
+        "name": "浊乱海内",
+        "displayName": {
+          "zhHans": "浊乱海内",
+          "zhHant": "濁亂海內"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38703.json"
+      },
+      {
+        "slug": "skin-38704",
+        "name": "滔乱天常",
+        "displayName": {
+          "zhHans": "滔乱天常",
+          "zhHant": "滔亂天常"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38704.json"
+      },
+      {
+        "slug": "skin-38704-38705",
+        "name": "滔乱天常,投河陨命",
+        "displayName": {
+          "zhHans": "滔乱天常,投河陨命",
+          "zhHant": "滔亂天常,投河隕命"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38704-38705.json"
+      },
+      {
+        "slug": "skin-38701",
+        "name": "祸乱朝纲",
+        "displayName": {
+          "zhHans": "祸乱朝纲",
+          "zhHant": "禍亂朝綱"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-38701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangrang.json",
+      "groups": "api/v1/tts/characters/zhangrang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangrang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/zhangrang/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "zhangrang--387zhangrang--1dead01",
+      "resourceId": "387zhangrang/1dead01",
+      "text": "臣等殄[tiǎn]灭，唯陛下自爱。",
+      "textLocalized": {
+        "zhHans": "臣等殄[tiǎn]灭，唯陛下自爱。",
+        "zhHant": "臣等殄[tiǎn]滅，唯陛下自愛。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--1skill1_1",
+      "resourceId": "387zhangrang/1skill1_1",
+      "text": "国家承平，神器稳固，陛下勿忧。",
+      "textLocalized": {
+        "zhHans": "国家承平，神器稳固，陛下勿忧。",
+        "zhHant": "國家承平，神器穩固，陛下勿憂。"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangrang--387zhangrang--1skill1_2",
+      "resourceId": "387zhangrang/1skill1_2",
+      "text": "睁开你的眼睛看看，现在，是谁说了算？",
+      "textLocalized": {
+        "zhHans": "睁开你的眼睛看看，现在，是谁说了算？",
+        "zhHant": "睜開你的眼睛看看，現在，是誰說了算？"
+      },
+      "group": {
+        "slug": "spell-775",
+        "name": "滔乱",
+        "displayName": {
+          "zhHans": "滔乱",
+          "zhHant": "滔亂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/387zhangrang-da41fe13/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/387zhangrang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

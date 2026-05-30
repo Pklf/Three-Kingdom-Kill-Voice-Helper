@@ -1,3 +1,938 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c233393b8e0b7bb25c15719cdf88ec1a02bf8262d195e747a04e36412010d84a
-size 21245
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "duxi",
+    "command": "duxi",
+    "name": "杜袭",
+    "displayName": {
+      "zhHans": "杜袭",
+      "zhHant": "杜襲"
+    },
+    "names": [
+      "杜袭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杜袭",
+        "zhHant": "杜襲"
+      }
+    ],
+    "ids": [
+      "483"
+    ],
+    "sourceNames": [
+      "杜袭"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杜袭",
+        "zhHant": "杜襲"
+      }
+    ],
+    "sourceIds": [
+      "483"
+    ],
+    "searchNames": [
+      "duxi",
+      "杜袭",
+      "杜襲"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-9001",
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        },
+        "ids": [
+          "9001"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-9002",
+        "name": "避凶",
+        "displayName": {
+          "zhHans": "避凶",
+          "zhHant": "避兇"
+        },
+        "ids": [
+          "9002"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-48301",
+        "ids": [
+          "48301"
+        ],
+        "name": "弹指焚敌",
+        "displayName": {
+          "zhHans": "弹指焚敌",
+          "zhHant": "彈指焚敵"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-48302",
+        "ids": [
+          "48302"
+        ],
+        "name": "苦守西鄂",
+        "displayName": {
+          "zhHans": "苦守西鄂",
+          "zhHant": "苦守西鄂"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/duxi.json",
+      "lines": "api/v1/characters/duxi/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-9001",
+    "ids": [
+      "9001"
+    ],
+    "name": "驱徙",
+    "displayName": {
+      "zhHans": "驱徙",
+      "zhHant": "驅徙"
+    },
+    "names": [
+      "驱徙"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "驱徙",
+        "zhHant": "驅徙"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "duxi--483duxi--1skill1_1",
+      "resourceId": "483duxi/1skill1_1",
+      "text": "不自改悔，终须驱徙。",
+      "textLocalized": {
+        "zhHans": "不自改悔，终须驱徙。",
+        "zhHant": "不自改悔，終須驅徙。"
+      },
+      "character": {
+        "slug": "duxi",
+        "command": "duxi",
+        "id": "483",
+        "ids": [
+          "483"
+        ],
+        "name": "杜袭",
+        "displayName": {
+          "zhHans": "杜袭",
+          "zhHant": "杜襲"
+        },
+        "names": [
+          "杜袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "sourceIds": [
+          "483"
+        ],
+        "sourceNames": [
+          "杜袭"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "searchNames": [
+          "杜袭",
+          "杜襲",
+          "duxi"
+        ]
+      },
+      "group": {
+        "slug": "spell-9001",
+        "ids": [
+          "9001"
+        ],
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        },
+        "names": [
+          "驱徙"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "驱徙",
+            "zhHant": "驅徙"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "483",
+        "skinKey": "-1",
+        "spellKey": "9001",
+        "rowIndex": 1,
+        "characterNames": [
+          "杜袭"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duxi--483duxi--1skill1_2",
+      "resourceId": "483duxi/1skill1_2",
+      "text": "奈何驱徙，不使存活。",
+      "textLocalized": {
+        "zhHans": "奈何驱徙，不使存活。",
+        "zhHant": "奈何驅徙，不使存活。"
+      },
+      "character": {
+        "slug": "duxi",
+        "command": "duxi",
+        "id": "483",
+        "ids": [
+          "483"
+        ],
+        "name": "杜袭",
+        "displayName": {
+          "zhHans": "杜袭",
+          "zhHant": "杜襲"
+        },
+        "names": [
+          "杜袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "sourceIds": [
+          "483"
+        ],
+        "sourceNames": [
+          "杜袭"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "searchNames": [
+          "杜袭",
+          "杜襲",
+          "duxi"
+        ]
+      },
+      "group": {
+        "slug": "spell-9001",
+        "ids": [
+          "9001"
+        ],
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        },
+        "names": [
+          "驱徙"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "驱徙",
+            "zhHant": "驅徙"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "483",
+        "skinKey": "-1",
+        "spellKey": "9001",
+        "rowIndex": 2,
+        "characterNames": [
+          "杜袭"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duxi--483duxi--2skill1_1",
+      "resourceId": "483duxi/2skill1_1",
+      "text": "存于天地间，共为起驱徙。",
+      "textLocalized": {
+        "zhHans": "存于天地间，共为起驱徙。",
+        "zhHant": "存於天地間，共爲起驅徙。"
+      },
+      "character": {
+        "slug": "duxi",
+        "command": "duxi",
+        "id": "483",
+        "ids": [
+          "483"
+        ],
+        "name": "杜袭",
+        "displayName": {
+          "zhHans": "杜袭",
+          "zhHant": "杜襲"
+        },
+        "names": [
+          "杜袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "sourceIds": [
+          "483"
+        ],
+        "sourceNames": [
+          "杜袭"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "searchNames": [
+          "杜袭",
+          "杜襲",
+          "duxi"
+        ]
+      },
+      "group": {
+        "slug": "spell-9001",
+        "ids": [
+          "9001"
+        ],
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        },
+        "names": [
+          "驱徙"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "驱徙",
+            "zhHant": "驅徙"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-48301",
+        "ids": [
+          "48301"
+        ],
+        "name": "弹指焚敌",
+        "displayName": {
+          "zhHans": "弹指焚敌",
+          "zhHant": "彈指焚敵"
+        },
+        "names": [
+          "弹指焚敌"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "弹指焚敌",
+            "zhHant": "彈指焚敵"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-48301",
+          "id": "48301",
+          "ids": [
+            "48301"
+          ],
+          "name": "弹指焚敌",
+          "displayName": {
+            "zhHans": "弹指焚敌",
+            "zhHant": "彈指焚敵"
+          },
+          "names": [
+            "弹指焚敌"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "弹指焚敌",
+              "zhHant": "彈指焚敵"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "483",
+        "skinKey": "48301",
+        "spellKey": "9001",
+        "rowIndex": 1,
+        "characterNames": [
+          "杜袭"
+        ],
+        "skinNames": [
+          "弹指焚敌"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duxi--483duxi--2skill1_2",
+      "resourceId": "483duxi/2skill1_2",
+      "text": "驱徙往来无常处，以师兵为营卫。",
+      "textLocalized": {
+        "zhHans": "驱徙往来无常处，以师兵为营卫。",
+        "zhHant": "驅徙往來無常處，以師兵爲營衛。"
+      },
+      "character": {
+        "slug": "duxi",
+        "command": "duxi",
+        "id": "483",
+        "ids": [
+          "483"
+        ],
+        "name": "杜袭",
+        "displayName": {
+          "zhHans": "杜袭",
+          "zhHant": "杜襲"
+        },
+        "names": [
+          "杜袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "sourceIds": [
+          "483"
+        ],
+        "sourceNames": [
+          "杜袭"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "searchNames": [
+          "杜袭",
+          "杜襲",
+          "duxi"
+        ]
+      },
+      "group": {
+        "slug": "spell-9001",
+        "ids": [
+          "9001"
+        ],
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        },
+        "names": [
+          "驱徙"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "驱徙",
+            "zhHant": "驅徙"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-48301",
+        "ids": [
+          "48301"
+        ],
+        "name": "弹指焚敌",
+        "displayName": {
+          "zhHans": "弹指焚敌",
+          "zhHant": "彈指焚敵"
+        },
+        "names": [
+          "弹指焚敌"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "弹指焚敌",
+            "zhHant": "彈指焚敵"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-48301",
+          "id": "48301",
+          "ids": [
+            "48301"
+          ],
+          "name": "弹指焚敌",
+          "displayName": {
+            "zhHans": "弹指焚敌",
+            "zhHant": "彈指焚敵"
+          },
+          "names": [
+            "弹指焚敌"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "弹指焚敌",
+              "zhHant": "彈指焚敵"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "483",
+        "skinKey": "48301",
+        "spellKey": "9001",
+        "rowIndex": 2,
+        "characterNames": [
+          "杜袭"
+        ],
+        "skinNames": [
+          "弹指焚敌"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duxi--483duxi--3skill1_1",
+      "resourceId": "483duxi/3skill1_1",
+      "text": "与时驱徙，与世偃仰。",
+      "textLocalized": {
+        "zhHans": "与时驱徙，与世偃仰。",
+        "zhHant": "與時驅徙，與世偃仰。"
+      },
+      "character": {
+        "slug": "duxi",
+        "command": "duxi",
+        "id": "483",
+        "ids": [
+          "483"
+        ],
+        "name": "杜袭",
+        "displayName": {
+          "zhHans": "杜袭",
+          "zhHant": "杜襲"
+        },
+        "names": [
+          "杜袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "sourceIds": [
+          "483"
+        ],
+        "sourceNames": [
+          "杜袭"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "searchNames": [
+          "杜袭",
+          "杜襲",
+          "duxi"
+        ]
+      },
+      "group": {
+        "slug": "spell-9001",
+        "ids": [
+          "9001"
+        ],
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        },
+        "names": [
+          "驱徙"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "驱徙",
+            "zhHant": "驅徙"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-48302",
+        "ids": [
+          "48302"
+        ],
+        "name": "苦守西鄂",
+        "displayName": {
+          "zhHans": "苦守西鄂",
+          "zhHant": "苦守西鄂"
+        },
+        "names": [
+          "苦守西鄂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "苦守西鄂",
+            "zhHant": "苦守西鄂"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-48302",
+          "id": "48302",
+          "ids": [
+            "48302"
+          ],
+          "name": "苦守西鄂",
+          "displayName": {
+            "zhHans": "苦守西鄂",
+            "zhHant": "苦守西鄂"
+          },
+          "names": [
+            "苦守西鄂"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "苦守西鄂",
+              "zhHant": "苦守西鄂"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "483",
+        "skinKey": "48302",
+        "spellKey": "9001",
+        "rowIndex": 1,
+        "characterNames": [
+          "杜袭"
+        ],
+        "skinNames": [
+          "苦守西鄂"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duxi--483duxi--3skill1_2",
+      "resourceId": "483duxi/3skill1_2",
+      "text": "驱徙无常，就变而从时。",
+      "textLocalized": {
+        "zhHans": "驱徙无常，就变而从时。",
+        "zhHant": "驅徙無常，就變而從時。"
+      },
+      "character": {
+        "slug": "duxi",
+        "command": "duxi",
+        "id": "483",
+        "ids": [
+          "483"
+        ],
+        "name": "杜袭",
+        "displayName": {
+          "zhHans": "杜袭",
+          "zhHant": "杜襲"
+        },
+        "names": [
+          "杜袭"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "sourceIds": [
+          "483"
+        ],
+        "sourceNames": [
+          "杜袭"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "杜袭",
+            "zhHant": "杜襲"
+          }
+        ],
+        "searchNames": [
+          "杜袭",
+          "杜襲",
+          "duxi"
+        ]
+      },
+      "group": {
+        "slug": "spell-9001",
+        "ids": [
+          "9001"
+        ],
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        },
+        "names": [
+          "驱徙"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "驱徙",
+            "zhHant": "驅徙"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-48302",
+        "ids": [
+          "48302"
+        ],
+        "name": "苦守西鄂",
+        "displayName": {
+          "zhHans": "苦守西鄂",
+          "zhHant": "苦守西鄂"
+        },
+        "names": [
+          "苦守西鄂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "苦守西鄂",
+            "zhHant": "苦守西鄂"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-48302",
+          "id": "48302",
+          "ids": [
+            "48302"
+          ],
+          "name": "苦守西鄂",
+          "displayName": {
+            "zhHans": "苦守西鄂",
+            "zhHant": "苦守西鄂"
+          },
+          "names": [
+            "苦守西鄂"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "苦守西鄂",
+              "zhHant": "苦守西鄂"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "483",
+        "skinKey": "48302",
+        "spellKey": "9001",
+        "rowIndex": 2,
+        "characterNames": [
+          "杜袭"
+        ],
+        "skinNames": [
+          "苦守西鄂"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

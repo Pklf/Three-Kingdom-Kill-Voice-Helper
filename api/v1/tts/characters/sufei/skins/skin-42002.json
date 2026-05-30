@@ -1,3 +1,250 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:601c6f6a45adfab014a9815fb739d8dc6bb86c77d9b5bbe2cf380a58696c47e0
-size 6709
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sufei",
+    "command": "sufei",
+    "name": "苏飞",
+    "displayName": {
+      "zhHans": "苏飞",
+      "zhHant": "蘇飛"
+    },
+    "names": [
+      "苏飞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "苏飞",
+        "zhHant": "蘇飛"
+      }
+    ],
+    "ids": [
+      "420"
+    ],
+    "sourceNames": [
+      "苏飞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "苏飞",
+        "zhHant": "蘇飛"
+      }
+    ],
+    "sourceIds": [
+      "420"
+    ],
+    "searchNames": [
+      "sufei",
+      "苏飞",
+      "蘇飛"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/sufei/groups/dead.json"
+      },
+      {
+        "slug": "spell-858",
+        "name": "联翩",
+        "displayName": {
+          "zhHans": "联翩",
+          "zhHant": "聯翩"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sufei/groups/spell-858.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-42002",
+        "name": "临岸拜别",
+        "displayName": {
+          "zhHans": "临岸拜别",
+          "zhHant": "臨岸拜別"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42002.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42004",
+        "name": "怒钺贯江",
+        "displayName": {
+          "zhHans": "怒钺贯江",
+          "zhHant": "怒鉞貫江"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42004.json"
+      },
+      {
+        "slug": "skin-42004-42005",
+        "name": "怒钺贯江,轻舟锐进",
+        "displayName": {
+          "zhHans": "怒钺贯江,轻舟锐进",
+          "zhHant": "怒鉞貫江,輕舟銳進"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42004-42005.json"
+      },
+      {
+        "slug": "skin-42001",
+        "name": "枪出波涛",
+        "displayName": {
+          "zhHans": "枪出波涛",
+          "zhHant": "槍出波濤"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42001.json"
+      },
+      {
+        "slug": "skin-42005",
+        "name": "轻舟锐进",
+        "displayName": {
+          "zhHans": "轻舟锐进",
+          "zhHant": "輕舟銳進"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42005.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sufei.json",
+      "groups": "api/v1/tts/characters/sufei/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sufei/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-42002",
+    "name": "临岸拜别",
+    "displayName": {
+      "zhHans": "临岸拜别",
+      "zhHant": "臨岸拜別"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/sufei/skins/skin-42002.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "sufei--420sufei--4dead01",
+      "resourceId": "420sufei/4dead01",
+      "text": "我却遭这，分裂之祸。",
+      "textLocalized": {
+        "zhHans": "我却遭这，分裂之祸。",
+        "zhHant": "我卻遭這，分裂之禍。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42002",
+          "name": "临岸拜别",
+          "displayName": {
+            "zhHans": "临岸拜别",
+            "zhHant": "臨岸拜別"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/420sufei-871bbc01/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/420sufei/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sufei--420sufei--4skill1_1",
+      "resourceId": "420sufei/4skill1_1",
+      "text": "联动发出，此计助君一战！",
+      "textLocalized": {
+        "zhHans": "联动发出，此计助君一战！",
+        "zhHant": "聯動發出，此計助君一戰！"
+      },
+      "group": {
+        "slug": "spell-858",
+        "name": "联翩",
+        "displayName": {
+          "zhHans": "联翩",
+          "zhHant": "聯翩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42002",
+          "name": "临岸拜别",
+          "displayName": {
+            "zhHans": "临岸拜别",
+            "zhHant": "臨岸拜別"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/420sufei-871bbc01/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/420sufei/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sufei--420sufei--4skill1_2",
+      "resourceId": "420sufei/4skill1_2",
+      "text": "荐卿为邾[zhū]长，方能有前路。",
+      "textLocalized": {
+        "zhHans": "荐卿为邾[zhū]长，方能有前路。",
+        "zhHant": "薦卿爲邾[zhū]長，方能有前路。"
+      },
+      "group": {
+        "slug": "spell-858",
+        "name": "联翩",
+        "displayName": {
+          "zhHans": "联翩",
+          "zhHant": "聯翩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42002",
+          "name": "临岸拜别",
+          "displayName": {
+            "zhHans": "临岸拜别",
+            "zhHant": "臨岸拜別"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/420sufei-871bbc01/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/420sufei/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

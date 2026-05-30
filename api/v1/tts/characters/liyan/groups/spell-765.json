@@ -1,3 +1,335 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8d0d747a0cc3d030ddf99085fe31ae6f45c228d380671ba53073c70113c3ece
-size 9171
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liyan",
+    "command": "liyan",
+    "name": "李严",
+    "displayName": {
+      "zhHans": "李严",
+      "zhHant": "李嚴"
+    },
+    "names": [
+      "李严"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李严",
+        "zhHant": "李嚴"
+      }
+    ],
+    "ids": [
+      "381"
+    ],
+    "sourceNames": [
+      "李严"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李严",
+        "zhHant": "李嚴"
+      }
+    ],
+    "sourceIds": [
+      "381"
+    ],
+    "searchNames": [
+      "liyan",
+      "李严",
+      "李嚴"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-764",
+        "name": "督粮",
+        "displayName": {
+          "zhHans": "督粮",
+          "zhHant": "督糧"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liyan/groups/spell-764.json"
+      },
+      {
+        "slug": "spell-765",
+        "name": "腹鳞",
+        "displayName": {
+          "zhHans": "腹鳞",
+          "zhHant": "腹鱗"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liyan/groups/spell-765.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-38105",
+        "name": "与亮相左",
+        "displayName": {
+          "zhHans": "与亮相左",
+          "zhHant": "與亮相左"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liyan/skins/skin-38105.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-38103",
+        "name": "自信不疑",
+        "displayName": {
+          "zhHans": "自信不疑",
+          "zhHant": "自信不疑"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liyan/skins/skin-38103.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liyan.json",
+      "groups": "api/v1/tts/characters/liyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liyan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-765",
+    "name": "腹鳞",
+    "displayName": {
+      "zhHans": "腹鳞",
+      "zhHant": "腹鱗"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/liyan/groups/spell-765.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "liyan--381liyan--4skill2_1",
+      "resourceId": "381liyan/4skill2_1",
+      "text": "哼，同为托孤之臣，诸葛氏欺我太甚！",
+      "textLocalized": {
+        "zhHans": "哼，同为托孤之臣，诸葛氏欺我太甚！",
+        "zhHant": "哼，同爲託孤之臣，諸葛氏欺我太甚！"
+      },
+      "group": {
+        "slug": "spell-765",
+        "name": "腹鳞",
+        "displayName": {
+          "zhHans": "腹鳞",
+          "zhHant": "腹鱗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38105",
+          "name": "与亮相左",
+          "displayName": {
+            "zhHans": "与亮相左",
+            "zhHant": "與亮相左"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/381liyan-d2945e5c/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/381liyan/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyan--381liyan--4skill2_2",
+      "resourceId": "381liyan/4skill2_2",
+      "text": "看我误了你的大事！",
+      "textLocalized": {
+        "zhHans": "看我误了你的大事！",
+        "zhHant": "看我誤了你的大事！"
+      },
+      "group": {
+        "slug": "spell-765",
+        "name": "腹鳞",
+        "displayName": {
+          "zhHans": "腹鳞",
+          "zhHant": "腹鱗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38105",
+          "name": "与亮相左",
+          "displayName": {
+            "zhHans": "与亮相左",
+            "zhHant": "與亮相左"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/381liyan-d2945e5c/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/381liyan/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyan--381liyan--1skill2_1",
+      "resourceId": "381liyan/1skill2_1",
+      "text": "丞相丞相，你没看见我吗？",
+      "textLocalized": {
+        "zhHans": "丞相丞相，你没看见我吗？",
+        "zhHant": "丞相丞相，你沒看見我嗎？"
+      },
+      "group": {
+        "slug": "spell-765",
+        "name": "腹鳞",
+        "displayName": {
+          "zhHans": "腹鳞",
+          "zhHant": "腹鱗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/381liyan-d2945e5c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/381liyan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyan--381liyan--1skill2_2",
+      "resourceId": "381liyan/1skill2_2",
+      "text": "我乃托孤重臣，却在这搞什么粮草！",
+      "textLocalized": {
+        "zhHans": "我乃托孤重臣，却在这搞什么粮草！",
+        "zhHant": "我乃託孤重臣，卻在這搞什麼糧草！"
+      },
+      "group": {
+        "slug": "spell-765",
+        "name": "腹鳞",
+        "displayName": {
+          "zhHans": "腹鳞",
+          "zhHant": "腹鱗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/381liyan-d2945e5c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/381liyan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyan--381liyan--3skill2_1",
+      "resourceId": "381liyan/3skill2_1",
+      "text": "多一点真诚，少一些套路！",
+      "textLocalized": {
+        "zhHans": "多一点真诚，少一些套路！",
+        "zhHant": "多一點真誠，少一些套路！"
+      },
+      "group": {
+        "slug": "spell-765",
+        "name": "腹鳞",
+        "displayName": {
+          "zhHans": "腹鳞",
+          "zhHant": "腹鱗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38103",
+          "name": "自信不疑",
+          "displayName": {
+            "zhHans": "自信不疑",
+            "zhHant": "自信不疑"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/381liyan-d2945e5c/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/381liyan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyan--381liyan--3skill2_2",
+      "resourceId": "381liyan/3skill2_2",
+      "text": "我就是心眼儿小，怎么着！",
+      "textLocalized": {
+        "zhHans": "我就是心眼儿小，怎么着！",
+        "zhHant": "我就是心眼兒小，怎麼着！"
+      },
+      "group": {
+        "slug": "spell-765",
+        "name": "腹鳞",
+        "displayName": {
+          "zhHans": "腹鳞",
+          "zhHant": "腹鱗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38103",
+          "name": "自信不疑",
+          "displayName": {
+            "zhHans": "自信不疑",
+            "zhHant": "自信不疑"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/381liyan-d2945e5c/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/381liyan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

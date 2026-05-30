@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b9fde5e508682c1ce09da6863032b3730af100992793a65d6b2d07bef7d3f355
-size 7976
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangyan",
+    "command": "yangyan",
+    "name": "杨艳",
+    "displayName": {
+      "zhHans": "杨艳",
+      "zhHant": "楊豔"
+    },
+    "names": [
+      "杨艳"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨艳",
+        "zhHant": "楊豔"
+      }
+    ],
+    "ids": [
+      "7016"
+    ],
+    "sourceNames": [
+      "杨艳"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨艳",
+        "zhHant": "楊豔"
+      }
+    ],
+    "sourceIds": [
+      "7016"
+    ],
+    "searchNames": [
+      "yangyan",
+      "杨艳",
+      "楊豔"
+    ],
+    "lineCount": 13,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yangyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3038",
+        "name": "选备",
+        "displayName": {
+          "zhHans": "选备",
+          "zhHant": "選備"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyan/groups/spell-3038.json"
+      },
+      {
+        "slug": "spell-3039",
+        "name": "娴婉",
+        "displayName": {
+          "zhHans": "娴婉",
+          "zhHant": "嫺婉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyan/groups/spell-3039.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "701603",
+        "name": "701603",
+        "displayName": {
+          "zhHans": "701603",
+          "zhHant": "701603"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yangyan/skins/701603.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-701602",
+        "name": "妍芷艳质",
+        "displayName": {
+          "zhHans": "妍芷艳质",
+          "zhHant": "妍芷豔質"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyan/skins/skin-701602.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yangyan.json",
+      "groups": "api/v1/tts/characters/yangyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yangyan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/yangyan/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "yangyan--7016yangyan--1dead01",
+      "resourceId": "7016yangyan/1dead01",
+      "text": "一旦殂陨，痛悼伤怀。",
+      "textLocalized": {
+        "zhHans": "一旦殂陨，痛悼伤怀。",
+        "zhHant": "一旦殂隕，痛悼傷懷。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7016yangyan-021c9722/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7016yangyan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyan--7016yangyan--1skill1_1",
+      "resourceId": "7016yangyan/1skill1_1",
+      "text": "博选良家，以充后宫。",
+      "textLocalized": {
+        "zhHans": "博选良家，以充后宫。",
+        "zhHant": "博選良家，以充後宮。"
+      },
+      "group": {
+        "slug": "spell-3038",
+        "name": "选备",
+        "displayName": {
+          "zhHans": "选备",
+          "zhHant": "選備"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7016yangyan-021c9722/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7016yangyan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyan--7016yangyan--1skill1_2",
+      "resourceId": "7016yangyan/1skill1_2",
+      "text": "非良家，不可选也。",
+      "textLocalized": {
+        "zhHans": "非良家，不可选也。",
+        "zhHant": "非良家，不可選也。"
+      },
+      "group": {
+        "slug": "spell-3038",
+        "name": "选备",
+        "displayName": {
+          "zhHans": "选备",
+          "zhHant": "選備"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7016yangyan-021c9722/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7016yangyan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyan--7016yangyan--1skill2_1",
+      "resourceId": "7016yangyan/1skill2_1",
+      "text": "婉而从物，不竞不争。",
+      "textLocalized": {
+        "zhHans": "婉而从物，不竞不争。",
+        "zhHant": "婉而從物，不競不爭。"
+      },
+      "group": {
+        "slug": "spell-3039",
+        "name": "娴婉",
+        "displayName": {
+          "zhHans": "娴婉",
+          "zhHant": "嫺婉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7016yangyan-021c9722/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7016yangyan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyan--7016yangyan--1skill2_2",
+      "resourceId": "7016yangyan/1skill2_2",
+      "text": "娴婉恭谨，重贤加礼。",
+      "textLocalized": {
+        "zhHans": "娴婉恭谨，重贤加礼。",
+        "zhHant": "嫺婉恭謹，重賢加禮。"
+      },
+      "group": {
+        "slug": "spell-3039",
+        "name": "娴婉",
+        "displayName": {
+          "zhHans": "娴婉",
+          "zhHant": "嫺婉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7016yangyan-021c9722/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7016yangyan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

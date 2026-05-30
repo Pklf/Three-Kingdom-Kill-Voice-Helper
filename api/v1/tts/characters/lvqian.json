@@ -1,3 +1,456 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0a797a26e76fe3a2ee30596a7957a77949842a9c41d0aacc8a569bde6d9ada57
-size 12801
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "lvqian",
+    "command": "lvqian",
+    "name": "吕虔",
+    "displayName": {
+      "zhHans": "吕虔",
+      "zhHant": "呂虔"
+    },
+    "names": [
+      "吕虔"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "吕虔",
+        "zhHant": "呂虔"
+      }
+    ],
+    "ids": [
+      "432"
+    ],
+    "sourceNames": [
+      "吕虔"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "吕虔",
+        "zhHant": "呂虔"
+      }
+    ],
+    "sourceIds": [
+      "432"
+    ],
+    "searchNames": [
+      "lvqian",
+      "吕虔",
+      "呂虔"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lvqian/groups/dead.json"
+      },
+      {
+        "slug": "spell-912",
+        "name": "威虏",
+        "displayName": {
+          "zhHans": "威虏",
+          "zhHant": "威虜"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lvqian/groups/spell-912.json"
+      },
+      {
+        "slug": "spell-913",
+        "name": "赠刀",
+        "displayName": {
+          "zhHans": "赠刀",
+          "zhHant": "贈刀"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lvqian/groups/spell-913.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lvqian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43201",
+        "name": "驻守湖陆",
+        "displayName": {
+          "zhHans": "驻守湖陆",
+          "zhHant": "駐守湖陸"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lvqian/skins/skin-43201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lvqian.json",
+      "groups": "api/v1/tts/characters/lvqian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lvqian/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "lvqian--432lvqian--1dead01",
+      "resourceId": "432lvqian/1dead01",
+      "text": "我自泰山郡以来，百姓获安，镇军伐贼。|此生，已无憾！",
+      "textLocalized": {
+        "zhHans": "我自泰山郡以来，百姓获安，镇军伐贼。|此生，已无憾！",
+        "zhHant": "我自泰山郡以來，百姓獲安，鎮軍伐賊。|此生，已無憾！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvqian--432lvqian--4dead01",
+      "resourceId": "432lvqian/4dead01",
+      "text": "匪患未平，死不瞑目。",
+      "textLocalized": {
+        "zhHans": "匪患未平，死不瞑目。",
+        "zhHant": "匪患未平，死不瞑目。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43201",
+          "name": "驻守湖陆",
+          "displayName": {
+            "zhHans": "驻守湖陆",
+            "zhHant": "駐守湖陸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvqian--432lvqian--1skill1_1",
+      "resourceId": "432lvqian/1skill1_1",
+      "text": "贼人势大，须从长计议。",
+      "textLocalized": {
+        "zhHans": "贼人势大，须从长计议。",
+        "zhHant": "賊人勢大，須從長計議。"
+      },
+      "group": {
+        "slug": "spell-912",
+        "name": "威虏",
+        "displayName": {
+          "zhHans": "威虏",
+          "zhHant": "威虜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvqian--432lvqian--1skill1_2",
+      "resourceId": "432lvqian/1skill1_2",
+      "text": "时机未到，先行撤退。",
+      "textLocalized": {
+        "zhHans": "时机未到，先行撤退。",
+        "zhHant": "時機未到，先行撤退。"
+      },
+      "group": {
+        "slug": "spell-912",
+        "name": "威虏",
+        "displayName": {
+          "zhHans": "威虏",
+          "zhHant": "威虜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvqian--432lvqian--4skill1_1",
+      "resourceId": "432lvqian/4skill1_1",
+      "text": "忍一时之痛，奋破虏之威。",
+      "textLocalized": {
+        "zhHans": "忍一时之痛，奋破虏之威。",
+        "zhHant": "忍一時之痛，奮破虜之威。"
+      },
+      "group": {
+        "slug": "spell-912",
+        "name": "威虏",
+        "displayName": {
+          "zhHans": "威虏",
+          "zhHant": "威虜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43201",
+          "name": "驻守湖陆",
+          "displayName": {
+            "zhHans": "驻守湖陆",
+            "zhHant": "駐守湖陸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvqian--432lvqian--4skill1_2",
+      "resourceId": "432lvqian/4skill1_2",
+      "text": "汝恶贯满盈，当秋后问斩。",
+      "textLocalized": {
+        "zhHans": "汝恶贯满盈，当秋后问斩。",
+        "zhHant": "汝惡貫滿盈，當秋後問斬。"
+      },
+      "group": {
+        "slug": "spell-912",
+        "name": "威虏",
+        "displayName": {
+          "zhHans": "威虏",
+          "zhHant": "威虜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43201",
+          "name": "驻守湖陆",
+          "displayName": {
+            "zhHans": "驻守湖陆",
+            "zhHant": "駐守湖陸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvqian--432lvqian--1skill2_1",
+      "resourceId": "432lvqian/1skill2_1",
+      "text": "有功赏之，有过罚之。",
+      "textLocalized": {
+        "zhHans": "有功赏之，有过罚之。",
+        "zhHant": "有功賞之，有過罰之。"
+      },
+      "group": {
+        "slug": "spell-913",
+        "name": "赠刀",
+        "displayName": {
+          "zhHans": "赠刀",
+          "zhHant": "贈刀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvqian--432lvqian--1skill2_2",
+      "resourceId": "432lvqian/1skill2_2",
+      "text": "治军之道，功过分明。",
+      "textLocalized": {
+        "zhHans": "治军之道，功过分明。",
+        "zhHant": "治軍之道，功過分明。"
+      },
+      "group": {
+        "slug": "spell-913",
+        "name": "赠刀",
+        "displayName": {
+          "zhHans": "赠刀",
+          "zhHant": "贈刀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvqian--432lvqian--4skill2_1",
+      "resourceId": "432lvqian/4skill2_1",
+      "text": "此刀，上承天运，当有德者得之。",
+      "textLocalized": {
+        "zhHans": "此刀，上承天运，当有德者得之。",
+        "zhHant": "此刀，上承天運，當有德者得之。"
+      },
+      "group": {
+        "slug": "spell-913",
+        "name": "赠刀",
+        "displayName": {
+          "zhHans": "赠刀",
+          "zhHant": "贈刀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43201",
+          "name": "驻守湖陆",
+          "displayName": {
+            "zhHans": "驻守湖陆",
+            "zhHant": "駐守湖陸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvqian--432lvqian--4skill2_2",
+      "resourceId": "432lvqian/4skill2_2",
+      "text": "卿非池中物，宝刀赠英雄。",
+      "textLocalized": {
+        "zhHans": "卿非池中物，宝刀赠英雄。",
+        "zhHant": "卿非池中物，寶刀贈英雄。"
+      },
+      "group": {
+        "slug": "spell-913",
+        "name": "赠刀",
+        "displayName": {
+          "zhHans": "赠刀",
+          "zhHant": "贈刀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43201",
+          "name": "驻守湖陆",
+          "displayName": {
+            "zhHans": "驻守湖陆",
+            "zhHant": "駐守湖陸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/432lvqian-670196c8/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/432lvqian/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

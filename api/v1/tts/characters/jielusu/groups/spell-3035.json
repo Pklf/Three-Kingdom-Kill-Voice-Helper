@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:be6b761efce8d9aff27a812d1046ef6f55cd20ee78976a6e1ac19cb9c473926f
-size 7899
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jielusu",
+    "command": "jielusu",
+    "name": "界鲁肃",
+    "displayName": {
+      "zhHans": "界鲁肃",
+      "zhHant": "界魯肅"
+    },
+    "names": [
+      "界鲁肃",
+      "鲁肃"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界鲁肃",
+        "zhHant": "界魯肅"
+      },
+      {
+        "zhHans": "鲁肃",
+        "zhHant": "魯肅"
+      }
+    ],
+    "ids": [
+      "485",
+      "49"
+    ],
+    "sourceNames": [
+      "界鲁肃",
+      "鲁肃"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界鲁肃",
+        "zhHant": "界魯肅"
+      },
+      {
+        "zhHans": "鲁肃",
+        "zhHant": "魯肅"
+      }
+    ],
+    "sourceIds": [
+      "485",
+      "49"
+    ],
+    "searchNames": [
+      "jielusu",
+      "界鲁肃",
+      "界魯肅",
+      "鲁肃",
+      "魯肅"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/dead.json"
+      },
+      {
+        "slug": "spell-120-3035",
+        "name": "好施",
+        "displayName": {
+          "zhHans": "好施",
+          "zhHant": "好施"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/spell-120-3035.json"
+      },
+      {
+        "slug": "spell-121-3036",
+        "name": "缔盟",
+        "displayName": {
+          "zhHans": "缔盟",
+          "zhHant": "締盟"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/spell-121-3036.json"
+      },
+      {
+        "slug": "spell-3035",
+        "name": "好施",
+        "displayName": {
+          "zhHans": "好施",
+          "zhHant": "好施"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/spell-3035.json"
+      },
+      {
+        "slug": "spell-3036",
+        "name": "缔盟",
+        "displayName": {
+          "zhHans": "缔盟",
+          "zhHant": "締盟"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jielusu/groups/spell-3036.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-48502",
+        "name": "兰舟品琼",
+        "displayName": {
+          "zhHans": "兰舟品琼",
+          "zhHant": "蘭舟品瓊"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielusu/skins/skin-48502.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielusu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-48501",
+        "name": "渡江赴会",
+        "displayName": {
+          "zhHans": "渡江赴会",
+          "zhHant": "渡江赴會"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielusu/skins/skin-48501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jielusu.json",
+      "groups": "api/v1/tts/characters/jielusu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jielusu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3035",
+    "name": "好施",
+    "displayName": {
+      "zhHans": "好施",
+      "zhHant": "好施"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/jielusu/groups/spell-3035.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "jielusu--485jielusu--1skill1_1",
+      "resourceId": "485jielusu/1skill1_1",
+      "text": "仗义疏财，深得人心。",
+      "textLocalized": {
+        "zhHans": "仗义疏财，深得人心。",
+        "zhHant": "仗義疏財，深得人心。"
+      },
+      "group": {
+        "slug": "spell-3035",
+        "name": "好施",
+        "displayName": {
+          "zhHans": "好施",
+          "zhHant": "好施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/485jielusu-98112823/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/485jielusu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielusu--485jielusu--1skill1_2",
+      "resourceId": "485jielusu/1skill1_2",
+      "text": "招聚少年，给其衣食。",
+      "textLocalized": {
+        "zhHans": "招聚少年，给其衣食。",
+        "zhHant": "招聚少年，給其衣食。"
+      },
+      "group": {
+        "slug": "spell-3035",
+        "name": "好施",
+        "displayName": {
+          "zhHans": "好施",
+          "zhHant": "好施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/485jielusu-98112823/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/485jielusu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielusu--485jielusu--2skill1_1",
+      "resourceId": "485jielusu/2skill1_1",
+      "text": "摽卖田地,以赈穷弊。",
+      "textLocalized": {
+        "zhHans": "摽卖田地,以赈穷弊。",
+        "zhHant": "摽賣田地,以賑窮弊。"
+      },
+      "group": {
+        "slug": "spell-3035",
+        "name": "好施",
+        "displayName": {
+          "zhHans": "好施",
+          "zhHant": "好施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48501",
+          "name": "渡江赴会",
+          "displayName": {
+            "zhHans": "渡江赴会",
+            "zhHant": "渡江赴會"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/485jielusu-98112823/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/485jielusu/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielusu--485jielusu--2skill1_2",
+      "resourceId": "485jielusu/2skill1_2",
+      "text": "大散财货，以结士为务。",
+      "textLocalized": {
+        "zhHans": "大散财货，以结士为务。",
+        "zhHant": "大散財貨，以結士爲務。"
+      },
+      "group": {
+        "slug": "spell-3035",
+        "name": "好施",
+        "displayName": {
+          "zhHans": "好施",
+          "zhHant": "好施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48501",
+          "name": "渡江赴会",
+          "displayName": {
+            "zhHans": "渡江赴会",
+            "zhHant": "渡江赴會"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/485jielusu-98112823/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/485jielusu/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

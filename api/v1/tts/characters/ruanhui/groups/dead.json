@@ -1,3 +1,139 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0d1dbcbc53243b51a6100bdb7efcee39e7a76313d5fe243d0ed28d0d7281731b
-size 3392
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "ruanhui",
+    "command": "ruanhui",
+    "name": "阮慧",
+    "displayName": {
+      "zhHans": "阮慧",
+      "zhHant": "阮慧"
+    },
+    "names": [
+      "阮慧"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阮慧",
+        "zhHant": "阮慧"
+      }
+    ],
+    "ids": [
+      "657"
+    ],
+    "sourceNames": [
+      "阮慧"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阮慧",
+        "zhHant": "阮慧"
+      }
+    ],
+    "sourceIds": [
+      "657"
+    ],
+    "searchNames": [
+      "ruanhui",
+      "阮慧"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/ruanhui/groups/dead.json"
+      },
+      {
+        "slug": "spell-3558",
+        "name": "明察",
+        "displayName": {
+          "zhHans": "明察",
+          "zhHant": "明察"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/ruanhui/groups/spell-3558.json"
+      },
+      {
+        "slug": "spell-3559",
+        "name": "敬重",
+        "displayName": {
+          "zhHans": "敬重",
+          "zhHant": "敬重"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/ruanhui/groups/spell-3559.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruanhui/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/ruanhui.json",
+      "groups": "api/v1/tts/characters/ruanhui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/ruanhui/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/ruanhui/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "ruanhui--657ruanhui--1dead01",
+      "resourceId": "657ruanhui/1dead01",
+      "text": "贱妾茕茕守空房，忧来思君不敢忘",
+      "textLocalized": {
+        "zhHans": "贱妾茕茕守空房，忧来思君不敢忘",
+        "zhHant": "賤妾煢煢守空房，憂來思君不敢忘"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/657ruanhui-a2218e28/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/657ruanhui/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,546 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:57aee04e6bbd8b268c18f41bfc2e43d77feda58e9f0e5a383d1313c2c068441d
-size 15533
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangji",
+    "command": "wangji",
+    "name": "王基",
+    "displayName": {
+      "zhHans": "王基",
+      "zhHant": "王基"
+    },
+    "names": [
+      "王基"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王基",
+        "zhHant": "王基"
+      }
+    ],
+    "ids": [
+      "362"
+    ],
+    "sourceNames": [
+      "王基"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王基",
+        "zhHant": "王基"
+      }
+    ],
+    "sourceIds": [
+      "362"
+    ],
+    "searchNames": [
+      "wangji",
+      "王基"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangji/groups/dead.json"
+      },
+      {
+        "slug": "spell-273",
+        "name": "奇制",
+        "displayName": {
+          "zhHans": "奇制",
+          "zhHant": "奇制"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wangji/groups/spell-273.json"
+      },
+      {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wangji/groups/spell-274.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-36202",
+        "name": "傲雪凌霜",
+        "displayName": {
+          "zhHans": "傲雪凌霜",
+          "zhHant": "傲雪凌霜"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangji/skins/skin-36202.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-36203",
+        "name": "时之彦士",
+        "displayName": {
+          "zhHans": "时之彦士",
+          "zhHant": "時之彥士"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangji/skins/skin-36203.json"
+      },
+      {
+        "slug": "skin-36208",
+        "name": "清奢明水",
+        "displayName": {
+          "zhHans": "清奢明水",
+          "zhHant": "清奢明水"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangji/skins/skin-36208.json"
+      },
+      {
+        "slug": "skin-36206",
+        "name": "清雅止奢",
+        "displayName": {
+          "zhHans": "清雅止奢",
+          "zhHant": "清雅止奢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangji/skins/skin-36206.json"
+      },
+      {
+        "slug": "skin-36201",
+        "name": "著德立勋",
+        "displayName": {
+          "zhHans": "著德立勋",
+          "zhHant": "著德立勳"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangji/skins/skin-36201.json"
+      },
+      {
+        "slug": "skin-36201-36206",
+        "name": "著德立勋,清雅止奢",
+        "displayName": {
+          "zhHans": "著德立勋,清雅止奢",
+          "zhHant": "著德立勳,清雅止奢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangji/skins/skin-36201-36206.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangji.json",
+      "groups": "api/v1/tts/characters/wangji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-274",
+    "name": "进趋",
+    "displayName": {
+      "zhHans": "进趋",
+      "zhHant": "進趨"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/wangji/groups/spell-274.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "wangji--362wangji--4skill2_1",
+      "resourceId": "362wangji/4skill2_1",
+      "text": "先为不可胜，以待敌之可胜。",
+      "textLocalized": {
+        "zhHans": "先为不可胜，以待敌之可胜。",
+        "zhHant": "先爲不可勝，以待敵之可勝。"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36202",
+          "name": "傲雪凌霜",
+          "displayName": {
+            "zhHans": "傲雪凌霜",
+            "zhHant": "傲雪凌霜"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangji--362wangji--4skill2_2",
+      "resourceId": "362wangji/4skill2_2",
+      "text": "以蚕食之计，吞顽抗之敌。",
+      "textLocalized": {
+        "zhHans": "以蚕食之计，吞顽抗之敌。",
+        "zhHant": "以蠶食之計，吞頑抗之敵。"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36202",
+          "name": "傲雪凌霜",
+          "displayName": {
+            "zhHans": "傲雪凌霜",
+            "zhHant": "傲雪凌霜"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangji--362wangji--1skill2_1",
+      "resourceId": "362wangji/1skill2_1",
+      "text": "建上昶[chǎng]水城，以逼夏口。",
+      "textLocalized": {
+        "zhHans": "建上昶[chǎng]水城，以逼夏口。",
+        "zhHant": "建上昶[chǎng]水城，以逼夏口。"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangji--362wangji--1skill2_2",
+      "resourceId": "362wangji/1skill2_2",
+      "text": "通川聚粮，伐吴之业，当步步为营。",
+      "textLocalized": {
+        "zhHans": "通川聚粮，伐吴之业，当步步为营。",
+        "zhHant": "通川聚糧，伐吳之業，當步步爲營。"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangji--362wangji--5skill2_1",
+      "resourceId": "362wangji/5skill2_1",
+      "text": "万不可贻误战机！",
+      "textLocalized": {
+        "zhHans": "万不可贻误战机！",
+        "zhHant": "萬不可貽誤戰機！"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36203",
+          "name": "时之彦士",
+          "displayName": {
+            "zhHans": "时之彦士",
+            "zhHant": "時之彥士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangji--362wangji--5skill2_2",
+      "resourceId": "362wangji/5skill2_2",
+      "text": "此时不战，更待何时。",
+      "textLocalized": {
+        "zhHans": "此时不战，更待何时。",
+        "zhHant": "此時不戰，更待何時。"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36203",
+          "name": "时之彦士",
+          "displayName": {
+            "zhHans": "时之彦士",
+            "zhHant": "時之彥士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangji--362wangji--6skill2_1",
+      "resourceId": "362wangji/6skill2_1",
+      "text": "拒天诛者意沮，而向王化者益固。",
+      "textLocalized": {
+        "zhHans": "拒天诛者意沮，而向王化者益固。",
+        "zhHant": "拒天誅者意沮，而向王化者益固。"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36208",
+          "name": "清奢明水",
+          "displayName": {
+            "zhHans": "清奢明水",
+            "zhHant": "清奢明水"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangji--362wangji--6skill2_2",
+      "resourceId": "362wangji/6skill2_2",
+      "text": "志正则众邪不生，心静则众事不躁。",
+      "textLocalized": {
+        "zhHans": "志正则众邪不生，心静则众事不躁。",
+        "zhHant": "志正則衆邪不生，心靜則衆事不躁。"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36208",
+          "name": "清奢明水",
+          "displayName": {
+            "zhHans": "清奢明水",
+            "zhHant": "清奢明水"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangji--362wangji--3skill2_1",
+      "resourceId": "362wangji/3skill2_1",
+      "text": "围垒集兵，精修守备。",
+      "textLocalized": {
+        "zhHans": "围垒集兵，精修守备。",
+        "zhHant": "圍壘集兵，精修守備。"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36206",
+          "name": "清雅止奢",
+          "displayName": {
+            "zhHans": "清雅止奢",
+            "zhHant": "清雅止奢"
+          }
+        },
+        {
+          "slug": "skin-36201",
+          "name": "著德立勋",
+          "displayName": {
+            "zhHans": "著德立勋",
+            "zhHant": "著德立勳"
+          }
+        },
+        {
+          "slug": "skin-36201-36206",
+          "name": "著德立勋,清雅止奢",
+          "displayName": {
+            "zhHans": "著德立勋,清雅止奢",
+            "zhHant": "著德立勳,清雅止奢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangji--362wangji--3skill2_2",
+      "resourceId": "362wangji/3skill2_2",
+      "text": "据此方寸之地，可期江东千里。",
+      "textLocalized": {
+        "zhHans": "据此方寸之地，可期江东千里。",
+        "zhHant": "據此方寸之地，可期江東千里。"
+      },
+      "group": {
+        "slug": "spell-274",
+        "name": "进趋",
+        "displayName": {
+          "zhHans": "进趋",
+          "zhHant": "進趨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36206",
+          "name": "清雅止奢",
+          "displayName": {
+            "zhHans": "清雅止奢",
+            "zhHant": "清雅止奢"
+          }
+        },
+        {
+          "slug": "skin-36201",
+          "name": "著德立勋",
+          "displayName": {
+            "zhHans": "著德立勋",
+            "zhHant": "著德立勳"
+          }
+        },
+        {
+          "slug": "skin-36201-36206",
+          "name": "著德立勋,清雅止奢",
+          "displayName": {
+            "zhHans": "著德立勋,清雅止奢",
+            "zhHant": "著德立勳,清雅止奢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/362wangji-81c98471/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/362wangji/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,140 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e5bca4035e07e6f7d102d89c5eae84ab919c6657934a4c9e874d696c3de5e169
-size 3549
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chengjichengcui",
+    "command": "chengjichengcui",
+    "name": "成济成倅",
+    "displayName": {
+      "zhHans": "成济成倅",
+      "zhHant": "成濟成倅"
+    },
+    "names": [
+      "成济成倅"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "成济成倅",
+        "zhHant": "成濟成倅"
+      }
+    ],
+    "ids": [
+      "551"
+    ],
+    "sourceNames": [
+      "成济成倅"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "成济成倅",
+        "zhHant": "成濟成倅"
+      }
+    ],
+    "sourceIds": [
+      "551"
+    ],
+    "searchNames": [
+      "chengjichengcui",
+      "成济成倅",
+      "成濟成倅"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chengjichengcui/groups/dead.json"
+      },
+      {
+        "slug": "spell-3270",
+        "name": "透髓",
+        "displayName": {
+          "zhHans": "透髓",
+          "zhHant": "透髓"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/chengjichengcui/groups/spell-3270.json"
+      },
+      {
+        "slug": "spell-3271",
+        "name": "畜鸣",
+        "displayName": {
+          "zhHans": "畜鸣",
+          "zhHant": "畜鳴"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/chengjichengcui/groups/spell-3271.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengjichengcui/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chengjichengcui.json",
+      "groups": "api/v1/tts/characters/chengjichengcui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chengjichengcui/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/chengjichengcui/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "chengjichengcui--551chengjichengcui--1dead01",
+      "resourceId": "551chengjichengcui/1dead01",
+      "text": "今为贼子贾充所害！",
+      "textLocalized": {
+        "zhHans": "今为贼子贾充所害！",
+        "zhHant": "今爲賊子賈充所害！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/551chengjichengcui-cacea92b/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/551chengjichengcui/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

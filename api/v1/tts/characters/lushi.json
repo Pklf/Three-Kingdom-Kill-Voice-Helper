@@ -1,3 +1,826 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ba8f4e9048638bed485bbe7728b34eb37d5afa547ee760291e2e5a384cf594e4
-size 24117
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "lushi",
+    "command": "lushi",
+    "name": "卢氏",
+    "displayName": {
+      "zhHans": "卢氏",
+      "zhHant": "盧氏"
+    },
+    "names": [
+      "卢氏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卢氏",
+        "zhHant": "盧氏"
+      }
+    ],
+    "ids": [
+      "539"
+    ],
+    "sourceNames": [
+      "卢氏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卢氏",
+        "zhHant": "盧氏"
+      }
+    ],
+    "sourceIds": [
+      "539"
+    ],
+    "searchNames": [
+      "lushi",
+      "卢氏",
+      "盧氏"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lushi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lushi/groups/spell-3230.json"
+      },
+      {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lushi/groups/spell-3231.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-53903",
+        "name": "浣溪布泽",
+        "displayName": {
+          "zhHans": "浣溪布泽",
+          "zhHant": "浣溪布澤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-53903.json"
+      },
+      {
+        "slug": "skin-53901",
+        "name": "蝶恋清幔",
+        "displayName": {
+          "zhHans": "蝶恋清幔",
+          "zhHant": "蝶戀清幔"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-53901.json"
+      },
+      {
+        "slug": "skin-53902",
+        "name": "金桂月华",
+        "displayName": {
+          "zhHans": "金桂月华",
+          "zhHant": "金桂月華"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-53902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lushi.json",
+      "groups": "api/v1/tts/characters/lushi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lushi/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 20,
+  "lines": [
+    {
+      "id": "lushi--539lushi--1dead01",
+      "resourceId": "539lushi/1dead01",
+      "text": "人世寻大道，何其愚也。",
+      "textLocalized": {
+        "zhHans": "人世寻大道，何其愚也。",
+        "zhHant": "人世尋大道，何其愚也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--4dead01",
+      "resourceId": "539lushi/4dead01",
+      "text": "莫言之道，其无声亦无迹。",
+      "textLocalized": {
+        "zhHans": "莫言之道，其无声亦无迹。",
+        "zhHant": "莫言之道，其無聲亦無跡。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53903",
+          "name": "浣溪布泽",
+          "displayName": {
+            "zhHans": "浣溪布泽",
+            "zhHant": "浣溪布澤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--2dead01",
+      "resourceId": "539lushi/2dead01",
+      "text": "人生百年，不过草木一秋耳。",
+      "textLocalized": {
+        "zhHans": "人生百年，不过草木一秋耳。",
+        "zhHant": "人生百年，不過草木一秋耳。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53901",
+          "name": "蝶恋清幔",
+          "displayName": {
+            "zhHans": "蝶恋清幔",
+            "zhHant": "蝶戀清幔"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--3dead01",
+      "resourceId": "539lushi/3dead01",
+      "text": "此岁团圆，愿岁岁皆团圆。",
+      "textLocalized": {
+        "zhHans": "此岁团圆，愿岁岁皆团圆。",
+        "zhHant": "此歲團圓，願歲歲皆團圓。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53902",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--1skill1_1",
+      "resourceId": "539lushi/1skill1_1",
+      "text": "心有灵犀，面如不老之椿[chūn]。",
+      "textLocalized": {
+        "zhHans": "心有灵犀，面如不老之椿[chūn]。",
+        "zhHant": "心有靈犀，面如不老之椿[chūn]。"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--1skill1_2",
+      "resourceId": "539lushi/1skill1_2",
+      "text": "驻颜有术，此间永得芳容。",
+      "textLocalized": {
+        "zhHans": "驻颜有术，此间永得芳容。",
+        "zhHant": "駐顏有術，此間永得芳容。"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--4skill1_1",
+      "resourceId": "539lushi/4skill1_1",
+      "text": "世间多慕卿之鲫，羡风花而葬雪月。",
+      "textLocalized": {
+        "zhHans": "世间多慕卿之鲫，羡风花而葬雪月。",
+        "zhHant": "世間多慕卿之鯽，羨風花而葬雪月。"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53903",
+          "name": "浣溪布泽",
+          "displayName": {
+            "zhHans": "浣溪布泽",
+            "zhHant": "浣溪布澤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--4skill1_2",
+      "resourceId": "539lushi/4skill1_2",
+      "text": "尔等既慕长生，可愿皈依大道、常伴青灯？",
+      "textLocalized": {
+        "zhHans": "尔等既慕长生，可愿皈依大道、常伴青灯？",
+        "zhHant": "爾等既慕長生，可願皈依大道、常伴青燈？"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53903",
+          "name": "浣溪布泽",
+          "displayName": {
+            "zhHans": "浣溪布泽",
+            "zhHant": "浣溪布澤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--2skill1_1",
+      "resourceId": "539lushi/2skill1_1",
+      "text": "诸君皆慕长生，然长生可胜长青否？",
+      "textLocalized": {
+        "zhHans": "诸君皆慕长生，然长生可胜长青否？",
+        "zhHant": "諸君皆慕長生，然長生可勝長青否？"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53901",
+          "name": "蝶恋清幔",
+          "displayName": {
+            "zhHans": "蝶恋清幔",
+            "zhHant": "蝶戀清幔"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--2skill1_2",
+      "resourceId": "539lushi/2skill1_2",
+      "text": "麻姑不老，以此清丽之颜观遍沧海桑田。",
+      "textLocalized": {
+        "zhHans": "麻姑不老，以此清丽之颜观遍沧海桑田。",
+        "zhHant": "麻姑不老，以此清麗之顏觀遍滄海桑田。"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53901",
+          "name": "蝶恋清幔",
+          "displayName": {
+            "zhHans": "蝶恋清幔",
+            "zhHant": "蝶戀清幔"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--3skill1_1",
+      "resourceId": "539lushi/3skill1_1",
+      "text": "金秋明月常在，可照丹桂妆花黄。",
+      "textLocalized": {
+        "zhHans": "金秋明月常在，可照丹桂妆花黄。",
+        "zhHant": "金秋明月常在，可照丹桂妝花黃。"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53902",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--3skill1_2",
+      "resourceId": "539lushi/3skill1_2",
+      "text": "秋月驻人间，此岁如是、经年亦如是。",
+      "textLocalized": {
+        "zhHans": "秋月驻人间，此岁如是、经年亦如是。",
+        "zhHant": "秋月駐人間，此歲如是、經年亦如是。"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53902",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--1skill2_1",
+      "resourceId": "539lushi/1skill2_1",
+      "text": "雷劫锻体，清瘴涤魂。",
+      "textLocalized": {
+        "zhHans": "雷劫锻体，清瘴涤魂。",
+        "zhHant": "雷劫鍛體，清瘴滌魂。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--1skill2_2",
+      "resourceId": "539lushi/1skill2_2",
+      "text": "欲得长生，必受此劫。",
+      "textLocalized": {
+        "zhHans": "欲得长生，必受此劫。",
+        "zhHant": "欲得長生，必受此劫。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--4skill2_1",
+      "resourceId": "539lushi/4skill2_1",
+      "text": "我本欲渡天下人，奈何世间多草木。",
+      "textLocalized": {
+        "zhHans": "我本欲渡天下人，奈何世间多草木。",
+        "zhHant": "我本欲渡天下人，奈何世間多草木。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53903",
+          "name": "浣溪布泽",
+          "displayName": {
+            "zhHans": "浣溪布泽",
+            "zhHant": "浣溪布澤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--4skill2_2",
+      "resourceId": "539lushi/4skill2_2",
+      "text": "挽指篆符引天雷，此击可醒天下人。",
+      "textLocalized": {
+        "zhHans": "挽指篆符引天雷，此击可醒天下人。",
+        "zhHant": "挽指篆符引天雷，此擊可醒天下人。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53903",
+          "name": "浣溪布泽",
+          "displayName": {
+            "zhHans": "浣溪布泽",
+            "zhHant": "浣溪布澤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--2skill2_1",
+      "resourceId": "539lushi/2skill2_1",
+      "text": "凡世皆苦，不锻难升，今请降天雷。",
+      "textLocalized": {
+        "zhHans": "凡世皆苦，不锻难升，今请降天雷。",
+        "zhHant": "凡世皆苦，不鍛難升，今請降天雷。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53901",
+          "name": "蝶恋清幔",
+          "displayName": {
+            "zhHans": "蝶恋清幔",
+            "zhHant": "蝶戀清幔"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--2skill2_2",
+      "resourceId": "539lushi/2skill2_2",
+      "text": "静守明台，虽身罹[lí]天雷而犹怀清明。",
+      "textLocalized": {
+        "zhHans": "静守明台，虽身罹[lí]天雷而犹怀清明。",
+        "zhHant": "靜守明臺，雖身罹[lí]天雷而猶懷清明。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53901",
+          "name": "蝶恋清幔",
+          "displayName": {
+            "zhHans": "蝶恋清幔",
+            "zhHant": "蝶戀清幔"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--3skill2_1",
+      "resourceId": "539lushi/3skill2_1",
+      "text": "仲月畅宴何为乐？可唤惊雷舞于庭。",
+      "textLocalized": {
+        "zhHans": "仲月畅宴何为乐？可唤惊雷舞于庭。",
+        "zhHant": "仲月暢宴何爲樂？可喚驚雷舞於庭。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53902",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--3skill2_2",
+      "resourceId": "539lushi/3skill2_2",
+      "text": "历春雷、灼夏阳，如此方得秋月送桂香。",
+      "textLocalized": {
+        "zhHans": "历春雷、灼夏阳，如此方得秋月送桂香。",
+        "zhHant": "歷春雷、灼夏陽，如此方得秋月送桂香。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53902",
+          "name": "金桂月华",
+          "displayName": {
+            "zhHans": "金桂月华",
+            "zhHant": "金桂月華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

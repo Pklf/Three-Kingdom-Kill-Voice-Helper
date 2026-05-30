@@ -1,3 +1,541 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36e9cc7e2190c89ecba1604f7ef0b855574c8bc8801d0a060d5748c9385be6dd
-size 15463
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "mifuren",
+    "command": "mifuren",
+    "name": "糜夫人",
+    "displayName": {
+      "zhHans": "糜夫人",
+      "zhHant": "糜夫人"
+    },
+    "names": [
+      "糜夫人"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "糜夫人",
+        "zhHant": "糜夫人"
+      }
+    ],
+    "ids": [
+      "2070"
+    ],
+    "sourceNames": [
+      "糜夫人"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "糜夫人",
+        "zhHant": "糜夫人"
+      }
+    ],
+    "sourceIds": [
+      "2070"
+    ],
+    "searchNames": [
+      "mifuren",
+      "糜夫人"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/mifuren/groups/dead.json"
+      },
+      {
+        "slug": "spell-2129",
+        "name": "闺秀",
+        "displayName": {
+          "zhHans": "闺秀",
+          "zhHant": "閨秀"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/mifuren/groups/spell-2129.json"
+      },
+      {
+        "slug": "spell-2130",
+        "name": "存嗣",
+        "displayName": {
+          "zhHans": "存嗣",
+          "zhHant": "存嗣"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/mifuren/groups/spell-2130.json"
+      },
+      {
+        "slug": "spell-2131",
+        "name": "勇决",
+        "displayName": {
+          "zhHans": "勇决",
+          "zhHant": "勇決"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/mifuren/groups/spell-2131.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/mifuren/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-207006",
+        "name": "娇颜照水",
+        "displayName": {
+          "zhHans": "娇颜照水",
+          "zhHant": "嬌顏照水"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/mifuren/skins/skin-207006.json"
+      },
+      {
+        "slug": "skin-207008",
+        "name": "花卧轻舟",
+        "displayName": {
+          "zhHans": "花卧轻舟",
+          "zhHant": "花臥輕舟"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/mifuren/skins/skin-207008.json"
+      },
+      {
+        "slug": "skin-207001",
+        "name": "萧疏伊人",
+        "displayName": {
+          "zhHans": "萧疏伊人",
+          "zhHant": "蕭疏伊人"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/mifuren/skins/skin-207001.json"
+      },
+      {
+        "slug": "skin-207001-207008",
+        "name": "萧疏伊人,花卧轻舟",
+        "displayName": {
+          "zhHans": "萧疏伊人,花卧轻舟",
+          "zhHant": "蕭疏伊人,花臥輕舟"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/mifuren/skins/skin-207001-207008.json"
+      },
+      {
+        "slug": "skin-207005",
+        "name": "轻帘颜开",
+        "displayName": {
+          "zhHans": "轻帘颜开",
+          "zhHant": "輕簾顏開"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/mifuren/skins/skin-207005.json"
+      },
+      {
+        "slug": "skin-207005-207006",
+        "name": "轻帘颜开,娇颜照水",
+        "displayName": {
+          "zhHans": "轻帘颜开,娇颜照水",
+          "zhHant": "輕簾顏開,嬌顏照水"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/mifuren/skins/skin-207005-207006.json"
+      },
+      {
+        "slug": "skin-207002",
+        "name": "香消玉殒",
+        "displayName": {
+          "zhHans": "香消玉殒",
+          "zhHant": "香消玉殞"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/mifuren/skins/skin-207002.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/mifuren.json",
+      "groups": "api/v1/tts/characters/mifuren/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/mifuren/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-207005",
+    "name": "轻帘颜开",
+    "displayName": {
+      "zhHans": "轻帘颜开",
+      "zhHant": "輕簾顏開"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/mifuren/skins/skin-207005.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "mifuren--2070mifuren--5dead01",
+      "resourceId": "2070mifuren/5dead01",
+      "text": "主公……珍重……",
+      "textLocalized": {
+        "zhHans": "主公……珍重……",
+        "zhHant": "主公……珍重……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207006",
+          "name": "娇颜照水",
+          "displayName": {
+            "zhHans": "娇颜照水",
+            "zhHant": "嬌顏照水"
+          }
+        },
+        {
+          "slug": "skin-207005",
+          "name": "轻帘颜开",
+          "displayName": {
+            "zhHans": "轻帘颜开",
+            "zhHant": "輕簾顏開"
+          }
+        },
+        {
+          "slug": "skin-207005-207006",
+          "name": "轻帘颜开,娇颜照水",
+          "displayName": {
+            "zhHans": "轻帘颜开,娇颜照水",
+            "zhHant": "輕簾顏開,嬌顏照水"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2070mifuren-25d2cce5/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mifuren--2070mifuren--5skill1_1",
+      "resourceId": "2070mifuren/5skill1_1",
+      "text": "兰心筹其策，蕙质恤君愁。",
+      "textLocalized": {
+        "zhHans": "兰心筹其策，蕙质恤君愁。",
+        "zhHant": "蘭心籌其策，蕙質恤君愁。"
+      },
+      "group": {
+        "slug": "spell-2129",
+        "name": "闺秀",
+        "displayName": {
+          "zhHans": "闺秀",
+          "zhHant": "閨秀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207006",
+          "name": "娇颜照水",
+          "displayName": {
+            "zhHans": "娇颜照水",
+            "zhHant": "嬌顏照水"
+          }
+        },
+        {
+          "slug": "skin-207005",
+          "name": "轻帘颜开",
+          "displayName": {
+            "zhHans": "轻帘颜开",
+            "zhHant": "輕簾顏開"
+          }
+        },
+        {
+          "slug": "skin-207005-207006",
+          "name": "轻帘颜开,娇颜照水",
+          "displayName": {
+            "zhHans": "轻帘颜开,娇颜照水",
+            "zhHant": "輕簾顏開,嬌顏照水"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2070mifuren-25d2cce5/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mifuren--2070mifuren--5skill1_2",
+      "resourceId": "2070mifuren/5skill1_2",
+      "text": "知君如日月，誓拟同生死。",
+      "textLocalized": {
+        "zhHans": "知君如日月，誓拟同生死。",
+        "zhHant": "知君如日月，誓擬同生死。"
+      },
+      "group": {
+        "slug": "spell-2129",
+        "name": "闺秀",
+        "displayName": {
+          "zhHans": "闺秀",
+          "zhHant": "閨秀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207006",
+          "name": "娇颜照水",
+          "displayName": {
+            "zhHans": "娇颜照水",
+            "zhHant": "嬌顏照水"
+          }
+        },
+        {
+          "slug": "skin-207005",
+          "name": "轻帘颜开",
+          "displayName": {
+            "zhHans": "轻帘颜开",
+            "zhHant": "輕簾顏開"
+          }
+        },
+        {
+          "slug": "skin-207005-207006",
+          "name": "轻帘颜开,娇颜照水",
+          "displayName": {
+            "zhHans": "轻帘颜开,娇颜照水",
+            "zhHant": "輕簾顏開,嬌顏照水"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2070mifuren-25d2cce5/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mifuren--2070mifuren--5skill2_1",
+      "resourceId": "2070mifuren/5skill2_1",
+      "text": "请千万将禅儿交到主公手中！",
+      "textLocalized": {
+        "zhHans": "请千万将禅儿交到主公手中！",
+        "zhHant": "請千萬將禪兒交到主公手中！"
+      },
+      "group": {
+        "slug": "spell-2130",
+        "name": "存嗣",
+        "displayName": {
+          "zhHans": "存嗣",
+          "zhHant": "存嗣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207006",
+          "name": "娇颜照水",
+          "displayName": {
+            "zhHans": "娇颜照水",
+            "zhHant": "嬌顏照水"
+          }
+        },
+        {
+          "slug": "skin-207005",
+          "name": "轻帘颜开",
+          "displayName": {
+            "zhHans": "轻帘颜开",
+            "zhHant": "輕簾顏開"
+          }
+        },
+        {
+          "slug": "skin-207005-207006",
+          "name": "轻帘颜开,娇颜照水",
+          "displayName": {
+            "zhHans": "轻帘颜开,娇颜照水",
+            "zhHant": "輕簾顏開,嬌顏照水"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2070mifuren-25d2cce5/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mifuren--2070mifuren--5skill2_2",
+      "resourceId": "2070mifuren/5skill2_2",
+      "text": "惟愿佑君平安，百死不悔。",
+      "textLocalized": {
+        "zhHans": "惟愿佑君平安，百死不悔。",
+        "zhHant": "惟願佑君平安，百死不悔。"
+      },
+      "group": {
+        "slug": "spell-2130",
+        "name": "存嗣",
+        "displayName": {
+          "zhHans": "存嗣",
+          "zhHant": "存嗣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207006",
+          "name": "娇颜照水",
+          "displayName": {
+            "zhHans": "娇颜照水",
+            "zhHant": "嬌顏照水"
+          }
+        },
+        {
+          "slug": "skin-207005",
+          "name": "轻帘颜开",
+          "displayName": {
+            "zhHans": "轻帘颜开",
+            "zhHant": "輕簾顏開"
+          }
+        },
+        {
+          "slug": "skin-207005-207006",
+          "name": "轻帘颜开,娇颜照水",
+          "displayName": {
+            "zhHans": "轻帘颜开,娇颜照水",
+            "zhHant": "輕簾顏開,嬌顏照水"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2070mifuren-25d2cce5/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mifuren--2070mifuren--5skill3_1",
+      "resourceId": "2070mifuren/5skill3_1",
+      "text": "将军只管冲杀，莫要顾虑其他。",
+      "textLocalized": {
+        "zhHans": "将军只管冲杀，莫要顾虑其他。",
+        "zhHant": "將軍只管衝殺，莫要顧慮其他。"
+      },
+      "group": {
+        "slug": "spell-2131",
+        "name": "勇决",
+        "displayName": {
+          "zhHans": "勇决",
+          "zhHant": "勇決"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207006",
+          "name": "娇颜照水",
+          "displayName": {
+            "zhHans": "娇颜照水",
+            "zhHant": "嬌顏照水"
+          }
+        },
+        {
+          "slug": "skin-207005",
+          "name": "轻帘颜开",
+          "displayName": {
+            "zhHans": "轻帘颜开",
+            "zhHant": "輕簾顏開"
+          }
+        },
+        {
+          "slug": "skin-207005-207006",
+          "name": "轻帘颜开,娇颜照水",
+          "displayName": {
+            "zhHans": "轻帘颜开,娇颜照水",
+            "zhHant": "輕簾顏開,嬌顏照水"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2070mifuren-25d2cce5/5skill3-1-81c515c2.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/5skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mifuren--2070mifuren--5skill3_2",
+      "resourceId": "2070mifuren/5skill3_2",
+      "text": "今存死志，以报君恩。",
+      "textLocalized": {
+        "zhHans": "今存死志，以报君恩。",
+        "zhHant": "今存死志，以報君恩。"
+      },
+      "group": {
+        "slug": "spell-2131",
+        "name": "勇决",
+        "displayName": {
+          "zhHans": "勇决",
+          "zhHant": "勇決"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207006",
+          "name": "娇颜照水",
+          "displayName": {
+            "zhHans": "娇颜照水",
+            "zhHant": "嬌顏照水"
+          }
+        },
+        {
+          "slug": "skin-207005",
+          "name": "轻帘颜开",
+          "displayName": {
+            "zhHans": "轻帘颜开",
+            "zhHant": "輕簾顏開"
+          }
+        },
+        {
+          "slug": "skin-207005-207006",
+          "name": "轻帘颜开,娇颜照水",
+          "displayName": {
+            "zhHans": "轻帘颜开,娇颜照水",
+            "zhHant": "輕簾顏開,嬌顏照水"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2070mifuren-25d2cce5/5skill3-2-edc71423.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2070mifuren/5skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

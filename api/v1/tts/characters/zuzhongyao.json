@@ -1,3 +1,351 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d9e1f00294a891f25e2fd2e2aa0d4111f56e84022bcd09e032f60f964f239b08
-size 9894
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "zuzhongyao",
+    "command": "zuzhongyao",
+    "name": "族钟繇",
+    "displayName": {
+      "zhHans": "族钟繇",
+      "zhHant": "族鍾繇"
+    },
+    "names": [
+      "族钟繇"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟繇",
+        "zhHant": "族鍾繇"
+      }
+    ],
+    "ids": [
+      "630"
+    ],
+    "sourceNames": [
+      "族钟繇"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟繇",
+        "zhHant": "族鍾繇"
+      }
+    ],
+    "sourceIds": [
+      "630"
+    ],
+    "searchNames": [
+      "zuzhongyao",
+      "族钟繇",
+      "族鍾繇"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3482",
+        "name": "承启",
+        "displayName": {
+          "zhHans": "承启",
+          "zhHant": "承啓"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3482.json"
+      },
+      {
+        "slug": "spell-3483",
+        "name": "诫厉",
+        "displayName": {
+          "zhHans": "诫厉",
+          "zhHant": "誡厲"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3483.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zuzhongyao.json",
+      "groups": "api/v1/tts/characters/zuzhongyao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zuzhongyao/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "zuzhongyao--630zuzhongyao--1dead01",
+      "resourceId": "630zuzhongyao/1dead01",
+      "text": "幼子得宠而无忌，恐生无妄之祸。",
+      "textLocalized": {
+        "zhHans": "幼子得宠而无忌，恐生无妄之祸。",
+        "zhHant": "幼子得寵而無忌，恐生無妄之禍。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill3_1",
+      "resourceId": "630zuzhongyao/1skill3_1",
+      "text": "立规定矩，教习钟门之材。",
+      "textLocalized": {
+        "zhHans": "立规定矩，教习钟门之材。",
+        "zhHant": "立規定矩，教習鍾門之材。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill3_2",
+      "resourceId": "630zuzhongyao/1skill3_2",
+      "text": "放任纨绔，于族是祸非福。",
+      "textLocalized": {
+        "zhHans": "放任纨绔，于族是祸非福。",
+        "zhHant": "放任紈絝，於族是禍非福。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill1_1",
+      "resourceId": "630zuzhongyao/1skill1_1",
+      "text": "世有十万字形，亦当有十万字体。",
+      "textLocalized": {
+        "zhHans": "世有十万字形，亦当有十万字体。",
+        "zhHant": "世有十萬字形，亦當有十萬字體。"
+      },
+      "group": {
+        "slug": "spell-3482",
+        "name": "承启",
+        "displayName": {
+          "zhHans": "承启",
+          "zhHant": "承啓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill1_2",
+      "resourceId": "630zuzhongyao/1skill1_2",
+      "text": "笔画如骨，不可拘于一形。",
+      "textLocalized": {
+        "zhHans": "笔画如骨，不可拘于一形。",
+        "zhHant": "筆畫如骨，不可拘於一形。"
+      },
+      "group": {
+        "slug": "spell-3482",
+        "name": "承启",
+        "displayName": {
+          "zhHans": "承启",
+          "zhHant": "承啓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill2_1",
+      "resourceId": "630zuzhongyao/1skill2_1",
+      "text": "子不学难成其材，子不教难筑其器。",
+      "textLocalized": {
+        "zhHans": "子不学难成其材，子不教难筑其器。",
+        "zhHant": "子不學難成其材，子不教難築其器。"
+      },
+      "group": {
+        "slug": "spell-3483",
+        "name": "诫厉",
+        "displayName": {
+          "zhHans": "诫厉",
+          "zhHant": "誡厲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill2_2",
+      "resourceId": "630zuzhongyao/1skill2_2",
+      "text": "此子顽劣如斯，必当严加管教。",
+      "textLocalized": {
+        "zhHans": "此子顽劣如斯，必当严加管教。",
+        "zhHant": "此子頑劣如斯，必當嚴加管教。"
+      },
+      "group": {
+        "slug": "spell-3483",
+        "name": "诫厉",
+        "displayName": {
+          "zhHans": "诫厉",
+          "zhHant": "誡厲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

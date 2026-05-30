@@ -1,3 +1,400 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4d6e72941b3b9559a9afe78275b37c4e9bddba0de4f8f4b5b31f44c0c1c88217
-size 11177
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhanglu",
+    "command": "zhanglu",
+    "name": "张鲁",
+    "displayName": {
+      "zhHans": "张鲁",
+      "zhHant": "張魯"
+    },
+    "names": [
+      "张鲁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张鲁",
+        "zhHant": "張魯"
+      }
+    ],
+    "ids": [
+      "343"
+    ],
+    "sourceNames": [
+      "张鲁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张鲁",
+        "zhHant": "張魯"
+      }
+    ],
+    "sourceIds": [
+      "343"
+    ],
+    "searchNames": [
+      "zhanglu",
+      "张鲁",
+      "張魯"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/dead.json"
+      },
+      {
+        "slug": "spell-259",
+        "name": "义舍",
+        "displayName": {
+          "zhHans": "义舍",
+          "zhHant": "義舍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/spell-259.json"
+      },
+      {
+        "slug": "spell-260",
+        "name": "布施",
+        "displayName": {
+          "zhHans": "布施",
+          "zhHant": "佈施"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/spell-260.json"
+      },
+      {
+        "slug": "spell-261",
+        "name": "米道",
+        "displayName": {
+          "zhHans": "米道",
+          "zhHant": "米道"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhanglu/groups/spell-261.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-34301",
+        "name": "不鏖遗民",
+        "displayName": {
+          "zhHans": "不鏖遗民",
+          "zhHant": "不鏖遺民"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34301.json"
+      },
+      {
+        "slug": "skin-34301-34304",
+        "name": "不鏖遗民,喜迎孟起",
+        "displayName": {
+          "zhHans": "不鏖遗民,喜迎孟起",
+          "zhHant": "不鏖遺民,喜迎孟起"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34301-34304.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34304",
+        "name": "喜迎孟起",
+        "displayName": {
+          "zhHans": "喜迎孟起",
+          "zhHant": "喜迎孟起"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34304.json"
+      },
+      {
+        "slug": "skin-34303",
+        "name": "米道师君",
+        "displayName": {
+          "zhHans": "米道师君",
+          "zhHant": "米道師君"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34303.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhanglu.json",
+      "groups": "api/v1/tts/characters/zhanglu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhanglu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-34303",
+    "name": "米道师君",
+    "displayName": {
+      "zhHans": "米道师君",
+      "zhHant": "米道師君"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/zhanglu/skins/skin-34303.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "zhanglu--343zhanglu--4dead01",
+      "resourceId": "343zhanglu/4dead01",
+      "text": "唉，义不敌武，道难御兵。",
+      "textLocalized": {
+        "zhHans": "唉，义不敌武，道难御兵。",
+        "zhHant": "唉，義不敵武，道難御兵。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34303",
+          "name": "米道师君",
+          "displayName": {
+            "zhHans": "米道师君",
+            "zhHant": "米道師君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--4skill1_1",
+      "resourceId": "343zhanglu/4skill1_1",
+      "text": "哈哈哈哈，汉中永享乐土，市民皆可果腹。",
+      "textLocalized": {
+        "zhHans": "哈哈哈哈，汉中永享乐土，市民皆可果腹。",
+        "zhHant": "哈哈哈哈，漢中永享樂土，市民皆可果腹。"
+      },
+      "group": {
+        "slug": "spell-259",
+        "name": "义舍",
+        "displayName": {
+          "zhHans": "义舍",
+          "zhHant": "義舍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34303",
+          "name": "米道师君",
+          "displayName": {
+            "zhHans": "米道师君",
+            "zhHant": "米道師君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--4skill1_2",
+      "resourceId": "343zhanglu/4skill1_2",
+      "text": "义济万民，恩舍四方。",
+      "textLocalized": {
+        "zhHans": "义济万民，恩舍四方。",
+        "zhHant": "義濟萬民，恩舍四方。"
+      },
+      "group": {
+        "slug": "spell-259",
+        "name": "义舍",
+        "displayName": {
+          "zhHans": "义舍",
+          "zhHant": "義舍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34303",
+          "name": "米道师君",
+          "displayName": {
+            "zhHans": "米道师君",
+            "zhHant": "米道師君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--4skill2_1",
+      "resourceId": "343zhanglu/4skill2_1",
+      "text": "争斗永远没有贏家。",
+      "textLocalized": {
+        "zhHans": "争斗永远没有贏家。",
+        "zhHant": "爭鬥永遠沒有贏家。"
+      },
+      "group": {
+        "slug": "spell-260",
+        "name": "布施",
+        "displayName": {
+          "zhHans": "布施",
+          "zhHant": "佈施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34303",
+          "name": "米道师君",
+          "displayName": {
+            "zhHans": "米道师君",
+            "zhHant": "米道師君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--4skill2_2",
+      "resourceId": "343zhanglu/4skill2_2",
+      "text": "和平永远没有输家。",
+      "textLocalized": {
+        "zhHans": "和平永远没有输家。",
+        "zhHant": "和平永遠沒有輸家。"
+      },
+      "group": {
+        "slug": "spell-260",
+        "name": "布施",
+        "displayName": {
+          "zhHans": "布施",
+          "zhHant": "佈施"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34303",
+          "name": "米道师君",
+          "displayName": {
+            "zhHans": "米道师君",
+            "zhHant": "米道師君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--4skill3_1",
+      "resourceId": "343zhanglu/4skill3_1",
+      "text": "行五斗米道，可知暖饱。",
+      "textLocalized": {
+        "zhHans": "行五斗米道，可知暖饱。",
+        "zhHant": "行五斗米道，可知暖飽。"
+      },
+      "group": {
+        "slug": "spell-261",
+        "name": "米道",
+        "displayName": {
+          "zhHans": "米道",
+          "zhHant": "米道"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34303",
+          "name": "米道师君",
+          "displayName": {
+            "zhHans": "米道师君",
+            "zhHant": "米道師君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanglu--343zhanglu--4skill3_2",
+      "resourceId": "343zhanglu/4skill3_2",
+      "text": "恩结天地，法会八荒。",
+      "textLocalized": {
+        "zhHans": "恩结天地，法会八荒。",
+        "zhHant": "恩結天地，法會八荒。"
+      },
+      "group": {
+        "slug": "spell-261",
+        "name": "米道",
+        "displayName": {
+          "zhHans": "米道",
+          "zhHant": "米道"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34303",
+          "name": "米道师君",
+          "displayName": {
+            "zhHans": "米道师君",
+            "zhHant": "米道師君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/343zhanglu-2dee7af1/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/343zhanglu/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

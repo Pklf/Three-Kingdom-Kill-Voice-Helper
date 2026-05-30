@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e4b2df21702f276811641e3356af8a0ac5c046f605fa693c21cf22c074a27538
-size 775
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "name": "Three Kingdom Kill Voice API",
+  "displayName": {
+    "zhHans": "三国杀语音库",
+    "zhHant": "三國殺語音庫"
+  },
+  "characterCount": 511,
+  "lineCount": 10665,
+  "extrasCount": 338,
+  "languages": [
+    "zhHans",
+    "zhHant"
+  ],
+  "endpoints": {
+    "characters": "api/v1/characters/index.json",
+    "extras": "api/v1/extras/index.json",
+    "tts": "api/v1/tts/index.json",
+    "browseLines": "api/v1/browser/lines.json"
+  },
+  "audioSourcePolicy": {
+    "staticApi": "API payloads include cached and remote audio fields; clients choose which field to play.",
+    "cachedBase": "Resolve cached audio paths relative to the GitHub Pages site root."
+  }
+}

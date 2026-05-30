@@ -1,3 +1,383 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3cafb64e9b8399c3376d503c7ad05a8c831923f90165f9606a1eb9595f4fd1e5
-size 8245
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "puyuan",
+    "command": "puyuan",
+    "name": "蒲元",
+    "displayName": {
+      "zhHans": "蒲元",
+      "zhHant": "蒲元"
+    },
+    "names": [
+      "蒲元"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蒲元",
+        "zhHant": "蒲元"
+      }
+    ],
+    "ids": [
+      "510"
+    ],
+    "sourceNames": [
+      "蒲元"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蒲元",
+        "zhHant": "蒲元"
+      }
+    ],
+    "sourceIds": [
+      "510"
+    ],
+    "searchNames": [
+      "puyuan",
+      "蒲元"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-11003",
+        "name": "神工",
+        "displayName": {
+          "zhHans": "神工",
+          "zhHant": "神工"
+        },
+        "ids": [
+          "11003"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-11004",
+        "name": "奇思",
+        "displayName": {
+          "zhHans": "奇思",
+          "zhHant": "奇思"
+        },
+        "ids": [
+          "11004"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/puyuan.json",
+      "lines": "api/v1/characters/puyuan/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-11003",
+    "ids": [
+      "11003"
+    ],
+    "name": "神工",
+    "displayName": {
+      "zhHans": "神工",
+      "zhHant": "神工"
+    },
+    "names": [
+      "神工"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神工",
+        "zhHant": "神工"
+      }
+    ]
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "puyuan--510puyuan--1skill1_1",
+      "resourceId": "510puyuan/1skill1_1",
+      "text": "技艺若神，大巧不工。",
+      "textLocalized": {
+        "zhHans": "技艺若神，大巧不工。",
+        "zhHant": "技藝若神，大巧不工。"
+      },
+      "character": {
+        "slug": "puyuan",
+        "command": "puyuan",
+        "id": "510",
+        "ids": [
+          "510"
+        ],
+        "name": "蒲元",
+        "displayName": {
+          "zhHans": "蒲元",
+          "zhHant": "蒲元"
+        },
+        "names": [
+          "蒲元"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "蒲元",
+            "zhHant": "蒲元"
+          }
+        ],
+        "sourceIds": [
+          "510"
+        ],
+        "sourceNames": [
+          "蒲元"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "蒲元",
+            "zhHant": "蒲元"
+          }
+        ],
+        "searchNames": [
+          "蒲元",
+          "puyuan"
+        ]
+      },
+      "group": {
+        "slug": "spell-11003",
+        "ids": [
+          "11003"
+        ],
+        "name": "神工",
+        "displayName": {
+          "zhHans": "神工",
+          "zhHant": "神工"
+        },
+        "names": [
+          "神工"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神工",
+            "zhHant": "神工"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "510",
+        "skinKey": "-1",
+        "spellKey": "11003",
+        "rowIndex": 1,
+        "characterNames": [
+          "蒲元"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/510puyuan-8db6d721/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/510puyuan/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "puyuan--510puyuan--1skill1_2",
+      "resourceId": "510puyuan/1skill1_2",
+      "text": "千锤百炼，始得神兵。",
+      "textLocalized": {
+        "zhHans": "千锤百炼，始得神兵。",
+        "zhHant": "千錘百煉，始得神兵。"
+      },
+      "character": {
+        "slug": "puyuan",
+        "command": "puyuan",
+        "id": "510",
+        "ids": [
+          "510"
+        ],
+        "name": "蒲元",
+        "displayName": {
+          "zhHans": "蒲元",
+          "zhHant": "蒲元"
+        },
+        "names": [
+          "蒲元"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "蒲元",
+            "zhHant": "蒲元"
+          }
+        ],
+        "sourceIds": [
+          "510"
+        ],
+        "sourceNames": [
+          "蒲元"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "蒲元",
+            "zhHant": "蒲元"
+          }
+        ],
+        "searchNames": [
+          "蒲元",
+          "puyuan"
+        ]
+      },
+      "group": {
+        "slug": "spell-11003",
+        "ids": [
+          "11003"
+        ],
+        "name": "神工",
+        "displayName": {
+          "zhHans": "神工",
+          "zhHant": "神工"
+        },
+        "names": [
+          "神工"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神工",
+            "zhHant": "神工"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "510",
+        "skinKey": "-1",
+        "spellKey": "11003",
+        "rowIndex": 2,
+        "characterNames": [
+          "蒲元"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/510puyuan-8db6d721/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/510puyuan/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

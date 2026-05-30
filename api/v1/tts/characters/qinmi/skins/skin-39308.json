@@ -1,3 +1,439 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8d918e421439ace3184ee3b5d24756e61bbe778486d42d012fd067dff434b871
-size 12298
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qinmi",
+    "command": "qinmi",
+    "name": "秦宓",
+    "displayName": {
+      "zhHans": "秦宓",
+      "zhHant": "秦宓"
+    },
+    "names": [
+      "秦宓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "秦宓",
+        "zhHant": "秦宓"
+      }
+    ],
+    "ids": [
+      "393"
+    ],
+    "sourceNames": [
+      "秦宓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "秦宓",
+        "zhHant": "秦宓"
+      }
+    ],
+    "sourceIds": [
+      "393"
+    ],
+    "searchNames": [
+      "qinmi",
+      "秦宓"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qinmi/groups/dead.json"
+      },
+      {
+        "slug": "spell-790",
+        "name": "谏征",
+        "displayName": {
+          "zhHans": "谏征",
+          "zhHant": "諫徵"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/qinmi/groups/spell-790.json"
+      },
+      {
+        "slug": "spell-791",
+        "name": "专对",
+        "displayName": {
+          "zhHans": "专对",
+          "zhHant": "專對"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/qinmi/groups/spell-791.json"
+      },
+      {
+        "slug": "spell-792",
+        "name": "天辩",
+        "displayName": {
+          "zhHans": "天辩",
+          "zhHant": "天辯"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/qinmi/groups/spell-792.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-39301",
+        "name": "劝言受刑",
+        "displayName": {
+          "zhHans": "劝言受刑",
+          "zhHant": "勸言受刑"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39301.json"
+      },
+      {
+        "slug": "skin-39301-39303",
+        "name": "劝言受刑,落叶知意",
+        "displayName": {
+          "zhHans": "劝言受刑,落叶知意",
+          "zhHant": "勸言受刑,落葉知意"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39301-39303.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-39307",
+        "name": "吟文叙古",
+        "displayName": {
+          "zhHans": "吟文叙古",
+          "zhHant": "吟文敘古"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39307.json"
+      },
+      {
+        "slug": "skin-39304",
+        "name": "夜烛阅简",
+        "displayName": {
+          "zhHans": "夜烛阅简",
+          "zhHant": "夜燭閱簡"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39304.json"
+      },
+      {
+        "slug": "skin-39304-39307",
+        "name": "夜烛阅简,吟文叙古",
+        "displayName": {
+          "zhHans": "夜烛阅简,吟文叙古",
+          "zhHant": "夜燭閱簡,吟文敘古"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39304-39307.json"
+      },
+      {
+        "slug": "skin-39308",
+        "name": "恬淡浩然",
+        "displayName": {
+          "zhHans": "恬淡浩然",
+          "zhHant": "恬淡浩然"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39308.json"
+      },
+      {
+        "slug": "skin-39306",
+        "name": "笔出千策",
+        "displayName": {
+          "zhHans": "笔出千策",
+          "zhHant": "筆出千策"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39306.json"
+      },
+      {
+        "slug": "skin-39303",
+        "name": "落叶知意",
+        "displayName": {
+          "zhHans": "落叶知意",
+          "zhHant": "落葉知意"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39303.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/qinmi.json",
+      "groups": "api/v1/tts/characters/qinmi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/qinmi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-39308",
+    "name": "恬淡浩然",
+    "displayName": {
+      "zhHans": "恬淡浩然",
+      "zhHant": "恬淡浩然"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/qinmi/skins/skin-39308.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "qinmi--393qinmi--5dead01",
+      "resourceId": "393qinmi/5dead01",
+      "text": "这天，是要变了吗？",
+      "textLocalized": {
+        "zhHans": "这天，是要变了吗？",
+        "zhHant": "這天，是要變了嗎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39308",
+          "name": "恬淡浩然",
+          "displayName": {
+            "zhHans": "恬淡浩然",
+            "zhHant": "恬淡浩然"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--5skill1_1",
+      "resourceId": "393qinmi/5skill1_1",
+      "text": "舍万圣之驱，而取小益，非君王之风也。",
+      "textLocalized": {
+        "zhHans": "舍万圣之驱，而取小益，非君王之风也。",
+        "zhHant": "舍萬聖之驅，而取小益，非君王之風也。"
+      },
+      "group": {
+        "slug": "spell-790",
+        "name": "谏征",
+        "displayName": {
+          "zhHans": "谏征",
+          "zhHant": "諫徵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39308",
+          "name": "恬淡浩然",
+          "displayName": {
+            "zhHans": "恬淡浩然",
+            "zhHant": "恬淡浩然"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--5skill1_2",
+      "resourceId": "393qinmi/5skill1_2",
+      "text": "意气用事，非仁君所为。",
+      "textLocalized": {
+        "zhHans": "意气用事，非仁君所为。",
+        "zhHant": "意氣用事，非仁君所爲。"
+      },
+      "group": {
+        "slug": "spell-790",
+        "name": "谏征",
+        "displayName": {
+          "zhHans": "谏征",
+          "zhHant": "諫徵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39308",
+          "name": "恬淡浩然",
+          "displayName": {
+            "zhHans": "恬淡浩然",
+            "zhHant": "恬淡浩然"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--5skill2_1",
+      "resourceId": "393qinmi/5skill2_1",
+      "text": "今日有幸，愿向先生讨教一二。",
+      "textLocalized": {
+        "zhHans": "今日有幸，愿向先生讨教一二。",
+        "zhHant": "今日有幸，願向先生討教一二。"
+      },
+      "group": {
+        "slug": "spell-791",
+        "name": "专对",
+        "displayName": {
+          "zhHans": "专对",
+          "zhHant": "專對"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39308",
+          "name": "恬淡浩然",
+          "displayName": {
+            "zhHans": "恬淡浩然",
+            "zhHant": "恬淡浩然"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--5skill2_2",
+      "resourceId": "393qinmi/5skill2_2",
+      "text": "对君之言，胸有成竹。",
+      "textLocalized": {
+        "zhHans": "对君之言，胸有成竹。",
+        "zhHant": "對君之言，胸有成竹。"
+      },
+      "group": {
+        "slug": "spell-791",
+        "name": "专对",
+        "displayName": {
+          "zhHans": "专对",
+          "zhHant": "專對"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39308",
+          "name": "恬淡浩然",
+          "displayName": {
+            "zhHans": "恬淡浩然",
+            "zhHant": "恬淡浩然"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--5skill3_1",
+      "resourceId": "393qinmi/5skill3_1",
+      "text": "鹤鸣九皋，声闻于天。",
+      "textLocalized": {
+        "zhHans": "鹤鸣九皋，声闻于天。",
+        "zhHant": "鶴鳴九皋，聲聞於天。"
+      },
+      "group": {
+        "slug": "spell-792",
+        "name": "天辩",
+        "displayName": {
+          "zhHans": "天辩",
+          "zhHant": "天辯"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39308",
+          "name": "恬淡浩然",
+          "displayName": {
+            "zhHans": "恬淡浩然",
+            "zhHant": "恬淡浩然"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/5skill3-1-81c515c2.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/5skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qinmi--393qinmi--5skill3_2",
+      "resourceId": "393qinmi/5skill3_2",
+      "text": "日升于东，而暮于西。",
+      "textLocalized": {
+        "zhHans": "日升于东，而暮于西。",
+        "zhHant": "日升於東，而暮於西。"
+      },
+      "group": {
+        "slug": "spell-792",
+        "name": "天辩",
+        "displayName": {
+          "zhHans": "天辩",
+          "zhHant": "天辯"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39308",
+          "name": "恬淡浩然",
+          "displayName": {
+            "zhHans": "恬淡浩然",
+            "zhHant": "恬淡浩然"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/393qinmi-d04e3920/5skill3-2-edc71423.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/393qinmi/5skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

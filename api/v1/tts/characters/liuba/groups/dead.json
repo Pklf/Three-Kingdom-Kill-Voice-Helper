@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f9d8cfc2cbee526c1581445b7c60817d053fc0ea60b059eb52beac42ee42119d
-size 4658
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liuba",
+    "command": "liuba",
+    "name": "刘巴",
+    "displayName": {
+      "zhHans": "刘巴",
+      "zhHant": "劉巴"
+    },
+    "names": [
+      "刘巴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘巴",
+        "zhHant": "劉巴"
+      }
+    ],
+    "ids": [
+      "536"
+    ],
+    "sourceNames": [
+      "刘巴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘巴",
+        "zhHant": "劉巴"
+      }
+    ],
+    "sourceIds": [
+      "536"
+    ],
+    "searchNames": [
+      "liuba",
+      "刘巴",
+      "劉巴"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liuba/groups/dead.json"
+      },
+      {
+        "slug": "spell-3217",
+        "name": "统度",
+        "displayName": {
+          "zhHans": "统度",
+          "zhHant": "統度"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liuba/groups/spell-3217.json"
+      },
+      {
+        "slug": "spell-3218",
+        "name": "铸币",
+        "displayName": {
+          "zhHans": "铸币",
+          "zhHant": "鑄幣"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liuba/groups/spell-3218.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuba/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-53601",
+        "name": "泽沃锦官",
+        "displayName": {
+          "zhHans": "泽沃锦官",
+          "zhHant": "澤沃錦官"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuba/skins/skin-53601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liuba.json",
+      "groups": "api/v1/tts/characters/liuba/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liuba/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/liuba/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "liuba--536liuba--1dead01",
+      "resourceId": "536liuba/1dead01",
+      "text": "恨未见，铸兵为币之日。",
+      "textLocalized": {
+        "zhHans": "恨未见，铸兵为币之日。",
+        "zhHant": "恨未見，鑄兵爲幣之日。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuba--536liuba--2dead01",
+      "resourceId": "536liuba/2dead01",
+      "text": "我本清流，奈何舍身逐污？",
+      "textLocalized": {
+        "zhHans": "我本清流，奈何舍身逐污？",
+        "zhHant": "我本清流，奈何捨身逐污？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-53601",
+          "name": "泽沃锦官",
+          "displayName": {
+            "zhHans": "泽沃锦官",
+            "zhHant": "澤沃錦官"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/536liuba-d8287bf5/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/536liuba/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

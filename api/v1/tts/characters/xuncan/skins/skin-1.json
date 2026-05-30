@@ -1,3 +1,449 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3430850b0cc96770d66d96d63394971992fa3c6b366a9141ecb4ae4e0e375e5c
-size 12278
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuncan",
+    "command": "xuncan",
+    "name": "族荀粲",
+    "displayName": {
+      "zhHans": "族荀粲",
+      "zhHant": "族荀粲"
+    },
+    "names": [
+      "族荀粲"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀粲",
+        "zhHant": "族荀粲"
+      }
+    ],
+    "ids": [
+      "525"
+    ],
+    "sourceNames": [
+      "族荀粲"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀粲",
+        "zhHant": "族荀粲"
+      }
+    ],
+    "sourceIds": [
+      "525"
+    ],
+    "searchNames": [
+      "xuncan",
+      "族荀粲"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3174",
+        "name": "熨身",
+        "displayName": {
+          "zhHans": "熨身",
+          "zhHant": "熨身"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3174.json"
+      },
+      {
+        "slug": "spell-3175",
+        "name": "伤神",
+        "displayName": {
+          "zhHans": "伤神",
+          "zhHant": "傷神"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3175.json"
+      },
+      {
+        "slug": "spell-3176",
+        "name": "分钗",
+        "displayName": {
+          "zhHans": "分钗",
+          "zhHant": "分釵"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3176.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52501",
+        "name": "晚风独立",
+        "displayName": {
+          "zhHans": "晚风独立",
+          "zhHant": "晚風獨立"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncan/skins/skin-52501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuncan.json",
+      "groups": "api/v1/tts/characters/xuncan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuncan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 9,
+    "endpoint": "api/v1/tts/characters/xuncan/skins/skin-1.json"
+  },
+  "lineCount": 9,
+  "lines": [
+    {
+      "id": "xuncan--525xuncan--1dead01",
+      "resourceId": "525xuncan/1dead01",
+      "text": "此钗，今日可合乎？",
+      "textLocalized": {
+        "zhHans": "此钗，今日可合乎？",
+        "zhHant": "此釵，今日可合乎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill4_1",
+      "resourceId": "525xuncan/1skill4_1",
+      "text": "君子持节，何移情乎？",
+      "textLocalized": {
+        "zhHans": "君子持节，何移情乎？",
+        "zhHant": "君子持節，何移情乎？"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill4-1-0d7b9304.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill4_2",
+      "resourceId": "525xuncan/1skill4_2",
+      "text": "我心慕鸳，从一而终。",
+      "textLocalized": {
+        "zhHans": "我心慕鸳，从一而终。",
+        "zhHant": "我心慕鴛，從一而終。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill4-2-2415e0dd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill1_1",
+      "resourceId": "525xuncan/1skill1_1",
+      "text": "此心恋卿，尽融三九之冰。",
+      "textLocalized": {
+        "zhHans": "此心恋卿，尽融三九之冰。",
+        "zhHant": "此心戀卿，盡融三九之冰。"
+      },
+      "group": {
+        "slug": "spell-3174",
+        "name": "熨身",
+        "displayName": {
+          "zhHans": "熨身",
+          "zhHant": "熨身"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill1_2",
+      "resourceId": "525xuncan/1skill1_2",
+      "text": "寒梅傲雪，馥郁三尺之香。",
+      "textLocalized": {
+        "zhHans": "寒梅傲雪，馥郁三尺之香。",
+        "zhHant": "寒梅傲雪，馥郁三尺之香。"
+      },
+      "group": {
+        "slug": "spell-3174",
+        "name": "熨身",
+        "displayName": {
+          "zhHans": "熨身",
+          "zhHant": "熨身"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill2_1",
+      "resourceId": "525xuncan/1skill2_1",
+      "text": "识字数万，此痛无字可言。",
+      "textLocalized": {
+        "zhHans": "识字数万，此痛无字可言。",
+        "zhHant": "識字數萬，此痛無字可言。"
+      },
+      "group": {
+        "slug": "spell-3175",
+        "name": "伤神",
+        "displayName": {
+          "zhHans": "伤神",
+          "zhHant": "傷神"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill2_2",
+      "resourceId": "525xuncan/1skill2_2",
+      "text": "吾妻已逝，吾心悲怆。",
+      "textLocalized": {
+        "zhHans": "吾妻已逝，吾心悲怆。",
+        "zhHant": "吾妻已逝，吾心悲愴。"
+      },
+      "group": {
+        "slug": "spell-3175",
+        "name": "伤神",
+        "displayName": {
+          "zhHans": "伤神",
+          "zhHant": "傷神"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill3_1",
+      "resourceId": "525xuncan/1skill3_1",
+      "text": "钗同我心，奈何分之？",
+      "textLocalized": {
+        "zhHans": "钗同我心，奈何分之？",
+        "zhHant": "釵同我心，奈何分之？"
+      },
+      "group": {
+        "slug": "spell-3176",
+        "name": "分钗",
+        "displayName": {
+          "zhHans": "分钗",
+          "zhHant": "分釵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill3_2",
+      "resourceId": "525xuncan/1skill3_2",
+      "text": "夫妻分钗，天涯陌路。",
+      "textLocalized": {
+        "zhHans": "夫妻分钗，天涯陌路。",
+        "zhHant": "夫妻分釵，天涯陌路。"
+      },
+      "group": {
+        "slug": "spell-3176",
+        "name": "分钗",
+        "displayName": {
+          "zhHans": "分钗",
+          "zhHant": "分釵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

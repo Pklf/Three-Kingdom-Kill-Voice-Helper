@@ -1,3 +1,263 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b3fdbe5b443759f8bdaaea1ba57c69e61e463e2a0ca4cf9846f39c7c948e1031
-size 7165
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lvkuanglvxiang",
+    "command": "lvkuanglvxiang",
+    "name": "吕旷吕翔",
+    "displayName": {
+      "zhHans": "吕旷吕翔",
+      "zhHant": "呂曠呂翔"
+    },
+    "names": [
+      "吕旷吕翔",
+      "4600"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "吕旷吕翔",
+        "zhHant": "呂曠呂翔"
+      },
+      {
+        "zhHans": "4600",
+        "zhHant": "4600"
+      }
+    ],
+    "ids": [
+      "434",
+      "4600"
+    ],
+    "sourceNames": [
+      "吕旷吕翔"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "吕旷吕翔",
+        "zhHant": "呂曠呂翔"
+      }
+    ],
+    "sourceIds": [
+      "434",
+      "4600"
+    ],
+    "searchNames": [
+      "lvkuanglvxiang",
+      "吕旷吕翔",
+      "呂曠呂翔",
+      "4600"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/groups/dead.json"
+      },
+      {
+        "slug": "spell-932",
+        "name": "齐攻",
+        "displayName": {
+          "zhHans": "齐攻",
+          "zhHant": "齊攻"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/groups/spell-932.json"
+      },
+      {
+        "slug": "spell-933",
+        "name": "列侯",
+        "displayName": {
+          "zhHans": "列侯",
+          "zhHant": "列侯"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/groups/spell-933.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43401",
+        "name": "扶危挽澜",
+        "displayName": {
+          "zhHans": "扶危挽澜",
+          "zhHant": "扶危挽瀾"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lvkuanglvxiang/skins/skin-43401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lvkuanglvxiang.json",
+      "groups": "api/v1/tts/characters/lvkuanglvxiang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lvkuanglvxiang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-932",
+    "name": "齐攻",
+    "displayName": {
+      "zhHans": "齐攻",
+      "zhHant": "齊攻"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/lvkuanglvxiang/groups/spell-932.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "lvkuanglvxiang--434lvkuanglvxiang--1skill1_1",
+      "resourceId": "434lvkuanglvxiang/1skill1_1",
+      "text": "打虎亲兄弟！",
+      "textLocalized": {
+        "zhHans": "打虎亲兄弟！",
+        "zhHant": "打虎親兄弟！"
+      },
+      "group": {
+        "slug": "spell-932",
+        "name": "齐攻",
+        "displayName": {
+          "zhHans": "齐攻",
+          "zhHant": "齊攻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/434lvkuanglvxiang-f6b983be/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/434lvkuanglvxiang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkuanglvxiang--434lvkuanglvxiang--1skill1_2",
+      "resourceId": "434lvkuanglvxiang/1skill1_2",
+      "text": "兄弟齐心，其利断金！",
+      "textLocalized": {
+        "zhHans": "兄弟齐心，其利断金！",
+        "zhHant": "兄弟齊心，其利斷金！"
+      },
+      "group": {
+        "slug": "spell-932",
+        "name": "齐攻",
+        "displayName": {
+          "zhHans": "齐攻",
+          "zhHant": "齊攻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/434lvkuanglvxiang-f6b983be/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/434lvkuanglvxiang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkuanglvxiang--434lvkuanglvxiang--2skill1_1",
+      "resourceId": "434lvkuanglvxiang/2skill1_1",
+      "text": "怒气冲霄汉，霜刃犹未收！",
+      "textLocalized": {
+        "zhHans": "怒气冲霄汉，霜刃犹未收！",
+        "zhHant": "怒氣衝霄漢，霜刃猶未收！"
+      },
+      "group": {
+        "slug": "spell-932",
+        "name": "齐攻",
+        "displayName": {
+          "zhHans": "齐攻",
+          "zhHant": "齊攻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43401",
+          "name": "扶危挽澜",
+          "displayName": {
+            "zhHans": "扶危挽澜",
+            "zhHant": "扶危挽瀾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/434lvkuanglvxiang-f6b983be/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/434lvkuanglvxiang/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lvkuanglvxiang--434lvkuanglvxiang--2skill1_2",
+      "resourceId": "434lvkuanglvxiang/2skill1_2",
+      "text": "剑戟齐攻垒，叠浪共撼城！",
+      "textLocalized": {
+        "zhHans": "剑戟齐攻垒，叠浪共撼城！",
+        "zhHant": "劍戟齊攻壘，疊浪共撼城！"
+      },
+      "group": {
+        "slug": "spell-932",
+        "name": "齐攻",
+        "displayName": {
+          "zhHans": "齐攻",
+          "zhHant": "齊攻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43401",
+          "name": "扶危挽澜",
+          "displayName": {
+            "zhHans": "扶危挽澜",
+            "zhHant": "扶危挽瀾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/434lvkuanglvxiang-f6b983be/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/434lvkuanglvxiang/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

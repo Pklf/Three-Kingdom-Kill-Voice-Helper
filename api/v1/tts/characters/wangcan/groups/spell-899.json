@@ -1,3 +1,264 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6a8cce6c918b5cd7ed04e3f38ba879b0d70144e4ad4ded94a0708537751b1320
-size 7073
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangcan",
+    "command": "wangcan",
+    "name": "王粲",
+    "displayName": {
+      "zhHans": "王粲",
+      "zhHant": "王粲"
+    },
+    "names": [
+      "王粲"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王粲",
+        "zhHant": "王粲"
+      }
+    ],
+    "ids": [
+      "428"
+    ],
+    "sourceNames": [
+      "王粲"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王粲",
+        "zhHant": "王粲"
+      }
+    ],
+    "sourceIds": [
+      "428"
+    ],
+    "searchNames": [
+      "wangcan",
+      "王粲"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wangcan/groups/dead.json"
+      },
+      {
+        "slug": "spell-898",
+        "name": "散文",
+        "displayName": {
+          "zhHans": "散文",
+          "zhHant": "散文"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangcan/groups/spell-898.json"
+      },
+      {
+        "slug": "spell-899",
+        "name": "七哀",
+        "displayName": {
+          "zhHans": "七哀",
+          "zhHant": "七哀"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangcan/groups/spell-899.json"
+      },
+      {
+        "slug": "spell-900",
+        "name": "登楼",
+        "displayName": {
+          "zhHans": "登楼",
+          "zhHant": "登樓"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangcan/groups/spell-900.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangcan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42801",
+        "name": "登高赋词",
+        "displayName": {
+          "zhHans": "登高赋词",
+          "zhHant": "登高賦詞"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wangcan/skins/skin-42801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangcan.json",
+      "groups": "api/v1/tts/characters/wangcan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangcan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-899",
+    "name": "七哀",
+    "displayName": {
+      "zhHans": "七哀",
+      "zhHant": "七哀"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/wangcan/groups/spell-899.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "wangcan--428wangcan--1skill2_1",
+      "resourceId": "428wangcan/1skill2_1",
+      "text": "未知身死处，何时两相完？",
+      "textLocalized": {
+        "zhHans": "未知身死处，何时两相完？",
+        "zhHant": "未知身死處，何時兩相完？"
+      },
+      "group": {
+        "slug": "spell-899",
+        "name": "七哀",
+        "displayName": {
+          "zhHans": "七哀",
+          "zhHant": "七哀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/428wangcan-3bdcb2fd/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/428wangcan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangcan--428wangcan--1skill2_2",
+      "resourceId": "428wangcan/1skill2_2",
+      "text": "悟彼下泉人，喟然伤心肝。",
+      "textLocalized": {
+        "zhHans": "悟彼下泉人，喟然伤心肝。",
+        "zhHant": "悟彼下泉人，喟然傷心肝。"
+      },
+      "group": {
+        "slug": "spell-899",
+        "name": "七哀",
+        "displayName": {
+          "zhHans": "七哀",
+          "zhHant": "七哀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/428wangcan-3bdcb2fd/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/428wangcan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangcan--428wangcan--2skill2_1",
+      "resourceId": "428wangcan/2skill2_1",
+      "text": "路有饥妇人，抱子弃草间。",
+      "textLocalized": {
+        "zhHans": "路有饥妇人，抱子弃草间。",
+        "zhHant": "路有飢婦人，抱子棄草間。"
+      },
+      "group": {
+        "slug": "spell-899",
+        "name": "七哀",
+        "displayName": {
+          "zhHans": "七哀",
+          "zhHant": "七哀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42801",
+          "name": "登高赋词",
+          "displayName": {
+            "zhHans": "登高赋词",
+            "zhHant": "登高賦詞"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/428wangcan-3bdcb2fd/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/428wangcan/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangcan--428wangcan--2skill2_2",
+      "resourceId": "428wangcan/2skill2_2",
+      "text": "驱马弃之去，不忍听此言。",
+      "textLocalized": {
+        "zhHans": "驱马弃之去，不忍听此言。",
+        "zhHant": "驅馬棄之去，不忍聽此言。"
+      },
+      "group": {
+        "slug": "spell-899",
+        "name": "七哀",
+        "displayName": {
+          "zhHans": "七哀",
+          "zhHant": "七哀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42801",
+          "name": "登高赋词",
+          "displayName": {
+            "zhHans": "登高赋词",
+            "zhHant": "登高賦詞"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/428wangcan-3bdcb2fd/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/428wangcan/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

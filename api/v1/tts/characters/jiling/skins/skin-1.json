@@ -1,3 +1,250 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e976b6f8c85e9d37851e71ad9718b99ab079561bd82cab0d697b1a7e8c98a0e6
-size 6632
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiling",
+    "command": "jiling",
+    "name": "纪灵",
+    "displayName": {
+      "zhHans": "纪灵",
+      "zhHant": "紀靈"
+    },
+    "names": [
+      "纪灵"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "纪灵",
+        "zhHant": "紀靈"
+      }
+    ],
+    "ids": [
+      "2056"
+    ],
+    "sourceNames": [
+      "纪灵"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "纪灵",
+        "zhHant": "紀靈"
+      }
+    ],
+    "sourceIds": [
+      "2056"
+    ],
+    "searchNames": [
+      "jiling",
+      "纪灵",
+      "紀靈"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiling/groups/dead.json"
+      },
+      {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jiling/groups/spell-2108.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205604",
+        "name": "御马攻沛",
+        "displayName": {
+          "zhHans": "御马攻沛",
+          "zhHant": "御馬攻沛"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205604.json"
+      },
+      {
+        "slug": "skin-205605",
+        "name": "气吞山河",
+        "displayName": {
+          "zhHans": "气吞山河",
+          "zhHant": "氣吞山河"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205605.json"
+      },
+      {
+        "slug": "skin-205606",
+        "name": "瞠目结舌",
+        "displayName": {
+          "zhHans": "瞠目结舌",
+          "zhHant": "瞠目結舌"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205606.json"
+      },
+      {
+        "slug": "skin-205603",
+        "name": "纳忠效信",
+        "displayName": {
+          "zhHans": "纳忠效信",
+          "zhHant": "納忠效信"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205603.json"
+      },
+      {
+        "slug": "skin-205603-205606",
+        "name": "纳忠效信,瞠目结舌",
+        "displayName": {
+          "zhHans": "纳忠效信,瞠目结舌",
+          "zhHant": "納忠效信,瞠目結舌"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205603-205606.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiling.json",
+      "groups": "api/v1/tts/characters/jiling/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiling/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/jiling/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "jiling--2056jiling--1dead01",
+      "resourceId": "2056jiling/1dead01",
+      "text": "呃，将军为何咆哮不断……",
+      "textLocalized": {
+        "zhHans": "呃，将军为何咆哮不断……",
+        "zhHant": "呃，將軍爲何咆哮不斷……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--1skill1_1",
+      "resourceId": "2056jiling/1skill1_1",
+      "text": "吃我一记三尖两刃刀！",
+      "textLocalized": {
+        "zhHans": "吃我一记三尖两刃刀！",
+        "zhHant": "喫我一記三尖兩刃刀！"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--1skill1_2",
+      "resourceId": "2056jiling/1skill1_2",
+      "text": "仲国大将纪灵在此！",
+      "textLocalized": {
+        "zhHans": "仲国大将纪灵在此！",
+        "zhHant": "仲國大將紀靈在此！"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

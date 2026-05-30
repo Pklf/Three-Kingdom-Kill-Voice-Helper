@@ -1,3 +1,195 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e8e1a206dd7045e01487eed7ddf8641fb80428500a466225cf1e6181c4daaf9
-size 5183
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhanghuyuelin",
+    "command": "zhanghuyuelin",
+    "name": "张虎乐綝",
+    "displayName": {
+      "zhHans": "张虎乐綝",
+      "zhHant": "張虎樂綝"
+    },
+    "names": [
+      "张虎乐綝"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张虎乐綝",
+        "zhHant": "張虎樂綝"
+      }
+    ],
+    "ids": [
+      "7000"
+    ],
+    "sourceNames": [
+      "张虎乐綝"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张虎乐綝",
+        "zhHant": "張虎樂綝"
+      }
+    ],
+    "sourceIds": [
+      "7000"
+    ],
+    "searchNames": [
+      "zhanghuyuelin",
+      "张虎乐綝",
+      "張虎樂綝"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/dead.json"
+      },
+      {
+        "slug": "spell-2100",
+        "name": "骁果",
+        "displayName": {
+          "zhHans": "骁果",
+          "zhHant": "驍果"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/spell-2100.json"
+      },
+      {
+        "slug": "spell-44",
+        "name": "突袭",
+        "displayName": {
+          "zhHans": "突袭",
+          "zhHant": "突襲"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/spell-44.json"
+      },
+      {
+        "slug": "spell-7000",
+        "name": "袭爵",
+        "displayName": {
+          "zhHans": "袭爵",
+          "zhHant": "襲爵"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/spell-7000.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-700002",
+        "name": "与子同袍",
+        "displayName": {
+          "zhHans": "与子同袍",
+          "zhHant": "與子同袍"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/skins/skin-700002.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhanghuyuelin.json",
+      "groups": "api/v1/tts/characters/zhanghuyuelin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhanghuyuelin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zhanghuyuelin--7000zhanghuyuelin--2dead01",
+      "resourceId": "7000zhanghuyuelin/2dead01",
+      "text": "父亲之谋勇，吾尚不及其一二。",
+      "textLocalized": {
+        "zhHans": "父亲之谋勇，吾尚不及其一二。",
+        "zhHant": "父親之謀勇，吾尚不及其一二。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700002",
+          "name": "与子同袍",
+          "displayName": {
+            "zhHans": "与子同袍",
+            "zhHant": "與子同袍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7000zhanghuyuelin-3ef806c0/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7000zhanghuyuelin/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghuyuelin--7000zhanghuyuelin--1dead01",
+      "resourceId": "7000zhanghuyuelin/1dead01",
+      "text": "儿有辱父亲威名。",
+      "textLocalized": {
+        "zhHans": "儿有辱父亲威名。",
+        "zhHant": "兒有辱父親威名。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7000zhanghuyuelin-3ef806c0/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7000zhanghuyuelin/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

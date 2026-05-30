@@ -1,3 +1,328 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd93aa885a8b4e366c51640bc206fa4f5722ac7242b19b006e27c867da467161
-size 8960
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhoucang",
+    "command": "zhoucang",
+    "name": "周仓",
+    "displayName": {
+      "zhHans": "周仓",
+      "zhHant": "周倉"
+    },
+    "names": [
+      "周仓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周仓",
+        "zhHant": "周倉"
+      }
+    ],
+    "ids": [
+      "325"
+    ],
+    "sourceNames": [
+      "周仓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周仓",
+        "zhHant": "周倉"
+      }
+    ],
+    "sourceIds": [
+      "325"
+    ],
+    "searchNames": [
+      "zhoucang",
+      "周仓",
+      "周倉"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoucang/groups/dead.json"
+      },
+      {
+        "slug": "spell-483",
+        "name": "忠勇",
+        "displayName": {
+          "zhHans": "忠勇",
+          "zhHant": "忠勇"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhoucang/groups/spell-483.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-32505",
+        "name": "为君献刀",
+        "displayName": {
+          "zhHans": "为君献刀",
+          "zhHant": "爲君獻刀"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32505.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32506",
+        "name": "忠勇助关",
+        "displayName": {
+          "zhHans": "忠勇助关",
+          "zhHant": "忠勇助關"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32506.json"
+      },
+      {
+        "slug": "skin-32501",
+        "name": "忠勇当先",
+        "displayName": {
+          "zhHans": "忠勇当先",
+          "zhHant": "忠勇當先"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32501.json"
+      },
+      {
+        "slug": "skin-32503",
+        "name": "忠贯白日",
+        "displayName": {
+          "zhHans": "忠贯白日",
+          "zhHant": "忠貫白日"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32503.json"
+      },
+      {
+        "slug": "skin-32504",
+        "name": "草莽志士",
+        "displayName": {
+          "zhHans": "草莽志士",
+          "zhHant": "草莽志士"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhoucang/skins/skin-32504.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhoucang.json",
+      "groups": "api/v1/tts/characters/zhoucang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhoucang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhoucang/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhoucang--325zhoucang--1dead01",
+      "resourceId": "325zhoucang/1dead01",
+      "text": "为将军操刀牵马，此生无憾！",
+      "textLocalized": {
+        "zhHans": "为将军操刀牵马，此生无憾！",
+        "zhHant": "爲將軍操刀牽馬，此生無憾！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--6dead01",
+      "resourceId": "325zhoucang/6dead01",
+      "text": "将军所托，万死不辞。",
+      "textLocalized": {
+        "zhHans": "将军所托，万死不辞。",
+        "zhHant": "將軍所託，萬死不辭。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32506",
+          "name": "忠勇助关",
+          "displayName": {
+            "zhHans": "忠勇助关",
+            "zhHant": "忠勇助關"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--3dead01",
+      "resourceId": "325zhoucang/3dead01",
+      "text": "鞍前马后，我必舍身。",
+      "textLocalized": {
+        "zhHans": "鞍前马后，我必舍身。",
+        "zhHant": "鞍前馬後，我必捨身。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32505",
+          "name": "为君献刀",
+          "displayName": {
+            "zhHans": "为君献刀",
+            "zhHant": "爲君獻刀"
+          }
+        },
+        {
+          "slug": "skin-32501",
+          "name": "忠勇当先",
+          "displayName": {
+            "zhHans": "忠勇当先",
+            "zhHant": "忠勇當先"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--4dead01",
+      "resourceId": "325zhoucang/4dead01",
+      "text": "生是将军卫，死是将军鬼！",
+      "textLocalized": {
+        "zhHans": "生是将军卫，死是将军鬼！",
+        "zhHant": "生是將軍衛，死是將軍鬼！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32503",
+          "name": "忠贯白日",
+          "displayName": {
+            "zhHans": "忠贯白日",
+            "zhHant": "忠貫白日"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoucang--325zhoucang--5dead01",
+      "resourceId": "325zhoucang/5dead01",
+      "text": "将军已去，我也无生存的意义了。",
+      "textLocalized": {
+        "zhHans": "将军已去，我也无生存的意义了。",
+        "zhHant": "將軍已去，我也無生存的意義了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32504",
+          "name": "草莽志士",
+          "displayName": {
+            "zhHans": "草莽志士",
+            "zhHant": "草莽志士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/325zhoucang-cb541d74/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/325zhoucang/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

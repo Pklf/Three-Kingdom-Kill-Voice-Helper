@@ -1,3 +1,155 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bde13f25594bb0139326120835925b6a1416c76c80ca2e07b0f0b6218cfe5e93
-size 3870
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "chouniu",
+    "command": "chouniu",
+    "name": "丑牛",
+    "displayName": {
+      "zhHans": "丑牛",
+      "zhHant": "丑牛"
+    },
+    "names": [
+      "丑牛"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "丑牛",
+        "zhHant": "丑牛"
+      }
+    ],
+    "ids": [
+      "4084"
+    ],
+    "sourceNames": [
+      "丑牛"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "丑牛",
+        "zhHant": "丑牛"
+      }
+    ],
+    "sourceIds": [
+      "4084"
+    ],
+    "searchNames": [
+      "chouniu",
+      "丑牛"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chouniu/groups/dead.json"
+      },
+      {
+        "slug": "spell-1202",
+        "name": "丑牛",
+        "displayName": {
+          "zhHans": "丑牛",
+          "zhHant": "丑牛"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chouniu/groups/spell-1202.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/chouniu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chouniu.json",
+      "groups": "api/v1/tts/characters/chouniu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chouniu/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "chouniu--4084chouniu--1dead01",
+      "resourceId": "4084chouniu/1dead01",
+      "text": "请将我埋于此地吧",
+      "textLocalized": {
+        "zhHans": "请将我埋于此地吧",
+        "zhHant": "請將我埋於此地吧"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4084chouniu-5fe009bf/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4084chouniu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chouniu--4084chouniu--1skill1_1",
+      "resourceId": "4084chouniu/1skill1_1",
+      "text": "牛角之歌，自保足矣。",
+      "textLocalized": {
+        "zhHans": "牛角之歌，自保足矣。",
+        "zhHant": "牛角之歌，自保足矣。"
+      },
+      "group": {
+        "slug": "spell-1202",
+        "name": "丑牛",
+        "displayName": {
+          "zhHans": "丑牛",
+          "zhHant": "丑牛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4084chouniu-5fe009bf/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4084chouniu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

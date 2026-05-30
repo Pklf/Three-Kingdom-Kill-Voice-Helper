@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc6acb7acd861ccd48caa72eb1848fc0555b5466a0e54f0c44959558e8bc2684
-size 8430
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caiyong",
+    "command": "caiyong",
+    "name": "蔡邕",
+    "displayName": {
+      "zhHans": "蔡邕",
+      "zhHant": "蔡邕"
+    },
+    "names": [
+      "蔡邕"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蔡邕",
+        "zhHant": "蔡邕"
+      }
+    ],
+    "ids": [
+      "395"
+    ],
+    "sourceNames": [
+      "蔡邕"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蔡邕",
+        "zhHant": "蔡邕"
+      }
+    ],
+    "sourceIds": [
+      "395"
+    ],
+    "searchNames": [
+      "caiyong",
+      "蔡邕"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caiyong/groups/dead.json"
+      },
+      {
+        "slug": "spell-795",
+        "name": "辟撰",
+        "displayName": {
+          "zhHans": "辟撰",
+          "zhHant": "闢撰"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caiyong/groups/spell-795.json"
+      },
+      {
+        "slug": "spell-796",
+        "name": "通博",
+        "displayName": {
+          "zhHans": "通博",
+          "zhHant": "通博"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caiyong/groups/spell-796.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-39505",
+        "name": "冥思苦想",
+        "displayName": {
+          "zhHans": "冥思苦想",
+          "zhHant": "冥思苦想"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39505.json"
+      },
+      {
+        "slug": "skin-39503",
+        "name": "博学绘法",
+        "displayName": {
+          "zhHans": "博学绘法",
+          "zhHant": "博學繪法"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39503.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-39501",
+        "name": "妙笔生花",
+        "displayName": {
+          "zhHans": "妙笔生花",
+          "zhHant": "妙筆生花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39501.json"
+      },
+      {
+        "slug": "skin-39501-39505",
+        "name": "妙笔生花,冥思苦想",
+        "displayName": {
+          "zhHans": "妙笔生花,冥思苦想",
+          "zhHant": "妙筆生花,冥思苦想"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39501-39505.json"
+      },
+      {
+        "slug": "skin-39502",
+        "name": "诗音共享",
+        "displayName": {
+          "zhHans": "诗音共享",
+          "zhHant": "詩音共享"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiyong/skins/skin-39502.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caiyong.json",
+      "groups": "api/v1/tts/characters/caiyong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caiyong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/caiyong/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "caiyong--395caiyong--4dead01",
+      "resourceId": "395caiyong/4dead01",
+      "text": "以后的路，为父不能陪你走下去了。",
+      "textLocalized": {
+        "zhHans": "以后的路，为父不能陪你走下去了。",
+        "zhHant": "以後的路，爲父不能陪你走下去了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39503",
+          "name": "博学绘法",
+          "displayName": {
+            "zhHans": "博学绘法",
+            "zhHant": "博學繪法"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/395caiyong-985bf6af/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/395caiyong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiyong--395caiyong--1dead01",
+      "resourceId": "395caiyong/1dead01",
+      "text": "感叹时事，何罪之有？",
+      "textLocalized": {
+        "zhHans": "感叹时事，何罪之有？",
+        "zhHant": "感嘆時事，何罪之有？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/395caiyong-985bf6af/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/395caiyong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiyong--395caiyong--5dead01",
+      "resourceId": "395caiyong/5dead01",
+      "text": "我只求，写完汉史。",
+      "textLocalized": {
+        "zhHans": "我只求，写完汉史。",
+        "zhHant": "我只求，寫完漢史。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39505",
+          "name": "冥思苦想",
+          "displayName": {
+            "zhHans": "冥思苦想",
+            "zhHant": "冥思苦想"
+          }
+        },
+        {
+          "slug": "skin-39501",
+          "name": "妙笔生花",
+          "displayName": {
+            "zhHans": "妙笔生花",
+            "zhHant": "妙筆生花"
+          }
+        },
+        {
+          "slug": "skin-39501-39505",
+          "name": "妙笔生花,冥思苦想",
+          "displayName": {
+            "zhHans": "妙笔生花,冥思苦想",
+            "zhHant": "妙筆生花,冥思苦想"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/395caiyong-985bf6af/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/395caiyong/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiyong--395caiyong--3dead01",
+      "resourceId": "395caiyong/3dead01",
+      "text": "王允老贼，你必有报应！",
+      "textLocalized": {
+        "zhHans": "王允老贼，你必有报应！",
+        "zhHant": "王允老賊，你必有報應！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39502",
+          "name": "诗音共享",
+          "displayName": {
+            "zhHans": "诗音共享",
+            "zhHant": "詩音共享"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/395caiyong-985bf6af/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/395caiyong/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

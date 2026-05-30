@@ -1,3 +1,330 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:318f28ec4d181e5123089f11bf7e9da5024e3f152071598339806ee0225a14c4
-size 9110
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zoushi",
+    "command": "zoushi",
+    "name": "邹氏",
+    "displayName": {
+      "zhHans": "邹氏",
+      "zhHant": "鄒氏"
+    },
+    "names": [
+      "邹氏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "邹氏",
+        "zhHant": "鄒氏"
+      }
+    ],
+    "ids": [
+      "2059"
+    ],
+    "sourceNames": [
+      "邹氏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "邹氏",
+        "zhHant": "鄒氏"
+      }
+    ],
+    "sourceIds": [
+      "2059"
+    ],
+    "searchNames": [
+      "zoushi",
+      "邹氏",
+      "鄒氏"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zoushi/groups/dead.json"
+      },
+      {
+        "slug": "spell-2112",
+        "name": "祸水",
+        "displayName": {
+          "zhHans": "祸水",
+          "zhHant": "禍水"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zoushi/groups/spell-2112.json"
+      },
+      {
+        "slug": "spell-2113",
+        "name": "倾城",
+        "displayName": {
+          "zhHans": "倾城",
+          "zhHant": "傾城"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zoushi/groups/spell-2113.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-205904",
+        "name": "切切于心",
+        "displayName": {
+          "zhHans": "切切于心",
+          "zhHant": "切切於心"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205904.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205905",
+        "name": "娇媚暗波",
+        "displayName": {
+          "zhHans": "娇媚暗波",
+          "zhHant": "嬌媚暗波"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205905.json"
+      },
+      {
+        "slug": "skin-205902",
+        "name": "淯水香魂",
+        "displayName": {
+          "zhHans": "淯水香魂",
+          "zhHant": "淯水香魂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205902.json"
+      },
+      {
+        "slug": "skin-205902-205903",
+        "name": "淯水香魂,艳若桃李",
+        "displayName": {
+          "zhHans": "淯水香魂,艳若桃李",
+          "zhHant": "淯水香魂,豔若桃李"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205902-205903.json"
+      },
+      {
+        "slug": "skin-205903",
+        "name": "艳若桃李",
+        "displayName": {
+          "zhHans": "艳若桃李",
+          "zhHant": "豔若桃李"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zoushi.json",
+      "groups": "api/v1/tts/characters/zoushi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zoushi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-205904",
+    "name": "切切于心",
+    "displayName": {
+      "zhHans": "切切于心",
+      "zhHant": "切切於心"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205904.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zoushi--2059zoushi--4dead01",
+      "resourceId": "2059zoushi/4dead01",
+      "text": "明日淯[yù]水头，遗韵埋香魂。",
+      "textLocalized": {
+        "zhHans": "明日淯[yù]水头，遗韵埋香魂。",
+        "zhHant": "明日淯[yù]水頭，遺韻埋香魂。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205904",
+          "name": "切切于心",
+          "displayName": {
+            "zhHans": "切切于心",
+            "zhHant": "切切於心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--4skill1_1",
+      "resourceId": "2059zoushi/4skill1_1",
+      "text": "你们只要看我表演就可以了",
+      "textLocalized": {
+        "zhHans": "你们只要看我表演就可以了",
+        "zhHant": "你們只要看我表演就可以了"
+      },
+      "group": {
+        "slug": "spell-2112",
+        "name": "祸水",
+        "displayName": {
+          "zhHans": "祸水",
+          "zhHant": "禍水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205904",
+          "name": "切切于心",
+          "displayName": {
+            "zhHans": "切切于心",
+            "zhHant": "切切於心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--4skill1_2",
+      "resourceId": "2059zoushi/4skill1_2",
+      "text": "君爱一时欢，烽烟作良辰。",
+      "textLocalized": {
+        "zhHans": "君爱一时欢，烽烟作良辰。",
+        "zhHant": "君愛一時歡，烽煙作良辰。"
+      },
+      "group": {
+        "slug": "spell-2112",
+        "name": "祸水",
+        "displayName": {
+          "zhHans": "祸水",
+          "zhHant": "禍水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205904",
+          "name": "切切于心",
+          "displayName": {
+            "zhHans": "切切于心",
+            "zhHant": "切切於心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--4skill2_1",
+      "resourceId": "2059zoushi/4skill2_1",
+      "text": "须臾刀兵起，君恩何处寻？",
+      "textLocalized": {
+        "zhHans": "须臾刀兵起，君恩何处寻？",
+        "zhHant": "須臾刀兵起，君恩何處尋？"
+      },
+      "group": {
+        "slug": "spell-2113",
+        "name": "倾城",
+        "displayName": {
+          "zhHans": "倾城",
+          "zhHant": "傾城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205904",
+          "name": "切切于心",
+          "displayName": {
+            "zhHans": "切切于心",
+            "zhHant": "切切於心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--4skill2_2",
+      "resourceId": "2059zoushi/4skill2_2",
+      "text": "见面不如闻名~",
+      "textLocalized": {
+        "zhHans": "见面不如闻名~",
+        "zhHant": "見面不如聞名~"
+      },
+      "group": {
+        "slug": "spell-2113",
+        "name": "倾城",
+        "displayName": {
+          "zhHans": "倾城",
+          "zhHant": "傾城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205904",
+          "name": "切切于心",
+          "displayName": {
+            "zhHans": "切切于心",
+            "zhHant": "切切於心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

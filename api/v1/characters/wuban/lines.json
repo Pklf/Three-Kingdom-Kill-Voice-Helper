@@ -1,3 +1,762 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:481864877cde870e955b3337e14c8ec59a5b766441eeaf07125d24bdfb5c5d3c
-size 17274
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wuban",
+    "command": "wuban",
+    "name": "族吴班",
+    "displayName": {
+      "zhHans": "族吴班",
+      "zhHant": "族吳班"
+    },
+    "names": [
+      "族吴班"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族吴班",
+        "zhHant": "族吳班"
+      }
+    ],
+    "ids": [
+      "529"
+    ],
+    "sourceNames": [
+      "族吴班"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族吴班",
+        "zhHant": "族吳班"
+      }
+    ],
+    "sourceIds": [
+      "529"
+    ],
+    "searchNames": [
+      "wuban",
+      "族吴班",
+      "族吳班"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-3191",
+        "name": "穆荫",
+        "displayName": {
+          "zhHans": "穆荫",
+          "zhHant": "穆蔭"
+        },
+        "ids": [
+          "3191"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-3194",
+        "name": "斩钉",
+        "displayName": {
+          "zhHans": "斩钉",
+          "zhHant": "斬釘"
+        },
+        "ids": [
+          "3194"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/wuban.json",
+      "lines": "api/v1/characters/wuban/lines.json"
+    }
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "wuban--529wuban--1dead01",
+      "resourceId": "529wuban/1dead01",
+      "text": "无胆鼠辈，安敢暗箭伤人。",
+      "textLocalized": {
+        "zhHans": "无胆鼠辈，安敢暗箭伤人。",
+        "zhHant": "無膽鼠輩，安敢暗箭傷人。"
+      },
+      "character": {
+        "slug": "wuban",
+        "command": "wuban",
+        "id": "529",
+        "ids": [
+          "529"
+        ],
+        "name": "族吴班",
+        "displayName": {
+          "zhHans": "族吴班",
+          "zhHant": "族吳班"
+        },
+        "names": [
+          "族吴班"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "sourceIds": [
+          "529"
+        ],
+        "sourceNames": [
+          "族吴班"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "searchNames": [
+          "族吴班",
+          "族吳班",
+          "wuban"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "529",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "族吴班"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/529wuban-a5d89cac/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/529wuban/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuban--529wuban--1skill2_1",
+      "resourceId": "529wuban/1skill2_1",
+      "text": "世代佐忠义，子孙何绝焉。",
+      "textLocalized": {
+        "zhHans": "世代佐忠义，子孙何绝焉。",
+        "zhHant": "世代佐忠義，子孫何絕焉。"
+      },
+      "character": {
+        "slug": "wuban",
+        "command": "wuban",
+        "id": "529",
+        "ids": [
+          "529"
+        ],
+        "name": "族吴班",
+        "displayName": {
+          "zhHans": "族吴班",
+          "zhHant": "族吳班"
+        },
+        "names": [
+          "族吴班"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "sourceIds": [
+          "529"
+        ],
+        "sourceNames": [
+          "族吴班"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "searchNames": [
+          "族吴班",
+          "族吳班",
+          "wuban"
+        ]
+      },
+      "group": {
+        "slug": "spell-3191",
+        "ids": [
+          "3191"
+        ],
+        "name": "穆荫",
+        "displayName": {
+          "zhHans": "穆荫",
+          "zhHant": "穆蔭"
+        },
+        "names": [
+          "穆荫"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "穆荫",
+            "zhHant": "穆蔭"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "529",
+        "skinKey": "-1",
+        "spellKey": "3191",
+        "rowIndex": 1,
+        "characterNames": [
+          "族吴班"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/529wuban-a5d89cac/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/529wuban/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuban--529wuban--1skill2_2",
+      "resourceId": "529wuban/1skill2_2",
+      "text": "族训秉心，其荫何能薄也。",
+      "textLocalized": {
+        "zhHans": "族训秉心，其荫何能薄也。",
+        "zhHant": "族訓秉心，其蔭何能薄也。"
+      },
+      "character": {
+        "slug": "wuban",
+        "command": "wuban",
+        "id": "529",
+        "ids": [
+          "529"
+        ],
+        "name": "族吴班",
+        "displayName": {
+          "zhHans": "族吴班",
+          "zhHant": "族吳班"
+        },
+        "names": [
+          "族吴班"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "sourceIds": [
+          "529"
+        ],
+        "sourceNames": [
+          "族吴班"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "searchNames": [
+          "族吴班",
+          "族吳班",
+          "wuban"
+        ]
+      },
+      "group": {
+        "slug": "spell-3191",
+        "ids": [
+          "3191"
+        ],
+        "name": "穆荫",
+        "displayName": {
+          "zhHans": "穆荫",
+          "zhHant": "穆蔭"
+        },
+        "names": [
+          "穆荫"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "穆荫",
+            "zhHant": "穆蔭"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "529",
+        "skinKey": "-1",
+        "spellKey": "3191",
+        "rowIndex": 2,
+        "characterNames": [
+          "族吴班"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/529wuban-a5d89cac/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/529wuban/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuban--529wuban--1skill1_1",
+      "resourceId": "529wuban/1skill1_1",
+      "text": "汝颈硬？比之金铁何如？",
+      "textLocalized": {
+        "zhHans": "汝颈硬？比之金铁何如？",
+        "zhHant": "汝頸硬？比之金鐵何如？"
+      },
+      "character": {
+        "slug": "wuban",
+        "command": "wuban",
+        "id": "529",
+        "ids": [
+          "529"
+        ],
+        "name": "族吴班",
+        "displayName": {
+          "zhHans": "族吴班",
+          "zhHant": "族吳班"
+        },
+        "names": [
+          "族吴班"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "sourceIds": [
+          "529"
+        ],
+        "sourceNames": [
+          "族吴班"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "searchNames": [
+          "族吴班",
+          "族吳班",
+          "wuban"
+        ]
+      },
+      "group": {
+        "slug": "spell-3194",
+        "ids": [
+          "3194"
+        ],
+        "name": "斩钉",
+        "displayName": {
+          "zhHans": "斩钉",
+          "zhHant": "斬釘"
+        },
+        "names": [
+          "斩钉"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "斩钉",
+            "zhHant": "斬釘"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "529",
+        "skinKey": "-1",
+        "spellKey": "3194",
+        "rowIndex": 1,
+        "characterNames": [
+          "族吴班"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/529wuban-a5d89cac/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/529wuban/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuban--529wuban--1skill1_2",
+      "resourceId": "529wuban/1skill1_2",
+      "text": "魍魉[wǎng liǎng]鼠辈，速速系颈俯首。",
+      "textLocalized": {
+        "zhHans": "魍魉[wǎng liǎng]鼠辈，速速系颈俯首。",
+        "zhHant": "魍魎[wǎng liǎng]鼠輩，速速繫頸俯首。"
+      },
+      "character": {
+        "slug": "wuban",
+        "command": "wuban",
+        "id": "529",
+        "ids": [
+          "529"
+        ],
+        "name": "族吴班",
+        "displayName": {
+          "zhHans": "族吴班",
+          "zhHant": "族吳班"
+        },
+        "names": [
+          "族吴班"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "sourceIds": [
+          "529"
+        ],
+        "sourceNames": [
+          "族吴班"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "族吴班",
+            "zhHant": "族吳班"
+          }
+        ],
+        "searchNames": [
+          "族吴班",
+          "族吳班",
+          "wuban"
+        ]
+      },
+      "group": {
+        "slug": "spell-3194",
+        "ids": [
+          "3194"
+        ],
+        "name": "斩钉",
+        "displayName": {
+          "zhHans": "斩钉",
+          "zhHant": "斬釘"
+        },
+        "names": [
+          "斩钉"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "斩钉",
+            "zhHant": "斬釘"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "529",
+        "skinKey": "-1",
+        "spellKey": "3194",
+        "rowIndex": 2,
+        "characterNames": [
+          "族吴班"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/529wuban-a5d89cac/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/529wuban/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

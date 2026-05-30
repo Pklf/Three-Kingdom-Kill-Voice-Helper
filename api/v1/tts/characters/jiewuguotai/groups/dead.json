@@ -1,3 +1,209 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:32bedb93540511e3cdf53de6c5b1dc3a6ed502cf27ccf8ed677f89b181793056
-size 5445
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiewuguotai",
+    "command": "jiewuguotai",
+    "name": "界吴国太",
+    "displayName": {
+      "zhHans": "界吴国太",
+      "zhHant": "界吳國太"
+    },
+    "names": [
+      "界吴国太",
+      "吴国太"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界吴国太",
+        "zhHant": "界吳國太"
+      },
+      {
+        "zhHans": "吴国太",
+        "zhHant": "吳國太"
+      }
+    ],
+    "ids": [
+      "640",
+      "157"
+    ],
+    "sourceNames": [
+      "界吴国太",
+      "吴国太"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界吴国太",
+        "zhHant": "界吳國太"
+      },
+      {
+        "zhHans": "吴国太",
+        "zhHant": "吳國太"
+      }
+    ],
+    "sourceIds": [
+      "640",
+      "157"
+    ],
+    "searchNames": [
+      "jiewuguotai",
+      "界吴国太",
+      "界吳國太",
+      "吴国太",
+      "吳國太"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiewuguotai/groups/dead.json"
+      },
+      {
+        "slug": "spell-3505",
+        "name": "甘露",
+        "displayName": {
+          "zhHans": "甘露",
+          "zhHant": "甘露"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiewuguotai/groups/spell-3505.json"
+      },
+      {
+        "slug": "spell-3506",
+        "name": "补益",
+        "displayName": {
+          "zhHans": "补益",
+          "zhHant": "補益"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiewuguotai/groups/spell-3506.json"
+      },
+      {
+        "slug": "spell-413-2155-3506",
+        "name": "补益",
+        "displayName": {
+          "zhHans": "补益",
+          "zhHant": "補益"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiewuguotai/groups/spell-413-2155-3506.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiewuguotai/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-64001",
+        "name": "金秋雨露",
+        "displayName": {
+          "zhHans": "金秋雨露",
+          "zhHant": "金秋雨露"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiewuguotai/skins/skin-64001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiewuguotai.json",
+      "groups": "api/v1/tts/characters/jiewuguotai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiewuguotai/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jiewuguotai/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jiewuguotai--640jiewuguotai--1dead01",
+      "resourceId": "640jiewuguotai/1dead01",
+      "text": "竖子，何以胞妹为饵乎？",
+      "textLocalized": {
+        "zhHans": "竖子，何以胞妹为饵乎？",
+        "zhHant": "豎子，何以胞妹爲餌乎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/640jiewuguotai-584a097a/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/640jiewuguotai/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiewuguotai--640jiewuguotai--2dead01",
+      "resourceId": "640jiewuguotai/2dead01",
+      "text": "一岁重阳一岁老，青丝换白头。",
+      "textLocalized": {
+        "zhHans": "一岁重阳一岁老，青丝换白头。",
+        "zhHant": "一歲重陽一歲老，青絲換白頭。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-64001",
+          "name": "金秋雨露",
+          "displayName": {
+            "zhHans": "金秋雨露",
+            "zhHant": "金秋雨露"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/640jiewuguotai-584a097a/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/640jiewuguotai/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

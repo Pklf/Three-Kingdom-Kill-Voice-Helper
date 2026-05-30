@@ -1,3 +1,319 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6f27f4784f167d81977dabec653161248b7e829d88d4bb85d68d5aa53e7db774
-size 8949
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wanglang",
+    "command": "wanglang",
+    "name": "王朗",
+    "displayName": {
+      "zhHans": "王朗",
+      "zhHant": "王朗"
+    },
+    "names": [
+      "王朗"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王朗",
+        "zhHant": "王朗"
+      }
+    ],
+    "ids": [
+      "350"
+    ],
+    "sourceNames": [
+      "王朗"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王朗",
+        "zhHant": "王朗"
+      }
+    ],
+    "sourceIds": [
+      "350"
+    ],
+    "searchNames": [
+      "wanglang",
+      "王朗"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/dead.json"
+      },
+      {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/spell-280.json"
+      },
+      {
+        "slug": "spell-281",
+        "name": "激词",
+        "displayName": {
+          "zhHans": "激词",
+          "zhHant": "激詞"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wanglang/groups/spell-281.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35005",
+        "name": "四世三公",
+        "displayName": {
+          "zhHans": "四世三公",
+          "zhHant": "四世三公"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35005.json"
+      },
+      {
+        "slug": "skin-35003",
+        "name": "抒言辨思",
+        "displayName": {
+          "zhHans": "抒言辨思",
+          "zhHant": "抒言辨思"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35003.json"
+      },
+      {
+        "slug": "skin-35004",
+        "name": "渊薮临危",
+        "displayName": {
+          "zhHans": "渊薮临危",
+          "zhHant": "淵藪臨危"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35004.json"
+      },
+      {
+        "slug": "skin-35006",
+        "name": "骧龙御宇",
+        "displayName": {
+          "zhHans": "骧龙御宇",
+          "zhHant": "驤龍御宇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wanglang/skins/skin-35006.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wanglang.json",
+      "groups": "api/v1/tts/characters/wanglang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wanglang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/wanglang/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "wanglang--350wanglang--1dead01",
+      "resourceId": "350wanglang/1dead01",
+      "text": "你！你！",
+      "textLocalized": {
+        "zhHans": "你！你！",
+        "zhHant": "你！你！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--1skill1_1",
+      "resourceId": "350wanglang/1skill1_1",
+      "text": "公既知天命，识时务，|为何要兴无名之师，犯我疆界？",
+      "textLocalized": {
+        "zhHans": "公既知天命，识时务，|为何要兴无名之师，犯我疆界？",
+        "zhHant": "公既知天命，識時務，|爲何要興無名之師，犯我疆界？"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--1skill1_2",
+      "resourceId": "350wanglang/1skill1_2",
+      "text": "你若倒戈卸甲，以礼来降，仍不失封侯之位。|国安民乐，岂不美哉？",
+      "textLocalized": {
+        "zhHans": "你若倒戈卸甲，以礼来降，仍不失封侯之位。|国安民乐，岂不美哉？",
+        "zhHant": "你若倒戈卸甲，以禮來降，仍不失封侯之位。|國安民樂，豈不美哉？"
+      },
+      "group": {
+        "slug": "spell-280",
+        "name": "鼓舌",
+        "displayName": {
+          "zhHans": "鼓舌",
+          "zhHant": "鼓舌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--1skill2_1",
+      "resourceId": "350wanglang/1skill2_1",
+      "text": "量尔等腐草之萤光，如何比得上天空之皓月？",
+      "textLocalized": {
+        "zhHans": "量尔等腐草之萤光，如何比得上天空之皓月？",
+        "zhHant": "量爾等腐草之螢光，如何比得上天空之皓月？"
+      },
+      "group": {
+        "slug": "spell-281",
+        "name": "激词",
+        "displayName": {
+          "zhHans": "激词",
+          "zhHant": "激詞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanglang--350wanglang--1skill2_2",
+      "resourceId": "350wanglang/1skill2_2",
+      "text": "你！诸葛村夫，你敢……",
+      "textLocalized": {
+        "zhHans": "你！诸葛村夫，你敢……",
+        "zhHant": "你！諸葛村夫，你敢……"
+      },
+      "group": {
+        "slug": "spell-281",
+        "name": "激词",
+        "displayName": {
+          "zhHans": "激词",
+          "zhHant": "激詞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/350wanglang-4c87303f/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/350wanglang/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

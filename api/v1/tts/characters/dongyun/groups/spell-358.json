@@ -1,3 +1,598 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d3a5f1738250ba288bc77c028c2f9252e33a6384de386de36451cf4d573cdcd8
-size 17069
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dongyun",
+    "command": "dongyun",
+    "name": "董允",
+    "displayName": {
+      "zhHans": "董允",
+      "zhHant": "董允"
+    },
+    "names": [
+      "董允"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "董允",
+        "zhHant": "董允"
+      }
+    ],
+    "ids": [
+      "369"
+    ],
+    "sourceNames": [
+      "董允"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "董允",
+        "zhHant": "董允"
+      }
+    ],
+    "sourceIds": [
+      "369"
+    ],
+    "searchNames": [
+      "dongyun",
+      "董允"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/groups/dead.json"
+      },
+      {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/dongyun/groups/spell-358.json"
+      },
+      {
+        "slug": "spell-359",
+        "name": "舍宴",
+        "displayName": {
+          "zhHans": "舍宴",
+          "zhHant": "舍宴"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/dongyun/groups/spell-359.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-36905",
+        "name": "喜作诗赋",
+        "displayName": {
+          "zhHans": "喜作诗赋",
+          "zhHant": "喜作詩賦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/skins/skin-36905.json"
+      },
+      {
+        "slug": "skin-36907",
+        "name": "忠驱虎狼",
+        "displayName": {
+          "zhHans": "忠驱虎狼",
+          "zhHant": "忠驅虎狼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/skins/skin-36907.json"
+      },
+      {
+        "slug": "skin-36908",
+        "name": "慨言直谏",
+        "displayName": {
+          "zhHans": "慨言直谏",
+          "zhHant": "慨言直諫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/skins/skin-36908.json"
+      },
+      {
+        "slug": "skin-36902",
+        "name": "梦笔生花",
+        "displayName": {
+          "zhHans": "梦笔生花",
+          "zhHant": "夢筆生花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/skins/skin-36902.json"
+      },
+      {
+        "slug": "skin-36902-36905",
+        "name": "梦笔生花,喜作诗赋",
+        "displayName": {
+          "zhHans": "梦笔生花,喜作诗赋",
+          "zhHant": "夢筆生花,喜作詩賦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/skins/skin-36902-36905.json"
+      },
+      {
+        "slug": "skin-36901",
+        "name": "秉心公亮",
+        "displayName": {
+          "zhHans": "秉心公亮",
+          "zhHant": "秉心公亮"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/skins/skin-36901.json"
+      },
+      {
+        "slug": "skin-36901-36908",
+        "name": "秉心公亮,慨言直谏",
+        "displayName": {
+          "zhHans": "秉心公亮,慨言直谏",
+          "zhHant": "秉心公亮,慨言直諫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/skins/skin-36901-36908.json"
+      },
+      {
+        "slug": "skin-36904",
+        "name": "翼赞辅君",
+        "displayName": {
+          "zhHans": "翼赞辅君",
+          "zhHant": "翼贊輔君"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongyun/skins/skin-36904.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dongyun.json",
+      "groups": "api/v1/tts/characters/dongyun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dongyun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-358",
+    "name": "秉正",
+    "displayName": {
+      "zhHans": "秉正",
+      "zhHant": "秉正"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/dongyun/groups/spell-358.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "dongyun--369dongyun--1skill1_1",
+      "resourceId": "369dongyun/1skill1_1",
+      "text": "自古，就是邪不胜正！",
+      "textLocalized": {
+        "zhHans": "自古，就是邪不胜正！",
+        "zhHant": "自古，就是邪不勝正！"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongyun--369dongyun--1skill1_2",
+      "resourceId": "369dongyun/1skill1_2",
+      "text": "主公面前，岂容小人搬弄是非？",
+      "textLocalized": {
+        "zhHans": "主公面前，岂容小人搬弄是非？",
+        "zhHant": "主公面前，豈容小人搬弄是非？"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongyun--369dongyun--6skill1_1",
+      "resourceId": "369dongyun/6skill1_1",
+      "text": "藏忠义于身，佐吾主立大争之世。",
+      "textLocalized": {
+        "zhHans": "藏忠义于身，佐吾主立大争之世。",
+        "zhHant": "藏忠義於身，佐吾主立大爭之世。"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36907",
+          "name": "忠驱虎狼",
+          "displayName": {
+            "zhHans": "忠驱虎狼",
+            "zhHant": "忠驅虎狼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongyun--369dongyun--6skill1_2",
+      "resourceId": "369dongyun/6skill1_2",
+      "text": "铸正气为骨，秉天地以磅礴浩然。",
+      "textLocalized": {
+        "zhHans": "铸正气为骨，秉天地以磅礴浩然。",
+        "zhHant": "鑄正氣爲骨，秉天地以磅礴浩然。"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36907",
+          "name": "忠驱虎狼",
+          "displayName": {
+            "zhHans": "忠驱虎狼",
+            "zhHant": "忠驅虎狼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongyun--369dongyun--4skill1_1",
+      "resourceId": "369dongyun/4skill1_1",
+      "text": "正气凛然，才能从容不迫。",
+      "textLocalized": {
+        "zhHans": "正气凛然，才能从容不迫。",
+        "zhHant": "正氣凜然，才能從容不迫。"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36905",
+          "name": "喜作诗赋",
+          "displayName": {
+            "zhHans": "喜作诗赋",
+            "zhHant": "喜作詩賦"
+          }
+        },
+        {
+          "slug": "skin-36902",
+          "name": "梦笔生花",
+          "displayName": {
+            "zhHans": "梦笔生花",
+            "zhHant": "夢筆生花"
+          }
+        },
+        {
+          "slug": "skin-36902-36905",
+          "name": "梦笔生花,喜作诗赋",
+          "displayName": {
+            "zhHans": "梦笔生花,喜作诗赋",
+            "zhHant": "夢筆生花,喜作詩賦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongyun--369dongyun--4skill1_2",
+      "resourceId": "369dongyun/4skill1_2",
+      "text": "愿陛下亲贤臣，远小人。",
+      "textLocalized": {
+        "zhHans": "愿陛下亲贤臣，远小人。",
+        "zhHant": "願陛下親賢臣，遠小人。"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36905",
+          "name": "喜作诗赋",
+          "displayName": {
+            "zhHans": "喜作诗赋",
+            "zhHant": "喜作詩賦"
+          }
+        },
+        {
+          "slug": "skin-36902",
+          "name": "梦笔生花",
+          "displayName": {
+            "zhHans": "梦笔生花",
+            "zhHant": "夢筆生花"
+          }
+        },
+        {
+          "slug": "skin-36902-36905",
+          "name": "梦笔生花,喜作诗赋",
+          "displayName": {
+            "zhHans": "梦笔生花,喜作诗赋",
+            "zhHant": "夢筆生花,喜作詩賦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongyun--369dongyun--3skill1_1",
+      "resourceId": "369dongyun/3skill1_1",
+      "text": "一身正气，两袖清风。",
+      "textLocalized": {
+        "zhHans": "一身正气，两袖清风。",
+        "zhHant": "一身正氣，兩袖清風。"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36908",
+          "name": "慨言直谏",
+          "displayName": {
+            "zhHans": "慨言直谏",
+            "zhHant": "慨言直諫"
+          }
+        },
+        {
+          "slug": "skin-36901",
+          "name": "秉心公亮",
+          "displayName": {
+            "zhHans": "秉心公亮",
+            "zhHant": "秉心公亮"
+          }
+        },
+        {
+          "slug": "skin-36901-36908",
+          "name": "秉心公亮,慨言直谏",
+          "displayName": {
+            "zhHans": "秉心公亮,慨言直谏",
+            "zhHant": "秉心公亮,慨言直諫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongyun--369dongyun--3skill1_2",
+      "resourceId": "369dongyun/3skill1_2",
+      "text": "矜而不争，群而不党。",
+      "textLocalized": {
+        "zhHans": "矜而不争，群而不党。",
+        "zhHant": "矜而不爭，羣而不黨。"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36908",
+          "name": "慨言直谏",
+          "displayName": {
+            "zhHans": "慨言直谏",
+            "zhHant": "慨言直諫"
+          }
+        },
+        {
+          "slug": "skin-36901",
+          "name": "秉心公亮",
+          "displayName": {
+            "zhHans": "秉心公亮",
+            "zhHant": "秉心公亮"
+          }
+        },
+        {
+          "slug": "skin-36901-36908",
+          "name": "秉心公亮,慨言直谏",
+          "displayName": {
+            "zhHans": "秉心公亮,慨言直谏",
+            "zhHant": "秉心公亮,慨言直諫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongyun--369dongyun--5skill1_1",
+      "resourceId": "369dongyun/5skill1_1",
+      "text": "君子坦荡荡，小人长戚戚。",
+      "textLocalized": {
+        "zhHans": "君子坦荡荡，小人长戚戚。",
+        "zhHant": "君子坦蕩蕩，小人長慼慼。"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36904",
+          "name": "翼赞辅君",
+          "displayName": {
+            "zhHans": "翼赞辅君",
+            "zhHant": "翼贊輔君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongyun--369dongyun--5skill1_2",
+      "resourceId": "369dongyun/5skill1_2",
+      "text": "身正不怕影子斜。",
+      "textLocalized": {
+        "zhHans": "身正不怕影子斜。",
+        "zhHant": "身正不怕影子斜。"
+      },
+      "group": {
+        "slug": "spell-358",
+        "name": "秉正",
+        "displayName": {
+          "zhHans": "秉正",
+          "zhHant": "秉正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36904",
+          "name": "翼赞辅君",
+          "displayName": {
+            "zhHans": "翼赞辅君",
+            "zhHant": "翼贊輔君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/369dongyun-a2a0a957/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/369dongyun/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

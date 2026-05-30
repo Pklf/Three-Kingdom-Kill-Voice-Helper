@@ -1,3 +1,509 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:749b8bc72ede7a61c870405345250c89a7f1f22dc47e004bfffa7bbc7390504f
-size 14265
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xiahoudun",
+    "command": "xiahoudun",
+    "name": "夏侯惇",
+    "displayName": {
+      "zhHans": "夏侯惇",
+      "zhHant": "夏侯惇"
+    },
+    "names": [
+      "夏侯惇",
+      "界夏侯惇"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "夏侯惇",
+        "zhHant": "夏侯惇"
+      },
+      {
+        "zhHans": "界夏侯惇",
+        "zhHant": "界夏侯惇"
+      }
+    ],
+    "ids": [
+      "17",
+      "313"
+    ],
+    "sourceNames": [
+      "夏侯惇",
+      "界夏侯惇"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "夏侯惇",
+        "zhHant": "夏侯惇"
+      },
+      {
+        "zhHans": "界夏侯惇",
+        "zhHant": "界夏侯惇"
+      }
+    ],
+    "sourceIds": [
+      "17",
+      "313"
+    ],
+    "searchNames": [
+      "xiahoudun",
+      "夏侯惇",
+      "界夏侯惇"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xiahoudun/groups/dead.json"
+      },
+      {
+        "slug": "spell-49",
+        "name": "刚烈",
+        "displayName": {
+          "zhHans": "刚烈",
+          "zhHant": "剛烈"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xiahoudun/groups/spell-49.json"
+      },
+      {
+        "slug": "spell-49-720",
+        "name": "刚烈",
+        "displayName": {
+          "zhHans": "刚烈",
+          "zhHant": "剛烈"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahoudun/groups/spell-49-720.json"
+      },
+      {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahoudun/groups/spell-753.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1708",
+        "name": "刚烈无惧",
+        "displayName": {
+          "zhHans": "刚烈无惧",
+          "zhHant": "剛烈無懼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1708.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-1707",
+        "name": "忠武烈火",
+        "displayName": {
+          "zhHans": "忠武烈火",
+          "zhHant": "忠武烈火"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1707.json"
+      },
+      {
+        "slug": "skin-1706",
+        "name": "杀场火战",
+        "displayName": {
+          "zhHans": "杀场火战",
+          "zhHant": "殺場火戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1706.json"
+      },
+      {
+        "slug": "skin-1701",
+        "name": "武将列传",
+        "displayName": {
+          "zhHans": "武将列传",
+          "zhHant": "武將列傳"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1701.json"
+      },
+      {
+        "slug": "skin-1701-1706",
+        "name": "武将列传,杀场火战",
+        "displayName": {
+          "zhHans": "武将列传,杀场火战",
+          "zhHant": "武將列傳,殺場火戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1701-1706.json"
+      },
+      {
+        "slug": "skin-1703",
+        "name": "浴血奋战",
+        "displayName": {
+          "zhHans": "浴血奋战",
+          "zhHant": "浴血奮戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1703.json"
+      },
+      {
+        "slug": "skin-2",
+        "name": "经典",
+        "displayName": {
+          "zhHans": "经典",
+          "zhHant": "經典"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-2.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xiahoudun.json",
+      "groups": "api/v1/tts/characters/xiahoudun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xiahoudun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-753",
+    "name": "清俭",
+    "displayName": {
+      "zhHans": "清俭",
+      "zhHant": "清儉"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/xiahoudun/groups/spell-753.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "xiahoudun--17xiahoudun--6skill2_1",
+      "resourceId": "17xiahoudun/6skill2_1",
+      "text": "俭以养德，屯田树兵。",
+      "textLocalized": {
+        "zhHans": "俭以养德，屯田树兵。",
+        "zhHant": "儉以養德，屯田樹兵。"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1708",
+          "name": "刚烈无惧",
+          "displayName": {
+            "zhHans": "刚烈无惧",
+            "zhHant": "剛烈無懼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--6skill2_2",
+      "resourceId": "17xiahoudun/6skill2_2",
+      "text": "粥饭足以供三餐之用，无需酒肉。",
+      "textLocalized": {
+        "zhHans": "粥饭足以供三餐之用，无需酒肉。",
+        "zhHant": "粥飯足以供三餐之用，無需酒肉。"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1708",
+          "name": "刚烈无惧",
+          "displayName": {
+            "zhHans": "刚烈无惧",
+            "zhHant": "剛烈無懼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--5skill2_1",
+      "resourceId": "17xiahoudun/5skill2_1",
+      "text": "粮秣[mò]布帛，来之不易！",
+      "textLocalized": {
+        "zhHans": "粮秣[mò]布帛，来之不易！",
+        "zhHant": "糧秣[mò]布帛，來之不易！"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1707",
+          "name": "忠武烈火",
+          "displayName": {
+            "zhHans": "忠武烈火",
+            "zhHant": "忠武烈火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/5skill2_1.mp3",
+        "available": {
+          "cached": false,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--5skill2_2",
+      "resourceId": "17xiahoudun/5skill2_2",
+      "text": "物力维艰，效法于俭。",
+      "textLocalized": {
+        "zhHans": "物力维艰，效法于俭。",
+        "zhHant": "物力維艱，效法於儉。"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1707",
+          "name": "忠武烈火",
+          "displayName": {
+            "zhHans": "忠武烈火",
+            "zhHant": "忠武烈火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/5skill2_2.mp3",
+        "available": {
+          "cached": false,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--3skill2_1",
+      "resourceId": "17xiahoudun/3skill2_1",
+      "text": "清修仁望，俭行己身。",
+      "textLocalized": {
+        "zhHans": "清修仁望，俭行己身。",
+        "zhHant": "清修仁望，儉行己身。"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1706",
+          "name": "杀场火战",
+          "displayName": {
+            "zhHans": "杀场火战",
+            "zhHant": "殺場火戰"
+          }
+        },
+        {
+          "slug": "skin-1701",
+          "name": "武将列传",
+          "displayName": {
+            "zhHans": "武将列传",
+            "zhHant": "武將列傳"
+          }
+        },
+        {
+          "slug": "skin-1701-1706",
+          "name": "武将列传,杀场火战",
+          "displayName": {
+            "zhHans": "武将列传,杀场火战",
+            "zhHant": "武將列傳,殺場火戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--3skill2_2",
+      "resourceId": "17xiahoudun/3skill2_2",
+      "text": "清已赏赐，继兵阵势。",
+      "textLocalized": {
+        "zhHans": "清已赏赐，继兵阵势。",
+        "zhHant": "清已賞賜，繼兵陣勢。"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1706",
+          "name": "杀场火战",
+          "displayName": {
+            "zhHans": "杀场火战",
+            "zhHant": "殺場火戰"
+          }
+        },
+        {
+          "slug": "skin-1701",
+          "name": "武将列传",
+          "displayName": {
+            "zhHans": "武将列传",
+            "zhHant": "武將列傳"
+          }
+        },
+        {
+          "slug": "skin-1701-1706",
+          "name": "武将列传,杀场火战",
+          "displayName": {
+            "zhHans": "武将列传,杀场火战",
+            "zhHant": "武將列傳,殺場火戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--4skill2_1",
+      "resourceId": "17xiahoudun/4skill2_1",
+      "text": "勤以修身，俭以养德。",
+      "textLocalized": {
+        "zhHans": "勤以修身，俭以养德。",
+        "zhHant": "勤以修身，儉以養德。"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1703",
+          "name": "浴血奋战",
+          "displayName": {
+            "zhHans": "浴血奋战",
+            "zhHant": "浴血奮戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--4skill2_2",
+      "resourceId": "17xiahoudun/4skill2_2",
+      "text": "无功不受禄！",
+      "textLocalized": {
+        "zhHans": "无功不受禄！",
+        "zhHant": "無功不受祿！"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1703",
+          "name": "浴血奋战",
+          "displayName": {
+            "zhHans": "浴血奋战",
+            "zhHant": "浴血奮戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bbde084e19eae035f8c9a07da4cacd03519378e6ebb9b2b703735c8b5a0d9b2d
-size 8128
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoshuang",
+    "command": "caoshuang",
+    "name": "曹爽",
+    "displayName": {
+      "zhHans": "曹爽",
+      "zhHant": "曹爽"
+    },
+    "names": [
+      "曹爽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹爽",
+        "zhHant": "曹爽"
+      }
+    ],
+    "ids": [
+      "469"
+    ],
+    "sourceNames": [
+      "曹爽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹爽",
+        "zhHant": "曹爽"
+      }
+    ],
+    "sourceIds": [
+      "469"
+    ],
+    "searchNames": [
+      "caoshuang",
+      "曹爽"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoshuang/groups/dead.json"
+      },
+      {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caoshuang/groups/spell-955.json"
+      },
+      {
+        "slug": "spell-956",
+        "name": "擅专",
+        "displayName": {
+          "zhHans": "擅专",
+          "zhHant": "擅專"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caoshuang/groups/spell-956.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoshuang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46902",
+        "name": "受诏专权",
+        "displayName": {
+          "zhHans": "受诏专权",
+          "zhHant": "受詔專權"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoshuang/skins/skin-46902.json"
+      },
+      {
+        "slug": "skin-46901",
+        "name": "安逸奢靡",
+        "displayName": {
+          "zhHans": "安逸奢靡",
+          "zhHant": "安逸奢靡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoshuang/skins/skin-46901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoshuang.json",
+      "groups": "api/v1/tts/characters/caoshuang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoshuang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caoshuang/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caoshuang--469caoshuang--1dead01",
+      "resourceId": "469caoshuang/1dead01",
+      "text": "悔不该降了司马懿……",
+      "textLocalized": {
+        "zhHans": "悔不该降了司马懿……",
+        "zhHant": "悔不該降了司馬懿……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoshuang--469caoshuang--1skill1_1",
+      "resourceId": "469caoshuang/1skill1_1",
+      "text": "君托以六尺之孤，爽当寄百里之命。",
+      "textLocalized": {
+        "zhHans": "君托以六尺之孤，爽当寄百里之命。",
+        "zhHant": "君託以六尺之孤，爽當寄百里之命。"
+      },
+      "group": {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoshuang--469caoshuang--1skill1_2",
+      "resourceId": "469caoshuang/1skill1_2",
+      "text": "先帝以大事托我，任重而道远。",
+      "textLocalized": {
+        "zhHans": "先帝以大事托我，任重而道远。",
+        "zhHant": "先帝以大事託我，任重而道遠。"
+      },
+      "group": {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoshuang--469caoshuang--1skill2_1",
+      "resourceId": "469caoshuang/1skill2_1",
+      "text": "打入冷宫，禁足绝食！",
+      "textLocalized": {
+        "zhHans": "打入冷宫，禁足绝食！",
+        "zhHant": "打入冷宮，禁足絕食！"
+      },
+      "group": {
+        "slug": "spell-956",
+        "name": "擅专",
+        "displayName": {
+          "zhHans": "擅专",
+          "zhHant": "擅專"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoshuang--469caoshuang--1skill2_2",
+      "resourceId": "469caoshuang/1skill2_2",
+      "text": "我言既出，谁敢不从？",
+      "textLocalized": {
+        "zhHans": "我言既出，谁敢不从？",
+        "zhHant": "我言既出，誰敢不從？"
+      },
+      "group": {
+        "slug": "spell-956",
+        "name": "擅专",
+        "displayName": {
+          "zhHans": "擅专",
+          "zhHant": "擅專"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

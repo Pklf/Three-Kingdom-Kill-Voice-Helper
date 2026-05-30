@@ -1,3 +1,309 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1d0e438359c0ac1f465a253b9e4ee3bd029fc01ea2ff01b51ffead9c2866eaca
-size 8377
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lijue",
+    "command": "lijue",
+    "name": "李傕",
+    "displayName": {
+      "zhHans": "李傕",
+      "zhHant": "李傕"
+    },
+    "names": [
+      "李傕"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李傕",
+        "zhHant": "李傕"
+      }
+    ],
+    "ids": [
+      "418"
+    ],
+    "sourceNames": [
+      "李傕"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李傕",
+        "zhHant": "李傕"
+      }
+    ],
+    "sourceIds": [
+      "418"
+    ],
+    "searchNames": [
+      "lijue",
+      "李傕"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lijue/groups/dead.json"
+      },
+      {
+        "slug": "spell-854",
+        "name": "狼袭",
+        "displayName": {
+          "zhHans": "狼袭",
+          "zhHant": "狼襲"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lijue/groups/spell-854.json"
+      },
+      {
+        "slug": "spell-855",
+        "name": "亦算",
+        "displayName": {
+          "zhHans": "亦算",
+          "zhHant": "亦算"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lijue/groups/spell-855.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41801",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-41801.json"
+      },
+      {
+        "slug": "skin-41802",
+        "name": "狼噬火踪",
+        "displayName": {
+          "zhHans": "狼噬火踪",
+          "zhHant": "狼噬火蹤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-41802.json"
+      },
+      {
+        "slug": "skin-41803",
+        "name": "筹谋长安",
+        "displayName": {
+          "zhHans": "筹谋长安",
+          "zhHant": "籌謀長安"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-41803.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lijue.json",
+      "groups": "api/v1/tts/characters/lijue/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lijue/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-41802",
+    "name": "狼噬火踪",
+    "displayName": {
+      "zhHans": "狼噬火踪",
+      "zhHant": "狼噬火蹤"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/lijue/skins/skin-41802.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "lijue--418lijue--4dead01",
+      "resourceId": "418lijue/4dead01",
+      "text": "若有文和在侧，吾不至如此。",
+      "textLocalized": {
+        "zhHans": "若有文和在侧，吾不至如此。",
+        "zhHant": "若有文和在側，吾不至如此。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41802",
+          "name": "狼噬火踪",
+          "displayName": {
+            "zhHans": "狼噬火踪",
+            "zhHant": "狼噬火蹤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--4skill1_1",
+      "resourceId": "418lijue/4skill1_1",
+      "text": "狼顾鸱[chī]张，群散各奔！",
+      "textLocalized": {
+        "zhHans": "狼顾鸱[chī]张，群散各奔！",
+        "zhHant": "狼顧鴟[chī]張，羣散各奔！"
+      },
+      "group": {
+        "slug": "spell-854",
+        "name": "狼袭",
+        "displayName": {
+          "zhHans": "狼袭",
+          "zhHant": "狼襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41802",
+          "name": "狼噬火踪",
+          "displayName": {
+            "zhHans": "狼噬火踪",
+            "zhHant": "狼噬火蹤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--4skill1_2",
+      "resourceId": "418lijue/4skill1_2",
+      "text": "炎狼奔袭，围攻灭敌！",
+      "textLocalized": {
+        "zhHans": "炎狼奔袭，围攻灭敌！",
+        "zhHant": "炎狼奔襲，圍攻滅敵！"
+      },
+      "group": {
+        "slug": "spell-854",
+        "name": "狼袭",
+        "displayName": {
+          "zhHans": "狼袭",
+          "zhHant": "狼襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41802",
+          "name": "狼噬火踪",
+          "displayName": {
+            "zhHans": "狼噬火踪",
+            "zhHant": "狼噬火蹤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--4skill2_1",
+      "resourceId": "418lijue/4skill2_1",
+      "text": "文和虽智，吾亦善算！",
+      "textLocalized": {
+        "zhHans": "文和虽智，吾亦善算！",
+        "zhHant": "文和雖智，吾亦善算！"
+      },
+      "group": {
+        "slug": "spell-855",
+        "name": "亦算",
+        "displayName": {
+          "zhHans": "亦算",
+          "zhHant": "亦算"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41802",
+          "name": "狼噬火踪",
+          "displayName": {
+            "zhHans": "狼噬火踪",
+            "zhHant": "狼噬火蹤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--4skill2_2",
+      "resourceId": "418lijue/4skill2_2",
+      "text": "文和之言，略有可用之处。",
+      "textLocalized": {
+        "zhHans": "文和之言，略有可用之处。",
+        "zhHant": "文和之言，略有可用之處。"
+      },
+      "group": {
+        "slug": "spell-855",
+        "name": "亦算",
+        "displayName": {
+          "zhHans": "亦算",
+          "zhHant": "亦算"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41802",
+          "name": "狼噬火踪",
+          "displayName": {
+            "zhHans": "狼噬火踪",
+            "zhHant": "狼噬火蹤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

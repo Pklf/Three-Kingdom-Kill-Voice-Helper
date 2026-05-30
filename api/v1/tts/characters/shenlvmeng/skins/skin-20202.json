@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:32f767ee01577554cef0ae84cdd5d714a39c1ad37047060967dc761323655cfc
-size 8307
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenlvmeng",
+    "command": "shenlvmeng",
+    "name": "神吕蒙",
+    "displayName": {
+      "zhHans": "神吕蒙",
+      "zhHant": "神呂蒙"
+    },
+    "names": [
+      "神吕蒙"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神吕蒙",
+        "zhHant": "神呂蒙"
+      }
+    ],
+    "ids": [
+      "202"
+    ],
+    "sourceNames": [
+      "神吕蒙"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神吕蒙",
+        "zhHant": "神呂蒙"
+      }
+    ],
+    "sourceIds": [
+      "202"
+    ],
+    "searchNames": [
+      "shenlvmeng",
+      "神吕蒙",
+      "神呂蒙"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenlvmeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-303",
+        "name": "涉猎",
+        "displayName": {
+          "zhHans": "涉猎",
+          "zhHant": "涉獵"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenlvmeng/groups/spell-303.json"
+      },
+      {
+        "slug": "spell-304",
+        "name": "攻心",
+        "displayName": {
+          "zhHans": "攻心",
+          "zhHant": "攻心"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenlvmeng/groups/spell-304.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenlvmeng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-20201",
+        "name": "白衣渡江",
+        "displayName": {
+          "zhHans": "白衣渡江",
+          "zhHant": "白衣渡江"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenlvmeng/skins/skin-20201.json"
+      },
+      {
+        "slug": "skin-20202",
+        "name": "风神超迈",
+        "displayName": {
+          "zhHans": "风神超迈",
+          "zhHant": "風神超邁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenlvmeng/skins/skin-20202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenlvmeng.json",
+      "groups": "api/v1/tts/characters/shenlvmeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenlvmeng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-20202",
+    "name": "风神超迈",
+    "displayName": {
+      "zhHans": "风神超迈",
+      "zhHant": "風神超邁"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/shenlvmeng/skins/skin-20202.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "shenlvmeng--202shenlvmeng--4dead01",
+      "resourceId": "202shenlvmeng/4dead01",
+      "text": "而我，又何去何从……",
+      "textLocalized": {
+        "zhHans": "而我，又何去何从……",
+        "zhHant": "而我，又何去何從……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20202",
+          "name": "风神超迈",
+          "displayName": {
+            "zhHans": "风神超迈",
+            "zhHant": "風神超邁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/202shenlvmeng-5ce8e438/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/202shenlvmeng/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenlvmeng--202shenlvmeng--4skill1_1",
+      "resourceId": "202shenlvmeng/4skill1_1",
+      "text": "还有什么我不知道的。",
+      "textLocalized": {
+        "zhHans": "还有什么我不知道的。",
+        "zhHant": "還有什麼我不知道的。"
+      },
+      "group": {
+        "slug": "spell-303",
+        "name": "涉猎",
+        "displayName": {
+          "zhHans": "涉猎",
+          "zhHant": "涉獵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20202",
+          "name": "风神超迈",
+          "displayName": {
+            "zhHans": "风神超迈",
+            "zhHant": "風神超邁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/202shenlvmeng-5ce8e438/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/202shenlvmeng/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenlvmeng--202shenlvmeng--4skill1_2",
+      "resourceId": "202shenlvmeng/4skill1_2",
+      "text": "书读五车，云开见日。",
+      "textLocalized": {
+        "zhHans": "书读五车，云开见日。",
+        "zhHant": "書讀五車，雲開見日。"
+      },
+      "group": {
+        "slug": "spell-303",
+        "name": "涉猎",
+        "displayName": {
+          "zhHans": "涉猎",
+          "zhHant": "涉獵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20202",
+          "name": "风神超迈",
+          "displayName": {
+            "zhHans": "风神超迈",
+            "zhHant": "風神超邁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/202shenlvmeng-5ce8e438/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/202shenlvmeng/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenlvmeng--202shenlvmeng--4skill2_1",
+      "resourceId": "202shenlvmeng/4skill2_1",
+      "text": "心里如何想的，我已知八九。",
+      "textLocalized": {
+        "zhHans": "心里如何想的，我已知八九。",
+        "zhHant": "心裏如何想的，我已知八九。"
+      },
+      "group": {
+        "slug": "spell-304",
+        "name": "攻心",
+        "displayName": {
+          "zhHans": "攻心",
+          "zhHant": "攻心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20202",
+          "name": "风神超迈",
+          "displayName": {
+            "zhHans": "风神超迈",
+            "zhHant": "風神超邁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/202shenlvmeng-5ce8e438/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/202shenlvmeng/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenlvmeng--202shenlvmeng--4skill2_2",
+      "resourceId": "202shenlvmeng/4skill2_2",
+      "text": "在我的眼中，你没有秘密。",
+      "textLocalized": {
+        "zhHans": "在我的眼中，你没有秘密。",
+        "zhHant": "在我的眼中，你沒有祕密。"
+      },
+      "group": {
+        "slug": "spell-304",
+        "name": "攻心",
+        "displayName": {
+          "zhHans": "攻心",
+          "zhHant": "攻心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20202",
+          "name": "风神超迈",
+          "displayName": {
+            "zhHans": "风神超迈",
+            "zhHant": "風神超邁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/202shenlvmeng-5ce8e438/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/202shenlvmeng/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

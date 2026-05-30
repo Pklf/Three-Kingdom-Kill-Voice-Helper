@@ -1,3 +1,130 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:33424b7124700045f7a84ddc8ad1e3e71fe5e36532f1475d27ec69989022c992
-size 3209
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "maxiumatie",
+    "command": "maxiumatie",
+    "name": "马休&马铁",
+    "displayName": {
+      "zhHans": "马休&马铁",
+      "zhHant": "馬休&馬鐵"
+    },
+    "names": [
+      "马休&马铁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "马休&马铁",
+        "zhHant": "馬休&馬鐵"
+      }
+    ],
+    "ids": [
+      "538"
+    ],
+    "sourceNames": [
+      "马休&马铁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "马休&马铁",
+        "zhHant": "馬休&馬鐵"
+      }
+    ],
+    "sourceIds": [
+      "538"
+    ],
+    "searchNames": [
+      "maxiumatie",
+      "马休&马铁",
+      "馬休&馬鐵"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/maxiumatie/groups/dead.json"
+      },
+      {
+        "slug": "spell-3229",
+        "name": "垦伤",
+        "displayName": {
+          "zhHans": "垦伤",
+          "zhHant": "墾傷"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/maxiumatie/groups/spell-3229.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/maxiumatie/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/maxiumatie.json",
+      "groups": "api/v1/tts/characters/maxiumatie/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/maxiumatie/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/maxiumatie/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "maxiumatie--538maxiumatie--1dead01",
+      "resourceId": "538maxiumatie/1dead01",
+      "text": "我兄弟愿随父帅赴死。",
+      "textLocalized": {
+        "zhHans": "我兄弟愿随父帅赴死。",
+        "zhHant": "我兄弟願隨父帥赴死。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/538maxiumatie-1c489383/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/538maxiumatie/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

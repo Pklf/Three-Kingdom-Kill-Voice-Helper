@@ -1,3 +1,389 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0424c727bb77a98b20a3d1f70cc4830b04934a4ee061c1b1066982b28255458c
-size 10714
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yanghuiyu",
+    "command": "yanghuiyu",
+    "name": "羊徽瑜",
+    "displayName": {
+      "zhHans": "羊徽瑜",
+      "zhHant": "羊徽瑜"
+    },
+    "names": [
+      "羊徽瑜"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "羊徽瑜",
+        "zhHant": "羊徽瑜"
+      }
+    ],
+    "ids": [
+      "7008"
+    ],
+    "sourceNames": [
+      "羊徽瑜"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "羊徽瑜",
+        "zhHant": "羊徽瑜"
+      }
+    ],
+    "sourceIds": [
+      "7008"
+    ],
+    "searchNames": [
+      "yanghuiyu",
+      "羊徽瑜"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanghuiyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-7024",
+        "name": "慧容",
+        "displayName": {
+          "zhHans": "慧容",
+          "zhHant": "慧容"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yanghuiyu/groups/spell-7024.json"
+      },
+      {
+        "slug": "spell-7025",
+        "name": "慈威",
+        "displayName": {
+          "zhHans": "慈威",
+          "zhHant": "慈威"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yanghuiyu/groups/spell-7025.json"
+      },
+      {
+        "slug": "spell-7026",
+        "name": "才媛",
+        "displayName": {
+          "zhHans": "才媛",
+          "zhHant": "才媛"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yanghuiyu/groups/spell-7026.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-700802",
+        "name": "书颜繁花",
+        "displayName": {
+          "zhHans": "书颜繁花",
+          "zhHant": "書顏繁花"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/yanghuiyu/skins/skin-700802.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/yanghuiyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700801",
+        "name": "璟瑜荷徽",
+        "displayName": {
+          "zhHans": "璟瑜荷徽",
+          "zhHant": "璟瑜荷徽"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/yanghuiyu/skins/skin-700801.json"
+      },
+      {
+        "slug": "skin-700804",
+        "name": "绵丽春暖",
+        "displayName": {
+          "zhHans": "绵丽春暖",
+          "zhHant": "綿麗春暖"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/yanghuiyu/skins/skin-700804.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yanghuiyu.json",
+      "groups": "api/v1/tts/characters/yanghuiyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yanghuiyu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/yanghuiyu/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "yanghuiyu--7008yanghuiyu--1dead01",
+      "resourceId": "7008yanghuiyu/1dead01",
+      "text": "韶华易老，佳容不再。",
+      "textLocalized": {
+        "zhHans": "韶华易老，佳容不再。",
+        "zhHant": "韶華易老，佳容不再。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7008yanghuiyu-8325e0a4/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7008yanghuiyu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanghuiyu--7008yanghuiyu--1skill1_1",
+      "resourceId": "7008yanghuiyu/1skill1_1",
+      "text": "红尘洗练，慧容不改",
+      "textLocalized": {
+        "zhHans": "红尘洗练，慧容不改",
+        "zhHant": "紅塵洗練，慧容不改"
+      },
+      "group": {
+        "slug": "spell-7024",
+        "name": "慧容",
+        "displayName": {
+          "zhHans": "慧容",
+          "zhHant": "慧容"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7008yanghuiyu-8325e0a4/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7008yanghuiyu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanghuiyu--7008yanghuiyu--1skill1_2",
+      "resourceId": "7008yanghuiyu/1skill1_2",
+      "text": "花貌易改，福惠长存。",
+      "textLocalized": {
+        "zhHans": "花貌易改，福惠长存。",
+        "zhHant": "花貌易改，福惠長存。"
+      },
+      "group": {
+        "slug": "spell-7024",
+        "name": "慧容",
+        "displayName": {
+          "zhHans": "慧容",
+          "zhHant": "慧容"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7008yanghuiyu-8325e0a4/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7008yanghuiyu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanghuiyu--7008yanghuiyu--1skill2_1",
+      "resourceId": "7008yanghuiyu/1skill2_1",
+      "text": "乃家乃邦，是则是效。",
+      "textLocalized": {
+        "zhHans": "乃家乃邦，是则是效。",
+        "zhHant": "乃家乃邦，是則是效。"
+      },
+      "group": {
+        "slug": "spell-7025",
+        "name": "慈威",
+        "displayName": {
+          "zhHans": "慈威",
+          "zhHant": "慈威"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7008yanghuiyu-8325e0a4/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7008yanghuiyu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanghuiyu--7008yanghuiyu--1skill2_2",
+      "resourceId": "7008yanghuiyu/1skill2_2",
+      "text": "其慈有威，不舒不暴。",
+      "textLocalized": {
+        "zhHans": "其慈有威，不舒不暴。",
+        "zhHant": "其慈有威，不舒不暴。"
+      },
+      "group": {
+        "slug": "spell-7025",
+        "name": "慈威",
+        "displayName": {
+          "zhHans": "慈威",
+          "zhHant": "慈威"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7008yanghuiyu-8325e0a4/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7008yanghuiyu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanghuiyu--7008yanghuiyu--1skill3_1",
+      "resourceId": "7008yanghuiyu/1skill3_1",
+      "text": "柳絮轻舞，撷芳赋诗。",
+      "textLocalized": {
+        "zhHans": "柳絮轻舞，撷芳赋诗。",
+        "zhHant": "柳絮輕舞，擷芳賦詩。"
+      },
+      "group": {
+        "slug": "spell-7026",
+        "name": "才媛",
+        "displayName": {
+          "zhHans": "才媛",
+          "zhHant": "才媛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7008yanghuiyu-8325e0a4/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7008yanghuiyu/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanghuiyu--7008yanghuiyu--1skill3_2",
+      "resourceId": "7008yanghuiyu/1skill3_2",
+      "text": "秀媛才德，知书达理。",
+      "textLocalized": {
+        "zhHans": "秀媛才德，知书达理。",
+        "zhHant": "秀媛才德，知書達理。"
+      },
+      "group": {
+        "slug": "spell-7026",
+        "name": "才媛",
+        "displayName": {
+          "zhHans": "才媛",
+          "zhHant": "才媛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7008yanghuiyu-8325e0a4/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7008yanghuiyu/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

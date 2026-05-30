@@ -1,3 +1,444 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1014101636325d69476bd639ae1fbe7e2c020847b2584d1492f8ce1c8046b246
-size 12323
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yuanshu",
+    "command": "yuanshu",
+    "name": "袁术",
+    "displayName": {
+      "zhHans": "袁术",
+      "zhHant": "袁術"
+    },
+    "names": [
+      "袁术",
+      "谋袁术"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "袁术",
+        "zhHant": "袁術"
+      },
+      {
+        "zhHans": "谋袁术",
+        "zhHant": "謀袁術"
+      }
+    ],
+    "ids": [
+      "100",
+      "646"
+    ],
+    "sourceNames": [
+      "袁术",
+      "谋袁术"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "袁术",
+        "zhHant": "袁術"
+      },
+      {
+        "zhHans": "谋袁术",
+        "zhHant": "謀袁術"
+      }
+    ],
+    "sourceIds": [
+      "100",
+      "646"
+    ],
+    "searchNames": [
+      "yuanshu",
+      "袁术",
+      "袁術",
+      "谋袁术",
+      "謀袁術"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yuanshu/groups/dead.json"
+      },
+      {
+        "slug": "spell-202",
+        "name": "庸肆",
+        "displayName": {
+          "zhHans": "庸肆",
+          "zhHant": "庸肆"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/yuanshu/groups/spell-202.json"
+      },
+      {
+        "slug": "spell-203",
+        "name": "伪帝",
+        "displayName": {
+          "zhHans": "伪帝",
+          "zhHant": "僞帝"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/yuanshu/groups/spell-203.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "64601",
+        "name": "64601",
+        "displayName": {
+          "zhHans": "64601",
+          "zhHant": "64601"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yuanshu/skins/64601.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yuanshu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-10004",
+        "name": "夺玺僭帝",
+        "displayName": {
+          "zhHans": "夺玺僭帝",
+          "zhHant": "奪璽僭帝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yuanshu/skins/skin-10004.json"
+      },
+      {
+        "slug": "skin-10004-10006",
+        "name": "夺玺僭帝,妄自尊立",
+        "displayName": {
+          "zhHans": "夺玺僭帝,妄自尊立",
+          "zhHant": "奪璽僭帝,妄自尊立"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yuanshu/skins/skin-10004-10006.json"
+      },
+      {
+        "slug": "skin-10006",
+        "name": "妄自尊立",
+        "displayName": {
+          "zhHans": "妄自尊立",
+          "zhHant": "妄自尊立"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yuanshu/skins/skin-10006.json"
+      },
+      {
+        "slug": "skin-10008",
+        "name": "权溢无度",
+        "displayName": {
+          "zhHans": "权溢无度",
+          "zhHant": "權溢無度"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yuanshu/skins/skin-10008.json"
+      },
+      {
+        "slug": "skin-10005",
+        "name": "登极至尊",
+        "displayName": {
+          "zhHans": "登极至尊",
+          "zhHant": "登極至尊"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yuanshu/skins/skin-10005.json"
+      },
+      {
+        "slug": "skin-10007",
+        "name": "遂益骄肆",
+        "displayName": {
+          "zhHans": "遂益骄肆",
+          "zhHant": "遂益驕肆"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yuanshu/skins/skin-10007.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yuanshu.json",
+      "groups": "api/v1/tts/characters/yuanshu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yuanshu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-10004",
+    "name": "夺玺僭帝",
+    "displayName": {
+      "zhHans": "夺玺僭帝",
+      "zhHant": "奪璽僭帝"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/yuanshu/skins/skin-10004.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "yuanshu--100yuanshu--3dead01",
+      "resourceId": "100yuanshu/3dead01",
+      "text": "朕是皇上！是皇上啊！",
+      "textLocalized": {
+        "zhHans": "朕是皇上！是皇上啊！",
+        "zhHant": "朕是皇上！是皇上啊！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10004",
+          "name": "夺玺僭帝",
+          "displayName": {
+            "zhHans": "夺玺僭帝",
+            "zhHant": "奪璽僭帝"
+          }
+        },
+        {
+          "slug": "skin-10006",
+          "name": "妄自尊立",
+          "displayName": {
+            "zhHans": "妄自尊立",
+            "zhHant": "妄自尊立"
+          }
+        },
+        {
+          "slug": "skin-10004-10006",
+          "name": "夺玺僭帝,妄自尊立",
+          "displayName": {
+            "zhHans": "夺玺僭帝,妄自尊立",
+            "zhHant": "奪璽僭帝,妄自尊立"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/100yuanshu-903f9723/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/100yuanshu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanshu--100yuanshu--3skill1_1",
+      "resourceId": "100yuanshu/3skill1_1",
+      "text": "皇位是我的，天下也是我的！|哈哈哈！",
+      "textLocalized": {
+        "zhHans": "皇位是我的，天下也是我的！|哈哈哈！",
+        "zhHant": "皇位是我的，天下也是我的！|哈哈哈！"
+      },
+      "group": {
+        "slug": "spell-202",
+        "name": "庸肆",
+        "displayName": {
+          "zhHans": "庸肆",
+          "zhHant": "庸肆"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10004",
+          "name": "夺玺僭帝",
+          "displayName": {
+            "zhHans": "夺玺僭帝",
+            "zhHant": "奪璽僭帝"
+          }
+        },
+        {
+          "slug": "skin-10006",
+          "name": "妄自尊立",
+          "displayName": {
+            "zhHans": "妄自尊立",
+            "zhHant": "妄自尊立"
+          }
+        },
+        {
+          "slug": "skin-10004-10006",
+          "name": "夺玺僭帝,妄自尊立",
+          "displayName": {
+            "zhHans": "夺玺僭帝,妄自尊立",
+            "zhHant": "奪璽僭帝,妄自尊立"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/100yuanshu-903f9723/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/100yuanshu/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanshu--100yuanshu--3skill1_2",
+      "resourceId": "100yuanshu/3skill1_2",
+      "text": "吾岂能逆天而为？哈哈哈哈！",
+      "textLocalized": {
+        "zhHans": "吾岂能逆天而为？哈哈哈哈！",
+        "zhHant": "吾豈能逆天而爲？哈哈哈哈！"
+      },
+      "group": {
+        "slug": "spell-202",
+        "name": "庸肆",
+        "displayName": {
+          "zhHans": "庸肆",
+          "zhHant": "庸肆"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10004",
+          "name": "夺玺僭帝",
+          "displayName": {
+            "zhHans": "夺玺僭帝",
+            "zhHant": "奪璽僭帝"
+          }
+        },
+        {
+          "slug": "skin-10006",
+          "name": "妄自尊立",
+          "displayName": {
+            "zhHans": "妄自尊立",
+            "zhHant": "妄自尊立"
+          }
+        },
+        {
+          "slug": "skin-10004-10006",
+          "name": "夺玺僭帝,妄自尊立",
+          "displayName": {
+            "zhHans": "夺玺僭帝,妄自尊立",
+            "zhHant": "奪璽僭帝,妄自尊立"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/100yuanshu-903f9723/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/100yuanshu/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanshu--100yuanshu--3skill2_1",
+      "resourceId": "100yuanshu/3skill2_1",
+      "text": "乱世豪杰，当有开天辟地的气概！",
+      "textLocalized": {
+        "zhHans": "乱世豪杰，当有开天辟地的气概！",
+        "zhHant": "亂世豪傑，當有開天闢地的氣概！"
+      },
+      "group": {
+        "slug": "spell-203",
+        "name": "伪帝",
+        "displayName": {
+          "zhHans": "伪帝",
+          "zhHant": "僞帝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10004",
+          "name": "夺玺僭帝",
+          "displayName": {
+            "zhHans": "夺玺僭帝",
+            "zhHant": "奪璽僭帝"
+          }
+        },
+        {
+          "slug": "skin-10006",
+          "name": "妄自尊立",
+          "displayName": {
+            "zhHans": "妄自尊立",
+            "zhHant": "妄自尊立"
+          }
+        },
+        {
+          "slug": "skin-10004-10006",
+          "name": "夺玺僭帝,妄自尊立",
+          "displayName": {
+            "zhHans": "夺玺僭帝,妄自尊立",
+            "zhHant": "奪璽僭帝,妄自尊立"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/100yuanshu-903f9723/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/100yuanshu/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuanshu--100yuanshu--3skill2_2",
+      "resourceId": "100yuanshu/3skill2_2",
+      "text": "得天机者，得天下！",
+      "textLocalized": {
+        "zhHans": "得天机者，得天下！",
+        "zhHant": "得天機者，得天下！"
+      },
+      "group": {
+        "slug": "spell-203",
+        "name": "伪帝",
+        "displayName": {
+          "zhHans": "伪帝",
+          "zhHant": "僞帝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10004",
+          "name": "夺玺僭帝",
+          "displayName": {
+            "zhHans": "夺玺僭帝",
+            "zhHant": "奪璽僭帝"
+          }
+        },
+        {
+          "slug": "skin-10006",
+          "name": "妄自尊立",
+          "displayName": {
+            "zhHans": "妄自尊立",
+            "zhHant": "妄自尊立"
+          }
+        },
+        {
+          "slug": "skin-10004-10006",
+          "name": "夺玺僭帝,妄自尊立",
+          "displayName": {
+            "zhHans": "夺玺僭帝,妄自尊立",
+            "zhHant": "奪璽僭帝,妄自尊立"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/100yuanshu-903f9723/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/100yuanshu/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

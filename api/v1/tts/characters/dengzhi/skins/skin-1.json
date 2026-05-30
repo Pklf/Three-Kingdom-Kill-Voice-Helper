@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:721a6ac2696d601106053311579ccd9035ea7d103fc29481a46807978f688cb2
-size 7987
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dengzhi",
+    "command": "dengzhi",
+    "name": "邓芝",
+    "displayName": {
+      "zhHans": "邓芝",
+      "zhHant": "鄧芝"
+    },
+    "names": [
+      "邓芝"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "邓芝",
+        "zhHant": "鄧芝"
+      }
+    ],
+    "ids": [
+      "352"
+    ],
+    "sourceNames": [
+      "邓芝"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "邓芝",
+        "zhHant": "鄧芝"
+      }
+    ],
+    "sourceIds": [
+      "352"
+    ],
+    "searchNames": [
+      "dengzhi",
+      "邓芝",
+      "鄧芝"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/dengzhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3030",
+        "name": "修好",
+        "displayName": {
+          "zhHans": "修好",
+          "zhHant": "修好"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dengzhi/groups/spell-3030.json"
+      },
+      {
+        "slug": "spell-3031",
+        "name": "素俭",
+        "displayName": {
+          "zhHans": "素俭",
+          "zhHant": "素儉"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dengzhi/groups/spell-3031.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dengzhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35201",
+        "name": "洞若观龙",
+        "displayName": {
+          "zhHans": "洞若观龙",
+          "zhHant": "洞若觀龍"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dengzhi/skins/skin-35201.json"
+      },
+      {
+        "slug": "skin-35202",
+        "name": "渡江使吴",
+        "displayName": {
+          "zhHans": "渡江使吴",
+          "zhHant": "渡江使吳"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dengzhi/skins/skin-35202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dengzhi.json",
+      "groups": "api/v1/tts/characters/dengzhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dengzhi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/dengzhi/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "dengzhi--352dengzhi--1dead01",
+      "resourceId": "352dengzhi/1dead01",
+      "text": "修好未成，蜀汉恐危。",
+      "textLocalized": {
+        "zhHans": "修好未成，蜀汉恐危。",
+        "zhHant": "修好未成，蜀漢恐危。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhi--352dengzhi--1skill1_1",
+      "resourceId": "352dengzhi/1skill1_1",
+      "text": "吴蜀和同，可御魏敌。",
+      "textLocalized": {
+        "zhHans": "吴蜀和同，可御魏敌。",
+        "zhHant": "吳蜀和同，可御魏敵。"
+      },
+      "group": {
+        "slug": "spell-3030",
+        "name": "修好",
+        "displayName": {
+          "zhHans": "修好",
+          "zhHant": "修好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhi--352dengzhi--1skill1_2",
+      "resourceId": "352dengzhi/1skill1_2",
+      "text": "与吴修好，共为唇齿。",
+      "textLocalized": {
+        "zhHans": "与吴修好，共为唇齿。",
+        "zhHant": "與吳修好，共爲脣齒。"
+      },
+      "group": {
+        "slug": "spell-3030",
+        "name": "修好",
+        "displayName": {
+          "zhHans": "修好",
+          "zhHant": "修好"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhi--352dengzhi--1skill2_1",
+      "resourceId": "352dengzhi/1skill2_1",
+      "text": "不苟素俭，不治私产。",
+      "textLocalized": {
+        "zhHans": "不苟素俭，不治私产。",
+        "zhHant": "不苟素儉，不治私產。"
+      },
+      "group": {
+        "slug": "spell-3031",
+        "name": "素俭",
+        "displayName": {
+          "zhHans": "素俭",
+          "zhHant": "素儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dengzhi--352dengzhi--1skill2_2",
+      "resourceId": "352dengzhi/1skill2_2",
+      "text": "高风亮节，摆袖却金。",
+      "textLocalized": {
+        "zhHans": "高风亮节，摆袖却金。",
+        "zhHant": "高風亮節，擺袖卻金。"
+      },
+      "group": {
+        "slug": "spell-3031",
+        "name": "素俭",
+        "displayName": {
+          "zhHans": "素俭",
+          "zhHant": "素儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/352dengzhi-dfe687dc/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/352dengzhi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

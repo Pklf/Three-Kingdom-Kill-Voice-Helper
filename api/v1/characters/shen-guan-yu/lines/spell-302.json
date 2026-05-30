@@ -1,3 +1,938 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:09642dd521e21e9c88e2d987362da25c4e1dfd9a6bc86adc7f33e9845b231ecc
-size 21603
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shen-guan-yu",
+    "command": "shen-guan-yu",
+    "name": "神关羽",
+    "displayName": {
+      "zhHans": "神关羽",
+      "zhHant": "神關羽"
+    },
+    "names": [
+      "神关羽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神关羽",
+        "zhHant": "神關羽"
+      }
+    ],
+    "ids": [
+      "201"
+    ],
+    "sourceNames": [
+      "神关羽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神关羽",
+        "zhHant": "神關羽"
+      }
+    ],
+    "sourceIds": [
+      "201"
+    ],
+    "searchNames": [
+      "shen-guan-yu",
+      "神关羽",
+      "神關羽"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-301",
+        "name": "武神",
+        "displayName": {
+          "zhHans": "武神",
+          "zhHant": "武神"
+        },
+        "ids": [
+          "301"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-302",
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        },
+        "ids": [
+          "302"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-20101",
+        "ids": [
+          "20101"
+        ],
+        "name": "关帝之魂",
+        "displayName": {
+          "zhHans": "关帝之魂",
+          "zhHant": "關帝之魂"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-20102",
+        "ids": [
+          "20102"
+        ],
+        "name": "链狱鬼神",
+        "displayName": {
+          "zhHans": "链狱鬼神",
+          "zhHant": "鏈獄鬼神"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/shen-guan-yu.json",
+      "lines": "api/v1/characters/shen-guan-yu/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-302",
+    "ids": [
+      "302"
+    ],
+    "name": "武魂",
+    "displayName": {
+      "zhHans": "武魂",
+      "zhHant": "武魂"
+    },
+    "names": [
+      "武魂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "武魂",
+        "zhHant": "武魂"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "shen-guan-yu--201shenguanyu--3skill2_1",
+      "resourceId": "201shenguanyu/3skill2_1",
+      "text": "还我头来！",
+      "textLocalized": {
+        "zhHans": "还我头来！",
+        "zhHant": "還我頭來！"
+      },
+      "character": {
+        "slug": "shen-guan-yu",
+        "command": "shen-guan-yu",
+        "id": "201",
+        "ids": [
+          "201"
+        ],
+        "name": "神关羽",
+        "displayName": {
+          "zhHans": "神关羽",
+          "zhHant": "神關羽"
+        },
+        "names": [
+          "神关羽"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "sourceIds": [
+          "201"
+        ],
+        "sourceNames": [
+          "神关羽"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "searchNames": [
+          "神关羽",
+          "神關羽",
+          "shen-guan-yu"
+        ]
+      },
+      "group": {
+        "slug": "spell-302",
+        "ids": [
+          "302"
+        ],
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        },
+        "names": [
+          "武魂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "武魂",
+            "zhHant": "武魂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-20101",
+        "ids": [
+          "20101"
+        ],
+        "name": "关帝之魂",
+        "displayName": {
+          "zhHans": "关帝之魂",
+          "zhHant": "關帝之魂"
+        },
+        "names": [
+          "关帝之魂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "关帝之魂",
+            "zhHant": "關帝之魂"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-20101",
+          "id": "20101",
+          "ids": [
+            "20101"
+          ],
+          "name": "关帝之魂",
+          "displayName": {
+            "zhHans": "关帝之魂",
+            "zhHant": "關帝之魂"
+          },
+          "names": [
+            "关帝之魂"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "关帝之魂",
+              "zhHant": "關帝之魂"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "201",
+        "skinKey": "20101",
+        "spellKey": "302",
+        "rowIndex": 1,
+        "characterNames": [
+          "神关羽"
+        ],
+        "skinNames": [
+          "关帝之魂"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/3skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-guan-yu--201shenguanyu--3skill2_2",
+      "resourceId": "201shenguanyu/3skill2_2",
+      "text": "不杀此人，何以雪恨！",
+      "textLocalized": {
+        "zhHans": "不杀此人，何以雪恨！",
+        "zhHant": "不殺此人，何以雪恨！"
+      },
+      "character": {
+        "slug": "shen-guan-yu",
+        "command": "shen-guan-yu",
+        "id": "201",
+        "ids": [
+          "201"
+        ],
+        "name": "神关羽",
+        "displayName": {
+          "zhHans": "神关羽",
+          "zhHant": "神關羽"
+        },
+        "names": [
+          "神关羽"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "sourceIds": [
+          "201"
+        ],
+        "sourceNames": [
+          "神关羽"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "searchNames": [
+          "神关羽",
+          "神關羽",
+          "shen-guan-yu"
+        ]
+      },
+      "group": {
+        "slug": "spell-302",
+        "ids": [
+          "302"
+        ],
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        },
+        "names": [
+          "武魂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "武魂",
+            "zhHant": "武魂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-20101",
+        "ids": [
+          "20101"
+        ],
+        "name": "关帝之魂",
+        "displayName": {
+          "zhHans": "关帝之魂",
+          "zhHant": "關帝之魂"
+        },
+        "names": [
+          "关帝之魂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "关帝之魂",
+            "zhHant": "關帝之魂"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-20101",
+          "id": "20101",
+          "ids": [
+            "20101"
+          ],
+          "name": "关帝之魂",
+          "displayName": {
+            "zhHans": "关帝之魂",
+            "zhHant": "關帝之魂"
+          },
+          "names": [
+            "关帝之魂"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "关帝之魂",
+              "zhHant": "關帝之魂"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "201",
+        "skinKey": "20101",
+        "spellKey": "302",
+        "rowIndex": 2,
+        "characterNames": [
+          "神关羽"
+        ],
+        "skinNames": [
+          "关帝之魂"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/3skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-guan-yu--201shenguanyu--1skill2_1",
+      "resourceId": "201shenguanyu/1skill2_1",
+      "text": "拿命来！",
+      "textLocalized": {
+        "zhHans": "拿命来！",
+        "zhHant": "拿命來！"
+      },
+      "character": {
+        "slug": "shen-guan-yu",
+        "command": "shen-guan-yu",
+        "id": "201",
+        "ids": [
+          "201"
+        ],
+        "name": "神关羽",
+        "displayName": {
+          "zhHans": "神关羽",
+          "zhHant": "神關羽"
+        },
+        "names": [
+          "神关羽"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "sourceIds": [
+          "201"
+        ],
+        "sourceNames": [
+          "神关羽"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "searchNames": [
+          "神关羽",
+          "神關羽",
+          "shen-guan-yu"
+        ]
+      },
+      "group": {
+        "slug": "spell-302",
+        "ids": [
+          "302"
+        ],
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        },
+        "names": [
+          "武魂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "武魂",
+            "zhHant": "武魂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "201",
+        "skinKey": "-1",
+        "spellKey": "302",
+        "rowIndex": 1,
+        "characterNames": [
+          "神关羽"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-guan-yu--201shenguanyu--1skill2_2",
+      "resourceId": "201shenguanyu/1skill2_2",
+      "text": "谁来与我同去？！",
+      "textLocalized": {
+        "zhHans": "谁来与我同去？！",
+        "zhHant": "誰來與我同去？！"
+      },
+      "character": {
+        "slug": "shen-guan-yu",
+        "command": "shen-guan-yu",
+        "id": "201",
+        "ids": [
+          "201"
+        ],
+        "name": "神关羽",
+        "displayName": {
+          "zhHans": "神关羽",
+          "zhHant": "神關羽"
+        },
+        "names": [
+          "神关羽"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "sourceIds": [
+          "201"
+        ],
+        "sourceNames": [
+          "神关羽"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "searchNames": [
+          "神关羽",
+          "神關羽",
+          "shen-guan-yu"
+        ]
+      },
+      "group": {
+        "slug": "spell-302",
+        "ids": [
+          "302"
+        ],
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        },
+        "names": [
+          "武魂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "武魂",
+            "zhHant": "武魂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "201",
+        "skinKey": "-1",
+        "spellKey": "302",
+        "rowIndex": 2,
+        "characterNames": [
+          "神关羽"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-guan-yu--201shenguanyu--4skill2_1",
+      "resourceId": "201shenguanyu/4skill2_1",
+      "text": "生当啖汝之肉！",
+      "textLocalized": {
+        "zhHans": "生当啖汝之肉！",
+        "zhHant": "生當啖汝之肉！"
+      },
+      "character": {
+        "slug": "shen-guan-yu",
+        "command": "shen-guan-yu",
+        "id": "201",
+        "ids": [
+          "201"
+        ],
+        "name": "神关羽",
+        "displayName": {
+          "zhHans": "神关羽",
+          "zhHant": "神關羽"
+        },
+        "names": [
+          "神关羽"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "sourceIds": [
+          "201"
+        ],
+        "sourceNames": [
+          "神关羽"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "searchNames": [
+          "神关羽",
+          "神關羽",
+          "shen-guan-yu"
+        ]
+      },
+      "group": {
+        "slug": "spell-302",
+        "ids": [
+          "302"
+        ],
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        },
+        "names": [
+          "武魂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "武魂",
+            "zhHant": "武魂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-20102",
+        "ids": [
+          "20102"
+        ],
+        "name": "链狱鬼神",
+        "displayName": {
+          "zhHans": "链狱鬼神",
+          "zhHant": "鏈獄鬼神"
+        },
+        "names": [
+          "链狱鬼神"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "链狱鬼神",
+            "zhHant": "鏈獄鬼神"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-20102",
+          "id": "20102",
+          "ids": [
+            "20102"
+          ],
+          "name": "链狱鬼神",
+          "displayName": {
+            "zhHans": "链狱鬼神",
+            "zhHant": "鏈獄鬼神"
+          },
+          "names": [
+            "链狱鬼神"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "链狱鬼神",
+              "zhHant": "鏈獄鬼神"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "201",
+        "skinKey": "20102",
+        "spellKey": "302",
+        "rowIndex": 1,
+        "characterNames": [
+          "神关羽"
+        ],
+        "skinNames": [
+          "链狱鬼神"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/4skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shen-guan-yu--201shenguanyu--4skill2_2",
+      "resourceId": "201shenguanyu/4skill2_2",
+      "text": "死当追汝之魂！",
+      "textLocalized": {
+        "zhHans": "死当追汝之魂！",
+        "zhHant": "死當追汝之魂！"
+      },
+      "character": {
+        "slug": "shen-guan-yu",
+        "command": "shen-guan-yu",
+        "id": "201",
+        "ids": [
+          "201"
+        ],
+        "name": "神关羽",
+        "displayName": {
+          "zhHans": "神关羽",
+          "zhHant": "神關羽"
+        },
+        "names": [
+          "神关羽"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "sourceIds": [
+          "201"
+        ],
+        "sourceNames": [
+          "神关羽"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "神关羽",
+            "zhHant": "神關羽"
+          }
+        ],
+        "searchNames": [
+          "神关羽",
+          "神關羽",
+          "shen-guan-yu"
+        ]
+      },
+      "group": {
+        "slug": "spell-302",
+        "ids": [
+          "302"
+        ],
+        "name": "武魂",
+        "displayName": {
+          "zhHans": "武魂",
+          "zhHant": "武魂"
+        },
+        "names": [
+          "武魂"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "武魂",
+            "zhHant": "武魂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-20102",
+        "ids": [
+          "20102"
+        ],
+        "name": "链狱鬼神",
+        "displayName": {
+          "zhHans": "链狱鬼神",
+          "zhHant": "鏈獄鬼神"
+        },
+        "names": [
+          "链狱鬼神"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "链狱鬼神",
+            "zhHant": "鏈獄鬼神"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-20102",
+          "id": "20102",
+          "ids": [
+            "20102"
+          ],
+          "name": "链狱鬼神",
+          "displayName": {
+            "zhHans": "链狱鬼神",
+            "zhHant": "鏈獄鬼神"
+          },
+          "names": [
+            "链狱鬼神"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "链狱鬼神",
+              "zhHant": "鏈獄鬼神"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "201",
+        "skinKey": "20102",
+        "spellKey": "302",
+        "rowIndex": 2,
+        "characterNames": [
+          "神关羽"
+        ],
+        "skinNames": [
+          "链狱鬼神"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/201shenguanyu-c69a9912/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/201shenguanyu/4skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

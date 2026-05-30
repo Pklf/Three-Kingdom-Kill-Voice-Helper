@@ -1,3 +1,139 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:87a6ff726f753ceaf527017c4a73fc258a4327cac9b48262159283bbac3f9282
-size 3517
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "bianchengwang",
+    "command": "bianchengwang",
+    "name": "卞城王",
+    "displayName": {
+      "zhHans": "卞城王",
+      "zhHant": "卞城王"
+    },
+    "names": [
+      "卞城王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卞城王",
+        "zhHant": "卞城王"
+      }
+    ],
+    "ids": [
+      "4505"
+    ],
+    "sourceNames": [
+      "卞城王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卞城王",
+        "zhHant": "卞城王"
+      }
+    ],
+    "sourceIds": [
+      "4505"
+    ],
+    "searchNames": [
+      "bianchengwang",
+      "卞城王"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "spell-1292",
+        "name": "雷缚",
+        "displayName": {
+          "zhHans": "雷缚",
+          "zhHant": "雷縛"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/bianchengwang/groups/spell-1292.json"
+      },
+      {
+        "slug": "spell-1293",
+        "name": "雷咒",
+        "displayName": {
+          "zhHans": "雷咒",
+          "zhHant": "雷咒"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/bianchengwang/groups/spell-1293.json"
+      },
+      {
+        "slug": "spell-1294",
+        "name": "雷诛",
+        "displayName": {
+          "zhHans": "雷诛",
+          "zhHant": "雷誅"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/bianchengwang/groups/spell-1294.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/bianchengwang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/bianchengwang.json",
+      "groups": "api/v1/tts/characters/bianchengwang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/bianchengwang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1293",
+    "name": "雷咒",
+    "displayName": {
+      "zhHans": "雷咒",
+      "zhHant": "雷咒"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/bianchengwang/groups/spell-1293.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "bianchengwang--4505bianchengwang--1skill2_1",
+      "resourceId": "4505bianchengwang/1skill2_1",
+      "text": "术法诅咒，显灵加威。",
+      "textLocalized": {
+        "zhHans": "术法诅咒，显灵加威。",
+        "zhHant": "術法詛咒，顯靈加威。"
+      },
+      "group": {
+        "slug": "spell-1293",
+        "name": "雷咒",
+        "displayName": {
+          "zhHans": "雷咒",
+          "zhHant": "雷咒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4505bianchengwang-25114ef7/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4505bianchengwang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

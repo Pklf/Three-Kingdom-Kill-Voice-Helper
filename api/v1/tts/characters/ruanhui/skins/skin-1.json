@@ -1,3 +1,279 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9561e48eb3844b1002bacc63bfc7001caa7ca56157594e411271b7108f8979b9
-size 7516
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "ruanhui",
+    "command": "ruanhui",
+    "name": "阮慧",
+    "displayName": {
+      "zhHans": "阮慧",
+      "zhHant": "阮慧"
+    },
+    "names": [
+      "阮慧"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阮慧",
+        "zhHant": "阮慧"
+      }
+    ],
+    "ids": [
+      "657"
+    ],
+    "sourceNames": [
+      "阮慧"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阮慧",
+        "zhHant": "阮慧"
+      }
+    ],
+    "sourceIds": [
+      "657"
+    ],
+    "searchNames": [
+      "ruanhui",
+      "阮慧"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/ruanhui/groups/dead.json"
+      },
+      {
+        "slug": "spell-3558",
+        "name": "明察",
+        "displayName": {
+          "zhHans": "明察",
+          "zhHant": "明察"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/ruanhui/groups/spell-3558.json"
+      },
+      {
+        "slug": "spell-3559",
+        "name": "敬重",
+        "displayName": {
+          "zhHans": "敬重",
+          "zhHant": "敬重"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/ruanhui/groups/spell-3559.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruanhui/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/ruanhui.json",
+      "groups": "api/v1/tts/characters/ruanhui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/ruanhui/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/ruanhui/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "ruanhui--657ruanhui--1dead01",
+      "resourceId": "657ruanhui/1dead01",
+      "text": "贱妾茕茕守空房，忧来思君不敢忘",
+      "textLocalized": {
+        "zhHans": "贱妾茕茕守空房，忧来思君不敢忘",
+        "zhHant": "賤妾煢煢守空房，憂來思君不敢忘"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/657ruanhui-a2218e28/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/657ruanhui/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruanhui--657ruanhui--1skill1_1",
+      "resourceId": "657ruanhui/1skill1_1",
+      "text": "祸见于此，何免之有？",
+      "textLocalized": {
+        "zhHans": "祸见于此，何免之有？",
+        "zhHant": "禍見於此，何免之有？"
+      },
+      "group": {
+        "slug": "spell-3558",
+        "name": "明察",
+        "displayName": {
+          "zhHans": "明察",
+          "zhHant": "明察"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/657ruanhui-a2218e28/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/657ruanhui/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruanhui--657ruanhui--1skill1_2",
+      "resourceId": "657ruanhui/1skill1_2",
+      "text": "明主可以理夺，怎可以情求之？",
+      "textLocalized": {
+        "zhHans": "明主可以理夺，怎可以情求之？",
+        "zhHant": "明主可以理奪，怎可以情求之？"
+      },
+      "group": {
+        "slug": "spell-3558",
+        "name": "明察",
+        "displayName": {
+          "zhHans": "明察",
+          "zhHant": "明察"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/657ruanhui-a2218e28/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/657ruanhui/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruanhui--657ruanhui--1skill2_1",
+      "resourceId": "657ruanhui/1skill2_1",
+      "text": "君好色轻德，何谓百德皆备？",
+      "textLocalized": {
+        "zhHans": "君好色轻德，何谓百德皆备？",
+        "zhHant": "君好色輕德，何謂百德皆備？"
+      },
+      "group": {
+        "slug": "spell-3559",
+        "name": "敬重",
+        "displayName": {
+          "zhHans": "敬重",
+          "zhHant": "敬重"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/657ruanhui-a2218e28/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/657ruanhui/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruanhui--657ruanhui--1skill2_2",
+      "resourceId": "657ruanhui/1skill2_2",
+      "text": "妾所乏唯容，试问君有几德？",
+      "textLocalized": {
+        "zhHans": "妾所乏唯容，试问君有几德？",
+        "zhHant": "妾所乏唯容，試問君有幾德？"
+      },
+      "group": {
+        "slug": "spell-3559",
+        "name": "敬重",
+        "displayName": {
+          "zhHans": "敬重",
+          "zhHant": "敬重"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/657ruanhui-a2218e28/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/657ruanhui/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

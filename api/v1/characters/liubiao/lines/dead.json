@@ -1,3 +1,726 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:810c0d80f31c0afa4909ce3819d832fe7e252fea2e5b4b4832751348bc10eba0
-size 16375
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liubiao",
+    "command": "liubiao",
+    "name": "刘表",
+    "displayName": {
+      "zhHans": "刘表",
+      "zhHant": "劉表"
+    },
+    "names": [
+      "刘表"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘表",
+        "zhHant": "劉表"
+      }
+    ],
+    "ids": [
+      "172"
+    ],
+    "sourceNames": [
+      "刘表"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘表",
+        "zhHant": "劉表"
+      }
+    ],
+    "sourceIds": [
+      "172"
+    ],
+    "searchNames": [
+      "liubiao",
+      "刘表",
+      "劉表"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-436",
+        "name": "自守",
+        "displayName": {
+          "zhHans": "自守",
+          "zhHant": "自守"
+        },
+        "ids": [
+          "436"
+        ],
+        "lineCount": 8
+      },
+      {
+        "slug": "spell-437",
+        "name": "宗室",
+        "displayName": {
+          "zhHans": "宗室",
+          "zhHant": "宗室"
+        },
+        "ids": [
+          "437"
+        ],
+        "lineCount": 8
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-17205",
+        "ids": [
+          "17205"
+        ],
+        "name": "从容啸咤",
+        "displayName": {
+          "zhHans": "从容啸咤",
+          "zhHant": "從容嘯吒"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-17206",
+        "ids": [
+          "17206"
+        ],
+        "name": "后嗣之忧",
+        "displayName": {
+          "zhHans": "后嗣之忧",
+          "zhHant": "後嗣之憂"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-17204",
+        "ids": [
+          "17204"
+        ],
+        "name": "威仪雍容",
+        "displayName": {
+          "zhHans": "威仪雍容",
+          "zhHant": "威儀雍容"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-17202",
+        "ids": [
+          "17202"
+        ],
+        "name": "荆襄霸主",
+        "displayName": {
+          "zhHans": "荆襄霸主",
+          "zhHant": "荊襄霸主"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/liubiao.json",
+      "lines": "api/v1/characters/liubiao/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "liubiao--172liubiao--5dead01",
+      "resourceId": "172liubiao/5dead01",
+      "text": "人心已陷，如何固守？",
+      "textLocalized": {
+        "zhHans": "人心已陷，如何固守？",
+        "zhHant": "人心已陷，如何固守？"
+      },
+      "character": {
+        "slug": "liubiao",
+        "command": "liubiao",
+        "id": "172",
+        "ids": [
+          "172"
+        ],
+        "name": "刘表",
+        "displayName": {
+          "zhHans": "刘表",
+          "zhHant": "劉表"
+        },
+        "names": [
+          "刘表"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刘表",
+            "zhHant": "劉表"
+          }
+        ],
+        "sourceIds": [
+          "172"
+        ],
+        "sourceNames": [
+          "刘表"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "刘表",
+            "zhHant": "劉表"
+          }
+        ],
+        "searchNames": [
+          "刘表",
+          "劉表",
+          "liubiao"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-17205",
+        "ids": [
+          "17205"
+        ],
+        "name": "从容啸咤",
+        "displayName": {
+          "zhHans": "从容啸咤",
+          "zhHant": "從容嘯吒"
+        },
+        "names": [
+          "从容啸咤"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "从容啸咤",
+            "zhHant": "從容嘯吒"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-17205",
+          "id": "17205",
+          "ids": [
+            "17205"
+          ],
+          "name": "从容啸咤",
+          "displayName": {
+            "zhHans": "从容啸咤",
+            "zhHant": "從容嘯吒"
+          },
+          "names": [
+            "从容啸咤"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "从容啸咤",
+              "zhHant": "從容嘯吒"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "172",
+        "skinKey": "17205",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "刘表"
+        ],
+        "skinNames": [
+          "从容啸咤"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/172liubiao-a1c5fea7/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/172liubiao/5dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubiao--172liubiao--1dead01",
+      "resourceId": "172liubiao/1dead01",
+      "text": "优柔寡断，要不得啊……",
+      "textLocalized": {
+        "zhHans": "优柔寡断，要不得啊……",
+        "zhHant": "優柔寡斷，要不得啊……"
+      },
+      "character": {
+        "slug": "liubiao",
+        "command": "liubiao",
+        "id": "172",
+        "ids": [
+          "172"
+        ],
+        "name": "刘表",
+        "displayName": {
+          "zhHans": "刘表",
+          "zhHant": "劉表"
+        },
+        "names": [
+          "刘表"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刘表",
+            "zhHant": "劉表"
+          }
+        ],
+        "sourceIds": [
+          "172"
+        ],
+        "sourceNames": [
+          "刘表"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "刘表",
+            "zhHant": "劉表"
+          }
+        ],
+        "searchNames": [
+          "刘表",
+          "劉表",
+          "liubiao"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "172",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "刘表"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/172liubiao-a1c5fea7/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/172liubiao/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubiao--172liubiao--4dead01",
+      "resourceId": "172liubiao/4dead01",
+      "text": "荆州前途未卜矣……",
+      "textLocalized": {
+        "zhHans": "荆州前途未卜矣……",
+        "zhHant": "荊州前途未卜矣……"
+      },
+      "character": {
+        "slug": "liubiao",
+        "command": "liubiao",
+        "id": "172",
+        "ids": [
+          "172"
+        ],
+        "name": "刘表",
+        "displayName": {
+          "zhHans": "刘表",
+          "zhHant": "劉表"
+        },
+        "names": [
+          "刘表"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刘表",
+            "zhHant": "劉表"
+          }
+        ],
+        "sourceIds": [
+          "172"
+        ],
+        "sourceNames": [
+          "刘表"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "刘表",
+            "zhHant": "劉表"
+          }
+        ],
+        "searchNames": [
+          "刘表",
+          "劉表",
+          "liubiao"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-17204",
+        "ids": [
+          "17204"
+        ],
+        "name": "威仪雍容",
+        "displayName": {
+          "zhHans": "威仪雍容",
+          "zhHant": "威儀雍容"
+        },
+        "names": [
+          "威仪雍容"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "威仪雍容",
+            "zhHant": "威儀雍容"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-17204",
+          "id": "17204",
+          "ids": [
+            "17204"
+          ],
+          "name": "威仪雍容",
+          "displayName": {
+            "zhHans": "威仪雍容",
+            "zhHant": "威儀雍容"
+          },
+          "names": [
+            "威仪雍容"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "威仪雍容",
+              "zhHant": "威儀雍容"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "172",
+        "skinKey": "17204",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "刘表"
+        ],
+        "skinNames": [
+          "威仪雍容"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/172liubiao-a1c5fea7/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/172liubiao/4dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubiao--172liubiao--3dead01",
+      "resourceId": "172liubiao/3dead01",
+      "text": "奸雄当道，宗室焉存哪！",
+      "textLocalized": {
+        "zhHans": "奸雄当道，宗室焉存哪！",
+        "zhHant": "奸雄當道，宗室焉存哪！"
+      },
+      "character": {
+        "slug": "liubiao",
+        "command": "liubiao",
+        "id": "172",
+        "ids": [
+          "172"
+        ],
+        "name": "刘表",
+        "displayName": {
+          "zhHans": "刘表",
+          "zhHant": "劉表"
+        },
+        "names": [
+          "刘表"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刘表",
+            "zhHant": "劉表"
+          }
+        ],
+        "sourceIds": [
+          "172"
+        ],
+        "sourceNames": [
+          "刘表"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "刘表",
+            "zhHant": "劉表"
+          }
+        ],
+        "searchNames": [
+          "刘表",
+          "劉表",
+          "liubiao"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-17202-17206",
+        "ids": [
+          "17202",
+          "17206"
+        ],
+        "name": "荆襄霸主,后嗣之忧",
+        "displayName": {
+          "zhHans": "荆襄霸主,后嗣之忧",
+          "zhHant": "荊襄霸主,後嗣之憂"
+        },
+        "names": [
+          "荆襄霸主",
+          "后嗣之忧"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "荆襄霸主",
+            "zhHant": "荊襄霸主"
+          },
+          {
+            "zhHans": "后嗣之忧",
+            "zhHant": "後嗣之憂"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-17206",
+          "id": "17206",
+          "ids": [
+            "17206"
+          ],
+          "name": "后嗣之忧",
+          "displayName": {
+            "zhHans": "后嗣之忧",
+            "zhHant": "後嗣之憂"
+          },
+          "names": [
+            "后嗣之忧"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "后嗣之忧",
+              "zhHant": "後嗣之憂"
+            }
+          ]
+        },
+        {
+          "slug": "skin-17202",
+          "id": "17202",
+          "ids": [
+            "17202"
+          ],
+          "name": "荆襄霸主",
+          "displayName": {
+            "zhHans": "荆襄霸主",
+            "zhHant": "荊襄霸主"
+          },
+          "names": [
+            "荆襄霸主"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "荆襄霸主",
+              "zhHant": "荊襄霸主"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "172",
+        "skinKey": "17202;17206",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "刘表"
+        ],
+        "skinNames": [
+          "荆襄霸主",
+          "后嗣之忧"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/172liubiao-a1c5fea7/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/172liubiao/3dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

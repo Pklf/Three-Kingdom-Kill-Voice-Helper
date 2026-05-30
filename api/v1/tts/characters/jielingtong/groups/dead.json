@@ -1,3 +1,130 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b8a9a9b12b2dd519e2184413e01c36016d2f23611da5e4f60e56c6452a9c8f42
-size 3153
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jielingtong",
+    "command": "jielingtong",
+    "name": "界凌统",
+    "displayName": {
+      "zhHans": "界凌统",
+      "zhHant": "界淩統"
+    },
+    "names": [
+      "界凌统"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界凌统",
+        "zhHant": "界淩統"
+      }
+    ],
+    "ids": [
+      "588"
+    ],
+    "sourceNames": [
+      "界凌统"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界凌统",
+        "zhHant": "界淩統"
+      }
+    ],
+    "sourceIds": [
+      "588"
+    ],
+    "searchNames": [
+      "jielingtong",
+      "界凌统",
+      "界淩統"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jielingtong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3390",
+        "name": "旋风",
+        "displayName": {
+          "zhHans": "旋风",
+          "zhHant": "旋風"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jielingtong/groups/spell-3390.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jielingtong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jielingtong.json",
+      "groups": "api/v1/tts/characters/jielingtong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jielingtong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/jielingtong/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "jielingtong--588jielingtong--1dead01",
+      "resourceId": "588jielingtong/1dead01",
+      "text": "先停一下吧……",
+      "textLocalized": {
+        "zhHans": "先停一下吧……",
+        "zhHant": "先停一下吧……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/588jielingtong-d9e2ecf7/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/588jielingtong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

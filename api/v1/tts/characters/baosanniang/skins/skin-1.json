@@ -1,3 +1,380 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e50eed8d5b4105d42e40283f746d087da2cca4c0ead17dfe8e0700235570a0b5
-size 10551
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "baosanniang",
+    "command": "baosanniang",
+    "name": "鲍三娘",
+    "displayName": {
+      "zhHans": "鲍三娘",
+      "zhHant": "鮑三娘"
+    },
+    "names": [
+      "鲍三娘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "鲍三娘",
+        "zhHant": "鮑三娘"
+      }
+    ],
+    "ids": [
+      "351"
+    ],
+    "sourceNames": [
+      "鲍三娘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "鲍三娘",
+        "zhHant": "鮑三娘"
+      }
+    ],
+    "sourceIds": [
+      "351"
+    ],
+    "searchNames": [
+      "baosanniang",
+      "鲍三娘",
+      "鮑三娘"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/baosanniang/groups/dead.json"
+      },
+      {
+        "slug": "spell-841",
+        "name": "武娘",
+        "displayName": {
+          "zhHans": "武娘",
+          "zhHant": "武娘"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/baosanniang/groups/spell-841.json"
+      },
+      {
+        "slug": "spell-842",
+        "name": "许身",
+        "displayName": {
+          "zhHans": "许身",
+          "zhHant": "許身"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/baosanniang/groups/spell-842.json"
+      },
+      {
+        "slug": "spell-843",
+        "name": "镇南",
+        "displayName": {
+          "zhHans": "镇南",
+          "zhHant": "鎮南"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/baosanniang/groups/spell-843.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/baosanniang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35101",
+        "name": "漫花剑俏",
+        "displayName": {
+          "zhHans": "漫花剑俏",
+          "zhHant": "漫花劍俏"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/baosanniang/skins/skin-35101.json"
+      },
+      {
+        "slug": "skin-35102",
+        "name": "翩若游凤",
+        "displayName": {
+          "zhHans": "翩若游凤",
+          "zhHant": "翩若遊鳳"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/baosanniang/skins/skin-35102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/baosanniang.json",
+      "groups": "api/v1/tts/characters/baosanniang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/baosanniang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/baosanniang/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "baosanniang--351baosanniang--1dead01",
+      "resourceId": "351baosanniang/1dead01",
+      "text": "我还想与你，共骑这雪花驹……",
+      "textLocalized": {
+        "zhHans": "我还想与你，共骑这雪花驹……",
+        "zhHant": "我還想與你，共騎這雪花駒……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "baosanniang--351baosanniang--1skill1_1",
+      "resourceId": "351baosanniang/1skill1_1",
+      "text": "虽为女子身，不输男儿郎。",
+      "textLocalized": {
+        "zhHans": "虽为女子身，不输男儿郎。",
+        "zhHant": "雖爲女子身，不輸男兒郎。"
+      },
+      "group": {
+        "slug": "spell-841",
+        "name": "武娘",
+        "displayName": {
+          "zhHans": "武娘",
+          "zhHant": "武娘"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "baosanniang--351baosanniang--1skill1_2",
+      "resourceId": "351baosanniang/1skill1_2",
+      "text": "剑舞轻影，沙场克敌。",
+      "textLocalized": {
+        "zhHans": "剑舞轻影，沙场克敌。",
+        "zhHant": "劍舞輕影，沙場克敵。"
+      },
+      "group": {
+        "slug": "spell-841",
+        "name": "武娘",
+        "displayName": {
+          "zhHans": "武娘",
+          "zhHant": "武娘"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "baosanniang--351baosanniang--1skill2_1",
+      "resourceId": "351baosanniang/1skill2_1",
+      "text": "救命之恩，涌泉相报。",
+      "textLocalized": {
+        "zhHans": "救命之恩，涌泉相报。",
+        "zhHant": "救命之恩，湧泉相報。"
+      },
+      "group": {
+        "slug": "spell-842",
+        "name": "许身",
+        "displayName": {
+          "zhHans": "许身",
+          "zhHant": "許身"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "baosanniang--351baosanniang--1skill2_2",
+      "resourceId": "351baosanniang/1skill2_2",
+      "text": "解我危难，报君华彩。",
+      "textLocalized": {
+        "zhHans": "解我危难，报君华彩。",
+        "zhHant": "解我危難，報君華彩。"
+      },
+      "group": {
+        "slug": "spell-842",
+        "name": "许身",
+        "displayName": {
+          "zhHans": "许身",
+          "zhHant": "許身"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "baosanniang--351baosanniang--1skill3_1",
+      "resourceId": "351baosanniang/1skill3_1",
+      "text": "镇守南中，夫君无忧。",
+      "textLocalized": {
+        "zhHans": "镇守南中，夫君无忧。",
+        "zhHant": "鎮守南中，夫君無憂。"
+      },
+      "group": {
+        "slug": "spell-843",
+        "name": "镇南",
+        "displayName": {
+          "zhHans": "镇南",
+          "zhHant": "鎮南"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "baosanniang--351baosanniang--1skill3_2",
+      "resourceId": "351baosanniang/1skill3_2",
+      "text": "与君携手，定平蛮夷。",
+      "textLocalized": {
+        "zhHans": "与君携手，定平蛮夷。",
+        "zhHant": "與君攜手，定平蠻夷。"
+      },
+      "group": {
+        "slug": "spell-843",
+        "name": "镇南",
+        "displayName": {
+          "zhHans": "镇南",
+          "zhHant": "鎮南"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

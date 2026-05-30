@@ -1,3 +1,200 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:431fe2c61c5c3dbccd855bd7906f49e6b80d37ed50855dfe7c65dea80398a23e
-size 5265
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jielingtong",
+    "command": "jielingtong",
+    "name": "界凌统",
+    "displayName": {
+      "zhHans": "界凌统",
+      "zhHant": "界淩統"
+    },
+    "names": [
+      "界凌统"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界凌统",
+        "zhHant": "界淩統"
+      }
+    ],
+    "ids": [
+      "588"
+    ],
+    "sourceNames": [
+      "界凌统"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界凌统",
+        "zhHant": "界淩統"
+      }
+    ],
+    "sourceIds": [
+      "588"
+    ],
+    "searchNames": [
+      "jielingtong",
+      "界凌统",
+      "界淩統"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jielingtong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3390",
+        "name": "旋风",
+        "displayName": {
+          "zhHans": "旋风",
+          "zhHant": "旋風"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jielingtong/groups/spell-3390.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jielingtong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jielingtong.json",
+      "groups": "api/v1/tts/characters/jielingtong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jielingtong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/jielingtong/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "jielingtong--588jielingtong--1dead01",
+      "resourceId": "588jielingtong/1dead01",
+      "text": "先停一下吧……",
+      "textLocalized": {
+        "zhHans": "先停一下吧……",
+        "zhHant": "先停一下吧……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/588jielingtong-d9e2ecf7/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/588jielingtong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielingtong--588jielingtong--1skill1_1",
+      "resourceId": "588jielingtong/1skill1_1",
+      "text": "短兵相接，让敌人丢盔弃甲。",
+      "textLocalized": {
+        "zhHans": "短兵相接，让敌人丢盔弃甲。",
+        "zhHant": "短兵相接，讓敵人丟盔棄甲。"
+      },
+      "group": {
+        "slug": "spell-3390",
+        "name": "旋风",
+        "displayName": {
+          "zhHans": "旋风",
+          "zhHant": "旋風"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/588jielingtong-d9e2ecf7/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/588jielingtong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielingtong--588jielingtong--1skill1_2",
+      "resourceId": "588jielingtong/1skill1_2",
+      "text": "攻敌不备，看他们闻风而逃。",
+      "textLocalized": {
+        "zhHans": "攻敌不备，看他们闻风而逃。",
+        "zhHant": "攻敵不備，看他們聞風而逃。"
+      },
+      "group": {
+        "slug": "spell-3390",
+        "name": "旋风",
+        "displayName": {
+          "zhHans": "旋风",
+          "zhHant": "旋風"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/588jielingtong-d9e2ecf7/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/588jielingtong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

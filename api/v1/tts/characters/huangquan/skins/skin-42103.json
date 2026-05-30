@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e5b9186f9a1f033ca496051c276bd7d0f22046f9772f15ba5f167418db4b88a
-size 8667
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huangquan",
+    "command": "huangquan",
+    "name": "黄权",
+    "displayName": {
+      "zhHans": "黄权",
+      "zhHant": "黃權"
+    },
+    "names": [
+      "黄权"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "黄权",
+        "zhHant": "黃權"
+      }
+    ],
+    "ids": [
+      "421"
+    ],
+    "sourceNames": [
+      "黄权"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "黄权",
+        "zhHant": "黃權"
+      }
+    ],
+    "sourceIds": [
+      "421"
+    ],
+    "searchNames": [
+      "huangquan",
+      "黄权",
+      "黃權"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/huangquan/groups/dead.json"
+      },
+      {
+        "slug": "spell-859",
+        "name": "点虎",
+        "displayName": {
+          "zhHans": "点虎",
+          "zhHant": "點虎"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/huangquan/groups/spell-859.json"
+      },
+      {
+        "slug": "spell-860",
+        "name": "谏计",
+        "displayName": {
+          "zhHans": "谏计",
+          "zhHant": "諫計"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/huangquan/groups/spell-860.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangquan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42101",
+        "name": "诉君局势",
+        "displayName": {
+          "zhHans": "诉君局势",
+          "zhHant": "訴君局勢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangquan/skins/skin-42101.json"
+      },
+      {
+        "slug": "skin-42103",
+        "name": "镇城坚守",
+        "displayName": {
+          "zhHans": "镇城坚守",
+          "zhHant": "鎮城堅守"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangquan/skins/skin-42103.json"
+      },
+      {
+        "slug": "skin-42102",
+        "name": "面色悲戚",
+        "displayName": {
+          "zhHans": "面色悲戚",
+          "zhHant": "面色悲慼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangquan/skins/skin-42102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huangquan.json",
+      "groups": "api/v1/tts/characters/huangquan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huangquan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-42103",
+    "name": "镇城坚守",
+    "displayName": {
+      "zhHans": "镇城坚守",
+      "zhHant": "鎮城堅守"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/huangquan/skins/skin-42103.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "huangquan--421huangquan--5dead01",
+      "resourceId": "421huangquan/5dead01",
+      "text": "降吴不可却降曹，忠义安能事两朝？",
+      "textLocalized": {
+        "zhHans": "降吴不可却降曹，忠义安能事两朝？",
+        "zhHant": "降吳不可卻降曹，忠義安能事兩朝？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42103",
+          "name": "镇城坚守",
+          "displayName": {
+            "zhHans": "镇城坚守",
+            "zhHant": "鎮城堅守"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/421huangquan-f0941e9e/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/421huangquan/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangquan--421huangquan--5skill1_1",
+      "resourceId": "421huangquan/5skill1_1",
+      "text": "进能徽音，退不失德。",
+      "textLocalized": {
+        "zhHans": "进能徽音，退不失德。",
+        "zhHant": "進能徽音，退不失德。"
+      },
+      "group": {
+        "slug": "spell-859",
+        "name": "点虎",
+        "displayName": {
+          "zhHans": "点虎",
+          "zhHant": "點虎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42103",
+          "name": "镇城坚守",
+          "displayName": {
+            "zhHans": "镇城坚守",
+            "zhHant": "鎮城堅守"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/421huangquan-f0941e9e/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/421huangquan/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangquan--421huangquan--5skill1_2",
+      "resourceId": "421huangquan/5skill1_2",
+      "text": "今日就要取你性命，以振军威！",
+      "textLocalized": {
+        "zhHans": "今日就要取你性命，以振军威！",
+        "zhHant": "今日就要取你性命，以振軍威！"
+      },
+      "group": {
+        "slug": "spell-859",
+        "name": "点虎",
+        "displayName": {
+          "zhHans": "点虎",
+          "zhHant": "點虎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42103",
+          "name": "镇城坚守",
+          "displayName": {
+            "zhHans": "镇城坚守",
+            "zhHant": "鎮城堅守"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/421huangquan-f0941e9e/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/421huangquan/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangquan--421huangquan--5skill2_1",
+      "resourceId": "421huangquan/5skill2_1",
+      "text": "将军一人之力，便可稳操胜券。",
+      "textLocalized": {
+        "zhHans": "将军一人之力，便可稳操胜券。",
+        "zhHant": "將軍一人之力，便可穩操勝券。"
+      },
+      "group": {
+        "slug": "spell-860",
+        "name": "谏计",
+        "displayName": {
+          "zhHans": "谏计",
+          "zhHant": "諫計"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42103",
+          "name": "镇城坚守",
+          "displayName": {
+            "zhHans": "镇城坚守",
+            "zhHant": "鎮城堅守"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/421huangquan-f0941e9e/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/421huangquan/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangquan--421huangquan--5skill2_2",
+      "resourceId": "421huangquan/5skill2_2",
+      "text": "刘璋若听我谏言，今日便如君之盛。",
+      "textLocalized": {
+        "zhHans": "刘璋若听我谏言，今日便如君之盛。",
+        "zhHant": "劉璋若聽我諫言，今日便如君之盛。"
+      },
+      "group": {
+        "slug": "spell-860",
+        "name": "谏计",
+        "displayName": {
+          "zhHans": "谏计",
+          "zhHant": "諫計"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42103",
+          "name": "镇城坚守",
+          "displayName": {
+            "zhHans": "镇城坚守",
+            "zhHant": "鎮城堅守"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/421huangquan-f0941e9e/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/421huangquan/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

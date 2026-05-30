@@ -1,3 +1,938 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a55020445436d08790a0948a2d08e04b978e1bb9f7390653ebd6eedfea3c0486
-size 21404
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenpei",
+    "command": "shenpei",
+    "name": "审配",
+    "displayName": {
+      "zhHans": "审配",
+      "zhHant": "審配"
+    },
+    "names": [
+      "审配"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "审配",
+        "zhHant": "審配"
+      }
+    ],
+    "ids": [
+      "459"
+    ],
+    "sourceNames": [
+      "审配"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "审配",
+        "zhHant": "審配"
+      }
+    ],
+    "sourceIds": [
+      "459"
+    ],
+    "searchNames": [
+      "shenpei",
+      "审配",
+      "審配"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-1185",
+        "name": "刚直",
+        "displayName": {
+          "zhHans": "刚直",
+          "zhHant": "剛直"
+        },
+        "ids": [
+          "1185"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-1186",
+        "name": "备战",
+        "displayName": {
+          "zhHans": "备战",
+          "zhHant": "備戰"
+        },
+        "ids": [
+          "1186"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-45901",
+        "ids": [
+          "45901"
+        ],
+        "name": "坚守拒降",
+        "displayName": {
+          "zhHans": "坚守拒降",
+          "zhHant": "堅守拒降"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-45902",
+        "ids": [
+          "45902"
+        ],
+        "name": "领弓破曹",
+        "displayName": {
+          "zhHans": "领弓破曹",
+          "zhHant": "領弓破曹"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/shenpei.json",
+      "lines": "api/v1/characters/shenpei/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1185",
+    "ids": [
+      "1185"
+    ],
+    "name": "刚直",
+    "displayName": {
+      "zhHans": "刚直",
+      "zhHant": "剛直"
+    },
+    "names": [
+      "刚直"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刚直",
+        "zhHant": "剛直"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "shenpei--459shenpei--1skill1_1",
+      "resourceId": "459shenpei/1skill1_1",
+      "text": "死便死，降？断不能降！",
+      "textLocalized": {
+        "zhHans": "死便死，降？断不能降！",
+        "zhHant": "死便死，降？斷不能降！"
+      },
+      "character": {
+        "slug": "shenpei",
+        "command": "shenpei",
+        "id": "459",
+        "ids": [
+          "459"
+        ],
+        "name": "审配",
+        "displayName": {
+          "zhHans": "审配",
+          "zhHant": "審配"
+        },
+        "names": [
+          "审配"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "sourceIds": [
+          "459"
+        ],
+        "sourceNames": [
+          "审配"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "searchNames": [
+          "审配",
+          "審配",
+          "shenpei"
+        ]
+      },
+      "group": {
+        "slug": "spell-1185",
+        "ids": [
+          "1185"
+        ],
+        "name": "刚直",
+        "displayName": {
+          "zhHans": "刚直",
+          "zhHant": "剛直"
+        },
+        "names": [
+          "刚直"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刚直",
+            "zhHant": "剛直"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "459",
+        "skinKey": "-1",
+        "spellKey": "1185",
+        "rowIndex": 1,
+        "characterNames": [
+          "审配"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--1skill1_2",
+      "resourceId": "459shenpei/1skill1_2",
+      "text": "只恨箭支太少，不能射杀汝等！",
+      "textLocalized": {
+        "zhHans": "只恨箭支太少，不能射杀汝等！",
+        "zhHant": "只恨箭支太少，不能射殺汝等！"
+      },
+      "character": {
+        "slug": "shenpei",
+        "command": "shenpei",
+        "id": "459",
+        "ids": [
+          "459"
+        ],
+        "name": "审配",
+        "displayName": {
+          "zhHans": "审配",
+          "zhHant": "審配"
+        },
+        "names": [
+          "审配"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "sourceIds": [
+          "459"
+        ],
+        "sourceNames": [
+          "审配"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "searchNames": [
+          "审配",
+          "審配",
+          "shenpei"
+        ]
+      },
+      "group": {
+        "slug": "spell-1185",
+        "ids": [
+          "1185"
+        ],
+        "name": "刚直",
+        "displayName": {
+          "zhHans": "刚直",
+          "zhHant": "剛直"
+        },
+        "names": [
+          "刚直"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刚直",
+            "zhHant": "剛直"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "459",
+        "skinKey": "-1",
+        "spellKey": "1185",
+        "rowIndex": 2,
+        "characterNames": [
+          "审配"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--4skill1_1",
+      "resourceId": "459shenpei/4skill1_1",
+      "text": "刚烈率直，慕古人之节。",
+      "textLocalized": {
+        "zhHans": "刚烈率直，慕古人之节。",
+        "zhHant": "剛烈率直，慕古人之節。"
+      },
+      "character": {
+        "slug": "shenpei",
+        "command": "shenpei",
+        "id": "459",
+        "ids": [
+          "459"
+        ],
+        "name": "审配",
+        "displayName": {
+          "zhHans": "审配",
+          "zhHant": "審配"
+        },
+        "names": [
+          "审配"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "sourceIds": [
+          "459"
+        ],
+        "sourceNames": [
+          "审配"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "searchNames": [
+          "审配",
+          "審配",
+          "shenpei"
+        ]
+      },
+      "group": {
+        "slug": "spell-1185",
+        "ids": [
+          "1185"
+        ],
+        "name": "刚直",
+        "displayName": {
+          "zhHans": "刚直",
+          "zhHant": "剛直"
+        },
+        "names": [
+          "刚直"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刚直",
+            "zhHant": "剛直"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-45901",
+        "ids": [
+          "45901"
+        ],
+        "name": "坚守拒降",
+        "displayName": {
+          "zhHans": "坚守拒降",
+          "zhHant": "堅守拒降"
+        },
+        "names": [
+          "坚守拒降"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "坚守拒降",
+            "zhHant": "堅守拒降"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-45901",
+          "id": "45901",
+          "ids": [
+            "45901"
+          ],
+          "name": "坚守拒降",
+          "displayName": {
+            "zhHans": "坚守拒降",
+            "zhHant": "堅守拒降"
+          },
+          "names": [
+            "坚守拒降"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "坚守拒降",
+              "zhHant": "堅守拒降"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "459",
+        "skinKey": "45901",
+        "spellKey": "1185",
+        "rowIndex": 1,
+        "characterNames": [
+          "审配"
+        ],
+        "skinNames": [
+          "坚守拒降"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/4skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--4skill1_2",
+      "resourceId": "459shenpei/4skill1_2",
+      "text": "忠直言无隐，廉能志不贪。",
+      "textLocalized": {
+        "zhHans": "忠直言无隐，廉能志不贪。",
+        "zhHant": "忠直言無隱，廉能志不貪。"
+      },
+      "character": {
+        "slug": "shenpei",
+        "command": "shenpei",
+        "id": "459",
+        "ids": [
+          "459"
+        ],
+        "name": "审配",
+        "displayName": {
+          "zhHans": "审配",
+          "zhHant": "審配"
+        },
+        "names": [
+          "审配"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "sourceIds": [
+          "459"
+        ],
+        "sourceNames": [
+          "审配"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "searchNames": [
+          "审配",
+          "審配",
+          "shenpei"
+        ]
+      },
+      "group": {
+        "slug": "spell-1185",
+        "ids": [
+          "1185"
+        ],
+        "name": "刚直",
+        "displayName": {
+          "zhHans": "刚直",
+          "zhHant": "剛直"
+        },
+        "names": [
+          "刚直"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刚直",
+            "zhHant": "剛直"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-45901",
+        "ids": [
+          "45901"
+        ],
+        "name": "坚守拒降",
+        "displayName": {
+          "zhHans": "坚守拒降",
+          "zhHant": "堅守拒降"
+        },
+        "names": [
+          "坚守拒降"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "坚守拒降",
+            "zhHant": "堅守拒降"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-45901",
+          "id": "45901",
+          "ids": [
+            "45901"
+          ],
+          "name": "坚守拒降",
+          "displayName": {
+            "zhHans": "坚守拒降",
+            "zhHant": "堅守拒降"
+          },
+          "names": [
+            "坚守拒降"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "坚守拒降",
+              "zhHant": "堅守拒降"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "459",
+        "skinKey": "45901",
+        "spellKey": "1185",
+        "rowIndex": 2,
+        "characterNames": [
+          "审配"
+        ],
+        "skinNames": [
+          "坚守拒降"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/4skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--5skill1_1",
+      "resourceId": "459shenpei/5skill1_1",
+      "text": "刚直中正，志节抗厉！",
+      "textLocalized": {
+        "zhHans": "刚直中正，志节抗厉！",
+        "zhHant": "剛直中正，志節抗厲！"
+      },
+      "character": {
+        "slug": "shenpei",
+        "command": "shenpei",
+        "id": "459",
+        "ids": [
+          "459"
+        ],
+        "name": "审配",
+        "displayName": {
+          "zhHans": "审配",
+          "zhHant": "審配"
+        },
+        "names": [
+          "审配"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "sourceIds": [
+          "459"
+        ],
+        "sourceNames": [
+          "审配"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "searchNames": [
+          "审配",
+          "審配",
+          "shenpei"
+        ]
+      },
+      "group": {
+        "slug": "spell-1185",
+        "ids": [
+          "1185"
+        ],
+        "name": "刚直",
+        "displayName": {
+          "zhHans": "刚直",
+          "zhHant": "剛直"
+        },
+        "names": [
+          "刚直"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刚直",
+            "zhHant": "剛直"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-45902",
+        "ids": [
+          "45902"
+        ],
+        "name": "领弓破曹",
+        "displayName": {
+          "zhHans": "领弓破曹",
+          "zhHant": "領弓破曹"
+        },
+        "names": [
+          "领弓破曹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "领弓破曹",
+            "zhHant": "領弓破曹"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-45902",
+          "id": "45902",
+          "ids": [
+            "45902"
+          ],
+          "name": "领弓破曹",
+          "displayName": {
+            "zhHans": "领弓破曹",
+            "zhHant": "領弓破曹"
+          },
+          "names": [
+            "领弓破曹"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "领弓破曹",
+              "zhHant": "領弓破曹"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "459",
+        "skinKey": "45902",
+        "spellKey": "1185",
+        "rowIndex": 1,
+        "characterNames": [
+          "审配"
+        ],
+        "skinNames": [
+          "领弓破曹"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/5skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenpei--459shenpei--5skill1_2",
+      "resourceId": "459shenpei/5skill1_2",
+      "text": "刚直不阿，以正名节！",
+      "textLocalized": {
+        "zhHans": "刚直不阿，以正名节！",
+        "zhHant": "剛直不阿，以正名節！"
+      },
+      "character": {
+        "slug": "shenpei",
+        "command": "shenpei",
+        "id": "459",
+        "ids": [
+          "459"
+        ],
+        "name": "审配",
+        "displayName": {
+          "zhHans": "审配",
+          "zhHant": "審配"
+        },
+        "names": [
+          "审配"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "sourceIds": [
+          "459"
+        ],
+        "sourceNames": [
+          "审配"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "审配",
+            "zhHant": "審配"
+          }
+        ],
+        "searchNames": [
+          "审配",
+          "審配",
+          "shenpei"
+        ]
+      },
+      "group": {
+        "slug": "spell-1185",
+        "ids": [
+          "1185"
+        ],
+        "name": "刚直",
+        "displayName": {
+          "zhHans": "刚直",
+          "zhHant": "剛直"
+        },
+        "names": [
+          "刚直"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "刚直",
+            "zhHant": "剛直"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-45902",
+        "ids": [
+          "45902"
+        ],
+        "name": "领弓破曹",
+        "displayName": {
+          "zhHans": "领弓破曹",
+          "zhHant": "領弓破曹"
+        },
+        "names": [
+          "领弓破曹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "领弓破曹",
+            "zhHant": "領弓破曹"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-45902",
+          "id": "45902",
+          "ids": [
+            "45902"
+          ],
+          "name": "领弓破曹",
+          "displayName": {
+            "zhHans": "领弓破曹",
+            "zhHant": "領弓破曹"
+          },
+          "names": [
+            "领弓破曹"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "领弓破曹",
+              "zhHant": "領弓破曹"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "459",
+        "skinKey": "45902",
+        "spellKey": "1185",
+        "rowIndex": 2,
+        "characterNames": [
+          "审配"
+        ],
+        "skinNames": [
+          "领弓破曹"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/459shenpei-a694b9ef/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/459shenpei/5skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

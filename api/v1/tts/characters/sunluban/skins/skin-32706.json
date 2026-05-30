@@ -1,3 +1,480 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0d5b7865dc5702661b55d67096c6918f1829f91f3c83acd043381121e59abdb2
-size 13600
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunluban",
+    "command": "sunluban",
+    "name": "孙鲁班",
+    "displayName": {
+      "zhHans": "孙鲁班",
+      "zhHant": "孫魯班"
+    },
+    "names": [
+      "孙鲁班"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙鲁班",
+        "zhHant": "孫魯班"
+      }
+    ],
+    "ids": [
+      "327"
+    ],
+    "sourceNames": [
+      "孙鲁班"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙鲁班",
+        "zhHant": "孫魯班"
+      }
+    ],
+    "sourceIds": [
+      "327"
+    ],
+    "searchNames": [
+      "sunluban",
+      "孙鲁班",
+      "孫魯班"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/sunluban/groups/dead.json"
+      },
+      {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/sunluban/groups/spell-486.json"
+      },
+      {
+        "slug": "spell-487",
+        "name": "骄矜",
+        "displayName": {
+          "zhHans": "骄矜",
+          "zhHant": "驕矜"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/sunluban/groups/spell-487.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-32701",
+        "name": "为虎作伥",
+        "displayName": {
+          "zhHans": "为虎作伥",
+          "zhHant": "爲虎作倀"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32701.json"
+      },
+      {
+        "slug": "skin-32704",
+        "name": "倚虎弄权",
+        "displayName": {
+          "zhHans": "倚虎弄权",
+          "zhHant": "倚虎弄權"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32704.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32702",
+        "name": "宫邻金虎",
+        "displayName": {
+          "zhHans": "宫邻金虎",
+          "zhHant": "宮鄰金虎"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32702.json"
+      },
+      {
+        "slug": "skin-32702-32703-32706",
+        "name": "宫邻金虎,尊贵骄矜,江南双花",
+        "displayName": {
+          "zhHans": "宫邻金虎,尊贵骄矜,江南双花",
+          "zhHant": "宮鄰金虎,尊貴驕矜,江南雙花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32702-32703-32706.json"
+      },
+      {
+        "slug": "skin-32703",
+        "name": "尊贵骄矜",
+        "displayName": {
+          "zhHans": "尊贵骄矜",
+          "zhHant": "尊貴驕矜"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32703.json"
+      },
+      {
+        "slug": "skin-32706",
+        "name": "江南双花",
+        "displayName": {
+          "zhHans": "江南双花",
+          "zhHant": "江南雙花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32706.json"
+      },
+      {
+        "slug": "skin-32707",
+        "name": "玉颜双娇",
+        "displayName": {
+          "zhHans": "玉颜双娇",
+          "zhHant": "玉顏雙嬌"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32707.json"
+      },
+      {
+        "slug": "skin-32708",
+        "name": "金枝玉叶",
+        "displayName": {
+          "zhHans": "金枝玉叶",
+          "zhHant": "金枝玉葉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32708.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunluban.json",
+      "groups": "api/v1/tts/characters/sunluban/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunluban/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-32706",
+    "name": "江南双花",
+    "displayName": {
+      "zhHans": "江南双花",
+      "zhHant": "江南雙花"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/sunluban/skins/skin-32706.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "sunluban--327sunluban--4dead01",
+      "resourceId": "327sunluban/4dead01",
+      "text": "不，我不甘心……",
+      "textLocalized": {
+        "zhHans": "不，我不甘心……",
+        "zhHant": "不，我不甘心……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32702",
+          "name": "宫邻金虎",
+          "displayName": {
+            "zhHans": "宫邻金虎",
+            "zhHant": "宮鄰金虎"
+          }
+        },
+        {
+          "slug": "skin-32703",
+          "name": "尊贵骄矜",
+          "displayName": {
+            "zhHans": "尊贵骄矜",
+            "zhHant": "尊貴驕矜"
+          }
+        },
+        {
+          "slug": "skin-32706",
+          "name": "江南双花",
+          "displayName": {
+            "zhHans": "江南双花",
+            "zhHant": "江南雙花"
+          }
+        },
+        {
+          "slug": "skin-32702-32703-32706",
+          "name": "宫邻金虎,尊贵骄矜,江南双花",
+          "displayName": {
+            "zhHans": "宫邻金虎,尊贵骄矜,江南双花",
+            "zhHant": "宮鄰金虎,尊貴驕矜,江南雙花"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--4skill1_1",
+      "resourceId": "327sunluban/4skill1_1",
+      "text": "如做此事，怎不敢当！",
+      "textLocalized": {
+        "zhHans": "如做此事，怎不敢当！",
+        "zhHant": "如做此事，怎不敢當！"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32702",
+          "name": "宫邻金虎",
+          "displayName": {
+            "zhHans": "宫邻金虎",
+            "zhHant": "宮鄰金虎"
+          }
+        },
+        {
+          "slug": "skin-32703",
+          "name": "尊贵骄矜",
+          "displayName": {
+            "zhHans": "尊贵骄矜",
+            "zhHant": "尊貴驕矜"
+          }
+        },
+        {
+          "slug": "skin-32706",
+          "name": "江南双花",
+          "displayName": {
+            "zhHans": "江南双花",
+            "zhHant": "江南雙花"
+          }
+        },
+        {
+          "slug": "skin-32702-32703-32706",
+          "name": "宫邻金虎,尊贵骄矜,江南双花",
+          "displayName": {
+            "zhHans": "宫邻金虎,尊贵骄矜,江南双花",
+            "zhHant": "宮鄰金虎,尊貴驕矜,江南雙花"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--4skill1_2",
+      "resourceId": "327sunluban/4skill1_2",
+      "text": "你，定是同谋！",
+      "textLocalized": {
+        "zhHans": "你，定是同谋！",
+        "zhHant": "你，定是同謀！"
+      },
+      "group": {
+        "slug": "spell-486",
+        "name": "谮毁",
+        "displayName": {
+          "zhHans": "谮毁",
+          "zhHant": "譖毀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32702",
+          "name": "宫邻金虎",
+          "displayName": {
+            "zhHans": "宫邻金虎",
+            "zhHant": "宮鄰金虎"
+          }
+        },
+        {
+          "slug": "skin-32703",
+          "name": "尊贵骄矜",
+          "displayName": {
+            "zhHans": "尊贵骄矜",
+            "zhHant": "尊貴驕矜"
+          }
+        },
+        {
+          "slug": "skin-32706",
+          "name": "江南双花",
+          "displayName": {
+            "zhHans": "江南双花",
+            "zhHant": "江南雙花"
+          }
+        },
+        {
+          "slug": "skin-32702-32703-32706",
+          "name": "宫邻金虎,尊贵骄矜,江南双花",
+          "displayName": {
+            "zhHans": "宫邻金虎,尊贵骄矜,江南双花",
+            "zhHant": "宮鄰金虎,尊貴驕矜,江南雙花"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--4skill2_1",
+      "resourceId": "327sunluban/4skill2_1",
+      "text": "哼，真是个不趣的男人！",
+      "textLocalized": {
+        "zhHans": "哼，真是个不趣的男人！",
+        "zhHant": "哼，真是個不趣的男人！"
+      },
+      "group": {
+        "slug": "spell-487",
+        "name": "骄矜",
+        "displayName": {
+          "zhHans": "骄矜",
+          "zhHant": "驕矜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32702",
+          "name": "宫邻金虎",
+          "displayName": {
+            "zhHans": "宫邻金虎",
+            "zhHant": "宮鄰金虎"
+          }
+        },
+        {
+          "slug": "skin-32703",
+          "name": "尊贵骄矜",
+          "displayName": {
+            "zhHans": "尊贵骄矜",
+            "zhHant": "尊貴驕矜"
+          }
+        },
+        {
+          "slug": "skin-32706",
+          "name": "江南双花",
+          "displayName": {
+            "zhHans": "江南双花",
+            "zhHant": "江南雙花"
+          }
+        },
+        {
+          "slug": "skin-32702-32703-32706",
+          "name": "宫邻金虎,尊贵骄矜,江南双花",
+          "displayName": {
+            "zhHans": "宫邻金虎,尊贵骄矜,江南双花",
+            "zhHant": "宮鄰金虎,尊貴驕矜,江南雙花"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunluban--327sunluban--4skill2_2",
+      "resourceId": "327sunluban/4skill2_2",
+      "text": "你可知我父皇是谁？",
+      "textLocalized": {
+        "zhHans": "你可知我父皇是谁？",
+        "zhHant": "你可知我父皇是誰？"
+      },
+      "group": {
+        "slug": "spell-487",
+        "name": "骄矜",
+        "displayName": {
+          "zhHans": "骄矜",
+          "zhHant": "驕矜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32702",
+          "name": "宫邻金虎",
+          "displayName": {
+            "zhHans": "宫邻金虎",
+            "zhHant": "宮鄰金虎"
+          }
+        },
+        {
+          "slug": "skin-32703",
+          "name": "尊贵骄矜",
+          "displayName": {
+            "zhHans": "尊贵骄矜",
+            "zhHant": "尊貴驕矜"
+          }
+        },
+        {
+          "slug": "skin-32706",
+          "name": "江南双花",
+          "displayName": {
+            "zhHans": "江南双花",
+            "zhHant": "江南雙花"
+          }
+        },
+        {
+          "slug": "skin-32702-32703-32706",
+          "name": "宫邻金虎,尊贵骄矜,江南双花",
+          "displayName": {
+            "zhHans": "宫邻金虎,尊贵骄矜,江南双花",
+            "zhHant": "宮鄰金虎,尊貴驕矜,江南雙花"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/327sunluban-a10befae/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/327sunluban/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

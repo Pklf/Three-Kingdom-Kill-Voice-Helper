@@ -1,3 +1,366 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bfa0d2dee78c5bfd9380ed727ab2c2ec0f74613293e9a10ce0d95ae89f69fa6d
-size 10021
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caohong",
+    "command": "caohong",
+    "name": "曹洪",
+    "displayName": {
+      "zhHans": "曹洪",
+      "zhHant": "曹洪"
+    },
+    "names": [
+      "曹洪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹洪",
+        "zhHant": "曹洪"
+      }
+    ],
+    "ids": [
+      "114",
+      "2073"
+    ],
+    "sourceNames": [
+      "曹洪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹洪",
+        "zhHant": "曹洪"
+      }
+    ],
+    "sourceIds": [
+      "114",
+      "2073"
+    ],
+    "searchNames": [
+      "caohong",
+      "曹洪"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/groups/dead.json"
+      },
+      {
+        "slug": "spell-2136",
+        "name": "护援",
+        "displayName": {
+          "zhHans": "护援",
+          "zhHant": "護援"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caohong/groups/spell-2136.json"
+      },
+      {
+        "slug": "spell-214",
+        "name": "援护",
+        "displayName": {
+          "zhHans": "援护",
+          "zhHant": "援護"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caohong/groups/spell-214.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-11404",
+        "name": "奇策将出",
+        "displayName": {
+          "zhHans": "奇策将出",
+          "zhHant": "奇策將出"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11404.json"
+      },
+      {
+        "slug": "skin-11402",
+        "name": "忠驱护主",
+        "displayName": {
+          "zhHans": "忠驱护主",
+          "zhHant": "忠驅護主"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11402.json"
+      },
+      {
+        "slug": "skin-11402-11403",
+        "name": "忠驱护主,献马救主",
+        "displayName": {
+          "zhHans": "忠驱护主,献马救主",
+          "zhHant": "忠驅護主,獻馬救主"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11402-11403.json"
+      },
+      {
+        "slug": "skin-11403",
+        "name": "献马救主",
+        "displayName": {
+          "zhHans": "献马救主",
+          "zhHant": "獻馬救主"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11403.json"
+      },
+      {
+        "slug": "skin-11405",
+        "name": "疾驰救援",
+        "displayName": {
+          "zhHans": "疾驰救援",
+          "zhHant": "疾馳救援"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11405.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caohong.json",
+      "groups": "api/v1/tts/characters/caohong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caohong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-11404",
+    "name": "奇策将出",
+    "displayName": {
+      "zhHans": "奇策将出",
+      "zhHant": "奇策將出"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/caohong/skins/skin-11404.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "caohong--114caohong--4dead01",
+      "resourceId": "114caohong/4dead01",
+      "text": "我掩护你。",
+      "textLocalized": {
+        "zhHans": "我掩护你。",
+        "zhHant": "我掩護你。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11404",
+          "name": "奇策将出",
+          "displayName": {
+            "zhHans": "奇策将出",
+            "zhHant": "奇策將出"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/114caohong-06110f6e/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/114caohong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caohong--2073caohong--4dead01",
+      "resourceId": "2073caohong/4dead01",
+      "text": "子廉忠义，天地可鉴。",
+      "textLocalized": {
+        "zhHans": "子廉忠义，天地可鉴。",
+        "zhHant": "子廉忠義，天地可鑑。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11404",
+          "name": "奇策将出",
+          "displayName": {
+            "zhHans": "奇策将出",
+            "zhHant": "奇策將出"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2073caohong-45f714b7/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2073caohong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caohong--2073caohong--4skill1_1",
+      "resourceId": "2073caohong/4skill1_1",
+      "text": "主公快走！",
+      "textLocalized": {
+        "zhHans": "主公快走！",
+        "zhHant": "主公快走！"
+      },
+      "group": {
+        "slug": "spell-2136",
+        "name": "护援",
+        "displayName": {
+          "zhHans": "护援",
+          "zhHant": "護援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11404",
+          "name": "奇策将出",
+          "displayName": {
+            "zhHans": "奇策将出",
+            "zhHant": "奇策將出"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2073caohong-45f714b7/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2073caohong/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caohong--2073caohong--4skill1_2",
+      "resourceId": "2073caohong/4skill1_2",
+      "text": "主公有难，臣子定当一力护援！",
+      "textLocalized": {
+        "zhHans": "主公有难，臣子定当一力护援！",
+        "zhHant": "主公有難，臣子定當一力護援！"
+      },
+      "group": {
+        "slug": "spell-2136",
+        "name": "护援",
+        "displayName": {
+          "zhHans": "护援",
+          "zhHant": "護援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11404",
+          "name": "奇策将出",
+          "displayName": {
+            "zhHans": "奇策将出",
+            "zhHant": "奇策將出"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2073caohong-45f714b7/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2073caohong/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caohong--114caohong--4skill1_1",
+      "resourceId": "114caohong/4skill1_1",
+      "text": "此刀，可助将军一臂之力。",
+      "textLocalized": {
+        "zhHans": "此刀，可助将军一臂之力。",
+        "zhHant": "此刀，可助將軍一臂之力。"
+      },
+      "group": {
+        "slug": "spell-214",
+        "name": "援护",
+        "displayName": {
+          "zhHans": "援护",
+          "zhHant": "援護"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11404",
+          "name": "奇策将出",
+          "displayName": {
+            "zhHans": "奇策将出",
+            "zhHant": "奇策將出"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/114caohong-06110f6e/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/114caohong/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caohong--114caohong--4skill1_2",
+      "resourceId": "114caohong/4skill1_2",
+      "text": "安全第一哟！",
+      "textLocalized": {
+        "zhHans": "安全第一哟！",
+        "zhHant": "安全第一喲！"
+      },
+      "group": {
+        "slug": "spell-214",
+        "name": "援护",
+        "displayName": {
+          "zhHans": "援护",
+          "zhHant": "援護"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11404",
+          "name": "奇策将出",
+          "displayName": {
+            "zhHans": "奇策将出",
+            "zhHant": "奇策將出"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/114caohong-06110f6e/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/114caohong/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

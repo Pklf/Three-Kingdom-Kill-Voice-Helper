@@ -1,3 +1,174 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a1c682e2b37b4cd408b4e44890606164584a43d1ef8208146db7a909f6276953
-size 4510
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiechengpu",
+    "command": "jiechengpu",
+    "name": "界程普",
+    "displayName": {
+      "zhHans": "界程普",
+      "zhHant": "界程普"
+    },
+    "names": [
+      "界程普"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "ids": [
+      "620"
+    ],
+    "sourceNames": [
+      "界程普"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "sourceIds": [
+      "620"
+    ],
+    "searchNames": [
+      "jiechengpu",
+      "界程普"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jiechengpu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3470",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiechengpu/groups/spell-3470.json"
+      },
+      {
+        "slug": "spell-3616",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiechengpu/groups/spell-3616.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiechengpu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiechengpu.json",
+      "groups": "api/v1/tts/characters/jiechengpu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiechengpu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3616",
+    "name": "醇醪",
+    "displayName": {
+      "zhHans": "醇醪",
+      "zhHant": "醇醪"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jiechengpu/groups/spell-3616.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jiechengpu--620jiechengpu--1skill2_1",
+      "resourceId": "620jiechengpu/1skill2_1",
+      "text": "备下佳酿，以做庆功之用。",
+      "textLocalized": {
+        "zhHans": "备下佳酿，以做庆功之用。",
+        "zhHant": "備下佳釀，以做慶功之用。"
+      },
+      "group": {
+        "slug": "spell-3616",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/620jiechengpu-368dd8ae/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/620jiechengpu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiechengpu--620jiechengpu--1skill2_2",
+      "resourceId": "620jiechengpu/1skill2_2",
+      "text": "饮此壮行酒，当立先头功。",
+      "textLocalized": {
+        "zhHans": "饮此壮行酒，当立先头功。",
+        "zhHant": "飲此壯行酒，當立先頭功。"
+      },
+      "group": {
+        "slug": "spell-3616",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/620jiechengpu-368dd8ae/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/620jiechengpu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

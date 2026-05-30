@@ -1,3 +1,359 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3a69dc16a8d39f2c8e9d22813c29fc4c29875af8b6d95302c7de283a241f0c31
-size 9933
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "pengyang",
+    "command": "pengyang",
+    "name": "彭羕",
+    "displayName": {
+      "zhHans": "彭羕",
+      "zhHant": "彭羕"
+    },
+    "names": [
+      "彭羕"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "彭羕",
+        "zhHant": "彭羕"
+      }
+    ],
+    "ids": [
+      "572"
+    ],
+    "sourceNames": [
+      "彭羕"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "彭羕",
+        "zhHant": "彭羕"
+      }
+    ],
+    "sourceIds": [
+      "572"
+    ],
+    "searchNames": [
+      "pengyang",
+      "彭羕"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/pengyang/groups/dead.json"
+      },
+      {
+        "slug": "spell-3336",
+        "name": "嚣翻",
+        "displayName": {
+          "zhHans": "嚣翻",
+          "zhHant": "囂翻"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/pengyang/groups/spell-3336.json"
+      },
+      {
+        "slug": "spell-3337",
+        "name": "侻失",
+        "displayName": {
+          "zhHans": "侻失",
+          "zhHant": "侻失"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/pengyang/groups/spell-3337.json"
+      },
+      {
+        "slug": "spell-816",
+        "name": "寸目",
+        "displayName": {
+          "zhHans": "寸目",
+          "zhHant": "寸目"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/pengyang/groups/spell-816.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/pengyang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/pengyang.json",
+      "groups": "api/v1/tts/characters/pengyang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/pengyang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/pengyang/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "pengyang--572pengyang--1dead01",
+      "resourceId": "572pengyang/1dead01",
+      "text": "羕酒后失言，主公勿怪。",
+      "textLocalized": {
+        "zhHans": "羕酒后失言，主公勿怪。",
+        "zhHant": "羕酒後失言，主公勿怪。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/572pengyang-55d8ee5c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/572pengyang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pengyang--572pengyang--1skill1_1",
+      "resourceId": "572pengyang/1skill1_1",
+      "text": "吾得三顾之伯乐，必登九丈之高台。",
+      "textLocalized": {
+        "zhHans": "吾得三顾之伯乐，必登九丈之高台。",
+        "zhHant": "吾得三顧之伯樂，必登九丈之高臺。"
+      },
+      "group": {
+        "slug": "spell-3336",
+        "name": "嚣翻",
+        "displayName": {
+          "zhHans": "嚣翻",
+          "zhHant": "囂翻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/572pengyang-55d8ee5c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/572pengyang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pengyang--572pengyang--1skill1_2",
+      "resourceId": "572pengyang/1skill1_2",
+      "text": "诸君食肉而鄙，空有大腹作碍。",
+      "textLocalized": {
+        "zhHans": "诸君食肉而鄙，空有大腹作碍。",
+        "zhHant": "諸君食肉而鄙，空有大腹作礙。"
+      },
+      "group": {
+        "slug": "spell-3336",
+        "name": "嚣翻",
+        "displayName": {
+          "zhHans": "嚣翻",
+          "zhHant": "囂翻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/572pengyang-55d8ee5c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/572pengyang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pengyang--572pengyang--1skill2_1",
+      "resourceId": "572pengyang/1skill2_1",
+      "text": "备者，久居行伍之丘八，何知礼仪？",
+      "textLocalized": {
+        "zhHans": "备者，久居行伍之丘八，何知礼仪？",
+        "zhHant": "備者，久居行伍之丘八，何知禮儀？"
+      },
+      "group": {
+        "slug": "spell-3337",
+        "name": "侻失",
+        "displayName": {
+          "zhHans": "侻失",
+          "zhHant": "侻失"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/572pengyang-55d8ee5c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/572pengyang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pengyang--572pengyang--1skill2_2",
+      "resourceId": "572pengyang/1skill2_2",
+      "text": "老革荒悖，可复道邪。",
+      "textLocalized": {
+        "zhHans": "老革荒悖，可复道邪。",
+        "zhHant": "老革荒悖，可複道邪。"
+      },
+      "group": {
+        "slug": "spell-3337",
+        "name": "侻失",
+        "displayName": {
+          "zhHans": "侻失",
+          "zhHant": "侻失"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/572pengyang-55d8ee5c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/572pengyang/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pengyang--572pengyang--1skill3_1",
+      "resourceId": "572pengyang/1skill3_1",
+      "text": "腹有锦绣千里，奈何偏居一隅。",
+      "textLocalized": {
+        "zhHans": "腹有锦绣千里，奈何偏居一隅。",
+        "zhHant": "腹有錦繡千里，奈何偏居一隅。"
+      },
+      "group": {
+        "slug": "spell-816",
+        "name": "寸目",
+        "displayName": {
+          "zhHans": "寸目",
+          "zhHant": "寸目"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/572pengyang-55d8ee5c/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/572pengyang/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pengyang--572pengyang--1skill3_2",
+      "resourceId": "572pengyang/1skill3_2",
+      "text": "心大志广之人，必难以保安。",
+      "textLocalized": {
+        "zhHans": "心大志广之人，必难以保安。",
+        "zhHant": "心大志廣之人，必難以保安。"
+      },
+      "group": {
+        "slug": "spell-816",
+        "name": "寸目",
+        "displayName": {
+          "zhHans": "寸目",
+          "zhHant": "寸目"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/572pengyang-55d8ee5c/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/572pengyang/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,229 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:75c966c76918b48dbcb89e21fd180657e67462d6a98335165ad3a540db28fda0
-size 6068
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "fuwan",
+    "command": "fuwan",
+    "name": "伏完",
+    "displayName": {
+      "zhHans": "伏完",
+      "zhHant": "伏完"
+    },
+    "names": [
+      "伏完"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "伏完",
+        "zhHant": "伏完"
+      }
+    ],
+    "ids": [
+      "72"
+    ],
+    "sourceNames": [
+      "伏完"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "伏完",
+        "zhHant": "伏完"
+      }
+    ],
+    "sourceIds": [
+      "72"
+    ],
+    "searchNames": [
+      "fuwan",
+      "伏完"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/fuwan/groups/dead.json"
+      },
+      {
+        "slug": "spell-603",
+        "name": "谋溃",
+        "displayName": {
+          "zhHans": "谋溃",
+          "zhHant": "謀潰"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/fuwan/groups/spell-603.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-7201",
+        "name": "乱世国丈",
+        "displayName": {
+          "zhHans": "乱世国丈",
+          "zhHant": "亂世國丈"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/fuwan/skins/skin-7201.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/fuwan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-7204",
+        "name": "诏毁汉危",
+        "displayName": {
+          "zhHans": "诏毁汉危",
+          "zhHant": "詔毀漢危"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/fuwan/skins/skin-7204.json"
+      },
+      {
+        "slug": "skin-7202",
+        "name": "身陷囹圄",
+        "displayName": {
+          "zhHans": "身陷囹圄",
+          "zhHant": "身陷囹圄"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/fuwan/skins/skin-7202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/fuwan.json",
+      "groups": "api/v1/tts/characters/fuwan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/fuwan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-7202",
+    "name": "身陷囹圄",
+    "displayName": {
+      "zhHans": "身陷囹圄",
+      "zhHant": "身陷囹圄"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/fuwan/skins/skin-7202.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "fuwan--72fuwan--4dead01",
+      "resourceId": "72fuwan/4dead01",
+      "text": "唉，终是难逃灭门之祸……",
+      "textLocalized": {
+        "zhHans": "唉，终是难逃灭门之祸……",
+        "zhHant": "唉，終是難逃滅門之禍……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7202",
+          "name": "身陷囹圄",
+          "displayName": {
+            "zhHans": "身陷囹圄",
+            "zhHant": "身陷囹圄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/72fuwan-f883ca18/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/72fuwan/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuwan--72fuwan--4skill1_1",
+      "resourceId": "72fuwan/4skill1_1",
+      "text": "你我玉石俱焚，休得再啰嗦！",
+      "textLocalized": {
+        "zhHans": "你我玉石俱焚，休得再啰嗦！",
+        "zhHant": "你我玉石俱焚，休得再囉嗦！"
+      },
+      "group": {
+        "slug": "spell-603",
+        "name": "谋溃",
+        "displayName": {
+          "zhHans": "谋溃",
+          "zhHant": "謀潰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7202",
+          "name": "身陷囹圄",
+          "displayName": {
+            "zhHans": "身陷囹圄",
+            "zhHant": "身陷囹圄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/72fuwan-f883ca18/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/72fuwan/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fuwan--72fuwan--4skill1_2",
+      "resourceId": "72fuwan/4skill1_2",
+      "text": "西天路上，待我送你一程，哈哈。",
+      "textLocalized": {
+        "zhHans": "西天路上，待我送你一程，哈哈。",
+        "zhHant": "西天路上，待我送你一程，哈哈。"
+      },
+      "group": {
+        "slug": "spell-603",
+        "name": "谋溃",
+        "displayName": {
+          "zhHans": "谋溃",
+          "zhHant": "謀潰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7202",
+          "name": "身陷囹圄",
+          "displayName": {
+            "zhHans": "身陷囹圄",
+            "zhHant": "身陷囹圄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/72fuwan-f883ca18/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/72fuwan/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

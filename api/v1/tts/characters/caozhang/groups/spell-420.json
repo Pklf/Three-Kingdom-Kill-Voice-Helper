@@ -1,3 +1,521 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aeeec80250d7dd2299e6944e7c0ea6e95fe1ad77e3b2881ac64dcfa97bbe8215
-size 14556
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caozhang",
+    "command": "caozhang",
+    "name": "曹彰",
+    "displayName": {
+      "zhHans": "曹彰",
+      "zhHant": "曹彰"
+    },
+    "names": [
+      "曹彰",
+      "界曹彰"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹彰",
+        "zhHant": "曹彰"
+      },
+      {
+        "zhHans": "界曹彰",
+        "zhHant": "界曹彰"
+      }
+    ],
+    "ids": [
+      "162",
+      "599"
+    ],
+    "sourceNames": [
+      "曹彰",
+      "界曹彰"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹彰",
+        "zhHant": "曹彰"
+      },
+      {
+        "zhHans": "界曹彰",
+        "zhHant": "界曹彰"
+      }
+    ],
+    "sourceIds": [
+      "162",
+      "599"
+    ],
+    "searchNames": [
+      "caozhang",
+      "曹彰",
+      "界曹彰"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caozhang/groups/dead.json"
+      },
+      {
+        "slug": "spell-420",
+        "name": "将驰",
+        "displayName": {
+          "zhHans": "将驰",
+          "zhHant": "將馳"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caozhang/groups/spell-420.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "59902",
+        "name": "59902",
+        "displayName": {
+          "zhHans": "59902",
+          "zhHant": "59902"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caozhang/skins/59902.json"
+      },
+      {
+        "slug": "skin-16203",
+        "name": "任城威王",
+        "displayName": {
+          "zhHans": "任城威王",
+          "zhHant": "任城威王"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caozhang/skins/skin-16203.json"
+      },
+      {
+        "slug": "skin-16204",
+        "name": "勇猛直前",
+        "displayName": {
+          "zhHans": "勇猛直前",
+          "zhHant": "勇猛直前"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caozhang/skins/skin-16204.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caozhang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-16202",
+        "name": "旷世神力",
+        "displayName": {
+          "zhHans": "旷世神力",
+          "zhHant": "曠世神力"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caozhang/skins/skin-16202.json"
+      },
+      {
+        "slug": "skin-16202-16204",
+        "name": "旷世神力,勇猛直前",
+        "displayName": {
+          "zhHans": "旷世神力,勇猛直前",
+          "zhHant": "曠世神力,勇猛直前"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caozhang/skins/skin-16202-16204.json"
+      },
+      {
+        "slug": "skin-16205",
+        "name": "神勇壮猛",
+        "displayName": {
+          "zhHans": "神勇壮猛",
+          "zhHant": "神勇壯猛"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caozhang/skins/skin-16205.json"
+      },
+      {
+        "slug": "skin-59901",
+        "name": "黄须擒虎",
+        "displayName": {
+          "zhHans": "黄须擒虎",
+          "zhHant": "黃鬚擒虎"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caozhang/skins/skin-59901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caozhang.json",
+      "groups": "api/v1/tts/characters/caozhang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caozhang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-420",
+    "name": "将驰",
+    "displayName": {
+      "zhHans": "将驰",
+      "zhHant": "將馳"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/caozhang/groups/spell-420.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "caozhang--162caozhang--4skill1_1",
+      "resourceId": "162caozhang/4skill1_1",
+      "text": "稳兵自重，静观其变。",
+      "textLocalized": {
+        "zhHans": "稳兵自重，静观其变。",
+        "zhHant": "穩兵自重，靜觀其變。"
+      },
+      "group": {
+        "slug": "spell-420",
+        "name": "将驰",
+        "displayName": {
+          "zhHans": "将驰",
+          "zhHant": "將馳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "59902",
+          "name": "59902",
+          "displayName": {
+            "zhHans": "59902",
+            "zhHant": "59902"
+          }
+        },
+        {
+          "slug": "skin-16203",
+          "name": "任城威王",
+          "displayName": {
+            "zhHans": "任城威王",
+            "zhHant": "任城威王"
+          }
+        },
+        {
+          "slug": "skin-59901",
+          "name": "黄须擒虎",
+          "displayName": {
+            "zhHans": "黄须擒虎",
+            "zhHant": "黃鬚擒虎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/162caozhang-00842ca2/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/162caozhang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhang--162caozhang--4skill1_2",
+      "resourceId": "162caozhang/4skill1_2",
+      "text": "将驰如风，贯敌如雷！",
+      "textLocalized": {
+        "zhHans": "将驰如风，贯敌如雷！",
+        "zhHant": "將馳如風，貫敵如雷！"
+      },
+      "group": {
+        "slug": "spell-420",
+        "name": "将驰",
+        "displayName": {
+          "zhHans": "将驰",
+          "zhHant": "將馳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "59902",
+          "name": "59902",
+          "displayName": {
+            "zhHans": "59902",
+            "zhHant": "59902"
+          }
+        },
+        {
+          "slug": "skin-16203",
+          "name": "任城威王",
+          "displayName": {
+            "zhHans": "任城威王",
+            "zhHant": "任城威王"
+          }
+        },
+        {
+          "slug": "skin-59901",
+          "name": "黄须擒虎",
+          "displayName": {
+            "zhHans": "黄须擒虎",
+            "zhHant": "黃鬚擒虎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/162caozhang-00842ca2/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/162caozhang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhang--162caozhang--1skill1_1",
+      "resourceId": "162caozhang/1skill1_1",
+      "text": "谨遵父训，不可逞匹夫之勇。",
+      "textLocalized": {
+        "zhHans": "谨遵父训，不可逞匹夫之勇。",
+        "zhHant": "謹遵父訓，不可逞匹夫之勇。"
+      },
+      "group": {
+        "slug": "spell-420",
+        "name": "将驰",
+        "displayName": {
+          "zhHans": "将驰",
+          "zhHant": "將馳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/162caozhang-00842ca2/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/162caozhang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhang--162caozhang--1skill1_2",
+      "resourceId": "162caozhang/1skill1_2",
+      "text": "吾定当身先士卒，振魏武雄风！",
+      "textLocalized": {
+        "zhHans": "吾定当身先士卒，振魏武雄风！",
+        "zhHant": "吾定當身先士卒，振魏武雄風！"
+      },
+      "group": {
+        "slug": "spell-420",
+        "name": "将驰",
+        "displayName": {
+          "zhHans": "将驰",
+          "zhHant": "將馳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/162caozhang-00842ca2/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/162caozhang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhang--162caozhang--3skill1_1",
+      "resourceId": "162caozhang/3skill1_1",
+      "text": "屯粮坚守，待敌纰漏。",
+      "textLocalized": {
+        "zhHans": "屯粮坚守，待敌纰漏。",
+        "zhHant": "屯糧堅守，待敵紕漏。"
+      },
+      "group": {
+        "slug": "spell-420",
+        "name": "将驰",
+        "displayName": {
+          "zhHans": "将驰",
+          "zhHant": "將馳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16204",
+          "name": "勇猛直前",
+          "displayName": {
+            "zhHans": "勇猛直前",
+            "zhHant": "勇猛直前"
+          }
+        },
+        {
+          "slug": "skin-16202",
+          "name": "旷世神力",
+          "displayName": {
+            "zhHans": "旷世神力",
+            "zhHant": "曠世神力"
+          }
+        },
+        {
+          "slug": "skin-16202-16204",
+          "name": "旷世神力,勇猛直前",
+          "displayName": {
+            "zhHans": "旷世神力,勇猛直前",
+            "zhHant": "曠世神力,勇猛直前"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/162caozhang-00842ca2/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/162caozhang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhang--162caozhang--3skill1_2",
+      "resourceId": "162caozhang/3skill1_2",
+      "text": "身当矢石，驰骛[wù]四方。",
+      "textLocalized": {
+        "zhHans": "身当矢石，驰骛[wù]四方。",
+        "zhHant": "身當矢石，馳騖[wù]四方。"
+      },
+      "group": {
+        "slug": "spell-420",
+        "name": "将驰",
+        "displayName": {
+          "zhHans": "将驰",
+          "zhHant": "將馳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16204",
+          "name": "勇猛直前",
+          "displayName": {
+            "zhHans": "勇猛直前",
+            "zhHant": "勇猛直前"
+          }
+        },
+        {
+          "slug": "skin-16202",
+          "name": "旷世神力",
+          "displayName": {
+            "zhHans": "旷世神力",
+            "zhHant": "曠世神力"
+          }
+        },
+        {
+          "slug": "skin-16202-16204",
+          "name": "旷世神力,勇猛直前",
+          "displayName": {
+            "zhHans": "旷世神力,勇猛直前",
+            "zhHant": "曠世神力,勇猛直前"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/162caozhang-00842ca2/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/162caozhang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhang--162caozhang--5skill1_1",
+      "resourceId": "162caozhang/5skill1_1",
+      "text": "丈夫当将十万骑驰沙漠，立功建号耳！",
+      "textLocalized": {
+        "zhHans": "丈夫当将十万骑驰沙漠，立功建号耳！",
+        "zhHant": "丈夫當將十萬騎馳沙漠，立功建號耳！"
+      },
+      "group": {
+        "slug": "spell-420",
+        "name": "将驰",
+        "displayName": {
+          "zhHans": "将驰",
+          "zhHant": "將馳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16205",
+          "name": "神勇壮猛",
+          "displayName": {
+            "zhHans": "神勇壮猛",
+            "zhHant": "神勇壯猛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/162caozhang-00842ca2/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/162caozhang/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhang--162caozhang--5skill1_2",
+      "resourceId": "162caozhang/5skill1_2",
+      "text": "披坚执锐，临危不难，身先士卒！",
+      "textLocalized": {
+        "zhHans": "披坚执锐，临危不难，身先士卒！",
+        "zhHant": "披堅執銳，臨危不難，身先士卒！"
+      },
+      "group": {
+        "slug": "spell-420",
+        "name": "将驰",
+        "displayName": {
+          "zhHans": "将驰",
+          "zhHant": "將馳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16205",
+          "name": "神勇壮猛",
+          "displayName": {
+            "zhHans": "神勇壮猛",
+            "zhHant": "神勇壯猛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/162caozhang-00842ca2/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/162caozhang/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

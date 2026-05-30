@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0b794c3b7169d210af82472ee50ac24abf1fe03bad546ceb54cb1d998cfacf6c
-size 8191
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "niujin",
+    "command": "niujin",
+    "name": "牛金",
+    "displayName": {
+      "zhHans": "牛金",
+      "zhHant": "牛金"
+    },
+    "names": [
+      "牛金"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "牛金",
+        "zhHant": "牛金"
+      }
+    ],
+    "ids": [
+      "3042"
+    ],
+    "sourceNames": [
+      "牛金"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "牛金",
+        "zhHant": "牛金"
+      }
+    ],
+    "sourceIds": [
+      "3042"
+    ],
+    "searchNames": [
+      "niujin",
+      "牛金"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/niujin/groups/dead.json"
+      },
+      {
+        "slug": "spell-4065",
+        "name": "挫锐",
+        "displayName": {
+          "zhHans": "挫锐",
+          "zhHant": "挫銳"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/niujin/groups/spell-4065.json"
+      },
+      {
+        "slug": "spell-4066",
+        "name": "裂围",
+        "displayName": {
+          "zhHans": "裂围",
+          "zhHant": "裂圍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/niujin/groups/spell-4066.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-304202",
+        "name": "势得头筹",
+        "displayName": {
+          "zhHans": "势得头筹",
+          "zhHant": "勢得頭籌"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/niujin/skins/skin-304202.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/niujin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-304203",
+        "name": "陷阵冲锋",
+        "displayName": {
+          "zhHans": "陷阵冲锋",
+          "zhHant": "陷陣衝鋒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/niujin/skins/skin-304203.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/niujin.json",
+      "groups": "api/v1/tts/characters/niujin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/niujin/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-304203",
+    "name": "陷阵冲锋",
+    "displayName": {
+      "zhHans": "陷阵冲锋",
+      "zhHant": "陷陣衝鋒"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/niujin/skins/skin-304203.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "niujin--3042niujin--4dead01",
+      "resourceId": "3042niujin/4dead01",
+      "text": "四面都是蜀军，是我托大了……",
+      "textLocalized": {
+        "zhHans": "四面都是蜀军，是我托大了……",
+        "zhHant": "四面都是蜀軍，是我託大了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304203",
+          "name": "陷阵冲锋",
+          "displayName": {
+            "zhHans": "陷阵冲锋",
+            "zhHant": "陷陣衝鋒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3042niujin-ed53cf0c/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3042niujin/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "niujin--3042niujin--4skill1_1",
+      "resourceId": "3042niujin/4skill1_1",
+      "text": "先杀杀你的威风！",
+      "textLocalized": {
+        "zhHans": "先杀杀你的威风！",
+        "zhHant": "先殺殺你的威風！"
+      },
+      "group": {
+        "slug": "spell-4065",
+        "name": "挫锐",
+        "displayName": {
+          "zhHans": "挫锐",
+          "zhHant": "挫銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304203",
+          "name": "陷阵冲锋",
+          "displayName": {
+            "zhHans": "陷阵冲锋",
+            "zhHant": "陷陣衝鋒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3042niujin-ed53cf0c/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3042niujin/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "niujin--3042niujin--4skill1_2",
+      "resourceId": "3042niujin/4skill1_2",
+      "text": "首战，需打出气势！看我老牛的了！",
+      "textLocalized": {
+        "zhHans": "首战，需打出气势！看我老牛的了！",
+        "zhHant": "首戰，需打出氣勢！看我老牛的了！"
+      },
+      "group": {
+        "slug": "spell-4065",
+        "name": "挫锐",
+        "displayName": {
+          "zhHans": "挫锐",
+          "zhHant": "挫銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304203",
+          "name": "陷阵冲锋",
+          "displayName": {
+            "zhHans": "陷阵冲锋",
+            "zhHant": "陷陣衝鋒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3042niujin-ed53cf0c/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3042niujin/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "niujin--3042niujin--4skill2_1",
+      "resourceId": "3042niujin/4skill2_1",
+      "text": "贼首已斩，敌方士气已尽！",
+      "textLocalized": {
+        "zhHans": "贼首已斩，敌方士气已尽！",
+        "zhHant": "賊首已斬，敵方士氣已盡！"
+      },
+      "group": {
+        "slug": "spell-4066",
+        "name": "裂围",
+        "displayName": {
+          "zhHans": "裂围",
+          "zhHant": "裂圍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304203",
+          "name": "陷阵冲锋",
+          "displayName": {
+            "zhHans": "陷阵冲锋",
+            "zhHant": "陷陣衝鋒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3042niujin-ed53cf0c/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3042niujin/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "niujin--3042niujin--4skill2_2",
+      "resourceId": "3042niujin/4skill2_2",
+      "text": "现在是突围的好时机！",
+      "textLocalized": {
+        "zhHans": "现在是突围的好时机！",
+        "zhHant": "現在是突圍的好時機！"
+      },
+      "group": {
+        "slug": "spell-4066",
+        "name": "裂围",
+        "displayName": {
+          "zhHans": "裂围",
+          "zhHant": "裂圍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-304203",
+          "name": "陷阵冲锋",
+          "displayName": {
+            "zhHans": "陷阵冲锋",
+            "zhHant": "陷陣衝鋒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/3042niujin-ed53cf0c/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3042niujin/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

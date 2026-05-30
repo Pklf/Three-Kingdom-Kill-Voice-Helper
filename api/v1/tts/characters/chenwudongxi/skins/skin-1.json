@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8509c522dcbbf2faf76bab4eb827eef45b273c203cfcb73438108cd9f1384ae7
-size 8370
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chenwudongxi",
+    "command": "chenwudongxi",
+    "name": "陈武&董袭",
+    "displayName": {
+      "zhHans": "陈武&董袭",
+      "zhHant": "陳武&董襲"
+    },
+    "names": [
+      "陈武&董袭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈武&董袭",
+        "zhHant": "陳武&董襲"
+      }
+    ],
+    "ids": [
+      "2071"
+    ],
+    "sourceNames": [
+      "陈武&董袭"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈武&董袭",
+        "zhHant": "陳武&董襲"
+      }
+    ],
+    "sourceIds": [
+      "2071"
+    ],
+    "searchNames": [
+      "chenwudongxi",
+      "陈武&董袭",
+      "陳武&董襲"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/groups/dead.json"
+      },
+      {
+        "slug": "spell-2132",
+        "name": "断绁",
+        "displayName": {
+          "zhHans": "断绁",
+          "zhHant": "斷紲"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/groups/spell-2132.json"
+      },
+      {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/groups/spell-2133.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-207101",
+        "name": "如埙如箎",
+        "displayName": {
+          "zhHans": "如埙如箎",
+          "zhHant": "如壎如箎"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/skins/skin-207101.json"
+      },
+      {
+        "slug": "skin-207102",
+        "name": "比肩共战",
+        "displayName": {
+          "zhHans": "比肩共战",
+          "zhHant": "比肩共戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/skins/skin-207102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chenwudongxi.json",
+      "groups": "api/v1/tts/characters/chenwudongxi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chenwudongxi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chenwudongxi/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chenwudongxi--2071chenwudongxi--1dead01",
+      "resourceId": "2071chenwudongxi/1dead01",
+      "text": "杀身卫主，死而无憾！",
+      "textLocalized": {
+        "zhHans": "杀身卫主，死而无憾！",
+        "zhHant": "殺身衛主，死而無憾！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenwudongxi--2071chenwudongxi--1skill1_1",
+      "resourceId": "2071chenwudongxi/1skill1_1",
+      "text": "区区绳索就想挡住吾等去路？",
+      "textLocalized": {
+        "zhHans": "区区绳索就想挡住吾等去路？",
+        "zhHant": "區區繩索就想擋住吾等去路？"
+      },
+      "group": {
+        "slug": "spell-2132",
+        "name": "断绁",
+        "displayName": {
+          "zhHans": "断绁",
+          "zhHant": "斷紲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenwudongxi--2071chenwudongxi--1skill1_2",
+      "resourceId": "2071chenwudongxi/1skill1_2",
+      "text": "以身索敌，何惧同伤！",
+      "textLocalized": {
+        "zhHans": "以身索敌，何惧同伤！",
+        "zhHant": "以身索敵，何懼同傷！"
+      },
+      "group": {
+        "slug": "spell-2132",
+        "name": "断绁",
+        "displayName": {
+          "zhHans": "断绁",
+          "zhHant": "斷紲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenwudongxi--2071chenwudongxi--1skill2_1",
+      "resourceId": "2071chenwudongxi/1skill2_1",
+      "text": "不惜性命，也要保主公周全！",
+      "textLocalized": {
+        "zhHans": "不惜性命，也要保主公周全！",
+        "zhHant": "不惜性命，也要保主公周全！"
+      },
+      "group": {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenwudongxi--2071chenwudongxi--1skill2_2",
+      "resourceId": "2071chenwudongxi/1skill2_2",
+      "text": "东吴男儿，岂是贪生怕死之辈？",
+      "textLocalized": {
+        "zhHans": "东吴男儿，岂是贪生怕死之辈？",
+        "zhHant": "東吳男兒，豈是貪生怕死之輩？"
+      },
+      "group": {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

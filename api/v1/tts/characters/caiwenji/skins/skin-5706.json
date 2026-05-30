@@ -1,3 +1,442 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e166c4e19f1d2237e1bc74c42bdcd9432f30e1303c71391aaa0dfbdaac75bbdd
-size 12384
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caiwenji",
+    "command": "caiwenji",
+    "name": "蔡文姬",
+    "displayName": {
+      "zhHans": "蔡文姬",
+      "zhHant": "蔡文姬"
+    },
+    "names": [
+      "蔡文姬",
+      "界蔡文姬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蔡文姬",
+        "zhHant": "蔡文姬"
+      },
+      {
+        "zhHans": "界蔡文姬",
+        "zhHant": "界蔡文姬"
+      }
+    ],
+    "ids": [
+      "57",
+      "505"
+    ],
+    "sourceNames": [
+      "蔡文姬",
+      "界蔡文姬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蔡文姬",
+        "zhHant": "蔡文姬"
+      },
+      {
+        "zhHans": "界蔡文姬",
+        "zhHant": "界蔡文姬"
+      }
+    ],
+    "sourceIds": [
+      "57",
+      "505"
+    ],
+    "searchNames": [
+      "caiwenji",
+      "蔡文姬",
+      "界蔡文姬"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caiwenji/groups/dead.json"
+      },
+      {
+        "slug": "spell-137",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/caiwenji/groups/spell-137.json"
+      },
+      {
+        "slug": "spell-138",
+        "name": "断肠",
+        "displayName": {
+          "zhHans": "断肠",
+          "zhHant": "斷腸"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/caiwenji/groups/spell-138.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiwenji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-5707",
+        "name": "天涯悲歌",
+        "displayName": {
+          "zhHans": "天涯悲歌",
+          "zhHant": "天涯悲歌"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiwenji/skins/skin-5707.json"
+      },
+      {
+        "slug": "skin-5706",
+        "name": "思我乡土",
+        "displayName": {
+          "zhHans": "思我乡土",
+          "zhHant": "思我鄉土"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiwenji/skins/skin-5706.json"
+      },
+      {
+        "slug": "skin-5706-5707",
+        "name": "思我乡土,天涯悲歌",
+        "displayName": {
+          "zhHans": "思我乡土,天涯悲歌",
+          "zhHant": "思我鄉土,天涯悲歌"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiwenji/skins/skin-5706-5707.json"
+      },
+      {
+        "slug": "skin-5705",
+        "name": "悲途愁音",
+        "displayName": {
+          "zhHans": "悲途愁音",
+          "zhHant": "悲途愁音"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiwenji/skins/skin-5705.json"
+      },
+      {
+        "slug": "skin-5710",
+        "name": "春晓明媚",
+        "displayName": {
+          "zhHans": "春晓明媚",
+          "zhHant": "春曉明媚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiwenji/skins/skin-5710.json"
+      },
+      {
+        "slug": "skin-5703",
+        "name": "月下琵琶",
+        "displayName": {
+          "zhHans": "月下琵琶",
+          "zhHant": "月下琵琶"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiwenji/skins/skin-5703.json"
+      },
+      {
+        "slug": "skin-5709",
+        "name": "离乡思浓",
+        "displayName": {
+          "zhHans": "离乡思浓",
+          "zhHant": "離鄉思濃"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caiwenji/skins/skin-5709.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caiwenji.json",
+      "groups": "api/v1/tts/characters/caiwenji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caiwenji/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-5706",
+    "name": "思我乡土",
+    "displayName": {
+      "zhHans": "思我乡土",
+      "zhHant": "思我鄉土"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caiwenji/skins/skin-5706.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caiwenji--57caiwenji--5dead01",
+      "resourceId": "57caiwenji/5dead01",
+      "text": "一朝春尽红颜老，花落人亡两不知。",
+      "textLocalized": {
+        "zhHans": "一朝春尽红颜老，花落人亡两不知。",
+        "zhHant": "一朝春盡紅顏老，花落人亡兩不知。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-5707",
+          "name": "天涯悲歌",
+          "displayName": {
+            "zhHans": "天涯悲歌",
+            "zhHant": "天涯悲歌"
+          }
+        },
+        {
+          "slug": "skin-5706",
+          "name": "思我乡土",
+          "displayName": {
+            "zhHans": "思我乡土",
+            "zhHant": "思我鄉土"
+          }
+        },
+        {
+          "slug": "skin-5706-5707",
+          "name": "思我乡土,天涯悲歌",
+          "displayName": {
+            "zhHans": "思我乡土,天涯悲歌",
+            "zhHant": "思我鄉土,天涯悲歌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/57caiwenji-1e398600/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/57caiwenji/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiwenji--57caiwenji--5skill1_1",
+      "resourceId": "57caiwenji/5skill1_1",
+      "text": "过往难再续，如今何残存。",
+      "textLocalized": {
+        "zhHans": "过往难再续，如今何残存。",
+        "zhHant": "過往難再續，如今何殘存。"
+      },
+      "group": {
+        "slug": "spell-137",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-5707",
+          "name": "天涯悲歌",
+          "displayName": {
+            "zhHans": "天涯悲歌",
+            "zhHant": "天涯悲歌"
+          }
+        },
+        {
+          "slug": "skin-5706",
+          "name": "思我乡土",
+          "displayName": {
+            "zhHans": "思我乡土",
+            "zhHant": "思我鄉土"
+          }
+        },
+        {
+          "slug": "skin-5706-5707",
+          "name": "思我乡土,天涯悲歌",
+          "displayName": {
+            "zhHans": "思我乡土,天涯悲歌",
+            "zhHant": "思我鄉土,天涯悲歌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/57caiwenji-1e398600/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/57caiwenji/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiwenji--57caiwenji--5skill1_2",
+      "resourceId": "57caiwenji/5skill1_2",
+      "text": "悲歌漫无边，何处解离愁。",
+      "textLocalized": {
+        "zhHans": "悲歌漫无边，何处解离愁。",
+        "zhHant": "悲歌漫無邊，何處解離愁。"
+      },
+      "group": {
+        "slug": "spell-137",
+        "name": "悲歌",
+        "displayName": {
+          "zhHans": "悲歌",
+          "zhHant": "悲歌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-5707",
+          "name": "天涯悲歌",
+          "displayName": {
+            "zhHans": "天涯悲歌",
+            "zhHant": "天涯悲歌"
+          }
+        },
+        {
+          "slug": "skin-5706",
+          "name": "思我乡土",
+          "displayName": {
+            "zhHans": "思我乡土",
+            "zhHant": "思我鄉土"
+          }
+        },
+        {
+          "slug": "skin-5706-5707",
+          "name": "思我乡土,天涯悲歌",
+          "displayName": {
+            "zhHans": "思我乡土,天涯悲歌",
+            "zhHant": "思我鄉土,天涯悲歌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/57caiwenji-1e398600/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/57caiwenji/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiwenji--57caiwenji--5skill2_1",
+      "resourceId": "57caiwenji/5skill2_1",
+      "text": "风寒异乡客，月幽断肠人。",
+      "textLocalized": {
+        "zhHans": "风寒异乡客，月幽断肠人。",
+        "zhHant": "風寒異鄉客，月幽斷腸人。"
+      },
+      "group": {
+        "slug": "spell-138",
+        "name": "断肠",
+        "displayName": {
+          "zhHans": "断肠",
+          "zhHant": "斷腸"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-5707",
+          "name": "天涯悲歌",
+          "displayName": {
+            "zhHans": "天涯悲歌",
+            "zhHant": "天涯悲歌"
+          }
+        },
+        {
+          "slug": "skin-5706",
+          "name": "思我乡土",
+          "displayName": {
+            "zhHans": "思我乡土",
+            "zhHant": "思我鄉土"
+          }
+        },
+        {
+          "slug": "skin-5706-5707",
+          "name": "思我乡土,天涯悲歌",
+          "displayName": {
+            "zhHans": "思我乡土,天涯悲歌",
+            "zhHant": "思我鄉土,天涯悲歌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/57caiwenji-1e398600/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/57caiwenji/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caiwenji--57caiwenji--5skill2_2",
+      "resourceId": "57caiwenji/5skill2_2",
+      "text": "往事如烟恋旧邦，浮华如梦愁断肠。",
+      "textLocalized": {
+        "zhHans": "往事如烟恋旧邦，浮华如梦愁断肠。",
+        "zhHant": "往事如煙戀舊邦，浮華如夢愁斷腸。"
+      },
+      "group": {
+        "slug": "spell-138",
+        "name": "断肠",
+        "displayName": {
+          "zhHans": "断肠",
+          "zhHant": "斷腸"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-5707",
+          "name": "天涯悲歌",
+          "displayName": {
+            "zhHans": "天涯悲歌",
+            "zhHant": "天涯悲歌"
+          }
+        },
+        {
+          "slug": "skin-5706",
+          "name": "思我乡土",
+          "displayName": {
+            "zhHans": "思我乡土",
+            "zhHant": "思我鄉土"
+          }
+        },
+        {
+          "slug": "skin-5706-5707",
+          "name": "思我乡土,天涯悲歌",
+          "displayName": {
+            "zhHans": "思我乡土,天涯悲歌",
+            "zhHant": "思我鄉土,天涯悲歌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/57caiwenji-1e398600/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/57caiwenji/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

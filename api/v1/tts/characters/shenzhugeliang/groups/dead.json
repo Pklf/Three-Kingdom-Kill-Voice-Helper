@@ -1,3 +1,258 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c76ee960cb6e213e6e1dd1b62f8e05fe0066ad5774f1367c1783f8a352ca0da9
-size 7068
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenzhugeliang",
+    "command": "shenzhugeliang",
+    "name": "神诸葛亮",
+    "displayName": {
+      "zhHans": "神诸葛亮",
+      "zhHant": "神諸葛亮"
+    },
+    "names": [
+      "神诸葛亮"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神诸葛亮",
+        "zhHant": "神諸葛亮"
+      }
+    ],
+    "ids": [
+      "204"
+    ],
+    "sourceNames": [
+      "神诸葛亮"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神诸葛亮",
+        "zhHant": "神諸葛亮"
+      }
+    ],
+    "sourceIds": [
+      "204"
+    ],
+    "searchNames": [
+      "shenzhugeliang",
+      "神诸葛亮",
+      "神諸葛亮"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/dead.json"
+      },
+      {
+        "slug": "spell-307",
+        "name": "七星",
+        "displayName": {
+          "zhHans": "七星",
+          "zhHant": "七星"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/spell-307.json"
+      },
+      {
+        "slug": "spell-308",
+        "name": "狂风",
+        "displayName": {
+          "zhHans": "狂风",
+          "zhHant": "狂風"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/spell-308.json"
+      },
+      {
+        "slug": "spell-309",
+        "name": "大雾",
+        "displayName": {
+          "zhHans": "大雾",
+          "zhHant": "大霧"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/spell-309.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "q",
+        "name": "Q版形象",
+        "displayName": {
+          "zhHans": "Q版形象",
+          "zhHant": "Q版形象"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/q.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-20402",
+        "name": "观星唤雨",
+        "displayName": {
+          "zhHans": "观星唤雨",
+          "zhHant": "觀星喚雨"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-20402.json"
+      },
+      {
+        "slug": "skin-20403",
+        "name": "赤壁唤风",
+        "displayName": {
+          "zhHans": "赤壁唤风",
+          "zhHant": "赤壁喚風"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-20403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenzhugeliang.json",
+      "groups": "api/v1/tts/characters/shenzhugeliang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenzhugeliang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--3dead01",
+      "resourceId": "204shenzhugeliang/3dead01",
+      "text": "天命，终究是在他的那边。",
+      "textLocalized": {
+        "zhHans": "天命，终究是在他的那边。",
+        "zhHant": "天命，終究是在他的那邊。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-20402",
+          "name": "观星唤雨",
+          "displayName": {
+            "zhHans": "观星唤雨",
+            "zhHant": "觀星喚雨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--1dead01",
+      "resourceId": "204shenzhugeliang/1dead01",
+      "text": "今当远离，临表涕零，不知所言......",
+      "textLocalized": {
+        "zhHans": "今当远离，临表涕零，不知所言......",
+        "zhHant": "今當遠離，臨表涕零，不知所言......"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--4dead01",
+      "resourceId": "204shenzhugeliang/4dead01",
+      "text": "七星灯灭，魂归九州。",
+      "textLocalized": {
+        "zhHans": "七星灯灭，魂归九州。",
+        "zhHant": "七星燈滅，魂歸九州。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20403",
+          "name": "赤壁唤风",
+          "displayName": {
+            "zhHans": "赤壁唤风",
+            "zhHant": "赤壁喚風"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

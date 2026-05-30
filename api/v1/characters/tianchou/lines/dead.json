@@ -1,3 +1,242 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02a0536707d7eaf5021f3adb80b587b01028930f0548358f9c651d159e033e0d
-size 5044
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tianchou",
+    "command": "tianchou",
+    "name": "田畴",
+    "displayName": {
+      "zhHans": "田畴",
+      "zhHant": "田疇"
+    },
+    "names": [
+      "田畴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "田畴",
+        "zhHant": "田疇"
+      }
+    ],
+    "ids": [
+      "592"
+    ],
+    "sourceNames": [
+      "田畴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "田畴",
+        "zhHant": "田疇"
+      }
+    ],
+    "sourceIds": [
+      "592"
+    ],
+    "searchNames": [
+      "tianchou",
+      "田畴",
+      "田疇"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-3401",
+        "name": "善刀",
+        "displayName": {
+          "zhHans": "善刀",
+          "zhHant": "善刀"
+        },
+        "ids": [
+          "3401"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/tianchou.json",
+      "lines": "api/v1/characters/tianchou/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "tianchou--592tianchou--1dead01",
+      "resourceId": "592tianchou/1dead01",
+      "text": "吾罪大矣，何堪封侯之荣？",
+      "textLocalized": {
+        "zhHans": "吾罪大矣，何堪封侯之荣？",
+        "zhHant": "吾罪大矣，何堪封侯之榮？"
+      },
+      "character": {
+        "slug": "tianchou",
+        "command": "tianchou",
+        "id": "592",
+        "ids": [
+          "592"
+        ],
+        "name": "田畴",
+        "displayName": {
+          "zhHans": "田畴",
+          "zhHant": "田疇"
+        },
+        "names": [
+          "田畴"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "田畴",
+            "zhHant": "田疇"
+          }
+        ],
+        "sourceIds": [
+          "592"
+        ],
+        "sourceNames": [
+          "田畴"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "田畴",
+            "zhHant": "田疇"
+          }
+        ],
+        "searchNames": [
+          "田畴",
+          "田疇",
+          "tianchou"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "592",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "田畴"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/592tianchou-a18d120c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/592tianchou/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

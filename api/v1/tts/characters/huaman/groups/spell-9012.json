@@ -1,3 +1,604 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f3d5fbd99f7c2a90720e36f9b7b208de88cb0b50d1f45318fc34c6dfa85d0015
-size 17023
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huaman",
+    "command": "huaman",
+    "name": "花鬘",
+    "displayName": {
+      "zhHans": "花鬘",
+      "zhHant": "花鬘"
+    },
+    "names": [
+      "花鬘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "花鬘",
+        "zhHant": "花鬘"
+      }
+    ],
+    "ids": [
+      "436"
+    ],
+    "sourceNames": [
+      "花鬘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "花鬘",
+        "zhHant": "花鬘"
+      }
+    ],
+    "sourceIds": [
+      "436"
+    ],
+    "searchNames": [
+      "huaman",
+      "花鬘"
+    ],
+    "lineCount": 66,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/huaman/groups/dead.json"
+      },
+      {
+        "slug": "spell-9009",
+        "name": "蛮裔",
+        "displayName": {
+          "zhHans": "蛮裔",
+          "zhHant": "蠻裔"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9009.json"
+      },
+      {
+        "slug": "spell-9010",
+        "name": "蛮嗣",
+        "displayName": {
+          "zhHans": "蛮嗣",
+          "zhHant": "蠻嗣"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9010.json"
+      },
+      {
+        "slug": "spell-9011",
+        "name": "薮影",
+        "displayName": {
+          "zhHans": "薮影",
+          "zhHant": "藪影"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9011.json"
+      },
+      {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9012.json"
+      },
+      {
+        "slug": "spell-9013",
+        "name": "系力",
+        "displayName": {
+          "zhHans": "系力",
+          "zhHant": "系力"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/huaman/groups/spell-9013.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "43605",
+        "name": "43605",
+        "displayName": {
+          "zhHans": "43605",
+          "zhHant": "43605"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/43605.json"
+      },
+      {
+        "slug": "skin-43601",
+        "name": "南中花俏",
+        "displayName": {
+          "zhHans": "南中花俏",
+          "zhHant": "南中花俏"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-43601.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43602",
+        "name": "花谷烂漫",
+        "displayName": {
+          "zhHans": "花谷烂漫",
+          "zhHant": "花谷爛漫"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-43602.json"
+      },
+      {
+        "slug": "skin-43604",
+        "name": "虚拟天团",
+        "displayName": {
+          "zhHans": "虚拟天团",
+          "zhHant": "虛擬天團"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-43604.json"
+      },
+      {
+        "slug": "skin-43603",
+        "name": "锋丽鬘影",
+        "displayName": {
+          "zhHans": "锋丽鬘影",
+          "zhHant": "鋒麗鬘影"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/huaman/skins/skin-43603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huaman.json",
+      "groups": "api/v1/tts/characters/huaman/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huaman/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-9012",
+    "name": "战缘",
+    "displayName": {
+      "zhHans": "战缘",
+      "zhHant": "戰緣"
+    },
+    "lineCount": 12,
+    "endpoint": "api/v1/tts/characters/huaman/groups/spell-9012.json"
+  },
+  "lineCount": 12,
+  "lines": [
+    {
+      "id": "huaman--436huaman--8skill4_1",
+      "resourceId": "436huaman/8skill4_1",
+      "text": "向来只知斧钺轻，见君始觉相思重。",
+      "textLocalized": {
+        "zhHans": "向来只知斧钺轻，见君始觉相思重。",
+        "zhHant": "向來只知斧鉞輕，見君始覺相思重。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43605",
+          "name": "43605",
+          "displayName": {
+            "zhHans": "43605",
+            "zhHant": "43605"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/8skill4-1-0c5b58f7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/8skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--8skill4_2",
+      "resourceId": "436huaman/8skill4_2",
+      "text": "沙场缘起，知其何以续，不知其以何终。",
+      "textLocalized": {
+        "zhHans": "沙场缘起，知其何以续，不知其以何终。",
+        "zhHant": "沙場緣起，知其何以續，不知其以何終。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43605",
+          "name": "43605",
+          "displayName": {
+            "zhHans": "43605",
+            "zhHant": "43605"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/8skill4-2-a10b5b74.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/8skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--4skill4_1",
+      "resourceId": "436huaman/4skill4_1",
+      "text": "你被我看上了！",
+      "textLocalized": {
+        "zhHans": "你被我看上了！",
+        "zhHant": "你被我看上了！"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43601",
+          "name": "南中花俏",
+          "displayName": {
+            "zhHans": "南中花俏",
+            "zhHant": "南中花俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/4skill4-1-f25e0075.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/4skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--4skill4_2",
+      "resourceId": "436huaman/4skill4_2",
+      "text": "战结缘，缘生情。",
+      "textLocalized": {
+        "zhHans": "战结缘，缘生情。",
+        "zhHant": "戰結緣，緣生情。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43601",
+          "name": "南中花俏",
+          "displayName": {
+            "zhHans": "南中花俏",
+            "zhHant": "南中花俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/4skill4-2-a3b6e279.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/4skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--1skill4_1",
+      "resourceId": "436huaman/1skill4_1",
+      "text": "势不同，情相随。",
+      "textLocalized": {
+        "zhHans": "势不同，情相随。",
+        "zhHant": "勢不同，情相隨。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/1skill4-1-0d7b9304.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/1skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--1skill4_2",
+      "resourceId": "436huaman/1skill4_2",
+      "text": "战中结缘，虽苦亦甜。",
+      "textLocalized": {
+        "zhHans": "战中结缘，虽苦亦甜。",
+        "zhHant": "戰中結緣，雖苦亦甜。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/1skill4-2-2415e0dd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/1skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--5skill4_1",
+      "resourceId": "436huaman/5skill4_1",
+      "text": "武装沙场征战罢，红妆巧遇好郎君。",
+      "textLocalized": {
+        "zhHans": "武装沙场征战罢，红妆巧遇好郎君。",
+        "zhHant": "武裝沙場征戰罷，紅妝巧遇好郎君。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43602",
+          "name": "花谷烂漫",
+          "displayName": {
+            "zhHans": "花谷烂漫",
+            "zhHant": "花谷爛漫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/5skill4-1-9e359db1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/5skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--5skill4_2",
+      "resourceId": "436huaman/5skill4_2",
+      "text": "彼时不谓相思重，缘起方知百战轻。",
+      "textLocalized": {
+        "zhHans": "彼时不谓相思重，缘起方知百战轻。",
+        "zhHant": "彼時不謂相思重，緣起方知百戰輕。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43602",
+          "name": "花谷烂漫",
+          "displayName": {
+            "zhHans": "花谷烂漫",
+            "zhHant": "花谷爛漫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/5skill4-2-88c9cde4.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/5skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--7skill4_1",
+      "resourceId": "436huaman/7skill4_1",
+      "text": "战场结缘，佳偶天成。",
+      "textLocalized": {
+        "zhHans": "战场结缘，佳偶天成。",
+        "zhHant": "戰場結緣，佳偶天成。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43604",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/7skill4-1-7ec48ca5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/7skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--7skill4_2",
+      "resourceId": "436huaman/7skill4_2",
+      "text": "心相印，爱相随。",
+      "textLocalized": {
+        "zhHans": "心相印，爱相随。",
+        "zhHant": "心相印，愛相隨。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43604",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/7skill4-2-4cad3b1b.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/7skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--6skill4_1",
+      "resourceId": "436huaman/6skill4_1",
+      "text": "寒光结妙缘，金戈留英姿。",
+      "textLocalized": {
+        "zhHans": "寒光结妙缘，金戈留英姿。",
+        "zhHant": "寒光結妙緣，金戈留英姿。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43603",
+          "name": "锋丽鬘影",
+          "displayName": {
+            "zhHans": "锋丽鬘影",
+            "zhHant": "鋒麗鬘影"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/6skill4-1-942789ea.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/6skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaman--436huaman--6skill4_2",
+      "resourceId": "436huaman/6skill4_2",
+      "text": "沙场幸结缘，征战共郎君。",
+      "textLocalized": {
+        "zhHans": "沙场幸结缘，征战共郎君。",
+        "zhHant": "沙場幸結緣，征戰共郎君。"
+      },
+      "group": {
+        "slug": "spell-9012",
+        "name": "战缘",
+        "displayName": {
+          "zhHans": "战缘",
+          "zhHant": "戰緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43603",
+          "name": "锋丽鬘影",
+          "displayName": {
+            "zhHans": "锋丽鬘影",
+            "zhHant": "鋒麗鬘影"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/436huaman-9a243511/6skill4-2-7e43d46e.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/436huaman/6skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

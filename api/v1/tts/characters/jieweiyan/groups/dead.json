@@ -1,3 +1,307 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cfb70f051682ee1273a7c201bb3533718cdff75f51bb5e1453ffeba8338b4372
-size 8152
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jieweiyan",
+    "command": "jieweiyan",
+    "name": "界魏延",
+    "displayName": {
+      "zhHans": "界魏延",
+      "zhHant": "界魏延"
+    },
+    "names": [
+      "界魏延",
+      "魏延"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界魏延",
+        "zhHant": "界魏延"
+      },
+      {
+        "zhHans": "魏延",
+        "zhHant": "魏延"
+      }
+    ],
+    "ids": [
+      "456",
+      "27"
+    ],
+    "sourceNames": [
+      "界魏延",
+      "魏延"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界魏延",
+        "zhHant": "界魏延"
+      },
+      {
+        "zhHans": "魏延",
+        "zhHant": "魏延"
+      }
+    ],
+    "sourceIds": [
+      "456",
+      "27"
+    ],
+    "searchNames": [
+      "jieweiyan",
+      "界魏延",
+      "魏延"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jieweiyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-295",
+        "name": "狂骨",
+        "displayName": {
+          "zhHans": "狂骨",
+          "zhHant": "狂骨"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jieweiyan/groups/spell-295.json"
+      },
+      {
+        "slug": "spell-295-72-4068",
+        "name": "狂骨",
+        "displayName": {
+          "zhHans": "狂骨",
+          "zhHant": "狂骨"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jieweiyan/groups/spell-295-72-4068.json"
+      },
+      {
+        "slug": "spell-296-925",
+        "name": "奇谋",
+        "displayName": {
+          "zhHans": "奇谋",
+          "zhHant": "奇謀"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jieweiyan/groups/spell-296-925.json"
+      },
+      {
+        "slug": "spell-925",
+        "name": "奇谋",
+        "displayName": {
+          "zhHans": "奇谋",
+          "zhHant": "奇謀"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jieweiyan/groups/spell-925.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jieweiyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-45603",
+        "name": "奇谋诡招",
+        "displayName": {
+          "zhHans": "奇谋诡招",
+          "zhHant": "奇謀詭招"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jieweiyan/skins/skin-45603.json"
+      },
+      {
+        "slug": "skin-45602",
+        "name": "狂傲果敢",
+        "displayName": {
+          "zhHans": "狂傲果敢",
+          "zhHant": "狂傲果敢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jieweiyan/skins/skin-45602.json"
+      },
+      {
+        "slug": "skin-45601",
+        "name": "行军休整",
+        "displayName": {
+          "zhHans": "行军休整",
+          "zhHant": "行軍休整"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jieweiyan/skins/skin-45601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jieweiyan.json",
+      "groups": "api/v1/tts/characters/jieweiyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jieweiyan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/jieweiyan/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "jieweiyan--456jieweiyan--1dead01",
+      "resourceId": "456jieweiyan/1dead01",
+      "text": "这次失败，意料之中。",
+      "textLocalized": {
+        "zhHans": "这次失败，意料之中。",
+        "zhHant": "這次失敗，意料之中。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/456jieweiyan-da980767/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/456jieweiyan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jieweiyan--456jieweiyan--5dead01",
+      "resourceId": "456jieweiyan/5dead01",
+      "text": "死于小人之手，吾不甘！",
+      "textLocalized": {
+        "zhHans": "死于小人之手，吾不甘！",
+        "zhHant": "死於小人之手，吾不甘！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-45603",
+          "name": "奇谋诡招",
+          "displayName": {
+            "zhHans": "奇谋诡招",
+            "zhHant": "奇謀詭招"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/456jieweiyan-da980767/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/456jieweiyan/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jieweiyan--456jieweiyan--4dead01",
+      "resourceId": "456jieweiyan/4dead01",
+      "text": "恨吾才用之不尽。",
+      "textLocalized": {
+        "zhHans": "恨吾才用之不尽。",
+        "zhHant": "恨吾才用之不盡。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-45602",
+          "name": "狂傲果敢",
+          "displayName": {
+            "zhHans": "狂傲果敢",
+            "zhHant": "狂傲果敢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/456jieweiyan-da980767/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/456jieweiyan/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jieweiyan--456jieweiyan--3dead01",
+      "resourceId": "456jieweiyan/3dead01",
+      "text": "谁来，还吾清白。",
+      "textLocalized": {
+        "zhHans": "谁来，还吾清白。",
+        "zhHant": "誰來，還吾清白。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-45601",
+          "name": "行军休整",
+          "displayName": {
+            "zhHans": "行军休整",
+            "zhHant": "行軍休整"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/456jieweiyan-da980767/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/456jieweiyan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

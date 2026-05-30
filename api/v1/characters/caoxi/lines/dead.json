@@ -1,3 +1,395 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1f6cb30718707a2659257abb675ab63e5017df1b0453a02f5e006c2ef1c68e64
-size 8402
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoxi",
+    "command": "caoxi",
+    "name": "曹羲",
+    "displayName": {
+      "zhHans": "曹羲",
+      "zhHant": "曹羲"
+    },
+    "names": [
+      "曹羲"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹羲",
+        "zhHant": "曹羲"
+      }
+    ],
+    "ids": [
+      "552"
+    ],
+    "sourceNames": [
+      "曹羲"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹羲",
+        "zhHant": "曹羲"
+      }
+    ],
+    "sourceIds": [
+      "552"
+    ],
+    "searchNames": [
+      "caoxi",
+      "曹羲"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        },
+        "ids": [
+          "3274"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        },
+        "ids": [
+          "3275"
+        ],
+        "lineCount": 4
+      }
+    ],
+    "skins": [
+      {
+        "slug": "55201",
+        "ids": [
+          "55201"
+        ],
+        "name": "55201",
+        "displayName": {
+          "zhHans": "55201",
+          "zhHant": "55201"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/caoxi.json",
+      "lines": "api/v1/characters/caoxi/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "caoxi--552caoxi--2dead01",
+      "resourceId": "552caoxi/2dead01",
+      "text": "今日之祸，咎由自取。",
+      "textLocalized": {
+        "zhHans": "今日之祸，咎由自取。",
+        "zhHant": "今日之禍，咎由自取。"
+      },
+      "character": {
+        "slug": "caoxi",
+        "command": "caoxi",
+        "id": "552",
+        "ids": [
+          "552"
+        ],
+        "name": "曹羲",
+        "displayName": {
+          "zhHans": "曹羲",
+          "zhHant": "曹羲"
+        },
+        "names": [
+          "曹羲"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹羲",
+            "zhHant": "曹羲"
+          }
+        ],
+        "sourceIds": [
+          "552"
+        ],
+        "sourceNames": [
+          "曹羲"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹羲",
+            "zhHant": "曹羲"
+          }
+        ],
+        "searchNames": [
+          "曹羲",
+          "caoxi"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "55201",
+        "ids": [
+          "55201"
+        ],
+        "name": "55201",
+        "displayName": {
+          "zhHans": "55201",
+          "zhHant": "55201"
+        },
+        "names": [
+          "55201"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "55201",
+            "zhHant": "55201"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "55201",
+          "id": "55201",
+          "ids": [
+            "55201"
+          ],
+          "name": "55201",
+          "displayName": {
+            "zhHans": "55201",
+            "zhHant": "55201"
+          },
+          "names": [
+            "55201"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "55201",
+              "zhHant": "55201"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "552",
+        "skinKey": "55201",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "曹羲"
+        ],
+        "skinNames": [
+          "55201"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/2dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--1dead01",
+      "resourceId": "552caoxi/1dead01",
+      "text": "曹氏亡矣，大魏亡矣。",
+      "textLocalized": {
+        "zhHans": "曹氏亡矣，大魏亡矣。",
+        "zhHant": "曹氏亡矣，大魏亡矣。"
+      },
+      "character": {
+        "slug": "caoxi",
+        "command": "caoxi",
+        "id": "552",
+        "ids": [
+          "552"
+        ],
+        "name": "曹羲",
+        "displayName": {
+          "zhHans": "曹羲",
+          "zhHant": "曹羲"
+        },
+        "names": [
+          "曹羲"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹羲",
+            "zhHant": "曹羲"
+          }
+        ],
+        "sourceIds": [
+          "552"
+        ],
+        "sourceNames": [
+          "曹羲"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹羲",
+            "zhHant": "曹羲"
+          }
+        ],
+        "searchNames": [
+          "曹羲",
+          "caoxi"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "552",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "曹羲"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

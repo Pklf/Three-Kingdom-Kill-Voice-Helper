@@ -1,3 +1,706 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:529d729c6c0b7b9140818364d9e433c8157c28756c688fd23b533249de87b01e
-size 20260
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhoufei",
+    "command": "zhoufei",
+    "name": "周妃",
+    "displayName": {
+      "zhHans": "周妃",
+      "zhHant": "周妃"
+    },
+    "names": [
+      "周妃"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周妃",
+        "zhHant": "周妃"
+      }
+    ],
+    "ids": [
+      "411"
+    ],
+    "sourceNames": [
+      "周妃"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周妃",
+        "zhHant": "周妃"
+      }
+    ],
+    "sourceIds": [
+      "411"
+    ],
+    "searchNames": [
+      "zhoufei",
+      "周妃"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhoufei/groups/dead.json"
+      },
+      {
+        "slug": "spell-820",
+        "name": "良姻",
+        "displayName": {
+          "zhHans": "良姻",
+          "zhHant": "良姻"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/zhoufei/groups/spell-820.json"
+      },
+      {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/zhoufei/groups/spell-821.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "41107",
+        "name": "41107",
+        "displayName": {
+          "zhHans": "41107",
+          "zhHant": "41107"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/41107.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41106",
+        "name": "清风轻拂",
+        "displayName": {
+          "zhHans": "清风轻拂",
+          "zhHant": "清風輕拂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41106.json"
+      },
+      {
+        "slug": "skin-41101",
+        "name": "箜灵寻音",
+        "displayName": {
+          "zhHans": "箜灵寻音",
+          "zhHant": "箜靈尋音"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41101.json"
+      },
+      {
+        "slug": "skin-41101-41106",
+        "name": "箜灵寻音,清风轻拂",
+        "displayName": {
+          "zhHans": "箜灵寻音,清风轻拂",
+          "zhHant": "箜靈尋音,清風輕拂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41101-41106.json"
+      },
+      {
+        "slug": "skin-41102",
+        "name": "箜篌箜声",
+        "displayName": {
+          "zhHans": "箜篌箜声",
+          "zhHant": "箜篌箜聲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41102.json"
+      },
+      {
+        "slug": "skin-41104",
+        "name": "金枝玉叶",
+        "displayName": {
+          "zhHans": "金枝玉叶",
+          "zhHant": "金枝玉葉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41104.json"
+      },
+      {
+        "slug": "skin-41105",
+        "name": "金秋霁月",
+        "displayName": {
+          "zhHans": "金秋霁月",
+          "zhHant": "金秋霽月"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41105.json"
+      },
+      {
+        "slug": "skin-41103",
+        "name": "鹊星夕情",
+        "displayName": {
+          "zhHans": "鹊星夕情",
+          "zhHant": "鵲星夕情"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhoufei/skins/skin-41103.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhoufei.json",
+      "groups": "api/v1/tts/characters/zhoufei/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhoufei/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-821",
+    "name": "箜声",
+    "displayName": {
+      "zhHans": "箜声",
+      "zhHant": "箜聲"
+    },
+    "lineCount": 14,
+    "endpoint": "api/v1/tts/characters/zhoufei/groups/spell-821.json"
+  },
+  "lineCount": 14,
+  "lines": [
+    {
+      "id": "zhoufei--411zhoufei--8skill2_1",
+      "resourceId": "411zhoufei/8skill2_1",
+      "text": "灵弦惊落霞，双鹜比翼，黄鹤驻危楼。",
+      "textLocalized": {
+        "zhHans": "灵弦惊落霞，双鹜比翼，黄鹤驻危楼。",
+        "zhHant": "靈弦驚落霞，雙鶩比翼，黃鶴駐危樓。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "41107",
+          "name": "41107",
+          "displayName": {
+            "zhHans": "41107",
+            "zhHant": "41107"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/8skill2-1-880d0a09.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/8skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--8skill2_2",
+      "resourceId": "411zhoufei/8skill2_2",
+      "text": "玉箜鸣晚舟，伊人在水，白鸥栖沙洲。",
+      "textLocalized": {
+        "zhHans": "玉箜鸣晚舟，伊人在水，白鸥栖沙洲。",
+        "zhHant": "玉箜鳴晚舟，伊人在水，白鷗棲沙洲。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "41107",
+          "name": "41107",
+          "displayName": {
+            "zhHans": "41107",
+            "zhHant": "41107"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/8skill2-2-5d281e19.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/8skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--1skill2_1",
+      "resourceId": "411zhoufei/1skill2_1",
+      "text": "箜篌声声，琴瑟鸣鸣。",
+      "textLocalized": {
+        "zhHans": "箜篌声声，琴瑟鸣鸣。",
+        "zhHant": "箜篌聲聲，琴瑟鳴鳴。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--1skill2_2",
+      "resourceId": "411zhoufei/1skill2_2",
+      "text": "窈窕淑女，箜篌友之。",
+      "textLocalized": {
+        "zhHans": "窈窕淑女，箜篌友之。",
+        "zhHant": "窈窕淑女，箜篌友之。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--3skill2_1",
+      "resourceId": "411zhoufei/3skill2_1",
+      "text": "伊人箜声，在水一方。",
+      "textLocalized": {
+        "zhHans": "伊人箜声，在水一方。",
+        "zhHant": "伊人箜聲，在水一方。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41106",
+          "name": "清风轻拂",
+          "displayName": {
+            "zhHans": "清风轻拂",
+            "zhHant": "清風輕拂"
+          }
+        },
+        {
+          "slug": "skin-41101",
+          "name": "箜灵寻音",
+          "displayName": {
+            "zhHans": "箜灵寻音",
+            "zhHant": "箜靈尋音"
+          }
+        },
+        {
+          "slug": "skin-41101-41106",
+          "name": "箜灵寻音,清风轻拂",
+          "displayName": {
+            "zhHans": "箜灵寻音,清风轻拂",
+            "zhHant": "箜靈尋音,清風輕拂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--3skill2_2",
+      "resourceId": "411zhoufei/3skill2_2",
+      "text": "箜琴合鸣，恰似星辰。",
+      "textLocalized": {
+        "zhHans": "箜琴合鸣，恰似星辰。",
+        "zhHant": "箜琴合鳴，恰似星辰。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41106",
+          "name": "清风轻拂",
+          "displayName": {
+            "zhHans": "清风轻拂",
+            "zhHant": "清風輕拂"
+          }
+        },
+        {
+          "slug": "skin-41101",
+          "name": "箜灵寻音",
+          "displayName": {
+            "zhHans": "箜灵寻音",
+            "zhHant": "箜靈尋音"
+          }
+        },
+        {
+          "slug": "skin-41101-41106",
+          "name": "箜灵寻音,清风轻拂",
+          "displayName": {
+            "zhHans": "箜灵寻音,清风轻拂",
+            "zhHant": "箜靈尋音,清風輕拂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--4skill2_1",
+      "resourceId": "411zhoufei/4skill2_1",
+      "text": "凭此箜篌引，思君慰我心。",
+      "textLocalized": {
+        "zhHans": "凭此箜篌引，思君慰我心。",
+        "zhHant": "憑此箜篌引，思君慰我心。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41102",
+          "name": "箜篌箜声",
+          "displayName": {
+            "zhHans": "箜篌箜声",
+            "zhHant": "箜篌箜聲"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--4skill2_2",
+      "resourceId": "411zhoufei/4skill2_2",
+      "text": "一曲星月白，数曲暮山青。",
+      "textLocalized": {
+        "zhHans": "一曲星月白，数曲暮山青。",
+        "zhHant": "一曲星月白，數曲暮山青。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41102",
+          "name": "箜篌箜声",
+          "displayName": {
+            "zhHans": "箜篌箜声",
+            "zhHant": "箜篌箜聲"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--7skill2_1",
+      "resourceId": "411zhoufei/7skill2_1",
+      "text": "歌尽桃花颜，箜鸣玉娇黛。",
+      "textLocalized": {
+        "zhHans": "歌尽桃花颜，箜鸣玉娇黛。",
+        "zhHant": "歌盡桃花顏，箜鳴玉嬌黛。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41104",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/7skill2-1-780aba2a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/7skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--7skill2_2",
+      "resourceId": "411zhoufei/7skill2_2",
+      "text": "箜篌双丝弦，心有千绪结。",
+      "textLocalized": {
+        "zhHans": "箜篌双丝弦，心有千绪结。",
+        "zhHant": "箜篌雙絲絃，心有千緒結。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41104",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/7skill2-2-de81ab1f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/7skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--6skill2_1",
+      "resourceId": "411zhoufei/6skill2_1",
+      "text": "箜篌引月，欢度佳节。",
+      "textLocalized": {
+        "zhHans": "箜篌引月，欢度佳节。",
+        "zhHant": "箜篌引月，歡度佳節。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41105",
+          "name": "金秋霁月",
+          "displayName": {
+            "zhHans": "金秋霁月",
+            "zhHant": "金秋霽月"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--6skill2_2",
+      "resourceId": "411zhoufei/6skill2_2",
+      "text": "一弦清风一弦月，花前月下娇羞颜。",
+      "textLocalized": {
+        "zhHans": "一弦清风一弦月，花前月下娇羞颜。",
+        "zhHant": "一弦清風一弦月，花前月下嬌羞顏。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41105",
+          "name": "金秋霁月",
+          "displayName": {
+            "zhHans": "金秋霁月",
+            "zhHant": "金秋霽月"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--5skill2_1",
+      "resourceId": "411zhoufei/5skill2_1",
+      "text": "同声自相应，同心自相知。",
+      "textLocalized": {
+        "zhHans": "同声自相应，同心自相知。",
+        "zhHant": "同聲自相應，同心自相知。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41103",
+          "name": "鹊星夕情",
+          "displayName": {
+            "zhHans": "鹊星夕情",
+            "zhHant": "鵲星夕情"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhoufei--411zhoufei--5skill2_2",
+      "resourceId": "411zhoufei/5skill2_2",
+      "text": "万花此间开，唯闻箜篌音。",
+      "textLocalized": {
+        "zhHans": "万花此间开，唯闻箜篌音。",
+        "zhHant": "萬花此間開，唯聞箜篌音。"
+      },
+      "group": {
+        "slug": "spell-821",
+        "name": "箜声",
+        "displayName": {
+          "zhHans": "箜声",
+          "zhHant": "箜聲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41103",
+          "name": "鹊星夕情",
+          "displayName": {
+            "zhHans": "鹊星夕情",
+            "zhHant": "鵲星夕情"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/411zhoufei-34fcdb3c/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/411zhoufei/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

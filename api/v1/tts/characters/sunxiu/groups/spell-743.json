@@ -1,3 +1,503 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cff9c73846ecaa47b3a3ee12189de3e8d1d19efada0865bf47282aa4493d4ae3
-size 14264
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunxiu",
+    "command": "sunxiu",
+    "name": "孙休",
+    "displayName": {
+      "zhHans": "孙休",
+      "zhHant": "孫休"
+    },
+    "names": [
+      "孙休"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙休",
+        "zhHant": "孫休"
+      }
+    ],
+    "ids": [
+      "338"
+    ],
+    "sourceNames": [
+      "孙休"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙休",
+        "zhHant": "孫休"
+      }
+    ],
+    "sourceIds": [
+      "338"
+    ],
+    "searchNames": [
+      "sunxiu",
+      "孙休",
+      "孫休"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/sunxiu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3049",
+        "name": "诏缚",
+        "displayName": {
+          "zhHans": "诏缚",
+          "zhHant": "詔縛"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sunxiu/groups/spell-3049.json"
+      },
+      {
+        "slug": "spell-742",
+        "name": "宴诛",
+        "displayName": {
+          "zhHans": "宴诛",
+          "zhHant": "宴誅"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sunxiu/groups/spell-742.json"
+      },
+      {
+        "slug": "spell-743",
+        "name": "兴学",
+        "displayName": {
+          "zhHans": "兴学",
+          "zhHant": "興學"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sunxiu/groups/spell-743.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-33803",
+        "name": "倚窗而坐",
+        "displayName": {
+          "zhHans": "倚窗而坐",
+          "zhHant": "倚窗而坐"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/sunxiu/skins/skin-33803.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/sunxiu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-33804",
+        "name": "宴诛权臣",
+        "displayName": {
+          "zhHans": "宴诛权臣",
+          "zhHant": "宴誅權臣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/sunxiu/skins/skin-33804.json"
+      },
+      {
+        "slug": "skin-33801",
+        "name": "志善好学",
+        "displayName": {
+          "zhHans": "志善好学",
+          "zhHant": "志善好學"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/sunxiu/skins/skin-33801.json"
+      },
+      {
+        "slug": "skin-33801-33803-33806",
+        "name": "志善好学,倚窗而坐,江岸书品",
+        "displayName": {
+          "zhHans": "志善好学,倚窗而坐,江岸书品",
+          "zhHant": "志善好學,倚窗而坐,江岸書品"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/sunxiu/skins/skin-33801-33803-33806.json"
+      },
+      {
+        "slug": "skin-33807",
+        "name": "施政御龙",
+        "displayName": {
+          "zhHans": "施政御龙",
+          "zhHant": "施政御龍"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/sunxiu/skins/skin-33807.json"
+      },
+      {
+        "slug": "skin-33806",
+        "name": "江岸书品",
+        "displayName": {
+          "zhHans": "江岸书品",
+          "zhHant": "江岸書品"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/sunxiu/skins/skin-33806.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunxiu.json",
+      "groups": "api/v1/tts/characters/sunxiu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunxiu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-743",
+    "name": "兴学",
+    "displayName": {
+      "zhHans": "兴学",
+      "zhHant": "興學"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/sunxiu/groups/spell-743.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "sunxiu--338sunxiu--1skill2_1",
+      "resourceId": "338sunxiu/1skill2_1",
+      "text": "汝等都是国之栋梁。",
+      "textLocalized": {
+        "zhHans": "汝等都是国之栋梁。",
+        "zhHant": "汝等都是國之棟樑。"
+      },
+      "group": {
+        "slug": "spell-743",
+        "name": "兴学",
+        "displayName": {
+          "zhHans": "兴学",
+          "zhHant": "興學"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/338sunxiu-022e0403/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/338sunxiu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunxiu--338sunxiu--1skill2_2",
+      "resourceId": "338sunxiu/1skill2_2",
+      "text": "文修武备，才是兴国之道。",
+      "textLocalized": {
+        "zhHans": "文修武备，才是兴国之道。",
+        "zhHant": "文修武備，纔是興國之道。"
+      },
+      "group": {
+        "slug": "spell-743",
+        "name": "兴学",
+        "displayName": {
+          "zhHans": "兴学",
+          "zhHant": "興學"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/338sunxiu-022e0403/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/338sunxiu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunxiu--338sunxiu--4skill2_1",
+      "resourceId": "338sunxiu/4skill2_1",
+      "text": "兴学既可驭人，更能救国。",
+      "textLocalized": {
+        "zhHans": "兴学既可驭人，更能救国。",
+        "zhHant": "興學既可馭人，更能救國。"
+      },
+      "group": {
+        "slug": "spell-743",
+        "name": "兴学",
+        "displayName": {
+          "zhHans": "兴学",
+          "zhHant": "興學"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33804",
+          "name": "宴诛权臣",
+          "displayName": {
+            "zhHans": "宴诛权臣",
+            "zhHant": "宴誅權臣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/338sunxiu-022e0403/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/338sunxiu/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunxiu--338sunxiu--4skill2_2",
+      "resourceId": "338sunxiu/4skill2_2",
+      "text": "兴学崇礼，则大吴何愁治国之才！",
+      "textLocalized": {
+        "zhHans": "兴学崇礼，则大吴何愁治国之才！",
+        "zhHant": "興學崇禮，則大吳何愁治國之才！"
+      },
+      "group": {
+        "slug": "spell-743",
+        "name": "兴学",
+        "displayName": {
+          "zhHans": "兴学",
+          "zhHant": "興學"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33804",
+          "name": "宴诛权臣",
+          "displayName": {
+            "zhHans": "宴诛权臣",
+            "zhHant": "宴誅權臣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/338sunxiu-022e0403/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/338sunxiu/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunxiu--338sunxiu--3skill2_1",
+      "resourceId": "338sunxiu/3skill2_1",
+      "text": "息战事，明文教；兴仁政之道！",
+      "textLocalized": {
+        "zhHans": "息战事，明文教；兴仁政之道！",
+        "zhHant": "息戰事，明文教；興仁政之道！"
+      },
+      "group": {
+        "slug": "spell-743",
+        "name": "兴学",
+        "displayName": {
+          "zhHans": "兴学",
+          "zhHant": "興學"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33803",
+          "name": "倚窗而坐",
+          "displayName": {
+            "zhHans": "倚窗而坐",
+            "zhHant": "倚窗而坐"
+          }
+        },
+        {
+          "slug": "skin-33801",
+          "name": "志善好学",
+          "displayName": {
+            "zhHans": "志善好学",
+            "zhHant": "志善好學"
+          }
+        },
+        {
+          "slug": "skin-33806",
+          "name": "江岸书品",
+          "displayName": {
+            "zhHans": "江岸书品",
+            "zhHant": "江岸書品"
+          }
+        },
+        {
+          "slug": "skin-33801-33803-33806",
+          "name": "志善好学,倚窗而坐,江岸书品",
+          "displayName": {
+            "zhHans": "志善好学,倚窗而坐,江岸书品",
+            "zhHant": "志善好學,倚窗而坐,江岸書品"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/338sunxiu-022e0403/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/338sunxiu/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunxiu--338sunxiu--3skill2_2",
+      "resourceId": "338sunxiu/3skill2_2",
+      "text": "兴王道之教化，学厚积而薄发。",
+      "textLocalized": {
+        "zhHans": "兴王道之教化，学厚积而薄发。",
+        "zhHant": "興王道之教化，學厚積而薄發。"
+      },
+      "group": {
+        "slug": "spell-743",
+        "name": "兴学",
+        "displayName": {
+          "zhHans": "兴学",
+          "zhHant": "興學"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33803",
+          "name": "倚窗而坐",
+          "displayName": {
+            "zhHans": "倚窗而坐",
+            "zhHant": "倚窗而坐"
+          }
+        },
+        {
+          "slug": "skin-33801",
+          "name": "志善好学",
+          "displayName": {
+            "zhHans": "志善好学",
+            "zhHant": "志善好學"
+          }
+        },
+        {
+          "slug": "skin-33806",
+          "name": "江岸书品",
+          "displayName": {
+            "zhHans": "江岸书品",
+            "zhHant": "江岸書品"
+          }
+        },
+        {
+          "slug": "skin-33801-33803-33806",
+          "name": "志善好学,倚窗而坐,江岸书品",
+          "displayName": {
+            "zhHans": "志善好学,倚窗而坐,江岸书品",
+            "zhHant": "志善好學,倚窗而坐,江岸書品"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/338sunxiu-022e0403/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/338sunxiu/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunxiu--338sunxiu--5skill2_1",
+      "resourceId": "338sunxiu/5skill2_1",
+      "text": "学，为国之柱，不可不兴。",
+      "textLocalized": {
+        "zhHans": "学，为国之柱，不可不兴。",
+        "zhHant": "學，爲國之柱，不可不興。"
+      },
+      "group": {
+        "slug": "spell-743",
+        "name": "兴学",
+        "displayName": {
+          "zhHans": "兴学",
+          "zhHant": "興學"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33807",
+          "name": "施政御龙",
+          "displayName": {
+            "zhHans": "施政御龙",
+            "zhHant": "施政御龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/338sunxiu-022e0403/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/338sunxiu/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunxiu--338sunxiu--5skill2_2",
+      "resourceId": "338sunxiu/5skill2_2",
+      "text": "教化民智，唯仰兴学之功。",
+      "textLocalized": {
+        "zhHans": "教化民智，唯仰兴学之功。",
+        "zhHant": "教化民智，唯仰興學之功。"
+      },
+      "group": {
+        "slug": "spell-743",
+        "name": "兴学",
+        "displayName": {
+          "zhHans": "兴学",
+          "zhHant": "興學"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33807",
+          "name": "施政御龙",
+          "displayName": {
+            "zhHans": "施政御龙",
+            "zhHant": "施政御龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/338sunxiu-022e0403/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/338sunxiu/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

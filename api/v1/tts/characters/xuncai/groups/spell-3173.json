@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ca4ac52a5cf2d9529f360ff5b304d03b1b27b38e326b2fa77ccfec8815913d6d
-size 7531
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuncai",
+    "command": "xuncai",
+    "name": "族荀采",
+    "displayName": {
+      "zhHans": "族荀采",
+      "zhHant": "族荀採"
+    },
+    "names": [
+      "族荀采"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "ids": [
+      "524"
+    ],
+    "sourceNames": [
+      "族荀采"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀采",
+        "zhHant": "族荀採"
+      }
+    ],
+    "sourceIds": [
+      "524"
+    ],
+    "searchNames": [
+      "xuncai",
+      "族荀采",
+      "族荀採"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3171",
+        "name": "烈誓",
+        "displayName": {
+          "zhHans": "烈誓",
+          "zhHant": "烈誓"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3171.json"
+      },
+      {
+        "slug": "spell-3172",
+        "name": "点盏",
+        "displayName": {
+          "zhHans": "点盏",
+          "zhHant": "點盞"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3172.json"
+      },
+      {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3173.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52401",
+        "name": "雅柔映采",
+        "displayName": {
+          "zhHans": "雅柔映采",
+          "zhHant": "雅柔映採"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncai/skins/skin-52401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuncai.json",
+      "groups": "api/v1/tts/characters/xuncai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuncai/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3173",
+    "name": "还阴",
+    "displayName": {
+      "zhHans": "还阴",
+      "zhHant": "還陰"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xuncai/groups/spell-3173.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xuncai--524xuncai--1skill3_1",
+      "resourceId": "524xuncai/1skill3_1",
+      "text": "且将此身，还于阴氏。",
+      "textLocalized": {
+        "zhHans": "且将此身，还于阴氏。",
+        "zhHant": "且將此身，還於陰氏。"
+      },
+      "group": {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--1skill3_2",
+      "resourceId": "524xuncai/1skill3_2",
+      "text": "生不得同户，死可葬同穴乎？",
+      "textLocalized": {
+        "zhHans": "生不得同户，死可葬同穴乎？",
+        "zhHant": "生不得同戶，死可葬同穴乎？"
+      },
+      "group": {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--2skill3_1",
+      "resourceId": "524xuncai/2skill3_1",
+      "text": "既生不得入阴氏，今死，可寄我尸还于阴氏乎？",
+      "textLocalized": {
+        "zhHans": "既生不得入阴氏，今死，可寄我尸还于阴氏乎？",
+        "zhHant": "既生不得入陰氏，今死，可寄我屍還於陰氏乎？"
+      },
+      "group": {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52401",
+          "name": "雅柔映采",
+          "displayName": {
+            "zhHans": "雅柔映采",
+            "zhHant": "雅柔映採"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncai--524xuncai--2skill3_2",
+      "resourceId": "524xuncai/2skill3_2",
+      "text": "我志与阴氏同穴，今为逼迫，虽情不愿，奈何？",
+      "textLocalized": {
+        "zhHans": "我志与阴氏同穴，今为逼迫，虽情不愿，奈何？",
+        "zhHant": "我志與陰氏同穴，今爲逼迫，雖情不願，奈何？"
+      },
+      "group": {
+        "slug": "spell-3173",
+        "name": "还阴",
+        "displayName": {
+          "zhHans": "还阴",
+          "zhHant": "還陰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52401",
+          "name": "雅柔映采",
+          "displayName": {
+            "zhHans": "雅柔映采",
+            "zhHant": "雅柔映採"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/524xuncai-8b2f7bb2/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/524xuncai/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

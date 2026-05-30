@@ -1,3 +1,330 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:28dbaa27db28ff17a8032dd66826eebb680c200422692a2a8d2dce2ddf880ba1
-size 9173
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zoushi",
+    "command": "zoushi",
+    "name": "邹氏",
+    "displayName": {
+      "zhHans": "邹氏",
+      "zhHant": "鄒氏"
+    },
+    "names": [
+      "邹氏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "邹氏",
+        "zhHant": "鄒氏"
+      }
+    ],
+    "ids": [
+      "2059"
+    ],
+    "sourceNames": [
+      "邹氏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "邹氏",
+        "zhHant": "鄒氏"
+      }
+    ],
+    "sourceIds": [
+      "2059"
+    ],
+    "searchNames": [
+      "zoushi",
+      "邹氏",
+      "鄒氏"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zoushi/groups/dead.json"
+      },
+      {
+        "slug": "spell-2112",
+        "name": "祸水",
+        "displayName": {
+          "zhHans": "祸水",
+          "zhHant": "禍水"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zoushi/groups/spell-2112.json"
+      },
+      {
+        "slug": "spell-2113",
+        "name": "倾城",
+        "displayName": {
+          "zhHans": "倾城",
+          "zhHant": "傾城"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zoushi/groups/spell-2113.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-205904",
+        "name": "切切于心",
+        "displayName": {
+          "zhHans": "切切于心",
+          "zhHant": "切切於心"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205904.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205905",
+        "name": "娇媚暗波",
+        "displayName": {
+          "zhHans": "娇媚暗波",
+          "zhHant": "嬌媚暗波"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205905.json"
+      },
+      {
+        "slug": "skin-205902",
+        "name": "淯水香魂",
+        "displayName": {
+          "zhHans": "淯水香魂",
+          "zhHant": "淯水香魂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205902.json"
+      },
+      {
+        "slug": "skin-205902-205903",
+        "name": "淯水香魂,艳若桃李",
+        "displayName": {
+          "zhHans": "淯水香魂,艳若桃李",
+          "zhHant": "淯水香魂,豔若桃李"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205902-205903.json"
+      },
+      {
+        "slug": "skin-205903",
+        "name": "艳若桃李",
+        "displayName": {
+          "zhHans": "艳若桃李",
+          "zhHant": "豔若桃李"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zoushi.json",
+      "groups": "api/v1/tts/characters/zoushi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zoushi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-205905",
+    "name": "娇媚暗波",
+    "displayName": {
+      "zhHans": "娇媚暗波",
+      "zhHant": "嬌媚暗波"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zoushi/skins/skin-205905.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zoushi--2059zoushi--5dead01",
+      "resourceId": "2059zoushi/5dead01",
+      "text": "世间的成败得失，都要怪红颜祸水么？",
+      "textLocalized": {
+        "zhHans": "世间的成败得失，都要怪红颜祸水么？",
+        "zhHant": "世間的成敗得失，都要怪紅顏禍水麼？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205905",
+          "name": "娇媚暗波",
+          "displayName": {
+            "zhHans": "娇媚暗波",
+            "zhHant": "嬌媚暗波"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--5skill1_1",
+      "resourceId": "2059zoushi/5skill1_1",
+      "text": "薄酒岂真醉，君心非我心。",
+      "textLocalized": {
+        "zhHans": "薄酒岂真醉，君心非我心。",
+        "zhHant": "薄酒豈真醉，君心非我心。"
+      },
+      "group": {
+        "slug": "spell-2112",
+        "name": "祸水",
+        "displayName": {
+          "zhHans": "祸水",
+          "zhHant": "禍水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205905",
+          "name": "娇媚暗波",
+          "displayName": {
+            "zhHans": "娇媚暗波",
+            "zhHant": "嬌媚暗波"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--5skill1_2",
+      "resourceId": "2059zoushi/5skill1_2",
+      "text": "这祸水你可愿意趟呀？",
+      "textLocalized": {
+        "zhHans": "这祸水你可愿意趟呀？",
+        "zhHant": "這禍水你可願意趟呀？"
+      },
+      "group": {
+        "slug": "spell-2112",
+        "name": "祸水",
+        "displayName": {
+          "zhHans": "祸水",
+          "zhHant": "禍水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205905",
+          "name": "娇媚暗波",
+          "displayName": {
+            "zhHans": "娇媚暗波",
+            "zhHant": "嬌媚暗波"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--5skill2_1",
+      "resourceId": "2059zoushi/5skill2_1",
+      "text": "今宵共愉悦，明朝隔远津。",
+      "textLocalized": {
+        "zhHans": "今宵共愉悦，明朝隔远津。",
+        "zhHant": "今宵共愉悅，明朝隔遠津。"
+      },
+      "group": {
+        "slug": "spell-2113",
+        "name": "倾城",
+        "displayName": {
+          "zhHans": "倾城",
+          "zhHant": "傾城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205905",
+          "name": "娇媚暗波",
+          "displayName": {
+            "zhHans": "娇媚暗波",
+            "zhHant": "嬌媚暗波"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zoushi--2059zoushi--5skill2_2",
+      "resourceId": "2059zoushi/5skill2_2",
+      "text": "将军，还是把脸蒙起来吧。",
+      "textLocalized": {
+        "zhHans": "将军，还是把脸蒙起来吧。",
+        "zhHant": "將軍，還是把臉蒙起來吧。"
+      },
+      "group": {
+        "slug": "spell-2113",
+        "name": "倾城",
+        "displayName": {
+          "zhHans": "倾城",
+          "zhHant": "傾城"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205905",
+          "name": "娇媚暗波",
+          "displayName": {
+            "zhHans": "娇媚暗波",
+            "zhHant": "嬌媚暗波"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2059zoushi-66bb1c14/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2059zoushi/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

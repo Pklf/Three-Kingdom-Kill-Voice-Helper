@@ -1,3 +1,439 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:377b505498d60081098b0a5ffa21932714f81a313004117abd3f1782c9d80b55
-size 12083
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhouyu",
+    "command": "zhouyu",
+    "name": "周瑜",
+    "displayName": {
+      "zhHans": "周瑜",
+      "zhHant": "周瑜"
+    },
+    "names": [
+      "周瑜",
+      "界周瑜"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周瑜",
+        "zhHant": "周瑜"
+      },
+      {
+        "zhHans": "界周瑜",
+        "zhHant": "界周瑜"
+      }
+    ],
+    "ids": [
+      "12",
+      "308"
+    ],
+    "sourceNames": [
+      "周瑜",
+      "界周瑜"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周瑜",
+        "zhHant": "周瑜"
+      },
+      {
+        "zhHans": "界周瑜",
+        "zhHant": "界周瑜"
+      }
+    ],
+    "sourceIds": [
+      "12",
+      "308"
+    ],
+    "searchNames": [
+      "zhouyu",
+      "周瑜",
+      "界周瑜"
+    ],
+    "lineCount": 24,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-55",
+        "name": "英姿",
+        "displayName": {
+          "zhHans": "英姿",
+          "zhHant": "英姿"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhouyu/groups/spell-55.json"
+      },
+      {
+        "slug": "spell-55-712",
+        "name": "英姿",
+        "displayName": {
+          "zhHans": "英姿",
+          "zhHant": "英姿"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhouyu/groups/spell-55-712.json"
+      },
+      {
+        "slug": "spell-56",
+        "name": "反间",
+        "displayName": {
+          "zhHans": "反间",
+          "zhHant": "反間"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhouyu/groups/spell-56.json"
+      },
+      {
+        "slug": "spell-56-713",
+        "name": "反间",
+        "displayName": {
+          "zhHans": "反间",
+          "zhHant": "反間"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhouyu/groups/spell-56-713.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-1202",
+        "name": "武将列传",
+        "displayName": {
+          "zhHans": "武将列传",
+          "zhHant": "武將列傳"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouyu/skins/skin-1202.json"
+      },
+      {
+        "slug": "skin-1202-1208",
+        "name": "武将列传,苦肉设计",
+        "displayName": {
+          "zhHans": "武将列传,苦肉设计",
+          "zhHant": "武將列傳,苦肉設計"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouyu/skins/skin-1202-1208.json"
+      },
+      {
+        "slug": "skin-1206",
+        "name": "盖世之才",
+        "displayName": {
+          "zhHans": "盖世之才",
+          "zhHant": "蓋世之才"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouyu/skins/skin-1206.json"
+      },
+      {
+        "slug": "skin-2",
+        "name": "经典",
+        "displayName": {
+          "zhHans": "经典",
+          "zhHant": "經典"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhouyu/skins/skin-2.json"
+      },
+      {
+        "slug": "skin-1208",
+        "name": "苦肉设计",
+        "displayName": {
+          "zhHans": "苦肉设计",
+          "zhHant": "苦肉設計"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouyu/skins/skin-1208.json"
+      },
+      {
+        "slug": "skin-1205",
+        "name": "赤壁破曹",
+        "displayName": {
+          "zhHans": "赤壁破曹",
+          "zhHant": "赤壁破曹"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhouyu/skins/skin-1205.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhouyu.json",
+      "groups": "api/v1/tts/characters/zhouyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhouyu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-56-713",
+    "name": "反间",
+    "displayName": {
+      "zhHans": "反间",
+      "zhHant": "反間"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/zhouyu/groups/spell-56-713.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "zhouyu--12zhouyu--3skill2_1",
+      "resourceId": "12zhouyu/3skill2_1",
+      "text": "挣扎吧！在血和暗的深渊里！",
+      "textLocalized": {
+        "zhHans": "挣扎吧！在血和暗的深渊里！",
+        "zhHant": "掙扎吧！在血和暗的深淵裏！"
+      },
+      "group": {
+        "slug": "spell-56-713",
+        "name": "反间",
+        "displayName": {
+          "zhHans": "反间",
+          "zhHant": "反間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1202",
+          "name": "武将列传",
+          "displayName": {
+            "zhHans": "武将列传",
+            "zhHant": "武將列傳"
+          }
+        },
+        {
+          "slug": "skin-1208",
+          "name": "苦肉设计",
+          "displayName": {
+            "zhHans": "苦肉设计",
+            "zhHant": "苦肉設計"
+          }
+        },
+        {
+          "slug": "skin-1202-1208",
+          "name": "武将列传,苦肉设计",
+          "displayName": {
+            "zhHans": "武将列传,苦肉设计",
+            "zhHant": "武將列傳,苦肉設計"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/12zhouyu-76854733/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouyu--12zhouyu--3skill2_2",
+      "resourceId": "12zhouyu/3skill2_2",
+      "text": "痛苦吧！在仇与恨的地狱中！",
+      "textLocalized": {
+        "zhHans": "痛苦吧！在仇与恨的地狱中！",
+        "zhHant": "痛苦吧！在仇與恨的地獄中！"
+      },
+      "group": {
+        "slug": "spell-56-713",
+        "name": "反间",
+        "displayName": {
+          "zhHans": "反间",
+          "zhHant": "反間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1202",
+          "name": "武将列传",
+          "displayName": {
+            "zhHans": "武将列传",
+            "zhHant": "武將列傳"
+          }
+        },
+        {
+          "slug": "skin-1208",
+          "name": "苦肉设计",
+          "displayName": {
+            "zhHans": "苦肉设计",
+            "zhHant": "苦肉設計"
+          }
+        },
+        {
+          "slug": "skin-1202-1208",
+          "name": "武将列传,苦肉设计",
+          "displayName": {
+            "zhHans": "武将列传,苦肉设计",
+            "zhHant": "武將列傳,苦肉設計"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/12zhouyu-76854733/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouyu--12zhouyu--5skill2_1",
+      "resourceId": "12zhouyu/5skill2_1",
+      "text": "叛徒，可就在你们中间！",
+      "textLocalized": {
+        "zhHans": "叛徒，可就在你们中间！",
+        "zhHant": "叛徒，可就在你們中間！"
+      },
+      "group": {
+        "slug": "spell-56-713",
+        "name": "反间",
+        "displayName": {
+          "zhHans": "反间",
+          "zhHant": "反間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1206",
+          "name": "盖世之才",
+          "displayName": {
+            "zhHans": "盖世之才",
+            "zhHant": "蓋世之才"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/12zhouyu-76854733/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouyu--12zhouyu--5skill2_2",
+      "resourceId": "12zhouyu/5skill2_2",
+      "text": "隔岸观火，待敌自乱。",
+      "textLocalized": {
+        "zhHans": "隔岸观火，待敌自乱。",
+        "zhHant": "隔岸觀火，待敵自亂。"
+      },
+      "group": {
+        "slug": "spell-56-713",
+        "name": "反间",
+        "displayName": {
+          "zhHans": "反间",
+          "zhHant": "反間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1206",
+          "name": "盖世之才",
+          "displayName": {
+            "zhHans": "盖世之才",
+            "zhHant": "蓋世之才"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/12zhouyu-76854733/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouyu--12zhouyu--4skill2_1",
+      "resourceId": "12zhouyu/4skill2_1",
+      "text": "揣度[duó]吾意？定叫你追悔莫及！",
+      "textLocalized": {
+        "zhHans": "揣度[duó]吾意？定叫你追悔莫及！",
+        "zhHant": "揣度[duó]吾意？定叫你追悔莫及！"
+      },
+      "group": {
+        "slug": "spell-56-713",
+        "name": "反间",
+        "displayName": {
+          "zhHans": "反间",
+          "zhHant": "反間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1205",
+          "name": "赤壁破曹",
+          "displayName": {
+            "zhHans": "赤壁破曹",
+            "zhHant": "赤壁破曹"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/12zhouyu-76854733/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouyu--12zhouyu--4skill2_2",
+      "resourceId": "12zhouyu/4skill2_2",
+      "text": "倒要看你如何取舍。",
+      "textLocalized": {
+        "zhHans": "倒要看你如何取舍。",
+        "zhHant": "倒要看你如何取捨。"
+      },
+      "group": {
+        "slug": "spell-56-713",
+        "name": "反间",
+        "displayName": {
+          "zhHans": "反间",
+          "zhHant": "反間"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1205",
+          "name": "赤壁破曹",
+          "displayName": {
+            "zhHans": "赤壁破曹",
+            "zhHant": "赤壁破曹"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/12zhouyu-76854733/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/12zhouyu/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

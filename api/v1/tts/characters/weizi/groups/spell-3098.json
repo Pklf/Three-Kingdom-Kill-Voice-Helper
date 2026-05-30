@@ -1,3 +1,335 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab611ae829092a44921ff9550a47675036d90e62c5cbcc0b9333da33a3df515f
-size 9102
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "weizi",
+    "command": "weizi",
+    "name": "卫兹",
+    "displayName": {
+      "zhHans": "卫兹",
+      "zhHant": "衛茲"
+    },
+    "names": [
+      "卫兹"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卫兹",
+        "zhHant": "衛茲"
+      }
+    ],
+    "ids": [
+      "501"
+    ],
+    "sourceNames": [
+      "卫兹"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卫兹",
+        "zhHant": "衛茲"
+      }
+    ],
+    "sourceIds": [
+      "501"
+    ],
+    "searchNames": [
+      "weizi",
+      "卫兹",
+      "衛茲"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/weizi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3097",
+        "name": "援资",
+        "displayName": {
+          "zhHans": "援资",
+          "zhHant": "援資"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/weizi/groups/spell-3097.json"
+      },
+      {
+        "slug": "spell-3098",
+        "name": "烈节",
+        "displayName": {
+          "zhHans": "烈节",
+          "zhHant": "烈節"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/weizi/groups/spell-3098.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-50101",
+        "name": "举兵助曹",
+        "displayName": {
+          "zhHans": "举兵助曹",
+          "zhHant": "舉兵助曹"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weizi/skins/skin-50101.json"
+      },
+      {
+        "slug": "skin-50102",
+        "name": "助龙点睛",
+        "displayName": {
+          "zhHans": "助龙点睛",
+          "zhHant": "助龍點睛"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weizi/skins/skin-50102.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weizi/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/weizi.json",
+      "groups": "api/v1/tts/characters/weizi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/weizi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3098",
+    "name": "烈节",
+    "displayName": {
+      "zhHans": "烈节",
+      "zhHant": "烈節"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/weizi/groups/spell-3098.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "weizi--501weizi--2skill2_1",
+      "resourceId": "501weizi/2skill2_1",
+      "text": "义士讨国贼，血洒荥阳郊。",
+      "textLocalized": {
+        "zhHans": "义士讨国贼，血洒荥阳郊。",
+        "zhHant": "義士討國賊，血灑滎陽郊。"
+      },
+      "group": {
+        "slug": "spell-3098",
+        "name": "烈节",
+        "displayName": {
+          "zhHans": "烈节",
+          "zhHant": "烈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50101",
+          "name": "举兵助曹",
+          "displayName": {
+            "zhHans": "举兵助曹",
+            "zhHant": "舉兵助曹"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--2skill2_2",
+      "resourceId": "501weizi/2skill2_2",
+      "text": "琅玕百丈青，忠贞谁能屈。",
+      "textLocalized": {
+        "zhHans": "琅玕百丈青，忠贞谁能屈。",
+        "zhHant": "琅玕百丈青，忠貞誰能屈。"
+      },
+      "group": {
+        "slug": "spell-3098",
+        "name": "烈节",
+        "displayName": {
+          "zhHans": "烈节",
+          "zhHant": "烈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50101",
+          "name": "举兵助曹",
+          "displayName": {
+            "zhHans": "举兵助曹",
+            "zhHant": "舉兵助曹"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--3skill2_1",
+      "resourceId": "501weizi/3skill2_1",
+      "text": "逆臣猖乱之际，应举义蹈火。",
+      "textLocalized": {
+        "zhHans": "逆臣猖乱之际，应举义蹈火。",
+        "zhHant": "逆臣猖亂之際，應舉義蹈火。"
+      },
+      "group": {
+        "slug": "spell-3098",
+        "name": "烈节",
+        "displayName": {
+          "zhHans": "烈节",
+          "zhHant": "烈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50102",
+          "name": "助龙点睛",
+          "displayName": {
+            "zhHans": "助龙点睛",
+            "zhHant": "助龍點睛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--3skill2_2",
+      "resourceId": "501weizi/3skill2_2",
+      "text": "心怀忠烈之士，当捐躯赴难。",
+      "textLocalized": {
+        "zhHans": "心怀忠烈之士，当捐躯赴难。",
+        "zhHant": "心懷忠烈之士，當捐軀赴難。"
+      },
+      "group": {
+        "slug": "spell-3098",
+        "name": "烈节",
+        "displayName": {
+          "zhHans": "烈节",
+          "zhHant": "烈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50102",
+          "name": "助龙点睛",
+          "displayName": {
+            "zhHans": "助龙点睛",
+            "zhHant": "助龍點睛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--1skill2_1",
+      "resourceId": "501weizi/1skill2_1",
+      "text": "头可断，然节不可夺",
+      "textLocalized": {
+        "zhHans": "头可断，然节不可夺",
+        "zhHant": "頭可斷，然節不可奪"
+      },
+      "group": {
+        "slug": "spell-3098",
+        "name": "烈节",
+        "displayName": {
+          "zhHans": "烈节",
+          "zhHant": "烈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--1skill2_2",
+      "resourceId": "501weizi/1skill2_2",
+      "text": "血可流，而志不可改。",
+      "textLocalized": {
+        "zhHans": "血可流，而志不可改。",
+        "zhHant": "血可流，而志不可改。"
+      },
+      "group": {
+        "slug": "spell-3098",
+        "name": "烈节",
+        "displayName": {
+          "zhHans": "烈节",
+          "zhHant": "烈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,210 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f1a610e7c6e5767116fafc8be666ac82ff412dd2d069826d0824999bbe1e2437
-size 5374
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wuyan",
+    "command": "wuyan",
+    "name": "吾彦",
+    "displayName": {
+      "zhHans": "吾彦",
+      "zhHant": "吾彥"
+    },
+    "names": [
+      "吾彦"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "吾彦",
+        "zhHant": "吾彥"
+      }
+    ],
+    "ids": [
+      "356"
+    ],
+    "sourceNames": [
+      "吾彦"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "吾彦",
+        "zhHant": "吾彥"
+      }
+    ],
+    "sourceIds": [
+      "356"
+    ],
+    "searchNames": [
+      "wuyan",
+      "吾彦",
+      "吾彥"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wuyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3072",
+        "name": "澜疆",
+        "displayName": {
+          "zhHans": "澜疆",
+          "zhHant": "瀾疆"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wuyan/groups/spell-3072.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wuyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35601",
+        "name": "搏虎显威",
+        "displayName": {
+          "zhHans": "搏虎显威",
+          "zhHant": "搏虎顯威"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wuyan/skins/skin-35601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wuyan.json",
+      "groups": "api/v1/tts/characters/wuyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wuyan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/wuyan/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "wuyan--356wuyan--1dead01",
+      "resourceId": "356wuyan/1dead01",
+      "text": "世间再无擒虎客……",
+      "textLocalized": {
+        "zhHans": "世间再无擒虎客……",
+        "zhHant": "世間再無擒虎客……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/356wuyan-c7ac8f7a/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/356wuyan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuyan--356wuyan--1skill1_1",
+      "resourceId": "356wuyan/1skill1_1",
+      "text": "一人擒虎力，千军拗锋芒。",
+      "textLocalized": {
+        "zhHans": "一人擒虎力，千军拗锋芒。",
+        "zhHant": "一人擒虎力，千軍拗鋒芒。"
+      },
+      "group": {
+        "slug": "spell-3072",
+        "name": "澜疆",
+        "displayName": {
+          "zhHans": "澜疆",
+          "zhHant": "瀾疆"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/356wuyan-c7ac8f7a/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/356wuyan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuyan--356wuyan--1skill1_2",
+      "resourceId": "356wuyan/1skill1_2",
+      "text": "勇力擎四疆，狂澜涌八荒。",
+      "textLocalized": {
+        "zhHans": "勇力擎四疆，狂澜涌八荒。",
+        "zhHant": "勇力擎四疆，狂瀾湧八荒。"
+      },
+      "group": {
+        "slug": "spell-3072",
+        "name": "澜疆",
+        "displayName": {
+          "zhHans": "澜疆",
+          "zhHant": "瀾疆"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/356wuyan-c7ac8f7a/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/356wuyan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

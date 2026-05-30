@@ -1,3 +1,1434 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d0bfc8fa52c577da423298761c3fecea3d96873d9e97facbd76ed07371abe9e0
-size 33065
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simazhou",
+    "command": "simazhou",
+    "name": "司马伷",
+    "displayName": {
+      "zhHans": "司马伷",
+      "zhHant": "司馬伷"
+    },
+    "names": [
+      "司马伷"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马伷",
+        "zhHant": "司馬伷"
+      }
+    ],
+    "ids": [
+      "7011"
+    ],
+    "sourceNames": [
+      "司马伷"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马伷",
+        "zhHant": "司馬伷"
+      }
+    ],
+    "sourceIds": [
+      "7011"
+    ],
+    "searchNames": [
+      "simazhou",
+      "司马伷",
+      "司馬伷"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-7030",
+        "name": "才望",
+        "displayName": {
+          "zhHans": "才望",
+          "zhHant": "才望"
+        },
+        "ids": [
+          "7030"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-7031",
+        "name": "纳降",
+        "displayName": {
+          "zhHans": "纳降",
+          "zhHant": "納降"
+        },
+        "ids": [
+          "7031"
+        ],
+        "lineCount": 4
+      }
+    ],
+    "skins": [
+      {
+        "slug": "701102",
+        "ids": [
+          "701102"
+        ],
+        "name": "701102",
+        "displayName": {
+          "zhHans": "701102",
+          "zhHant": "701102"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/simazhou.json",
+      "lines": "api/v1/characters/simazhou/lines.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "simazhou--7011simazhou--2dead01",
+      "resourceId": "7011simazhou/2dead01",
+      "text": "望吾之封国，分吾四子。",
+      "textLocalized": {
+        "zhHans": "望吾之封国，分吾四子。",
+        "zhHant": "望吾之封國，分吾四子。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "701102",
+        "ids": [
+          "701102"
+        ],
+        "name": "701102",
+        "displayName": {
+          "zhHans": "701102",
+          "zhHant": "701102"
+        },
+        "names": [
+          "701102"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "701102",
+          "id": "701102",
+          "ids": [
+            "701102"
+          ],
+          "name": "701102",
+          "displayName": {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          },
+          "names": [
+            "701102"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "701102",
+              "zhHant": "701102"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "701102",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "701102"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/2dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--1dead01",
+      "resourceId": "7011simazhou/1dead01",
+      "text": "恩赐重物，病身难消受。",
+      "textLocalized": {
+        "zhHans": "恩赐重物，病身难消受。",
+        "zhHant": "恩賜重物，病身難消受。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--2skill1_1",
+      "resourceId": "7011simazhou/2skill1_1",
+      "text": "彼美齐献，卓尔不群。",
+      "textLocalized": {
+        "zhHans": "彼美齐献，卓尔不群。",
+        "zhHant": "彼美齊獻，卓爾不羣。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-7030",
+        "ids": [
+          "7030"
+        ],
+        "name": "才望",
+        "displayName": {
+          "zhHans": "才望",
+          "zhHant": "才望"
+        },
+        "names": [
+          "才望"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "才望",
+            "zhHant": "才望"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "701102",
+        "ids": [
+          "701102"
+        ],
+        "name": "701102",
+        "displayName": {
+          "zhHans": "701102",
+          "zhHant": "701102"
+        },
+        "names": [
+          "701102"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "701102",
+          "id": "701102",
+          "ids": [
+            "701102"
+          ],
+          "name": "701102",
+          "displayName": {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          },
+          "names": [
+            "701102"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "701102",
+              "zhHant": "701102"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "701102",
+        "spellKey": "7030",
+        "rowIndex": 1,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "701102"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--2skill1_2",
+      "resourceId": "7011simazhou/2skill1_2",
+      "text": "扶风遗爱，琅邪克己。",
+      "textLocalized": {
+        "zhHans": "扶风遗爱，琅邪克己。",
+        "zhHant": "扶風遺愛，琅邪克己。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-7030",
+        "ids": [
+          "7030"
+        ],
+        "name": "才望",
+        "displayName": {
+          "zhHans": "才望",
+          "zhHant": "才望"
+        },
+        "names": [
+          "才望"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "才望",
+            "zhHant": "才望"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "701102",
+        "ids": [
+          "701102"
+        ],
+        "name": "701102",
+        "displayName": {
+          "zhHans": "701102",
+          "zhHant": "701102"
+        },
+        "names": [
+          "701102"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "701102",
+          "id": "701102",
+          "ids": [
+            "701102"
+          ],
+          "name": "701102",
+          "displayName": {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          },
+          "names": [
+            "701102"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "701102",
+              "zhHant": "701102"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "701102",
+        "spellKey": "7030",
+        "rowIndex": 2,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "701102"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--1skill1_1",
+      "resourceId": "7011simazhou/1skill1_1",
+      "text": "才气不俗，声望四海。",
+      "textLocalized": {
+        "zhHans": "才气不俗，声望四海。",
+        "zhHant": "才氣不俗，聲望四海。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-7030",
+        "ids": [
+          "7030"
+        ],
+        "name": "才望",
+        "displayName": {
+          "zhHans": "才望",
+          "zhHant": "才望"
+        },
+        "names": [
+          "才望"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "才望",
+            "zhHant": "才望"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "-1",
+        "spellKey": "7030",
+        "rowIndex": 1,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--1skill1_2",
+      "resourceId": "7011simazhou/1skill1_2",
+      "text": "绥[suí]怀之策，监守邺城。",
+      "textLocalized": {
+        "zhHans": "绥[suí]怀之策，监守邺城。",
+        "zhHant": "綏[suí]懷之策，監守鄴城。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-7030",
+        "ids": [
+          "7030"
+        ],
+        "name": "才望",
+        "displayName": {
+          "zhHans": "才望",
+          "zhHant": "才望"
+        },
+        "names": [
+          "才望"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "才望",
+            "zhHant": "才望"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "-1",
+        "spellKey": "7030",
+        "rowIndex": 2,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--2skill2_1",
+      "resourceId": "7011simazhou/2skill2_1",
+      "text": "督率所统，连据涂中。",
+      "textLocalized": {
+        "zhHans": "督率所统，连据涂中。",
+        "zhHant": "督率所統，連據塗中。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-7031",
+        "ids": [
+          "7031"
+        ],
+        "name": "纳降",
+        "displayName": {
+          "zhHans": "纳降",
+          "zhHant": "納降"
+        },
+        "names": [
+          "纳降"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "纳降",
+            "zhHant": "納降"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "701102",
+        "ids": [
+          "701102"
+        ],
+        "name": "701102",
+        "displayName": {
+          "zhHans": "701102",
+          "zhHant": "701102"
+        },
+        "names": [
+          "701102"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "701102",
+          "id": "701102",
+          "ids": [
+            "701102"
+          ],
+          "name": "701102",
+          "displayName": {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          },
+          "names": [
+            "701102"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "701102",
+              "zhHant": "701102"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "701102",
+        "spellKey": "7031",
+        "rowIndex": 1,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "701102"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/2skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--2skill2_2",
+      "resourceId": "7011simazhou/2skill2_2",
+      "text": "皓穷蹙请降，送玺绶于吾。",
+      "textLocalized": {
+        "zhHans": "皓穷蹙请降，送玺绶于吾。",
+        "zhHant": "皓窮蹙請降，送璽綬於吾。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-7031",
+        "ids": [
+          "7031"
+        ],
+        "name": "纳降",
+        "displayName": {
+          "zhHans": "纳降",
+          "zhHant": "納降"
+        },
+        "names": [
+          "纳降"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "纳降",
+            "zhHant": "納降"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "701102",
+        "ids": [
+          "701102"
+        ],
+        "name": "701102",
+        "displayName": {
+          "zhHans": "701102",
+          "zhHant": "701102"
+        },
+        "names": [
+          "701102"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "701102",
+          "id": "701102",
+          "ids": [
+            "701102"
+          ],
+          "name": "701102",
+          "displayName": {
+            "zhHans": "701102",
+            "zhHant": "701102"
+          },
+          "names": [
+            "701102"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "701102",
+              "zhHant": "701102"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "701102",
+        "spellKey": "7031",
+        "rowIndex": 2,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "701102"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/2skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--1skill2_1",
+      "resourceId": "7011simazhou/1skill2_1",
+      "text": "奉命伐吴，得胜纳降。",
+      "textLocalized": {
+        "zhHans": "奉命伐吴，得胜纳降。",
+        "zhHant": "奉命伐吳，得勝納降。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-7031",
+        "ids": [
+          "7031"
+        ],
+        "name": "纳降",
+        "displayName": {
+          "zhHans": "纳降",
+          "zhHant": "納降"
+        },
+        "names": [
+          "纳降"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "纳降",
+            "zhHant": "納降"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "-1",
+        "spellKey": "7031",
+        "rowIndex": 1,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--1skill2_2",
+      "resourceId": "7011simazhou/1skill2_2",
+      "text": "进军逼江，震慑吴贼。",
+      "textLocalized": {
+        "zhHans": "进军逼江，震慑吴贼。",
+        "zhHant": "進軍逼江，震懾吳賊。"
+      },
+      "character": {
+        "slug": "simazhou",
+        "command": "simazhou",
+        "id": "7011",
+        "ids": [
+          "7011"
+        ],
+        "name": "司马伷",
+        "displayName": {
+          "zhHans": "司马伷",
+          "zhHant": "司馬伷"
+        },
+        "names": [
+          "司马伷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "sourceIds": [
+          "7011"
+        ],
+        "sourceNames": [
+          "司马伷"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "司马伷",
+            "zhHant": "司馬伷"
+          }
+        ],
+        "searchNames": [
+          "司马伷",
+          "司馬伷",
+          "simazhou"
+        ]
+      },
+      "group": {
+        "slug": "spell-7031",
+        "ids": [
+          "7031"
+        ],
+        "name": "纳降",
+        "displayName": {
+          "zhHans": "纳降",
+          "zhHant": "納降"
+        },
+        "names": [
+          "纳降"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "纳降",
+            "zhHant": "納降"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7011",
+        "skinKey": "-1",
+        "spellKey": "7031",
+        "rowIndex": 2,
+        "characterNames": [
+          "司马伷"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

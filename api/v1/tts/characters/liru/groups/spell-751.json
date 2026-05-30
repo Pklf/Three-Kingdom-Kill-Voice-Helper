@@ -1,3 +1,476 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:df01782c28df15c9d31afbcb35b9b57d99ec8712845ac5251e44c7061996a542
-size 12904
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liru",
+    "command": "liru",
+    "name": "李儒",
+    "displayName": {
+      "zhHans": "李儒",
+      "zhHant": "李儒"
+    },
+    "names": [
+      "李儒"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李儒",
+        "zhHant": "李儒"
+      }
+    ],
+    "ids": [
+      "184"
+    ],
+    "sourceNames": [
+      "李儒"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李儒",
+        "zhHant": "李儒"
+      }
+    ],
+    "sourceIds": [
+      "184"
+    ],
+    "searchNames": [
+      "liru",
+      "李儒"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liru/groups/dead.json"
+      },
+      {
+        "slug": "spell-750",
+        "name": "灭计",
+        "displayName": {
+          "zhHans": "灭计",
+          "zhHant": "滅計"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liru/groups/spell-750.json"
+      },
+      {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liru/groups/spell-751.json"
+      },
+      {
+        "slug": "spell-752",
+        "name": "焚城",
+        "displayName": {
+          "zhHans": "焚城",
+          "zhHant": "焚城"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liru/groups/spell-752.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "q",
+        "name": "Q版形象",
+        "displayName": {
+          "zhHans": "Q版形象",
+          "zhHant": "Q版形象"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/q.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-18405",
+        "name": "烈火焚城",
+        "displayName": {
+          "zhHans": "烈火焚城",
+          "zhHant": "烈火焚城"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-18405.json"
+      },
+      {
+        "slug": "skin-18402",
+        "name": "绝世之谋",
+        "displayName": {
+          "zhHans": "绝世之谋",
+          "zhHant": "絕世之謀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-18402.json"
+      },
+      {
+        "slug": "skin-18406",
+        "name": "绝策魔仕",
+        "displayName": {
+          "zhHans": "绝策魔仕",
+          "zhHant": "絕策魔仕"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-18406.json"
+      },
+      {
+        "slug": "skin-18407",
+        "name": "送毒篡权",
+        "displayName": {
+          "zhHans": "送毒篡权",
+          "zhHant": "送毒篡權"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/liru/skins/skin-18407.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liru.json",
+      "groups": "api/v1/tts/characters/liru/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liru/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-751",
+    "name": "绝策",
+    "displayName": {
+      "zhHans": "绝策",
+      "zhHant": "絕策"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/liru/groups/spell-751.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "liru--184liru--3skill1_1",
+      "resourceId": "184liru/3skill1_1",
+      "text": "此计，伤人于无形！",
+      "textLocalized": {
+        "zhHans": "此计，伤人于无形！",
+        "zhHant": "此計，傷人於無形！"
+      },
+      "group": {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-18402",
+          "name": "绝世之谋",
+          "displayName": {
+            "zhHans": "绝世之谋",
+            "zhHant": "絕世之謀"
+          }
+        },
+        {
+          "slug": "skin-18407",
+          "name": "送毒篡权",
+          "displayName": {
+            "zhHans": "送毒篡权",
+            "zhHant": "送毒篡權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--3skill1_2",
+      "resourceId": "184liru/3skill1_2",
+      "text": "汝已技穷，必死无疑！",
+      "textLocalized": {
+        "zhHans": "汝已技穷，必死无疑！",
+        "zhHant": "汝已技窮，必死無疑！"
+      },
+      "group": {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-18402",
+          "name": "绝世之谋",
+          "displayName": {
+            "zhHans": "绝世之谋",
+            "zhHant": "絕世之謀"
+          }
+        },
+        {
+          "slug": "skin-18407",
+          "name": "送毒篡权",
+          "displayName": {
+            "zhHans": "送毒篡权",
+            "zhHant": "送毒篡權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--1skill1_1",
+      "resourceId": "184liru/1skill1_1",
+      "text": "无用之人，死！",
+      "textLocalized": {
+        "zhHans": "无用之人，死！",
+        "zhHant": "無用之人，死！"
+      },
+      "group": {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--1skill1_2",
+      "resourceId": "184liru/1skill1_2",
+      "text": "哼，你走投无路了！",
+      "textLocalized": {
+        "zhHans": "哼，你走投无路了！",
+        "zhHant": "哼，你走投無路了！"
+      },
+      "group": {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--4skill1_1",
+      "resourceId": "184liru/4skill1_1",
+      "text": "我，最喜欢落井下石。",
+      "textLocalized": {
+        "zhHans": "我，最喜欢落井下石。",
+        "zhHant": "我，最喜歡落井下石。"
+      },
+      "group": {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18405",
+          "name": "烈火焚城",
+          "displayName": {
+            "zhHans": "烈火焚城",
+            "zhHant": "烈火焚城"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--4skill1_2",
+      "resourceId": "184liru/4skill1_2",
+      "text": "一无所有？那就拿命来填！",
+      "textLocalized": {
+        "zhHans": "一无所有？那就拿命来填！",
+        "zhHant": "一無所有？那就拿命來填！"
+      },
+      "group": {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18405",
+          "name": "烈火焚城",
+          "displayName": {
+            "zhHans": "烈火焚城",
+            "zhHant": "烈火焚城"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--5skill1_1",
+      "resourceId": "184liru/5skill1_1",
+      "text": "后悔和我作对了吧！",
+      "textLocalized": {
+        "zhHans": "后悔和我作对了吧！",
+        "zhHant": "後悔和我作對了吧！"
+      },
+      "group": {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18406",
+          "name": "绝策魔仕",
+          "displayName": {
+            "zhHans": "绝策魔仕",
+            "zhHant": "絕策魔仕"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liru--184liru--5skill1_2",
+      "resourceId": "184liru/5skill1_2",
+      "text": "既然无路可走，还不闭目待死？",
+      "textLocalized": {
+        "zhHans": "既然无路可走，还不闭目待死？",
+        "zhHant": "既然無路可走，還不閉目待死？"
+      },
+      "group": {
+        "slug": "spell-751",
+        "name": "绝策",
+        "displayName": {
+          "zhHans": "绝策",
+          "zhHant": "絕策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18406",
+          "name": "绝策魔仕",
+          "displayName": {
+            "zhHans": "绝策魔仕",
+            "zhHant": "絕策魔仕"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/184liru-62d7a080/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/184liru/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

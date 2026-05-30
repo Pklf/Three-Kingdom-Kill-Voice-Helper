@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aa61932c9253139edea60488d9db0ac19c0d2e737eb8b7db336363aed5e64060
-size 8774
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangyi",
+    "command": "yangyi",
+    "name": "杨仪",
+    "displayName": {
+      "zhHans": "杨仪",
+      "zhHant": "楊儀"
+    },
+    "names": [
+      "杨仪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨仪",
+        "zhHant": "楊儀"
+      }
+    ],
+    "ids": [
+      "488"
+    ],
+    "sourceNames": [
+      "杨仪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨仪",
+        "zhHant": "楊儀"
+      }
+    ],
+    "sourceIds": [
+      "488"
+    ],
+    "searchNames": [
+      "yangyi",
+      "杨仪",
+      "楊儀"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yangyi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3053",
+        "name": "狷狭",
+        "displayName": {
+          "zhHans": "狷狭",
+          "zhHant": "狷狹"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangyi/groups/spell-3053.json"
+      },
+      {
+        "slug": "spell-3054",
+        "name": "定措",
+        "displayName": {
+          "zhHans": "定措",
+          "zhHant": "定措"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangyi/groups/spell-3054.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-48801",
+        "name": "狷狭激愤",
+        "displayName": {
+          "zhHans": "狷狭激愤",
+          "zhHant": "狷狹激憤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyi/skins/skin-48801.json"
+      },
+      {
+        "slug": "skin-48802",
+        "name": "落笔成谏",
+        "displayName": {
+          "zhHans": "落笔成谏",
+          "zhHant": "落筆成諫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyi/skins/skin-48802.json"
+      },
+      {
+        "slug": "skin-48803",
+        "name": "驭雷伏乱",
+        "displayName": {
+          "zhHans": "驭雷伏乱",
+          "zhHant": "馭雷伏亂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangyi/skins/skin-48803.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yangyi.json",
+      "groups": "api/v1/tts/characters/yangyi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yangyi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-48803",
+    "name": "驭雷伏乱",
+    "displayName": {
+      "zhHans": "驭雷伏乱",
+      "zhHant": "馭雷伏亂"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/yangyi/skins/skin-48803.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "yangyi--488yangyi--4dead01",
+      "resourceId": "488yangyi/4dead01",
+      "text": "幼主昏聩，群臣无谋，国将亡。",
+      "textLocalized": {
+        "zhHans": "幼主昏聩，群臣无谋，国将亡。",
+        "zhHant": "幼主昏聵，羣臣無謀，國將亡。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48803",
+          "name": "驭雷伏乱",
+          "displayName": {
+            "zhHans": "驭雷伏乱",
+            "zhHant": "馭雷伏亂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--4skill1_1",
+      "resourceId": "488yangyi/4skill1_1",
+      "text": "满堂朱紫，能文者不武，为将者少谋，唯吾兼备。",
+      "textLocalized": {
+        "zhHans": "满堂朱紫，能文者不武，为将者少谋，唯吾兼备。",
+        "zhHant": "滿堂朱紫，能文者不武，爲將者少謀，唯吾兼備。"
+      },
+      "group": {
+        "slug": "spell-3053",
+        "name": "狷狭",
+        "displayName": {
+          "zhHans": "狷狭",
+          "zhHant": "狷狹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48803",
+          "name": "驭雷伏乱",
+          "displayName": {
+            "zhHans": "驭雷伏乱",
+            "zhHant": "馭雷伏亂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--4skill1_2",
+      "resourceId": "488yangyi/4skill1_2",
+      "text": "放之海内，知我者少、同我者无，可谓高处胜寒。",
+      "textLocalized": {
+        "zhHans": "放之海内，知我者少、同我者无，可谓高处胜寒。",
+        "zhHant": "放之海內，知我者少、同我者無，可謂高處勝寒。"
+      },
+      "group": {
+        "slug": "spell-3053",
+        "name": "狷狭",
+        "displayName": {
+          "zhHans": "狷狭",
+          "zhHant": "狷狹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48803",
+          "name": "驭雷伏乱",
+          "displayName": {
+            "zhHans": "驭雷伏乱",
+            "zhHant": "馭雷伏亂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--4skill2_1",
+      "resourceId": "488yangyi/4skill2_1",
+      "text": "奋笔墨为锄，茁大汉以壮、慷国士以慨。",
+      "textLocalized": {
+        "zhHans": "奋笔墨为锄，茁大汉以壮、慷国士以慨。",
+        "zhHant": "奮筆墨爲鋤，茁大漢以壯、慷國士以慨。"
+      },
+      "group": {
+        "slug": "spell-3054",
+        "name": "定措",
+        "displayName": {
+          "zhHans": "定措",
+          "zhHant": "定措"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48803",
+          "name": "驭雷伏乱",
+          "displayName": {
+            "zhHans": "驭雷伏乱",
+            "zhHant": "馭雷伏亂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangyi--488yangyi--4skill2_2",
+      "resourceId": "488yangyi/4skill2_2",
+      "text": "执金戈为尺，定国之方圆、立人之规矩。",
+      "textLocalized": {
+        "zhHans": "执金戈为尺，定国之方圆、立人之规矩。",
+        "zhHant": "執金戈爲尺，定國之方圓、立人之規矩。"
+      },
+      "group": {
+        "slug": "spell-3054",
+        "name": "定措",
+        "displayName": {
+          "zhHans": "定措",
+          "zhHant": "定措"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48803",
+          "name": "驭雷伏乱",
+          "displayName": {
+            "zhHans": "驭雷伏乱",
+            "zhHant": "馭雷伏亂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/488yangyi-466aec14/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/488yangyi/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

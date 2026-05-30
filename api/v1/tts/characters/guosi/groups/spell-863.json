@@ -1,3 +1,414 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a64270702e285b31671a8051badc2a06315ffd44480716c2c8b68089a6f65452
-size 11430
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guosi",
+    "command": "guosi",
+    "name": "郭汜",
+    "displayName": {
+      "zhHans": "郭汜",
+      "zhHant": "郭汜"
+    },
+    "names": [
+      "郭汜"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "郭汜",
+        "zhHant": "郭汜"
+      }
+    ],
+    "ids": [
+      "424"
+    ],
+    "sourceNames": [
+      "郭汜"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "郭汜",
+        "zhHant": "郭汜"
+      }
+    ],
+    "sourceIds": [
+      "424"
+    ],
+    "searchNames": [
+      "guosi",
+      "郭汜"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/guosi/groups/dead.json"
+      },
+      {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guosi/groups/spell-863.json"
+      },
+      {
+        "slug": "spell-864",
+        "name": "伺盗",
+        "displayName": {
+          "zhHans": "伺盗",
+          "zhHant": "伺盜"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guosi/groups/spell-864.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42401",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-42401.json"
+      },
+      {
+        "slug": "skin-42402",
+        "name": "破城劫掠",
+        "displayName": {
+          "zhHans": "破城劫掠",
+          "zhHant": "破城劫掠"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-42402.json"
+      },
+      {
+        "slug": "skin-42403",
+        "name": "鸷狠诡戾",
+        "displayName": {
+          "zhHans": "鸷狠诡戾",
+          "zhHant": "鷙狠詭戾"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-42403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guosi.json",
+      "groups": "api/v1/tts/characters/guosi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guosi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-863",
+    "name": "贪狈",
+    "displayName": {
+      "zhHans": "贪狈",
+      "zhHant": "貪狽"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/guosi/groups/spell-863.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "guosi--424guosi--1skill1_1",
+      "resourceId": "424guosi/1skill1_1",
+      "text": "此机，我怎么会错失？",
+      "textLocalized": {
+        "zhHans": "此机，我怎么会错失？",
+        "zhHant": "此機，我怎麼會錯失？"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--1skill1_2",
+      "resourceId": "424guosi/1skill1_2",
+      "text": "你的东西，现在是我的了！",
+      "textLocalized": {
+        "zhHans": "你的东西，现在是我的了！",
+        "zhHant": "你的東西，現在是我的了！"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--3skill1_1",
+      "resourceId": "424guosi/3skill1_1",
+      "text": "我的，这些都是我的，哈哈哈。",
+      "textLocalized": {
+        "zhHans": "我的，这些都是我的，哈哈哈。",
+        "zhHant": "我的，這些都是我的，哈哈哈。"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42401",
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--3skill1_2",
+      "resourceId": "424guosi/3skill1_2",
+      "text": "已到长安，怎可不拿点再走。",
+      "textLocalized": {
+        "zhHans": "已到长安，怎可不拿点再走。",
+        "zhHant": "已到長安，怎可不拿點再走。"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42401",
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--4skill1_1",
+      "resourceId": "424guosi/4skill1_1",
+      "text": "汝命在我手，留下买命财！",
+      "textLocalized": {
+        "zhHans": "汝命在我手，留下买命财！",
+        "zhHant": "汝命在我手，留下買命財！"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42402",
+          "name": "破城劫掠",
+          "displayName": {
+            "zhHans": "破城劫掠",
+            "zhHant": "破城劫掠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--4skill1_2",
+      "resourceId": "424guosi/4skill1_2",
+      "text": "天狼现世，索命贪财！",
+      "textLocalized": {
+        "zhHans": "天狼现世，索命贪财！",
+        "zhHant": "天狼現世，索命貪財！"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42402",
+          "name": "破城劫掠",
+          "displayName": {
+            "zhHans": "破城劫掠",
+            "zhHant": "破城劫掠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--5skill1_1",
+      "resourceId": "424guosi/5skill1_1",
+      "text": "贪货弃命，不可取也！",
+      "textLocalized": {
+        "zhHans": "贪货弃命，不可取也！",
+        "zhHant": "貪貨棄命，不可取也！"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42403",
+          "name": "鸷狠诡戾",
+          "displayName": {
+            "zhHans": "鸷狠诡戾",
+            "zhHant": "鷙狠詭戾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--5skill1_2",
+      "resourceId": "424guosi/5skill1_2",
+      "text": "左右皆恶，非贪不能存。",
+      "textLocalized": {
+        "zhHans": "左右皆恶，非贪不能存。",
+        "zhHant": "左右皆惡，非貪不能存。"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42403",
+          "name": "鸷狠诡戾",
+          "displayName": {
+            "zhHans": "鸷狠诡戾",
+            "zhHant": "鷙狠詭戾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

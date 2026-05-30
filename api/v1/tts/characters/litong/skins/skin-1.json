@@ -1,3 +1,249 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ba798c195bb6d27df631fd14333f1032cd3e937ab4372af87903f72cfd6092f9
-size 6567
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "litong",
+    "command": "litong",
+    "name": "李通",
+    "displayName": {
+      "zhHans": "李通",
+      "zhHant": "李通"
+    },
+    "names": [
+      "李通"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李通",
+        "zhHant": "李通"
+      }
+    ],
+    "ids": [
+      "364"
+    ],
+    "sourceNames": [
+      "李通"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李通",
+        "zhHant": "李通"
+      }
+    ],
+    "sourceIds": [
+      "364"
+    ],
+    "searchNames": [
+      "litong",
+      "李通"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/litong/groups/dead.json"
+      },
+      {
+        "slug": "spell-290",
+        "name": "推锋",
+        "displayName": {
+          "zhHans": "推锋",
+          "zhHant": "推鋒"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/litong/groups/spell-290.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/litong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-36403",
+        "name": "征南将军",
+        "displayName": {
+          "zhHans": "征南将军",
+          "zhHant": "徵南將軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/litong/skins/skin-36403.json"
+      },
+      {
+        "slug": "skin-36403-36405",
+        "name": "征南将军,破寨攻贼",
+        "displayName": {
+          "zhHans": "征南将军,破寨攻贼",
+          "zhHant": "徵南將軍,破寨攻賊"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/litong/skins/skin-36403-36405.json"
+      },
+      {
+        "slug": "skin-36402",
+        "name": "擐甲推锋",
+        "displayName": {
+          "zhHans": "擐甲推锋",
+          "zhHant": "擐甲推鋒"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/litong/skins/skin-36402.json"
+      },
+      {
+        "slug": "skin-36405",
+        "name": "破寨攻贼",
+        "displayName": {
+          "zhHans": "破寨攻贼",
+          "zhHant": "破寨攻賊"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/litong/skins/skin-36405.json"
+      },
+      {
+        "slug": "skin-36406",
+        "name": "豫州扬威",
+        "displayName": {
+          "zhHans": "豫州扬威",
+          "zhHant": "豫州揚威"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/litong/skins/skin-36406.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/litong.json",
+      "groups": "api/v1/tts/characters/litong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/litong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/litong/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "litong--364litong--1dead01",
+      "resourceId": "364litong/1dead01",
+      "text": "战死杀场，快哉……",
+      "textLocalized": {
+        "zhHans": "战死杀场，快哉……",
+        "zhHant": "戰死殺場，快哉……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/364litong-590b9857/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/364litong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "litong--364litong--1skill1_1",
+      "resourceId": "364litong/1skill1_1",
+      "text": "摧锋陷阵，以杀贼首！",
+      "textLocalized": {
+        "zhHans": "摧锋陷阵，以杀贼首！",
+        "zhHant": "摧鋒陷陣，以殺賊首！"
+      },
+      "group": {
+        "slug": "spell-290",
+        "name": "推锋",
+        "displayName": {
+          "zhHans": "推锋",
+          "zhHant": "推鋒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/364litong-590b9857/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/364litong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "litong--364litong--1skill1_2",
+      "resourceId": "364litong/1skill1_2",
+      "text": "敌锋之锐，我已尽知！",
+      "textLocalized": {
+        "zhHans": "敌锋之锐，我已尽知！",
+        "zhHant": "敵鋒之銳，我已盡知！"
+      },
+      "group": {
+        "slug": "spell-290",
+        "name": "推锋",
+        "displayName": {
+          "zhHans": "推锋",
+          "zhHant": "推鋒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/364litong-590b9857/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/364litong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

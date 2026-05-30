@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1b6935c6799d72e43cace4606c27045e9c17e1f0763264aa37fbc69ecfa77e8e
-size 8012
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenzhangliao",
+    "command": "shenzhangliao",
+    "name": "神张辽",
+    "displayName": {
+      "zhHans": "神张辽",
+      "zhHant": "神張遼"
+    },
+    "names": [
+      "神张辽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神张辽",
+        "zhHant": "神張遼"
+      }
+    ],
+    "ids": [
+      "225"
+    ],
+    "sourceNames": [
+      "神张辽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神张辽",
+        "zhHant": "神張遼"
+      }
+    ],
+    "sourceIds": [
+      "225"
+    ],
+    "searchNames": [
+      "shenzhangliao",
+      "神张辽",
+      "神張遼"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/groups/dead.json"
+      },
+      {
+        "slug": "spell-923",
+        "name": "夺锐",
+        "displayName": {
+          "zhHans": "夺锐",
+          "zhHant": "奪銳"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/groups/spell-923.json"
+      },
+      {
+        "slug": "spell-924",
+        "name": "止啼",
+        "displayName": {
+          "zhHans": "止啼",
+          "zhHant": "止啼"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/groups/spell-924.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-22501",
+        "name": "夺锐争锋",
+        "displayName": {
+          "zhHans": "夺锐争锋",
+          "zhHant": "奪銳爭鋒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenzhangliao/skins/skin-22501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenzhangliao.json",
+      "groups": "api/v1/tts/characters/shenzhangliao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenzhangliao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/shenzhangliao/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "shenzhangliao--225shenzhangliao--1dead01",
+      "resourceId": "225shenzhangliao/1dead01",
+      "text": "我也有被孙仲谋所伤之时？",
+      "textLocalized": {
+        "zhHans": "我也有被孙仲谋所伤之时？",
+        "zhHant": "我也有被孫仲謀所傷之時？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/225shenzhangliao-8bf6546c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/225shenzhangliao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangliao--225shenzhangliao--1skill1_1",
+      "resourceId": "225shenzhangliao/1skill1_1",
+      "text": "夺敌军锐气，杀敌方士气。",
+      "textLocalized": {
+        "zhHans": "夺敌军锐气，杀敌方士气。",
+        "zhHant": "奪敵軍銳氣，殺敵方士氣。"
+      },
+      "group": {
+        "slug": "spell-923",
+        "name": "夺锐",
+        "displayName": {
+          "zhHans": "夺锐",
+          "zhHant": "奪銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/225shenzhangliao-8bf6546c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/225shenzhangliao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangliao--225shenzhangliao--1skill1_2",
+      "resourceId": "225shenzhangliao/1skill1_2",
+      "text": "尖锐之势，吾亦可一人夺之。",
+      "textLocalized": {
+        "zhHans": "尖锐之势，吾亦可一人夺之。",
+        "zhHant": "尖銳之勢，吾亦可一人奪之。"
+      },
+      "group": {
+        "slug": "spell-923",
+        "name": "夺锐",
+        "displayName": {
+          "zhHans": "夺锐",
+          "zhHant": "奪銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/225shenzhangliao-8bf6546c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/225shenzhangliao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangliao--225shenzhangliao--1skill2_1",
+      "resourceId": "225shenzhangliao/1skill2_1",
+      "text": "娃闻名止啼，孙损十万休。",
+      "textLocalized": {
+        "zhHans": "娃闻名止啼，孙损十万休。",
+        "zhHant": "娃聞名止啼，孫損十萬休。"
+      },
+      "group": {
+        "slug": "spell-924",
+        "name": "止啼",
+        "displayName": {
+          "zhHans": "止啼",
+          "zhHant": "止啼"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/225shenzhangliao-8bf6546c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/225shenzhangliao/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhangliao--225shenzhangliao--1skill2_2",
+      "resourceId": "225shenzhangliao/1skill2_2",
+      "text": "江东小儿安敢啼哭？",
+      "textLocalized": {
+        "zhHans": "江东小儿安敢啼哭？",
+        "zhHant": "江東小兒安敢啼哭？"
+      },
+      "group": {
+        "slug": "spell-924",
+        "name": "止啼",
+        "displayName": {
+          "zhHans": "止啼",
+          "zhHant": "止啼"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/225shenzhangliao-8bf6546c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/225shenzhangliao/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

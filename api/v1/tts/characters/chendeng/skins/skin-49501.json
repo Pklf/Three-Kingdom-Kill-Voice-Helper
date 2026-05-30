@@ -1,3 +1,320 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:69c91c23d371c3fe49b2e5080667a676ec5abae8ca703c6e68b117db6641d2ff
-size 8893
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chendeng",
+    "command": "chendeng",
+    "name": "陈登",
+    "displayName": {
+      "zhHans": "陈登",
+      "zhHant": "陳登"
+    },
+    "names": [
+      "陈登"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈登",
+        "zhHant": "陳登"
+      }
+    ],
+    "ids": [
+      "495"
+    ],
+    "sourceNames": [
+      "陈登"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈登",
+        "zhHant": "陳登"
+      }
+    ],
+    "sourceIds": [
+      "495"
+    ],
+    "searchNames": [
+      "chendeng",
+      "陈登",
+      "陳登"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-3530",
+        "name": "丰积",
+        "displayName": {
+          "zhHans": "丰积",
+          "zhHant": "豐積"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chendeng/groups/spell-3530.json"
+      },
+      {
+        "slug": "spell-3531",
+        "name": "旋回",
+        "displayName": {
+          "zhHans": "旋回",
+          "zhHant": "旋迴"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chendeng/groups/spell-3531.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "49504",
+        "name": "49504",
+        "displayName": {
+          "zhHans": "49504",
+          "zhHant": "49504"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/49504.json"
+      },
+      {
+        "slug": "skin-49502",
+        "name": "举樽贺穗",
+        "displayName": {
+          "zhHans": "举樽贺穗",
+          "zhHant": "舉樽賀穗"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/skin-49502.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49503",
+        "name": "扶摇观鱼",
+        "displayName": {
+          "zhHans": "扶摇观鱼",
+          "zhHant": "扶搖觀魚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/skin-49503.json"
+      },
+      {
+        "slug": "skin-49501",
+        "name": "火燃迷敌",
+        "displayName": {
+          "zhHans": "火燃迷敌",
+          "zhHant": "火燃迷敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chendeng/skins/skin-49501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chendeng.json",
+      "groups": "api/v1/tts/characters/chendeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chendeng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-49501",
+    "name": "火燃迷敌",
+    "displayName": {
+      "zhHans": "火燃迷敌",
+      "zhHant": "火燃迷敵"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chendeng/skins/skin-49501.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chendeng--495chendeng--2dead01",
+      "resourceId": "495chendeng/2dead01",
+      "text": "大争之世，怎可无我？",
+      "textLocalized": {
+        "zhHans": "大争之世，怎可无我？",
+        "zhHant": "大爭之世，怎可無我？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49501",
+          "name": "火燃迷敌",
+          "displayName": {
+            "zhHans": "火燃迷敌",
+            "zhHant": "火燃迷敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendeng--495chendeng--2skill1_1",
+      "resourceId": "495chendeng/2skill1_1",
+      "text": "不舍春种之粟，何来秋收之喜？",
+      "textLocalized": {
+        "zhHans": "不舍春种之粟，何来秋收之喜？",
+        "zhHant": "不捨春種之粟，何來秋收之喜？"
+      },
+      "group": {
+        "slug": "spell-3530",
+        "name": "丰积",
+        "displayName": {
+          "zhHans": "丰积",
+          "zhHant": "豐積"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49501",
+          "name": "火燃迷敌",
+          "displayName": {
+            "zhHans": "火燃迷敌",
+            "zhHant": "火燃迷敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendeng--495chendeng--2skill1_2",
+      "resourceId": "495chendeng/2skill1_2",
+      "text": "古语云：积善之家，必有余庆。",
+      "textLocalized": {
+        "zhHans": "古语云：积善之家，必有余庆。",
+        "zhHant": "古語云：積善之家，必有餘慶。"
+      },
+      "group": {
+        "slug": "spell-3530",
+        "name": "丰积",
+        "displayName": {
+          "zhHans": "丰积",
+          "zhHant": "豐積"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49501",
+          "name": "火燃迷敌",
+          "displayName": {
+            "zhHans": "火燃迷敌",
+            "zhHant": "火燃迷敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendeng--495chendeng--2skill2_1",
+      "resourceId": "495chendeng/2skill2_1",
+      "text": "登是敌是友，君侯此时还不明白吗？",
+      "textLocalized": {
+        "zhHans": "登是敌是友，君侯此时还不明白吗？",
+        "zhHant": "登是敵是友，君侯此時還不明白嗎？"
+      },
+      "group": {
+        "slug": "spell-3531",
+        "name": "旋回",
+        "displayName": {
+          "zhHans": "旋回",
+          "zhHant": "旋迴"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49501",
+          "name": "火燃迷敌",
+          "displayName": {
+            "zhHans": "火燃迷敌",
+            "zhHant": "火燃迷敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chendeng--495chendeng--2skill2_2",
+      "resourceId": "495chendeng/2skill2_2",
+      "text": "温侯别来无恙？某特来取汝性命！",
+      "textLocalized": {
+        "zhHans": "温侯别来无恙？某特来取汝性命！",
+        "zhHant": "溫侯別來無恙？某特來取汝性命！"
+      },
+      "group": {
+        "slug": "spell-3531",
+        "name": "旋回",
+        "displayName": {
+          "zhHans": "旋回",
+          "zhHant": "旋迴"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49501",
+          "name": "火燃迷敌",
+          "displayName": {
+            "zhHans": "火燃迷敌",
+            "zhHant": "火燃迷敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/495chendeng-0b3661e4/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/495chendeng/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,239 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:39710e4ab12416dc67fcd0dc265e1bafe9a32eae534f7024087abc0d649e3d22
-size 6352
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhuzhi",
+    "command": "zhuzhi",
+    "name": "朱治",
+    "displayName": {
+      "zhHans": "朱治",
+      "zhHant": "朱治"
+    },
+    "names": [
+      "朱治"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "朱治",
+        "zhHant": "朱治"
+      }
+    ],
+    "ids": [
+      "339"
+    ],
+    "sourceNames": [
+      "朱治"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "朱治",
+        "zhHant": "朱治"
+      }
+    ],
+    "sourceIds": [
+      "339"
+    ],
+    "searchNames": [
+      "zhuzhi",
+      "朱治"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhuzhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-745",
+        "name": "安国",
+        "displayName": {
+          "zhHans": "安国",
+          "zhHant": "安國"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhuzhi/groups/spell-745.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-33903",
+        "name": "安国兴邦",
+        "displayName": {
+          "zhHans": "安国兴邦",
+          "zhHant": "安國興邦"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-33903.json"
+      },
+      {
+        "slug": "skin-33901",
+        "name": "安国将军",
+        "displayName": {
+          "zhHans": "安国将军",
+          "zhHant": "安國將軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-33901.json"
+      },
+      {
+        "slug": "skin-33904",
+        "name": "征讨夷越",
+        "displayName": {
+          "zhHans": "征讨夷越",
+          "zhHant": "征討夷越"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-33904.json"
+      },
+      {
+        "slug": "skin-33905",
+        "name": "靖澜定远",
+        "displayName": {
+          "zhHans": "靖澜定远",
+          "zhHant": "靖瀾定遠"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-33905.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhuzhi.json",
+      "groups": "api/v1/tts/characters/zhuzhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhuzhi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-33905",
+    "name": "靖澜定远",
+    "displayName": {
+      "zhHans": "靖澜定远",
+      "zhHant": "靖瀾定遠"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-33905.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "zhuzhi--339zhuzhi--6dead01",
+      "resourceId": "339zhuzhi/6dead01",
+      "text": "臣，再也护不了主公周全了。",
+      "textLocalized": {
+        "zhHans": "臣，再也护不了主公周全了。",
+        "zhHant": "臣，再也護不了主公周全了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33905",
+          "name": "靖澜定远",
+          "displayName": {
+            "zhHans": "靖澜定远",
+            "zhHant": "靖瀾定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/339zhuzhi-882f27d2/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/339zhuzhi/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuzhi--339zhuzhi--6skill1_1",
+      "resourceId": "339zhuzhi/6skill1_1",
+      "text": "缮甲修戈，力挽狂澜！",
+      "textLocalized": {
+        "zhHans": "缮甲修戈，力挽狂澜！",
+        "zhHant": "繕甲修戈，力挽狂瀾！"
+      },
+      "group": {
+        "slug": "spell-745",
+        "name": "安国",
+        "displayName": {
+          "zhHans": "安国",
+          "zhHant": "安國"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33905",
+          "name": "靖澜定远",
+          "displayName": {
+            "zhHans": "靖澜定远",
+            "zhHant": "靖瀾定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/339zhuzhi-882f27d2/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/339zhuzhi/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuzhi--339zhuzhi--6skill1_2",
+      "resourceId": "339zhuzhi/6skill1_2",
+      "text": "柱国之石，匡毅辅正！",
+      "textLocalized": {
+        "zhHans": "柱国之石，匡毅辅正！",
+        "zhHant": "柱國之石，匡毅輔正！"
+      },
+      "group": {
+        "slug": "spell-745",
+        "name": "安国",
+        "displayName": {
+          "zhHans": "安国",
+          "zhHant": "安國"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33905",
+          "name": "靖澜定远",
+          "displayName": {
+            "zhHans": "靖澜定远",
+            "zhHant": "靖瀾定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/339zhuzhi-882f27d2/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/339zhuzhi/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

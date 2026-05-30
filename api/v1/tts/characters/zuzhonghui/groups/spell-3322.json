@@ -1,3 +1,705 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f65e57b6ba84586fc0b8f56dc94cd195aeb4b06a4fd21e88c6660774ea63c36c
-size 20906
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zuzhonghui",
+    "command": "zuzhonghui",
+    "name": "族钟会",
+    "displayName": {
+      "zhHans": "族钟会",
+      "zhHant": "族鍾會"
+    },
+    "names": [
+      "族钟会"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟会",
+        "zhHant": "族鍾會"
+      }
+    ],
+    "ids": [
+      "567"
+    ],
+    "sourceNames": [
+      "族钟会"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟会",
+        "zhHant": "族鍾會"
+      }
+    ],
+    "sourceIds": [
+      "567"
+    ],
+    "searchNames": [
+      "zuzhonghui",
+      "族钟会",
+      "族鍾會"
+    ],
+    "lineCount": 56,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 16,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        },
+        "lineCount": 16,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3322.json"
+      },
+      {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        },
+        "lineCount": 16,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3323.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "56703",
+        "name": "56703",
+        "displayName": {
+          "zhHans": "56703",
+          "zhHant": "56703"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/56703.json"
+      },
+      {
+        "slug": "skin-56701",
+        "name": "一将功成",
+        "displayName": {
+          "zhHans": "一将功成",
+          "zhHant": "一將功成"
+        },
+        "lineCount": 21,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-56701.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 21,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-56702",
+        "name": "金兰共战",
+        "displayName": {
+          "zhHans": "金兰共战",
+          "zhHant": "金蘭共戰"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-56702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zuzhonghui.json",
+      "groups": "api/v1/tts/characters/zuzhonghui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zuzhonghui/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3322",
+    "name": "迂志",
+    "displayName": {
+      "zhHans": "迂志",
+      "zhHant": "迂志"
+    },
+    "lineCount": 16,
+    "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3322.json"
+  },
+  "lineCount": 16,
+  "lines": [
+    {
+      "id": "zuzhonghui--567zuzhonghui--4skill1_1",
+      "resourceId": "567zuzhonghui/4skill1_1",
+      "text": "既已功高盖主，何妨冕服加身？",
+      "textLocalized": {
+        "zhHans": "既已功高盖主，何妨冕服加身？",
+        "zhHant": "既已功高蓋主，何妨冕服加身？"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "56703",
+          "name": "56703",
+          "displayName": {
+            "zhHans": "56703",
+            "zhHant": "56703"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--4skill1_2",
+      "resourceId": "567zuzhonghui/4skill1_2",
+      "text": "天下大势无常，钟某亦可为王！",
+      "textLocalized": {
+        "zhHans": "天下大势无常，钟某亦可为王！",
+        "zhHant": "天下大勢無常，鍾某亦可爲王！"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "56703",
+          "name": "56703",
+          "displayName": {
+            "zhHans": "56703",
+            "zhHant": "56703"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill1_1",
+      "resourceId": "567zuzhonghui/2skill1_1",
+      "text": "人（四声）不能当老末，要争第一！",
+      "textLocalized": {
+        "zhHans": "人（四声）不能当老末，要争第一！",
+        "zhHant": "人（四聲）不能當老末，要爭第一！"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill1_2",
+      "resourceId": "567zuzhonghui/2skill1_2",
+      "text": "这些小家雀，哪里知道老鹰能飞那么高。",
+      "textLocalized": {
+        "zhHans": "这些小家雀，哪里知道老鹰能飞那么高。",
+        "zhHant": "這些小家雀，哪裏知道老鷹能飛那麼高。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill1_3",
+      "resourceId": "567zuzhonghui/2skill1_3",
+      "text": "人生于世，富贵于浮云尔，唯愿留名千古。",
+      "textLocalized": {
+        "zhHans": "人生于世，富贵于浮云尔，唯愿留名千古。",
+        "zhHant": "人生於世，富貴於浮雲爾，唯願留名千古。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill1-3-f96f1898.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill1_3.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill1_4",
+      "resourceId": "567zuzhonghui/2skill1_4",
+      "text": "世间倥偬几十载，彼可为功名，我亦可为之。",
+      "textLocalized": {
+        "zhHans": "世间倥偬几十载，彼可为功名，我亦可为之。",
+        "zhHant": "世間倥傯幾十載，彼可爲功名，我亦可爲之。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill1-4-22dbc826.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill1_4.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill1_5",
+      "resourceId": "567zuzhonghui/2skill1_5",
+      "text": "燕雀安知鸿鹄之志哉！",
+      "textLocalized": {
+        "zhHans": "燕雀安知鸿鹄之志哉！",
+        "zhHant": "燕雀安知鴻鵠之志哉！"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill1-5-bcac2d40.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill1_5.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--2skill1_6",
+      "resourceId": "567zuzhonghui/2skill1_6",
+      "text": "蛇可吞象，我钟会亦可吞天食地！",
+      "textLocalized": {
+        "zhHans": "蛇可吞象，我钟会亦可吞天食地！",
+        "zhHant": "蛇可吞象，我鍾會亦可吞天食地！"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56701",
+          "name": "一将功成",
+          "displayName": {
+            "zhHans": "一将功成",
+            "zhHant": "一將功成"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/2skill1-6-1ab69c69.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/2skill1_6.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill1_1",
+      "resourceId": "567zuzhonghui/1skill1_1",
+      "text": "风水轮流转，轮到我钟某问鼎重几何了。",
+      "textLocalized": {
+        "zhHans": "风水轮流转，轮到我钟某问鼎重几何了。",
+        "zhHant": "風水輪流轉，輪到我鍾某問鼎重幾何了。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill1_2",
+      "resourceId": "567zuzhonghui/1skill1_2",
+      "text": "空将宝地赠他人，某怎会心甘情愿？",
+      "textLocalized": {
+        "zhHans": "空将宝地赠他人，某怎会心甘情愿？",
+        "zhHant": "空將寶地贈他人，某怎會心甘情願？"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill1_3",
+      "resourceId": "567zuzhonghui/1skill1_3",
+      "text": "入宝山而空手回，其与匹夫何异？",
+      "textLocalized": {
+        "zhHans": "入宝山而空手回，其与匹夫何异？",
+        "zhHant": "入寶山而空手回，其與匹夫何異？"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill1-3-ac42c22e.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill1_3.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill1_4",
+      "resourceId": "567zuzhonghui/1skill1_4",
+      "text": "天降大任于斯，不受必遭其殃。",
+      "textLocalized": {
+        "zhHans": "天降大任于斯，不受必遭其殃。",
+        "zhHant": "天降大任於斯，不受必遭其殃。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill1-4-bb548a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill1_4.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill1_5",
+      "resourceId": "567zuzhonghui/1skill1_5",
+      "text": "汉鹿已失，魏牛犹在，吾欲执其耳。",
+      "textLocalized": {
+        "zhHans": "汉鹿已失，魏牛犹在，吾欲执其耳。",
+        "zhHant": "漢鹿已失，魏牛猶在，吾欲執其耳。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill1-5-bb9671e4.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill1_5.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--1skill1_6",
+      "resourceId": "567zuzhonghui/1skill1_6",
+      "text": "我欲行夏禹旧事，为天下人。",
+      "textLocalized": {
+        "zhHans": "我欲行夏禹旧事，为天下人。",
+        "zhHant": "我欲行夏禹舊事，爲天下人。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/1skill1-6-0dba9f9a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/1skill1_6.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill1_1",
+      "resourceId": "567zuzhonghui/3skill1_1",
+      "text": "与君相逢恨晚，数语难道天下谊。",
+      "textLocalized": {
+        "zhHans": "与君相逢恨晚，数语难道天下谊。",
+        "zhHant": "與君相逢恨晚，數語難道天下誼。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill1_2",
+      "resourceId": "567zuzhonghui/3skill1_2",
+      "text": "会不轻易信人，唯不疑伯约。",
+      "textLocalized": {
+        "zhHans": "会不轻易信人，唯不疑伯约。",
+        "zhHant": "會不輕易信人，唯不疑伯約。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

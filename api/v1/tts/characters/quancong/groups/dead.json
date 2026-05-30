@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5af4f833fbe847f0f487e4b88c124e9cc63d2c1f8d6bc79f8b7459db2774e68b
-size 8229
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "quancong",
+    "command": "quancong",
+    "name": "全琮",
+    "displayName": {
+      "zhHans": "全琮",
+      "zhHant": "全琮"
+    },
+    "names": [
+      "全琮"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "全琮",
+        "zhHant": "全琮"
+      }
+    ],
+    "ids": [
+      "340"
+    ],
+    "sourceNames": [
+      "全琮"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "全琮",
+        "zhHant": "全琮"
+      }
+    ],
+    "sourceIds": [
+      "340"
+    ],
+    "searchNames": [
+      "quancong",
+      "全琮"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/quancong/groups/dead.json"
+      },
+      {
+        "slug": "spell-759",
+        "name": "邀名",
+        "displayName": {
+          "zhHans": "邀名",
+          "zhHant": "邀名"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/quancong/groups/spell-759.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-34002",
+        "name": "临阵献策",
+        "displayName": {
+          "zhHans": "临阵献策",
+          "zhHant": "臨陣獻策"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34002.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34004",
+        "name": "名门公子",
+        "displayName": {
+          "zhHans": "名门公子",
+          "zhHant": "名門公子"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34004.json"
+      },
+      {
+        "slug": "skin-34003",
+        "name": "睟面盎背",
+        "displayName": {
+          "zhHans": "睟面盎背",
+          "zhHant": "睟面盎背"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34003.json"
+      },
+      {
+        "slug": "skin-34003-34004",
+        "name": "睟面盎背,名门公子",
+        "displayName": {
+          "zhHans": "睟面盎背,名门公子",
+          "zhHant": "睟面盎背,名門公子"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34003-34004.json"
+      },
+      {
+        "slug": "skin-34005",
+        "name": "福国利民",
+        "displayName": {
+          "zhHans": "福国利民",
+          "zhHant": "福國利民"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34005.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/quancong.json",
+      "groups": "api/v1/tts/characters/quancong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/quancong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/quancong/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "quancong--340quancong--3dead01",
+      "resourceId": "340quancong/3dead01",
+      "text": "患难可共济，生死不同当……",
+      "textLocalized": {
+        "zhHans": "患难可共济，生死不同当……",
+        "zhHant": "患難可共濟，生死不同當……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34002",
+          "name": "临阵献策",
+          "displayName": {
+            "zhHans": "临阵献策",
+            "zhHant": "臨陣獻策"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/340quancong-88db393f/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/340quancong/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quancong--340quancong--1dead01",
+      "resourceId": "340quancong/1dead01",
+      "text": "儿啊~好好报答吴王知遇之恩……",
+      "textLocalized": {
+        "zhHans": "儿啊~好好报答吴王知遇之恩……",
+        "zhHant": "兒啊~好好報答吳王知遇之恩……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/340quancong-88db393f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/340quancong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quancong--340quancong--4dead01",
+      "resourceId": "340quancong/4dead01",
+      "text": "劳民伤财之事，何必呢？",
+      "textLocalized": {
+        "zhHans": "劳民伤财之事，何必呢？",
+        "zhHant": "勞民傷財之事，何必呢？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34004",
+          "name": "名门公子",
+          "displayName": {
+            "zhHans": "名门公子",
+            "zhHant": "名門公子"
+          }
+        },
+        {
+          "slug": "skin-34003",
+          "name": "睟面盎背",
+          "displayName": {
+            "zhHans": "睟面盎背",
+            "zhHant": "睟面盎背"
+          }
+        },
+        {
+          "slug": "skin-34003-34004",
+          "name": "睟面盎背,名门公子",
+          "displayName": {
+            "zhHans": "睟面盎背,名门公子",
+            "zhHant": "睟面盎背,名門公子"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/340quancong-88db393f/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/340quancong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quancong--340quancong--5dead01",
+      "resourceId": "340quancong/5dead01",
+      "text": "且食我肉，勿食百姓之谷！",
+      "textLocalized": {
+        "zhHans": "且食我肉，勿食百姓之谷！",
+        "zhHant": "且食我肉，勿食百姓之谷！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34005",
+          "name": "福国利民",
+          "displayName": {
+            "zhHans": "福国利民",
+            "zhHant": "福國利民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/340quancong-88db393f/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/340quancong/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

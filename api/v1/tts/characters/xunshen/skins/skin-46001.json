@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f12e4d142b5a39991448e5e3c152eb06a540ae5e3cf667af630af216c684eb41
-size 8330
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xunshen",
+    "command": "xunshen",
+    "name": "荀谌",
+    "displayName": {
+      "zhHans": "荀谌",
+      "zhHant": "荀諶"
+    },
+    "names": [
+      "荀谌"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "荀谌",
+        "zhHant": "荀諶"
+      }
+    ],
+    "ids": [
+      "460"
+    ],
+    "sourceNames": [
+      "荀谌"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "荀谌",
+        "zhHant": "荀諶"
+      }
+    ],
+    "sourceIds": [
+      "460"
+    ],
+    "searchNames": [
+      "xunshen",
+      "荀谌",
+      "荀諶"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xunshen/groups/dead.json"
+      },
+      {
+        "slug": "spell-1189",
+        "name": "锋略",
+        "displayName": {
+          "zhHans": "锋略",
+          "zhHant": "鋒略"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshen/groups/spell-1189.json"
+      },
+      {
+        "slug": "spell-1190",
+        "name": "谋识",
+        "displayName": {
+          "zhHans": "谋识",
+          "zhHant": "謀識"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshen/groups/spell-1190.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-46001",
+        "name": "乱世谋主",
+        "displayName": {
+          "zhHans": "乱世谋主",
+          "zhHant": "亂世謀主"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunshen/skins/skin-46001.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunshen/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46002",
+        "name": "挥兵方寸",
+        "displayName": {
+          "zhHans": "挥兵方寸",
+          "zhHant": "揮兵方寸"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunshen/skins/skin-46002.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xunshen.json",
+      "groups": "api/v1/tts/characters/xunshen/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xunshen/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-46001",
+    "name": "乱世谋主",
+    "displayName": {
+      "zhHans": "乱世谋主",
+      "zhHant": "亂世謀主"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/xunshen/skins/skin-46001.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "xunshen--460xunshen--2dead01",
+      "resourceId": "460xunshen/2dead01",
+      "text": "忠志之士，岂有言降之理？",
+      "textLocalized": {
+        "zhHans": "忠志之士，岂有言降之理？",
+        "zhHant": "忠志之士，豈有言降之理？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46001",
+          "name": "乱世谋主",
+          "displayName": {
+            "zhHans": "乱世谋主",
+            "zhHant": "亂世謀主"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshen--460xunshen--2skill1_1",
+      "resourceId": "460xunshen/2skill1_1",
+      "text": "冀州兵势惶惶，焉有不胜之理？",
+      "textLocalized": {
+        "zhHans": "冀州兵势惶惶，焉有不胜之理？",
+        "zhHant": "冀州兵勢惶惶，焉有不勝之理？"
+      },
+      "group": {
+        "slug": "spell-1189",
+        "name": "锋略",
+        "displayName": {
+          "zhHans": "锋略",
+          "zhHant": "鋒略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46001",
+          "name": "乱世谋主",
+          "displayName": {
+            "zhHans": "乱世谋主",
+            "zhHant": "亂世謀主"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshen--460xunshen--2skill1_2",
+      "resourceId": "460xunshen/2skill1_2",
+      "text": "较谋竞智，尔等欲与我比试一二乎？",
+      "textLocalized": {
+        "zhHans": "较谋竞智，尔等欲与我比试一二乎？",
+        "zhHant": "較謀競智，爾等欲與我比試一二乎？"
+      },
+      "group": {
+        "slug": "spell-1189",
+        "name": "锋略",
+        "displayName": {
+          "zhHans": "锋略",
+          "zhHant": "鋒略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46001",
+          "name": "乱世谋主",
+          "displayName": {
+            "zhHans": "乱世谋主",
+            "zhHant": "亂世謀主"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshen--460xunshen--2skill2_1",
+      "resourceId": "460xunshen/2skill2_1",
+      "text": "我识卿之才，愿佐之，勿相负。",
+      "textLocalized": {
+        "zhHans": "我识卿之才，愿佐之，勿相负。",
+        "zhHant": "我識卿之才，願佐之，勿相負。"
+      },
+      "group": {
+        "slug": "spell-1190",
+        "name": "谋识",
+        "displayName": {
+          "zhHans": "谋识",
+          "zhHant": "謀識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46001",
+          "name": "乱世谋主",
+          "displayName": {
+            "zhHans": "乱世谋主",
+            "zhHant": "亂世謀主"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshen--460xunshen--2skill2_2",
+      "resourceId": "460xunshen/2skill2_2",
+      "text": "愿以满腹谋略为缰，为将军牵马执鞭。",
+      "textLocalized": {
+        "zhHans": "愿以满腹谋略为缰，为将军牵马执鞭。",
+        "zhHant": "願以滿腹謀略爲繮，爲將軍牽馬執鞭。"
+      },
+      "group": {
+        "slug": "spell-1190",
+        "name": "谋识",
+        "displayName": {
+          "zhHans": "谋识",
+          "zhHant": "謀識"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46001",
+          "name": "乱世谋主",
+          "displayName": {
+            "zhHans": "乱世谋主",
+            "zhHant": "亂世謀主"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/460xunshen-7d589d09/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/460xunshen/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ef4babbb1a64f1d5b5d7dffd1ce376b338e2b92ce47391e0d135208e0aa67053
-size 7327
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhanghuyuelin",
+    "command": "zhanghuyuelin",
+    "name": "张虎乐綝",
+    "displayName": {
+      "zhHans": "张虎乐綝",
+      "zhHant": "張虎樂綝"
+    },
+    "names": [
+      "张虎乐綝"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张虎乐綝",
+        "zhHant": "張虎樂綝"
+      }
+    ],
+    "ids": [
+      "7000"
+    ],
+    "sourceNames": [
+      "张虎乐綝"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张虎乐綝",
+        "zhHant": "張虎樂綝"
+      }
+    ],
+    "sourceIds": [
+      "7000"
+    ],
+    "searchNames": [
+      "zhanghuyuelin",
+      "张虎乐綝",
+      "張虎樂綝"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/dead.json"
+      },
+      {
+        "slug": "spell-2100",
+        "name": "骁果",
+        "displayName": {
+          "zhHans": "骁果",
+          "zhHant": "驍果"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/spell-2100.json"
+      },
+      {
+        "slug": "spell-44",
+        "name": "突袭",
+        "displayName": {
+          "zhHans": "突袭",
+          "zhHant": "突襲"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/spell-44.json"
+      },
+      {
+        "slug": "spell-7000",
+        "name": "袭爵",
+        "displayName": {
+          "zhHans": "袭爵",
+          "zhHant": "襲爵"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/spell-7000.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-700002",
+        "name": "与子同袍",
+        "displayName": {
+          "zhHans": "与子同袍",
+          "zhHant": "與子同袍"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/skins/skin-700002.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghuyuelin/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhanghuyuelin.json",
+      "groups": "api/v1/tts/characters/zhanghuyuelin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhanghuyuelin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-44",
+    "name": "突袭",
+    "displayName": {
+      "zhHans": "突袭",
+      "zhHant": "突襲"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhanghuyuelin/groups/spell-44.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhanghuyuelin--7000zhanghuyuelin--2skill2_1",
+      "resourceId": "7000zhanghuyuelin/2skill2_1",
+      "text": "出奇制胜，才能打敌措手不及。",
+      "textLocalized": {
+        "zhHans": "出奇制胜，才能打敌措手不及。",
+        "zhHant": "出奇制勝，才能打敵措手不及。"
+      },
+      "group": {
+        "slug": "spell-44",
+        "name": "突袭",
+        "displayName": {
+          "zhHans": "突袭",
+          "zhHant": "突襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700002",
+          "name": "与子同袍",
+          "displayName": {
+            "zhHans": "与子同袍",
+            "zhHant": "與子同袍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7000zhanghuyuelin-3ef806c0/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7000zhanghuyuelin/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghuyuelin--7000zhanghuyuelin--2skill2_2",
+      "resourceId": "7000zhanghuyuelin/2skill2_2",
+      "text": "这牌，现在归我了。",
+      "textLocalized": {
+        "zhHans": "这牌，现在归我了。",
+        "zhHant": "這牌，現在歸我了。"
+      },
+      "group": {
+        "slug": "spell-44",
+        "name": "突袭",
+        "displayName": {
+          "zhHans": "突袭",
+          "zhHant": "突襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700002",
+          "name": "与子同袍",
+          "displayName": {
+            "zhHans": "与子同袍",
+            "zhHant": "與子同袍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7000zhanghuyuelin-3ef806c0/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7000zhanghuyuelin/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghuyuelin--7000zhanghuyuelin--1skill2_1",
+      "resourceId": "7000zhanghuyuelin/1skill2_1",
+      "text": "动如霹雳，威震枭首！",
+      "textLocalized": {
+        "zhHans": "动如霹雳，威震枭首！",
+        "zhHant": "動如霹靂，威震梟首！"
+      },
+      "group": {
+        "slug": "spell-44",
+        "name": "突袭",
+        "displayName": {
+          "zhHans": "突袭",
+          "zhHant": "突襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7000zhanghuyuelin-3ef806c0/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7000zhanghuyuelin/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghuyuelin--7000zhanghuyuelin--1skill2_2",
+      "resourceId": "7000zhanghuyuelin/1skill2_2",
+      "text": "行略如风，摧枯拉朽！",
+      "textLocalized": {
+        "zhHans": "行略如风，摧枯拉朽！",
+        "zhHant": "行略如風，摧枯拉朽！"
+      },
+      "group": {
+        "slug": "spell-44",
+        "name": "突袭",
+        "displayName": {
+          "zhHans": "突袭",
+          "zhHant": "突襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7000zhanghuyuelin-3ef806c0/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7000zhanghuyuelin/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

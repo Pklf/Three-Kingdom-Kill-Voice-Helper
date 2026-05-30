@@ -1,3 +1,415 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:70b357ecc1755dfc1ea5fb848740eec356d1d56d137107c3bc12b38a0204ea24
-size 12016
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tengfanglan",
+    "command": "tengfanglan",
+    "name": "滕芳兰",
+    "displayName": {
+      "zhHans": "滕芳兰",
+      "zhHant": "滕芳蘭"
+    },
+    "names": [
+      "滕芳兰"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "滕芳兰",
+        "zhHant": "滕芳蘭"
+      }
+    ],
+    "ids": [
+      "500"
+    ],
+    "sourceNames": [
+      "滕芳兰"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "滕芳兰",
+        "zhHant": "滕芳蘭"
+      }
+    ],
+    "sourceIds": [
+      "500"
+    ],
+    "searchNames": [
+      "tengfanglan",
+      "滕芳兰",
+      "滕芳蘭"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tengfanglan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tengfanglan/groups/spell-3093.json"
+      },
+      {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tengfanglan/groups/spell-3094.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50003",
+        "name": "拈花靛情",
+        "displayName": {
+          "zhHans": "拈花靛情",
+          "zhHant": "拈花靛情"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50003.json"
+      },
+      {
+        "slug": "skin-50002",
+        "name": "百鸟闻弦",
+        "displayName": {
+          "zhHans": "百鸟闻弦",
+          "zhHant": "百鳥聞弦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50002.json"
+      },
+      {
+        "slug": "skin-50001",
+        "name": "脂车香姝",
+        "displayName": {
+          "zhHans": "脂车香姝",
+          "zhHant": "脂車香姝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tengfanglan.json",
+      "groups": "api/v1/tts/characters/tengfanglan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tengfanglan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3094",
+    "name": "哀尘",
+    "displayName": {
+      "zhHans": "哀尘",
+      "zhHant": "哀塵"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/tengfanglan/groups/spell-3094.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "tengfanglan--500tengfanglan--1skill2_1",
+      "resourceId": "500tengfanglan/1skill2_1",
+      "text": "泪干红落面，心结发垂头。",
+      "textLocalized": {
+        "zhHans": "泪干红落面，心结发垂头。",
+        "zhHant": "淚乾紅落面，心結髮垂頭。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--1skill2_2",
+      "resourceId": "500tengfanglan/1skill2_2",
+      "text": "思君一叹息，苦泪无言垂。",
+      "textLocalized": {
+        "zhHans": "思君一叹息，苦泪无言垂。",
+        "zhHant": "思君一嘆息，苦淚無言垂。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--4skill2_1",
+      "resourceId": "500tengfanglan/4skill2_1",
+      "text": "世间有情三万种，恨亦为情字之一。",
+      "textLocalized": {
+        "zhHans": "世间有情三万种，恨亦为情字之一。",
+        "zhHant": "世間有情三萬種，恨亦爲情字之一。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50003",
+          "name": "拈花靛情",
+          "displayName": {
+            "zhHans": "拈花靛情",
+            "zhHant": "拈花靛情"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--4skill2_2",
+      "resourceId": "500tengfanglan/4skill2_2",
+      "text": "是非恩怨皆作古，柩中孙郎独属我一人。",
+      "textLocalized": {
+        "zhHans": "是非恩怨皆作古，柩中孙郎独属我一人。",
+        "zhHant": "是非恩怨皆作古，柩中孫郎獨屬我一人。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50003",
+          "name": "拈花靛情",
+          "displayName": {
+            "zhHans": "拈花靛情",
+            "zhHant": "拈花靛情"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--3skill2_1",
+      "resourceId": "500tengfanglan/3skill2_1",
+      "text": "思赴石头城，命归北邙山。",
+      "textLocalized": {
+        "zhHans": "思赴石头城，命归北邙山。",
+        "zhHant": "思赴石頭城，命歸北邙山。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50002",
+          "name": "百鸟闻弦",
+          "displayName": {
+            "zhHans": "百鸟闻弦",
+            "zhHant": "百鳥聞弦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--3skill2_2",
+      "resourceId": "500tengfanglan/3skill2_2",
+      "text": "悲啼君已逝，今春非故年。",
+      "textLocalized": {
+        "zhHans": "悲啼君已逝，今春非故年。",
+        "zhHant": "悲啼君已逝，今春非故年。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50002",
+          "name": "百鸟闻弦",
+          "displayName": {
+            "zhHans": "百鸟闻弦",
+            "zhHant": "百鳥聞弦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--2skill2_1",
+      "resourceId": "500tengfanglan/2skill2_1",
+      "text": "泪尽罗巾梦不成，夜深前鼓按歌声。",
+      "textLocalized": {
+        "zhHans": "泪尽罗巾梦不成，夜深前鼓按歌声。",
+        "zhHant": "淚盡羅巾夢不成，夜深前鼓按歌聲。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50001",
+          "name": "脂车香姝",
+          "displayName": {
+            "zhHans": "脂车香姝",
+            "zhHant": "脂車香姝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--2skill2_2",
+      "resourceId": "500tengfanglan/2skill2_2",
+      "text": "泪珠频湿拂尘袖，秋风吹寒裳下哭。",
+      "textLocalized": {
+        "zhHans": "泪珠频湿拂尘袖，秋风吹寒裳下哭。",
+        "zhHant": "淚珠頻溼拂塵袖，秋風吹寒裳下哭。"
+      },
+      "group": {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50001",
+          "name": "脂车香姝",
+          "displayName": {
+            "zhHans": "脂车香姝",
+            "zhHant": "脂車香姝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

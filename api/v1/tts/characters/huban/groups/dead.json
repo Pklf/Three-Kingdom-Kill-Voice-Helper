@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a04f651296d9d313f21c8075504ff141b0acd34f034016858e030d295f935658
-size 3049
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huban",
+    "command": "huban",
+    "name": "胡班",
+    "displayName": {
+      "zhHans": "胡班",
+      "zhHant": "胡班"
+    },
+    "names": [
+      "胡班"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "胡班",
+        "zhHant": "胡班"
+      }
+    ],
+    "ids": [
+      "534"
+    ],
+    "sourceNames": [
+      "胡班"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "胡班",
+        "zhHant": "胡班"
+      }
+    ],
+    "sourceIds": [
+      "534"
+    ],
+    "searchNames": [
+      "huban",
+      "胡班"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/huban/groups/dead.json"
+      },
+      {
+        "slug": "spell-3210",
+        "name": "晖云",
+        "displayName": {
+          "zhHans": "晖云",
+          "zhHant": "暉雲"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/huban/groups/spell-3210.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huban/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huban.json",
+      "groups": "api/v1/tts/characters/huban/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huban/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/huban/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "huban--534huban--1dead01",
+      "resourceId": "534huban/1dead01",
+      "text": "无耻鼠辈，吾耻与为伍。",
+      "textLocalized": {
+        "zhHans": "无耻鼠辈，吾耻与为伍。",
+        "zhHant": "無恥鼠輩，吾恥與爲伍。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/534huban-078727fa/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/534huban/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

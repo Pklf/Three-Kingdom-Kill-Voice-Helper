@@ -1,3 +1,390 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b40e7af348ca13adf13f6c7cd1e217d9ae07966e02ca05722917d6bd98399b6
-size 10999
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenzhugeliang",
+    "command": "shenzhugeliang",
+    "name": "神诸葛亮",
+    "displayName": {
+      "zhHans": "神诸葛亮",
+      "zhHant": "神諸葛亮"
+    },
+    "names": [
+      "神诸葛亮"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神诸葛亮",
+        "zhHant": "神諸葛亮"
+      }
+    ],
+    "ids": [
+      "204"
+    ],
+    "sourceNames": [
+      "神诸葛亮"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神诸葛亮",
+        "zhHant": "神諸葛亮"
+      }
+    ],
+    "sourceIds": [
+      "204"
+    ],
+    "searchNames": [
+      "shenzhugeliang",
+      "神诸葛亮",
+      "神諸葛亮"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/dead.json"
+      },
+      {
+        "slug": "spell-307",
+        "name": "七星",
+        "displayName": {
+          "zhHans": "七星",
+          "zhHant": "七星"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/spell-307.json"
+      },
+      {
+        "slug": "spell-308",
+        "name": "狂风",
+        "displayName": {
+          "zhHans": "狂风",
+          "zhHant": "狂風"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/spell-308.json"
+      },
+      {
+        "slug": "spell-309",
+        "name": "大雾",
+        "displayName": {
+          "zhHans": "大雾",
+          "zhHant": "大霧"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/spell-309.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "q",
+        "name": "Q版形象",
+        "displayName": {
+          "zhHans": "Q版形象",
+          "zhHant": "Q版形象"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/q.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-20402",
+        "name": "观星唤雨",
+        "displayName": {
+          "zhHans": "观星唤雨",
+          "zhHant": "觀星喚雨"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-20402.json"
+      },
+      {
+        "slug": "skin-20403",
+        "name": "赤壁唤风",
+        "displayName": {
+          "zhHans": "赤壁唤风",
+          "zhHant": "赤壁喚風"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-20403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenzhugeliang.json",
+      "groups": "api/v1/tts/characters/shenzhugeliang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenzhugeliang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--1dead01",
+      "resourceId": "204shenzhugeliang/1dead01",
+      "text": "今当远离，临表涕零，不知所言......",
+      "textLocalized": {
+        "zhHans": "今当远离，临表涕零，不知所言......",
+        "zhHant": "今當遠離，臨表涕零，不知所言......"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--1skill1_1",
+      "resourceId": "204shenzhugeliang/1skill1_1",
+      "text": "祈星辰之力，佑我蜀汉！",
+      "textLocalized": {
+        "zhHans": "祈星辰之力，佑我蜀汉！",
+        "zhHant": "祈星辰之力，佑我蜀漢！"
+      },
+      "group": {
+        "slug": "spell-307",
+        "name": "七星",
+        "displayName": {
+          "zhHans": "七星",
+          "zhHant": "七星"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--1skill1_2",
+      "resourceId": "204shenzhugeliang/1skill1_2",
+      "text": "伏望天恩，誓讨汉贼！",
+      "textLocalized": {
+        "zhHans": "伏望天恩，誓讨汉贼！",
+        "zhHant": "伏望天恩，誓討漢賊！"
+      },
+      "group": {
+        "slug": "spell-307",
+        "name": "七星",
+        "displayName": {
+          "zhHans": "七星",
+          "zhHant": "七星"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--1skill2_1",
+      "resourceId": "204shenzhugeliang/1skill2_1",
+      "text": "风……起！",
+      "textLocalized": {
+        "zhHans": "风……起！",
+        "zhHant": "風……起！"
+      },
+      "group": {
+        "slug": "spell-308",
+        "name": "狂风",
+        "displayName": {
+          "zhHans": "狂风",
+          "zhHant": "狂風"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--1skill2_2",
+      "resourceId": "204shenzhugeliang/1skill2_2",
+      "text": "万事俱备，只欠业火。",
+      "textLocalized": {
+        "zhHans": "万事俱备，只欠业火。",
+        "zhHant": "萬事俱備，只欠業火。"
+      },
+      "group": {
+        "slug": "spell-308",
+        "name": "狂风",
+        "displayName": {
+          "zhHans": "狂风",
+          "zhHant": "狂風"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--1skill3_1",
+      "resourceId": "204shenzhugeliang/1skill3_1",
+      "text": "此计，可保你一时平安。",
+      "textLocalized": {
+        "zhHans": "此计，可保你一时平安。",
+        "zhHant": "此計，可保你一時平安。"
+      },
+      "group": {
+        "slug": "spell-309",
+        "name": "大雾",
+        "displayName": {
+          "zhHans": "大雾",
+          "zhHant": "大霧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--1skill3_2",
+      "resourceId": "204shenzhugeliang/1skill3_2",
+      "text": "此非万全之策，惟惧天雷。",
+      "textLocalized": {
+        "zhHans": "此非万全之策，惟惧天雷。",
+        "zhHant": "此非萬全之策，惟懼天雷。"
+      },
+      "group": {
+        "slug": "spell-309",
+        "name": "大雾",
+        "displayName": {
+          "zhHans": "大雾",
+          "zhHant": "大霧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

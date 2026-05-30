@@ -1,3 +1,2801 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d271d3dd5af69c94d47d7b6498cebefc81c374622836b90867d761f5ee6d1ef1
-size 65446
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhang-fei",
+    "command": "zhang-fei",
+    "name": "张飞",
+    "displayName": {
+      "zhHans": "张飞",
+      "zhHant": "張飛"
+    },
+    "names": [
+      "张飞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张飞",
+        "zhHant": "張飛"
+      }
+    ],
+    "ids": [
+      "3"
+    ],
+    "sourceNames": [
+      "张飞",
+      "界张飞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张飞",
+        "zhHant": "張飛"
+      },
+      {
+        "zhHans": "界张飞",
+        "zhHant": "界張飛"
+      }
+    ],
+    "sourceIds": [
+      "3",
+      "301"
+    ],
+    "searchNames": [
+      "zhang-fei",
+      "张飞",
+      "張飛",
+      "界张飞",
+      "界張飛"
+    ],
+    "lineCount": 50,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 11
+      },
+      {
+        "slug": "spell-34",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        },
+        "ids": [
+          "34"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-34-939",
+        "name": "咆哮",
+        "displayName": {
+          "zhHans": "咆哮",
+          "zhHant": "咆哮"
+        },
+        "ids": [
+          "34",
+          "939"
+        ],
+        "lineCount": 18
+      },
+      {
+        "slug": "spell-702",
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "ids": [
+          "702"
+        ],
+        "lineCount": 18
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-302",
+        "ids": [
+          "302"
+        ],
+        "name": "万人莫敌",
+        "displayName": {
+          "zhHans": "万人莫敌",
+          "zhHant": "萬人莫敵"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-305",
+        "ids": [
+          "305"
+        ],
+        "name": "不忘初心",
+        "displayName": {
+          "zhHans": "不忘初心",
+          "zhHant": "不忘初心"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-301",
+        "ids": [
+          "301"
+        ],
+        "name": "勇力绝伦",
+        "displayName": {
+          "zhHans": "勇力绝伦",
+          "zhHant": "勇力絕倫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-30105",
+        "ids": [
+          "30105"
+        ],
+        "name": "勇闯虎牢",
+        "displayName": {
+          "zhHans": "勇闯虎牢",
+          "zhHant": "勇闖虎牢"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-30102",
+        "ids": [
+          "30102"
+        ],
+        "name": "断石酬志",
+        "displayName": {
+          "zhHans": "断石酬志",
+          "zhHant": "斷石酬志"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-30104",
+        "ids": [
+          "30104"
+        ],
+        "name": "武动乾坤",
+        "displayName": {
+          "zhHans": "武动乾坤",
+          "zhHant": "武動乾坤"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-306",
+        "ids": [
+          "306"
+        ],
+        "name": "烈将咆疆",
+        "displayName": {
+          "zhHans": "烈将咆疆",
+          "zhHant": "烈將咆疆"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-2",
+        "ids": [
+          "-2"
+        ],
+        "name": "经典",
+        "displayName": {
+          "zhHans": "经典",
+          "zhHant": "經典"
+        },
+        "lineCount": 2
+      },
+      {
+        "slug": "skin-30106",
+        "ids": [
+          "30106"
+        ],
+        "name": "诚勇摄威",
+        "displayName": {
+          "zhHans": "诚勇摄威",
+          "zhHant": "誠勇攝威"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-30103",
+        "ids": [
+          "30103"
+        ],
+        "name": "雄猛震世",
+        "displayName": {
+          "zhHans": "雄猛震世",
+          "zhHant": "雄猛震世"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/zhang-fei.json",
+      "lines": "api/v1/characters/zhang-fei/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-702",
+    "ids": [
+      "702"
+    ],
+    "name": "替身",
+    "displayName": {
+      "zhHans": "替身",
+      "zhHant": "替身"
+    },
+    "names": [
+      "替身"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "替身",
+        "zhHant": "替身"
+      }
+    ]
+  },
+  "lineCount": 18,
+  "lines": [
+    {
+      "id": "zhang-fei--3zhangfei--4skill2_1",
+      "resourceId": "3zhangfei/4skill2_1",
+      "text": "厮杀到最后一刻！",
+      "textLocalized": {
+        "zhHans": "厮杀到最后一刻！",
+        "zhHant": "廝殺到最後一刻！"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "3",
+          "301"
+        ],
+        "sourceNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          },
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-302",
+        "ids": [
+          "302"
+        ],
+        "name": "万人莫敌",
+        "displayName": {
+          "zhHans": "万人莫敌",
+          "zhHant": "萬人莫敵"
+        },
+        "names": [
+          "万人莫敌"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "万人莫敌",
+            "zhHant": "萬人莫敵"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-302",
+          "id": "302",
+          "ids": [
+            "302"
+          ],
+          "name": "万人莫敌",
+          "displayName": {
+            "zhHans": "万人莫敌",
+            "zhHant": "萬人莫敵"
+          },
+          "names": [
+            "万人莫敌"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "万人莫敌",
+              "zhHant": "萬人莫敵"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3,301",
+        "skinKey": "302",
+        "spellKey": "702",
+        "rowIndex": 1,
+        "characterNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "skinNames": [
+          "万人莫敌"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3zhangfei-be7bbcd1/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/4skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--3zhangfei--4skill2_2",
+      "resourceId": "3zhangfei/4skill2_2",
+      "text": "以为这样就可以击败我吗？",
+      "textLocalized": {
+        "zhHans": "以为这样就可以击败我吗？",
+        "zhHant": "以爲這樣就可以擊敗我嗎？"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "3",
+          "301"
+        ],
+        "sourceNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          },
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-302",
+        "ids": [
+          "302"
+        ],
+        "name": "万人莫敌",
+        "displayName": {
+          "zhHans": "万人莫敌",
+          "zhHant": "萬人莫敵"
+        },
+        "names": [
+          "万人莫敌"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "万人莫敌",
+            "zhHant": "萬人莫敵"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-302",
+          "id": "302",
+          "ids": [
+            "302"
+          ],
+          "name": "万人莫敌",
+          "displayName": {
+            "zhHans": "万人莫敌",
+            "zhHant": "萬人莫敵"
+          },
+          "names": [
+            "万人莫敌"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "万人莫敌",
+              "zhHant": "萬人莫敵"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3,301",
+        "skinKey": "302",
+        "spellKey": "702",
+        "rowIndex": 2,
+        "characterNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "skinNames": [
+          "万人莫敌"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3zhangfei-be7bbcd1/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/4skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--3zhangfei--6skill2_1",
+      "resourceId": "3zhangfei/6skill2_1",
+      "text": "猛张飞亦有锦绣计！",
+      "textLocalized": {
+        "zhHans": "猛张飞亦有锦绣计！",
+        "zhHant": "猛張飛亦有錦繡計！"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "3",
+          "301"
+        ],
+        "sourceNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          },
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-305",
+        "ids": [
+          "305"
+        ],
+        "name": "不忘初心",
+        "displayName": {
+          "zhHans": "不忘初心",
+          "zhHant": "不忘初心"
+        },
+        "names": [
+          "不忘初心"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "不忘初心",
+            "zhHant": "不忘初心"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-305",
+          "id": "305",
+          "ids": [
+            "305"
+          ],
+          "name": "不忘初心",
+          "displayName": {
+            "zhHans": "不忘初心",
+            "zhHant": "不忘初心"
+          },
+          "names": [
+            "不忘初心"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "不忘初心",
+              "zhHant": "不忘初心"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3,301",
+        "skinKey": "305",
+        "spellKey": "702",
+        "rowIndex": 1,
+        "characterNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "skinNames": [
+          "不忘初心"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3zhangfei-be7bbcd1/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/6skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--3zhangfei--6skill2_2",
+      "resourceId": "3zhangfei/6skill2_2",
+      "text": "谁敢说俺，有勇无谋！",
+      "textLocalized": {
+        "zhHans": "谁敢说俺，有勇无谋！",
+        "zhHant": "誰敢說俺，有勇無謀！"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "3",
+          "301"
+        ],
+        "sourceNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          },
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-305",
+        "ids": [
+          "305"
+        ],
+        "name": "不忘初心",
+        "displayName": {
+          "zhHans": "不忘初心",
+          "zhHant": "不忘初心"
+        },
+        "names": [
+          "不忘初心"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "不忘初心",
+            "zhHant": "不忘初心"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-305",
+          "id": "305",
+          "ids": [
+            "305"
+          ],
+          "name": "不忘初心",
+          "displayName": {
+            "zhHans": "不忘初心",
+            "zhHant": "不忘初心"
+          },
+          "names": [
+            "不忘初心"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "不忘初心",
+              "zhHant": "不忘初心"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3,301",
+        "skinKey": "305",
+        "spellKey": "702",
+        "rowIndex": 2,
+        "characterNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "skinNames": [
+          "不忘初心"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3zhangfei-be7bbcd1/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/6skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--3zhangfei--3skill2_1",
+      "resourceId": "3zhangfei/3skill2_1",
+      "text": "替身诱敌，真身擒杀！",
+      "textLocalized": {
+        "zhHans": "替身诱敌，真身擒杀！",
+        "zhHant": "替身誘敵，真身擒殺！"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "3",
+          "301"
+        ],
+        "sourceNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          },
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-301",
+        "ids": [
+          "301"
+        ],
+        "name": "勇力绝伦",
+        "displayName": {
+          "zhHans": "勇力绝伦",
+          "zhHant": "勇力絕倫"
+        },
+        "names": [
+          "勇力绝伦"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "勇力绝伦",
+            "zhHant": "勇力絕倫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-301",
+          "id": "301",
+          "ids": [
+            "301"
+          ],
+          "name": "勇力绝伦",
+          "displayName": {
+            "zhHans": "勇力绝伦",
+            "zhHant": "勇力絕倫"
+          },
+          "names": [
+            "勇力绝伦"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "勇力绝伦",
+              "zhHant": "勇力絕倫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3,301",
+        "skinKey": "301",
+        "spellKey": "702",
+        "rowIndex": 1,
+        "characterNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "skinNames": [
+          "勇力绝伦"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3zhangfei-be7bbcd1/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/3skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--3zhangfei--3skill2_2",
+      "resourceId": "3zhangfei/3skill2_2",
+      "text": "俺虽鲁莽，亦有良谋！",
+      "textLocalized": {
+        "zhHans": "俺虽鲁莽，亦有良谋！",
+        "zhHant": "俺雖魯莽，亦有良謀！"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "3",
+          "301"
+        ],
+        "sourceNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          },
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-301",
+        "ids": [
+          "301"
+        ],
+        "name": "勇力绝伦",
+        "displayName": {
+          "zhHans": "勇力绝伦",
+          "zhHant": "勇力絕倫"
+        },
+        "names": [
+          "勇力绝伦"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "勇力绝伦",
+            "zhHant": "勇力絕倫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-301",
+          "id": "301",
+          "ids": [
+            "301"
+          ],
+          "name": "勇力绝伦",
+          "displayName": {
+            "zhHans": "勇力绝伦",
+            "zhHant": "勇力絕倫"
+          },
+          "names": [
+            "勇力绝伦"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "勇力绝伦",
+              "zhHant": "勇力絕倫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3,301",
+        "skinKey": "301",
+        "spellKey": "702",
+        "rowIndex": 2,
+        "characterNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "skinNames": [
+          "勇力绝伦"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3zhangfei-be7bbcd1/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/3skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--6skill2_1",
+      "resourceId": "301jiezhangfei/6skill2_1",
+      "text": "替身易擒，真身难寻！",
+      "textLocalized": {
+        "zhHans": "替身易擒，真身难寻！",
+        "zhHant": "替身易擒，真身難尋！"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30105",
+        "ids": [
+          "30105"
+        ],
+        "name": "勇闯虎牢",
+        "displayName": {
+          "zhHans": "勇闯虎牢",
+          "zhHant": "勇闖虎牢"
+        },
+        "names": [
+          "勇闯虎牢"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "勇闯虎牢",
+            "zhHant": "勇闖虎牢"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30105",
+          "id": "30105",
+          "ids": [
+            "30105"
+          ],
+          "name": "勇闯虎牢",
+          "displayName": {
+            "zhHans": "勇闯虎牢",
+            "zhHant": "勇闖虎牢"
+          },
+          "names": [
+            "勇闯虎牢"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "勇闯虎牢",
+              "zhHant": "勇闖虎牢"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30105",
+        "spellKey": "702",
+        "rowIndex": 1,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "勇闯虎牢"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/6skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--6skill2_2",
+      "resourceId": "301jiezhangfei/6skill2_2",
+      "text": "这身打扮就把你蒙骗了？",
+      "textLocalized": {
+        "zhHans": "这身打扮就把你蒙骗了？",
+        "zhHant": "這身打扮就把你矇騙了？"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30105",
+        "ids": [
+          "30105"
+        ],
+        "name": "勇闯虎牢",
+        "displayName": {
+          "zhHans": "勇闯虎牢",
+          "zhHant": "勇闖虎牢"
+        },
+        "names": [
+          "勇闯虎牢"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "勇闯虎牢",
+            "zhHant": "勇闖虎牢"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30105",
+          "id": "30105",
+          "ids": [
+            "30105"
+          ],
+          "name": "勇闯虎牢",
+          "displayName": {
+            "zhHans": "勇闯虎牢",
+            "zhHant": "勇闖虎牢"
+          },
+          "names": [
+            "勇闯虎牢"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "勇闯虎牢",
+              "zhHant": "勇闖虎牢"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30105",
+        "spellKey": "702",
+        "rowIndex": 2,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "勇闯虎牢"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/6skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--3skill2_1",
+      "resourceId": "301jiezhangfei/3skill2_1",
+      "text": "替身诱敌，真身奇杀！",
+      "textLocalized": {
+        "zhHans": "替身诱敌，真身奇杀！",
+        "zhHant": "替身誘敵，真身奇殺！"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30102",
+        "ids": [
+          "30102"
+        ],
+        "name": "断石酬志",
+        "displayName": {
+          "zhHans": "断石酬志",
+          "zhHant": "斷石酬志"
+        },
+        "names": [
+          "断石酬志"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "断石酬志",
+            "zhHant": "斷石酬志"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30102",
+          "id": "30102",
+          "ids": [
+            "30102"
+          ],
+          "name": "断石酬志",
+          "displayName": {
+            "zhHans": "断石酬志",
+            "zhHant": "斷石酬志"
+          },
+          "names": [
+            "断石酬志"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "断石酬志",
+              "zhHant": "斷石酬志"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30102",
+        "spellKey": "702",
+        "rowIndex": 1,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "断石酬志"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/3skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--3skill2_2",
+      "resourceId": "301jiezhangfei/3skill2_2",
+      "text": "哈哈哈哈，上当的滋味如何啊？",
+      "textLocalized": {
+        "zhHans": "哈哈哈哈，上当的滋味如何啊？",
+        "zhHant": "哈哈哈哈，上當的滋味如何啊？"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30102",
+        "ids": [
+          "30102"
+        ],
+        "name": "断石酬志",
+        "displayName": {
+          "zhHans": "断石酬志",
+          "zhHant": "斷石酬志"
+        },
+        "names": [
+          "断石酬志"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "断石酬志",
+            "zhHant": "斷石酬志"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30102",
+          "id": "30102",
+          "ids": [
+            "30102"
+          ],
+          "name": "断石酬志",
+          "displayName": {
+            "zhHans": "断石酬志",
+            "zhHant": "斷石酬志"
+          },
+          "names": [
+            "断石酬志"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "断石酬志",
+              "zhHant": "斷石酬志"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30102",
+        "spellKey": "702",
+        "rowIndex": 2,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "断石酬志"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/3skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--5skill2_1",
+      "resourceId": "301jiezhangfei/5skill2_1",
+      "text": "老贼无谋，吾必擒之。",
+      "textLocalized": {
+        "zhHans": "老贼无谋，吾必擒之。",
+        "zhHant": "老賊無謀，吾必擒之。"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30104",
+        "ids": [
+          "30104"
+        ],
+        "name": "武动乾坤",
+        "displayName": {
+          "zhHans": "武动乾坤",
+          "zhHant": "武動乾坤"
+        },
+        "names": [
+          "武动乾坤"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "武动乾坤",
+            "zhHant": "武動乾坤"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30104",
+          "id": "30104",
+          "ids": [
+            "30104"
+          ],
+          "name": "武动乾坤",
+          "displayName": {
+            "zhHans": "武动乾坤",
+            "zhHant": "武動乾坤"
+          },
+          "names": [
+            "武动乾坤"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "武动乾坤",
+              "zhHant": "武動乾坤"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30104",
+        "spellKey": "702",
+        "rowIndex": 1,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "武动乾坤"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/5skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--5skill2_2",
+      "resourceId": "301jiezhangfei/5skill2_2",
+      "text": "凭计胜汝，燕人岂是可欺？",
+      "textLocalized": {
+        "zhHans": "凭计胜汝，燕人岂是可欺？",
+        "zhHant": "憑計勝汝，燕人豈是可欺？"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30104",
+        "ids": [
+          "30104"
+        ],
+        "name": "武动乾坤",
+        "displayName": {
+          "zhHans": "武动乾坤",
+          "zhHant": "武動乾坤"
+        },
+        "names": [
+          "武动乾坤"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "武动乾坤",
+            "zhHant": "武動乾坤"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30104",
+          "id": "30104",
+          "ids": [
+            "30104"
+          ],
+          "name": "武动乾坤",
+          "displayName": {
+            "zhHans": "武动乾坤",
+            "zhHant": "武動乾坤"
+          },
+          "names": [
+            "武动乾坤"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "武动乾坤",
+              "zhHant": "武動乾坤"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30104",
+        "spellKey": "702",
+        "rowIndex": 2,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "武动乾坤"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/5skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--3zhangfei--7skill2_1",
+      "resourceId": "3zhangfei/7skill2_1",
+      "text": "尔等愚夫，竟不识俺替身之计？",
+      "textLocalized": {
+        "zhHans": "尔等愚夫，竟不识俺替身之计？",
+        "zhHant": "爾等愚夫，竟不識俺替身之計？"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "3",
+          "301"
+        ],
+        "sourceNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          },
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-306",
+        "ids": [
+          "306"
+        ],
+        "name": "烈将咆疆",
+        "displayName": {
+          "zhHans": "烈将咆疆",
+          "zhHant": "烈將咆疆"
+        },
+        "names": [
+          "烈将咆疆"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "烈将咆疆",
+            "zhHant": "烈將咆疆"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-306",
+          "id": "306",
+          "ids": [
+            "306"
+          ],
+          "name": "烈将咆疆",
+          "displayName": {
+            "zhHans": "烈将咆疆",
+            "zhHant": "烈將咆疆"
+          },
+          "names": [
+            "烈将咆疆"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "烈将咆疆",
+              "zhHant": "烈將咆疆"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3,301",
+        "skinKey": "306",
+        "spellKey": "702",
+        "rowIndex": 1,
+        "characterNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "skinNames": [
+          "烈将咆疆"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3zhangfei-be7bbcd1/7skill2-1-780aba2a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/7skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--3zhangfei--7skill2_2",
+      "resourceId": "3zhangfei/7skill2_2",
+      "text": "翼德虽粗，胸中亦有锦绣。",
+      "textLocalized": {
+        "zhHans": "翼德虽粗，胸中亦有锦绣。",
+        "zhHant": "翼德雖粗，胸中亦有錦繡。"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "3",
+          "301"
+        ],
+        "sourceNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          },
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-306",
+        "ids": [
+          "306"
+        ],
+        "name": "烈将咆疆",
+        "displayName": {
+          "zhHans": "烈将咆疆",
+          "zhHant": "烈將咆疆"
+        },
+        "names": [
+          "烈将咆疆"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "烈将咆疆",
+            "zhHant": "烈將咆疆"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-306",
+          "id": "306",
+          "ids": [
+            "306"
+          ],
+          "name": "烈将咆疆",
+          "displayName": {
+            "zhHans": "烈将咆疆",
+            "zhHant": "烈將咆疆"
+          },
+          "names": [
+            "烈将咆疆"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "烈将咆疆",
+              "zhHant": "烈將咆疆"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3,301",
+        "skinKey": "306",
+        "spellKey": "702",
+        "rowIndex": 2,
+        "characterNames": [
+          "张飞",
+          "界张飞"
+        ],
+        "skinNames": [
+          "烈将咆疆"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3zhangfei-be7bbcd1/7skill2-2-de81ab1f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3zhangfei/7skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--7skill2_1",
+      "resourceId": "301jiezhangfei/7skill2_1",
+      "text": "本大爷还在这呢！",
+      "textLocalized": {
+        "zhHans": "本大爷还在这呢！",
+        "zhHant": "本大爺還在這呢！"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30106",
+        "ids": [
+          "30106"
+        ],
+        "name": "诚勇摄威",
+        "displayName": {
+          "zhHans": "诚勇摄威",
+          "zhHant": "誠勇攝威"
+        },
+        "names": [
+          "诚勇摄威"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诚勇摄威",
+            "zhHant": "誠勇攝威"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30106",
+          "id": "30106",
+          "ids": [
+            "30106"
+          ],
+          "name": "诚勇摄威",
+          "displayName": {
+            "zhHans": "诚勇摄威",
+            "zhHant": "誠勇攝威"
+          },
+          "names": [
+            "诚勇摄威"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "诚勇摄威",
+              "zhHant": "誠勇攝威"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30106",
+        "spellKey": "702",
+        "rowIndex": 1,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "诚勇摄威"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/7skill2-1-780aba2a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/7skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--7skill2_2",
+      "resourceId": "301jiezhangfei/7skill2_2",
+      "text": "看来你的眼神不好。",
+      "textLocalized": {
+        "zhHans": "看来你的眼神不好。",
+        "zhHant": "看來你的眼神不好。"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30106",
+        "ids": [
+          "30106"
+        ],
+        "name": "诚勇摄威",
+        "displayName": {
+          "zhHans": "诚勇摄威",
+          "zhHant": "誠勇攝威"
+        },
+        "names": [
+          "诚勇摄威"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诚勇摄威",
+            "zhHant": "誠勇攝威"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30106",
+          "id": "30106",
+          "ids": [
+            "30106"
+          ],
+          "name": "诚勇摄威",
+          "displayName": {
+            "zhHans": "诚勇摄威",
+            "zhHant": "誠勇攝威"
+          },
+          "names": [
+            "诚勇摄威"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "诚勇摄威",
+              "zhHant": "誠勇攝威"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30106",
+        "spellKey": "702",
+        "rowIndex": 2,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "诚勇摄威"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/7skill2-2-de81ab1f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/7skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--4skill2_1",
+      "resourceId": "301jiezhangfei/4skill2_1",
+      "text": "厮杀到最后一刻！",
+      "textLocalized": {
+        "zhHans": "厮杀到最后一刻！",
+        "zhHant": "廝殺到最後一刻！"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30103",
+        "ids": [
+          "30103"
+        ],
+        "name": "雄猛震世",
+        "displayName": {
+          "zhHans": "雄猛震世",
+          "zhHant": "雄猛震世"
+        },
+        "names": [
+          "雄猛震世"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "雄猛震世",
+            "zhHant": "雄猛震世"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30103",
+          "id": "30103",
+          "ids": [
+            "30103"
+          ],
+          "name": "雄猛震世",
+          "displayName": {
+            "zhHans": "雄猛震世",
+            "zhHant": "雄猛震世"
+          },
+          "names": [
+            "雄猛震世"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "雄猛震世",
+              "zhHant": "雄猛震世"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30103",
+        "spellKey": "702",
+        "rowIndex": 1,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "雄猛震世"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/4skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhang-fei--301jiezhangfei--4skill2_2",
+      "resourceId": "301jiezhangfei/4skill2_2",
+      "text": "以为这样就可以击败我吗？",
+      "textLocalized": {
+        "zhHans": "以为这样就可以击败我吗？",
+        "zhHant": "以爲這樣就可以擊敗我嗎？"
+      },
+      "character": {
+        "slug": "zhang-fei",
+        "command": "zhang-fei",
+        "id": "3",
+        "ids": [
+          "3"
+        ],
+        "name": "张飞",
+        "displayName": {
+          "zhHans": "张飞",
+          "zhHant": "張飛"
+        },
+        "names": [
+          "张飞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "sourceIds": [
+          "301",
+          "3"
+        ],
+        "sourceNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "界张飞",
+            "zhHant": "界張飛"
+          },
+          {
+            "zhHans": "张飞",
+            "zhHant": "張飛"
+          }
+        ],
+        "searchNames": [
+          "张飞",
+          "張飛",
+          "zhang-fei",
+          "界张飞",
+          "界張飛"
+        ]
+      },
+      "group": {
+        "slug": "spell-702",
+        "ids": [
+          "702"
+        ],
+        "name": "替身",
+        "displayName": {
+          "zhHans": "替身",
+          "zhHant": "替身"
+        },
+        "names": [
+          "替身"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "替身",
+            "zhHant": "替身"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-30103",
+        "ids": [
+          "30103"
+        ],
+        "name": "雄猛震世",
+        "displayName": {
+          "zhHans": "雄猛震世",
+          "zhHant": "雄猛震世"
+        },
+        "names": [
+          "雄猛震世"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "雄猛震世",
+            "zhHant": "雄猛震世"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-30103",
+          "id": "30103",
+          "ids": [
+            "30103"
+          ],
+          "name": "雄猛震世",
+          "displayName": {
+            "zhHans": "雄猛震世",
+            "zhHant": "雄猛震世"
+          },
+          "names": [
+            "雄猛震世"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "雄猛震世",
+              "zhHant": "雄猛震世"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "301,3",
+        "skinKey": "30103",
+        "spellKey": "702",
+        "rowIndex": 2,
+        "characterNames": [
+          "界张飞",
+          "张飞"
+        ],
+        "skinNames": [
+          "雄猛震世"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/301jiezhangfei-08710774/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/301jiezhangfei/4skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

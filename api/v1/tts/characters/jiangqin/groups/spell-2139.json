@@ -1,3 +1,335 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b27d5953cb59faa544619fa0a89d577f829ba939a959b527011909a79d5557b2
-size 9247
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiangqin",
+    "command": "jiangqin",
+    "name": "蒋钦",
+    "displayName": {
+      "zhHans": "蒋钦",
+      "zhHant": "蔣欽"
+    },
+    "names": [
+      "蒋钦"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蒋钦",
+        "zhHant": "蔣欽"
+      }
+    ],
+    "ids": [
+      "2074"
+    ],
+    "sourceNames": [
+      "蒋钦"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蒋钦",
+        "zhHant": "蔣欽"
+      }
+    ],
+    "sourceIds": [
+      "2074"
+    ],
+    "searchNames": [
+      "jiangqin",
+      "蒋钦",
+      "蔣欽"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiangqin/groups/dead.json"
+      },
+      {
+        "slug": "spell-2138",
+        "name": "尚义",
+        "displayName": {
+          "zhHans": "尚义",
+          "zhHant": "尚義"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiangqin/groups/spell-2138.json"
+      },
+      {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiangqin/groups/spell-2139.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-207404",
+        "name": "奋敌护主",
+        "displayName": {
+          "zhHans": "奋敌护主",
+          "zhHant": "奮敵護主"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-207404.json"
+      },
+      {
+        "slug": "skin-207403",
+        "name": "海天箭走",
+        "displayName": {
+          "zhHans": "海天箭走",
+          "zhHant": "海天箭走"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangqin/skins/skin-207403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiangqin.json",
+      "groups": "api/v1/tts/characters/jiangqin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiangqin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-2139",
+    "name": "鸟翔",
+    "displayName": {
+      "zhHans": "鸟翔",
+      "zhHant": "鳥翔"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/jiangqin/groups/spell-2139.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "jiangqin--2074jiangqin--1skill2_1",
+      "resourceId": "2074jiangqin/1skill2_1",
+      "text": "此战，必是有死无生！",
+      "textLocalized": {
+        "zhHans": "此战，必是有死无生！",
+        "zhHant": "此戰，必是有死無生！"
+      },
+      "group": {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--1skill2_2",
+      "resourceId": "2074jiangqin/1skill2_2",
+      "text": "抢占先机，占尽优势！",
+      "textLocalized": {
+        "zhHans": "抢占先机，占尽优势！",
+        "zhHant": "搶佔先機，佔盡優勢！"
+      },
+      "group": {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--4skill2_1",
+      "resourceId": "2074jiangqin/4skill2_1",
+      "text": "挽弓射雕，尔等插翅难逃！",
+      "textLocalized": {
+        "zhHans": "挽弓射雕，尔等插翅难逃！",
+        "zhHant": "挽弓射鵰，爾等插翅難逃！"
+      },
+      "group": {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207404",
+          "name": "奋敌护主",
+          "displayName": {
+            "zhHans": "奋敌护主",
+            "zhHant": "奮敵護主"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--4skill2_2",
+      "resourceId": "2074jiangqin/4skill2_2",
+      "text": "结营成阵，片羽亦不能过！",
+      "textLocalized": {
+        "zhHans": "结营成阵，片羽亦不能过！",
+        "zhHant": "結營成陣，片羽亦不能過！"
+      },
+      "group": {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207404",
+          "name": "奋敌护主",
+          "displayName": {
+            "zhHans": "奋敌护主",
+            "zhHant": "奮敵護主"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--3skill2_1",
+      "resourceId": "2074jiangqin/3skill2_1",
+      "text": "一入此阵，不死不休。",
+      "textLocalized": {
+        "zhHans": "一入此阵，不死不休。",
+        "zhHant": "一入此陣，不死不休。"
+      },
+      "group": {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207403",
+          "name": "海天箭走",
+          "displayName": {
+            "zhHans": "海天箭走",
+            "zhHant": "海天箭走"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangqin--2074jiangqin--3skill2_2",
+      "resourceId": "2074jiangqin/3skill2_2",
+      "text": "怎么闪，也躲不过我的追杀。",
+      "textLocalized": {
+        "zhHans": "怎么闪，也躲不过我的追杀。",
+        "zhHant": "怎麼閃，也躲不過我的追殺。"
+      },
+      "group": {
+        "slug": "spell-2139",
+        "name": "鸟翔",
+        "displayName": {
+          "zhHans": "鸟翔",
+          "zhHant": "鳥翔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207403",
+          "name": "海天箭走",
+          "displayName": {
+            "zhHans": "海天箭走",
+            "zhHant": "海天箭走"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2074jiangqin-c9653560/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2074jiangqin/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

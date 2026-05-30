@@ -1,3 +1,645 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf062d51915af62539ce2a3bca177f797090a7960719a1894b80ae657c5400ab
-size 14540
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangxiang",
+    "command": "wangxiang",
+    "name": "王祥",
+    "displayName": {
+      "zhHans": "王祥",
+      "zhHant": "王祥"
+    },
+    "names": [
+      "王祥"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王祥",
+        "zhHant": "王祥"
+      }
+    ],
+    "ids": [
+      "7020"
+    ],
+    "sourceNames": [
+      "王祥"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王祥",
+        "zhHant": "王祥"
+      }
+    ],
+    "sourceIds": [
+      "7020"
+    ],
+    "searchNames": [
+      "wangxiang",
+      "王祥"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-3103",
+        "name": "冰心",
+        "displayName": {
+          "zhHans": "冰心",
+          "zhHant": "冰心"
+        },
+        "ids": [
+          "3103"
+        ],
+        "lineCount": 4
+      }
+    ],
+    "skins": [
+      {
+        "slug": "702001",
+        "ids": [
+          "702001"
+        ],
+        "name": "702001",
+        "displayName": {
+          "zhHans": "702001",
+          "zhHant": "702001"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/wangxiang.json",
+      "lines": "api/v1/characters/wangxiang/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3103",
+    "ids": [
+      "3103"
+    ],
+    "name": "冰心",
+    "displayName": {
+      "zhHans": "冰心",
+      "zhHant": "冰心"
+    },
+    "names": [
+      "冰心"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "冰心",
+        "zhHant": "冰心"
+      }
+    ]
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "wangxiang--7020wangxiang--2skill1_1",
+      "resourceId": "7020wangxiang/2skill1_1",
+      "text": "解衣卧沂层冰上，双鲤鱼跃擢清漪。",
+      "textLocalized": {
+        "zhHans": "解衣卧沂层冰上，双鲤鱼跃擢清漪。",
+        "zhHant": "解衣臥沂層冰上，雙鯉魚躍擢清漪。"
+      },
+      "character": {
+        "slug": "wangxiang",
+        "command": "wangxiang",
+        "id": "7020",
+        "ids": [
+          "7020"
+        ],
+        "name": "王祥",
+        "displayName": {
+          "zhHans": "王祥",
+          "zhHant": "王祥"
+        },
+        "names": [
+          "王祥"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "王祥",
+            "zhHant": "王祥"
+          }
+        ],
+        "sourceIds": [
+          "7020"
+        ],
+        "sourceNames": [
+          "王祥"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "王祥",
+            "zhHant": "王祥"
+          }
+        ],
+        "searchNames": [
+          "王祥",
+          "wangxiang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3103",
+        "ids": [
+          "3103"
+        ],
+        "name": "冰心",
+        "displayName": {
+          "zhHans": "冰心",
+          "zhHant": "冰心"
+        },
+        "names": [
+          "冰心"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "冰心",
+            "zhHant": "冰心"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "702001",
+        "ids": [
+          "702001"
+        ],
+        "name": "702001",
+        "displayName": {
+          "zhHans": "702001",
+          "zhHant": "702001"
+        },
+        "names": [
+          "702001"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "702001",
+            "zhHant": "702001"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "702001",
+          "id": "702001",
+          "ids": [
+            "702001"
+          ],
+          "name": "702001",
+          "displayName": {
+            "zhHans": "702001",
+            "zhHant": "702001"
+          },
+          "names": [
+            "702001"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "702001",
+              "zhHant": "702001"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7020",
+        "skinKey": "702001",
+        "spellKey": "3103",
+        "rowIndex": 1,
+        "characterNames": [
+          "王祥"
+        ],
+        "skinNames": [
+          "702001"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7020wangxiang-c6a32c2e/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7020wangxiang/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangxiang--7020wangxiang--2skill1_2",
+      "resourceId": "7020wangxiang/2skill1_2",
+      "text": "一日三公不足荣，忆昔卧冰求鲤时。",
+      "textLocalized": {
+        "zhHans": "一日三公不足荣，忆昔卧冰求鲤时。",
+        "zhHant": "一日三公不足榮，憶昔臥冰求鯉時。"
+      },
+      "character": {
+        "slug": "wangxiang",
+        "command": "wangxiang",
+        "id": "7020",
+        "ids": [
+          "7020"
+        ],
+        "name": "王祥",
+        "displayName": {
+          "zhHans": "王祥",
+          "zhHant": "王祥"
+        },
+        "names": [
+          "王祥"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "王祥",
+            "zhHant": "王祥"
+          }
+        ],
+        "sourceIds": [
+          "7020"
+        ],
+        "sourceNames": [
+          "王祥"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "王祥",
+            "zhHant": "王祥"
+          }
+        ],
+        "searchNames": [
+          "王祥",
+          "wangxiang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3103",
+        "ids": [
+          "3103"
+        ],
+        "name": "冰心",
+        "displayName": {
+          "zhHans": "冰心",
+          "zhHant": "冰心"
+        },
+        "names": [
+          "冰心"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "冰心",
+            "zhHant": "冰心"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "702001",
+        "ids": [
+          "702001"
+        ],
+        "name": "702001",
+        "displayName": {
+          "zhHans": "702001",
+          "zhHant": "702001"
+        },
+        "names": [
+          "702001"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "702001",
+            "zhHant": "702001"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "702001",
+          "id": "702001",
+          "ids": [
+            "702001"
+          ],
+          "name": "702001",
+          "displayName": {
+            "zhHans": "702001",
+            "zhHant": "702001"
+          },
+          "names": [
+            "702001"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "702001",
+              "zhHant": "702001"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7020",
+        "skinKey": "702001",
+        "spellKey": "3103",
+        "rowIndex": 2,
+        "characterNames": [
+          "王祥"
+        ],
+        "skinNames": [
+          "702001"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7020wangxiang-c6a32c2e/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7020wangxiang/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangxiang--7020wangxiang--1skill1_1",
+      "resourceId": "7020wangxiang/1skill1_1",
+      "text": "思鸟黄雀至，卧冰鱼自跃。",
+      "textLocalized": {
+        "zhHans": "思鸟黄雀至，卧冰鱼自跃。",
+        "zhHant": "思鳥黃雀至，臥冰魚自躍。"
+      },
+      "character": {
+        "slug": "wangxiang",
+        "command": "wangxiang",
+        "id": "7020",
+        "ids": [
+          "7020"
+        ],
+        "name": "王祥",
+        "displayName": {
+          "zhHans": "王祥",
+          "zhHant": "王祥"
+        },
+        "names": [
+          "王祥"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "王祥",
+            "zhHant": "王祥"
+          }
+        ],
+        "sourceIds": [
+          "7020"
+        ],
+        "sourceNames": [
+          "王祥"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "王祥",
+            "zhHant": "王祥"
+          }
+        ],
+        "searchNames": [
+          "王祥",
+          "wangxiang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3103",
+        "ids": [
+          "3103"
+        ],
+        "name": "冰心",
+        "displayName": {
+          "zhHans": "冰心",
+          "zhHant": "冰心"
+        },
+        "names": [
+          "冰心"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "冰心",
+            "zhHant": "冰心"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7020",
+        "skinKey": "-1",
+        "spellKey": "3103",
+        "rowIndex": 1,
+        "characterNames": [
+          "王祥"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7020wangxiang-c6a32c2e/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7020wangxiang/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangxiang--7020wangxiang--1skill1_2",
+      "resourceId": "7020wangxiang/1skill1_2",
+      "text": "夜静向寒月，卧冰求鲤鱼。",
+      "textLocalized": {
+        "zhHans": "夜静向寒月，卧冰求鲤鱼。",
+        "zhHant": "夜靜向寒月，臥冰求鯉魚。"
+      },
+      "character": {
+        "slug": "wangxiang",
+        "command": "wangxiang",
+        "id": "7020",
+        "ids": [
+          "7020"
+        ],
+        "name": "王祥",
+        "displayName": {
+          "zhHans": "王祥",
+          "zhHant": "王祥"
+        },
+        "names": [
+          "王祥"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "王祥",
+            "zhHant": "王祥"
+          }
+        ],
+        "sourceIds": [
+          "7020"
+        ],
+        "sourceNames": [
+          "王祥"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "王祥",
+            "zhHant": "王祥"
+          }
+        ],
+        "searchNames": [
+          "王祥",
+          "wangxiang"
+        ]
+      },
+      "group": {
+        "slug": "spell-3103",
+        "ids": [
+          "3103"
+        ],
+        "name": "冰心",
+        "displayName": {
+          "zhHans": "冰心",
+          "zhHant": "冰心"
+        },
+        "names": [
+          "冰心"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "冰心",
+            "zhHant": "冰心"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "7020",
+        "skinKey": "-1",
+        "spellKey": "3103",
+        "rowIndex": 2,
+        "characterNames": [
+          "王祥"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/7020wangxiang-c6a32c2e/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7020wangxiang/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

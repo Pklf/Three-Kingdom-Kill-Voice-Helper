@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a5e0ebf2db940996c94f42a340307aedb76d7e754ed2ae1fe3c8d4f7e79680db
-size 3100
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangkuang",
+    "command": "wangkuang",
+    "name": "王匡",
+    "displayName": {
+      "zhHans": "王匡",
+      "zhHant": "王匡"
+    },
+    "names": [
+      "王匡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王匡",
+        "zhHant": "王匡"
+      }
+    ],
+    "ids": [
+      "636"
+    ],
+    "sourceNames": [
+      "王匡"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王匡",
+        "zhHant": "王匡"
+      }
+    ],
+    "sourceIds": [
+      "636"
+    ],
+    "searchNames": [
+      "wangkuang",
+      "王匡"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wangkuang/groups/dead.json"
+      },
+      {
+        "slug": "spell-3501",
+        "name": "任侠",
+        "displayName": {
+          "zhHans": "任侠",
+          "zhHant": "任俠"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wangkuang/groups/spell-3501.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wangkuang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangkuang.json",
+      "groups": "api/v1/tts/characters/wangkuang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangkuang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/wangkuang/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "wangkuang--636wangkuang--1dead01",
+      "resourceId": "636wangkuang/1dead01",
+      "text": "人心不古，世态炎凉。",
+      "textLocalized": {
+        "zhHans": "人心不古，世态炎凉。",
+        "zhHant": "人心不古，世態炎涼。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/636wangkuang-6cae8230/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/636wangkuang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

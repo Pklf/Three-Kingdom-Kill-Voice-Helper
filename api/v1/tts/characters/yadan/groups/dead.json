@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe9664905198d056d35283dac691d75ee2158e0b09519640ce615759c781126e
-size 3031
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yadan",
+    "command": "yadan",
+    "name": "雅丹",
+    "displayName": {
+      "zhHans": "雅丹",
+      "zhHant": "雅丹"
+    },
+    "names": [
+      "雅丹"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "雅丹",
+        "zhHant": "雅丹"
+      }
+    ],
+    "ids": [
+      "579"
+    ],
+    "sourceNames": [
+      "雅丹"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "雅丹",
+        "zhHant": "雅丹"
+      }
+    ],
+    "sourceIds": [
+      "579"
+    ],
+    "searchNames": [
+      "yadan",
+      "雅丹"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/yadan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3363",
+        "name": "倾轧",
+        "displayName": {
+          "zhHans": "倾轧",
+          "zhHant": "傾軋"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yadan/groups/spell-3363.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yadan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yadan.json",
+      "groups": "api/v1/tts/characters/yadan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yadan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/yadan/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "yadan--579yadan--1dead01",
+      "resourceId": "579yadan/1dead01",
+      "text": "多谢丞相不杀之恩！",
+      "textLocalized": {
+        "zhHans": "多谢丞相不杀之恩！",
+        "zhHant": "多謝丞相不殺之恩！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/579yadan-74795053/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/579yadan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

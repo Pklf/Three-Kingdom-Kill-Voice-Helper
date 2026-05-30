@@ -1,3 +1,199 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c864fd3e2ff0040310f025f66efedf9203f66c877190c185c39c2d3b9f8fa29
-size 5361
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jieyanliangwenchou",
+    "command": "jieyanliangwenchou",
+    "name": "界颜良文丑",
+    "displayName": {
+      "zhHans": "界颜良文丑",
+      "zhHant": "界顏良文丑"
+    },
+    "names": [
+      "界颜良文丑",
+      "颜良&文丑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界颜良文丑",
+        "zhHant": "界顏良文丑"
+      },
+      {
+        "zhHans": "颜良&文丑",
+        "zhHant": "顏良&文丑"
+      }
+    ],
+    "ids": [
+      "550",
+      "40"
+    ],
+    "sourceNames": [
+      "界颜良文丑",
+      "颜良&文丑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界颜良文丑",
+        "zhHant": "界顏良文丑"
+      },
+      {
+        "zhHans": "颜良&文丑",
+        "zhHant": "顏良&文丑"
+      }
+    ],
+    "sourceIds": [
+      "550",
+      "40"
+    ],
+    "searchNames": [
+      "jieyanliangwenchou",
+      "界颜良文丑",
+      "界顏良文丑",
+      "颜良&文丑",
+      "顏良&文丑"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jieyanliangwenchou/groups/dead.json"
+      },
+      {
+        "slug": "spell-101-3269",
+        "name": "双雄",
+        "displayName": {
+          "zhHans": "双雄",
+          "zhHant": "雙雄"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jieyanliangwenchou/groups/spell-101-3269.json"
+      },
+      {
+        "slug": "spell-3269",
+        "name": "双雄",
+        "displayName": {
+          "zhHans": "双雄",
+          "zhHant": "雙雄"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jieyanliangwenchou/groups/spell-3269.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jieyanliangwenchou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-55001",
+        "name": "戈矛同忾",
+        "displayName": {
+          "zhHans": "戈矛同忾",
+          "zhHant": "戈矛同愾"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jieyanliangwenchou/skins/skin-55001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jieyanliangwenchou.json",
+      "groups": "api/v1/tts/characters/jieyanliangwenchou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jieyanliangwenchou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jieyanliangwenchou/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jieyanliangwenchou--550jieyanliangwenchou--1dead01",
+      "resourceId": "550jieyanliangwenchou/1dead01",
+      "text": "双雄皆陨，徒隆武圣之名。",
+      "textLocalized": {
+        "zhHans": "双雄皆陨，徒隆武圣之名。",
+        "zhHant": "雙雄皆隕，徒隆武聖之名。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/550jieyanliangwenchou-a9adec8c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/550jieyanliangwenchou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jieyanliangwenchou--550jieyanliangwenchou--2dead01",
+      "resourceId": "550jieyanliangwenchou/2dead01",
+      "text": "来将通名，吾刀下不。。。",
+      "textLocalized": {
+        "zhHans": "来将通名，吾刀下不。。。",
+        "zhHant": "來將通名，吾刀下不。。。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55001",
+          "name": "戈矛同忾",
+          "displayName": {
+            "zhHans": "戈矛同忾",
+            "zhHant": "戈矛同愾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/550jieyanliangwenchou-a9adec8c/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/550jieyanliangwenchou/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

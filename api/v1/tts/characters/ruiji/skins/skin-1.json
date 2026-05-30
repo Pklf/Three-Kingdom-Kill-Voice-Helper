@@ -1,3 +1,309 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:18c0482c60c6a0d4d9446a7f6edea77168b935099527cf428aa8ac6ae3261688
-size 8200
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "ruiji",
+    "command": "ruiji",
+    "name": "芮姬",
+    "displayName": {
+      "zhHans": "芮姬",
+      "zhHant": "芮姬"
+    },
+    "names": [
+      "芮姬"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "芮姬",
+        "zhHant": "芮姬"
+      }
+    ],
+    "ids": [
+      "502"
+    ],
+    "sourceNames": [
+      "芮姬"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "芮姬",
+        "zhHant": "芮姬"
+      }
+    ],
+    "sourceIds": [
+      "502"
+    ],
+    "searchNames": [
+      "ruiji",
+      "芮姬"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/ruiji/groups/dead.json"
+      },
+      {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/ruiji/groups/spell-3099.json"
+      },
+      {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/ruiji/groups/spell-3100.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "50203",
+        "name": "50203",
+        "displayName": {
+          "zhHans": "50203",
+          "zhHant": "50203"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/50203.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50201",
+        "name": "玉芮花意",
+        "displayName": {
+          "zhHans": "玉芮花意",
+          "zhHant": "玉芮花意"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/skin-50201.json"
+      },
+      {
+        "slug": "skin-50202",
+        "name": "蛮娇武俏",
+        "displayName": {
+          "zhHans": "蛮娇武俏",
+          "zhHant": "蠻嬌武俏"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ruiji/skins/skin-50202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/ruiji.json",
+      "groups": "api/v1/tts/characters/ruiji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/ruiji/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/ruiji/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "ruiji--502ruiji--1dead01",
+      "resourceId": "502ruiji/1dead01",
+      "text": "这斧头，怎么变这么重了？",
+      "textLocalized": {
+        "zhHans": "这斧头，怎么变这么重了？",
+        "zhHant": "這斧頭，怎麼變這麼重了？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1skill1_1",
+      "resourceId": "502ruiji/1skill1_1",
+      "text": "别跑，且吃我一斧！",
+      "textLocalized": {
+        "zhHans": "别跑，且吃我一斧！",
+        "zhHant": "別跑，且喫我一斧！"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1skill1_2",
+      "resourceId": "502ruiji/1skill1_2",
+      "text": "让我看看，你的能耐。",
+      "textLocalized": {
+        "zhHans": "让我看看，你的能耐。",
+        "zhHant": "讓我看看，你的能耐。"
+      },
+      "group": {
+        "slug": "spell-3099",
+        "name": "巧力",
+        "displayName": {
+          "zhHans": "巧力",
+          "zhHant": "巧力"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1skill2_1",
+      "resourceId": "502ruiji/1skill2_1",
+      "text": "挥斧摇清风，笑颜比朝霞。",
+      "textLocalized": {
+        "zhHans": "挥斧摇清风，笑颜比朝霞。",
+        "zhHant": "揮斧搖清風，笑顏比朝霞。"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ruiji--502ruiji--1skill2_2",
+      "resourceId": "502ruiji/1skill2_2",
+      "text": "素手抚重斧，飞矢擦靓装。",
+      "textLocalized": {
+        "zhHans": "素手抚重斧，飞矢擦靓装。",
+        "zhHant": "素手撫重斧，飛矢擦靚裝。"
+      },
+      "group": {
+        "slug": "spell-3100",
+        "name": "清靓",
+        "displayName": {
+          "zhHans": "清靓",
+          "zhHant": "清靚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/502ruiji-b63ebedf/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/502ruiji/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

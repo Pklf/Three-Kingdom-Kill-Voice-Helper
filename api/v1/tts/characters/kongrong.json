@@ -1,3 +1,939 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:af330498bbc9096e7608cc6498d25f4d9d772bcee91ab5a1b3f4262947f849b6
-size 27230
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "kongrong",
+    "command": "kongrong",
+    "name": "孔融",
+    "displayName": {
+      "zhHans": "孔融",
+      "zhHant": "孔融"
+    },
+    "names": [
+      "孔融",
+      "谋孔融"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孔融",
+        "zhHant": "孔融"
+      },
+      {
+        "zhHans": "谋孔融",
+        "zhHant": "謀孔融"
+      }
+    ],
+    "ids": [
+      "2055",
+      "643"
+    ],
+    "sourceNames": [
+      "孔融",
+      "谋孔融"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孔融",
+        "zhHant": "孔融"
+      },
+      {
+        "zhHans": "谋孔融",
+        "zhHant": "謀孔融"
+      }
+    ],
+    "sourceIds": [
+      "2055",
+      "643"
+    ],
+    "searchNames": [
+      "kongrong",
+      "孔融",
+      "谋孔融",
+      "謀孔融"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/kongrong/groups/dead.json"
+      },
+      {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kongrong/groups/spell-2106.json"
+      },
+      {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kongrong/groups/spell-2107.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-205503",
+        "name": "优游自如",
+        "displayName": {
+          "zhHans": "优游自如",
+          "zhHant": "優遊自如"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205503.json"
+      },
+      {
+        "slug": "skin-205504",
+        "name": "北海为相",
+        "displayName": {
+          "zhHans": "北海为相",
+          "zhHant": "北海爲相"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205504.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205502",
+        "name": "师表海内",
+        "displayName": {
+          "zhHans": "师表海内",
+          "zhHant": "師表海內"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205502.json"
+      },
+      {
+        "slug": "skin-205502-205504",
+        "name": "师表海内,北海为相",
+        "displayName": {
+          "zhHans": "师表海内,北海为相",
+          "zhHant": "師表海內,北海爲相"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205502-205504.json"
+      },
+      {
+        "slug": "skin-205506",
+        "name": "重阳闲趣",
+        "displayName": {
+          "zhHans": "重阳闲趣",
+          "zhHant": "重陽閒趣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kongrong/skins/skin-205506.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/kongrong.json",
+      "groups": "api/v1/tts/characters/kongrong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/kongrong/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 20,
+  "lines": [
+    {
+      "id": "kongrong--2055kongrong--4dead01",
+      "resourceId": "2055kongrong/4dead01",
+      "text": "你杀得了我，却杀不尽……天下人……",
+      "textLocalized": {
+        "zhHans": "你杀得了我，却杀不尽……天下人……",
+        "zhHant": "你殺得了我，卻殺不盡……天下人……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--1dead01",
+      "resourceId": "2055kongrong/1dead01",
+      "text": "覆巢之下，岂有完卵……",
+      "textLocalized": {
+        "zhHans": "覆巢之下，岂有完卵……",
+        "zhHant": "覆巢之下，豈有完卵……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--3dead01",
+      "resourceId": "2055kongrong/3dead01",
+      "text": "逆贼掌权，正义无存……",
+      "textLocalized": {
+        "zhHans": "逆贼掌权，正义无存……",
+        "zhHant": "逆賊掌權，正義無存……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205504",
+          "name": "北海为相",
+          "displayName": {
+            "zhHans": "北海为相",
+            "zhHant": "北海爲相"
+          }
+        },
+        {
+          "slug": "skin-205502",
+          "name": "师表海内",
+          "displayName": {
+            "zhHans": "师表海内",
+            "zhHant": "師表海內"
+          }
+        },
+        {
+          "slug": "skin-205502-205504",
+          "name": "师表海内,北海为相",
+          "displayName": {
+            "zhHans": "师表海内,北海为相",
+            "zhHant": "師表海內,北海爲相"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--5dead01",
+      "resourceId": "2055kongrong/5dead01",
+      "text": "名声礼节，皆由后人评说。",
+      "textLocalized": {
+        "zhHans": "名声礼节，皆由后人评说。",
+        "zhHant": "名聲禮節，皆由後人評說。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205506",
+          "name": "重阳闲趣",
+          "displayName": {
+            "zhHans": "重阳闲趣",
+            "zhHant": "重陽閒趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--4skill1_1",
+      "resourceId": "2055kongrong/4skill1_1",
+      "text": "名声在外，旁人安敢小觑[qù]？",
+      "textLocalized": {
+        "zhHans": "名声在外，旁人安敢小觑[qù]？",
+        "zhHant": "名聲在外，旁人安敢小覷[qù]？"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--4skill1_2",
+      "resourceId": "2055kongrong/4skill1_2",
+      "text": "盛名之下，自可保我周全。",
+      "textLocalized": {
+        "zhHans": "盛名之下，自可保我周全。",
+        "zhHant": "盛名之下，自可保我周全。"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--1skill1_1",
+      "resourceId": "2055kongrong/1skill1_1",
+      "text": "孔门之后，忠孝为先",
+      "textLocalized": {
+        "zhHans": "孔门之后，忠孝为先",
+        "zhHant": "孔門之後，忠孝爲先"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--1skill1_2",
+      "resourceId": "2055kongrong/1skill1_2",
+      "text": "名士之风，仁义高洁。",
+      "textLocalized": {
+        "zhHans": "名士之风，仁义高洁。",
+        "zhHant": "名士之風，仁義高潔。"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--3skill1_1",
+      "resourceId": "2055kongrong/3skill1_1",
+      "text": "堂堂正正地来，我又有何惧。",
+      "textLocalized": {
+        "zhHans": "堂堂正正地来，我又有何惧。",
+        "zhHant": "堂堂正正地來，我又有何懼。"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205504",
+          "name": "北海为相",
+          "displayName": {
+            "zhHans": "北海为相",
+            "zhHant": "北海爲相"
+          }
+        },
+        {
+          "slug": "skin-205502",
+          "name": "师表海内",
+          "displayName": {
+            "zhHans": "师表海内",
+            "zhHant": "師表海內"
+          }
+        },
+        {
+          "slug": "skin-205502-205504",
+          "name": "师表海内,北海为相",
+          "displayName": {
+            "zhHans": "师表海内,北海为相",
+            "zhHant": "師表海內,北海爲相"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--3skill1_2",
+      "resourceId": "2055kongrong/3skill1_2",
+      "text": "粗鄙之人，如何能入我眼？",
+      "textLocalized": {
+        "zhHans": "粗鄙之人，如何能入我眼？",
+        "zhHant": "粗鄙之人，如何能入我眼？"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205504",
+          "name": "北海为相",
+          "displayName": {
+            "zhHans": "北海为相",
+            "zhHant": "北海爲相"
+          }
+        },
+        {
+          "slug": "skin-205502",
+          "name": "师表海内",
+          "displayName": {
+            "zhHans": "师表海内",
+            "zhHant": "師表海內"
+          }
+        },
+        {
+          "slug": "skin-205502-205504",
+          "name": "师表海内,北海为相",
+          "displayName": {
+            "zhHans": "师表海内,北海为相",
+            "zhHant": "師表海內,北海爲相"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--5skill1_1",
+      "resourceId": "2055kongrong/5skill1_1",
+      "text": "官吏正直，刑法清明。",
+      "textLocalized": {
+        "zhHans": "官吏正直，刑法清明。",
+        "zhHant": "官吏正直，刑法清明。"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205506",
+          "name": "重阳闲趣",
+          "displayName": {
+            "zhHans": "重阳闲趣",
+            "zhHant": "重陽閒趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--5skill1_2",
+      "resourceId": "2055kongrong/5skill1_2",
+      "text": "聘名士，礼贤士。",
+      "textLocalized": {
+        "zhHans": "聘名士，礼贤士。",
+        "zhHant": "聘名士，禮賢士。"
+      },
+      "group": {
+        "slug": "spell-2106",
+        "name": "名士",
+        "displayName": {
+          "zhHans": "名士",
+          "zhHant": "名士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205506",
+          "name": "重阳闲趣",
+          "displayName": {
+            "zhHans": "重阳闲趣",
+            "zhHant": "重陽閒趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--4skill2_1",
+      "resourceId": "2055kongrong/4skill2_1",
+      "text": "让梨之意，至今犹存。",
+      "textLocalized": {
+        "zhHans": "让梨之意，至今犹存。",
+        "zhHant": "讓梨之意，至今猶存。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--4skill2_2",
+      "resourceId": "2055kongrong/4skill2_2",
+      "text": "物尽其用，万不可轻易丢弃。",
+      "textLocalized": {
+        "zhHans": "物尽其用，万不可轻易丢弃。",
+        "zhHant": "物盡其用，萬不可輕易丟棄。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205503",
+          "name": "优游自如",
+          "displayName": {
+            "zhHans": "优游自如",
+            "zhHant": "優遊自如"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--1skill2_1",
+      "resourceId": "2055kongrong/1skill2_1",
+      "text": "夫礼，先王以承天之道，以治人之情。",
+      "textLocalized": {
+        "zhHans": "夫礼，先王以承天之道，以治人之情。",
+        "zhHant": "夫禮，先王以承天之道，以治人之情。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--1skill2_2",
+      "resourceId": "2055kongrong/1skill2_2",
+      "text": "谦者，德之柄也；让者，礼之主也。",
+      "textLocalized": {
+        "zhHans": "谦者，德之柄也；让者，礼之主也。",
+        "zhHant": "謙者，德之柄也；讓者，禮之主也。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--3skill2_1",
+      "resourceId": "2055kongrong/3skill2_1",
+      "text": "将军切勿推辞。",
+      "textLocalized": {
+        "zhHans": "将军切勿推辞。",
+        "zhHant": "將軍切勿推辭。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205504",
+          "name": "北海为相",
+          "displayName": {
+            "zhHans": "北海为相",
+            "zhHant": "北海爲相"
+          }
+        },
+        {
+          "slug": "skin-205502",
+          "name": "师表海内",
+          "displayName": {
+            "zhHans": "师表海内",
+            "zhHant": "師表海內"
+          }
+        },
+        {
+          "slug": "skin-205502-205504",
+          "name": "师表海内,北海为相",
+          "displayName": {
+            "zhHans": "师表海内,北海为相",
+            "zhHant": "師表海內,北海爲相"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--3skill2_2",
+      "resourceId": "2055kongrong/3skill2_2",
+      "text": "以礼待人，惠及友邦。",
+      "textLocalized": {
+        "zhHans": "以礼待人，惠及友邦。",
+        "zhHant": "以禮待人，惠及友邦。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205504",
+          "name": "北海为相",
+          "displayName": {
+            "zhHans": "北海为相",
+            "zhHant": "北海爲相"
+          }
+        },
+        {
+          "slug": "skin-205502",
+          "name": "师表海内",
+          "displayName": {
+            "zhHans": "师表海内",
+            "zhHant": "師表海內"
+          }
+        },
+        {
+          "slug": "skin-205502-205504",
+          "name": "师表海内,北海为相",
+          "displayName": {
+            "zhHans": "师表海内,北海为相",
+            "zhHant": "師表海內,北海爲相"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--5skill2_1",
+      "resourceId": "2055kongrong/5skill2_1",
+      "text": "敬贤礼士，让枣推梨。",
+      "textLocalized": {
+        "zhHans": "敬贤礼士，让枣推梨。",
+        "zhHant": "敬賢禮士，讓棗推梨。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205506",
+          "name": "重阳闲趣",
+          "displayName": {
+            "zhHans": "重阳闲趣",
+            "zhHant": "重陽閒趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kongrong--2055kongrong--5skill2_2",
+      "resourceId": "2055kongrong/5skill2_2",
+      "text": "礼让贤德，名士之典范。",
+      "textLocalized": {
+        "zhHans": "礼让贤德，名士之典范。",
+        "zhHant": "禮讓賢德，名士之典範。"
+      },
+      "group": {
+        "slug": "spell-2107",
+        "name": "礼让",
+        "displayName": {
+          "zhHans": "礼让",
+          "zhHant": "禮讓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205506",
+          "name": "重阳闲趣",
+          "displayName": {
+            "zhHans": "重阳闲趣",
+            "zhHant": "重陽閒趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2055kongrong-a85a4e39/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2055kongrong/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b5f1b3145c9734d2ae5d4acab96dd3038cb7654ae8d9f8eb9d34e435ff1bddfc
-size 8197
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoxing",
+    "command": "caoxing",
+    "name": "曹性",
+    "displayName": {
+      "zhHans": "曹性",
+      "zhHant": "曹性"
+    },
+    "names": [
+      "曹性"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹性",
+        "zhHant": "曹性"
+      }
+    ],
+    "ids": [
+      "476"
+    ],
+    "sourceNames": [
+      "曹性"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹性",
+        "zhHant": "曹性"
+      }
+    ],
+    "sourceIds": [
+      "476"
+    ],
+    "searchNames": [
+      "caoxing",
+      "曹性"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoxing/groups/dead.json"
+      },
+      {
+        "slug": "spell-970",
+        "name": "流矢",
+        "displayName": {
+          "zhHans": "流矢",
+          "zhHant": "流矢"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caoxing/groups/spell-970.json"
+      },
+      {
+        "slug": "spell-971",
+        "name": "斩腕",
+        "displayName": {
+          "zhHans": "斩腕",
+          "zhHant": "斬腕"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caoxing/groups/spell-971.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoxing/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-47602",
+        "name": "擎弓寻雠",
+        "displayName": {
+          "zhHans": "擎弓寻雠",
+          "zhHant": "擎弓尋讎"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoxing/skins/skin-47602.json"
+      },
+      {
+        "slug": "skin-47601",
+        "name": "流光箭影",
+        "displayName": {
+          "zhHans": "流光箭影",
+          "zhHant": "流光箭影"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoxing/skins/skin-47601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoxing.json",
+      "groups": "api/v1/tts/characters/caoxing/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoxing/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-47602",
+    "name": "擎弓寻雠",
+    "displayName": {
+      "zhHans": "擎弓寻雠",
+      "zhHant": "擎弓尋讎"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caoxing/skins/skin-47602.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caoxing--476caoxing--5dead01",
+      "resourceId": "476caoxing/5dead01",
+      "text": "唉，吾也有拉不动弓的一天。",
+      "textLocalized": {
+        "zhHans": "唉，吾也有拉不动弓的一天。",
+        "zhHant": "唉，吾也有拉不動弓的一天。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47602",
+          "name": "擎弓寻雠",
+          "displayName": {
+            "zhHans": "擎弓寻雠",
+            "zhHant": "擎弓尋讎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/476caoxing-78c2d591/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/476caoxing/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxing--476caoxing--5skill1_1",
+      "resourceId": "476caoxing/5skill1_1",
+      "text": "挽弓引流矢，飞箭入敌将。",
+      "textLocalized": {
+        "zhHans": "挽弓引流矢，飞箭入敌将。",
+        "zhHant": "挽弓引流矢，飛箭入敵將。"
+      },
+      "group": {
+        "slug": "spell-970",
+        "name": "流矢",
+        "displayName": {
+          "zhHans": "流矢",
+          "zhHant": "流矢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47602",
+          "name": "擎弓寻雠",
+          "displayName": {
+            "zhHans": "擎弓寻雠",
+            "zhHant": "擎弓尋讎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/476caoxing-78c2d591/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/476caoxing/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxing--476caoxing--5skill1_2",
+      "resourceId": "476caoxing/5skill1_2",
+      "text": "流矢如疾雨，贼将定难逃。",
+      "textLocalized": {
+        "zhHans": "流矢如疾雨，贼将定难逃。",
+        "zhHant": "流矢如疾雨，賊將定難逃。"
+      },
+      "group": {
+        "slug": "spell-970",
+        "name": "流矢",
+        "displayName": {
+          "zhHans": "流矢",
+          "zhHant": "流矢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47602",
+          "name": "擎弓寻雠",
+          "displayName": {
+            "zhHans": "擎弓寻雠",
+            "zhHant": "擎弓尋讎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/476caoxing-78c2d591/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/476caoxing/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxing--476caoxing--5skill2_1",
+      "resourceId": "476caoxing/5skill2_1",
+      "text": "斩腕断势，逆贼休跑。",
+      "textLocalized": {
+        "zhHans": "斩腕断势，逆贼休跑。",
+        "zhHant": "斬腕斷勢，逆賊休跑。"
+      },
+      "group": {
+        "slug": "spell-971",
+        "name": "斩腕",
+        "displayName": {
+          "zhHans": "斩腕",
+          "zhHant": "斬腕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47602",
+          "name": "擎弓寻雠",
+          "displayName": {
+            "zhHans": "擎弓寻雠",
+            "zhHant": "擎弓尋讎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/476caoxing-78c2d591/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/476caoxing/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxing--476caoxing--5skill2_2",
+      "resourceId": "476caoxing/5skill2_2",
+      "text": "敌已被吾斩其腕，此战吾必胜。",
+      "textLocalized": {
+        "zhHans": "敌已被吾斩其腕，此战吾必胜。",
+        "zhHant": "敵已被吾斬其腕，此戰吾必勝。"
+      },
+      "group": {
+        "slug": "spell-971",
+        "name": "斩腕",
+        "displayName": {
+          "zhHans": "斩腕",
+          "zhHant": "斬腕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47602",
+          "name": "擎弓寻雠",
+          "displayName": {
+            "zhHans": "擎弓寻雠",
+            "zhHant": "擎弓尋讎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/476caoxing-78c2d591/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/476caoxing/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

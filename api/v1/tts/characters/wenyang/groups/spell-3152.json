@@ -1,3 +1,355 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2adcbd4ffa1234c08b4e811c3ab10f8dbf3cf2b03fbde3a408a8547b2c172c63
-size 9763
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wenyang",
+    "command": "wenyang",
+    "name": "文鸯",
+    "displayName": {
+      "zhHans": "文鸯",
+      "zhHant": "文鴦"
+    },
+    "names": [
+      "文鸯"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "文鸯",
+        "zhHant": "文鴦"
+      }
+    ],
+    "ids": [
+      "517"
+    ],
+    "sourceNames": [
+      "文鸯"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "文鸯",
+        "zhHant": "文鴦"
+      }
+    ],
+    "sourceIds": [
+      "517"
+    ],
+    "searchNames": [
+      "wenyang",
+      "文鸯",
+      "文鴦"
+    ],
+    "lineCount": 27,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wenyang/groups/dead.json"
+      },
+      {
+        "slug": "spell-3150",
+        "name": "膂力",
+        "displayName": {
+          "zhHans": "膂力",
+          "zhHant": "膂力"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wenyang/groups/spell-3150.json"
+      },
+      {
+        "slug": "spell-3151",
+        "name": "仇决",
+        "displayName": {
+          "zhHans": "仇决",
+          "zhHant": "仇決"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wenyang/groups/spell-3151.json"
+      },
+      {
+        "slug": "spell-3152",
+        "name": "背水",
+        "displayName": {
+          "zhHans": "背水",
+          "zhHant": "背水"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wenyang/groups/spell-3152.json"
+      },
+      {
+        "slug": "spell-3153",
+        "name": "清剿",
+        "displayName": {
+          "zhHans": "清剿",
+          "zhHant": "清剿"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wenyang/groups/spell-3153.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/wenyang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51702",
+        "name": "横戈立马",
+        "displayName": {
+          "zhHans": "横戈立马",
+          "zhHant": "橫戈立馬"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/wenyang/skins/skin-51702.json"
+      },
+      {
+        "slug": "skin-51701",
+        "name": "神通法相",
+        "displayName": {
+          "zhHans": "神通法相",
+          "zhHant": "神通法相"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/wenyang/skins/skin-51701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wenyang.json",
+      "groups": "api/v1/tts/characters/wenyang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wenyang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3152",
+    "name": "背水",
+    "displayName": {
+      "zhHans": "背水",
+      "zhHant": "背水"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/wenyang/groups/spell-3152.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "wenyang--517wenyang--1skill3_1",
+      "resourceId": "517wenyang/1skill3_1",
+      "text": "某若退却半步，诸将可立斩之！",
+      "textLocalized": {
+        "zhHans": "某若退却半步，诸将可立斩之！",
+        "zhHant": "某若退卻半步，諸將可立斬之！"
+      },
+      "group": {
+        "slug": "spell-3152",
+        "name": "背水",
+        "displayName": {
+          "zhHans": "背水",
+          "zhHant": "背水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--1skill3_2",
+      "resourceId": "517wenyang/1skill3_2",
+      "text": "效淮阴之举，力敌数千！",
+      "textLocalized": {
+        "zhHans": "效淮阴之举，力敌数千！",
+        "zhHant": "效淮陰之舉，力敵數千！"
+      },
+      "group": {
+        "slug": "spell-3152",
+        "name": "背水",
+        "displayName": {
+          "zhHans": "背水",
+          "zhHant": "背水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--3skill3_1",
+      "resourceId": "517wenyang/3skill3_1",
+      "text": "背水一战，以报君心。",
+      "textLocalized": {
+        "zhHans": "背水一战，以报君心。",
+        "zhHant": "背水一戰，以報君心。"
+      },
+      "group": {
+        "slug": "spell-3152",
+        "name": "背水",
+        "displayName": {
+          "zhHans": "背水",
+          "zhHant": "背水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51702",
+          "name": "横戈立马",
+          "displayName": {
+            "zhHans": "横戈立马",
+            "zhHant": "橫戈立馬"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--3skill3_2",
+      "resourceId": "517wenyang/3skill3_2",
+      "text": "单枪匹马，有何惧怕？",
+      "textLocalized": {
+        "zhHans": "单枪匹马，有何惧怕？",
+        "zhHant": "單槍匹馬，有何懼怕？"
+      },
+      "group": {
+        "slug": "spell-3152",
+        "name": "背水",
+        "displayName": {
+          "zhHans": "背水",
+          "zhHant": "背水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51702",
+          "name": "横戈立马",
+          "displayName": {
+            "zhHans": "横戈立马",
+            "zhHant": "橫戈立馬"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--2skill3_1",
+      "resourceId": "517wenyang/2skill3_1",
+      "text": "金鼓从天降，旌[jīng]旗背水陈！",
+      "textLocalized": {
+        "zhHans": "金鼓从天降，旌[jīng]旗背水陈！",
+        "zhHant": "金鼓從天降，旌[jīng]旗背水陳！"
+      },
+      "group": {
+        "slug": "spell-3152",
+        "name": "背水",
+        "displayName": {
+          "zhHans": "背水",
+          "zhHant": "背水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51701",
+          "name": "神通法相",
+          "displayName": {
+            "zhHans": "神通法相",
+            "zhHant": "神通法相"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenyang--517wenyang--2skill3_2",
+      "resourceId": "517wenyang/2skill3_2",
+      "text": "登高麾武节，背水纵兵威！",
+      "textLocalized": {
+        "zhHans": "登高麾武节，背水纵兵威！",
+        "zhHant": "登高麾武節，背水縱兵威！"
+      },
+      "group": {
+        "slug": "spell-3152",
+        "name": "背水",
+        "displayName": {
+          "zhHans": "背水",
+          "zhHant": "背水"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51701",
+          "name": "神通法相",
+          "displayName": {
+            "zhHans": "神通法相",
+            "zhHant": "神通法相"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/517wenyang-e6ec66f8/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/517wenyang/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

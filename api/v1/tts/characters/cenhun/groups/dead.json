@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:86d54b54d3cbaeda14a2dcf159ea82c53fbacd81e8d7a0f5004e6befd41958ea
-size 8358
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "cenhun",
+    "command": "cenhun",
+    "name": "岑昏",
+    "displayName": {
+      "zhHans": "岑昏",
+      "zhHant": "岑昏"
+    },
+    "names": [
+      "岑昏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "岑昏",
+        "zhHant": "岑昏"
+      }
+    ],
+    "ids": [
+      "384"
+    ],
+    "sourceNames": [
+      "岑昏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "岑昏",
+        "zhHant": "岑昏"
+      }
+    ],
+    "sourceIds": [
+      "384"
+    ],
+    "searchNames": [
+      "cenhun",
+      "岑昏"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/cenhun/groups/dead.json"
+      },
+      {
+        "slug": "spell-769",
+        "name": "极奢",
+        "displayName": {
+          "zhHans": "极奢",
+          "zhHant": "極奢"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/cenhun/groups/spell-769.json"
+      },
+      {
+        "slug": "spell-770",
+        "name": "链祸",
+        "displayName": {
+          "zhHans": "链祸",
+          "zhHant": "鏈禍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/cenhun/groups/spell-770.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-38405",
+        "name": "敛财无厌",
+        "displayName": {
+          "zhHans": "敛财无厌",
+          "zhHant": "斂財無厭"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38405.json"
+      },
+      {
+        "slug": "skin-38403",
+        "name": "肆无忌惮",
+        "displayName": {
+          "zhHans": "肆无忌惮",
+          "zhHant": "肆無忌憚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38403.json"
+      },
+      {
+        "slug": "skin-38404",
+        "name": "铁锁封江",
+        "displayName": {
+          "zhHans": "铁锁封江",
+          "zhHant": "鐵鎖封江"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38404.json"
+      },
+      {
+        "slug": "skin-38401",
+        "name": "饕餮盛宴",
+        "displayName": {
+          "zhHans": "饕餮盛宴",
+          "zhHant": "饕餮盛宴"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38401.json"
+      },
+      {
+        "slug": "skin-38401-38403",
+        "name": "饕餮盛宴,肆无忌惮",
+        "displayName": {
+          "zhHans": "饕餮盛宴,肆无忌惮",
+          "zhHant": "饕餮盛宴,肆無忌憚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cenhun/skins/skin-38401-38403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/cenhun.json",
+      "groups": "api/v1/tts/characters/cenhun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/cenhun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/cenhun/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "cenhun--384cenhun--1dead01",
+      "resourceId": "384cenhun/1dead01",
+      "text": "我为主上出过力，啊！",
+      "textLocalized": {
+        "zhHans": "我为主上出过力，啊！",
+        "zhHant": "我爲主上出過力，啊！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/384cenhun-64d1ab2f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/384cenhun/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "cenhun--384cenhun--5dead01",
+      "resourceId": "384cenhun/5dead01",
+      "text": "杀了我，又于事何补。",
+      "textLocalized": {
+        "zhHans": "杀了我，又于事何补。",
+        "zhHant": "殺了我，又於事何補。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38405",
+          "name": "敛财无厌",
+          "displayName": {
+            "zhHans": "敛财无厌",
+            "zhHant": "斂財無厭"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/384cenhun-64d1ab2f/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/384cenhun/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "cenhun--384cenhun--4dead01",
+      "resourceId": "384cenhun/4dead01",
+      "text": "今日之祸，皆岑昏之罪。",
+      "textLocalized": {
+        "zhHans": "今日之祸，皆岑昏之罪。",
+        "zhHant": "今日之禍，皆岑昏之罪。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38404",
+          "name": "铁锁封江",
+          "displayName": {
+            "zhHans": "铁锁封江",
+            "zhHant": "鐵鎖封江"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/384cenhun-64d1ab2f/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/384cenhun/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "cenhun--384cenhun--3dead01",
+      "resourceId": "384cenhun/3dead01",
+      "text": "铁打的楼船说翻就翻啊！",
+      "textLocalized": {
+        "zhHans": "铁打的楼船说翻就翻啊！",
+        "zhHant": "鐵打的樓船說翻就翻啊！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38403",
+          "name": "肆无忌惮",
+          "displayName": {
+            "zhHans": "肆无忌惮",
+            "zhHant": "肆無忌憚"
+          }
+        },
+        {
+          "slug": "skin-38401",
+          "name": "饕餮盛宴",
+          "displayName": {
+            "zhHans": "饕餮盛宴",
+            "zhHant": "饕餮盛宴"
+          }
+        },
+        {
+          "slug": "skin-38401-38403",
+          "name": "饕餮盛宴,肆无忌惮",
+          "displayName": {
+            "zhHans": "饕餮盛宴,肆无忌惮",
+            "zhHant": "饕餮盛宴,肆無忌憚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/384cenhun-64d1ab2f/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/384cenhun/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,296 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d66dbce701873a653a130eb2e58b38c719e00dc86732c81a0fe475cb684bb622
-size 7768
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhujun",
+    "command": "zhujun",
+    "name": "朱儁",
+    "displayName": {
+      "zhHans": "朱儁",
+      "zhHant": "朱儁"
+    },
+    "names": [
+      "朱儁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "朱儁",
+        "zhHant": "朱儁"
+      }
+    ],
+    "ids": [
+      "527"
+    ],
+    "sourceNames": [
+      "朱儁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "朱儁",
+        "zhHant": "朱儁"
+      }
+    ],
+    "sourceIds": [
+      "527"
+    ],
+    "searchNames": [
+      "zhujun",
+      "朱儁"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhujun/groups/dead.json"
+      },
+      {
+        "slug": "spell-3188",
+        "name": "摧破",
+        "displayName": {
+          "zhHans": "摧破",
+          "zhHant": "摧破"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhujun/groups/spell-3188.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "52701",
+        "name": "52701",
+        "displayName": {
+          "zhHans": "52701",
+          "zhHant": "52701"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhujun/skins/52701.json"
+      },
+      {
+        "slug": "52701-52702",
+        "name": "52701,52702",
+        "displayName": {
+          "zhHans": "52701,52702",
+          "zhHant": "52701,52702"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhujun/skins/52701-52702.json"
+      },
+      {
+        "slug": "52702",
+        "name": "52702",
+        "displayName": {
+          "zhHans": "52702",
+          "zhHant": "52702"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhujun/skins/52702.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhujun/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhujun.json",
+      "groups": "api/v1/tts/characters/zhujun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhujun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3188",
+    "name": "摧破",
+    "displayName": {
+      "zhHans": "摧破",
+      "zhHant": "摧破"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhujun/groups/spell-3188.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhujun--527zhujun--2skill1_1",
+      "resourceId": "527zhujun/2skill1_1",
+      "text": "区区黄天匪盗，安敢陆沉九州？",
+      "textLocalized": {
+        "zhHans": "区区黄天匪盗，安敢陆沉九州？",
+        "zhHant": "區區黃天匪盜，安敢陸沉九州？"
+      },
+      "group": {
+        "slug": "spell-3188",
+        "name": "摧破",
+        "displayName": {
+          "zhHans": "摧破",
+          "zhHant": "摧破"
+        }
+      },
+      "skins": [
+        {
+          "slug": "52701",
+          "name": "52701",
+          "displayName": {
+            "zhHans": "52701",
+            "zhHant": "52701"
+          }
+        },
+        {
+          "slug": "52702",
+          "name": "52702",
+          "displayName": {
+            "zhHans": "52702",
+            "zhHant": "52702"
+          }
+        },
+        {
+          "slug": "52701-52702",
+          "name": "52701,52702",
+          "displayName": {
+            "zhHans": "52701,52702",
+            "zhHant": "52701,52702"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/527zhujun-ccb62392/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/527zhujun/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhujun--527zhujun--2skill1_2",
+      "resourceId": "527zhujun/2skill1_2",
+      "text": "长缨可缚雷蟒，汉将可弼青天。",
+      "textLocalized": {
+        "zhHans": "长缨可缚雷蟒，汉将可弼青天。",
+        "zhHant": "長纓可縛雷蟒，漢將可弼青天。"
+      },
+      "group": {
+        "slug": "spell-3188",
+        "name": "摧破",
+        "displayName": {
+          "zhHans": "摧破",
+          "zhHant": "摧破"
+        }
+      },
+      "skins": [
+        {
+          "slug": "52701",
+          "name": "52701",
+          "displayName": {
+            "zhHans": "52701",
+            "zhHant": "52701"
+          }
+        },
+        {
+          "slug": "52702",
+          "name": "52702",
+          "displayName": {
+            "zhHans": "52702",
+            "zhHant": "52702"
+          }
+        },
+        {
+          "slug": "52701-52702",
+          "name": "52701,52702",
+          "displayName": {
+            "zhHans": "52701,52702",
+            "zhHant": "52701,52702"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/527zhujun-ccb62392/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/527zhujun/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhujun--527zhujun--1skill1_1",
+      "resourceId": "527zhujun/1skill1_1",
+      "text": "虎贲[bēn]冯河，何惧千城。",
+      "textLocalized": {
+        "zhHans": "虎贲[bēn]冯河，何惧千城。",
+        "zhHant": "虎賁[bēn]馮河，何懼千城。"
+      },
+      "group": {
+        "slug": "spell-3188",
+        "name": "摧破",
+        "displayName": {
+          "zhHans": "摧破",
+          "zhHant": "摧破"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/527zhujun-ccb62392/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/527zhujun/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhujun--527zhujun--1skill1_2",
+      "resourceId": "527zhujun/1skill1_2",
+      "text": "长锋在手，万寇辟易。",
+      "textLocalized": {
+        "zhHans": "长锋在手，万寇辟易。",
+        "zhHant": "長鋒在手，萬寇辟易。"
+      },
+      "group": {
+        "slug": "spell-3188",
+        "name": "摧破",
+        "displayName": {
+          "zhHans": "摧破",
+          "zhHant": "摧破"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/527zhujun-ccb62392/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/527zhujun/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

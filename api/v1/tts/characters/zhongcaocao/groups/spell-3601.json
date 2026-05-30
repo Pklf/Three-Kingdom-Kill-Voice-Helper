@@ -1,3 +1,184 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02d91736c3479d639e14c991edce0133622d9339779f54149a5c4c8d1b663eb4
-size 4900
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhongcaocao",
+    "command": "zhongcaocao",
+    "name": "忠曹操",
+    "displayName": {
+      "zhHans": "忠曹操",
+      "zhHant": "忠曹操"
+    },
+    "names": [
+      "忠曹操"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "忠曹操",
+        "zhHant": "忠曹操"
+      }
+    ],
+    "ids": [
+      "6666"
+    ],
+    "sourceNames": [
+      "忠曹操"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "忠曹操",
+        "zhHant": "忠曹操"
+      }
+    ],
+    "sourceIds": [
+      "6666"
+    ],
+    "searchNames": [
+      "zhongcaocao",
+      "忠曹操"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3601",
+        "name": "定西",
+        "displayName": {
+          "zhHans": "定西",
+          "zhHant": "定西"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3601.json"
+      },
+      {
+        "slug": "spell-3602",
+        "name": "能臣",
+        "displayName": {
+          "zhHans": "能臣",
+          "zhHant": "能臣"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3602.json"
+      },
+      {
+        "slug": "spell-3603",
+        "name": "祸结",
+        "displayName": {
+          "zhHans": "祸结",
+          "zhHant": "禍結"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3603.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhongcaocao.json",
+      "groups": "api/v1/tts/characters/zhongcaocao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhongcaocao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3601",
+    "name": "定西",
+    "displayName": {
+      "zhHans": "定西",
+      "zhHant": "定西"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3601.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zhongcaocao--6666zhongcaocao--1skill1_1",
+      "resourceId": "6666zhongcaocao/1skill1_1",
+      "text": "今天，我曹操誓要踏平祁连山！",
+      "textLocalized": {
+        "zhHans": "今天，我曹操誓要踏平祁连山！",
+        "zhHant": "今天，我曹操誓要踏平祁連山！"
+      },
+      "group": {
+        "slug": "spell-3601",
+        "name": "定西",
+        "displayName": {
+          "zhHans": "定西",
+          "zhHant": "定西"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/6666zhongcaocao-70e9bae0/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/6666zhongcaocao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongcaocao--6666zhongcaocao--1skill1_2",
+      "resourceId": "6666zhongcaocao/1skill1_2",
+      "text": "饮马瀚海、封狼居胥[xū]，大丈夫当如此！",
+      "textLocalized": {
+        "zhHans": "饮马瀚海、封狼居胥[xū]，大丈夫当如此！",
+        "zhHant": "飲馬瀚海、封狼居胥[xū]，大丈夫當如此！"
+      },
+      "group": {
+        "slug": "spell-3601",
+        "name": "定西",
+        "displayName": {
+          "zhHans": "定西",
+          "zhHant": "定西"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/6666zhongcaocao-70e9bae0/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/6666zhongcaocao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

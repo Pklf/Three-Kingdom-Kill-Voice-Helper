@@ -1,3 +1,199 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:baeca8f7067b27403db066ace78bd734578be93bde7f3751f58dbcdf541b1a00
-size 5092
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "haopu",
+    "command": "haopu",
+    "name": "郝普",
+    "displayName": {
+      "zhHans": "郝普",
+      "zhHant": "郝普"
+    },
+    "names": [
+      "郝普"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "郝普",
+        "zhHant": "郝普"
+      }
+    ],
+    "ids": [
+      "557"
+    ],
+    "sourceNames": [
+      "郝普"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "郝普",
+        "zhHant": "郝普"
+      }
+    ],
+    "sourceIds": [
+      "557"
+    ],
+    "searchNames": [
+      "haopu",
+      "郝普"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/haopu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3301",
+        "name": "镇荧",
+        "displayName": {
+          "zhHans": "镇荧",
+          "zhHant": "鎮熒"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/haopu/groups/spell-3301.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/haopu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/haopu.json",
+      "groups": "api/v1/tts/characters/haopu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/haopu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/haopu/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "haopu--557haopu--1dead01",
+      "resourceId": "557haopu/1dead01",
+      "text": "徒做奔臣，死无其所。",
+      "textLocalized": {
+        "zhHans": "徒做奔臣，死无其所。",
+        "zhHant": "徒做奔臣，死無其所。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/557haopu-5f15ec02/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/557haopu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "haopu--557haopu--1skill1_1",
+      "resourceId": "557haopu/1skill1_1",
+      "text": "吾闻世间有忠义，今欲为之。",
+      "textLocalized": {
+        "zhHans": "吾闻世间有忠义，今欲为之。",
+        "zhHant": "吾聞世間有忠義，今欲爲之。"
+      },
+      "group": {
+        "slug": "spell-3301",
+        "name": "镇荧",
+        "displayName": {
+          "zhHans": "镇荧",
+          "zhHant": "鎮熒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/557haopu-5f15ec02/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/557haopu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "haopu--557haopu--1skill1_2",
+      "resourceId": "557haopu/1skill1_2",
+      "text": "吴虽兵临三郡，普宁死不降。",
+      "textLocalized": {
+        "zhHans": "吴虽兵临三郡，普宁死不降。",
+        "zhHant": "吳雖兵臨三郡，普寧死不降。"
+      },
+      "group": {
+        "slug": "spell-3301",
+        "name": "镇荧",
+        "displayName": {
+          "zhHans": "镇荧",
+          "zhHant": "鎮熒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/557haopu-5f15ec02/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/557haopu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

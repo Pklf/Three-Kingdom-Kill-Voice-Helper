@@ -1,3 +1,295 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8f6f8e34472f77d37d3d98bd2ba07f8cbd578c46847197aca5194a96cd09f452
-size 8035
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhouqun",
+    "command": "zhouqun",
+    "name": "周群",
+    "displayName": {
+      "zhHans": "周群",
+      "zhHant": "周羣"
+    },
+    "names": [
+      "周群"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周群",
+        "zhHant": "周羣"
+      }
+    ],
+    "ids": [
+      "543"
+    ],
+    "sourceNames": [
+      "周群"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周群",
+        "zhHant": "周羣"
+      }
+    ],
+    "sourceIds": [
+      "543"
+    ],
+    "searchNames": [
+      "zhouqun",
+      "周群",
+      "周羣"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/dead.json"
+      },
+      {
+        "slug": "spell-3245",
+        "name": "天候",
+        "displayName": {
+          "zhHans": "天候",
+          "zhHant": "天候"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3245.json"
+      },
+      {
+        "slug": "spell-3246",
+        "name": "谶说",
+        "displayName": {
+          "zhHans": "谶说",
+          "zhHant": "讖說"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3246.json"
+      },
+      {
+        "slug": "spell-3247",
+        "name": "烈暑",
+        "displayName": {
+          "zhHans": "烈暑",
+          "zhHant": "烈暑"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3247.json"
+      },
+      {
+        "slug": "spell-3248",
+        "name": "凝雾",
+        "displayName": {
+          "zhHans": "凝雾",
+          "zhHant": "凝霧"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3248.json"
+      },
+      {
+        "slug": "spell-3249",
+        "name": "骤雨",
+        "displayName": {
+          "zhHans": "骤雨",
+          "zhHant": "驟雨"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3249.json"
+      },
+      {
+        "slug": "spell-3250",
+        "name": "严霜",
+        "displayName": {
+          "zhHans": "严霜",
+          "zhHant": "嚴霜"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3250.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhouqun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54301",
+        "name": "瞻天瞩世",
+        "displayName": {
+          "zhHans": "瞻天瞩世",
+          "zhHant": "瞻天矚世"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhouqun/skins/skin-54301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhouqun.json",
+      "groups": "api/v1/tts/characters/zhouqun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhouqun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3246",
+    "name": "谶说",
+    "displayName": {
+      "zhHans": "谶说",
+      "zhHant": "讖說"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3246.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhouqun--543zhouqun--1skill2_1",
+      "resourceId": "543zhouqun/1skill2_1",
+      "text": "命数玄奥，然吾可言之。",
+      "textLocalized": {
+        "zhHans": "命数玄奥，然吾可言之。",
+        "zhHant": "命數玄奧，然吾可言之。"
+      },
+      "group": {
+        "slug": "spell-3246",
+        "name": "谶说",
+        "displayName": {
+          "zhHans": "谶说",
+          "zhHant": "讖說"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/543zhouqun-5e783cd1/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/543zhouqun/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouqun--543zhouqun--1skill2_2",
+      "resourceId": "543zhouqun/1skill2_2",
+      "text": "天地神鬼之辩，在吾唇舌之间。",
+      "textLocalized": {
+        "zhHans": "天地神鬼之辩，在吾唇舌之间。",
+        "zhHant": "天地神鬼之辯，在吾脣舌之間。"
+      },
+      "group": {
+        "slug": "spell-3246",
+        "name": "谶说",
+        "displayName": {
+          "zhHans": "谶说",
+          "zhHant": "讖說"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/543zhouqun-5e783cd1/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/543zhouqun/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouqun--543zhouqun--2skill2_1",
+      "resourceId": "543zhouqun/2skill2_1",
+      "text": "大蓬现于五诸侯，朔乾之地当易主。",
+      "textLocalized": {
+        "zhHans": "大蓬现于五诸侯，朔乾之地当易主。",
+        "zhHant": "大蓬現於五諸侯，朔乾之地當易主。"
+      },
+      "group": {
+        "slug": "spell-3246",
+        "name": "谶说",
+        "displayName": {
+          "zhHans": "谶说",
+          "zhHant": "讖說"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54301",
+          "name": "瞻天瞩世",
+          "displayName": {
+            "zhHans": "瞻天瞩世",
+            "zhHant": "瞻天矚世"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/543zhouqun-5e783cd1/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/543zhouqun/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouqun--543zhouqun--2skill2_2",
+      "resourceId": "543zhouqun/2skill2_2",
+      "text": "星冲鹑[chún]尾、孛掠东南，其主将亡乎。",
+      "textLocalized": {
+        "zhHans": "星冲鹑[chún]尾、孛掠东南，其主将亡乎。",
+        "zhHant": "星衝鶉[chún]尾、孛掠東南，其主將亡乎。"
+      },
+      "group": {
+        "slug": "spell-3246",
+        "name": "谶说",
+        "displayName": {
+          "zhHans": "谶说",
+          "zhHant": "讖說"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54301",
+          "name": "瞻天瞩世",
+          "displayName": {
+            "zhHans": "瞻天瞩世",
+            "zhHant": "瞻天矚世"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/543zhouqun-5e783cd1/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/543zhouqun/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

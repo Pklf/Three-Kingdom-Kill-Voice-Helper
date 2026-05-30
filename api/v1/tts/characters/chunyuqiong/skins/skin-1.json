@@ -1,3 +1,280 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b4d56f425e05d608e43e6c85f392d70cafe957df8e57e09028f5bce32f4a0296
-size 7813
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chunyuqiong",
+    "command": "chunyuqiong",
+    "name": "淳于琼",
+    "displayName": {
+      "zhHans": "淳于琼",
+      "zhHant": "淳于瓊"
+    },
+    "names": [
+      "淳于琼"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "淳于琼",
+        "zhHant": "淳于瓊"
+      }
+    ],
+    "ids": [
+      "4076"
+    ],
+    "sourceNames": [
+      "淳于琼"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "淳于琼",
+        "zhHant": "淳于瓊"
+      }
+    ],
+    "sourceIds": [
+      "4076"
+    ],
+    "searchNames": [
+      "chunyuqiong",
+      "淳于琼",
+      "淳于瓊"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chunyuqiong/groups/dead.json"
+      },
+      {
+        "slug": "spell-1182",
+        "name": "仓储",
+        "displayName": {
+          "zhHans": "仓储",
+          "zhHant": "倉儲"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/chunyuqiong/groups/spell-1182.json"
+      },
+      {
+        "slug": "spell-1183",
+        "name": "宿守",
+        "displayName": {
+          "zhHans": "宿守",
+          "zhHant": "宿守"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/chunyuqiong/groups/spell-1183.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chunyuqiong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chunyuqiong.json",
+      "groups": "api/v1/tts/characters/chunyuqiong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chunyuqiong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chunyuqiong/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chunyuqiong--4076chunyuqiong--1dead01",
+      "resourceId": "4076chunyuqiong/1dead01",
+      "text": "子远老贼，吾死当追汝之魂！",
+      "textLocalized": {
+        "zhHans": "子远老贼，吾死当追汝之魂！",
+        "zhHant": "子遠老賊，吾死當追汝之魂！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4076chunyuqiong-1a267710/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4076chunyuqiong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chunyuqiong--4076chunyuqiong--1skill1_1",
+      "resourceId": "4076chunyuqiong/1skill1_1",
+      "text": "袁公所托，琼必当死守。",
+      "textLocalized": {
+        "zhHans": "袁公所托，琼必当死守。",
+        "zhHant": "袁公所託，瓊必當死守。"
+      },
+      "group": {
+        "slug": "spell-1182",
+        "name": "仓储",
+        "displayName": {
+          "zhHans": "仓储",
+          "zhHant": "倉儲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4076chunyuqiong-1a267710/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4076chunyuqiong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chunyuqiong--4076chunyuqiong--1skill1_2",
+      "resourceId": "4076chunyuqiong/1skill1_2",
+      "text": "敌袭，速速整军，坚守营寨！",
+      "textLocalized": {
+        "zhHans": "敌袭，速速整军，坚守营寨！",
+        "zhHant": "敵襲，速速整軍，堅守營寨！"
+      },
+      "group": {
+        "slug": "spell-1182",
+        "name": "仓储",
+        "displayName": {
+          "zhHans": "仓储",
+          "zhHant": "倉儲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4076chunyuqiong-1a267710/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4076chunyuqiong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chunyuqiong--4076chunyuqiong--1skill2_1",
+      "resourceId": "4076chunyuqiong/1skill2_1",
+      "text": "今夜，须再加强巡逻，不要出了差池！",
+      "textLocalized": {
+        "zhHans": "今夜，须再加强巡逻，不要出了差池！",
+        "zhHant": "今夜，須再加強巡邏，不要出了差池！"
+      },
+      "group": {
+        "slug": "spell-1183",
+        "name": "宿守",
+        "displayName": {
+          "zhHans": "宿守",
+          "zhHant": "宿守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4076chunyuqiong-1a267710/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4076chunyuqiong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chunyuqiong--4076chunyuqiong--1skill2_2",
+      "resourceId": "4076chunyuqiong/1skill2_2",
+      "text": "吾军之所守，为重中之重，尔等，切莫懈怠！",
+      "textLocalized": {
+        "zhHans": "吾军之所守，为重中之重，尔等，切莫懈怠！",
+        "zhHant": "吾軍之所守，爲重中之重，爾等，切莫懈怠！"
+      },
+      "group": {
+        "slug": "spell-1183",
+        "name": "宿守",
+        "displayName": {
+          "zhHans": "宿守",
+          "zhHant": "宿守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4076chunyuqiong-1a267710/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4076chunyuqiong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

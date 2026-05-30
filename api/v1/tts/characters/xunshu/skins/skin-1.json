@@ -1,3 +1,369 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f2a9d1608f24badceba1a3ea7bde275c08b4b681b4272861ace24ea617b0824e
-size 10060
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xunshu",
+    "command": "xunshu",
+    "name": "族荀淑",
+    "displayName": {
+      "zhHans": "族荀淑",
+      "zhHant": "族荀淑"
+    },
+    "names": [
+      "族荀淑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀淑",
+        "zhHant": "族荀淑"
+      }
+    ],
+    "ids": [
+      "522"
+    ],
+    "sourceNames": [
+      "族荀淑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀淑",
+        "zhHant": "族荀淑"
+      }
+    ],
+    "sourceIds": [
+      "522"
+    ],
+    "searchNames": [
+      "xunshu",
+      "族荀淑"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3167.json"
+      },
+      {
+        "slug": "spell-3168",
+        "name": "八龙",
+        "displayName": {
+          "zhHans": "八龙",
+          "zhHant": "八龍"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xunshu/groups/spell-3168.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xunshu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52201",
+        "name": "鹤轸飞鸿",
+        "displayName": {
+          "zhHans": "鹤轸飞鸿",
+          "zhHant": "鶴軫飛鴻"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/xunshu/skins/skin-52201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xunshu.json",
+      "groups": "api/v1/tts/characters/xunshu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xunshu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/xunshu/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "xunshu--522xunshu--1dead01",
+      "resourceId": "522xunshu/1dead01",
+      "text": "天下陆沉，荀氏难支。",
+      "textLocalized": {
+        "zhHans": "天下陆沉，荀氏难支。",
+        "zhHant": "天下陸沉，荀氏難支。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--1skill3_1",
+      "resourceId": "522xunshu/1skill3_1",
+      "text": "荀人如玉，向节而生。",
+      "textLocalized": {
+        "zhHans": "荀人如玉，向节而生。",
+        "zhHant": "荀人如玉，向節而生。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--1skill3_2",
+      "resourceId": "522xunshu/1skill3_2",
+      "text": "竹有其节，焚之不改。",
+      "textLocalized": {
+        "zhHans": "竹有其节，焚之不改。",
+        "zhHant": "竹有其節，焚之不改。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--1skill1_1",
+      "resourceId": "522xunshu/1skill1_1",
+      "text": "区区障眼之法，难遮神人之目。",
+      "textLocalized": {
+        "zhHans": "区区障眼之法，难遮神人之目。",
+        "zhHant": "區區障眼之法，難遮神人之目。"
+      },
+      "group": {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--1skill1_2",
+      "resourceId": "522xunshu/1skill1_2",
+      "text": "我以天地为师，自可道法自然。",
+      "textLocalized": {
+        "zhHans": "我以天地为师，自可道法自然。",
+        "zhHant": "我以天地爲師，自可道法自然。"
+      },
+      "group": {
+        "slug": "spell-3167",
+        "name": "神君",
+        "displayName": {
+          "zhHans": "神君",
+          "zhHant": "神君"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--1skill2_1",
+      "resourceId": "522xunshu/1skill2_1",
+      "text": "八龙之蜿蜿，云旗之委蛇。",
+      "textLocalized": {
+        "zhHans": "八龙之蜿蜿，云旗之委蛇。",
+        "zhHant": "八龍之蜿蜿，雲旗之委蛇。"
+      },
+      "group": {
+        "slug": "spell-3168",
+        "name": "八龙",
+        "displayName": {
+          "zhHans": "八龙",
+          "zhHant": "八龍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunshu--522xunshu--1skill2_2",
+      "resourceId": "522xunshu/1skill2_2",
+      "text": "穆王乘八牡，天地恣遨游。",
+      "textLocalized": {
+        "zhHans": "穆王乘八牡，天地恣遨游。",
+        "zhHant": "穆王乘八牡，天地恣遨遊。"
+      },
+      "group": {
+        "slug": "spell-3168",
+        "name": "八龙",
+        "displayName": {
+          "zhHans": "八龙",
+          "zhHant": "八龍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/522xunshu-60f0d219/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/522xunshu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

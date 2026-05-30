@@ -1,3 +1,359 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0c012667a05ec585ce3305deeebc54c15a7e5ced0105a667ca0ee75bbebd6d1e
-size 9985
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caozhi",
+    "command": "caozhi",
+    "name": "曹植",
+    "displayName": {
+      "zhHans": "曹植",
+      "zhHant": "曹植"
+    },
+    "names": [
+      "曹植"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹植",
+        "zhHant": "曹植"
+      }
+    ],
+    "ids": [
+      "151"
+    ],
+    "sourceNames": [
+      "曹植"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹植",
+        "zhHant": "曹植"
+      }
+    ],
+    "sourceIds": [
+      "151"
+    ],
+    "searchNames": [
+      "caozhi",
+      "曹植"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caozhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/caozhi/groups/spell-401.json"
+      },
+      {
+        "slug": "spell-402",
+        "name": "酒诗",
+        "displayName": {
+          "zhHans": "酒诗",
+          "zhHant": "酒詩"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/caozhi/groups/spell-402.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-15104",
+        "name": "七步绝章",
+        "displayName": {
+          "zhHans": "七步绝章",
+          "zhHant": "七步絕章"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15104.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-15103",
+        "name": "情兼雅怨",
+        "displayName": {
+          "zhHans": "情兼雅怨",
+          "zhHant": "情兼雅怨"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15103.json"
+      },
+      {
+        "slug": "skin-15107",
+        "name": "情化诗赋",
+        "displayName": {
+          "zhHans": "情化诗赋",
+          "zhHant": "情化詩賦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15107.json"
+      },
+      {
+        "slug": "skin-15110",
+        "name": "玉露清辉",
+        "displayName": {
+          "zhHans": "玉露清辉",
+          "zhHant": "玉露清輝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15110.json"
+      },
+      {
+        "slug": "skin-15108",
+        "name": "睹物思人",
+        "displayName": {
+          "zhHans": "睹物思人",
+          "zhHant": "睹物思人"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15108.json"
+      },
+      {
+        "slug": "skin-15109",
+        "name": "虚拟天团",
+        "displayName": {
+          "zhHans": "虚拟天团",
+          "zhHant": "虛擬天團"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15109.json"
+      },
+      {
+        "slug": "skin-15102",
+        "name": "风华绝代",
+        "displayName": {
+          "zhHans": "风华绝代",
+          "zhHant": "風華絕代"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15102.json"
+      },
+      {
+        "slug": "skin-15102-15103-15108",
+        "name": "风华绝代,情兼雅怨,睹物思人",
+        "displayName": {
+          "zhHans": "风华绝代,情兼雅怨,睹物思人",
+          "zhHant": "風華絕代,情兼雅怨,睹物思人"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15102-15103-15108.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caozhi.json",
+      "groups": "api/v1/tts/characters/caozhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caozhi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-15109",
+    "name": "虚拟天团",
+    "displayName": {
+      "zhHans": "虚拟天团",
+      "zhHant": "虛擬天團"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caozhi/skins/skin-15109.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caozhi--151caozhi--6dead01",
+      "resourceId": "151caozhi/6dead01",
+      "text": "命若朝霜。",
+      "textLocalized": {
+        "zhHans": "命若朝霜。",
+        "zhHant": "命若朝霜。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15109",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--6skill1_1",
+      "resourceId": "151caozhi/6skill1_1",
+      "text": "吐粲若兮霓户，绝阿阁乎落英。",
+      "textLocalized": {
+        "zhHans": "吐粲若兮霓户，绝阿阁乎落英。",
+        "zhHant": "吐粲若兮霓戶，絕阿閣乎落英。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15109",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--6skill1_2",
+      "resourceId": "151caozhi/6skill1_2",
+      "text": "顾秋华而零落，感岁莫而伤心。",
+      "textLocalized": {
+        "zhHans": "顾秋华而零落，感岁莫而伤心。",
+        "zhHant": "顧秋華而零落，感歲莫而傷心。"
+      },
+      "group": {
+        "slug": "spell-401",
+        "name": "落英",
+        "displayName": {
+          "zhHans": "落英",
+          "zhHant": "落英"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15109",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--6skill2_1",
+      "resourceId": "151caozhi/6skill2_1",
+      "text": "饮者并醉，纵横喧哗。",
+      "textLocalized": {
+        "zhHans": "饮者并醉，纵横喧哗。",
+        "zhHant": "飲者並醉，縱橫喧譁。"
+      },
+      "group": {
+        "slug": "spell-402",
+        "name": "酒诗",
+        "displayName": {
+          "zhHans": "酒诗",
+          "zhHant": "酒詩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15109",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caozhi--151caozhi--6skill2_2",
+      "resourceId": "151caozhi/6skill2_2",
+      "text": "嘉仪氏之造思，亮兹美之独珍。",
+      "textLocalized": {
+        "zhHans": "嘉仪氏之造思，亮兹美之独珍。",
+        "zhHant": "嘉儀氏之造思，亮茲美之獨珍。"
+      },
+      "group": {
+        "slug": "spell-402",
+        "name": "酒诗",
+        "displayName": {
+          "zhHans": "酒诗",
+          "zhHant": "酒詩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-15109",
+          "name": "虚拟天团",
+          "displayName": {
+            "zhHans": "虚拟天团",
+            "zhHant": "虛擬天團"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/151caozhi-97f47ae1/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/151caozhi/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

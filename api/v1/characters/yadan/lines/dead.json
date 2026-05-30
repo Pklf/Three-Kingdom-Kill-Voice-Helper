@@ -1,3 +1,240 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ad8bc0d54b4b1bb9291768a608566bdaa93ba1c17373a268c7a7abd386ddf590
-size 4940
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yadan",
+    "command": "yadan",
+    "name": "雅丹",
+    "displayName": {
+      "zhHans": "雅丹",
+      "zhHant": "雅丹"
+    },
+    "names": [
+      "雅丹"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "雅丹",
+        "zhHant": "雅丹"
+      }
+    ],
+    "ids": [
+      "579"
+    ],
+    "sourceNames": [
+      "雅丹"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "雅丹",
+        "zhHant": "雅丹"
+      }
+    ],
+    "sourceIds": [
+      "579"
+    ],
+    "searchNames": [
+      "yadan",
+      "雅丹"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-3363",
+        "name": "倾轧",
+        "displayName": {
+          "zhHans": "倾轧",
+          "zhHant": "傾軋"
+        },
+        "ids": [
+          "3363"
+        ],
+        "lineCount": 2
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/yadan.json",
+      "lines": "api/v1/characters/yadan/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "yadan--579yadan--1dead01",
+      "resourceId": "579yadan/1dead01",
+      "text": "多谢丞相不杀之恩！",
+      "textLocalized": {
+        "zhHans": "多谢丞相不杀之恩！",
+        "zhHant": "多謝丞相不殺之恩！"
+      },
+      "character": {
+        "slug": "yadan",
+        "command": "yadan",
+        "id": "579",
+        "ids": [
+          "579"
+        ],
+        "name": "雅丹",
+        "displayName": {
+          "zhHans": "雅丹",
+          "zhHant": "雅丹"
+        },
+        "names": [
+          "雅丹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "雅丹",
+            "zhHant": "雅丹"
+          }
+        ],
+        "sourceIds": [
+          "579"
+        ],
+        "sourceNames": [
+          "雅丹"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "雅丹",
+            "zhHant": "雅丹"
+          }
+        ],
+        "searchNames": [
+          "雅丹",
+          "yadan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "579",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "雅丹"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/579yadan-74795053/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/579yadan/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,260 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7944fa4e703521ae8d839e30bf35368ce299bf3500c957776822f2d5b9210604
-size 7077
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guanping",
+    "command": "guanping",
+    "name": "关平",
+    "displayName": {
+      "zhHans": "关平",
+      "zhHant": "關平"
+    },
+    "names": [
+      "关平"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "关平",
+        "zhHant": "關平"
+      }
+    ],
+    "ids": [
+      "177"
+    ],
+    "sourceNames": [
+      "关平"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "关平",
+        "zhHant": "關平"
+      }
+    ],
+    "sourceIds": [
+      "177"
+    ],
+    "searchNames": [
+      "guanping",
+      "关平",
+      "關平"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guanping/groups/dead.json"
+      },
+      {
+        "slug": "spell-446",
+        "name": "龙吟",
+        "displayName": {
+          "zhHans": "龙吟",
+          "zhHant": "龍吟"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/guanping/groups/spell-446.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-17702",
+        "name": "九霄龙吟",
+        "displayName": {
+          "zhHans": "九霄龙吟",
+          "zhHant": "九霄龍吟"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guanping/skins/skin-17702.json"
+      },
+      {
+        "slug": "skin-17702-17704",
+        "name": "九霄龙吟,忠孝仁勇",
+        "displayName": {
+          "zhHans": "九霄龙吟,忠孝仁勇",
+          "zhHant": "九霄龍吟,忠孝仁勇"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guanping/skins/skin-17702-17704.json"
+      },
+      {
+        "slug": "skin-17703",
+        "name": "厉虎雄姿",
+        "displayName": {
+          "zhHans": "厉虎雄姿",
+          "zhHant": "厲虎雄姿"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guanping/skins/skin-17703.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guanping/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-17704",
+        "name": "忠孝仁勇",
+        "displayName": {
+          "zhHans": "忠孝仁勇",
+          "zhHant": "忠孝仁勇"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guanping/skins/skin-17704.json"
+      },
+      {
+        "slug": "skin-17705",
+        "name": "战场虎子",
+        "displayName": {
+          "zhHans": "战场虎子",
+          "zhHant": "戰場虎子"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guanping/skins/skin-17705.json"
+      },
+      {
+        "slug": "skin-17707",
+        "name": "横刀峙武",
+        "displayName": {
+          "zhHans": "横刀峙武",
+          "zhHant": "橫刀峙武"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guanping/skins/skin-17707.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guanping.json",
+      "groups": "api/v1/tts/characters/guanping/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guanping/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-17707",
+    "name": "横刀峙武",
+    "displayName": {
+      "zhHans": "横刀峙武",
+      "zhHant": "橫刀峙武"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/guanping/skins/skin-17707.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "guanping--177guanping--6dead01",
+      "resourceId": "177guanping/6dead01",
+      "text": "此战惨败，愧对蜀汉。",
+      "textLocalized": {
+        "zhHans": "此战惨败，愧对蜀汉。",
+        "zhHant": "此戰慘敗，愧對蜀漢。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17707",
+          "name": "横刀峙武",
+          "displayName": {
+            "zhHans": "横刀峙武",
+            "zhHant": "橫刀峙武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/177guanping-bdc8a079/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/177guanping/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanping--177guanping--6skill1_1",
+      "resourceId": "177guanping/6skill1_1",
+      "text": "青龙金匮之时，吾军勇猛之势。",
+      "textLocalized": {
+        "zhHans": "青龙金匮之时，吾军勇猛之势。",
+        "zhHant": "青龍金匱之時，吾軍勇猛之勢。"
+      },
+      "group": {
+        "slug": "spell-446",
+        "name": "龙吟",
+        "displayName": {
+          "zhHans": "龙吟",
+          "zhHant": "龍吟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17707",
+          "name": "横刀峙武",
+          "displayName": {
+            "zhHans": "横刀峙武",
+            "zhHant": "橫刀峙武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/177guanping-bdc8a079/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/177guanping/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanping--177guanping--6skill1_2",
+      "resourceId": "177guanping/6skill1_2",
+      "text": "龙骧麟振，武名威震。",
+      "textLocalized": {
+        "zhHans": "龙骧麟振，武名威震。",
+        "zhHant": "龍驤麟振，武名威震。"
+      },
+      "group": {
+        "slug": "spell-446",
+        "name": "龙吟",
+        "displayName": {
+          "zhHans": "龙吟",
+          "zhHant": "龍吟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17707",
+          "name": "横刀峙武",
+          "displayName": {
+            "zhHans": "横刀峙武",
+            "zhHant": "橫刀峙武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/177guanping-bdc8a079/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/177guanping/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

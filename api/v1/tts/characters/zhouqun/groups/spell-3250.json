@@ -1,3 +1,225 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f4d0c7b73f69b1dfc854cd00188e6ff2d8d8821f5b23fcd6a809fbb09fef1303
-size 5913
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhouqun",
+    "command": "zhouqun",
+    "name": "周群",
+    "displayName": {
+      "zhHans": "周群",
+      "zhHant": "周羣"
+    },
+    "names": [
+      "周群"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "周群",
+        "zhHant": "周羣"
+      }
+    ],
+    "ids": [
+      "543"
+    ],
+    "sourceNames": [
+      "周群"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "周群",
+        "zhHant": "周羣"
+      }
+    ],
+    "sourceIds": [
+      "543"
+    ],
+    "searchNames": [
+      "zhouqun",
+      "周群",
+      "周羣"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/dead.json"
+      },
+      {
+        "slug": "spell-3245",
+        "name": "天候",
+        "displayName": {
+          "zhHans": "天候",
+          "zhHant": "天候"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3245.json"
+      },
+      {
+        "slug": "spell-3246",
+        "name": "谶说",
+        "displayName": {
+          "zhHans": "谶说",
+          "zhHant": "讖說"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3246.json"
+      },
+      {
+        "slug": "spell-3247",
+        "name": "烈暑",
+        "displayName": {
+          "zhHans": "烈暑",
+          "zhHant": "烈暑"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3247.json"
+      },
+      {
+        "slug": "spell-3248",
+        "name": "凝雾",
+        "displayName": {
+          "zhHans": "凝雾",
+          "zhHant": "凝霧"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3248.json"
+      },
+      {
+        "slug": "spell-3249",
+        "name": "骤雨",
+        "displayName": {
+          "zhHans": "骤雨",
+          "zhHant": "驟雨"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3249.json"
+      },
+      {
+        "slug": "spell-3250",
+        "name": "严霜",
+        "displayName": {
+          "zhHans": "严霜",
+          "zhHant": "嚴霜"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3250.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhouqun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54301",
+        "name": "瞻天瞩世",
+        "displayName": {
+          "zhHans": "瞻天瞩世",
+          "zhHant": "瞻天矚世"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhouqun/skins/skin-54301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhouqun.json",
+      "groups": "api/v1/tts/characters/zhouqun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhouqun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3250",
+    "name": "严霜",
+    "displayName": {
+      "zhHans": "严霜",
+      "zhHant": "嚴霜"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zhouqun/groups/spell-3250.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zhouqun--543zhouqun--1skill6_1",
+      "resourceId": "543zhouqun/1skill6_1",
+      "text": "雪瀑寒霜落，霜下可折竹。",
+      "textLocalized": {
+        "zhHans": "雪瀑寒霜落，霜下可折竹。",
+        "zhHant": "雪瀑寒霜落，霜下可折竹。"
+      },
+      "group": {
+        "slug": "spell-3250",
+        "name": "严霜",
+        "displayName": {
+          "zhHans": "严霜",
+          "zhHant": "嚴霜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/543zhouqun-5e783cd1/1skill6-1-ce131c34.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/543zhouqun/1skill6_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhouqun--543zhouqun--2skill6_1",
+      "resourceId": "543zhouqun/2skill6_1",
+      "text": "此间寒，可冻泉下活水、可冷将军铁衣。",
+      "textLocalized": {
+        "zhHans": "此间寒，可冻泉下活水、可冷将军铁衣。",
+        "zhHant": "此間寒，可凍泉下活水、可冷將軍鐵衣。"
+      },
+      "group": {
+        "slug": "spell-3250",
+        "name": "严霜",
+        "displayName": {
+          "zhHans": "严霜",
+          "zhHant": "嚴霜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54301",
+          "name": "瞻天瞩世",
+          "displayName": {
+            "zhHans": "瞻天瞩世",
+            "zhHant": "瞻天矚世"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/543zhouqun-5e783cd1/2skill6-1-ba62ec6e.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/543zhouqun/2skill6_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

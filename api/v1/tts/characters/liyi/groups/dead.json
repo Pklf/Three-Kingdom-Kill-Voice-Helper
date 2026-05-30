@@ -1,3 +1,140 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16f2e690a60907a0bdc1134396ba7b72f3c8ff6281aa47fa635b3a7a55576389
-size 3307
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liyi",
+    "command": "liyi",
+    "name": "李异",
+    "displayName": {
+      "zhHans": "李异",
+      "zhHant": "李異"
+    },
+    "names": [
+      "李异"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李异",
+        "zhHant": "李異"
+      }
+    ],
+    "ids": [
+      "607"
+    ],
+    "sourceNames": [
+      "李异"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李异",
+        "zhHant": "李異"
+      }
+    ],
+    "sourceIds": [
+      "607"
+    ],
+    "searchNames": [
+      "liyi",
+      "李异",
+      "李異"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/liyi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3431",
+        "name": "缠双",
+        "displayName": {
+          "zhHans": "缠双",
+          "zhHant": "纏雙"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liyi/groups/spell-3431.json"
+      },
+      {
+        "slug": "spell-3432",
+        "name": "蘸金",
+        "displayName": {
+          "zhHans": "蘸金",
+          "zhHant": "蘸金"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liyi/groups/spell-3432.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liyi/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liyi.json",
+      "groups": "api/v1/tts/characters/liyi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liyi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/liyi/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "liyi--607liyi--1dead01",
+      "resourceId": "607liyi/1dead01",
+      "text": "此人竟如此勇猛……",
+      "textLocalized": {
+        "zhHans": "此人竟如此勇猛……",
+        "zhHant": "此人竟如此勇猛……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/607liyi-6f0a679c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/607liyi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

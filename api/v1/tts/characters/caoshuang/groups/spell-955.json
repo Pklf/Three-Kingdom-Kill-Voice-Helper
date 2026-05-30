@@ -1,3 +1,334 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e0bf6b55f530567938b17ff555fd7990d5501667d0570a5c9d7a0c87c16483f8
-size 9422
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoshuang",
+    "command": "caoshuang",
+    "name": "曹爽",
+    "displayName": {
+      "zhHans": "曹爽",
+      "zhHant": "曹爽"
+    },
+    "names": [
+      "曹爽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹爽",
+        "zhHant": "曹爽"
+      }
+    ],
+    "ids": [
+      "469"
+    ],
+    "sourceNames": [
+      "曹爽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹爽",
+        "zhHant": "曹爽"
+      }
+    ],
+    "sourceIds": [
+      "469"
+    ],
+    "searchNames": [
+      "caoshuang",
+      "曹爽"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoshuang/groups/dead.json"
+      },
+      {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caoshuang/groups/spell-955.json"
+      },
+      {
+        "slug": "spell-956",
+        "name": "擅专",
+        "displayName": {
+          "zhHans": "擅专",
+          "zhHant": "擅專"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caoshuang/groups/spell-956.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoshuang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46902",
+        "name": "受诏专权",
+        "displayName": {
+          "zhHans": "受诏专权",
+          "zhHant": "受詔專權"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoshuang/skins/skin-46902.json"
+      },
+      {
+        "slug": "skin-46901",
+        "name": "安逸奢靡",
+        "displayName": {
+          "zhHans": "安逸奢靡",
+          "zhHant": "安逸奢靡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoshuang/skins/skin-46901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoshuang.json",
+      "groups": "api/v1/tts/characters/caoshuang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoshuang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-955",
+    "name": "托孤",
+    "displayName": {
+      "zhHans": "托孤",
+      "zhHant": "託孤"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/caoshuang/groups/spell-955.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "caoshuang--469caoshuang--1skill1_1",
+      "resourceId": "469caoshuang/1skill1_1",
+      "text": "君托以六尺之孤，爽当寄百里之命。",
+      "textLocalized": {
+        "zhHans": "君托以六尺之孤，爽当寄百里之命。",
+        "zhHant": "君託以六尺之孤，爽當寄百里之命。"
+      },
+      "group": {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoshuang--469caoshuang--1skill1_2",
+      "resourceId": "469caoshuang/1skill1_2",
+      "text": "先帝以大事托我，任重而道远。",
+      "textLocalized": {
+        "zhHans": "先帝以大事托我，任重而道远。",
+        "zhHant": "先帝以大事託我，任重而道遠。"
+      },
+      "group": {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoshuang--469caoshuang--5skill1_1",
+      "resourceId": "469caoshuang/5skill1_1",
+      "text": "幼孤所托，功成名自。",
+      "textLocalized": {
+        "zhHans": "幼孤所托，功成名自。",
+        "zhHant": "幼孤所託，功成名自。"
+      },
+      "group": {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46902",
+          "name": "受诏专权",
+          "displayName": {
+            "zhHans": "受诏专权",
+            "zhHant": "受詔專權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoshuang--469caoshuang--5skill1_2",
+      "resourceId": "469caoshuang/5skill1_2",
+      "text": "受诏托孤，子当以父事之。",
+      "textLocalized": {
+        "zhHans": "受诏托孤，子当以父事之。",
+        "zhHant": "受詔託孤，子當以父事之。"
+      },
+      "group": {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46902",
+          "name": "受诏专权",
+          "displayName": {
+            "zhHans": "受诏专权",
+            "zhHant": "受詔專權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoshuang--469caoshuang--4skill1_1",
+      "resourceId": "469caoshuang/4skill1_1",
+      "text": "陛下托孤，臣定当竭尽忠诚，至死方休！",
+      "textLocalized": {
+        "zhHans": "陛下托孤，臣定当竭尽忠诚，至死方休！",
+        "zhHant": "陛下託孤，臣定當竭盡忠誠，至死方休！"
+      },
+      "group": {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46901",
+          "name": "安逸奢靡",
+          "displayName": {
+            "zhHans": "安逸奢靡",
+            "zhHant": "安逸奢靡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoshuang--469caoshuang--4skill1_2",
+      "resourceId": "469caoshuang/4skill1_2",
+      "text": "吾奉先帝之命，匡弼[bì]幼主，稳固魏室！",
+      "textLocalized": {
+        "zhHans": "吾奉先帝之命，匡弼[bì]幼主，稳固魏室！",
+        "zhHant": "吾奉先帝之命，匡弼[bì]幼主，穩固魏室！"
+      },
+      "group": {
+        "slug": "spell-955",
+        "name": "托孤",
+        "displayName": {
+          "zhHans": "托孤",
+          "zhHant": "託孤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46901",
+          "name": "安逸奢靡",
+          "displayName": {
+            "zhHans": "安逸奢靡",
+            "zhHant": "安逸奢靡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/469caoshuang-58043501/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/469caoshuang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

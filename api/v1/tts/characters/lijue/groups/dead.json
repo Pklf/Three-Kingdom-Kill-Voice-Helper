@@ -1,3 +1,274 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d2960cca37b8b3b750df702b73910137ba71429569ef89b4f30ae5637067209
-size 7242
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lijue",
+    "command": "lijue",
+    "name": "李傕",
+    "displayName": {
+      "zhHans": "李傕",
+      "zhHant": "李傕"
+    },
+    "names": [
+      "李傕"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李傕",
+        "zhHant": "李傕"
+      }
+    ],
+    "ids": [
+      "418"
+    ],
+    "sourceNames": [
+      "李傕"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李傕",
+        "zhHant": "李傕"
+      }
+    ],
+    "sourceIds": [
+      "418"
+    ],
+    "searchNames": [
+      "lijue",
+      "李傕"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lijue/groups/dead.json"
+      },
+      {
+        "slug": "spell-854",
+        "name": "狼袭",
+        "displayName": {
+          "zhHans": "狼袭",
+          "zhHant": "狼襲"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lijue/groups/spell-854.json"
+      },
+      {
+        "slug": "spell-855",
+        "name": "亦算",
+        "displayName": {
+          "zhHans": "亦算",
+          "zhHant": "亦算"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lijue/groups/spell-855.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41801",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-41801.json"
+      },
+      {
+        "slug": "skin-41802",
+        "name": "狼噬火踪",
+        "displayName": {
+          "zhHans": "狼噬火踪",
+          "zhHant": "狼噬火蹤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-41802.json"
+      },
+      {
+        "slug": "skin-41803",
+        "name": "筹谋长安",
+        "displayName": {
+          "zhHans": "筹谋长安",
+          "zhHant": "籌謀長安"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-41803.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lijue.json",
+      "groups": "api/v1/tts/characters/lijue/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lijue/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/lijue/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "lijue--418lijue--1dead01",
+      "resourceId": "418lijue/1dead01",
+      "text": "若无内讧，也不至如此。",
+      "textLocalized": {
+        "zhHans": "若无内讧，也不至如此。",
+        "zhHant": "若無內訌，也不至如此。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--3dead01",
+      "resourceId": "418lijue/3dead01",
+      "text": "曹贼，你竟灭我三族！",
+      "textLocalized": {
+        "zhHans": "曹贼，你竟灭我三族！",
+        "zhHant": "曹賊，你竟滅我三族！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41801",
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--4dead01",
+      "resourceId": "418lijue/4dead01",
+      "text": "若有文和在侧，吾不至如此。",
+      "textLocalized": {
+        "zhHans": "若有文和在侧，吾不至如此。",
+        "zhHant": "若有文和在側，吾不至如此。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41802",
+          "name": "狼噬火踪",
+          "displayName": {
+            "zhHans": "狼噬火踪",
+            "zhHant": "狼噬火蹤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--5dead01",
+      "resourceId": "418lijue/5dead01",
+      "text": "联军溃散，大事难成。",
+      "textLocalized": {
+        "zhHans": "联军溃散，大事难成。",
+        "zhHant": "聯軍潰散，大事難成。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41803",
+          "name": "筹谋长安",
+          "displayName": {
+            "zhHans": "筹谋长安",
+            "zhHant": "籌謀長安"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

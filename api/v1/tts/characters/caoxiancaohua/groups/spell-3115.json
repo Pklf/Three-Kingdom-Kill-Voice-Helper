@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e96e0a5fef421f2b7eb9166c5a0eaeb0d88fe0eebdfd066b275df2652db1a653
-size 7625
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoxiancaohua",
+    "command": "caoxiancaohua",
+    "name": "曹宪&曹华",
+    "displayName": {
+      "zhHans": "曹宪&曹华",
+      "zhHant": "曹憲&曹華"
+    },
+    "names": [
+      "曹宪&曹华"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹宪&曹华",
+        "zhHant": "曹憲&曹華"
+      }
+    ],
+    "ids": [
+      "509"
+    ],
+    "sourceNames": [
+      "曹宪&曹华"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹宪&曹华",
+        "zhHant": "曹憲&曹華"
+      }
+    ],
+    "sourceIds": [
+      "509"
+    ],
+    "searchNames": [
+      "caoxiancaohua",
+      "曹宪&曹华",
+      "曹憲&曹華"
+    ],
+    "lineCount": 22,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/dead.json"
+      },
+      {
+        "slug": "spell-3114",
+        "name": "化木",
+        "displayName": {
+          "zhHans": "化木",
+          "zhHant": "化木"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3114.json"
+      },
+      {
+        "slug": "spell-3115",
+        "name": "前盟",
+        "displayName": {
+          "zhHans": "前盟",
+          "zhHant": "前盟"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3115.json"
+      },
+      {
+        "slug": "spell-3116",
+        "name": "良缘",
+        "displayName": {
+          "zhHans": "良缘",
+          "zhHant": "良緣"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3116.json"
+      },
+      {
+        "slug": "spell-3117",
+        "name": "羁肆",
+        "displayName": {
+          "zhHans": "羁肆",
+          "zhHant": "羈肆"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3117.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 13,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50901",
+        "name": "娇媚芙蓉",
+        "displayName": {
+          "zhHans": "娇媚芙蓉",
+          "zhHant": "嬌媚芙蓉"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/skins/skin-50901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoxiancaohua.json",
+      "groups": "api/v1/tts/characters/caoxiancaohua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoxiancaohua/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3115",
+    "name": "前盟",
+    "displayName": {
+      "zhHans": "前盟",
+      "zhHant": "前盟"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3115.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "caoxiancaohua--509caoxiancaohua--1skill2_1",
+      "resourceId": "509caoxiancaohua/1skill2_1",
+      "text": "前盟已断，杉树长别。",
+      "textLocalized": {
+        "zhHans": "前盟已断，杉树长别。",
+        "zhHant": "前盟已斷，杉樹長別。"
+      },
+      "group": {
+        "slug": "spell-3115",
+        "name": "前盟",
+        "displayName": {
+          "zhHans": "前盟",
+          "zhHant": "前盟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/509caoxiancaohua-fd0c315f/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/509caoxiancaohua/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxiancaohua--509caoxiancaohua--1skill2_2",
+      "resourceId": "509caoxiancaohua/1skill2_2",
+      "text": "苍山有灵，杉树相依。",
+      "textLocalized": {
+        "zhHans": "苍山有灵，杉树相依。",
+        "zhHant": "蒼山有靈，杉樹相依。"
+      },
+      "group": {
+        "slug": "spell-3115",
+        "name": "前盟",
+        "displayName": {
+          "zhHans": "前盟",
+          "zhHant": "前盟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/509caoxiancaohua-fd0c315f/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/509caoxiancaohua/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxiancaohua--509caoxiancaohua--2skill2_1",
+      "resourceId": "509caoxiancaohua/2skill2_1",
+      "text": "别时前盟在，寸心奉丹青。",
+      "textLocalized": {
+        "zhHans": "别时前盟在，寸心奉丹青。",
+        "zhHant": "別時前盟在，寸心奉丹青。"
+      },
+      "group": {
+        "slug": "spell-3115",
+        "name": "前盟",
+        "displayName": {
+          "zhHans": "前盟",
+          "zhHant": "前盟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50901",
+          "name": "娇媚芙蓉",
+          "displayName": {
+            "zhHans": "娇媚芙蓉",
+            "zhHant": "嬌媚芙蓉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/509caoxiancaohua-fd0c315f/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/509caoxiancaohua/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxiancaohua--509caoxiancaohua--2skill2_2",
+      "resourceId": "509caoxiancaohua/2skill2_2",
+      "text": "君为坐堂子，妾乃负羁人。",
+      "textLocalized": {
+        "zhHans": "君为坐堂子，妾乃负羁人。",
+        "zhHant": "君爲坐堂子，妾乃負羈人。"
+      },
+      "group": {
+        "slug": "spell-3115",
+        "name": "前盟",
+        "displayName": {
+          "zhHans": "前盟",
+          "zhHant": "前盟"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50901",
+          "name": "娇媚芙蓉",
+          "displayName": {
+            "zhHans": "娇媚芙蓉",
+            "zhHant": "嬌媚芙蓉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/509caoxiancaohua-fd0c315f/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/509caoxiancaohua/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

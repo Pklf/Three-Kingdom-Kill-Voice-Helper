@@ -1,3 +1,230 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c5b3747992f792b236e5c6ab78c4f2fdc1be25fb8ed24c454b588ea3b80ddecf
-size 6123
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiachong",
+    "command": "jiachong",
+    "name": "贾充",
+    "displayName": {
+      "zhHans": "贾充",
+      "zhHant": "賈充"
+    },
+    "names": [
+      "贾充"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "贾充",
+        "zhHant": "賈充"
+      }
+    ],
+    "ids": [
+      "7019"
+    ],
+    "sourceNames": [
+      "贾充"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "贾充",
+        "zhHant": "賈充"
+      }
+    ],
+    "sourceIds": [
+      "7019"
+    ],
+    "searchNames": [
+      "jiachong",
+      "贾充",
+      "賈充"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiachong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3088",
+        "name": "凶竖",
+        "displayName": {
+          "zhHans": "凶竖",
+          "zhHant": "凶豎"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiachong/groups/spell-3088.json"
+      },
+      {
+        "slug": "spell-3089",
+        "name": "奸回",
+        "displayName": {
+          "zhHans": "奸回",
+          "zhHant": "奸回"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiachong/groups/spell-3089.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiachong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-701903",
+        "name": "执手同欢",
+        "displayName": {
+          "zhHans": "执手同欢",
+          "zhHant": "執手同歡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiachong/skins/skin-701903.json"
+      },
+      {
+        "slug": "skin-701902",
+        "name": "见匕降龙",
+        "displayName": {
+          "zhHans": "见匕降龙",
+          "zhHant": "見匕降龍"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiachong/skins/skin-701902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiachong.json",
+      "groups": "api/v1/tts/characters/jiachong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiachong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/jiachong/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "jiachong--7019jiachong--1dead01",
+      "resourceId": "7019jiachong/1dead01",
+      "text": "任元褒，吾与汝势不两立！",
+      "textLocalized": {
+        "zhHans": "任元褒，吾与汝势不两立！",
+        "zhHant": "任元褒，吾與汝勢不兩立！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7019jiachong-9abd53c3/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7019jiachong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiachong--7019jiachong--3dead01",
+      "resourceId": "7019jiachong/3dead01",
+      "text": "醉梦人间五十年，大业说与山鬼听。",
+      "textLocalized": {
+        "zhHans": "醉梦人间五十年，大业说与山鬼听。",
+        "zhHant": "醉夢人間五十年，大業說與山鬼聽。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701903",
+          "name": "执手同欢",
+          "displayName": {
+            "zhHans": "执手同欢",
+            "zhHant": "執手同歡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7019jiachong-9abd53c3/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7019jiachong/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiachong--7019jiachong--2dead01",
+      "resourceId": "7019jiachong/2dead01",
+      "text": "充对陛下之心，天日可鉴。",
+      "textLocalized": {
+        "zhHans": "充对陛下之心，天日可鉴。",
+        "zhHant": "充對陛下之心，天日可鑑。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701902",
+          "name": "见匕降龙",
+          "displayName": {
+            "zhHans": "见匕降龙",
+            "zhHant": "見匕降龍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7019jiachong-9abd53c3/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7019jiachong/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

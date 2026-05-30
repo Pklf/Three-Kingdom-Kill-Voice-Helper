@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:966e8d664517d9b61eb178994bfcecf204107f27f3d83082275ccfd40248e7fa
-size 7114
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wenqin",
+    "command": "wenqin",
+    "name": "文钦",
+    "displayName": {
+      "zhHans": "文钦",
+      "zhHant": "文欽"
+    },
+    "names": [
+      "文钦"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "文钦",
+        "zhHant": "文欽"
+      }
+    ],
+    "ids": [
+      "570"
+    ],
+    "sourceNames": [
+      "文钦"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "文钦",
+        "zhHant": "文欽"
+      }
+    ],
+    "sourceIds": [
+      "570"
+    ],
+    "searchNames": [
+      "wenqin",
+      "文钦",
+      "文欽"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wenqin/groups/dead.json"
+      },
+      {
+        "slug": "spell-3332",
+        "name": "犷骜",
+        "displayName": {
+          "zhHans": "犷骜",
+          "zhHant": "獷驁"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wenqin/groups/spell-3332.json"
+      },
+      {
+        "slug": "spell-3333",
+        "name": "彗企",
+        "displayName": {
+          "zhHans": "彗企",
+          "zhHant": "彗企"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wenqin/groups/spell-3333.json"
+      },
+      {
+        "slug": "spell-3334",
+        "name": "偕举",
+        "displayName": {
+          "zhHans": "偕举",
+          "zhHant": "偕舉"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wenqin/groups/spell-3334.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wenqin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-57001",
+        "name": "陷阵当先",
+        "displayName": {
+          "zhHans": "陷阵当先",
+          "zhHant": "陷陣當先"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wenqin/skins/skin-57001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wenqin.json",
+      "groups": "api/v1/tts/characters/wenqin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wenqin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3334",
+    "name": "偕举",
+    "displayName": {
+      "zhHans": "偕举",
+      "zhHant": "偕舉"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/wenqin/groups/spell-3334.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "wenqin--570wenqin--1skill3_1",
+      "resourceId": "570wenqin/1skill3_1",
+      "text": "今举大义，誓与仲恭共死。",
+      "textLocalized": {
+        "zhHans": "今举大义，誓与仲恭共死。",
+        "zhHant": "今舉大義，誓與仲恭共死。"
+      },
+      "group": {
+        "slug": "spell-3334",
+        "name": "偕举",
+        "displayName": {
+          "zhHans": "偕举",
+          "zhHant": "偕舉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/570wenqin-3810e73e/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/570wenqin/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenqin--570wenqin--1skill3_2",
+      "resourceId": "570wenqin/1skill3_2",
+      "text": "天降大任，当与志士同忾。",
+      "textLocalized": {
+        "zhHans": "天降大任，当与志士同忾。",
+        "zhHant": "天降大任，當與志士同愾。"
+      },
+      "group": {
+        "slug": "spell-3334",
+        "name": "偕举",
+        "displayName": {
+          "zhHans": "偕举",
+          "zhHant": "偕舉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/570wenqin-3810e73e/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/570wenqin/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenqin--570wenqin--2skill3_1",
+      "resourceId": "570wenqin/2skill3_1",
+      "text": "义不吝众，举义旗者皆老夫兄弟。",
+      "textLocalized": {
+        "zhHans": "义不吝众，举义旗者皆老夫兄弟。",
+        "zhHant": "義不吝衆，舉義旗者皆老夫兄弟。"
+      },
+      "group": {
+        "slug": "spell-3334",
+        "name": "偕举",
+        "displayName": {
+          "zhHans": "偕举",
+          "zhHant": "偕舉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57001",
+          "name": "陷阵当先",
+          "displayName": {
+            "zhHans": "陷阵当先",
+            "zhHant": "陷陣當先"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/570wenqin-3810e73e/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/570wenqin/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wenqin--570wenqin--2skill3_2",
+      "resourceId": "570wenqin/2skill3_2",
+      "text": "你我本为袍泽，戎行何分先后。",
+      "textLocalized": {
+        "zhHans": "你我本为袍泽，戎行何分先后。",
+        "zhHant": "你我本爲袍澤，戎行何分先後。"
+      },
+      "group": {
+        "slug": "spell-3334",
+        "name": "偕举",
+        "displayName": {
+          "zhHans": "偕举",
+          "zhHant": "偕舉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-57001",
+          "name": "陷阵当先",
+          "displayName": {
+            "zhHans": "陷阵当先",
+            "zhHant": "陷陣當先"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/570wenqin-3810e73e/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/570wenqin/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

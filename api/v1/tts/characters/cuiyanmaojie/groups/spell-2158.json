@@ -1,3 +1,174 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0cbcc382ab8060e045ccafa2f7c0a999ab432d3205e43df347c91451a31638df
-size 4566
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "cuiyanmaojie",
+    "command": "cuiyanmaojie",
+    "name": "崔琰&毛玠",
+    "displayName": {
+      "zhHans": "崔琰&毛玠",
+      "zhHant": "崔琰&毛玠"
+    },
+    "names": [
+      "崔琰&毛玠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "崔琰&毛玠",
+        "zhHant": "崔琰&毛玠"
+      }
+    ],
+    "ids": [
+      "2101"
+    ],
+    "sourceNames": [
+      "崔琰&毛玠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "崔琰&毛玠",
+        "zhHant": "崔琰&毛玠"
+      }
+    ],
+    "sourceIds": [
+      "2101"
+    ],
+    "searchNames": [
+      "cuiyanmaojie",
+      "崔琰&毛玠"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/cuiyanmaojie/groups/dead.json"
+      },
+      {
+        "slug": "spell-2157",
+        "name": "征辟",
+        "displayName": {
+          "zhHans": "征辟",
+          "zhHant": "徵辟"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/cuiyanmaojie/groups/spell-2157.json"
+      },
+      {
+        "slug": "spell-2158",
+        "name": "奉迎",
+        "displayName": {
+          "zhHans": "奉迎",
+          "zhHant": "奉迎"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/cuiyanmaojie/groups/spell-2158.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/cuiyanmaojie/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/cuiyanmaojie.json",
+      "groups": "api/v1/tts/characters/cuiyanmaojie/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/cuiyanmaojie/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-2158",
+    "name": "奉迎",
+    "displayName": {
+      "zhHans": "奉迎",
+      "zhHant": "奉迎"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/cuiyanmaojie/groups/spell-2158.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "cuiyanmaojie--2101cuiyanmaojie--1skill2_1",
+      "resourceId": "2101cuiyanmaojie/1skill2_1",
+      "text": "二臣恭奉，以迎皇嗣。",
+      "textLocalized": {
+        "zhHans": "二臣恭奉，以迎皇嗣。",
+        "zhHant": "二臣恭奉，以迎皇嗣。"
+      },
+      "group": {
+        "slug": "spell-2158",
+        "name": "奉迎",
+        "displayName": {
+          "zhHans": "奉迎",
+          "zhHant": "奉迎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2101cuiyanmaojie-f5023e4c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2101cuiyanmaojie/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "cuiyanmaojie--2101cuiyanmaojie--1skill2_2",
+      "resourceId": "2101cuiyanmaojie/1skill2_2",
+      "text": "奉旨点选，以迎忠良。",
+      "textLocalized": {
+        "zhHans": "奉旨点选，以迎忠良。",
+        "zhHant": "奉旨點選，以迎忠良。"
+      },
+      "group": {
+        "slug": "spell-2158",
+        "name": "奉迎",
+        "displayName": {
+          "zhHans": "奉迎",
+          "zhHant": "奉迎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2101cuiyanmaojie-f5023e4c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2101cuiyanmaojie/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

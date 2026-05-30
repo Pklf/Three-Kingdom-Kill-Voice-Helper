@@ -1,3 +1,369 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0177e7417a016ddaca3973ef62670df9ea6255f867c6e69ecd3a8ee38c1b0749
-size 10269
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xushi",
+    "command": "xushi",
+    "name": "徐氏",
+    "displayName": {
+      "zhHans": "徐氏",
+      "zhHant": "徐氏"
+    },
+    "names": [
+      "徐氏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "徐氏",
+        "zhHant": "徐氏"
+      }
+    ],
+    "ids": [
+      "390"
+    ],
+    "sourceNames": [
+      "徐氏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "徐氏",
+        "zhHant": "徐氏"
+      }
+    ],
+    "sourceIds": [
+      "390"
+    ],
+    "searchNames": [
+      "xushi",
+      "徐氏"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xushi/groups/dead.json"
+      },
+      {
+        "slug": "spell-780",
+        "name": "问卦",
+        "displayName": {
+          "zhHans": "问卦",
+          "zhHant": "問卦"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/xushi/groups/spell-780.json"
+      },
+      {
+        "slug": "spell-781",
+        "name": "伏诛",
+        "displayName": {
+          "zhHans": "伏诛",
+          "zhHant": "伏誅"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/xushi/groups/spell-781.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-39003",
+        "name": "为夫弑敌",
+        "displayName": {
+          "zhHans": "为夫弑敌",
+          "zhHant": "爲夫弒敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-39003.json"
+      },
+      {
+        "slug": "skin-39004",
+        "name": "卜卦占凶",
+        "displayName": {
+          "zhHans": "卜卦占凶",
+          "zhHant": "卜卦佔兇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-39004.json"
+      },
+      {
+        "slug": "skin-39004-39006",
+        "name": "卜卦占凶,誓报此仇",
+        "displayName": {
+          "zhHans": "卜卦占凶,誓报此仇",
+          "zhHant": "卜卦佔兇,誓報此仇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-39004-39006.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-39007",
+        "name": "思君感伤",
+        "displayName": {
+          "zhHans": "思君感伤",
+          "zhHant": "思君感傷"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-39007.json"
+      },
+      {
+        "slug": "skin-39009",
+        "name": "粉面桃花",
+        "displayName": {
+          "zhHans": "粉面桃花",
+          "zhHant": "粉面桃花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-39009.json"
+      },
+      {
+        "slug": "skin-39005",
+        "name": "红豆相思",
+        "displayName": {
+          "zhHans": "红豆相思",
+          "zhHant": "紅豆相思"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-39005.json"
+      },
+      {
+        "slug": "skin-39006",
+        "name": "誓报此仇",
+        "displayName": {
+          "zhHans": "誓报此仇",
+          "zhHant": "誓報此仇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-39006.json"
+      },
+      {
+        "slug": "skin-39002",
+        "name": "飘逸若仙",
+        "displayName": {
+          "zhHans": "飘逸若仙",
+          "zhHant": "飄逸若仙"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-39002.json"
+      },
+      {
+        "slug": "skin-39002-39009",
+        "name": "飘逸若仙,粉面桃花",
+        "displayName": {
+          "zhHans": "飘逸若仙,粉面桃花",
+          "zhHant": "飄逸若仙,粉面桃花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xushi/skins/skin-39002-39009.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xushi.json",
+      "groups": "api/v1/tts/characters/xushi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xushi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-39005",
+    "name": "红豆相思",
+    "displayName": {
+      "zhHans": "红豆相思",
+      "zhHant": "紅豆相思"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/xushi/skins/skin-39005.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "xushi--390xushi--6dead01",
+      "resourceId": "390xushi/6dead01",
+      "text": "计划失策，恐难再有时机。",
+      "textLocalized": {
+        "zhHans": "计划失策，恐难再有时机。",
+        "zhHant": "計劃失策，恐難再有時機。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39005",
+          "name": "红豆相思",
+          "displayName": {
+            "zhHans": "红豆相思",
+            "zhHant": "紅豆相思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/390xushi-0cba369f/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/390xushi/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xushi--390xushi--6skill1_1",
+      "resourceId": "390xushi/6skill1_1",
+      "text": "此卦凶险，望夫君慎之。",
+      "textLocalized": {
+        "zhHans": "此卦凶险，望夫君慎之。",
+        "zhHant": "此卦兇險，望夫君慎之。"
+      },
+      "group": {
+        "slug": "spell-780",
+        "name": "问卦",
+        "displayName": {
+          "zhHans": "问卦",
+          "zhHant": "問卦"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39005",
+          "name": "红豆相思",
+          "displayName": {
+            "zhHans": "红豆相思",
+            "zhHant": "紅豆相思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/390xushi-0cba369f/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/390xushi/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xushi--390xushi--6skill1_2",
+      "resourceId": "390xushi/6skill1_2",
+      "text": "卦象可算，人事难算。",
+      "textLocalized": {
+        "zhHans": "卦象可算，人事难算。",
+        "zhHant": "卦象可算，人事難算。"
+      },
+      "group": {
+        "slug": "spell-780",
+        "name": "问卦",
+        "displayName": {
+          "zhHans": "问卦",
+          "zhHant": "問卦"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39005",
+          "name": "红豆相思",
+          "displayName": {
+            "zhHans": "红豆相思",
+            "zhHant": "紅豆相思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/390xushi-0cba369f/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/390xushi/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xushi--390xushi--6skill2_1",
+      "resourceId": "390xushi/6skill2_1",
+      "text": "这把匕首，就是为你准备的！",
+      "textLocalized": {
+        "zhHans": "这把匕首，就是为你准备的！",
+        "zhHant": "這把匕首，就是爲你準備的！"
+      },
+      "group": {
+        "slug": "spell-781",
+        "name": "伏诛",
+        "displayName": {
+          "zhHans": "伏诛",
+          "zhHant": "伏誅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39005",
+          "name": "红豆相思",
+          "displayName": {
+            "zhHans": "红豆相思",
+            "zhHant": "紅豆相思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/390xushi-0cba369f/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/390xushi/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xushi--390xushi--6skill2_2",
+      "resourceId": "390xushi/6skill2_2",
+      "text": "忍耐已至极限，今日就要终结你！",
+      "textLocalized": {
+        "zhHans": "忍耐已至极限，今日就要终结你！",
+        "zhHant": "忍耐已至極限，今日就要終結你！"
+      },
+      "group": {
+        "slug": "spell-781",
+        "name": "伏诛",
+        "displayName": {
+          "zhHans": "伏诛",
+          "zhHant": "伏誅"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-39005",
+          "name": "红豆相思",
+          "displayName": {
+            "zhHans": "红豆相思",
+            "zhHant": "紅豆相思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/390xushi-0cba369f/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/390xushi/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

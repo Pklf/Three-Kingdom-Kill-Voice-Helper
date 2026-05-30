@@ -1,3 +1,271 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5892709c8650aa06616181fff1f85be008fd3b2b4b1b12b4bf71d9e30f5282f6
-size 7464
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "jiechengong",
+    "command": "jiechengong",
+    "name": "界陈宫",
+    "displayName": {
+      "zhHans": "界陈宫",
+      "zhHant": "界陳宮"
+    },
+    "names": [
+      "界陈宫"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界陈宫",
+        "zhHant": "界陳宮"
+      }
+    ],
+    "ids": [
+      "597"
+    ],
+    "sourceNames": [
+      "界陈宫"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界陈宫",
+        "zhHant": "界陳宮"
+      }
+    ],
+    "sourceIds": [
+      "597"
+    ],
+    "searchNames": [
+      "jiechengong",
+      "界陈宫",
+      "界陳宮"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jiechengong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3413",
+        "name": "明策",
+        "displayName": {
+          "zhHans": "明策",
+          "zhHant": "明策"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiechengong/groups/spell-3413.json"
+      },
+      {
+        "slug": "spell-406",
+        "name": "智迟",
+        "displayName": {
+          "zhHans": "智迟",
+          "zhHant": "智遲"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiechengong/groups/spell-406.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiechengong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiechengong.json",
+      "groups": "api/v1/tts/characters/jiechengong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiechengong/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jiechengong--597jiechengong--1dead01",
+      "resourceId": "597jiechengong/1dead01",
+      "text": "一步迟，步步迟啊……",
+      "textLocalized": {
+        "zhHans": "一步迟，步步迟啊……",
+        "zhHant": "一步遲，步步遲啊……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/597jiechengong-602cb54d/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/597jiechengong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiechengong--597jiechengong--1skill1_1",
+      "resourceId": "597jiechengong/1skill1_1",
+      "text": "阁下若纳此谋，则大业可成也！",
+      "textLocalized": {
+        "zhHans": "阁下若纳此谋，则大业可成也！",
+        "zhHant": "閣下若納此謀，則大業可成也！"
+      },
+      "group": {
+        "slug": "spell-3413",
+        "name": "明策",
+        "displayName": {
+          "zhHans": "明策",
+          "zhHant": "明策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/597jiechengong-602cb54d/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/597jiechengong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiechengong--597jiechengong--1skill1_2",
+      "resourceId": "597jiechengong/1skill1_2",
+      "text": "形势如此，将军可按计行事。",
+      "textLocalized": {
+        "zhHans": "形势如此，将军可按计行事。",
+        "zhHant": "形勢如此，將軍可按計行事。"
+      },
+      "group": {
+        "slug": "spell-3413",
+        "name": "明策",
+        "displayName": {
+          "zhHans": "明策",
+          "zhHant": "明策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/597jiechengong-602cb54d/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/597jiechengong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiechengong--597jiechengong--1skill2_1",
+      "resourceId": "597jiechengong/1skill2_1",
+      "text": "不若先行退避，再做打算。",
+      "textLocalized": {
+        "zhHans": "不若先行退避，再做打算。",
+        "zhHant": "不若先行退避，再做打算。"
+      },
+      "group": {
+        "slug": "spell-406",
+        "name": "智迟",
+        "displayName": {
+          "zhHans": "智迟",
+          "zhHant": "智遲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/597jiechengong-602cb54d/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/597jiechengong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiechengong--597jiechengong--1skill2_2",
+      "resourceId": "597jiechengong/1skill2_2",
+      "text": "敌势汹汹，不宜与其交锋。",
+      "textLocalized": {
+        "zhHans": "敌势汹汹，不宜与其交锋。",
+        "zhHant": "敵勢洶洶，不宜與其交鋒。"
+      },
+      "group": {
+        "slug": "spell-406",
+        "name": "智迟",
+        "displayName": {
+          "zhHans": "智迟",
+          "zhHant": "智遲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/597jiechengong-602cb54d/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/597jiechengong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

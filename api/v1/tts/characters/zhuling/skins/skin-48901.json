@@ -1,3 +1,220 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b645e78cfcda63af6a2284af9e796134d701a79e0770fea8b61ec3cb325730ba
-size 5884
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhuling",
+    "command": "zhuling",
+    "name": "朱灵",
+    "displayName": {
+      "zhHans": "朱灵",
+      "zhHant": "朱靈"
+    },
+    "names": [
+      "朱灵"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "朱灵",
+        "zhHant": "朱靈"
+      }
+    ],
+    "ids": [
+      "489"
+    ],
+    "sourceNames": [
+      "朱灵"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "朱灵",
+        "zhHant": "朱靈"
+      }
+    ],
+    "sourceIds": [
+      "489"
+    ],
+    "searchNames": [
+      "zhuling",
+      "朱灵",
+      "朱靈"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuling/groups/dead.json"
+      },
+      {
+        "slug": "spell-3056",
+        "name": "急陷",
+        "displayName": {
+          "zhHans": "急陷",
+          "zhHant": "急陷"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhuling/groups/spell-3056.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuling/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-48901",
+        "name": "弄潮惊澜",
+        "displayName": {
+          "zhHans": "弄潮惊澜",
+          "zhHant": "弄潮驚瀾"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuling/skins/skin-48901.json"
+      },
+      {
+        "slug": "skin-48902",
+        "name": "掠风急袭",
+        "displayName": {
+          "zhHans": "掠风急袭",
+          "zhHant": "掠風急襲"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuling/skins/skin-48902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhuling.json",
+      "groups": "api/v1/tts/characters/zhuling/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhuling/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-48901",
+    "name": "弄潮惊澜",
+    "displayName": {
+      "zhHans": "弄潮惊澜",
+      "zhHant": "弄潮驚瀾"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/zhuling/skins/skin-48901.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "zhuling--489zhuling--2dead01",
+      "resourceId": "489zhuling/2dead01",
+      "text": "三军失利，其罪在主帅。",
+      "textLocalized": {
+        "zhHans": "三军失利，其罪在主帅。",
+        "zhHant": "三軍失利，其罪在主帥。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48901",
+          "name": "弄潮惊澜",
+          "displayName": {
+            "zhHans": "弄潮惊澜",
+            "zhHant": "弄潮驚瀾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/489zhuling-4376bbe9/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/489zhuling/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuling--489zhuling--2skill1_1",
+      "resourceId": "489zhuling/2skill1_1",
+      "text": "攻如叠浪，前击方止而后击已至！",
+      "textLocalized": {
+        "zhHans": "攻如叠浪，前击方止而后击已至！",
+        "zhHant": "攻如疊浪，前擊方止而後擊已至！"
+      },
+      "group": {
+        "slug": "spell-3056",
+        "name": "急陷",
+        "displayName": {
+          "zhHans": "急陷",
+          "zhHant": "急陷"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48901",
+          "name": "弄潮惊澜",
+          "displayName": {
+            "zhHans": "弄潮惊澜",
+            "zhHant": "弄潮驚瀾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/489zhuling-4376bbe9/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/489zhuling/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuling--489zhuling--2skill1_2",
+      "resourceId": "489zhuling/2skill1_2",
+      "text": "战无可当，力陷深垒而坚城弗立！",
+      "textLocalized": {
+        "zhHans": "战无可当，力陷深垒而坚城弗立！",
+        "zhHant": "戰無可當，力陷深壘而堅城弗立！"
+      },
+      "group": {
+        "slug": "spell-3056",
+        "name": "急陷",
+        "displayName": {
+          "zhHans": "急陷",
+          "zhHant": "急陷"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48901",
+          "name": "弄潮惊澜",
+          "displayName": {
+            "zhHans": "弄潮惊澜",
+            "zhHant": "弄潮驚瀾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/489zhuling-4376bbe9/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/489zhuling/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

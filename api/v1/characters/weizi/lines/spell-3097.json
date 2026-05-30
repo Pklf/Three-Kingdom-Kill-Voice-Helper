@@ -1,3 +1,938 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:141a71ffd8271b7ccd76cf66e7f6c94cba9b5aa367fca2bd7c733c9f6f2c1dfb
-size 21499
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "weizi",
+    "command": "weizi",
+    "name": "卫兹",
+    "displayName": {
+      "zhHans": "卫兹",
+      "zhHant": "衛茲"
+    },
+    "names": [
+      "卫兹"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卫兹",
+        "zhHant": "衛茲"
+      }
+    ],
+    "ids": [
+      "501"
+    ],
+    "sourceNames": [
+      "卫兹"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卫兹",
+        "zhHant": "衛茲"
+      }
+    ],
+    "sourceIds": [
+      "501"
+    ],
+    "searchNames": [
+      "weizi",
+      "卫兹",
+      "衛茲"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-3097",
+        "name": "援资",
+        "displayName": {
+          "zhHans": "援资",
+          "zhHant": "援資"
+        },
+        "ids": [
+          "3097"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-3098",
+        "name": "烈节",
+        "displayName": {
+          "zhHans": "烈节",
+          "zhHant": "烈節"
+        },
+        "ids": [
+          "3098"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-50101",
+        "ids": [
+          "50101"
+        ],
+        "name": "举兵助曹",
+        "displayName": {
+          "zhHans": "举兵助曹",
+          "zhHant": "舉兵助曹"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-50102",
+        "ids": [
+          "50102"
+        ],
+        "name": "助龙点睛",
+        "displayName": {
+          "zhHans": "助龙点睛",
+          "zhHant": "助龍點睛"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/weizi.json",
+      "lines": "api/v1/characters/weizi/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3097",
+    "ids": [
+      "3097"
+    ],
+    "name": "援资",
+    "displayName": {
+      "zhHans": "援资",
+      "zhHant": "援資"
+    },
+    "names": [
+      "援资"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "援资",
+        "zhHant": "援資"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "weizi--501weizi--2skill1_1",
+      "resourceId": "501weizi/2skill1_1",
+      "text": "此乃兹报国之心，将军还请纳之。",
+      "textLocalized": {
+        "zhHans": "此乃兹报国之心，将军还请纳之。",
+        "zhHant": "此乃茲報國之心，將軍還請納之。"
+      },
+      "character": {
+        "slug": "weizi",
+        "command": "weizi",
+        "id": "501",
+        "ids": [
+          "501"
+        ],
+        "name": "卫兹",
+        "displayName": {
+          "zhHans": "卫兹",
+          "zhHant": "衛茲"
+        },
+        "names": [
+          "卫兹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "sourceIds": [
+          "501"
+        ],
+        "sourceNames": [
+          "卫兹"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "searchNames": [
+          "卫兹",
+          "衛茲",
+          "weizi"
+        ]
+      },
+      "group": {
+        "slug": "spell-3097",
+        "ids": [
+          "3097"
+        ],
+        "name": "援资",
+        "displayName": {
+          "zhHans": "援资",
+          "zhHant": "援資"
+        },
+        "names": [
+          "援资"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "援资",
+            "zhHant": "援資"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-50101",
+        "ids": [
+          "50101"
+        ],
+        "name": "举兵助曹",
+        "displayName": {
+          "zhHans": "举兵助曹",
+          "zhHant": "舉兵助曹"
+        },
+        "names": [
+          "举兵助曹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "举兵助曹",
+            "zhHant": "舉兵助曹"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-50101",
+          "id": "50101",
+          "ids": [
+            "50101"
+          ],
+          "name": "举兵助曹",
+          "displayName": {
+            "zhHans": "举兵助曹",
+            "zhHant": "舉兵助曹"
+          },
+          "names": [
+            "举兵助曹"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "举兵助曹",
+              "zhHant": "舉兵助曹"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "501",
+        "skinKey": "50101",
+        "spellKey": "3097",
+        "rowIndex": 1,
+        "characterNames": [
+          "卫兹"
+        ],
+        "skinNames": [
+          "举兵助曹"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--2skill1_2",
+      "resourceId": "501weizi/2skill1_2",
+      "text": "欲伐董卓，怎可无兵？容兹助之。",
+      "textLocalized": {
+        "zhHans": "欲伐董卓，怎可无兵？容兹助之。",
+        "zhHant": "欲伐董卓，怎可無兵？容茲助之。"
+      },
+      "character": {
+        "slug": "weizi",
+        "command": "weizi",
+        "id": "501",
+        "ids": [
+          "501"
+        ],
+        "name": "卫兹",
+        "displayName": {
+          "zhHans": "卫兹",
+          "zhHant": "衛茲"
+        },
+        "names": [
+          "卫兹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "sourceIds": [
+          "501"
+        ],
+        "sourceNames": [
+          "卫兹"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "searchNames": [
+          "卫兹",
+          "衛茲",
+          "weizi"
+        ]
+      },
+      "group": {
+        "slug": "spell-3097",
+        "ids": [
+          "3097"
+        ],
+        "name": "援资",
+        "displayName": {
+          "zhHans": "援资",
+          "zhHant": "援資"
+        },
+        "names": [
+          "援资"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "援资",
+            "zhHant": "援資"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-50101",
+        "ids": [
+          "50101"
+        ],
+        "name": "举兵助曹",
+        "displayName": {
+          "zhHans": "举兵助曹",
+          "zhHant": "舉兵助曹"
+        },
+        "names": [
+          "举兵助曹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "举兵助曹",
+            "zhHant": "舉兵助曹"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-50101",
+          "id": "50101",
+          "ids": [
+            "50101"
+          ],
+          "name": "举兵助曹",
+          "displayName": {
+            "zhHans": "举兵助曹",
+            "zhHant": "舉兵助曹"
+          },
+          "names": [
+            "举兵助曹"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "举兵助曹",
+              "zhHant": "舉兵助曹"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "501",
+        "skinKey": "50101",
+        "spellKey": "3097",
+        "rowIndex": 2,
+        "characterNames": [
+          "卫兹"
+        ],
+        "skinNames": [
+          "举兵助曹"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--3skill1_1",
+      "resourceId": "501weizi/3skill1_1",
+      "text": "兹深受国恩，今汉统衰退，|当助将军匡扶汉室。",
+      "textLocalized": {
+        "zhHans": "兹深受国恩，今汉统衰退，|当助将军匡扶汉室。",
+        "zhHant": "茲深受國恩，今漢統衰退，|當助將軍匡扶漢室。"
+      },
+      "character": {
+        "slug": "weizi",
+        "command": "weizi",
+        "id": "501",
+        "ids": [
+          "501"
+        ],
+        "name": "卫兹",
+        "displayName": {
+          "zhHans": "卫兹",
+          "zhHant": "衛茲"
+        },
+        "names": [
+          "卫兹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "sourceIds": [
+          "501"
+        ],
+        "sourceNames": [
+          "卫兹"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "searchNames": [
+          "卫兹",
+          "衛茲",
+          "weizi"
+        ]
+      },
+      "group": {
+        "slug": "spell-3097",
+        "ids": [
+          "3097"
+        ],
+        "name": "援资",
+        "displayName": {
+          "zhHans": "援资",
+          "zhHant": "援資"
+        },
+        "names": [
+          "援资"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "援资",
+            "zhHant": "援資"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-50102",
+        "ids": [
+          "50102"
+        ],
+        "name": "助龙点睛",
+        "displayName": {
+          "zhHans": "助龙点睛",
+          "zhHant": "助龍點睛"
+        },
+        "names": [
+          "助龙点睛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "助龙点睛",
+            "zhHant": "助龍點睛"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-50102",
+          "id": "50102",
+          "ids": [
+            "50102"
+          ],
+          "name": "助龙点睛",
+          "displayName": {
+            "zhHans": "助龙点睛",
+            "zhHant": "助龍點睛"
+          },
+          "names": [
+            "助龙点睛"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "助龙点睛",
+              "zhHant": "助龍點睛"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "501",
+        "skinKey": "50102",
+        "spellKey": "3097",
+        "rowIndex": 1,
+        "characterNames": [
+          "卫兹"
+        ],
+        "skinNames": [
+          "助龙点睛"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--3skill1_2",
+      "resourceId": "501weizi/3skill1_2",
+      "text": "兹虽不才，愿以家资助公平定天下。",
+      "textLocalized": {
+        "zhHans": "兹虽不才，愿以家资助公平定天下。",
+        "zhHant": "茲雖不才，願以家資助公平定天下。"
+      },
+      "character": {
+        "slug": "weizi",
+        "command": "weizi",
+        "id": "501",
+        "ids": [
+          "501"
+        ],
+        "name": "卫兹",
+        "displayName": {
+          "zhHans": "卫兹",
+          "zhHant": "衛茲"
+        },
+        "names": [
+          "卫兹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "sourceIds": [
+          "501"
+        ],
+        "sourceNames": [
+          "卫兹"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "searchNames": [
+          "卫兹",
+          "衛茲",
+          "weizi"
+        ]
+      },
+      "group": {
+        "slug": "spell-3097",
+        "ids": [
+          "3097"
+        ],
+        "name": "援资",
+        "displayName": {
+          "zhHans": "援资",
+          "zhHant": "援資"
+        },
+        "names": [
+          "援资"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "援资",
+            "zhHant": "援資"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-50102",
+        "ids": [
+          "50102"
+        ],
+        "name": "助龙点睛",
+        "displayName": {
+          "zhHans": "助龙点睛",
+          "zhHant": "助龍點睛"
+        },
+        "names": [
+          "助龙点睛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "助龙点睛",
+            "zhHant": "助龍點睛"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-50102",
+          "id": "50102",
+          "ids": [
+            "50102"
+          ],
+          "name": "助龙点睛",
+          "displayName": {
+            "zhHans": "助龙点睛",
+            "zhHant": "助龍點睛"
+          },
+          "names": [
+            "助龙点睛"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "助龙点睛",
+              "zhHant": "助龍點睛"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "501",
+        "skinKey": "50102",
+        "spellKey": "3097",
+        "rowIndex": 2,
+        "characterNames": [
+          "卫兹"
+        ],
+        "skinNames": [
+          "助龙点睛"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--1skill1_1",
+      "resourceId": "501weizi/1skill1_1",
+      "text": "不过是些身外之物罢了。",
+      "textLocalized": {
+        "zhHans": "不过是些身外之物罢了。",
+        "zhHant": "不過是些身外之物罷了。"
+      },
+      "character": {
+        "slug": "weizi",
+        "command": "weizi",
+        "id": "501",
+        "ids": [
+          "501"
+        ],
+        "name": "卫兹",
+        "displayName": {
+          "zhHans": "卫兹",
+          "zhHant": "衛茲"
+        },
+        "names": [
+          "卫兹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "sourceIds": [
+          "501"
+        ],
+        "sourceNames": [
+          "卫兹"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "searchNames": [
+          "卫兹",
+          "衛茲",
+          "weizi"
+        ]
+      },
+      "group": {
+        "slug": "spell-3097",
+        "ids": [
+          "3097"
+        ],
+        "name": "援资",
+        "displayName": {
+          "zhHans": "援资",
+          "zhHant": "援資"
+        },
+        "names": [
+          "援资"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "援资",
+            "zhHant": "援資"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "501",
+        "skinKey": "-1",
+        "spellKey": "3097",
+        "rowIndex": 1,
+        "characterNames": [
+          "卫兹"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weizi--501weizi--1skill1_2",
+      "resourceId": "501weizi/1skill1_2",
+      "text": "兹之家资，将军可尽取之。",
+      "textLocalized": {
+        "zhHans": "兹之家资，将军可尽取之。",
+        "zhHant": "茲之家資，將軍可盡取之。"
+      },
+      "character": {
+        "slug": "weizi",
+        "command": "weizi",
+        "id": "501",
+        "ids": [
+          "501"
+        ],
+        "name": "卫兹",
+        "displayName": {
+          "zhHans": "卫兹",
+          "zhHant": "衛茲"
+        },
+        "names": [
+          "卫兹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "sourceIds": [
+          "501"
+        ],
+        "sourceNames": [
+          "卫兹"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "卫兹",
+            "zhHant": "衛茲"
+          }
+        ],
+        "searchNames": [
+          "卫兹",
+          "衛茲",
+          "weizi"
+        ]
+      },
+      "group": {
+        "slug": "spell-3097",
+        "ids": [
+          "3097"
+        ],
+        "name": "援资",
+        "displayName": {
+          "zhHans": "援资",
+          "zhHant": "援資"
+        },
+        "names": [
+          "援资"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "援资",
+            "zhHant": "援資"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "501",
+        "skinKey": "-1",
+        "spellKey": "3097",
+        "rowIndex": 2,
+        "characterNames": [
+          "卫兹"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/501weizi-8dbd0e2f/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/501weizi/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,229 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4cb01bc89f47b84986d6268d7cb0ef9b03173d84f2c0d42c71e593441ab495eb
-size 5903
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wutugu",
+    "command": "wutugu",
+    "name": "兀突骨",
+    "displayName": {
+      "zhHans": "兀突骨",
+      "zhHant": "兀突骨"
+    },
+    "names": [
+      "兀突骨"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "兀突骨",
+        "zhHant": "兀突骨"
+      }
+    ],
+    "ids": [
+      "140"
+    ],
+    "sourceNames": [
+      "兀突骨"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "兀突骨",
+        "zhHant": "兀突骨"
+      }
+    ],
+    "sourceIds": [
+      "140"
+    ],
+    "searchNames": [
+      "wutugu",
+      "兀突骨"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wutugu/groups/dead.json"
+      },
+      {
+        "slug": "spell-267",
+        "name": "燃殇",
+        "displayName": {
+          "zhHans": "燃殇",
+          "zhHant": "燃殤"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wutugu/groups/spell-267.json"
+      },
+      {
+        "slug": "spell-268",
+        "name": "悍勇",
+        "displayName": {
+          "zhHans": "悍勇",
+          "zhHant": "悍勇"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wutugu/groups/spell-268.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wutugu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-14001",
+        "name": "悍然嗜血",
+        "displayName": {
+          "zhHans": "悍然嗜血",
+          "zhHant": "悍然嗜血"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wutugu/skins/skin-14001.json"
+      },
+      {
+        "slug": "skin-14002",
+        "name": "蛮战沙场",
+        "displayName": {
+          "zhHans": "蛮战沙场",
+          "zhHant": "蠻戰沙場"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wutugu/skins/skin-14002.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wutugu.json",
+      "groups": "api/v1/tts/characters/wutugu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wutugu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/wutugu/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "wutugu--140wutugu--1dead01",
+      "resourceId": "140wutugu/1dead01",
+      "text": "撤，快撤！",
+      "textLocalized": {
+        "zhHans": "撤，快撤！",
+        "zhHant": "撤，快撤！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/140wutugu-06123521/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/140wutugu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wutugu--140wutugu--3dead01",
+      "resourceId": "140wutugu/3dead01",
+      "text": "你……够……狠……",
+      "textLocalized": {
+        "zhHans": "你……够……狠……",
+        "zhHant": "你……夠……狠……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-14001",
+          "name": "悍然嗜血",
+          "displayName": {
+            "zhHans": "悍然嗜血",
+            "zhHant": "悍然嗜血"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/140wutugu-06123521/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/140wutugu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wutugu--140wutugu--4dead01",
+      "resourceId": "140wutugu/4dead01",
+      "text": "不可能，这不可能！",
+      "textLocalized": {
+        "zhHans": "不可能，这不可能！",
+        "zhHant": "不可能，這不可能！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-14002",
+          "name": "蛮战沙场",
+          "displayName": {
+            "zhHans": "蛮战沙场",
+            "zhHant": "蠻戰沙場"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/140wutugu-06123521/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/140wutugu/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

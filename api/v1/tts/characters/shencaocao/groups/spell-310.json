@@ -1,3 +1,404 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:85c6c813b32687453aa4188e5e659a90311eef1f7f212b7cf11b43bbf2db0ba8
-size 11452
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shencaocao",
+    "command": "shencaocao",
+    "name": "神曹操",
+    "displayName": {
+      "zhHans": "神曹操",
+      "zhHant": "神曹操"
+    },
+    "names": [
+      "神曹操"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神曹操",
+        "zhHant": "神曹操"
+      }
+    ],
+    "ids": [
+      "205"
+    ],
+    "sourceNames": [
+      "神曹操"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神曹操",
+        "zhHant": "神曹操"
+      }
+    ],
+    "sourceIds": [
+      "205"
+    ],
+    "searchNames": [
+      "shencaocao",
+      "神曹操"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shencaocao/groups/dead.json"
+      },
+      {
+        "slug": "spell-310",
+        "name": "归心",
+        "displayName": {
+          "zhHans": "归心",
+          "zhHant": "歸心"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/shencaocao/groups/spell-310.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-20502",
+        "name": "一统江山",
+        "displayName": {
+          "zhHans": "一统江山",
+          "zhHant": "一統江山"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shencaocao/skins/skin-20502.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shencaocao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-20503",
+        "name": "晷月皓冕",
+        "displayName": {
+          "zhHans": "晷月皓冕",
+          "zhHant": "晷月皓冕"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shencaocao/skins/skin-20503.json"
+      },
+      {
+        "slug": "skin-20501",
+        "name": "炼狱枭魂",
+        "displayName": {
+          "zhHans": "炼狱枭魂",
+          "zhHant": "煉獄梟魂"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shencaocao/skins/skin-20501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shencaocao.json",
+      "groups": "api/v1/tts/characters/shencaocao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shencaocao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-310",
+    "name": "归心",
+    "displayName": {
+      "zhHans": "归心",
+      "zhHant": "歸心"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/shencaocao/groups/spell-310.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "shencaocao--205shencaocao--4skill1_1",
+      "resourceId": "205shencaocao/4skill1_1",
+      "text": "民之归吾，如水之就下。",
+      "textLocalized": {
+        "zhHans": "民之归吾，如水之就下。",
+        "zhHant": "民之歸吾，如水之就下。"
+      },
+      "group": {
+        "slug": "spell-310",
+        "name": "归心",
+        "displayName": {
+          "zhHans": "归心",
+          "zhHant": "歸心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20502",
+          "name": "一统江山",
+          "displayName": {
+            "zhHans": "一统江山",
+            "zhHant": "一統江山"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/205shencaocao-4f5de1ab/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/205shencaocao/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shencaocao--205shencaocao--4skill1_2",
+      "resourceId": "205shencaocao/4skill1_2",
+      "text": "扫清六合，席卷八荒！",
+      "textLocalized": {
+        "zhHans": "扫清六合，席卷八荒！",
+        "zhHant": "掃清六合，席捲八荒！"
+      },
+      "group": {
+        "slug": "spell-310",
+        "name": "归心",
+        "displayName": {
+          "zhHans": "归心",
+          "zhHant": "歸心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20502",
+          "name": "一统江山",
+          "displayName": {
+            "zhHans": "一统江山",
+            "zhHant": "一統江山"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/205shencaocao-4f5de1ab/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/205shencaocao/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shencaocao--205shencaocao--1skill1_1",
+      "resourceId": "205shencaocao/1skill1_1",
+      "text": "山不厌高，海不厌深。",
+      "textLocalized": {
+        "zhHans": "山不厌高，海不厌深。",
+        "zhHant": "山不厭高，海不厭深。"
+      },
+      "group": {
+        "slug": "spell-310",
+        "name": "归心",
+        "displayName": {
+          "zhHans": "归心",
+          "zhHant": "歸心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/205shencaocao-4f5de1ab/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/205shencaocao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shencaocao--205shencaocao--1skill1_2",
+      "resourceId": "205shencaocao/1skill1_2",
+      "text": "周公吐哺，天下归心。",
+      "textLocalized": {
+        "zhHans": "周公吐哺，天下归心。",
+        "zhHant": "周公吐哺，天下歸心。"
+      },
+      "group": {
+        "slug": "spell-310",
+        "name": "归心",
+        "displayName": {
+          "zhHans": "归心",
+          "zhHant": "歸心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/205shencaocao-4f5de1ab/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/205shencaocao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shencaocao--205shencaocao--5skill1_1",
+      "resourceId": "205shencaocao/5skill1_1",
+      "text": "我以四海为珍馐，欲宴天下以太平！",
+      "textLocalized": {
+        "zhHans": "我以四海为珍馐，欲宴天下以太平！",
+        "zhHant": "我以四海爲珍饈，欲宴天下以太平！"
+      },
+      "group": {
+        "slug": "spell-310",
+        "name": "归心",
+        "displayName": {
+          "zhHans": "归心",
+          "zhHant": "歸心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20503",
+          "name": "晷月皓冕",
+          "displayName": {
+            "zhHans": "晷月皓冕",
+            "zhHant": "晷月皓冕"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/205shencaocao-4f5de1ab/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/205shencaocao/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shencaocao--205shencaocao--5skill1_2",
+      "resourceId": "205shencaocao/5skill1_2",
+      "text": "饮慷慨之佳醴lǐ，咏食苹之子衿。",
+      "textLocalized": {
+        "zhHans": "饮慷慨之佳醴lǐ，咏食苹之子衿。",
+        "zhHant": "飲慷慨之佳醴lǐ，詠食蘋之子衿。"
+      },
+      "group": {
+        "slug": "spell-310",
+        "name": "归心",
+        "displayName": {
+          "zhHans": "归心",
+          "zhHant": "歸心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20503",
+          "name": "晷月皓冕",
+          "displayName": {
+            "zhHans": "晷月皓冕",
+            "zhHant": "晷月皓冕"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/205shencaocao-4f5de1ab/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/205shencaocao/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shencaocao--205shencaocao--3skill1_1",
+      "resourceId": "205shencaocao/3skill1_1",
+      "text": "山不厌高，海不厌深。",
+      "textLocalized": {
+        "zhHans": "山不厌高，海不厌深。",
+        "zhHant": "山不厭高，海不厭深。"
+      },
+      "group": {
+        "slug": "spell-310",
+        "name": "归心",
+        "displayName": {
+          "zhHans": "归心",
+          "zhHant": "歸心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20501",
+          "name": "炼狱枭魂",
+          "displayName": {
+            "zhHans": "炼狱枭魂",
+            "zhHant": "煉獄梟魂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/205shencaocao-4f5de1ab/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/205shencaocao/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shencaocao--205shencaocao--3skill1_2",
+      "resourceId": "205shencaocao/3skill1_2",
+      "text": "周公吐哺，天下归心。",
+      "textLocalized": {
+        "zhHans": "周公吐哺，天下归心。",
+        "zhHant": "周公吐哺，天下歸心。"
+      },
+      "group": {
+        "slug": "spell-310",
+        "name": "归心",
+        "displayName": {
+          "zhHans": "归心",
+          "zhHant": "歸心"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-20501",
+          "name": "炼狱枭魂",
+          "displayName": {
+            "zhHans": "炼狱枭魂",
+            "zhHant": "煉獄梟魂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/205shencaocao-4f5de1ab/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/205shencaocao/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

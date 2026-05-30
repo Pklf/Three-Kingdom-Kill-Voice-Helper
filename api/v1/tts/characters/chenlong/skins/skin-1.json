@@ -1,3 +1,165 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:72b54bd1557a7e8fe2d1b7aa9873f2def5fce2d31d6c4654b1a6f70815ae8a24
-size 4172
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chenlong",
+    "command": "chenlong",
+    "name": "辰龙",
+    "displayName": {
+      "zhHans": "辰龙",
+      "zhHant": "辰龍"
+    },
+    "names": [
+      "辰龙"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "辰龙",
+        "zhHant": "辰龍"
+      }
+    ],
+    "ids": [
+      "4087"
+    ],
+    "sourceNames": [
+      "辰龙"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "辰龙",
+        "zhHant": "辰龍"
+      }
+    ],
+    "sourceIds": [
+      "4087"
+    ],
+    "searchNames": [
+      "chenlong",
+      "辰龙",
+      "辰龍"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chenlong/groups/dead.json"
+      },
+      {
+        "slug": "spell-1205",
+        "name": "辰龙",
+        "displayName": {
+          "zhHans": "辰龙",
+          "zhHant": "辰龍"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chenlong/groups/spell-1205.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/chenlong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chenlong.json",
+      "groups": "api/v1/tts/characters/chenlong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chenlong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/chenlong/skins/skin-1.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "chenlong--4087chenlong--1dead01",
+      "resourceId": "4087chenlong/1dead01",
+      "text": "龙威不再，龙鳞已落。",
+      "textLocalized": {
+        "zhHans": "龙威不再，龙鳞已落。",
+        "zhHant": "龍威不再，龍鱗已落。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4087chenlong-dcda608f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4087chenlong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenlong--4087chenlong--1skill1_1",
+      "resourceId": "4087chenlong/1skill1_1",
+      "text": "龙怒的威力，不是你所能承受的。",
+      "textLocalized": {
+        "zhHans": "龙怒的威力，不是你所能承受的。",
+        "zhHant": "龍怒的威力，不是你所能承受的。"
+      },
+      "group": {
+        "slug": "spell-1205",
+        "name": "辰龙",
+        "displayName": {
+          "zhHans": "辰龙",
+          "zhHant": "辰龍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4087chenlong-dcda608f/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4087chenlong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

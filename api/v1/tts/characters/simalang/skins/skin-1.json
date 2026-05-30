@@ -1,3 +1,330 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f43754ff09c1a7b1c9b8f83548a72f7ef57db42f0a58872ee31b634b6d9b1bb9
-size 8958
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simalang",
+    "command": "simalang",
+    "name": "司马朗",
+    "displayName": {
+      "zhHans": "司马朗",
+      "zhHant": "司馬朗"
+    },
+    "names": [
+      "司马朗"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马朗",
+        "zhHant": "司馬朗"
+      }
+    ],
+    "ids": [
+      "360"
+    ],
+    "sourceNames": [
+      "司马朗"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马朗",
+        "zhHant": "司馬朗"
+      }
+    ],
+    "sourceIds": [
+      "360"
+    ],
+    "searchNames": [
+      "simalang",
+      "司马朗",
+      "司馬朗"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/simalang/groups/dead.json"
+      },
+      {
+        "slug": "spell-269",
+        "name": "郡兵",
+        "displayName": {
+          "zhHans": "郡兵",
+          "zhHant": "郡兵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simalang/groups/spell-269.json"
+      },
+      {
+        "slug": "spell-270",
+        "name": "去疾",
+        "displayName": {
+          "zhHans": "去疾",
+          "zhHant": "去疾"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/simalang/groups/spell-270.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "36006",
+        "name": "36006",
+        "displayName": {
+          "zhHans": "36006",
+          "zhHant": "36006"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/36006.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-36005",
+        "name": "去疾还瑞",
+        "displayName": {
+          "zhHans": "去疾还瑞",
+          "zhHant": "去疾還瑞"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-36005.json"
+      },
+      {
+        "slug": "skin-36004",
+        "name": "望闻问切",
+        "displayName": {
+          "zhHans": "望闻问切",
+          "zhHant": "望聞問切"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-36004.json"
+      },
+      {
+        "slug": "skin-36003",
+        "name": "识草辨药",
+        "displayName": {
+          "zhHans": "识草辨药",
+          "zhHant": "識草辨藥"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-36003.json"
+      },
+      {
+        "slug": "skin-36002",
+        "name": "试尝百草",
+        "displayName": {
+          "zhHans": "试尝百草",
+          "zhHant": "試嘗百草"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simalang/skins/skin-36002.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simalang.json",
+      "groups": "api/v1/tts/characters/simalang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simalang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/simalang/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "simalang--360simalang--1dead01",
+      "resourceId": "360simalang/1dead01",
+      "text": "微功未效，有辱国恩。",
+      "textLocalized": {
+        "zhHans": "微功未效，有辱国恩。",
+        "zhHant": "微功未效，有辱國恩。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simalang--360simalang--1skill1_1",
+      "resourceId": "360simalang/1skill1_1",
+      "text": "男儿慷慨，军中豪迈。",
+      "textLocalized": {
+        "zhHans": "男儿慷慨，军中豪迈。",
+        "zhHant": "男兒慷慨，軍中豪邁。"
+      },
+      "group": {
+        "slug": "spell-269",
+        "name": "郡兵",
+        "displayName": {
+          "zhHans": "郡兵",
+          "zhHant": "郡兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simalang--360simalang--1skill1_2",
+      "resourceId": "360simalang/1skill1_2",
+      "text": "郡国，当有搜狩习战之备。",
+      "textLocalized": {
+        "zhHans": "郡国，当有搜狩习战之备。",
+        "zhHant": "郡國，當有搜狩習戰之備。"
+      },
+      "group": {
+        "slug": "spell-269",
+        "name": "郡兵",
+        "displayName": {
+          "zhHans": "郡兵",
+          "zhHant": "郡兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simalang--360simalang--1skill2_1",
+      "resourceId": "360simalang/1skill2_1",
+      "text": "若不去兵之疾，则将何以守国？",
+      "textLocalized": {
+        "zhHans": "若不去兵之疾，则将何以守国？",
+        "zhHant": "若不去兵之疾，則將何以守國？"
+      },
+      "group": {
+        "slug": "spell-270",
+        "name": "去疾",
+        "displayName": {
+          "zhHans": "去疾",
+          "zhHant": "去疾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simalang--360simalang--1skill2_2",
+      "resourceId": "360simalang/1skill2_2",
+      "text": "愿为将士，略尽绵薄。",
+      "textLocalized": {
+        "zhHans": "愿为将士，略尽绵薄。",
+        "zhHant": "願爲將士，略盡綿薄。"
+      },
+      "group": {
+        "slug": "spell-270",
+        "name": "去疾",
+        "displayName": {
+          "zhHans": "去疾",
+          "zhHant": "去疾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/360simalang-b92e5f79/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/360simalang/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

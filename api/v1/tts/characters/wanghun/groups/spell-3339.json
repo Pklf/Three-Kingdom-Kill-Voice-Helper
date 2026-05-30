@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da3a29187a0ee3ebf65e06f53fcdfd57a4c37b06f566b3249585743103e1209c
-size 4771
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wanghun",
+    "command": "wanghun",
+    "name": "族王浑",
+    "displayName": {
+      "zhHans": "族王浑",
+      "zhHant": "族王渾"
+    },
+    "names": [
+      "族王浑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族王浑",
+        "zhHant": "族王渾"
+      }
+    ],
+    "ids": [
+      "574"
+    ],
+    "sourceNames": [
+      "族王浑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族王浑",
+        "zhHant": "族王渾"
+      }
+    ],
+    "sourceIds": [
+      "574"
+    ],
+    "searchNames": [
+      "wanghun",
+      "族王浑",
+      "族王渾"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wanghun/groups/dead.json"
+      },
+      {
+        "slug": "spell-3297",
+        "name": "中流",
+        "displayName": {
+          "zhHans": "中流",
+          "zhHant": "中流"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wanghun/groups/spell-3297.json"
+      },
+      {
+        "slug": "spell-3339",
+        "name": "抚循",
+        "displayName": {
+          "zhHans": "抚循",
+          "zhHant": "撫循"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wanghun/groups/spell-3339.json"
+      },
+      {
+        "slug": "spell-3340",
+        "name": "沉雅",
+        "displayName": {
+          "zhHans": "沉雅",
+          "zhHant": "沉雅"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wanghun/groups/spell-3340.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/wanghun/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wanghun.json",
+      "groups": "api/v1/tts/characters/wanghun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wanghun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3339",
+    "name": "抚循",
+    "displayName": {
+      "zhHans": "抚循",
+      "zhHant": "撫循"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/wanghun/groups/spell-3339.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "wanghun--574wanghun--1skill1_1",
+      "resourceId": "574wanghun/1skill1_1",
+      "text": "东吴遗民惶惶，宜抚而不宜罚。",
+      "textLocalized": {
+        "zhHans": "东吴遗民惶惶，宜抚而不宜罚。",
+        "zhHant": "東吳遺民惶惶，宜撫而不宜罰。"
+      },
+      "group": {
+        "slug": "spell-3339",
+        "name": "抚循",
+        "displayName": {
+          "zhHans": "抚循",
+          "zhHant": "撫循"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/574wanghun-77d9c649/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/574wanghun/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wanghun--574wanghun--1skill1_2",
+      "resourceId": "574wanghun/1skill1_2",
+      "text": "江东新附，不可以严法度之。",
+      "textLocalized": {
+        "zhHans": "江东新附，不可以严法度之。",
+        "zhHant": "江東新附，不可以嚴法度之。"
+      },
+      "group": {
+        "slug": "spell-3339",
+        "name": "抚循",
+        "displayName": {
+          "zhHans": "抚循",
+          "zhHant": "撫循"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/574wanghun-77d9c649/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/574wanghun/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

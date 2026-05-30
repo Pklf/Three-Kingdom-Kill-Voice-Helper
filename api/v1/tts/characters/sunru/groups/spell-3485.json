@@ -1,3 +1,361 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:91fd12fce72cd446eafb3d876b098dd97462ae5dd3b86914e3dfb150b105e6bb
-size 9972
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunru",
+    "command": "sunru",
+    "name": "孙茹",
+    "displayName": {
+      "zhHans": "孙茹",
+      "zhHant": "孫茹"
+    },
+    "names": [
+      "孙茹"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙茹",
+        "zhHant": "孫茹"
+      }
+    ],
+    "ids": [
+      "632"
+    ],
+    "sourceNames": [
+      "孙茹"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙茹",
+        "zhHant": "孫茹"
+      }
+    ],
+    "sourceIds": [
+      "632"
+    ],
+    "searchNames": [
+      "sunru",
+      "孙茹",
+      "孫茹"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sunru/groups/dead.json"
+      },
+      {
+        "slug": "spell-3484",
+        "name": "持室",
+        "displayName": {
+          "zhHans": "持室",
+          "zhHant": "持室"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/sunru/groups/spell-3484.json"
+      },
+      {
+        "slug": "spell-3485",
+        "name": "慰勉",
+        "displayName": {
+          "zhHans": "慰勉",
+          "zhHant": "慰勉"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/sunru/groups/spell-3485.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "63202",
+        "name": "63202",
+        "displayName": {
+          "zhHans": "63202",
+          "zhHant": "63202"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunru/skins/63202.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunru/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-63201",
+        "name": "比翼连枝",
+        "displayName": {
+          "zhHans": "比翼连枝",
+          "zhHant": "比翼連枝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunru/skins/skin-63201.json"
+      },
+      {
+        "slug": "skin-63203",
+        "name": "灯火阑珊",
+        "displayName": {
+          "zhHans": "灯火阑珊",
+          "zhHant": "燈火闌珊"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunru/skins/skin-63203.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunru.json",
+      "groups": "api/v1/tts/characters/sunru/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunru/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3485",
+    "name": "慰勉",
+    "displayName": {
+      "zhHans": "慰勉",
+      "zhHant": "慰勉"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/sunru/groups/spell-3485.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "sunru--632sunru--3skill2_1",
+      "resourceId": "632sunru/3skill2_1",
+      "text": "红袖揾去浊泪，温言洗净风尘。",
+      "textLocalized": {
+        "zhHans": "红袖揾去浊泪，温言洗净风尘。",
+        "zhHant": "紅袖搵去濁淚，溫言洗淨風塵。"
+      },
+      "group": {
+        "slug": "spell-3485",
+        "name": "慰勉",
+        "displayName": {
+          "zhHans": "慰勉",
+          "zhHant": "慰勉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "63202",
+          "name": "63202",
+          "displayName": {
+            "zhHans": "63202",
+            "zhHant": "63202"
+          }
+        },
+        {
+          "slug": "skin-63203",
+          "name": "灯火阑珊",
+          "displayName": {
+            "zhHans": "灯火阑珊",
+            "zhHant": "燈火闌珊"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--3skill2_2",
+      "resourceId": "632sunru/3skill2_2",
+      "text": "君乃盖世英雄，当承天降之大任。",
+      "textLocalized": {
+        "zhHans": "君乃盖世英雄，当承天降之大任。",
+        "zhHant": "君乃蓋世英雄，當承天降之大任。"
+      },
+      "group": {
+        "slug": "spell-3485",
+        "name": "慰勉",
+        "displayName": {
+          "zhHans": "慰勉",
+          "zhHant": "慰勉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "63202",
+          "name": "63202",
+          "displayName": {
+            "zhHans": "63202",
+            "zhHant": "63202"
+          }
+        },
+        {
+          "slug": "skin-63203",
+          "name": "灯火阑珊",
+          "displayName": {
+            "zhHans": "灯火阑珊",
+            "zhHant": "燈火闌珊"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--1skill2_1",
+      "resourceId": "632sunru/1skill2_1",
+      "text": "不过二三小事，夫君何须烦恼。",
+      "textLocalized": {
+        "zhHans": "不过二三小事，夫君何须烦恼。",
+        "zhHant": "不過二三小事，夫君何須煩惱。"
+      },
+      "group": {
+        "slug": "spell-3485",
+        "name": "慰勉",
+        "displayName": {
+          "zhHans": "慰勉",
+          "zhHant": "慰勉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--1skill2_2",
+      "resourceId": "632sunru/1skill2_2",
+      "text": "宦海疾风大浪，家为避风之塘。",
+      "textLocalized": {
+        "zhHans": "宦海疾风大浪，家为避风之塘。",
+        "zhHant": "宦海疾風大浪，家爲避風之塘。"
+      },
+      "group": {
+        "slug": "spell-3485",
+        "name": "慰勉",
+        "displayName": {
+          "zhHans": "慰勉",
+          "zhHant": "慰勉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--2skill2_1",
+      "resourceId": "632sunru/2skill2_1",
+      "text": "鹊桥灿彤云，荷风莲华时时好，此日独照君。",
+      "textLocalized": {
+        "zhHans": "鹊桥灿彤云，荷风莲华时时好，此日独照君。",
+        "zhHant": "鵲橋燦彤雲，荷風蓮華時時好，此日獨照君。"
+      },
+      "group": {
+        "slug": "spell-3485",
+        "name": "慰勉",
+        "displayName": {
+          "zhHans": "慰勉",
+          "zhHant": "慰勉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-63201",
+          "name": "比翼连枝",
+          "displayName": {
+            "zhHans": "比翼连枝",
+            "zhHant": "比翼連枝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--2skill2_2",
+      "resourceId": "632sunru/2skill2_2",
+      "text": "银河曳星雨，挽指撷光，同乘灵犀度此生。",
+      "textLocalized": {
+        "zhHans": "银河曳星雨，挽指撷光，同乘灵犀度此生。",
+        "zhHant": "銀河曳星雨，挽指擷光，同乘靈犀度此生。"
+      },
+      "group": {
+        "slug": "spell-3485",
+        "name": "慰勉",
+        "displayName": {
+          "zhHans": "慰勉",
+          "zhHant": "慰勉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-63201",
+          "name": "比翼连枝",
+          "displayName": {
+            "zhHans": "比翼连枝",
+            "zhHant": "比翼連枝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

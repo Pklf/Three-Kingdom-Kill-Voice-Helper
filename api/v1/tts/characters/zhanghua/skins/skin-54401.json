@@ -1,3 +1,370 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:962dd6b718a91a721a4a2ed47d1d713de85d9279190776e77f8c3ea0a41c09a1
-size 10601
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhanghua",
+    "command": "zhanghua",
+    "name": "张华",
+    "displayName": {
+      "zhHans": "张华",
+      "zhHant": "張華"
+    },
+    "names": [
+      "张华"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张华",
+        "zhHant": "張華"
+      }
+    ],
+    "ids": [
+      "544"
+    ],
+    "sourceNames": [
+      "张华"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张华",
+        "zhHant": "張華"
+      }
+    ],
+    "sourceIds": [
+      "544"
+    ],
+    "searchNames": [
+      "zhanghua",
+      "张华",
+      "張華"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/dead.json"
+      },
+      {
+        "slug": "spell-3251",
+        "name": "弼昏",
+        "displayName": {
+          "zhHans": "弼昏",
+          "zhHant": "弼昏"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3251.json"
+      },
+      {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3252.json"
+      },
+      {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3253.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghua/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54401",
+        "name": "龙泉剑啸",
+        "displayName": {
+          "zhHans": "龙泉剑啸",
+          "zhHant": "龍泉劍嘯"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghua/skins/skin-54401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhanghua.json",
+      "groups": "api/v1/tts/characters/zhanghua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhanghua/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-54401",
+    "name": "龙泉剑啸",
+    "displayName": {
+      "zhHans": "龙泉剑啸",
+      "zhHant": "龍泉劍嘯"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/zhanghua/skins/skin-54401.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "zhanghua--544zhanghua--2dead01",
+      "resourceId": "544zhanghua/2dead01",
+      "text": "式乾之议，臣谏事具存，非不谏也。",
+      "textLocalized": {
+        "zhHans": "式乾之议，臣谏事具存，非不谏也。",
+        "zhHant": "式乾之議，臣諫事具存，非不諫也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill1_1",
+      "resourceId": "544zhanghua/2skill1_1",
+      "text": "赤心如丹，思虑王室之险。",
+      "textLocalized": {
+        "zhHans": "赤心如丹，思虑王室之险。",
+        "zhHant": "赤心如丹，思慮王室之險。"
+      },
+      "group": {
+        "slug": "spell-3251",
+        "name": "弼昏",
+        "displayName": {
+          "zhHans": "弼昏",
+          "zhHant": "弼昏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill1_2",
+      "resourceId": "544zhanghua/2skill1_2",
+      "text": "气节如玉，心忧国家之难。",
+      "textLocalized": {
+        "zhHans": "气节如玉，心忧国家之难。",
+        "zhHant": "氣節如玉，心憂國家之難。"
+      },
+      "group": {
+        "slug": "spell-3251",
+        "name": "弼昏",
+        "displayName": {
+          "zhHans": "弼昏",
+          "zhHant": "弼昏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill2_1",
+      "resourceId": "544zhanghua/2skill2_1",
+      "text": "情势危急，故为此举以脱一时之困。",
+      "textLocalized": {
+        "zhHans": "情势危急，故为此举以脱一时之困。",
+        "zhHant": "情勢危急，故爲此舉以脫一時之困。"
+      },
+      "group": {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill2_2",
+      "resourceId": "544zhanghua/2skill2_2",
+      "text": "若当下之围不解，何以图千秋之惠？",
+      "textLocalized": {
+        "zhHans": "若当下之围不解，何以图千秋之惠？",
+        "zhHant": "若當下之圍不解，何以圖千秋之惠？"
+      },
+      "group": {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill3_1",
+      "resourceId": "544zhanghua/2skill3_1",
+      "text": "此剑光芒艳发，非凡物也，当以华阴赤土拭之。",
+      "textLocalized": {
+        "zhHans": "此剑光芒艳发，非凡物也，当以华阴赤土拭之。",
+        "zhHant": "此劍光芒豔發，非凡物也，當以華陰赤土拭之。"
+      },
+      "group": {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill3_2",
+      "resourceId": "544zhanghua/2skill3_2",
+      "text": "斗牛间常有紫气，其兆如何，还请阁下解之。",
+      "textLocalized": {
+        "zhHans": "斗牛间常有紫气，其兆如何，还请阁下解之。",
+        "zhHant": "鬥牛間常有紫氣，其兆如何，還請閣下解之。"
+      },
+      "group": {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

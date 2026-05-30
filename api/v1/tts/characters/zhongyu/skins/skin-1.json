@@ -1,3 +1,370 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:366a991a98e8c8687962423e0084852fe130e94a66b3fc9cd95c254489b831ee
-size 10091
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhongyu",
+    "command": "zhongyu",
+    "name": "族钟毓",
+    "displayName": {
+      "zhHans": "族钟毓",
+      "zhHant": "族鍾毓"
+    },
+    "names": [
+      "族钟毓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟毓",
+        "zhHant": "族鍾毓"
+      }
+    ],
+    "ids": [
+      "566"
+    ],
+    "sourceNames": [
+      "族钟毓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟毓",
+        "zhHant": "族鍾毓"
+      }
+    ],
+    "sourceIds": [
+      "566"
+    ],
+    "searchNames": [
+      "zhongyu",
+      "族钟毓",
+      "族鍾毓"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3320",
+        "name": "捷谏",
+        "displayName": {
+          "zhHans": "捷谏",
+          "zhHant": "捷諫"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3320.json"
+      },
+      {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3321.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-56601",
+        "name": "决胜千里",
+        "displayName": {
+          "zhHans": "决胜千里",
+          "zhHant": "決勝千里"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongyu/skins/skin-56601.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongyu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhongyu.json",
+      "groups": "api/v1/tts/characters/zhongyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhongyu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/zhongyu/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "zhongyu--566zhongyu--1dead01",
+      "resourceId": "566zhongyu/1dead01",
+      "text": "百年钟氏，一朝为尘矣。",
+      "textLocalized": {
+        "zhHans": "百年钟氏，一朝为尘矣。",
+        "zhHant": "百年鍾氏，一朝爲塵矣。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill3_1",
+      "resourceId": "566zhongyu/1skill3_1",
+      "text": "弟会腹有恶谋，不可不防。",
+      "textLocalized": {
+        "zhHans": "弟会腹有恶谋，不可不防。",
+        "zhHant": "弟會腹有惡謀，不可不防。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill3_2",
+      "resourceId": "566zhongyu/1skill3_2",
+      "text": "会期大祸将至，请晋公恕之。",
+      "textLocalized": {
+        "zhHans": "会期大祸将至，请晋公恕之。",
+        "zhHant": "會期大禍將至，請晉公恕之。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill1_1",
+      "resourceId": "566zhongyu/1skill1_1",
+      "text": "庙胜之策，不临矢石。",
+      "textLocalized": {
+        "zhHans": "庙胜之策，不临矢石。",
+        "zhHant": "廟勝之策，不臨矢石。"
+      },
+      "group": {
+        "slug": "spell-3320",
+        "name": "捷谏",
+        "displayName": {
+          "zhHans": "捷谏",
+          "zhHant": "捷諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill1_2",
+      "resourceId": "566zhongyu/1skill1_2",
+      "text": "王者之兵，有征无战。",
+      "textLocalized": {
+        "zhHans": "王者之兵，有征无战。",
+        "zhHant": "王者之兵，有征無戰。"
+      },
+      "group": {
+        "slug": "spell-3320",
+        "name": "捷谏",
+        "displayName": {
+          "zhHans": "捷谏",
+          "zhHant": "捷諫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill2_1",
+      "resourceId": "566zhongyu/1skill2_1",
+      "text": "居天子阶下，故诚惶诚恐。",
+      "textLocalized": {
+        "zhHans": "居天子阶下，故诚惶诚恐。",
+        "zhHant": "居天子階下，故誠惶誠恐。"
+      },
+      "group": {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill2_2",
+      "resourceId": "566zhongyu/1skill2_2",
+      "text": "战战惶惶，汗出如浆。",
+      "textLocalized": {
+        "zhHans": "战战惶惶，汗出如浆。",
+        "zhHant": "戰戰惶惶，汗出如漿。"
+      },
+      "group": {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

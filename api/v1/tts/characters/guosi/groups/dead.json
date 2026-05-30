@@ -1,3 +1,274 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eb0b6566ecc409c3c0d9744382e835972ee8c296667fb50700931c67b80f71bf
-size 7116
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guosi",
+    "command": "guosi",
+    "name": "郭汜",
+    "displayName": {
+      "zhHans": "郭汜",
+      "zhHant": "郭汜"
+    },
+    "names": [
+      "郭汜"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "郭汜",
+        "zhHant": "郭汜"
+      }
+    ],
+    "ids": [
+      "424"
+    ],
+    "sourceNames": [
+      "郭汜"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "郭汜",
+        "zhHant": "郭汜"
+      }
+    ],
+    "sourceIds": [
+      "424"
+    ],
+    "searchNames": [
+      "guosi",
+      "郭汜"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/guosi/groups/dead.json"
+      },
+      {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guosi/groups/spell-863.json"
+      },
+      {
+        "slug": "spell-864",
+        "name": "伺盗",
+        "displayName": {
+          "zhHans": "伺盗",
+          "zhHant": "伺盜"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guosi/groups/spell-864.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42401",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-42401.json"
+      },
+      {
+        "slug": "skin-42402",
+        "name": "破城劫掠",
+        "displayName": {
+          "zhHans": "破城劫掠",
+          "zhHant": "破城劫掠"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-42402.json"
+      },
+      {
+        "slug": "skin-42403",
+        "name": "鸷狠诡戾",
+        "displayName": {
+          "zhHans": "鸷狠诡戾",
+          "zhHant": "鷙狠詭戾"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-42403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guosi.json",
+      "groups": "api/v1/tts/characters/guosi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guosi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/guosi/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "guosi--424guosi--1dead01",
+      "resourceId": "424guosi/1dead01",
+      "text": "伍习，你……",
+      "textLocalized": {
+        "zhHans": "伍习，你……",
+        "zhHant": "伍習，你……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--3dead01",
+      "resourceId": "424guosi/3dead01",
+      "text": "进退狼狈，受困此地。",
+      "textLocalized": {
+        "zhHans": "进退狼狈，受困此地。",
+        "zhHant": "進退狼狽，受困此地。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42401",
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--4dead01",
+      "resourceId": "424guosi/4dead01",
+      "text": "死，亦为鬼雄！",
+      "textLocalized": {
+        "zhHans": "死，亦为鬼雄！",
+        "zhHant": "死，亦爲鬼雄！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42402",
+          "name": "破城劫掠",
+          "displayName": {
+            "zhHans": "破城劫掠",
+            "zhHant": "破城劫掠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--5dead01",
+      "resourceId": "424guosi/5dead01",
+      "text": "终为。贪所害！",
+      "textLocalized": {
+        "zhHans": "终为。贪所害！",
+        "zhHant": "終爲。貪所害！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42403",
+          "name": "鸷狠诡戾",
+          "displayName": {
+            "zhHans": "鸷狠诡戾",
+            "zhHant": "鷙狠詭戾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

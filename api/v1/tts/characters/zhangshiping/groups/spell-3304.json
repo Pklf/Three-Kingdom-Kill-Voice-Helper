@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b14b8406297c4ae9a895130017dd1cdda86bf53ae031a40fe7a65195a71c342f
-size 7180
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangshiping",
+    "command": "zhangshiping",
+    "name": "张世平",
+    "displayName": {
+      "zhHans": "张世平",
+      "zhHant": "張世平"
+    },
+    "names": [
+      "张世平"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张世平",
+        "zhHant": "張世平"
+      }
+    ],
+    "ids": [
+      "559"
+    ],
+    "sourceNames": [
+      "张世平"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张世平",
+        "zhHant": "張世平"
+      }
+    ],
+    "sourceIds": [
+      "559"
+    ],
+    "searchNames": [
+      "zhangshiping",
+      "张世平",
+      "張世平"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhangshiping/groups/dead.json"
+      },
+      {
+        "slug": "spell-3303",
+        "name": "鸿济",
+        "displayName": {
+          "zhHans": "鸿济",
+          "zhHant": "鴻濟"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangshiping/groups/spell-3303.json"
+      },
+      {
+        "slug": "spell-3304",
+        "name": "行贾",
+        "displayName": {
+          "zhHans": "行贾",
+          "zhHant": "行賈"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangshiping/groups/spell-3304.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangshiping/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-55901",
+        "name": "宝蟾盈泰",
+        "displayName": {
+          "zhHans": "宝蟾盈泰",
+          "zhHant": "寶蟾盈泰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangshiping/skins/skin-55901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangshiping.json",
+      "groups": "api/v1/tts/characters/zhangshiping/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangshiping/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3304",
+    "name": "行贾",
+    "displayName": {
+      "zhHans": "行贾",
+      "zhHant": "行賈"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhangshiping/groups/spell-3304.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhangshiping--559zhangshiping--1skill2_1",
+      "resourceId": "559zhangshiping/1skill2_1",
+      "text": "乱世烽烟，贾者如火中取栗尔。",
+      "textLocalized": {
+        "zhHans": "乱世烽烟，贾者如火中取栗尔。",
+        "zhHant": "亂世烽煙，賈者如火中取栗爾。"
+      },
+      "group": {
+        "slug": "spell-3304",
+        "name": "行贾",
+        "displayName": {
+          "zhHans": "行贾",
+          "zhHant": "行賈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/559zhangshiping-d3c6a84d/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/559zhangshiping/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangshiping--559zhangshiping--1skill2_2",
+      "resourceId": "559zhangshiping/1skill2_2",
+      "text": "天下动荡，货行千里可易千金。",
+      "textLocalized": {
+        "zhHans": "天下动荡，货行千里可易千金。",
+        "zhHant": "天下動盪，貨行千里可易千金。"
+      },
+      "group": {
+        "slug": "spell-3304",
+        "name": "行贾",
+        "displayName": {
+          "zhHans": "行贾",
+          "zhHant": "行賈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/559zhangshiping-d3c6a84d/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/559zhangshiping/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangshiping--559zhangshiping--2skill2_1",
+      "resourceId": "559zhangshiping/2skill2_1",
+      "text": "天下人皆居黄白之货，殊不知此间人最为贵。",
+      "textLocalized": {
+        "zhHans": "天下人皆居黄白之货，殊不知此间人最为贵。",
+        "zhHant": "天下人皆居黃白之貨，殊不知此間人最爲貴。"
+      },
+      "group": {
+        "slug": "spell-3304",
+        "name": "行贾",
+        "displayName": {
+          "zhHans": "行贾",
+          "zhHant": "行賈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55901",
+          "name": "宝蟾盈泰",
+          "displayName": {
+            "zhHans": "宝蟾盈泰",
+            "zhHant": "寶蟾盈泰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/559zhangshiping-d3c6a84d/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/559zhangshiping/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangshiping--559zhangshiping--2skill2_2",
+      "resourceId": "559zhangshiping/2skill2_2",
+      "text": "我售千金之义，人买无价，君来尽予之。",
+      "textLocalized": {
+        "zhHans": "我售千金之义，人买无价，君来尽予之。",
+        "zhHant": "我售千金之義，人買無價，君來盡予之。"
+      },
+      "group": {
+        "slug": "spell-3304",
+        "name": "行贾",
+        "displayName": {
+          "zhHans": "行贾",
+          "zhHant": "行賈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55901",
+          "name": "宝蟾盈泰",
+          "displayName": {
+            "zhHans": "宝蟾盈泰",
+            "zhHant": "寶蟾盈泰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/559zhangshiping-d3c6a84d/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/559zhangshiping/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

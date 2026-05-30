@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:22bb35c63aaaa7aab28e29f671d3c3a5a187e269b992bcdea6d5b684da468543
-size 4658
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lukai",
+    "command": "lukai",
+    "name": "陆凯",
+    "displayName": {
+      "zhHans": "陆凯",
+      "zhHant": "陸凱"
+    },
+    "names": [
+      "陆凯"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陆凯",
+        "zhHant": "陸凱"
+      }
+    ],
+    "ids": [
+      "590"
+    ],
+    "sourceNames": [
+      "陆凯"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陆凯",
+        "zhHant": "陸凱"
+      }
+    ],
+    "sourceIds": [
+      "590"
+    ],
+    "searchNames": [
+      "lukai",
+      "陆凯",
+      "陸凱"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lukai/groups/dead.json"
+      },
+      {
+        "slug": "spell-3399",
+        "name": "玄注",
+        "displayName": {
+          "zhHans": "玄注",
+          "zhHant": "玄注"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lukai/groups/spell-3399.json"
+      },
+      {
+        "slug": "spell-3400",
+        "name": "謇谔",
+        "displayName": {
+          "zhHans": "謇谔",
+          "zhHant": "謇諤"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lukai/groups/spell-3400.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-59001",
+        "name": "刚言直谏",
+        "displayName": {
+          "zhHans": "刚言直谏",
+          "zhHant": "剛言直諫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lukai/skins/skin-59001.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lukai/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lukai.json",
+      "groups": "api/v1/tts/characters/lukai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lukai/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/lukai/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "lukai--590lukai--2dead01",
+      "resourceId": "590lukai/2dead01",
+      "text": "愿陛下重留神思，臣去也。",
+      "textLocalized": {
+        "zhHans": "愿陛下重留神思，臣去也。",
+        "zhHant": "願陛下重留神思，臣去也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59001",
+          "name": "刚言直谏",
+          "displayName": {
+            "zhHans": "刚言直谏",
+            "zhHant": "剛言直諫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lukai--590lukai--1dead01",
+      "resourceId": "590lukai/1dead01",
+      "text": "注经之人，终寄身于土。",
+      "textLocalized": {
+        "zhHans": "注经之人，终寄身于土。",
+        "zhHant": "注經之人，終寄身於土。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/590lukai-27eb16a3/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/590lukai/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

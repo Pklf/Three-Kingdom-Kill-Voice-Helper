@@ -1,3 +1,389 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:49b080ea6989b30f77081d04c4f118dbe366d440c01aa659bc9193f5ff700b6b
-size 11005
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xiahouhui",
+    "command": "xiahouhui",
+    "name": "夏侯徽",
+    "displayName": {
+      "zhHans": "夏侯徽",
+      "zhHant": "夏侯徽"
+    },
+    "names": [
+      "夏侯徽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "夏侯徽",
+        "zhHant": "夏侯徽"
+      }
+    ],
+    "ids": [
+      "7001"
+    ],
+    "sourceNames": [
+      "夏侯徽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "夏侯徽",
+        "zhHant": "夏侯徽"
+      }
+    ],
+    "sourceIds": [
+      "7001"
+    ],
+    "searchNames": [
+      "xiahouhui",
+      "夏侯徽"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/dead.json"
+      },
+      {
+        "slug": "spell-7001",
+        "name": "宝箧",
+        "displayName": {
+          "zhHans": "宝箧",
+          "zhHant": "寶篋"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7001.json"
+      },
+      {
+        "slug": "spell-7002",
+        "name": "宜室",
+        "displayName": {
+          "zhHans": "宜室",
+          "zhHant": "宜室"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7002.json"
+      },
+      {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7003.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700101",
+        "name": "浩淼情缘",
+        "displayName": {
+          "zhHans": "浩淼情缘",
+          "zhHant": "浩淼情緣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700101.json"
+      },
+      {
+        "slug": "skin-700103",
+        "name": "熠熠珠玉",
+        "displayName": {
+          "zhHans": "熠熠珠玉",
+          "zhHant": "熠熠珠玉"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700103.json"
+      },
+      {
+        "slug": "skin-700102",
+        "name": "闲适悠趣",
+        "displayName": {
+          "zhHans": "闲适悠趣",
+          "zhHant": "閒適悠趣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xiahouhui.json",
+      "groups": "api/v1/tts/characters/xiahouhui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xiahouhui/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-700102",
+    "name": "闲适悠趣",
+    "displayName": {
+      "zhHans": "闲适悠趣",
+      "zhHant": "閒適悠趣"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700102.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "xiahouhui--7001xiahouhui--3dead01",
+      "resourceId": "7001xiahouhui/3dead01",
+      "text": "鸩[zhèn]毒一杯心意断……",
+      "textLocalized": {
+        "zhHans": "鸩[zhèn]毒一杯心意断……",
+        "zhHant": "鴆[zhèn]毒一杯心意斷……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--3skill1_1",
+      "resourceId": "7001xiahouhui/3skill1_1",
+      "text": "此箧[qiè]有宝，需小心待之。",
+      "textLocalized": {
+        "zhHans": "此箧[qiè]有宝，需小心待之。",
+        "zhHant": "此篋[qiè]有寶，需小心待之。"
+      },
+      "group": {
+        "slug": "spell-7001",
+        "name": "宝箧",
+        "displayName": {
+          "zhHans": "宝箧",
+          "zhHant": "寶篋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--3skill1_2",
+      "resourceId": "7001xiahouhui/3skill1_2",
+      "text": "箧[qiè]身虽小，亦可纳宝。",
+      "textLocalized": {
+        "zhHans": "箧[qiè]身虽小，亦可纳宝。",
+        "zhHant": "篋[qiè]身雖小，亦可納寶。"
+      },
+      "group": {
+        "slug": "spell-7001",
+        "name": "宝箧",
+        "displayName": {
+          "zhHans": "宝箧",
+          "zhHant": "寶篋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--3skill2_1",
+      "resourceId": "7001xiahouhui/3skill2_1",
+      "text": "兰芷之室，宜人宜家。",
+      "textLocalized": {
+        "zhHans": "兰芷之室，宜人宜家。",
+        "zhHant": "蘭芷之室，宜人宜家。"
+      },
+      "group": {
+        "slug": "spell-7002",
+        "name": "宜室",
+        "displayName": {
+          "zhHans": "宜室",
+          "zhHant": "宜室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--3skill2_2",
+      "resourceId": "7001xiahouhui/3skill2_2",
+      "text": "宜室生春，万家和睦。",
+      "textLocalized": {
+        "zhHans": "宜室生春，万家和睦。",
+        "zhHant": "宜室生春，萬家和睦。"
+      },
+      "group": {
+        "slug": "spell-7002",
+        "name": "宜室",
+        "displayName": {
+          "zhHans": "宜室",
+          "zhHant": "宜室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--3skill3_1",
+      "resourceId": "7001xiahouhui/3skill3_1",
+      "text": "揣度[duó]本心，知事知因。",
+      "textLocalized": {
+        "zhHans": "揣度[duó]本心，知事知因。",
+        "zhHant": "揣度[duó]本心，知事知因。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--3skill3_2",
+      "resourceId": "7001xiahouhui/3skill3_2",
+      "text": "揆[kuí]度深浅，得失周全。",
+      "textLocalized": {
+        "zhHans": "揆[kuí]度深浅，得失周全。",
+        "zhHant": "揆[kuí]度深淺，得失周全。"
+      },
+      "group": {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

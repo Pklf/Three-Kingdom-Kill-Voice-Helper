@@ -1,3 +1,390 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c179c1bfdb5902ef220c2881eb27d46dab523ecb94922c4f0abd5350aa02b863
-size 11154
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zuzhonghui",
+    "command": "zuzhonghui",
+    "name": "族钟会",
+    "displayName": {
+      "zhHans": "族钟会",
+      "zhHant": "族鍾會"
+    },
+    "names": [
+      "族钟会"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟会",
+        "zhHant": "族鍾會"
+      }
+    ],
+    "ids": [
+      "567"
+    ],
+    "sourceNames": [
+      "族钟会"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟会",
+        "zhHant": "族鍾會"
+      }
+    ],
+    "sourceIds": [
+      "567"
+    ],
+    "searchNames": [
+      "zuzhonghui",
+      "族钟会",
+      "族鍾會"
+    ],
+    "lineCount": 56,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 16,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        },
+        "lineCount": 16,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3322.json"
+      },
+      {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        },
+        "lineCount": 16,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/groups/spell-3323.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "56703",
+        "name": "56703",
+        "displayName": {
+          "zhHans": "56703",
+          "zhHant": "56703"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/56703.json"
+      },
+      {
+        "slug": "skin-56701",
+        "name": "一将功成",
+        "displayName": {
+          "zhHans": "一将功成",
+          "zhHant": "一將功成"
+        },
+        "lineCount": 21,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-56701.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 21,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-56702",
+        "name": "金兰共战",
+        "displayName": {
+          "zhHans": "金兰共战",
+          "zhHant": "金蘭共戰"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-56702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zuzhonghui.json",
+      "groups": "api/v1/tts/characters/zuzhonghui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zuzhonghui/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-56702",
+    "name": "金兰共战",
+    "displayName": {
+      "zhHans": "金兰共战",
+      "zhHant": "金蘭共戰"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/zuzhonghui/skins/skin-56702.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "zuzhonghui--567zuzhonghui--3dead01",
+      "resourceId": "567zuzhonghui/3dead01",
+      "text": "伯约何来迟也？",
+      "textLocalized": {
+        "zhHans": "伯约何来迟也？",
+        "zhHant": "伯約何來遲也？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill3_1",
+      "resourceId": "567zuzhonghui/3skill3_1",
+      "text": "你我虽异父异母，亦可约为兄弟。",
+      "textLocalized": {
+        "zhHans": "你我虽异父异母，亦可约为兄弟。",
+        "zhHant": "你我雖異父異母，亦可約爲兄弟。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill3_2",
+      "resourceId": "567zuzhonghui/3skill3_2",
+      "text": "我以国士待伯约，伯约定不负我。",
+      "textLocalized": {
+        "zhHans": "我以国士待伯约，伯约定不负我。",
+        "zhHant": "我以國士待伯約，伯約定不負我。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill1_1",
+      "resourceId": "567zuzhonghui/3skill1_1",
+      "text": "与君相逢恨晚，数语难道天下谊。",
+      "textLocalized": {
+        "zhHans": "与君相逢恨晚，数语难道天下谊。",
+        "zhHant": "與君相逢恨晚，數語難道天下誼。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill1_2",
+      "resourceId": "567zuzhonghui/3skill1_2",
+      "text": "会不轻易信人，唯不疑伯约。",
+      "textLocalized": {
+        "zhHans": "会不轻易信人，唯不疑伯约。",
+        "zhHant": "會不輕易信人，唯不疑伯約。"
+      },
+      "group": {
+        "slug": "spell-3322",
+        "name": "迂志",
+        "displayName": {
+          "zhHans": "迂志",
+          "zhHant": "迂志"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill2_1",
+      "resourceId": "567zuzhonghui/3skill2_1",
+      "text": "于天下觉春秋尚早，于伯约恨相见太迟。",
+      "textLocalized": {
+        "zhHans": "于天下觉春秋尚早，于伯约恨相见太迟。",
+        "zhHant": "於天下覺春秋尚早，於伯約恨相見太遲。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhonghui--567zuzhonghui--3skill2_2",
+      "resourceId": "567zuzhonghui/3skill2_2",
+      "text": "与君并肩高处，可观众山之小。",
+      "textLocalized": {
+        "zhHans": "与君并肩高处，可观众山之小。",
+        "zhHant": "與君並肩高處，可觀衆山之小。"
+      },
+      "group": {
+        "slug": "spell-3323",
+        "name": "挟术",
+        "displayName": {
+          "zhHans": "挟术",
+          "zhHant": "挾術"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56702",
+          "name": "金兰共战",
+          "displayName": {
+            "zhHans": "金兰共战",
+            "zhHant": "金蘭共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/567zuzhonghui-290c7e37/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/567zuzhonghui/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

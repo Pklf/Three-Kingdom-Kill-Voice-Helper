@@ -1,3 +1,332 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf405519da78477fa40d5f9b845ed4c981ac1b008175152294465615d6f07b0e
-size 8936
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yufan",
+    "command": "yufan",
+    "name": "虞翻",
+    "displayName": {
+      "zhHans": "虞翻",
+      "zhHant": "虞翻"
+    },
+    "names": [
+      "虞翻",
+      "界虞翻"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "虞翻",
+        "zhHant": "虞翻"
+      },
+      {
+        "zhHans": "界虞翻",
+        "zhHant": "界虞翻"
+      }
+    ],
+    "ids": [
+      "181",
+      "603"
+    ],
+    "sourceNames": [
+      "虞翻",
+      "界虞翻"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "虞翻",
+        "zhHant": "虞翻"
+      },
+      {
+        "zhHans": "界虞翻",
+        "zhHant": "界虞翻"
+      }
+    ],
+    "sourceIds": [
+      "181",
+      "603"
+    ],
+    "searchNames": [
+      "yufan",
+      "虞翻",
+      "界虞翻"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yufan/groups/dead.json"
+      },
+      {
+        "slug": "spell-452",
+        "name": "纵玄",
+        "displayName": {
+          "zhHans": "纵玄",
+          "zhHant": "縱玄"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/yufan/groups/spell-452.json"
+      },
+      {
+        "slug": "spell-453",
+        "name": "直言",
+        "displayName": {
+          "zhHans": "直言",
+          "zhHant": "直言"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/yufan/groups/spell-453.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yufan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-18101",
+        "name": "狂直之士",
+        "displayName": {
+          "zhHans": "狂直之士",
+          "zhHant": "狂直之士"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yufan/skins/skin-18101.json"
+      },
+      {
+        "slug": "skin-18101-18104",
+        "name": "狂直之士,直谏刚毅",
+        "displayName": {
+          "zhHans": "狂直之士,直谏刚毅",
+          "zhHant": "狂直之士,直諫剛毅"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yufan/skins/skin-18101-18104.json"
+      },
+      {
+        "slug": "skin-18104",
+        "name": "直谏刚毅",
+        "displayName": {
+          "zhHans": "直谏刚毅",
+          "zhHant": "直諫剛毅"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yufan/skins/skin-18104.json"
+      },
+      {
+        "slug": "skin-18105",
+        "name": "言蒙防伏",
+        "displayName": {
+          "zhHans": "言蒙防伏",
+          "zhHant": "言蒙防伏"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yufan/skins/skin-18105.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yufan.json",
+      "groups": "api/v1/tts/characters/yufan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yufan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-18105",
+    "name": "言蒙防伏",
+    "displayName": {
+      "zhHans": "言蒙防伏",
+      "zhHant": "言蒙防伏"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/yufan/skins/skin-18105.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "yufan--181yufan--4dead01",
+      "resourceId": "181yufan/4dead01",
+      "text": "还是……顺应天意吧！",
+      "textLocalized": {
+        "zhHans": "还是……顺应天意吧！",
+        "zhHant": "還是……順應天意吧！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18105",
+          "name": "言蒙防伏",
+          "displayName": {
+            "zhHans": "言蒙防伏",
+            "zhHant": "言蒙防伏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/181yufan-ab5d1821/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/181yufan/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yufan--181yufan--4skill1_1",
+      "resourceId": "181yufan/4skill1_1",
+      "text": "近日之事，吾心里有谱。",
+      "textLocalized": {
+        "zhHans": "近日之事，吾心里有谱。",
+        "zhHant": "近日之事，吾心裏有譜。"
+      },
+      "group": {
+        "slug": "spell-452",
+        "name": "纵玄",
+        "displayName": {
+          "zhHans": "纵玄",
+          "zhHant": "縱玄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18105",
+          "name": "言蒙防伏",
+          "displayName": {
+            "zhHans": "言蒙防伏",
+            "zhHant": "言蒙防伏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/181yufan-ab5d1821/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/181yufan/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yufan--181yufan--4skill1_2",
+      "resourceId": "181yufan/4skill1_2",
+      "text": "我来为将军，算上一卦。",
+      "textLocalized": {
+        "zhHans": "我来为将军，算上一卦。",
+        "zhHant": "我來爲將軍，算上一卦。"
+      },
+      "group": {
+        "slug": "spell-452",
+        "name": "纵玄",
+        "displayName": {
+          "zhHans": "纵玄",
+          "zhHant": "縱玄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18105",
+          "name": "言蒙防伏",
+          "displayName": {
+            "zhHans": "言蒙防伏",
+            "zhHant": "言蒙防伏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/181yufan-ab5d1821/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/181yufan/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yufan--181yufan--4skill2_1",
+      "resourceId": "181yufan/4skill2_1",
+      "text": "此事，将军请听我一言。",
+      "textLocalized": {
+        "zhHans": "此事，将军请听我一言。",
+        "zhHant": "此事，將軍請聽我一言。"
+      },
+      "group": {
+        "slug": "spell-453",
+        "name": "直言",
+        "displayName": {
+          "zhHans": "直言",
+          "zhHant": "直言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18105",
+          "name": "言蒙防伏",
+          "displayName": {
+            "zhHans": "言蒙防伏",
+            "zhHant": "言蒙防伏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/181yufan-ab5d1821/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/181yufan/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yufan--181yufan--4skill2_2",
+      "resourceId": "181yufan/4skill2_2",
+      "text": "还望主公多斟酌一番。",
+      "textLocalized": {
+        "zhHans": "还望主公多斟酌一番。",
+        "zhHant": "還望主公多斟酌一番。"
+      },
+      "group": {
+        "slug": "spell-453",
+        "name": "直言",
+        "displayName": {
+          "zhHans": "直言",
+          "zhHant": "直言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18105",
+          "name": "言蒙防伏",
+          "displayName": {
+            "zhHans": "言蒙防伏",
+            "zhHant": "言蒙防伏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/181yufan-ab5d1821/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/181yufan/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

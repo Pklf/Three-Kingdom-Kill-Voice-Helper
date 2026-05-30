@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bb8e5fee2d2c1149e338110448b2bd43473f146748063489d171416cd000ab21
-size 7929
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenganning",
+    "command": "shenganning",
+    "name": "神甘宁",
+    "displayName": {
+      "zhHans": "神甘宁",
+      "zhHant": "神甘寧"
+    },
+    "names": [
+      "神甘宁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神甘宁",
+        "zhHant": "神甘寧"
+      }
+    ],
+    "ids": [
+      "224"
+    ],
+    "sourceNames": [
+      "神甘宁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神甘宁",
+        "zhHant": "神甘寧"
+      }
+    ],
+    "sourceIds": [
+      "224"
+    ],
+    "searchNames": [
+      "shenganning",
+      "神甘宁",
+      "神甘寧"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shenganning/groups/dead.json"
+      },
+      {
+        "slug": "spell-921",
+        "name": "魄袭",
+        "displayName": {
+          "zhHans": "魄袭",
+          "zhHant": "魄襲"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shenganning/groups/spell-921.json"
+      },
+      {
+        "slug": "spell-922",
+        "name": "劫营",
+        "displayName": {
+          "zhHans": "劫营",
+          "zhHant": "劫營"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shenganning/groups/spell-922.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenganning/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-22401",
+        "name": "神威如芒",
+        "displayName": {
+          "zhHans": "神威如芒",
+          "zhHant": "神威如芒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenganning/skins/skin-22401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenganning.json",
+      "groups": "api/v1/tts/characters/shenganning/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenganning/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/shenganning/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "shenganning--224shenganning--1dead01",
+      "resourceId": "224shenganning/1dead01",
+      "text": "吾不能奉主，谁辅主之基业？",
+      "textLocalized": {
+        "zhHans": "吾不能奉主，谁辅主之基业？",
+        "zhHant": "吾不能奉主，誰輔主之基業？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/224shenganning-912e6fc9/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/224shenganning/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenganning--224shenganning--1skill1_1",
+      "resourceId": "224shenganning/1skill1_1",
+      "text": "受主知遇，袭敌不惧。",
+      "textLocalized": {
+        "zhHans": "受主知遇，袭敌不惧。",
+        "zhHant": "受主知遇，襲敵不懼。"
+      },
+      "group": {
+        "slug": "spell-921",
+        "name": "魄袭",
+        "displayName": {
+          "zhHans": "魄袭",
+          "zhHant": "魄襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/224shenganning-912e6fc9/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/224shenganning/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenganning--224shenganning--1skill1_2",
+      "resourceId": "224shenganning/1skill1_2",
+      "text": "夜袭敌军，挫其锐气！",
+      "textLocalized": {
+        "zhHans": "夜袭敌军，挫其锐气！",
+        "zhHant": "夜襲敵軍，挫其銳氣！"
+      },
+      "group": {
+        "slug": "spell-921",
+        "name": "魄袭",
+        "displayName": {
+          "zhHans": "魄袭",
+          "zhHant": "魄襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/224shenganning-912e6fc9/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/224shenganning/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenganning--224shenganning--1skill2_1",
+      "resourceId": "224shenganning/1skill2_1",
+      "text": "裹甲衔枚，劫营如入无人之境。",
+      "textLocalized": {
+        "zhHans": "裹甲衔枚，劫营如入无人之境。",
+        "zhHant": "裹甲銜枚，劫營如入無人之境。"
+      },
+      "group": {
+        "slug": "spell-922",
+        "name": "劫营",
+        "displayName": {
+          "zhHans": "劫营",
+          "zhHant": "劫營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/224shenganning-912e6fc9/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/224shenganning/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenganning--224shenganning--1skill2_2",
+      "resourceId": "224shenganning/1skill2_2",
+      "text": "劫营速战，措手不及。",
+      "textLocalized": {
+        "zhHans": "劫营速战，措手不及。",
+        "zhHant": "劫營速戰，措手不及。"
+      },
+      "group": {
+        "slug": "spell-922",
+        "name": "劫营",
+        "displayName": {
+          "zhHans": "劫营",
+          "zhHant": "劫營"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/224shenganning-912e6fc9/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/224shenganning/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

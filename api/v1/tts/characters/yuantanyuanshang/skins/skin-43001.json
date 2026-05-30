@@ -1,3 +1,210 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:043782364fdb11b1a5789afd4682188bb846973668d8b7c1e3528cdd17c890b0
-size 6189
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yuantanyuanshang",
+    "command": "yuantanyuanshang",
+    "name": "袁谭袁尚",
+    "displayName": {
+      "zhHans": "袁谭袁尚",
+      "zhHant": "袁譚袁尚"
+    },
+    "names": [
+      "袁谭袁尚"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "袁谭袁尚",
+        "zhHant": "袁譚袁尚"
+      }
+    ],
+    "ids": [
+      "430"
+    ],
+    "sourceNames": [
+      "袁谭袁尚"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "袁谭袁尚",
+        "zhHant": "袁譚袁尚"
+      }
+    ],
+    "sourceIds": [
+      "430"
+    ],
+    "searchNames": [
+      "yuantanyuanshang",
+      "袁谭袁尚",
+      "袁譚袁尚"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yuantanyuanshang/groups/dead.json"
+      },
+      {
+        "slug": "spell-904",
+        "name": "内伐",
+        "displayName": {
+          "zhHans": "内伐",
+          "zhHant": "內伐"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yuantanyuanshang/groups/spell-904.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yuantanyuanshang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43001",
+        "name": "常棣失华",
+        "displayName": {
+          "zhHans": "常棣失华",
+          "zhHant": "常棣失華"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yuantanyuanshang/skins/skin-43001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yuantanyuanshang.json",
+      "groups": "api/v1/tts/characters/yuantanyuanshang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yuantanyuanshang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-43001",
+    "name": "常棣失华",
+    "displayName": {
+      "zhHans": "常棣失华",
+      "zhHant": "常棣失華"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/yuantanyuanshang/skins/skin-43001.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "yuantanyuanshang--430yuantanyuanshang--2dead01",
+      "resourceId": "430yuantanyuanshang/2dead01",
+      "text": "我没有你这样的兄弟。",
+      "textLocalized": {
+        "zhHans": "我没有你这样的兄弟。",
+        "zhHant": "我沒有你這樣的兄弟。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43001",
+          "name": "常棣失华",
+          "displayName": {
+            "zhHans": "常棣失华",
+            "zhHant": "常棣失華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/430yuantanyuanshang-b3e0c1f6/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/430yuantanyuanshang/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuantanyuanshang--430yuantanyuanshang--2skill1_1",
+      "resourceId": "430yuantanyuanshang/2skill1_1",
+      "text": "承嗣之统，向来立长，而不立幼。|君王之稷，自古尊贤，而不尊愚。",
+      "textLocalized": {
+        "zhHans": "承嗣之统，向来立长，而不立幼。|君王之稷，自古尊贤，而不尊愚。",
+        "zhHant": "承嗣之統，向來立長，而不立幼。|君王之稷，自古尊賢，而不尊愚。"
+      },
+      "group": {
+        "slug": "spell-904",
+        "name": "内伐",
+        "displayName": {
+          "zhHans": "内伐",
+          "zhHant": "內伐"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43001",
+          "name": "常棣失华",
+          "displayName": {
+            "zhHans": "常棣失华",
+            "zhHant": "常棣失華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/430yuantanyuanshang-b3e0c1f6/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/430yuantanyuanshang/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuantanyuanshang--430yuantanyuanshang--2skill1_2",
+      "resourceId": "430yuantanyuanshang/2skill1_2",
+      "text": "长兄如父，今日定要好好管教于你！|兵无盔，将无甲，不知兄长，以何管教？",
+      "textLocalized": {
+        "zhHans": "长兄如父，今日定要好好管教于你！|兵无盔，将无甲，不知兄长，以何管教？",
+        "zhHant": "長兄如父，今日定要好好管教於你！|兵無盔，將無甲，不知兄長，以何管教？"
+      },
+      "group": {
+        "slug": "spell-904",
+        "name": "内伐",
+        "displayName": {
+          "zhHans": "内伐",
+          "zhHant": "內伐"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43001",
+          "name": "常棣失华",
+          "displayName": {
+            "zhHans": "常棣失华",
+            "zhHant": "常棣失華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/430yuantanyuanshang-b3e0c1f6/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/430yuantanyuanshang/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

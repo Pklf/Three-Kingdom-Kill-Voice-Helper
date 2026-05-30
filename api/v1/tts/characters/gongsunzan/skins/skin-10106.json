@@ -1,3 +1,244 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:118c1f389b3f62f2e2d786317c074951263abb46dea70081bb683422b1353f2f
-size 6471
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "gongsunzan",
+    "command": "gongsunzan",
+    "name": "公孙瓒",
+    "displayName": {
+      "zhHans": "公孙瓒",
+      "zhHant": "公孫瓚"
+    },
+    "names": [
+      "公孙瓒",
+      "界公孙瓒"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "公孙瓒",
+        "zhHant": "公孫瓚"
+      },
+      {
+        "zhHans": "界公孙瓒",
+        "zhHant": "界公孫瓚"
+      }
+    ],
+    "ids": [
+      "101",
+      "320"
+    ],
+    "sourceNames": [
+      "公孙瓒",
+      "界公孙瓒"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "公孙瓒",
+        "zhHant": "公孫瓚"
+      },
+      {
+        "zhHans": "界公孙瓒",
+        "zhHant": "界公孫瓚"
+      }
+    ],
+    "sourceIds": [
+      "101",
+      "320"
+    ],
+    "searchNames": [
+      "gongsunzan",
+      "公孙瓒",
+      "公孫瓚",
+      "界公孙瓒",
+      "界公孫瓚"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/gongsunzan/groups/dead.json"
+      },
+      {
+        "slug": "spell-204",
+        "name": "义从",
+        "displayName": {
+          "zhHans": "义从",
+          "zhHant": "義從"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/gongsunzan/groups/spell-204.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-10101",
+        "name": "扬旗立威",
+        "displayName": {
+          "zhHans": "扬旗立威",
+          "zhHant": "揚旗立威"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-10101.json"
+      },
+      {
+        "slug": "skin-10105",
+        "name": "武才趫猛",
+        "displayName": {
+          "zhHans": "武才趫猛",
+          "zhHant": "武才趫猛"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-10105.json"
+      },
+      {
+        "slug": "skin-10106",
+        "name": "疾行跃马",
+        "displayName": {
+          "zhHans": "疾行跃马",
+          "zhHant": "疾行躍馬"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-10106.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/gongsunzan.json",
+      "groups": "api/v1/tts/characters/gongsunzan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/gongsunzan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-10106",
+    "name": "疾行跃马",
+    "displayName": {
+      "zhHans": "疾行跃马",
+      "zhHant": "疾行躍馬"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/gongsunzan/skins/skin-10106.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "gongsunzan--101gongsunzan--5dead01",
+      "resourceId": "101gongsunzan/5dead01",
+      "text": "为何……弃我而去……",
+      "textLocalized": {
+        "zhHans": "为何……弃我而去……",
+        "zhHant": "爲何……棄我而去……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10106",
+          "name": "疾行跃马",
+          "displayName": {
+            "zhHans": "疾行跃马",
+            "zhHant": "疾行躍馬"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/101gongsunzan-d9158c2a/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/101gongsunzan/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gongsunzan--101gongsunzan--5skill1_1",
+      "resourceId": "101gongsunzan/5skill1_1",
+      "text": "骑兵后撤！",
+      "textLocalized": {
+        "zhHans": "骑兵后撤！",
+        "zhHant": "騎兵後撤！"
+      },
+      "group": {
+        "slug": "spell-204",
+        "name": "义从",
+        "displayName": {
+          "zhHans": "义从",
+          "zhHant": "義從"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10106",
+          "name": "疾行跃马",
+          "displayName": {
+            "zhHans": "疾行跃马",
+            "zhHant": "疾行躍馬"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/101gongsunzan-d9158c2a/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/101gongsunzan/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gongsunzan--101gongsunzan--5skill1_2",
+      "resourceId": "101gongsunzan/5skill1_2",
+      "text": "敌人势大，我们先避敌锋芒！",
+      "textLocalized": {
+        "zhHans": "敌人势大，我们先避敌锋芒！",
+        "zhHant": "敵人勢大，我們先避敵鋒芒！"
+      },
+      "group": {
+        "slug": "spell-204",
+        "name": "义从",
+        "displayName": {
+          "zhHans": "义从",
+          "zhHant": "義從"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10106",
+          "name": "疾行跃马",
+          "displayName": {
+            "zhHans": "疾行跃马",
+            "zhHant": "疾行躍馬"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/101gongsunzan-d9158c2a/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/101gongsunzan/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

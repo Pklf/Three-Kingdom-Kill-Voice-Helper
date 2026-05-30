@@ -1,3 +1,415 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8f59752242514618d77e2c18b2d3bab786b049473861c53a84624a00494ef922
-size 11541
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangzhi",
+    "command": "yangzhi",
+    "name": "杨芷",
+    "displayName": {
+      "zhHans": "杨芷",
+      "zhHant": "楊芷"
+    },
+    "names": [
+      "杨芷"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨芷",
+        "zhHant": "楊芷"
+      }
+    ],
+    "ids": [
+      "7017"
+    ],
+    "sourceNames": [
+      "杨芷"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨芷",
+        "zhHant": "楊芷"
+      }
+    ],
+    "sourceIds": [
+      "7017"
+    ],
+    "searchNames": [
+      "yangzhi",
+      "杨芷",
+      "楊芷"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yangzhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3040",
+        "name": "婉嫕",
+        "displayName": {
+          "zhHans": "婉嫕",
+          "zhHant": "婉嫕"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangzhi/groups/spell-3040.json"
+      },
+      {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangzhi/groups/spell-3041.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "701703",
+        "name": "701703",
+        "displayName": {
+          "zhHans": "701703",
+          "zhHant": "701703"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/701703.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-701702",
+        "name": "妍芷艳质",
+        "displayName": {
+          "zhHans": "妍芷艳质",
+          "zhHant": "妍芷豔質"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-701702.json"
+      },
+      {
+        "slug": "skin-701704",
+        "name": "繁花独秀",
+        "displayName": {
+          "zhHans": "繁花独秀",
+          "zhHant": "繁花獨秀"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangzhi/skins/skin-701704.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yangzhi.json",
+      "groups": "api/v1/tts/characters/yangzhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yangzhi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3041",
+    "name": "埋祸",
+    "displayName": {
+      "zhHans": "埋祸",
+      "zhHant": "埋禍"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/yangzhi/groups/spell-3041.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "yangzhi--7017yangzhi--3skill2_1",
+      "resourceId": "7017yangzhi/3skill2_1",
+      "text": "国丈志大无才，恐为天下之祸。",
+      "textLocalized": {
+        "zhHans": "国丈志大无才，恐为天下之祸。",
+        "zhHant": "國丈志大無才，恐爲天下之禍。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "701703",
+          "name": "701703",
+          "displayName": {
+            "zhHans": "701703",
+            "zhHant": "701703"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--3skill2_2",
+      "resourceId": "7017yangzhi/3skill2_2",
+      "text": "救太傅者有赏！",
+      "textLocalized": {
+        "zhHans": "救太傅者有赏！",
+        "zhHant": "救太傅者有賞！"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "701703",
+          "name": "701703",
+          "displayName": {
+            "zhHans": "701703",
+            "zhHant": "701703"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--1skill2_1",
+      "resourceId": "7017yangzhi/1skill2_1",
+      "text": "祸根未绝，转而滋蔓。",
+      "textLocalized": {
+        "zhHans": "祸根未绝，转而滋蔓。",
+        "zhHant": "禍根未絕，轉而滋蔓。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--1skill2_2",
+      "resourceId": "7017yangzhi/1skill2_2",
+      "text": "无德之亲，终为祸根。",
+      "textLocalized": {
+        "zhHans": "无德之亲，终为祸根。",
+        "zhHant": "無德之親，終爲禍根。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--2skill2_1",
+      "resourceId": "7017yangzhi/2skill2_1",
+      "text": "至亲约束不严，祸根深埋。",
+      "textLocalized": {
+        "zhHans": "至亲约束不严，祸根深埋。",
+        "zhHant": "至親約束不嚴，禍根深埋。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701702",
+          "name": "妍芷艳质",
+          "displayName": {
+            "zhHans": "妍芷艳质",
+            "zhHant": "妍芷豔質"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--2skill2_2",
+      "resourceId": "7017yangzhi/2skill2_2",
+      "text": "闻祸端而不备，可亡矣。",
+      "textLocalized": {
+        "zhHans": "闻祸端而不备，可亡矣。",
+        "zhHant": "聞禍端而不備，可亡矣。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701702",
+          "name": "妍芷艳质",
+          "displayName": {
+            "zhHans": "妍芷艳质",
+            "zhHant": "妍芷豔質"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--4skill2_1",
+      "resourceId": "7017yangzhi/4skill2_1",
+      "text": "陛下任人不明，所托绝非良人。",
+      "textLocalized": {
+        "zhHans": "陛下任人不明，所托绝非良人。",
+        "zhHant": "陛下任人不明，所託絕非良人。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701704",
+          "name": "繁花独秀",
+          "displayName": {
+            "zhHans": "繁花独秀",
+            "zhHant": "繁花獨秀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangzhi--7017yangzhi--4skill2_2",
+      "resourceId": "7017yangzhi/4skill2_2",
+      "text": "陛下任人不明，所托绝非良人。",
+      "textLocalized": {
+        "zhHans": "陛下任人不明，所托绝非良人。",
+        "zhHant": "陛下任人不明，所託絕非良人。"
+      },
+      "group": {
+        "slug": "spell-3041",
+        "name": "埋祸",
+        "displayName": {
+          "zhHans": "埋祸",
+          "zhHant": "埋禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701704",
+          "name": "繁花独秀",
+          "displayName": {
+            "zhHans": "繁花独秀",
+            "zhHant": "繁花獨秀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7017yangzhi-925fc2bd/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7017yangzhi/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

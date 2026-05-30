@@ -1,3 +1,274 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e1f7f7a8bdff69ccfbb4924fbde3e3de7d3574d841bab8e8e1427286f30594df
-size 7394
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuncan",
+    "command": "xuncan",
+    "name": "族荀粲",
+    "displayName": {
+      "zhHans": "族荀粲",
+      "zhHant": "族荀粲"
+    },
+    "names": [
+      "族荀粲"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀粲",
+        "zhHant": "族荀粲"
+      }
+    ],
+    "ids": [
+      "525"
+    ],
+    "sourceNames": [
+      "族荀粲"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀粲",
+        "zhHant": "族荀粲"
+      }
+    ],
+    "sourceIds": [
+      "525"
+    ],
+    "searchNames": [
+      "xuncan",
+      "族荀粲"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3174",
+        "name": "熨身",
+        "displayName": {
+          "zhHans": "熨身",
+          "zhHant": "熨身"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3174.json"
+      },
+      {
+        "slug": "spell-3175",
+        "name": "伤神",
+        "displayName": {
+          "zhHans": "伤神",
+          "zhHant": "傷神"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3175.json"
+      },
+      {
+        "slug": "spell-3176",
+        "name": "分钗",
+        "displayName": {
+          "zhHans": "分钗",
+          "zhHant": "分釵"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3176.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52501",
+        "name": "晚风独立",
+        "displayName": {
+          "zhHans": "晚风独立",
+          "zhHant": "晚風獨立"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncan/skins/skin-52501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuncan.json",
+      "groups": "api/v1/tts/characters/xuncan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuncan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3175",
+    "name": "伤神",
+    "displayName": {
+      "zhHans": "伤神",
+      "zhHant": "傷神"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3175.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xuncan--525xuncan--1skill2_1",
+      "resourceId": "525xuncan/1skill2_1",
+      "text": "识字数万，此痛无字可言。",
+      "textLocalized": {
+        "zhHans": "识字数万，此痛无字可言。",
+        "zhHant": "識字數萬，此痛無字可言。"
+      },
+      "group": {
+        "slug": "spell-3175",
+        "name": "伤神",
+        "displayName": {
+          "zhHans": "伤神",
+          "zhHant": "傷神"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill2_2",
+      "resourceId": "525xuncan/1skill2_2",
+      "text": "吾妻已逝，吾心悲怆。",
+      "textLocalized": {
+        "zhHans": "吾妻已逝，吾心悲怆。",
+        "zhHant": "吾妻已逝，吾心悲愴。"
+      },
+      "group": {
+        "slug": "spell-3175",
+        "name": "伤神",
+        "displayName": {
+          "zhHans": "伤神",
+          "zhHant": "傷神"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--2skill2_1",
+      "resourceId": "525xuncan/2skill2_1",
+      "text": "此心哀，如涸泽之鲋，无沫相融。",
+      "textLocalized": {
+        "zhHans": "此心哀，如涸泽之鲋，无沫相融。",
+        "zhHant": "此心哀，如涸澤之鮒，無沫相融。"
+      },
+      "group": {
+        "slug": "spell-3175",
+        "name": "伤神",
+        "displayName": {
+          "zhHans": "伤神",
+          "zhHant": "傷神"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52501",
+          "name": "晚风独立",
+          "displayName": {
+            "zhHans": "晚风独立",
+            "zhHant": "晚風獨立"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--2skill2_2",
+      "resourceId": "525xuncan/2skill2_2",
+      "text": "此心痛，如刀俎犁腑，欲哭无声。",
+      "textLocalized": {
+        "zhHans": "此心痛，如刀俎犁腑，欲哭无声。",
+        "zhHant": "此心痛，如刀俎犁腑，欲哭無聲。"
+      },
+      "group": {
+        "slug": "spell-3175",
+        "name": "伤神",
+        "displayName": {
+          "zhHans": "伤神",
+          "zhHant": "傷神"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52501",
+          "name": "晚风独立",
+          "displayName": {
+            "zhHans": "晚风独立",
+            "zhHant": "晚風獨立"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

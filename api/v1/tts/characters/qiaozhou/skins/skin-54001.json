@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b0efd54481b00765580c73ec96a83198054d23734625698c4c5d8eed17a837f8
-size 8172
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qiaozhou",
+    "command": "qiaozhou",
+    "name": "谯周",
+    "displayName": {
+      "zhHans": "谯周",
+      "zhHant": "譙周"
+    },
+    "names": [
+      "谯周"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "谯周",
+        "zhHant": "譙周"
+      }
+    ],
+    "ids": [
+      "540"
+    ],
+    "sourceNames": [
+      "谯周"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "谯周",
+        "zhHant": "譙周"
+      }
+    ],
+    "sourceIds": [
+      "540"
+    ],
+    "searchNames": [
+      "qiaozhou",
+      "谯周",
+      "譙周"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/qiaozhou/groups/dead.json"
+      },
+      {
+        "slug": "spell-3232",
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qiaozhou/groups/spell-3232.json"
+      },
+      {
+        "slug": "spell-3233",
+        "name": "星卜",
+        "displayName": {
+          "zhHans": "星卜",
+          "zhHant": "星卜"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qiaozhou/groups/spell-3233.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qiaozhou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54001",
+        "name": "寓星沉祚",
+        "displayName": {
+          "zhHans": "寓星沉祚",
+          "zhHant": "寓星沉祚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qiaozhou/skins/skin-54001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/qiaozhou.json",
+      "groups": "api/v1/tts/characters/qiaozhou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/qiaozhou/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-54001",
+    "name": "寓星沉祚",
+    "displayName": {
+      "zhHans": "寓星沉祚",
+      "zhHant": "寓星沉祚"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/qiaozhou/skins/skin-54001.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "qiaozhou--540qiaozhou--2dead01",
+      "resourceId": "540qiaozhou/2dead01",
+      "text": "俛首而事雠，非居正道也。",
+      "textLocalized": {
+        "zhHans": "俛首而事雠，非居正道也。",
+        "zhHant": "俛首而事讎，非居正道也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54001",
+          "name": "寓星沉祚",
+          "displayName": {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--2skill1_1",
+      "resourceId": "540qiaozhou/2skill1_1",
+      "text": "百姓可苟全性命，老夫何惜身后之名。",
+      "textLocalized": {
+        "zhHans": "百姓可苟全性命，老夫何惜身后之名。",
+        "zhHant": "百姓可苟全性命，老夫何惜身後之名。"
+      },
+      "group": {
+        "slug": "spell-3232",
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54001",
+          "name": "寓星沉祚",
+          "displayName": {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--2skill1_2",
+      "resourceId": "540qiaozhou/2skill1_2",
+      "text": "周知天命之年，今冒天下不韪而劝降。",
+      "textLocalized": {
+        "zhHans": "周知天命之年，今冒天下不韪而劝降。",
+        "zhHant": "周知天命之年，今冒天下不韙而勸降。"
+      },
+      "group": {
+        "slug": "spell-3232",
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54001",
+          "name": "寓星沉祚",
+          "displayName": {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--2skill2_1",
+      "resourceId": "540qiaozhou/2skill2_1",
+      "text": "高祖斩蛇而定北极，星河斗转，其位移也。",
+      "textLocalized": {
+        "zhHans": "高祖斩蛇而定北极，星河斗转，其位移也。",
+        "zhHant": "高祖斬蛇而定北極，星河斗轉，其位移也。"
+      },
+      "group": {
+        "slug": "spell-3233",
+        "name": "星卜",
+        "displayName": {
+          "zhHans": "星卜",
+          "zhHant": "星卜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54001",
+          "name": "寓星沉祚",
+          "displayName": {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--2skill2_2",
+      "resourceId": "540qiaozhou/2skill2_2",
+      "text": "天象有数，今至于此，非陛下、群臣之过。",
+      "textLocalized": {
+        "zhHans": "天象有数，今至于此，非陛下、群臣之过。",
+        "zhHant": "天象有數，今至於此，非陛下、羣臣之過。"
+      },
+      "group": {
+        "slug": "spell-3233",
+        "name": "星卜",
+        "displayName": {
+          "zhHans": "星卜",
+          "zhHant": "星卜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54001",
+          "name": "寓星沉祚",
+          "displayName": {
+            "zhHans": "寓星沉祚",
+            "zhHant": "寓星沉祚"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

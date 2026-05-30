@@ -1,3 +1,248 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:55698502be7aae4480fe2c9b16f605910cefd5d3d5902f89e16631ae5d99334e
-size 6561
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "panfeng",
+    "command": "panfeng",
+    "name": "潘凤",
+    "displayName": {
+      "zhHans": "潘凤",
+      "zhHant": "潘鳳"
+    },
+    "names": [
+      "潘凤",
+      "2058"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "潘凤",
+        "zhHant": "潘鳳"
+      },
+      {
+        "zhHans": "2058",
+        "zhHant": "2058"
+      }
+    ],
+    "ids": [
+      "127",
+      "2058"
+    ],
+    "sourceNames": [
+      "潘凤"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "潘凤",
+        "zhHant": "潘鳳"
+      }
+    ],
+    "sourceIds": [
+      "127",
+      "2058"
+    ],
+    "searchNames": [
+      "panfeng",
+      "潘凤",
+      "潘鳳",
+      "2058"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panfeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-2111",
+        "name": "狂斧",
+        "displayName": {
+          "zhHans": "狂斧",
+          "zhHant": "狂斧"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/panfeng/groups/spell-2111.json"
+      },
+      {
+        "slug": "spell-9008",
+        "name": "狂斧",
+        "displayName": {
+          "zhHans": "狂斧",
+          "zhHant": "狂斧"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/panfeng/groups/spell-9008.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/panfeng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-12704",
+        "name": "好勇忠敢",
+        "displayName": {
+          "zhHans": "好勇忠敢",
+          "zhHant": "好勇忠敢"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/panfeng/skins/skin-12704.json"
+      },
+      {
+        "slug": "skin-12703",
+        "name": "威风堂堂",
+        "displayName": {
+          "zhHans": "威风堂堂",
+          "zhHant": "威風堂堂"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/panfeng/skins/skin-12703.json"
+      },
+      {
+        "slug": "skin-12705",
+        "name": "虎啸怒咆",
+        "displayName": {
+          "zhHans": "虎啸怒咆",
+          "zhHant": "虎嘯怒咆"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/panfeng/skins/skin-12705.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/panfeng.json",
+      "groups": "api/v1/tts/characters/panfeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/panfeng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-12704",
+    "name": "好勇忠敢",
+    "displayName": {
+      "zhHans": "好勇忠敢",
+      "zhHant": "好勇忠敢"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/panfeng/skins/skin-12704.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "panfeng--127panfeng--4dead01",
+      "resourceId": "127panfeng/4dead01",
+      "text": "汝为何不等我自报家门，呃啊！",
+      "textLocalized": {
+        "zhHans": "汝为何不等我自报家门，呃啊！",
+        "zhHant": "汝爲何不等我自報家門，呃啊！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12704",
+          "name": "好勇忠敢",
+          "displayName": {
+            "zhHans": "好勇忠敢",
+            "zhHant": "好勇忠敢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/127panfeng-4fb51173/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/127panfeng/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panfeng--127panfeng--4skill1_1",
+      "resourceId": "127panfeng/4skill1_1",
+      "text": "既为联军上将，自当斩敌报国。",
+      "textLocalized": {
+        "zhHans": "既为联军上将，自当斩敌报国。",
+        "zhHant": "既爲聯軍上將，自當斬敵報國。"
+      },
+      "group": {
+        "slug": "spell-2111",
+        "name": "狂斧",
+        "displayName": {
+          "zhHans": "狂斧",
+          "zhHant": "狂斧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12704",
+          "name": "好勇忠敢",
+          "displayName": {
+            "zhHans": "好勇忠敢",
+            "zhHant": "好勇忠敢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/127panfeng-4fb51173/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/127panfeng/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panfeng--127panfeng--4skill1_2",
+      "resourceId": "127panfeng/4skill1_2",
+      "text": "倒在我的斧下，不冤。",
+      "textLocalized": {
+        "zhHans": "倒在我的斧下，不冤。",
+        "zhHant": "倒在我的斧下，不冤。"
+      },
+      "group": {
+        "slug": "spell-2111",
+        "name": "狂斧",
+        "displayName": {
+          "zhHans": "狂斧",
+          "zhHant": "狂斧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12704",
+          "name": "好勇忠敢",
+          "displayName": {
+            "zhHans": "好勇忠敢",
+            "zhHant": "好勇忠敢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/127panfeng-4fb51173/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/127panfeng/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

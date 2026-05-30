@@ -1,3 +1,247 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:738897ebe7f97d71522e699eff7391d31b4647f38b908037e3c21ccb2612b294
-size 6645
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zangba",
+    "command": "zangba",
+    "name": "臧霸",
+    "displayName": {
+      "zhHans": "臧霸",
+      "zhHant": "臧霸"
+    },
+    "names": [
+      "臧霸",
+      "4602"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "臧霸",
+        "zhHant": "臧霸"
+      },
+      {
+        "zhHans": "4602",
+        "zhHant": "4602"
+      }
+    ],
+    "ids": [
+      "2069",
+      "4602"
+    ],
+    "sourceNames": [
+      "臧霸"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "臧霸",
+        "zhHant": "臧霸"
+      }
+    ],
+    "sourceIds": [
+      "2069",
+      "4602"
+    ],
+    "searchNames": [
+      "zangba",
+      "臧霸",
+      "4602"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zangba/groups/dead.json"
+      },
+      {
+        "slug": "spell-2128-936",
+        "name": "横江",
+        "displayName": {
+          "zhHans": "横江",
+          "zhHant": "橫江"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zangba/groups/spell-2128-936.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-206904",
+        "name": "利斧破敌",
+        "displayName": {
+          "zhHans": "利斧破敌",
+          "zhHant": "利斧破敵"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zangba/skins/skin-206904.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zangba/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-206902",
+        "name": "横行江陵",
+        "displayName": {
+          "zhHans": "横行江陵",
+          "zhHant": "橫行江陵"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zangba/skins/skin-206902.json"
+      },
+      {
+        "slug": "skin-206901",
+        "name": "猛击劈浪",
+        "displayName": {
+          "zhHans": "猛击劈浪",
+          "zhHant": "猛擊劈浪"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zangba/skins/skin-206901.json"
+      },
+      {
+        "slug": "skin-206901-206904",
+        "name": "猛击劈浪,利斧破敌",
+        "displayName": {
+          "zhHans": "猛击劈浪,利斧破敌",
+          "zhHant": "猛擊劈浪,利斧破敵"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zangba/skins/skin-206901-206904.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zangba.json",
+      "groups": "api/v1/tts/characters/zangba/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zangba/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-206902",
+    "name": "横行江陵",
+    "displayName": {
+      "zhHans": "横行江陵",
+      "zhHant": "橫行江陵"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/zangba/skins/skin-206902.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "zangba--2069zangba--4dead01",
+      "resourceId": "2069zangba/4dead01",
+      "text": "纵……驰骋疆域，亦……难免一死……",
+      "textLocalized": {
+        "zhHans": "纵……驰骋疆域，亦……难免一死……",
+        "zhHant": "縱……馳騁疆域，亦……難免一死……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-206902",
+          "name": "横行江陵",
+          "displayName": {
+            "zhHans": "横行江陵",
+            "zhHant": "橫行江陵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2069zangba-d998a130/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2069zangba/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zangba--2069zangba--4skill1_1",
+      "resourceId": "2069zangba/4skill1_1",
+      "text": "伤口，可是男人的勋章！",
+      "textLocalized": {
+        "zhHans": "伤口，可是男人的勋章！",
+        "zhHant": "傷口，可是男人的勳章！"
+      },
+      "group": {
+        "slug": "spell-2128-936",
+        "name": "横江",
+        "displayName": {
+          "zhHans": "横江",
+          "zhHant": "橫江"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-206902",
+          "name": "横行江陵",
+          "displayName": {
+            "zhHans": "横行江陵",
+            "zhHant": "橫行江陵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2069zangba-d998a130/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2069zangba/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zangba--2069zangba--4skill1_2",
+      "resourceId": "2069zangba/4skill1_2",
+      "text": "铁锁横江，谅你插翅难逃！",
+      "textLocalized": {
+        "zhHans": "铁锁横江，谅你插翅难逃！",
+        "zhHant": "鐵鎖橫江，諒你插翅難逃！"
+      },
+      "group": {
+        "slug": "spell-2128-936",
+        "name": "横江",
+        "displayName": {
+          "zhHans": "横江",
+          "zhHant": "橫江"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-206902",
+          "name": "横行江陵",
+          "displayName": {
+            "zhHans": "横行江陵",
+            "zhHant": "橫行江陵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2069zangba-d998a130/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2069zangba/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

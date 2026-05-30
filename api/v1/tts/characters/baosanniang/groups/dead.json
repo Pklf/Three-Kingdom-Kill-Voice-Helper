@@ -1,3 +1,240 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36f7847f0d3cc5771c7a539727e91df0b72e7fdda7d8c68550ccd61eaafd488e
-size 6450
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "baosanniang",
+    "command": "baosanniang",
+    "name": "鲍三娘",
+    "displayName": {
+      "zhHans": "鲍三娘",
+      "zhHant": "鮑三娘"
+    },
+    "names": [
+      "鲍三娘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "鲍三娘",
+        "zhHant": "鮑三娘"
+      }
+    ],
+    "ids": [
+      "351"
+    ],
+    "sourceNames": [
+      "鲍三娘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "鲍三娘",
+        "zhHant": "鮑三娘"
+      }
+    ],
+    "sourceIds": [
+      "351"
+    ],
+    "searchNames": [
+      "baosanniang",
+      "鲍三娘",
+      "鮑三娘"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/baosanniang/groups/dead.json"
+      },
+      {
+        "slug": "spell-841",
+        "name": "武娘",
+        "displayName": {
+          "zhHans": "武娘",
+          "zhHant": "武娘"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/baosanniang/groups/spell-841.json"
+      },
+      {
+        "slug": "spell-842",
+        "name": "许身",
+        "displayName": {
+          "zhHans": "许身",
+          "zhHant": "許身"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/baosanniang/groups/spell-842.json"
+      },
+      {
+        "slug": "spell-843",
+        "name": "镇南",
+        "displayName": {
+          "zhHans": "镇南",
+          "zhHant": "鎮南"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/baosanniang/groups/spell-843.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/baosanniang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35101",
+        "name": "漫花剑俏",
+        "displayName": {
+          "zhHans": "漫花剑俏",
+          "zhHant": "漫花劍俏"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/baosanniang/skins/skin-35101.json"
+      },
+      {
+        "slug": "skin-35102",
+        "name": "翩若游凤",
+        "displayName": {
+          "zhHans": "翩若游凤",
+          "zhHant": "翩若遊鳳"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/baosanniang/skins/skin-35102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/baosanniang.json",
+      "groups": "api/v1/tts/characters/baosanniang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/baosanniang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/baosanniang/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "baosanniang--351baosanniang--1dead01",
+      "resourceId": "351baosanniang/1dead01",
+      "text": "我还想与你，共骑这雪花驹……",
+      "textLocalized": {
+        "zhHans": "我还想与你，共骑这雪花驹……",
+        "zhHant": "我還想與你，共騎這雪花駒……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "baosanniang--351baosanniang--4dead01",
+      "resourceId": "351baosanniang/4dead01",
+      "text": "花落人陨自相忘……",
+      "textLocalized": {
+        "zhHans": "花落人陨自相忘……",
+        "zhHant": "花落人隕自相忘……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35101",
+          "name": "漫花剑俏",
+          "displayName": {
+            "zhHans": "漫花剑俏",
+            "zhHant": "漫花劍俏"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "baosanniang--351baosanniang--3dead01",
+      "resourceId": "351baosanniang/3dead01",
+      "text": "形单影只，待君何时还……",
+      "textLocalized": {
+        "zhHans": "形单影只，待君何时还……",
+        "zhHant": "形單影隻，待君何時還……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35102",
+          "name": "翩若游凤",
+          "displayName": {
+            "zhHans": "翩若游凤",
+            "zhHant": "翩若遊鳳"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/351baosanniang-a681afdb/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/351baosanniang/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

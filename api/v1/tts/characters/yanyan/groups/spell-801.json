@@ -1,3 +1,405 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a818311de844d875f03959ae3863753f99f456e425467403fae085a3e59f9311
-size 11299
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yanyan",
+    "command": "yanyan",
+    "name": "严颜",
+    "displayName": {
+      "zhHans": "严颜",
+      "zhHant": "嚴顏"
+    },
+    "names": [
+      "严颜"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "严颜",
+        "zhHant": "嚴顏"
+      }
+    ],
+    "ids": [
+      "400"
+    ],
+    "sourceNames": [
+      "严颜"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "严颜",
+        "zhHant": "嚴顏"
+      }
+    ],
+    "sourceIds": [
+      "400"
+    ],
+    "searchNames": [
+      "yanyan",
+      "严颜",
+      "嚴顏"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yanyan/groups/spell-801.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-40001",
+        "name": "拒敌之勇",
+        "displayName": {
+          "zhHans": "拒敌之勇",
+          "zhHant": "拒敵之勇"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanyan/skins/skin-40001.json"
+      },
+      {
+        "slug": "skin-40005",
+        "name": "皓首勇力",
+        "displayName": {
+          "zhHans": "皓首勇力",
+          "zhHant": "皓首勇力"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanyan/skins/skin-40005.json"
+      },
+      {
+        "slug": "skin-40002",
+        "name": "虽老亦战",
+        "displayName": {
+          "zhHans": "虽老亦战",
+          "zhHant": "雖老亦戰"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yanyan/skins/skin-40002.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yanyan.json",
+      "groups": "api/v1/tts/characters/yanyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yanyan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-801",
+    "name": "拒战",
+    "displayName": {
+      "zhHans": "拒战",
+      "zhHant": "拒戰"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/yanyan/groups/spell-801.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "yanyan--400yanyan--1skill1_1",
+      "resourceId": "400yanyan/1skill1_1",
+      "text": "砍头便砍头，何为怒邪？",
+      "textLocalized": {
+        "zhHans": "砍头便砍头，何为怒邪？",
+        "zhHant": "砍頭便砍頭，何爲怒邪？"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanyan--400yanyan--1skill1_2",
+      "resourceId": "400yanyan/1skill1_2",
+      "text": "我州但有断头将军，无降将军也！",
+      "textLocalized": {
+        "zhHans": "我州但有断头将军，无降将军也！",
+        "zhHant": "我州但有斷頭將軍，無降將軍也！"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanyan--400yanyan--3skill1_1",
+      "resourceId": "400yanyan/3skill1_1",
+      "text": "损兵折将无妨，断不可再犯！",
+      "textLocalized": {
+        "zhHans": "损兵折将无妨，断不可再犯！",
+        "zhHant": "損兵折將無妨，斷不可再犯！"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40001",
+          "name": "拒敌之勇",
+          "displayName": {
+            "zhHans": "拒敌之勇",
+            "zhHant": "拒敵之勇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanyan--400yanyan--3skill1_2",
+      "resourceId": "400yanyan/3skill1_2",
+      "text": "此兵家必争之地，老夫纵死不降！",
+      "textLocalized": {
+        "zhHans": "此兵家必争之地，老夫纵死不降！",
+        "zhHant": "此兵家必爭之地，老夫縱死不降！"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40001",
+          "name": "拒敌之勇",
+          "displayName": {
+            "zhHans": "拒敌之勇",
+            "zhHant": "拒敵之勇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanyan--400yanyan--5skill1_1",
+      "resourceId": "400yanyan/5skill1_1",
+      "text": "闭门谢战，以寻良机。",
+      "textLocalized": {
+        "zhHans": "闭门谢战，以寻良机。",
+        "zhHant": "閉門謝戰，以尋良機。"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40005",
+          "name": "皓首勇力",
+          "displayName": {
+            "zhHans": "皓首勇力",
+            "zhHant": "皓首勇力"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanyan--400yanyan--5skill1_2",
+      "resourceId": "400yanyan/5skill1_2",
+      "text": "此役师出无名，恕不奉陪。",
+      "textLocalized": {
+        "zhHans": "此役师出无名，恕不奉陪。",
+        "zhHant": "此役師出無名，恕不奉陪。"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40005",
+          "name": "皓首勇力",
+          "displayName": {
+            "zhHans": "皓首勇力",
+            "zhHant": "皓首勇力"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanyan--400yanyan--4skill1_1",
+      "resourceId": "400yanyan/4skill1_1",
+      "text": "拒敌西川之外，可保战事无虞。",
+      "textLocalized": {
+        "zhHans": "拒敌西川之外，可保战事无虞。",
+        "zhHant": "拒敵西川之外，可保戰事無虞。"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40002",
+          "name": "虽老亦战",
+          "displayName": {
+            "zhHans": "虽老亦战",
+            "zhHant": "雖老亦戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanyan--400yanyan--4skill1_2",
+      "resourceId": "400yanyan/4skill1_2",
+      "text": "休得恋战！小胜便可。",
+      "textLocalized": {
+        "zhHans": "休得恋战！小胜便可。",
+        "zhHant": "休得戀戰！小勝便可。"
+      },
+      "group": {
+        "slug": "spell-801",
+        "name": "拒战",
+        "displayName": {
+          "zhHans": "拒战",
+          "zhHant": "拒戰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-40002",
+          "name": "虽老亦战",
+          "displayName": {
+            "zhHans": "虽老亦战",
+            "zhHant": "雖老亦戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/400yanyan-0af52488/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/400yanyan/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

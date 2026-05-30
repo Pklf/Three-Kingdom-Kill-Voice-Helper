@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c837bd8e56617876131ea1a8ab27377260c2fac009a5e5c9b9aae95bb8fced10
-size 7207
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xunchen",
+    "command": "xunchen",
+    "name": "族荀谌",
+    "displayName": {
+      "zhHans": "族荀谌",
+      "zhHant": "族荀諶"
+    },
+    "names": [
+      "族荀谌"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀谌",
+        "zhHant": "族荀諶"
+      }
+    ],
+    "ids": [
+      "523"
+    ],
+    "sourceNames": [
+      "族荀谌"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀谌",
+        "zhHant": "族荀諶"
+      }
+    ],
+    "sourceIds": [
+      "523"
+    ],
+    "searchNames": [
+      "xunchen",
+      "族荀谌",
+      "族荀諶"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3169",
+        "name": "三恇",
+        "displayName": {
+          "zhHans": "三恇",
+          "zhHant": "三恇"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3169.json"
+      },
+      {
+        "slug": "spell-3170",
+        "name": "卑势",
+        "displayName": {
+          "zhHans": "卑势",
+          "zhHant": "卑勢"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3170.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xunchen/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52301",
+        "name": "栖木之择",
+        "displayName": {
+          "zhHans": "栖木之择",
+          "zhHant": "棲木之擇"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xunchen/skins/skin-52301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xunchen.json",
+      "groups": "api/v1/tts/characters/xunchen/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xunchen/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3170",
+    "name": "卑势",
+    "displayName": {
+      "zhHans": "卑势",
+      "zhHant": "卑勢"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xunchen/groups/spell-3170.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xunchen--523xunchen--1skill2_1",
+      "resourceId": "523xunchen/1skill2_1",
+      "text": "虎卑其势，将有所逮。",
+      "textLocalized": {
+        "zhHans": "虎卑其势，将有所逮。",
+        "zhHant": "虎卑其勢，將有所逮。"
+      },
+      "group": {
+        "slug": "spell-3170",
+        "name": "卑势",
+        "displayName": {
+          "zhHans": "卑势",
+          "zhHant": "卑勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunchen--523xunchen--1skill2_2",
+      "resourceId": "523xunchen/1skill2_2",
+      "text": "至山穷水尽，复柳暗花明。",
+      "textLocalized": {
+        "zhHans": "至山穷水尽，复柳暗花明。",
+        "zhHant": "至山窮水盡，復柳暗花明。"
+      },
+      "group": {
+        "slug": "spell-3170",
+        "name": "卑势",
+        "displayName": {
+          "zhHans": "卑势",
+          "zhHant": "卑勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunchen--523xunchen--2skill2_1",
+      "resourceId": "523xunchen/2skill2_1",
+      "text": "积锐蓄精，如虎卑势，可立天下之潮。",
+      "textLocalized": {
+        "zhHans": "积锐蓄精，如虎卑势，可立天下之潮。",
+        "zhHant": "積銳蓄精，如虎卑勢，可立天下之潮。"
+      },
+      "group": {
+        "slug": "spell-3170",
+        "name": "卑势",
+        "displayName": {
+          "zhHans": "卑势",
+          "zhHant": "卑勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52301",
+          "name": "栖木之择",
+          "displayName": {
+            "zhHans": "栖木之择",
+            "zhHant": "棲木之擇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunchen--523xunchen--2skill2_2",
+      "resourceId": "523xunchen/2skill2_2",
+      "text": "以身卑下，蓄势待发，长缨可缚苍龙。",
+      "textLocalized": {
+        "zhHans": "以身卑下，蓄势待发，长缨可缚苍龙。",
+        "zhHant": "以身卑下，蓄勢待發，長纓可縛蒼龍。"
+      },
+      "group": {
+        "slug": "spell-3170",
+        "name": "卑势",
+        "displayName": {
+          "zhHans": "卑势",
+          "zhHant": "卑勢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52301",
+          "name": "栖木之择",
+          "displayName": {
+            "zhHans": "栖木之择",
+            "zhHant": "棲木之擇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/523xunchen-caf37b38/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/523xunchen/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

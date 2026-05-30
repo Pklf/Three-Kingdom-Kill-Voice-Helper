@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2c559d252fb5a7165f48fe8d20fae96db177edff66e5356eae73ed3e42cd9e4a
-size 7189
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhanghua",
+    "command": "zhanghua",
+    "name": "张华",
+    "displayName": {
+      "zhHans": "张华",
+      "zhHant": "張華"
+    },
+    "names": [
+      "张华"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张华",
+        "zhHant": "張華"
+      }
+    ],
+    "ids": [
+      "544"
+    ],
+    "sourceNames": [
+      "张华"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张华",
+        "zhHant": "張華"
+      }
+    ],
+    "sourceIds": [
+      "544"
+    ],
+    "searchNames": [
+      "zhanghua",
+      "张华",
+      "張華"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/dead.json"
+      },
+      {
+        "slug": "spell-3251",
+        "name": "弼昏",
+        "displayName": {
+          "zhHans": "弼昏",
+          "zhHant": "弼昏"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3251.json"
+      },
+      {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3252.json"
+      },
+      {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3253.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghua/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54401",
+        "name": "龙泉剑啸",
+        "displayName": {
+          "zhHans": "龙泉剑啸",
+          "zhHant": "龍泉劍嘯"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghua/skins/skin-54401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhanghua.json",
+      "groups": "api/v1/tts/characters/zhanghua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhanghua/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3252",
+    "name": "穿屋",
+    "displayName": {
+      "zhHans": "穿屋",
+      "zhHant": "穿屋"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3252.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhanghua--544zhanghua--1skill2_1",
+      "resourceId": "544zhanghua/1skill2_1",
+      "text": "斩蛇穿屋，其志绥[suí]远。",
+      "textLocalized": {
+        "zhHans": "斩蛇穿屋，其志绥[suí]远。",
+        "zhHant": "斬蛇穿屋，其志綏[suí]遠。"
+      },
+      "group": {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--1skill2_2",
+      "resourceId": "544zhanghua/1skill2_2",
+      "text": "祝融侵库，剑怀远志。",
+      "textLocalized": {
+        "zhHans": "祝融侵库，剑怀远志。",
+        "zhHant": "祝融侵庫，劍懷遠志。"
+      },
+      "group": {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill2_1",
+      "resourceId": "544zhanghua/2skill2_1",
+      "text": "情势危急，故为此举以脱一时之困。",
+      "textLocalized": {
+        "zhHans": "情势危急，故为此举以脱一时之困。",
+        "zhHant": "情勢危急，故爲此舉以脫一時之困。"
+      },
+      "group": {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2skill2_2",
+      "resourceId": "544zhanghua/2skill2_2",
+      "text": "若当下之围不解，何以图千秋之惠？",
+      "textLocalized": {
+        "zhHans": "若当下之围不解，何以图千秋之惠？",
+        "zhHant": "若當下之圍不解，何以圖千秋之惠？"
+      },
+      "group": {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

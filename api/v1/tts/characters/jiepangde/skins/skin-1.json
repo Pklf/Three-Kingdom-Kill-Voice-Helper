@@ -1,3 +1,210 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5c51ac8e321a5e6f4ddc152328f4f65eca8a951ef5a5f54d31b6bc9636cf920a
-size 5525
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiepangde",
+    "command": "jiepangde",
+    "name": "界庞德",
+    "displayName": {
+      "zhHans": "界庞德",
+      "zhHant": "界龐德"
+    },
+    "names": [
+      "界庞德"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界庞德",
+        "zhHant": "界龐德"
+      }
+    ],
+    "ids": [
+      "462"
+    ],
+    "sourceNames": [
+      "界庞德"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界庞德",
+        "zhHant": "界龐德"
+      }
+    ],
+    "sourceIds": [
+      "462"
+    ],
+    "searchNames": [
+      "jiepangde",
+      "界庞德",
+      "界龐德"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiepangde/groups/dead.json"
+      },
+      {
+        "slug": "spell-937",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiepangde/groups/spell-937.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiepangde/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46201",
+        "name": "策马陷阵",
+        "displayName": {
+          "zhHans": "策马陷阵",
+          "zhHant": "策馬陷陣"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiepangde/skins/skin-46201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiepangde.json",
+      "groups": "api/v1/tts/characters/jiepangde/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiepangde/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/jiepangde/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "jiepangde--462jiepangde--1dead01",
+      "resourceId": "462jiepangde/1dead01",
+      "text": "人亡马倒，命之所归。",
+      "textLocalized": {
+        "zhHans": "人亡马倒，命之所归。",
+        "zhHant": "人亡馬倒，命之所歸。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/462jiepangde-e5a4f990/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/462jiepangde/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiepangde--462jiepangde--1skill2_1",
+      "resourceId": "462jiepangde/1skill2_1",
+      "text": "你这身躯，怎么能快过我？",
+      "textLocalized": {
+        "zhHans": "你这身躯，怎么能快过我？",
+        "zhHant": "你這身軀，怎麼能快過我？"
+      },
+      "group": {
+        "slug": "spell-937",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/462jiepangde-e5a4f990/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/462jiepangde/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiepangde--462jiepangde--1skill2_2",
+      "resourceId": "462jiepangde/1skill2_2",
+      "text": "这些，怎么能挡住我的威力！",
+      "textLocalized": {
+        "zhHans": "这些，怎么能挡住我的威力！",
+        "zhHant": "這些，怎麼能擋住我的威力！"
+      },
+      "group": {
+        "slug": "spell-937",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/462jiepangde-e5a4f990/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/462jiepangde/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

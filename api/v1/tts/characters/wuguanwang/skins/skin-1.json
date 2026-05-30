@@ -1,3 +1,254 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:34413266c7b50137d53258afd3aa830dfd22cedb8a4471e30a260c7b76bc6e94
-size 6816
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wuguanwang",
+    "command": "wuguanwang",
+    "name": "五官王",
+    "displayName": {
+      "zhHans": "五官王",
+      "zhHant": "五官王"
+    },
+    "names": [
+      "五官王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "五官王",
+        "zhHant": "五官王"
+      }
+    ],
+    "ids": [
+      "4503"
+    ],
+    "sourceNames": [
+      "五官王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "五官王",
+        "zhHant": "五官王"
+      }
+    ],
+    "sourceIds": [
+      "4503"
+    ],
+    "searchNames": [
+      "wuguanwang",
+      "五官王"
+    ],
+    "lineCount": 4,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wuguanwang/groups/dead.json"
+      },
+      {
+        "slug": "spell-1286",
+        "name": "治妄",
+        "displayName": {
+          "zhHans": "治妄",
+          "zhHant": "治妄"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wuguanwang/groups/spell-1286.json"
+      },
+      {
+        "slug": "spell-1287",
+        "name": "公正",
+        "displayName": {
+          "zhHans": "公正",
+          "zhHant": "公正"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wuguanwang/groups/spell-1287.json"
+      },
+      {
+        "slug": "spell-1288",
+        "name": "血池",
+        "displayName": {
+          "zhHans": "血池",
+          "zhHant": "血池"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wuguanwang/groups/spell-1288.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wuguanwang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wuguanwang.json",
+      "groups": "api/v1/tts/characters/wuguanwang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wuguanwang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/wuguanwang/skins/skin-1.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "wuguanwang--4503wuguanwang--1dead01",
+      "resourceId": "4503wuguanwang/1dead01",
+      "text": "我的法阵居然被破了",
+      "textLocalized": {
+        "zhHans": "我的法阵居然被破了",
+        "zhHant": "我的法陣居然被破了"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4503wuguanwang-6024a551/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4503wuguanwang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuguanwang--4503wuguanwang--1skill1_1",
+      "resourceId": "4503wuguanwang/1skill1_1",
+      "text": "罔顾伦常，必受其害。",
+      "textLocalized": {
+        "zhHans": "罔顾伦常，必受其害。",
+        "zhHant": "罔顧倫常，必受其害。"
+      },
+      "group": {
+        "slug": "spell-1286",
+        "name": "治妄",
+        "displayName": {
+          "zhHans": "治妄",
+          "zhHant": "治妄"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4503wuguanwang-6024a551/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4503wuguanwang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuguanwang--4503wuguanwang--1skill2_1",
+      "resourceId": "4503wuguanwang/1skill2_1",
+      "text": "公正以待，显其威法。",
+      "textLocalized": {
+        "zhHans": "公正以待，显其威法。",
+        "zhHant": "公正以待，顯其威法。"
+      },
+      "group": {
+        "slug": "spell-1287",
+        "name": "公正",
+        "displayName": {
+          "zhHans": "公正",
+          "zhHant": "公正"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4503wuguanwang-6024a551/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4503wuguanwang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wuguanwang--4503wuguanwang--1skill3_1_22",
+      "resourceId": "4503wuguanwang/1skill3_1_22",
+      "text": "炼狱血池，需要你的奉献。",
+      "textLocalized": {
+        "zhHans": "炼狱血池，需要你的奉献。",
+        "zhHant": "煉獄血池，需要你的奉獻。"
+      },
+      "group": {
+        "slug": "spell-1288",
+        "name": "血池",
+        "displayName": {
+          "zhHans": "血池",
+          "zhHant": "血池"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4503wuguanwang-6024a551/1skill3-1-22-35e46cf7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4503wuguanwang/1skill3_1_22.mp3",
+        "available": {
+          "cached": false,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

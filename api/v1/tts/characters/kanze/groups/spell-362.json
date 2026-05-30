@@ -1,3 +1,467 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:37258f0b903a51c476f534836cc046dcff9d0bf22a4ff867ef83bc1766c91173
-size 13035
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "kanze",
+    "command": "kanze",
+    "name": "阚泽",
+    "displayName": {
+      "zhHans": "阚泽",
+      "zhHant": "闞澤"
+    },
+    "names": [
+      "阚泽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "ids": [
+      "371"
+    ],
+    "sourceNames": [
+      "阚泽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "sourceIds": [
+      "371"
+    ],
+    "searchNames": [
+      "kanze",
+      "阚泽",
+      "闞澤"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/kanze/groups/dead.json"
+      },
+      {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-361.json"
+      },
+      {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-362.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37101",
+        "name": "宽释请命",
+        "displayName": {
+          "zhHans": "宽释请命",
+          "zhHant": "寬釋請命"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101.json"
+      },
+      {
+        "slug": "skin-37101-37105",
+        "name": "宽释请命,观叶知微",
+        "displayName": {
+          "zhHans": "宽释请命,观叶知微",
+          "zhHant": "寬釋請命,觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101-37105.json"
+      },
+      {
+        "slug": "skin-37104",
+        "name": "密献降书",
+        "displayName": {
+          "zhHans": "密献降书",
+          "zhHant": "密獻降書"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37104.json"
+      },
+      {
+        "slug": "skin-37102",
+        "name": "昼耕夜诵",
+        "displayName": {
+          "zhHans": "昼耕夜诵",
+          "zhHant": "晝耕夜誦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37102.json"
+      },
+      {
+        "slug": "skin-37105",
+        "name": "观叶知微",
+        "displayName": {
+          "zhHans": "观叶知微",
+          "zhHant": "觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37105.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/kanze.json",
+      "groups": "api/v1/tts/characters/kanze/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/kanze/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-362",
+    "name": "宽释",
+    "displayName": {
+      "zhHans": "宽释",
+      "zhHant": "寬釋"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/kanze/groups/spell-362.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "kanze--371kanze--1skill2_1",
+      "resourceId": "371kanze/1skill2_1",
+      "text": "不知者，无罪。",
+      "textLocalized": {
+        "zhHans": "不知者，无罪。",
+        "zhHant": "不知者，無罪。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--1skill2_2",
+      "resourceId": "371kanze/1skill2_2",
+      "text": "罚酒三杯，下不为例。",
+      "textLocalized": {
+        "zhHans": "罚酒三杯，下不为例。",
+        "zhHant": "罰酒三杯，下不爲例。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--3skill2_1",
+      "resourceId": "371kanze/3skill2_1",
+      "text": "看在老臣的薄面上，这次，请放过他。",
+      "textLocalized": {
+        "zhHans": "看在老臣的薄面上，这次，请放过他。",
+        "zhHant": "看在老臣的薄面上，這次，請放過他。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37101",
+          "name": "宽释请命",
+          "displayName": {
+            "zhHans": "宽释请命",
+            "zhHant": "寬釋請命"
+          }
+        },
+        {
+          "slug": "skin-37105",
+          "name": "观叶知微",
+          "displayName": {
+            "zhHans": "观叶知微",
+            "zhHant": "觀葉知微"
+          }
+        },
+        {
+          "slug": "skin-37101-37105",
+          "name": "宽释请命,观叶知微",
+          "displayName": {
+            "zhHans": "宽释请命,观叶知微",
+            "zhHant": "寬釋請命,觀葉知微"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--3skill2_2",
+      "resourceId": "371kanze/3skill2_2",
+      "text": "人人都应有，再来一次的机会。",
+      "textLocalized": {
+        "zhHans": "人人都应有，再来一次的机会。",
+        "zhHant": "人人都應有，再來一次的機會。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37101",
+          "name": "宽释请命",
+          "displayName": {
+            "zhHans": "宽释请命",
+            "zhHant": "寬釋請命"
+          }
+        },
+        {
+          "slug": "skin-37105",
+          "name": "观叶知微",
+          "displayName": {
+            "zhHans": "观叶知微",
+            "zhHant": "觀葉知微"
+          }
+        },
+        {
+          "slug": "skin-37101-37105",
+          "name": "宽释请命,观叶知微",
+          "displayName": {
+            "zhHans": "宽释请命,观叶知微",
+            "zhHant": "寬釋請命,觀葉知微"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--5skill2_1",
+      "resourceId": "371kanze/5skill2_1",
+      "text": "吾愿尽所能保将军周全。",
+      "textLocalized": {
+        "zhHans": "吾愿尽所能保将军周全。",
+        "zhHant": "吾願盡所能保將軍周全。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37104",
+          "name": "密献降书",
+          "displayName": {
+            "zhHans": "密献降书",
+            "zhHant": "密獻降書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--5skill2_2",
+      "resourceId": "371kanze/5skill2_2",
+      "text": "再给他一次改过自新的机会吧。",
+      "textLocalized": {
+        "zhHans": "再给他一次改过自新的机会吧。",
+        "zhHant": "再給他一次改過自新的機會吧。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37104",
+          "name": "密献降书",
+          "displayName": {
+            "zhHans": "密献降书",
+            "zhHant": "密獻降書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--4skill2_1",
+      "resourceId": "371kanze/4skill2_1",
+      "text": "量罪定刑，需依礼法。",
+      "textLocalized": {
+        "zhHans": "量罪定刑，需依礼法。",
+        "zhHant": "量罪定刑，需依禮法。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37102",
+          "name": "昼耕夜诵",
+          "displayName": {
+            "zhHans": "昼耕夜诵",
+            "zhHant": "晝耕夜誦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--4skill2_2",
+      "resourceId": "371kanze/4skill2_2",
+      "text": "圣明之世，不宜复有酷刑。",
+      "textLocalized": {
+        "zhHans": "圣明之世，不宜复有酷刑。",
+        "zhHant": "聖明之世，不宜復有酷刑。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37102",
+          "name": "昼耕夜诵",
+          "displayName": {
+            "zhHans": "昼耕夜诵",
+            "zhHant": "晝耕夜誦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,309 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b6145943f014d383b1d805833861c952f9a34e026d1c721fc015685cf7caf21c
-size 8370
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhuzhi",
+    "command": "zhuzhi",
+    "name": "朱治",
+    "displayName": {
+      "zhHans": "朱治",
+      "zhHant": "朱治"
+    },
+    "names": [
+      "朱治"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "朱治",
+        "zhHant": "朱治"
+      }
+    ],
+    "ids": [
+      "339"
+    ],
+    "sourceNames": [
+      "朱治"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "朱治",
+        "zhHant": "朱治"
+      }
+    ],
+    "sourceIds": [
+      "339"
+    ],
+    "searchNames": [
+      "zhuzhi",
+      "朱治"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhuzhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-745",
+        "name": "安国",
+        "displayName": {
+          "zhHans": "安国",
+          "zhHant": "安國"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhuzhi/groups/spell-745.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-33903",
+        "name": "安国兴邦",
+        "displayName": {
+          "zhHans": "安国兴邦",
+          "zhHant": "安國興邦"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-33903.json"
+      },
+      {
+        "slug": "skin-33901",
+        "name": "安国将军",
+        "displayName": {
+          "zhHans": "安国将军",
+          "zhHant": "安國將軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-33901.json"
+      },
+      {
+        "slug": "skin-33904",
+        "name": "征讨夷越",
+        "displayName": {
+          "zhHans": "征讨夷越",
+          "zhHant": "征討夷越"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-33904.json"
+      },
+      {
+        "slug": "skin-33905",
+        "name": "靖澜定远",
+        "displayName": {
+          "zhHans": "靖澜定远",
+          "zhHant": "靖瀾定遠"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuzhi/skins/skin-33905.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhuzhi.json",
+      "groups": "api/v1/tts/characters/zhuzhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhuzhi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhuzhi/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhuzhi--339zhuzhi--1dead01",
+      "resourceId": "339zhuzhi/1dead01",
+      "text": "竭毕生之力，保国泰民安。",
+      "textLocalized": {
+        "zhHans": "竭毕生之力，保国泰民安。",
+        "zhHant": "竭畢生之力，保國泰民安。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/339zhuzhi-882f27d2/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/339zhuzhi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuzhi--339zhuzhi--4dead01",
+      "resourceId": "339zhuzhi/4dead01",
+      "text": "王事之忧，吾恐不能担矣……",
+      "textLocalized": {
+        "zhHans": "王事之忧，吾恐不能担矣……",
+        "zhHant": "王事之憂，吾恐不能擔矣……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33903",
+          "name": "安国兴邦",
+          "displayName": {
+            "zhHans": "安国兴邦",
+            "zhHant": "安國興邦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/339zhuzhi-882f27d2/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/339zhuzhi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuzhi--339zhuzhi--3dead01",
+      "resourceId": "339zhuzhi/3dead01",
+      "text": "失一策，则命休矣！",
+      "textLocalized": {
+        "zhHans": "失一策，则命休矣！",
+        "zhHant": "失一策，則命休矣！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33901",
+          "name": "安国将军",
+          "displayName": {
+            "zhHans": "安国将军",
+            "zhHant": "安國將軍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/339zhuzhi-882f27d2/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/339zhuzhi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuzhi--339zhuzhi--5dead01",
+      "resourceId": "339zhuzhi/5dead01",
+      "text": "如此，我可以去见孙将军了……",
+      "textLocalized": {
+        "zhHans": "如此，我可以去见孙将军了……",
+        "zhHant": "如此，我可以去見孫將軍了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33904",
+          "name": "征讨夷越",
+          "displayName": {
+            "zhHans": "征讨夷越",
+            "zhHant": "征討夷越"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/339zhuzhi-882f27d2/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/339zhuzhi/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuzhi--339zhuzhi--6dead01",
+      "resourceId": "339zhuzhi/6dead01",
+      "text": "臣，再也护不了主公周全了。",
+      "textLocalized": {
+        "zhHans": "臣，再也护不了主公周全了。",
+        "zhHant": "臣，再也護不了主公周全了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33905",
+          "name": "靖澜定远",
+          "displayName": {
+            "zhHans": "靖澜定远",
+            "zhHant": "靖瀾定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/339zhuzhi-882f27d2/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/339zhuzhi/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

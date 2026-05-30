@@ -1,3 +1,174 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:69fb4ff96ad6ad9410afb395eb56f84f59559dd4c234cce7a3219813828feb6d
-size 4368
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "puyuan",
+    "command": "puyuan",
+    "name": "蒲元",
+    "displayName": {
+      "zhHans": "蒲元",
+      "zhHant": "蒲元"
+    },
+    "names": [
+      "蒲元"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蒲元",
+        "zhHant": "蒲元"
+      }
+    ],
+    "ids": [
+      "510"
+    ],
+    "sourceNames": [
+      "蒲元"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蒲元",
+        "zhHant": "蒲元"
+      }
+    ],
+    "sourceIds": [
+      "510"
+    ],
+    "searchNames": [
+      "puyuan",
+      "蒲元"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/puyuan/groups/dead.json"
+      },
+      {
+        "slug": "spell-11003",
+        "name": "神工",
+        "displayName": {
+          "zhHans": "神工",
+          "zhHant": "神工"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/puyuan/groups/spell-11003.json"
+      },
+      {
+        "slug": "spell-11004",
+        "name": "奇思",
+        "displayName": {
+          "zhHans": "奇思",
+          "zhHant": "奇思"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/puyuan/groups/spell-11004.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/puyuan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/puyuan.json",
+      "groups": "api/v1/tts/characters/puyuan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/puyuan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-11003",
+    "name": "神工",
+    "displayName": {
+      "zhHans": "神工",
+      "zhHant": "神工"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/puyuan/groups/spell-11003.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "puyuan--510puyuan--1skill1_1",
+      "resourceId": "510puyuan/1skill1_1",
+      "text": "技艺若神，大巧不工。",
+      "textLocalized": {
+        "zhHans": "技艺若神，大巧不工。",
+        "zhHant": "技藝若神，大巧不工。"
+      },
+      "group": {
+        "slug": "spell-11003",
+        "name": "神工",
+        "displayName": {
+          "zhHans": "神工",
+          "zhHant": "神工"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/510puyuan-8db6d721/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/510puyuan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "puyuan--510puyuan--1skill1_2",
+      "resourceId": "510puyuan/1skill1_2",
+      "text": "千锤百炼，始得神兵。",
+      "textLocalized": {
+        "zhHans": "千锤百炼，始得神兵。",
+        "zhHant": "千錘百煉，始得神兵。"
+      },
+      "group": {
+        "slug": "spell-11003",
+        "name": "神工",
+        "displayName": {
+          "zhHans": "神工",
+          "zhHant": "神工"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/510puyuan-8db6d721/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/510puyuan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

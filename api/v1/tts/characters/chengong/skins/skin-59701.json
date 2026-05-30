@@ -1,3 +1,334 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:862ca4c2c06d9e428bed665e5b816fdfda789589a9120f5df6bdf105e4192289
-size 9079
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chengong",
+    "command": "chengong",
+    "name": "陈宫",
+    "displayName": {
+      "zhHans": "陈宫",
+      "zhHant": "陳宮"
+    },
+    "names": [
+      "陈宫",
+      "界陈宫"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈宫",
+        "zhHant": "陳宮"
+      },
+      {
+        "zhHans": "界陈宫",
+        "zhHant": "界陳宮"
+      }
+    ],
+    "ids": [
+      "153",
+      "597"
+    ],
+    "sourceNames": [
+      "陈宫",
+      "界陈宫"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈宫",
+        "zhHant": "陳宮"
+      },
+      {
+        "zhHans": "界陈宫",
+        "zhHant": "界陳宮"
+      }
+    ],
+    "sourceIds": [
+      "153",
+      "597"
+    ],
+    "searchNames": [
+      "chengong",
+      "陈宫",
+      "陳宮",
+      "界陈宫",
+      "界陳宮"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/groups/dead.json"
+      },
+      {
+        "slug": "spell-405",
+        "name": "明策",
+        "displayName": {
+          "zhHans": "明策",
+          "zhHant": "明策"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chengong/groups/spell-405.json"
+      },
+      {
+        "slug": "spell-406",
+        "name": "智迟",
+        "displayName": {
+          "zhHans": "智迟",
+          "zhHant": "智遲"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chengong/groups/spell-406.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "15302-15304",
+        "name": "15302/15304",
+        "displayName": {
+          "zhHans": "15302/15304",
+          "zhHant": "15302/15304"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/15302-15304.json"
+      },
+      {
+        "slug": "skin-15303",
+        "name": "一战而就",
+        "displayName": {
+          "zhHans": "一战而就",
+          "zhHant": "一戰而就"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/skin-15303.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-15306",
+        "name": "有谋而迟",
+        "displayName": {
+          "zhHans": "有谋而迟",
+          "zhHant": "有謀而遲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/skin-15306.json"
+      },
+      {
+        "slug": "skin-59701",
+        "name": "纵墨乾坤",
+        "displayName": {
+          "zhHans": "纵墨乾坤",
+          "zhHant": "縱墨乾坤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengong/skins/skin-59701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chengong.json",
+      "groups": "api/v1/tts/characters/chengong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chengong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-59701",
+    "name": "纵墨乾坤",
+    "displayName": {
+      "zhHans": "纵墨乾坤",
+      "zhHant": "縱墨乾坤"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chengong/skins/skin-59701.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chengong--153chengong--6dead01",
+      "resourceId": "153chengong/6dead01",
+      "text": "将军之志，与吾难谋。",
+      "textLocalized": {
+        "zhHans": "将军之志，与吾难谋。",
+        "zhHant": "將軍之志，與吾難謀。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59701",
+          "name": "纵墨乾坤",
+          "displayName": {
+            "zhHans": "纵墨乾坤",
+            "zhHant": "縱墨乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengong--153chengong--6skill1_1",
+      "resourceId": "153chengong/6skill1_1",
+      "text": "此策一出，将军之能可再上一层。",
+      "textLocalized": {
+        "zhHans": "此策一出，将军之能可再上一层。",
+        "zhHant": "此策一出，將軍之能可再上一層。"
+      },
+      "group": {
+        "slug": "spell-405",
+        "name": "明策",
+        "displayName": {
+          "zhHans": "明策",
+          "zhHant": "明策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59701",
+          "name": "纵墨乾坤",
+          "displayName": {
+            "zhHans": "纵墨乾坤",
+            "zhHant": "縱墨乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengong--153chengong--6skill1_2",
+      "resourceId": "153chengong/6skill1_2",
+      "text": "明策可助胜，良言可得心。",
+      "textLocalized": {
+        "zhHans": "明策可助胜，良言可得心。",
+        "zhHant": "明策可助勝，良言可得心。"
+      },
+      "group": {
+        "slug": "spell-405",
+        "name": "明策",
+        "displayName": {
+          "zhHans": "明策",
+          "zhHant": "明策"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59701",
+          "name": "纵墨乾坤",
+          "displayName": {
+            "zhHans": "纵墨乾坤",
+            "zhHant": "縱墨乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengong--153chengong--6skill2_1",
+      "resourceId": "153chengong/6skill2_1",
+      "text": "恬退隐忍，厚积薄发。",
+      "textLocalized": {
+        "zhHans": "恬退隐忍，厚积薄发。",
+        "zhHant": "恬退隱忍，厚積薄發。"
+      },
+      "group": {
+        "slug": "spell-406",
+        "name": "智迟",
+        "displayName": {
+          "zhHans": "智迟",
+          "zhHant": "智遲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59701",
+          "name": "纵墨乾坤",
+          "displayName": {
+            "zhHans": "纵墨乾坤",
+            "zhHant": "縱墨乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengong--153chengong--6skill2_2",
+      "resourceId": "153chengong/6skill2_2",
+      "text": "退智隐才，不露锋芒。",
+      "textLocalized": {
+        "zhHans": "退智隐才，不露锋芒。",
+        "zhHant": "退智隱才，不露鋒芒。"
+      },
+      "group": {
+        "slug": "spell-406",
+        "name": "智迟",
+        "displayName": {
+          "zhHans": "智迟",
+          "zhHant": "智遲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59701",
+          "name": "纵墨乾坤",
+          "displayName": {
+            "zhHans": "纵墨乾坤",
+            "zhHant": "縱墨乾坤"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/153chengong-1cc9b569/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/153chengong/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

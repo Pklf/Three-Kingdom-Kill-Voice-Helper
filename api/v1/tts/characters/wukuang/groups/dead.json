@@ -1,3 +1,140 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4082dd5bc6a0805d5634eb8ef304a2ac28982b9ea46a388880c4671b878e5c7b
-size 3397
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wukuang",
+    "command": "wukuang",
+    "name": "族吴匡",
+    "displayName": {
+      "zhHans": "族吴匡",
+      "zhHant": "族吳匡"
+    },
+    "names": [
+      "族吴匡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族吴匡",
+        "zhHant": "族吳匡"
+      }
+    ],
+    "ids": [
+      "549"
+    ],
+    "sourceNames": [
+      "族吴匡"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族吴匡",
+        "zhHant": "族吳匡"
+      }
+    ],
+    "sourceIds": [
+      "549"
+    ],
+    "searchNames": [
+      "wukuang",
+      "族吴匡",
+      "族吳匡"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/wukuang/groups/dead.json"
+      },
+      {
+        "slug": "spell-3191",
+        "name": "穆荫",
+        "displayName": {
+          "zhHans": "穆荫",
+          "zhHant": "穆蔭"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wukuang/groups/spell-3191.json"
+      },
+      {
+        "slug": "spell-3268",
+        "name": "联诛",
+        "displayName": {
+          "zhHans": "联诛",
+          "zhHant": "聯誅"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wukuang/groups/spell-3268.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wukuang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wukuang.json",
+      "groups": "api/v1/tts/characters/wukuang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wukuang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/wukuang/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "wukuang--549wukuang--1dead01",
+      "resourceId": "549wukuang/1dead01",
+      "text": "孟德何在？本初何在？",
+      "textLocalized": {
+        "zhHans": "孟德何在？本初何在？",
+        "zhHant": "孟德何在？本初何在？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/549wukuang-66c7d427/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/549wukuang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

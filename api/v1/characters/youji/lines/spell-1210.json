@@ -1,3 +1,242 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6ab51ac4718343df0f71a5bec984a3be8376ff454595f62f3a978cb5365f09f2
-size 5026
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "youji",
+    "command": "youji",
+    "name": "酉鸡",
+    "displayName": {
+      "zhHans": "酉鸡",
+      "zhHant": "酉雞"
+    },
+    "names": [
+      "酉鸡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "酉鸡",
+        "zhHant": "酉雞"
+      }
+    ],
+    "ids": [
+      "4092"
+    ],
+    "sourceNames": [
+      "酉鸡"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "酉鸡",
+        "zhHant": "酉雞"
+      }
+    ],
+    "sourceIds": [
+      "4092"
+    ],
+    "searchNames": [
+      "youji",
+      "酉鸡",
+      "酉雞"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 1
+      },
+      {
+        "slug": "spell-1210",
+        "name": "酉鸡",
+        "displayName": {
+          "zhHans": "酉鸡",
+          "zhHant": "酉雞"
+        },
+        "ids": [
+          "1210"
+        ],
+        "lineCount": 1
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/youji.json",
+      "lines": "api/v1/characters/youji/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1210",
+    "ids": [
+      "1210"
+    ],
+    "name": "酉鸡",
+    "displayName": {
+      "zhHans": "酉鸡",
+      "zhHant": "酉雞"
+    },
+    "names": [
+      "酉鸡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "酉鸡",
+        "zhHant": "酉雞"
+      }
+    ]
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "youji--4092youji--1skill1_1",
+      "resourceId": "4092youji/1skill1_1",
+      "text": "鸡豚之息，虽微渐厚。",
+      "textLocalized": {
+        "zhHans": "鸡豚之息，虽微渐厚。",
+        "zhHant": "雞豚之息，雖微漸厚。"
+      },
+      "character": {
+        "slug": "youji",
+        "command": "youji",
+        "id": "4092",
+        "ids": [
+          "4092"
+        ],
+        "name": "酉鸡",
+        "displayName": {
+          "zhHans": "酉鸡",
+          "zhHant": "酉雞"
+        },
+        "names": [
+          "酉鸡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "酉鸡",
+            "zhHant": "酉雞"
+          }
+        ],
+        "sourceIds": [
+          "4092"
+        ],
+        "sourceNames": [
+          "酉鸡"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "酉鸡",
+            "zhHant": "酉雞"
+          }
+        ],
+        "searchNames": [
+          "酉鸡",
+          "酉雞",
+          "youji"
+        ]
+      },
+      "group": {
+        "slug": "spell-1210",
+        "ids": [
+          "1210"
+        ],
+        "name": "酉鸡",
+        "displayName": {
+          "zhHans": "酉鸡",
+          "zhHant": "酉雞"
+        },
+        "names": [
+          "酉鸡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "酉鸡",
+            "zhHant": "酉雞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "4092",
+        "skinKey": "-1",
+        "spellKey": "1210",
+        "rowIndex": 1,
+        "characterNames": [
+          "酉鸡"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/4092youji-1dbda0df/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4092youji/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

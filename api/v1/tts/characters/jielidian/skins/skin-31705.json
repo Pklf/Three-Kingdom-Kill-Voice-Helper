@@ -1,3 +1,329 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a5bfda92f9830ecaa0e70ee4b77479e2cc9a1f6f15256e78390b7ba8ce762fd6
-size 9235
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jielidian",
+    "command": "jielidian",
+    "name": "界李典",
+    "displayName": {
+      "zhHans": "界李典",
+      "zhHant": "界李典"
+    },
+    "names": [
+      "界李典"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界李典",
+        "zhHant": "界李典"
+      }
+    ],
+    "ids": [
+      "317"
+    ],
+    "sourceNames": [
+      "界李典"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界李典",
+        "zhHant": "界李典"
+      }
+    ],
+    "sourceIds": [
+      "317"
+    ],
+    "searchNames": [
+      "jielidian",
+      "界李典"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jielidian/groups/dead.json"
+      },
+      {
+        "slug": "spell-3310-726",
+        "name": "忘隙",
+        "displayName": {
+          "zhHans": "忘隙",
+          "zhHant": "忘隙"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jielidian/groups/spell-3310-726.json"
+      },
+      {
+        "slug": "spell-725",
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jielidian/groups/spell-725.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-31702",
+        "name": "义忘私隙",
+        "displayName": {
+          "zhHans": "义忘私隙",
+          "zhHant": "義忘私隙"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31702.json"
+      },
+      {
+        "slug": "skin-31702-31703",
+        "name": "义忘私隙,离狐太守",
+        "displayName": {
+          "zhHans": "义忘私隙,离狐太守",
+          "zhHant": "義忘私隙,離狐太守"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31702-31703.json"
+      },
+      {
+        "slug": "skin-31705",
+        "name": "儒雅之风",
+        "displayName": {
+          "zhHans": "儒雅之风",
+          "zhHant": "儒雅之風"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31705.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-31701",
+        "name": "破虏大将",
+        "displayName": {
+          "zhHans": "破虏大将",
+          "zhHant": "破虜大將"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31701.json"
+      },
+      {
+        "slug": "skin-31703",
+        "name": "离狐太守",
+        "displayName": {
+          "zhHans": "离狐太守",
+          "zhHant": "離狐太守"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31703.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jielidian.json",
+      "groups": "api/v1/tts/characters/jielidian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jielidian/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-31705",
+    "name": "儒雅之风",
+    "displayName": {
+      "zhHans": "儒雅之风",
+      "zhHant": "儒雅之風"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jielidian/skins/skin-31705.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jielidian--317jielidian--5dead01",
+      "resourceId": "317jielidian/5dead01",
+      "text": "可惜，看不到击溃敌军了……",
+      "textLocalized": {
+        "zhHans": "可惜，看不到击溃敌军了……",
+        "zhHant": "可惜，看不到擊潰敵軍了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31705",
+          "name": "儒雅之风",
+          "displayName": {
+            "zhHans": "儒雅之风",
+            "zhHant": "儒雅之風"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielidian--317jielidian--5skill2_1",
+      "resourceId": "317jielidian/5skill2_1",
+      "text": "携手同心，方能解决我军之危机！",
+      "textLocalized": {
+        "zhHans": "携手同心，方能解决我军之危机！",
+        "zhHant": "攜手同心，方能解決我軍之危機！"
+      },
+      "group": {
+        "slug": "spell-3310-726",
+        "name": "忘隙",
+        "displayName": {
+          "zhHans": "忘隙",
+          "zhHant": "忘隙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31705",
+          "name": "儒雅之风",
+          "displayName": {
+            "zhHans": "儒雅之风",
+            "zhHant": "儒雅之風"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielidian--317jielidian--5skill2_2",
+      "resourceId": "317jielidian/5skill2_2",
+      "text": "敌势破城，何谈前怨？",
+      "textLocalized": {
+        "zhHans": "敌势破城，何谈前怨？",
+        "zhHant": "敵勢破城，何談前怨？"
+      },
+      "group": {
+        "slug": "spell-3310-726",
+        "name": "忘隙",
+        "displayName": {
+          "zhHans": "忘隙",
+          "zhHant": "忘隙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31705",
+          "name": "儒雅之风",
+          "displayName": {
+            "zhHans": "儒雅之风",
+            "zhHant": "儒雅之風"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielidian--317jielidian--5skill1_1",
+      "resourceId": "317jielidian/5skill1_1",
+      "text": "欲成大事，勿拘小节。",
+      "textLocalized": {
+        "zhHans": "欲成大事，勿拘小节。",
+        "zhHant": "欲成大事，勿拘小節。"
+      },
+      "group": {
+        "slug": "spell-725",
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31705",
+          "name": "儒雅之风",
+          "displayName": {
+            "zhHans": "儒雅之风",
+            "zhHant": "儒雅之風"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jielidian--317jielidian--5skill1_2",
+      "resourceId": "317jielidian/5skill1_2",
+      "text": "慎而多虑，智则广纳。",
+      "textLocalized": {
+        "zhHans": "慎而多虑，智则广纳。",
+        "zhHant": "慎而多慮，智則廣納。"
+      },
+      "group": {
+        "slug": "spell-725",
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-31705",
+          "name": "儒雅之风",
+          "displayName": {
+            "zhHans": "儒雅之风",
+            "zhHant": "儒雅之風"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/317jielidian-29e93f7f/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/317jielidian/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

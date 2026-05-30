@@ -1,3 +1,139 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:01034984ddabb52d3f7ae78914c0e5ec3214e1567111c63b403548bda0baa7f3
-size 3483
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "pingdengwang",
+    "command": "pingdengwang",
+    "name": "平等王",
+    "displayName": {
+      "zhHans": "平等王",
+      "zhHant": "平等王"
+    },
+    "names": [
+      "平等王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "平等王",
+        "zhHant": "平等王"
+      }
+    ],
+    "ids": [
+      "4508"
+    ],
+    "sourceNames": [
+      "平等王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "平等王",
+        "zhHant": "平等王"
+      }
+    ],
+    "sourceIds": [
+      "4508"
+    ],
+    "searchNames": [
+      "pingdengwang",
+      "平等王"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "spell-1301",
+        "name": "锁足",
+        "displayName": {
+          "zhHans": "锁足",
+          "zhHant": "鎖足"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/pingdengwang/groups/spell-1301.json"
+      },
+      {
+        "slug": "spell-1302",
+        "name": "阿鼻",
+        "displayName": {
+          "zhHans": "阿鼻",
+          "zhHant": "阿鼻"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/pingdengwang/groups/spell-1302.json"
+      },
+      {
+        "slug": "spell-1303",
+        "name": "平等",
+        "displayName": {
+          "zhHans": "平等",
+          "zhHant": "平等"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/pingdengwang/groups/spell-1303.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/pingdengwang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/pingdengwang.json",
+      "groups": "api/v1/tts/characters/pingdengwang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/pingdengwang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1301",
+    "name": "锁足",
+    "displayName": {
+      "zhHans": "锁足",
+      "zhHant": "鎖足"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/pingdengwang/groups/spell-1301.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "pingdengwang--4508pingdengwang--1skill1_1",
+      "resourceId": "4508pingdengwang/1skill1_1",
+      "text": "困其身，锁其足。",
+      "textLocalized": {
+        "zhHans": "困其身，锁其足。",
+        "zhHant": "困其身，鎖其足。"
+      },
+      "group": {
+        "slug": "spell-1301",
+        "name": "锁足",
+        "displayName": {
+          "zhHans": "锁足",
+          "zhHant": "鎖足"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4508pingdengwang-be761d44/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4508pingdengwang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

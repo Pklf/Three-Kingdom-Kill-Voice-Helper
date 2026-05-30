@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf47696aa6beed8ffc78d1a8c5c523ee751c04ed8f017242ac46f94358d72204
-size 7080
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiangwanfeiyi",
+    "command": "jiangwanfeiyi",
+    "name": "蒋琬&费祎",
+    "displayName": {
+      "zhHans": "蒋琬&费祎",
+      "zhHant": "蔣琬&費禕"
+    },
+    "names": [
+      "蒋琬&费祎"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蒋琬&费祎",
+        "zhHant": "蔣琬&費禕"
+      }
+    ],
+    "ids": [
+      "2061"
+    ],
+    "sourceNames": [
+      "蒋琬&费祎"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蒋琬&费祎",
+        "zhHant": "蔣琬&費禕"
+      }
+    ],
+    "sourceIds": [
+      "2061"
+    ],
+    "searchNames": [
+      "jiangwanfeiyi",
+      "蒋琬&费祎",
+      "蔣琬&費禕"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiangwanfeiyi/groups/dead.json"
+      },
+      {
+        "slug": "spell-2118",
+        "name": "生息",
+        "displayName": {
+          "zhHans": "生息",
+          "zhHant": "生息"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiangwanfeiyi/groups/spell-2118.json"
+      },
+      {
+        "slug": "spell-2119",
+        "name": "守成",
+        "displayName": {
+          "zhHans": "守成",
+          "zhHant": "守成"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiangwanfeiyi/groups/spell-2119.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangwanfeiyi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-206101",
+        "name": "社稷之器",
+        "displayName": {
+          "zhHans": "社稷之器",
+          "zhHant": "社稷之器"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiangwanfeiyi/skins/skin-206101.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiangwanfeiyi.json",
+      "groups": "api/v1/tts/characters/jiangwanfeiyi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiangwanfeiyi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-2119",
+    "name": "守成",
+    "displayName": {
+      "zhHans": "守成",
+      "zhHant": "守成"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/jiangwanfeiyi/groups/spell-2119.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "jiangwanfeiyi--2061jiangwanfeiyi--1skill2_1",
+      "resourceId": "2061jiangwanfeiyi/1skill2_1",
+      "text": "国库盈余，可助军威！",
+      "textLocalized": {
+        "zhHans": "国库盈余，可助军威！",
+        "zhHant": "國庫盈餘，可助軍威！"
+      },
+      "group": {
+        "slug": "spell-2119",
+        "name": "守成",
+        "displayName": {
+          "zhHans": "守成",
+          "zhHant": "守成"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2061jiangwanfeiyi-aa108641/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2061jiangwanfeiyi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangwanfeiyi--2061jiangwanfeiyi--1skill2_2",
+      "resourceId": "2061jiangwanfeiyi/1skill2_2",
+      "text": "待吾等助将军一臂之力！",
+      "textLocalized": {
+        "zhHans": "待吾等助将军一臂之力！",
+        "zhHant": "待吾等助將軍一臂之力！"
+      },
+      "group": {
+        "slug": "spell-2119",
+        "name": "守成",
+        "displayName": {
+          "zhHans": "守成",
+          "zhHant": "守成"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2061jiangwanfeiyi-aa108641/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2061jiangwanfeiyi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangwanfeiyi--2061jiangwanfeiyi--3skill2_1",
+      "resourceId": "2061jiangwanfeiyi/3skill2_1",
+      "text": "虽天下大乱，大汉传承不可断！",
+      "textLocalized": {
+        "zhHans": "虽天下大乱，大汉传承不可断！",
+        "zhHant": "雖天下大亂，大漢傳承不可斷！"
+      },
+      "group": {
+        "slug": "spell-2119",
+        "name": "守成",
+        "displayName": {
+          "zhHans": "守成",
+          "zhHant": "守成"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-206101",
+          "name": "社稷之器",
+          "displayName": {
+            "zhHans": "社稷之器",
+            "zhHant": "社稷之器"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2061jiangwanfeiyi-aa108641/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2061jiangwanfeiyi/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiangwanfeiyi--2061jiangwanfeiyi--3skill2_2",
+      "resourceId": "2061jiangwanfeiyi/3skill2_2",
+      "text": "吾等特来助阵将军！",
+      "textLocalized": {
+        "zhHans": "吾等特来助阵将军！",
+        "zhHant": "吾等特來助陣將軍！"
+      },
+      "group": {
+        "slug": "spell-2119",
+        "name": "守成",
+        "displayName": {
+          "zhHans": "守成",
+          "zhHant": "守成"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-206101",
+          "name": "社稷之器",
+          "displayName": {
+            "zhHans": "社稷之器",
+            "zhHant": "社稷之器"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2061jiangwanfeiyi-aa108641/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2061jiangwanfeiyi/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

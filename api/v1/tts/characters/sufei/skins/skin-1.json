@@ -1,3 +1,250 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:939a3899ffa8a5e50b938e04c9db0c5efe0992ff67cc699d73cf2b0475178821
-size 6617
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sufei",
+    "command": "sufei",
+    "name": "苏飞",
+    "displayName": {
+      "zhHans": "苏飞",
+      "zhHant": "蘇飛"
+    },
+    "names": [
+      "苏飞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "苏飞",
+        "zhHant": "蘇飛"
+      }
+    ],
+    "ids": [
+      "420"
+    ],
+    "sourceNames": [
+      "苏飞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "苏飞",
+        "zhHant": "蘇飛"
+      }
+    ],
+    "sourceIds": [
+      "420"
+    ],
+    "searchNames": [
+      "sufei",
+      "苏飞",
+      "蘇飛"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/sufei/groups/dead.json"
+      },
+      {
+        "slug": "spell-858",
+        "name": "联翩",
+        "displayName": {
+          "zhHans": "联翩",
+          "zhHant": "聯翩"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/sufei/groups/spell-858.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-42002",
+        "name": "临岸拜别",
+        "displayName": {
+          "zhHans": "临岸拜别",
+          "zhHant": "臨岸拜別"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42002.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42004",
+        "name": "怒钺贯江",
+        "displayName": {
+          "zhHans": "怒钺贯江",
+          "zhHant": "怒鉞貫江"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42004.json"
+      },
+      {
+        "slug": "skin-42004-42005",
+        "name": "怒钺贯江,轻舟锐进",
+        "displayName": {
+          "zhHans": "怒钺贯江,轻舟锐进",
+          "zhHant": "怒鉞貫江,輕舟銳進"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42004-42005.json"
+      },
+      {
+        "slug": "skin-42001",
+        "name": "枪出波涛",
+        "displayName": {
+          "zhHans": "枪出波涛",
+          "zhHant": "槍出波濤"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42001.json"
+      },
+      {
+        "slug": "skin-42005",
+        "name": "轻舟锐进",
+        "displayName": {
+          "zhHans": "轻舟锐进",
+          "zhHant": "輕舟銳進"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sufei/skins/skin-42005.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sufei.json",
+      "groups": "api/v1/tts/characters/sufei/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sufei/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/sufei/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "sufei--420sufei--1dead01",
+      "resourceId": "420sufei/1dead01",
+      "text": "恐不能再与兴霸兄，并肩奋战了。",
+      "textLocalized": {
+        "zhHans": "恐不能再与兴霸兄，并肩奋战了。",
+        "zhHant": "恐不能再與興霸兄，並肩奮戰了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/420sufei-871bbc01/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/420sufei/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sufei--420sufei--1skill1_1",
+      "resourceId": "420sufei/1skill1_1",
+      "text": "需持续投入，方有回报。",
+      "textLocalized": {
+        "zhHans": "需持续投入，方有回报。",
+        "zhHant": "需持續投入，方有回報。"
+      },
+      "group": {
+        "slug": "spell-858",
+        "name": "联翩",
+        "displayName": {
+          "zhHans": "联翩",
+          "zhHant": "聯翩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/420sufei-871bbc01/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/420sufei/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sufei--420sufei--1skill1_2",
+      "resourceId": "420sufei/1skill1_2",
+      "text": "心无旁骛，断而敢行！",
+      "textLocalized": {
+        "zhHans": "心无旁骛，断而敢行！",
+        "zhHant": "心無旁騖，斷而敢行！"
+      },
+      "group": {
+        "slug": "spell-858",
+        "name": "联翩",
+        "displayName": {
+          "zhHans": "联翩",
+          "zhHant": "聯翩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/420sufei-871bbc01/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/420sufei/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

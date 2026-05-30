@@ -1,3 +1,372 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:235d18633159ca9405a75de288f21b6defd9756c8905e146c539f138eeda04b6
-size 10241
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xunyu",
+    "command": "xunyu",
+    "name": "荀彧",
+    "displayName": {
+      "zhHans": "荀彧",
+      "zhHant": "荀彧"
+    },
+    "names": [
+      "荀彧",
+      "界荀彧"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "荀彧",
+        "zhHant": "荀彧"
+      },
+      {
+        "zhHans": "界荀彧",
+        "zhHant": "界荀彧"
+      }
+    ],
+    "ids": [
+      "35",
+      "515"
+    ],
+    "sourceNames": [
+      "荀彧",
+      "界荀彧"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "荀彧",
+        "zhHant": "荀彧"
+      },
+      {
+        "zhHans": "界荀彧",
+        "zhHant": "界荀彧"
+      }
+    ],
+    "sourceIds": [
+      "35",
+      "515"
+    ],
+    "searchNames": [
+      "xunyu",
+      "荀彧",
+      "界荀彧"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-92",
+        "name": "驱虎",
+        "displayName": {
+          "zhHans": "驱虎",
+          "zhHant": "驅虎"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/xunyu/groups/spell-92.json"
+      },
+      {
+        "slug": "spell-93",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xunyu/groups/spell-93.json"
+      },
+      {
+        "slug": "spell-93-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xunyu/groups/spell-93-3128.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-3508",
+        "name": "握筹布画",
+        "displayName": {
+          "zhHans": "握筹布画",
+          "zhHant": "握籌布畫"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/xunyu/skins/skin-3508.json"
+      },
+      {
+        "slug": "skin-3502",
+        "name": "明以举贤",
+        "displayName": {
+          "zhHans": "明以举贤",
+          "zhHant": "明以舉賢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunyu/skins/skin-3502.json"
+      },
+      {
+        "slug": "skin-3501",
+        "name": "王佐之才",
+        "displayName": {
+          "zhHans": "王佐之才",
+          "zhHant": "王佐之才"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunyu/skins/skin-3501.json"
+      },
+      {
+        "slug": "skin-3501-3505-3508",
+        "name": "王佐之才,荀令留香,握筹布画",
+        "displayName": {
+          "zhHans": "王佐之才,荀令留香,握筹布画",
+          "zhHant": "王佐之才,荀令留香,握籌布畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunyu/skins/skin-3501-3505-3508.json"
+      },
+      {
+        "slug": "skin-3505",
+        "name": "荀令留香",
+        "displayName": {
+          "zhHans": "荀令留香",
+          "zhHant": "荀令留香"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/xunyu/skins/skin-3505.json"
+      },
+      {
+        "slug": "skin-3505-3508",
+        "name": "荀令留香,握筹布画",
+        "displayName": {
+          "zhHans": "荀令留香,握筹布画",
+          "zhHant": "荀令留香,握籌布畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunyu/skins/skin-3505-3508.json"
+      },
+      {
+        "slug": "skin-3507",
+        "name": "谋定天下",
+        "displayName": {
+          "zhHans": "谋定天下",
+          "zhHant": "謀定天下"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xunyu/skins/skin-3507.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xunyu.json",
+      "groups": "api/v1/tts/characters/xunyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xunyu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-3507",
+    "name": "谋定天下",
+    "displayName": {
+      "zhHans": "谋定天下",
+      "zhHant": "謀定天下"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/xunyu/skins/skin-3507.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "xunyu--35xunyu--6dead01",
+      "resourceId": "35xunyu/6dead01",
+      "text": "天狗，也逃不过兔死狗烹的结局吗？",
+      "textLocalized": {
+        "zhHans": "天狗，也逃不过兔死狗烹的结局吗？",
+        "zhHant": "天狗，也逃不過兔死狗烹的結局嗎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-3507",
+          "name": "谋定天下",
+          "displayName": {
+            "zhHans": "谋定天下",
+            "zhHant": "謀定天下"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/35xunyu-57014d7b/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/35xunyu/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunyu--35xunyu--6skill1_1",
+      "resourceId": "35xunyu/6skill1_1",
+      "text": "看我，二桃杀三士。",
+      "textLocalized": {
+        "zhHans": "看我，二桃杀三士。",
+        "zhHant": "看我，二桃殺三士。"
+      },
+      "group": {
+        "slug": "spell-92",
+        "name": "驱虎",
+        "displayName": {
+          "zhHans": "驱虎",
+          "zhHant": "驅虎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-3507",
+          "name": "谋定天下",
+          "displayName": {
+            "zhHans": "谋定天下",
+            "zhHant": "謀定天下"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/35xunyu-57014d7b/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/35xunyu/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunyu--35xunyu--6skill1_2",
+      "resourceId": "35xunyu/6skill1_2",
+      "text": "驱邪避恶，佑社稷黎民。",
+      "textLocalized": {
+        "zhHans": "驱邪避恶，佑社稷黎民。",
+        "zhHant": "驅邪避惡，佑社稷黎民。"
+      },
+      "group": {
+        "slug": "spell-92",
+        "name": "驱虎",
+        "displayName": {
+          "zhHans": "驱虎",
+          "zhHant": "驅虎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-3507",
+          "name": "谋定天下",
+          "displayName": {
+            "zhHans": "谋定天下",
+            "zhHant": "謀定天下"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/35xunyu-57014d7b/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/35xunyu/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunyu--35xunyu--6skill2_1",
+      "resourceId": "35xunyu/6skill2_1",
+      "text": "将不能失勇，士不可无节。",
+      "textLocalized": {
+        "zhHans": "将不能失勇，士不可无节。",
+        "zhHant": "將不能失勇，士不可無節。"
+      },
+      "group": {
+        "slug": "spell-93-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-3507",
+          "name": "谋定天下",
+          "displayName": {
+            "zhHans": "谋定天下",
+            "zhHant": "謀定天下"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/35xunyu-57014d7b/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/35xunyu/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xunyu--35xunyu--6skill2_2",
+      "resourceId": "35xunyu/6skill2_2",
+      "text": "我，愿用一生的忠诚，回报主公！",
+      "textLocalized": {
+        "zhHans": "我，愿用一生的忠诚，回报主公！",
+        "zhHant": "我，願用一生的忠誠，回報主公！"
+      },
+      "group": {
+        "slug": "spell-93-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-3507",
+          "name": "谋定天下",
+          "displayName": {
+            "zhHans": "谋定天下",
+            "zhHant": "謀定天下"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/35xunyu-57014d7b/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/35xunyu/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0b1d3a3f6e84e898c96d1bfccab7f34c3241f16f0cf08613d91d06c4f5e6756c
-size 8194
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xinchang",
+    "command": "xinchang",
+    "name": "辛敞",
+    "displayName": {
+      "zhHans": "辛敞",
+      "zhHant": "辛敞"
+    },
+    "names": [
+      "辛敞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "辛敞",
+        "zhHant": "辛敞"
+      }
+    ],
+    "ids": [
+      "7018"
+    ],
+    "sourceNames": [
+      "辛敞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "辛敞",
+        "zhHant": "辛敞"
+      }
+    ],
+    "sourceIds": [
+      "7018"
+    ],
+    "searchNames": [
+      "xinchang",
+      "辛敞"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xinchang/groups/dead.json"
+      },
+      {
+        "slug": "spell-3067",
+        "name": "参谋",
+        "displayName": {
+          "zhHans": "参谋",
+          "zhHant": "參謀"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xinchang/groups/spell-3067.json"
+      },
+      {
+        "slug": "spell-3068",
+        "name": "从鉴",
+        "displayName": {
+          "zhHans": "从鉴",
+          "zhHant": "從鑑"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xinchang/groups/spell-3068.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "701802",
+        "name": "701802",
+        "displayName": {
+          "zhHans": "701802",
+          "zhHant": "701802"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xinchang/skins/701802.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xinchang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-701801",
+        "name": "弃魏投晋",
+        "displayName": {
+          "zhHans": "弃魏投晋",
+          "zhHant": "棄魏投晉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xinchang/skins/skin-701801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xinchang.json",
+      "groups": "api/v1/tts/characters/xinchang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xinchang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-701801",
+    "name": "弃魏投晋",
+    "displayName": {
+      "zhHans": "弃魏投晋",
+      "zhHant": "棄魏投晉"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/xinchang/skins/skin-701801.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "xinchang--7018xinchang--2dead01",
+      "resourceId": "7018xinchang/2dead01",
+      "text": "我实无辜也，怎遭此祸？",
+      "textLocalized": {
+        "zhHans": "我实无辜也，怎遭此祸？",
+        "zhHant": "我實無辜也，怎遭此禍？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701801",
+          "name": "弃魏投晋",
+          "displayName": {
+            "zhHans": "弃魏投晋",
+            "zhHant": "棄魏投晉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7018xinchang-d65ef0f3/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7018xinchang/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xinchang--7018xinchang--2skill1_1",
+      "resourceId": "7018xinchang/2skill1_1",
+      "text": "参军献计，画一举之筹。",
+      "textLocalized": {
+        "zhHans": "参军献计，画一举之筹。",
+        "zhHant": "參軍獻計，畫一舉之籌。"
+      },
+      "group": {
+        "slug": "spell-3067",
+        "name": "参谋",
+        "displayName": {
+          "zhHans": "参谋",
+          "zhHant": "參謀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701801",
+          "name": "弃魏投晋",
+          "displayName": {
+            "zhHans": "弃魏投晋",
+            "zhHant": "棄魏投晉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7018xinchang-d65ef0f3/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7018xinchang/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xinchang--7018xinchang--2skill1_2",
+      "resourceId": "7018xinchang/2skill1_2",
+      "text": "主公问谋，奉两得之举。",
+      "textLocalized": {
+        "zhHans": "主公问谋，奉两得之举。",
+        "zhHant": "主公問謀，奉兩得之舉。"
+      },
+      "group": {
+        "slug": "spell-3067",
+        "name": "参谋",
+        "displayName": {
+          "zhHans": "参谋",
+          "zhHant": "參謀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701801",
+          "name": "弃魏投晋",
+          "displayName": {
+            "zhHans": "弃魏投晋",
+            "zhHant": "棄魏投晉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7018xinchang-d65ef0f3/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7018xinchang/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xinchang--7018xinchang--2skill2_1",
+      "resourceId": "7018xinchang/2skill2_1",
+      "text": "上下一体，应同甘共苦。",
+      "textLocalized": {
+        "zhHans": "上下一体，应同甘共苦。",
+        "zhHant": "上下一體，應同甘共苦。"
+      },
+      "group": {
+        "slug": "spell-3068",
+        "name": "从鉴",
+        "displayName": {
+          "zhHans": "从鉴",
+          "zhHant": "從鑑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701801",
+          "name": "弃魏投晋",
+          "displayName": {
+            "zhHans": "弃魏投晋",
+            "zhHant": "棄魏投晉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7018xinchang-d65ef0f3/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7018xinchang/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xinchang--7018xinchang--2skill2_2",
+      "resourceId": "7018xinchang/2skill2_2",
+      "text": "君臣同谐，当危难与共。",
+      "textLocalized": {
+        "zhHans": "君臣同谐，当危难与共。",
+        "zhHant": "君臣同諧，當危難與共。"
+      },
+      "group": {
+        "slug": "spell-3068",
+        "name": "从鉴",
+        "displayName": {
+          "zhHans": "从鉴",
+          "zhHant": "從鑑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701801",
+          "name": "弃魏投晋",
+          "displayName": {
+            "zhHans": "弃魏投晋",
+            "zhHant": "棄魏投晉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7018xinchang-d65ef0f3/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7018xinchang/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

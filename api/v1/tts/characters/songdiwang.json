@@ -1,3 +1,200 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c036c91c656d4562d87297b8e9c99b24b43c687f991c071319f77da7fc8221dd
-size 5323
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "songdiwang",
+    "command": "songdiwang",
+    "name": "宋帝王",
+    "displayName": {
+      "zhHans": "宋帝王",
+      "zhHant": "宋帝王"
+    },
+    "names": [
+      "宋帝王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "宋帝王",
+        "zhHant": "宋帝王"
+      }
+    ],
+    "ids": [
+      "4502"
+    ],
+    "sourceNames": [
+      "宋帝王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "宋帝王",
+        "zhHant": "宋帝王"
+      }
+    ],
+    "sourceIds": [
+      "4502"
+    ],
+    "searchNames": [
+      "songdiwang",
+      "宋帝王"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "spell-1284",
+        "name": "绳缚",
+        "displayName": {
+          "zhHans": "绳缚",
+          "zhHant": "繩縛"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/songdiwang/groups/spell-1284.json"
+      },
+      {
+        "slug": "spell-1285",
+        "name": "黑绳",
+        "displayName": {
+          "zhHans": "黑绳",
+          "zhHant": "黑繩"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/songdiwang/groups/spell-1285.json"
+      },
+      {
+        "slug": "spell-407",
+        "name": "恩怨",
+        "displayName": {
+          "zhHans": "恩怨",
+          "zhHant": "恩怨"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/songdiwang/groups/spell-407.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/songdiwang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/songdiwang.json",
+      "groups": "api/v1/tts/characters/songdiwang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/songdiwang/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "songdiwang--4502songdiwang--1skill2_1",
+      "resourceId": "4502songdiwang/1skill2_1",
+      "text": "想跑？痴人说梦！",
+      "textLocalized": {
+        "zhHans": "想跑？痴人说梦！",
+        "zhHant": "想跑？癡人說夢！"
+      },
+      "group": {
+        "slug": "spell-1284",
+        "name": "绳缚",
+        "displayName": {
+          "zhHans": "绳缚",
+          "zhHant": "繩縛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4502songdiwang-985d263b/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4502songdiwang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "songdiwang--4502songdiwang--1skill3_1",
+      "resourceId": "4502songdiwang/1skill3_1",
+      "text": "此绳索，是你无法逃脱的噩梦。",
+      "textLocalized": {
+        "zhHans": "此绳索，是你无法逃脱的噩梦。",
+        "zhHant": "此繩索，是你無法逃脫的噩夢。"
+      },
+      "group": {
+        "slug": "spell-1285",
+        "name": "黑绳",
+        "displayName": {
+          "zhHans": "黑绳",
+          "zhHant": "黑繩"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4502songdiwang-985d263b/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4502songdiwang/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "songdiwang--4502songdiwang--1skill1_1",
+      "resourceId": "4502songdiwang/1skill1_1",
+      "text": "有恩有惠，有伤有报。",
+      "textLocalized": {
+        "zhHans": "有恩有惠，有伤有报。",
+        "zhHant": "有恩有惠，有傷有報。"
+      },
+      "group": {
+        "slug": "spell-407",
+        "name": "恩怨",
+        "displayName": {
+          "zhHans": "恩怨",
+          "zhHant": "恩怨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4502songdiwang-985d263b/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4502songdiwang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

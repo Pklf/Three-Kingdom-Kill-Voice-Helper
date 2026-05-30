@@ -1,3 +1,345 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:92e64834bcd61ce1140f0d993845fb823f185a07104fcc9d7c150551b095de33
-size 9536
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenluxun",
+    "command": "shenluxun",
+    "name": "神陆逊",
+    "displayName": {
+      "zhHans": "神陆逊",
+      "zhHant": "神陸遜"
+    },
+    "names": [
+      "神陆逊"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神陆逊",
+        "zhHant": "神陸遜"
+      }
+    ],
+    "ids": [
+      "221"
+    ],
+    "sourceNames": [
+      "神陆逊"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神陆逊",
+        "zhHant": "神陸遜"
+      }
+    ],
+    "sourceIds": [
+      "221"
+    ],
+    "searchNames": [
+      "shenluxun",
+      "神陆逊",
+      "神陸遜"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenluxun/groups/dead.json"
+      },
+      {
+        "slug": "spell-834",
+        "name": "军略",
+        "displayName": {
+          "zhHans": "军略",
+          "zhHant": "軍略"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenluxun/groups/spell-834.json"
+      },
+      {
+        "slug": "spell-835",
+        "name": "摧克",
+        "displayName": {
+          "zhHans": "摧克",
+          "zhHant": "摧克"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenluxun/groups/spell-835.json"
+      },
+      {
+        "slug": "spell-836",
+        "name": "绽火",
+        "displayName": {
+          "zhHans": "绽火",
+          "zhHant": "綻火"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenluxun/groups/spell-836.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenluxun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-22101",
+        "name": "夷陵破蜀",
+        "displayName": {
+          "zhHans": "夷陵破蜀",
+          "zhHant": "夷陵破蜀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenluxun/skins/skin-22101.json"
+      },
+      {
+        "slug": "skin-22102",
+        "name": "绽火烽威",
+        "displayName": {
+          "zhHans": "绽火烽威",
+          "zhHant": "綻火烽威"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenluxun/skins/skin-22102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenluxun.json",
+      "groups": "api/v1/tts/characters/shenluxun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenluxun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-835",
+    "name": "摧克",
+    "displayName": {
+      "zhHans": "摧克",
+      "zhHant": "摧克"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/shenluxun/groups/spell-835.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "shenluxun--221shenluxun--1skill2_1",
+      "resourceId": "221shenluxun/1skill2_1",
+      "text": "克险摧难，军略当先。",
+      "textLocalized": {
+        "zhHans": "克险摧难，军略当先。",
+        "zhHant": "克險摧難，軍略當先。"
+      },
+      "group": {
+        "slug": "spell-835",
+        "name": "摧克",
+        "displayName": {
+          "zhHans": "摧克",
+          "zhHant": "摧克"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--1skill2_2",
+      "resourceId": "221shenluxun/1skill2_2",
+      "text": "摧敌心神，克敌计谋。",
+      "textLocalized": {
+        "zhHans": "摧敌心神，克敌计谋。",
+        "zhHant": "摧敵心神，克敵計謀。"
+      },
+      "group": {
+        "slug": "spell-835",
+        "name": "摧克",
+        "displayName": {
+          "zhHans": "摧克",
+          "zhHant": "摧克"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--3skill2_1",
+      "resourceId": "221shenluxun/3skill2_1",
+      "text": "摧其壁垒，克其之营。",
+      "textLocalized": {
+        "zhHans": "摧其壁垒，克其之营。",
+        "zhHant": "摧其壁壘，克其之營。"
+      },
+      "group": {
+        "slug": "spell-835",
+        "name": "摧克",
+        "displayName": {
+          "zhHans": "摧克",
+          "zhHant": "摧克"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22101",
+          "name": "夷陵破蜀",
+          "displayName": {
+            "zhHans": "夷陵破蜀",
+            "zhHant": "夷陵破蜀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--3skill2_2",
+      "resourceId": "221shenluxun/3skill2_2",
+      "text": "如此扎寨，牵一发而动全身。",
+      "textLocalized": {
+        "zhHans": "如此扎寨，牵一发而动全身。",
+        "zhHant": "如此紮寨，牽一髮而動全身。"
+      },
+      "group": {
+        "slug": "spell-835",
+        "name": "摧克",
+        "displayName": {
+          "zhHans": "摧克",
+          "zhHant": "摧克"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22101",
+          "name": "夷陵破蜀",
+          "displayName": {
+            "zhHans": "夷陵破蜀",
+            "zhHant": "夷陵破蜀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--4skill2_1",
+      "resourceId": "221shenluxun/4skill2_1",
+      "text": "催谷幽云静，克敌千里间。",
+      "textLocalized": {
+        "zhHans": "催谷幽云静，克敌千里间。",
+        "zhHant": "催谷幽雲靜，克敵千里間。"
+      },
+      "group": {
+        "slug": "spell-835",
+        "name": "摧克",
+        "displayName": {
+          "zhHans": "摧克",
+          "zhHant": "摧克"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22102",
+          "name": "绽火烽威",
+          "displayName": {
+            "zhHans": "绽火烽威",
+            "zhHant": "綻火烽威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--4skill2_2",
+      "resourceId": "221shenluxun/4skill2_2",
+      "text": "击鼓催克，士气燃燃。",
+      "textLocalized": {
+        "zhHans": "击鼓催克，士气燃燃。",
+        "zhHant": "擊鼓催克，士氣燃燃。"
+      },
+      "group": {
+        "slug": "spell-835",
+        "name": "摧克",
+        "displayName": {
+          "zhHans": "摧克",
+          "zhHant": "摧克"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22102",
+          "name": "绽火烽威",
+          "displayName": {
+            "zhHans": "绽火烽威",
+            "zhHant": "綻火烽威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

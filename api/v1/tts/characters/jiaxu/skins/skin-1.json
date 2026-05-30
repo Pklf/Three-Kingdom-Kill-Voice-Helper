@@ -1,3 +1,474 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:868e8a725bc305b6c8004188868ecb2fb77d062bacbc20a459bd1103e01ce209
-size 12888
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiaxu",
+    "command": "jiaxu",
+    "name": "贾诩",
+    "displayName": {
+      "zhHans": "贾诩",
+      "zhHant": "賈詡"
+    },
+    "names": [
+      "贾诩",
+      "界贾诩"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "贾诩",
+        "zhHant": "賈詡"
+      },
+      {
+        "zhHans": "界贾诩",
+        "zhHant": "界賈詡"
+      }
+    ],
+    "ids": [
+      "48",
+      "484"
+    ],
+    "sourceNames": [
+      "贾诩",
+      "界贾诩"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "贾诩",
+        "zhHant": "賈詡"
+      },
+      {
+        "zhHans": "界贾诩",
+        "zhHant": "界賈詡"
+      }
+    ],
+    "sourceIds": [
+      "48",
+      "484"
+    ],
+    "searchNames": [
+      "jiaxu",
+      "贾诩",
+      "賈詡",
+      "界贾诩",
+      "界賈詡"
+    ],
+    "lineCount": 42,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/dead.json"
+      },
+      {
+        "slug": "spell-117",
+        "name": "完杀",
+        "displayName": {
+          "zhHans": "完杀",
+          "zhHant": "完殺"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-117.json"
+      },
+      {
+        "slug": "spell-117-9019",
+        "name": "完杀",
+        "displayName": {
+          "zhHans": "完杀",
+          "zhHant": "完殺"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-117-9019.json"
+      },
+      {
+        "slug": "spell-118",
+        "name": "乱武",
+        "displayName": {
+          "zhHans": "乱武",
+          "zhHant": "亂武"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-118.json"
+      },
+      {
+        "slug": "spell-119",
+        "name": "帷幕",
+        "displayName": {
+          "zhHans": "帷幕",
+          "zhHant": "帷幕"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-119.json"
+      },
+      {
+        "slug": "spell-119-2117-9021",
+        "name": "帷幕",
+        "displayName": {
+          "zhHans": "帷幕",
+          "zhHant": "帷幕"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/jiaxu/groups/spell-119-2117-9021.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-4804",
+        "name": "乱武天下",
+        "displayName": {
+          "zhHans": "乱武天下",
+          "zhHant": "亂武天下"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4804.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-4806",
+        "name": "志在必得",
+        "displayName": {
+          "zhHans": "志在必得",
+          "zhHant": "志在必得"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4806.json"
+      },
+      {
+        "slug": "skin-4809",
+        "name": "拂尘独行",
+        "displayName": {
+          "zhHans": "拂尘独行",
+          "zhHant": "拂塵獨行"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4809.json"
+      },
+      {
+        "slug": "skin-4803",
+        "name": "持胜善谋",
+        "displayName": {
+          "zhHans": "持胜善谋",
+          "zhHant": "持勝善謀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4803.json"
+      },
+      {
+        "slug": "skin-4803-4806-4809",
+        "name": "持胜善谋,志在必得,拂尘独行",
+        "displayName": {
+          "zhHans": "持胜善谋,志在必得,拂尘独行",
+          "zhHant": "持勝善謀,志在必得,拂塵獨行"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4803-4806-4809.json"
+      },
+      {
+        "slug": "skin-4808",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4808.json"
+      },
+      {
+        "slug": "skin-4801",
+        "name": "经达权变",
+        "displayName": {
+          "zhHans": "经达权变",
+          "zhHant": "經達權變"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4801.json"
+      },
+      {
+        "slug": "skin-4807",
+        "name": "谋定天下",
+        "displayName": {
+          "zhHans": "谋定天下",
+          "zhHant": "謀定天下"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-4807.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiaxu.json",
+      "groups": "api/v1/tts/characters/jiaxu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiaxu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/jiaxu/skins/skin-1.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "jiaxu--48jiaxu--1dead01",
+      "resourceId": "48jiaxu/1dead01",
+      "text": "我的时辰……也到了……",
+      "textLocalized": {
+        "zhHans": "我的时辰……也到了……",
+        "zhHant": "我的時辰……也到了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--1skill1_1",
+      "resourceId": "48jiaxu/1skill1_1",
+      "text": "我要你三更死，谁敢留你到五更！",
+      "textLocalized": {
+        "zhHans": "我要你三更死，谁敢留你到五更！",
+        "zhHant": "我要你三更死，誰敢留你到五更！"
+      },
+      "group": {
+        "slug": "spell-117",
+        "name": "完杀",
+        "displayName": {
+          "zhHans": "完杀",
+          "zhHant": "完殺"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--1skill1_2",
+      "resourceId": "48jiaxu/1skill1_2",
+      "text": "神仙难救，神仙难救啊！",
+      "textLocalized": {
+        "zhHans": "神仙难救，神仙难救啊！",
+        "zhHant": "神仙難救，神仙難救啊！"
+      },
+      "group": {
+        "slug": "spell-117",
+        "name": "完杀",
+        "displayName": {
+          "zhHans": "完杀",
+          "zhHant": "完殺"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--1skill2_1",
+      "resourceId": "48jiaxu/1skill2_1",
+      "text": "哼哼哼哼，坐山观虎斗。",
+      "textLocalized": {
+        "zhHans": "哼哼哼哼，坐山观虎斗。",
+        "zhHant": "哼哼哼哼，坐山觀虎鬥。"
+      },
+      "group": {
+        "slug": "spell-118",
+        "name": "乱武",
+        "displayName": {
+          "zhHans": "乱武",
+          "zhHant": "亂武"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--1skill2_2",
+      "resourceId": "48jiaxu/1skill2_2",
+      "text": "哭喊吧，哀求吧，挣扎吧，然后死吧！",
+      "textLocalized": {
+        "zhHans": "哭喊吧，哀求吧，挣扎吧，然后死吧！",
+        "zhHant": "哭喊吧，哀求吧，掙扎吧，然後死吧！"
+      },
+      "group": {
+        "slug": "spell-118",
+        "name": "乱武",
+        "displayName": {
+          "zhHans": "乱武",
+          "zhHant": "亂武"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--1skill3_1",
+      "resourceId": "48jiaxu/1skill3_1",
+      "text": "你奈我何？",
+      "textLocalized": {
+        "zhHans": "你奈我何？",
+        "zhHant": "你奈我何？"
+      },
+      "group": {
+        "slug": "spell-119",
+        "name": "帷幕",
+        "displayName": {
+          "zhHans": "帷幕",
+          "zhHant": "帷幕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiaxu--48jiaxu--1skill3_2",
+      "resourceId": "48jiaxu/1skill3_2",
+      "text": "此计伤不到我。",
+      "textLocalized": {
+        "zhHans": "此计伤不到我。",
+        "zhHant": "此計傷不到我。"
+      },
+      "group": {
+        "slug": "spell-119",
+        "name": "帷幕",
+        "displayName": {
+          "zhHans": "帷幕",
+          "zhHant": "帷幕"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/48jiaxu-56e76960/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/48jiaxu/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

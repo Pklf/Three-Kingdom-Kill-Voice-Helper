@@ -1,3 +1,249 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:84c222598c2eb91cd4944feb7dd3c79568d6f04f776bbe5228a14a456122d0c9
-size 6845
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "quancong",
+    "command": "quancong",
+    "name": "全琮",
+    "displayName": {
+      "zhHans": "全琮",
+      "zhHant": "全琮"
+    },
+    "names": [
+      "全琮"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "全琮",
+        "zhHant": "全琮"
+      }
+    ],
+    "ids": [
+      "340"
+    ],
+    "sourceNames": [
+      "全琮"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "全琮",
+        "zhHant": "全琮"
+      }
+    ],
+    "sourceIds": [
+      "340"
+    ],
+    "searchNames": [
+      "quancong",
+      "全琮"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/quancong/groups/dead.json"
+      },
+      {
+        "slug": "spell-759",
+        "name": "邀名",
+        "displayName": {
+          "zhHans": "邀名",
+          "zhHant": "邀名"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/quancong/groups/spell-759.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-34002",
+        "name": "临阵献策",
+        "displayName": {
+          "zhHans": "临阵献策",
+          "zhHant": "臨陣獻策"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34002.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34004",
+        "name": "名门公子",
+        "displayName": {
+          "zhHans": "名门公子",
+          "zhHant": "名門公子"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34004.json"
+      },
+      {
+        "slug": "skin-34003",
+        "name": "睟面盎背",
+        "displayName": {
+          "zhHans": "睟面盎背",
+          "zhHant": "睟面盎背"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34003.json"
+      },
+      {
+        "slug": "skin-34003-34004",
+        "name": "睟面盎背,名门公子",
+        "displayName": {
+          "zhHans": "睟面盎背,名门公子",
+          "zhHant": "睟面盎背,名門公子"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34003-34004.json"
+      },
+      {
+        "slug": "skin-34005",
+        "name": "福国利民",
+        "displayName": {
+          "zhHans": "福国利民",
+          "zhHant": "福國利民"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/quancong/skins/skin-34005.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/quancong.json",
+      "groups": "api/v1/tts/characters/quancong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/quancong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-34005",
+    "name": "福国利民",
+    "displayName": {
+      "zhHans": "福国利民",
+      "zhHant": "福國利民"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/quancong/skins/skin-34005.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "quancong--340quancong--5dead01",
+      "resourceId": "340quancong/5dead01",
+      "text": "且食我肉，勿食百姓之谷！",
+      "textLocalized": {
+        "zhHans": "且食我肉，勿食百姓之谷！",
+        "zhHant": "且食我肉，勿食百姓之谷！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34005",
+          "name": "福国利民",
+          "displayName": {
+            "zhHans": "福国利民",
+            "zhHant": "福國利民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/340quancong-88db393f/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/340quancong/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quancong--340quancong--5skill1_1",
+      "resourceId": "340quancong/5skill1_1",
+      "text": "圣人立功，神人立德，至人立名！",
+      "textLocalized": {
+        "zhHans": "圣人立功，神人立德，至人立名！",
+        "zhHant": "聖人立功，神人立德，至人立名！"
+      },
+      "group": {
+        "slug": "spell-759",
+        "name": "邀名",
+        "displayName": {
+          "zhHans": "邀名",
+          "zhHant": "邀名"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34005",
+          "name": "福国利民",
+          "displayName": {
+            "zhHans": "福国利民",
+            "zhHant": "福國利民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/340quancong-88db393f/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/340quancong/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "quancong--340quancong--5skill1_2",
+      "resourceId": "340quancong/5skill1_2",
+      "text": "志士济世，诚邀兄台，立名于吴会！",
+      "textLocalized": {
+        "zhHans": "志士济世，诚邀兄台，立名于吴会！",
+        "zhHant": "志士濟世，誠邀兄臺，立名於吳會！"
+      },
+      "group": {
+        "slug": "spell-759",
+        "name": "邀名",
+        "displayName": {
+          "zhHans": "邀名",
+          "zhHant": "邀名"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34005",
+          "name": "福国利民",
+          "displayName": {
+            "zhHans": "福国利民",
+            "zhHant": "福國利民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/340quancong-88db393f/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/340quancong/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

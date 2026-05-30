@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9678ddcd1054719e889527c74402d340eda2fd091e09efb76aee70dbd31d0173
-size 7864
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "duxi",
+    "command": "duxi",
+    "name": "杜袭",
+    "displayName": {
+      "zhHans": "杜袭",
+      "zhHant": "杜襲"
+    },
+    "names": [
+      "杜袭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杜袭",
+        "zhHant": "杜襲"
+      }
+    ],
+    "ids": [
+      "483"
+    ],
+    "sourceNames": [
+      "杜袭"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杜袭",
+        "zhHant": "杜襲"
+      }
+    ],
+    "sourceIds": [
+      "483"
+    ],
+    "searchNames": [
+      "duxi",
+      "杜袭",
+      "杜襲"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/duxi/groups/dead.json"
+      },
+      {
+        "slug": "spell-9001",
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/duxi/groups/spell-9001.json"
+      },
+      {
+        "slug": "spell-9002",
+        "name": "避凶",
+        "displayName": {
+          "zhHans": "避凶",
+          "zhHant": "避兇"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/duxi/groups/spell-9002.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/duxi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-48301",
+        "name": "弹指焚敌",
+        "displayName": {
+          "zhHans": "弹指焚敌",
+          "zhHant": "彈指焚敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/duxi/skins/skin-48301.json"
+      },
+      {
+        "slug": "skin-48302",
+        "name": "苦守西鄂",
+        "displayName": {
+          "zhHans": "苦守西鄂",
+          "zhHant": "苦守西鄂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/duxi/skins/skin-48302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/duxi.json",
+      "groups": "api/v1/tts/characters/duxi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/duxi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/duxi/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "duxi--483duxi--1dead01",
+      "resourceId": "483duxi/1dead01",
+      "text": "避凶不及，难矣！",
+      "textLocalized": {
+        "zhHans": "避凶不及，难矣！",
+        "zhHant": "避兇不及，難矣！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duxi--483duxi--1skill1_1",
+      "resourceId": "483duxi/1skill1_1",
+      "text": "不自改悔，终须驱徙。",
+      "textLocalized": {
+        "zhHans": "不自改悔，终须驱徙。",
+        "zhHant": "不自改悔，終須驅徙。"
+      },
+      "group": {
+        "slug": "spell-9001",
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duxi--483duxi--1skill1_2",
+      "resourceId": "483duxi/1skill1_2",
+      "text": "奈何驱徙，不使存活。",
+      "textLocalized": {
+        "zhHans": "奈何驱徙，不使存活。",
+        "zhHant": "奈何驅徙，不使存活。"
+      },
+      "group": {
+        "slug": "spell-9001",
+        "name": "驱徙",
+        "displayName": {
+          "zhHans": "驱徙",
+          "zhHant": "驅徙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duxi--483duxi--1skill2_1",
+      "resourceId": "483duxi/1skill2_1",
+      "text": "避凶而从吉，以趋荆州。",
+      "textLocalized": {
+        "zhHans": "避凶而从吉，以趋荆州。",
+        "zhHant": "避兇而從吉，以趨荊州。"
+      },
+      "group": {
+        "slug": "spell-9002",
+        "name": "避凶",
+        "displayName": {
+          "zhHans": "避凶",
+          "zhHant": "避兇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "duxi--483duxi--1skill2_2",
+      "resourceId": "483duxi/1skill2_2",
+      "text": "逢凶化吉，遇难呈祥。",
+      "textLocalized": {
+        "zhHans": "逢凶化吉，遇难呈祥。",
+        "zhHant": "逢凶化吉，遇難呈祥。"
+      },
+      "group": {
+        "slug": "spell-9002",
+        "name": "避凶",
+        "displayName": {
+          "zhHans": "避凶",
+          "zhHant": "避兇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/483duxi-551d45f1/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/483duxi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

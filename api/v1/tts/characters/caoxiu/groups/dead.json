@@ -1,3 +1,219 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dd1708a5c11e196d0c93511cce3dcf66a81908fb2136ec6a0b07c3a928c113d3
-size 5706
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoxiu",
+    "command": "caoxiu",
+    "name": "曹休",
+    "displayName": {
+      "zhHans": "曹休",
+      "zhHant": "曹休"
+    },
+    "names": [
+      "曹休"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹休",
+        "zhHant": "曹休"
+      }
+    ],
+    "ids": [
+      "333"
+    ],
+    "sourceNames": [
+      "曹休"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹休",
+        "zhHant": "曹休"
+      }
+    ],
+    "sourceIds": [
+      "333"
+    ],
+    "searchNames": [
+      "caoxiu",
+      "曹休"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoxiu/groups/dead.json"
+      },
+      {
+        "slug": "spell-761",
+        "name": "倾袭",
+        "displayName": {
+          "zhHans": "倾袭",
+          "zhHant": "傾襲"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caoxiu/groups/spell-761.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-33301",
+        "name": "下辨扬威",
+        "displayName": {
+          "zhHans": "下辨扬威",
+          "zhHant": "下辨揚威"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoxiu/skins/skin-33301.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoxiu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-33303",
+        "name": "志在雄英",
+        "displayName": {
+          "zhHans": "志在雄英",
+          "zhHant": "志在雄英"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoxiu/skins/skin-33303.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoxiu.json",
+      "groups": "api/v1/tts/characters/caoxiu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoxiu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/caoxiu/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "caoxiu--333caoxiu--3dead01",
+      "resourceId": "333caoxiu/3dead01",
+      "text": "孤军深入，犯了兵家大忌……",
+      "textLocalized": {
+        "zhHans": "孤军深入，犯了兵家大忌……",
+        "zhHant": "孤軍深入，犯了兵家大忌……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33301",
+          "name": "下辨扬威",
+          "displayName": {
+            "zhHans": "下辨扬威",
+            "zhHant": "下辨揚威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/333caoxiu-4e28d874/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/333caoxiu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxiu--333caoxiu--1dead01",
+      "resourceId": "333caoxiu/1dead01",
+      "text": "兵行险招，终有一时……",
+      "textLocalized": {
+        "zhHans": "兵行险招，终有一时……",
+        "zhHant": "兵行險招，終有一時……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/333caoxiu-4e28d874/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/333caoxiu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxiu--333caoxiu--4dead01",
+      "resourceId": "333caoxiu/4dead01",
+      "text": "石亭之败，心有不甘哪！",
+      "textLocalized": {
+        "zhHans": "石亭之败，心有不甘哪！",
+        "zhHant": "石亭之敗，心有不甘哪！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-33303",
+          "name": "志在雄英",
+          "displayName": {
+            "zhHans": "志在雄英",
+            "zhHant": "志在雄英"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/333caoxiu-4e28d874/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/333caoxiu/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

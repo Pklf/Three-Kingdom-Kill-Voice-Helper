@@ -1,3 +1,495 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0474c59a5d7f653999d9796be10f538649cc8c8518efbbca29d5f2cdf575955b
-size 13944
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tangzi",
+    "command": "tangzi",
+    "name": "唐咨",
+    "displayName": {
+      "zhHans": "唐咨",
+      "zhHant": "唐諮"
+    },
+    "names": [
+      "唐咨"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "唐咨",
+        "zhHant": "唐諮"
+      }
+    ],
+    "ids": [
+      "422"
+    ],
+    "sourceNames": [
+      "唐咨"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "唐咨",
+        "zhHant": "唐諮"
+      }
+    ],
+    "sourceIds": [
+      "422"
+    ],
+    "searchNames": [
+      "tangzi",
+      "唐咨",
+      "唐諮"
+    ],
+    "lineCount": 19,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/groups/dead.json"
+      },
+      {
+        "slug": "spell-725",
+        "name": "恂恂",
+        "displayName": {
+          "zhHans": "恂恂",
+          "zhHant": "恂恂"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tangzi/groups/spell-725.json"
+      },
+      {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/tangzi/groups/spell-861.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42203",
+        "name": "帆舟游海",
+        "displayName": {
+          "zhHans": "帆舟游海",
+          "zhHant": "帆舟遊海"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-42203.json"
+      },
+      {
+        "slug": "skin-42205",
+        "name": "栈山轶海",
+        "displayName": {
+          "zhHans": "栈山轶海",
+          "zhHant": "棧山軼海"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-42205.json"
+      },
+      {
+        "slug": "skin-42204",
+        "name": "绘图制船",
+        "displayName": {
+          "zhHans": "绘图制船",
+          "zhHant": "繪圖制船"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-42204.json"
+      },
+      {
+        "slug": "skin-42201",
+        "name": "绘图构思",
+        "displayName": {
+          "zhHans": "绘图构思",
+          "zhHant": "繪圖構思"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tangzi/skins/skin-42201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tangzi.json",
+      "groups": "api/v1/tts/characters/tangzi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tangzi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-861",
+    "name": "兴棹",
+    "displayName": {
+      "zhHans": "兴棹",
+      "zhHant": "興棹"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/tangzi/groups/spell-861.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "tangzi--422tangzi--1skill1_1",
+      "resourceId": "422tangzi/1skill1_1",
+      "text": "拿些上好的木料来！",
+      "textLocalized": {
+        "zhHans": "拿些上好的木料来！",
+        "zhHant": "拿些上好的木料來！"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--1skill1_2",
+      "resourceId": "422tangzi/1skill1_2",
+      "text": "精挑细选，方能成百年之计。",
+      "textLocalized": {
+        "zhHans": "精挑细选，方能成百年之计。",
+        "zhHant": "精挑細選，方能成百年之計。"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--4skill1_1",
+      "resourceId": "422tangzi/4skill1_1",
+      "text": "曳棹出浅滩，借风当显威。",
+      "textLocalized": {
+        "zhHans": "曳棹出浅滩，借风当显威。",
+        "zhHant": "曳棹出淺灘，借風當顯威。"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42203",
+          "name": "帆舟游海",
+          "displayName": {
+            "zhHans": "帆舟游海",
+            "zhHant": "帆舟遊海"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--4skill1_2",
+      "resourceId": "422tangzi/4skill1_2",
+      "text": "御棹水中行，前路皆助力！",
+      "textLocalized": {
+        "zhHans": "御棹水中行，前路皆助力！",
+        "zhHant": "御棹水中行，前路皆助力！"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42203",
+          "name": "帆舟游海",
+          "displayName": {
+            "zhHans": "帆舟游海",
+            "zhHant": "帆舟遊海"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--6skill1_1",
+      "resourceId": "422tangzi/6skill1_1",
+      "text": "千夫动船棹，飞舟如猛虎，此城定破。",
+      "textLocalized": {
+        "zhHans": "千夫动船棹，飞舟如猛虎，此城定破。",
+        "zhHant": "千夫動船棹，飛舟如猛虎，此城定破。"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42205",
+          "name": "栈山轶海",
+          "displayName": {
+            "zhHans": "栈山轶海",
+            "zhHant": "棧山軼海"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--6skill1_2",
+      "resourceId": "422tangzi/6skill1_2",
+      "text": "兴棹击浪，巨涛摧艨艟，此役当固国。",
+      "textLocalized": {
+        "zhHans": "兴棹击浪，巨涛摧艨艟，此役当固国。",
+        "zhHant": "興棹擊浪，巨濤摧艨艟，此役當固國。"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42205",
+          "name": "栈山轶海",
+          "displayName": {
+            "zhHans": "栈山轶海",
+            "zhHant": "棧山軼海"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--5skill1_1",
+      "resourceId": "422tangzi/5skill1_1",
+      "text": "宫棹精贵，需大兴土木为之。",
+      "textLocalized": {
+        "zhHans": "宫棹精贵，需大兴土木为之。",
+        "zhHant": "宮棹精貴，需大興土木爲之。"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42204",
+          "name": "绘图制船",
+          "displayName": {
+            "zhHans": "绘图制船",
+            "zhHant": "繪圖制船"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--5skill1_2",
+      "resourceId": "422tangzi/5skill1_2",
+      "text": "扬帆鸣棹，军势大开。",
+      "textLocalized": {
+        "zhHans": "扬帆鸣棹，军势大开。",
+        "zhHant": "揚帆鳴棹，軍勢大開。"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42204",
+          "name": "绘图制船",
+          "displayName": {
+            "zhHans": "绘图制船",
+            "zhHant": "繪圖制船"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--3skill1_1",
+      "resourceId": "422tangzi/3skill1_1",
+      "text": "羽棹游龙，速行速战。",
+      "textLocalized": {
+        "zhHans": "羽棹游龙，速行速战。",
+        "zhHant": "羽棹游龍，速行速戰。"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42201",
+          "name": "绘图构思",
+          "displayName": {
+            "zhHans": "绘图构思",
+            "zhHant": "繪圖構思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tangzi--422tangzi--3skill1_2",
+      "resourceId": "422tangzi/3skill1_2",
+      "text": "棹声阵阵，士气大增。",
+      "textLocalized": {
+        "zhHans": "棹声阵阵，士气大增。",
+        "zhHant": "棹聲陣陣，士氣大增。"
+      },
+      "group": {
+        "slug": "spell-861",
+        "name": "兴棹",
+        "displayName": {
+          "zhHans": "兴棹",
+          "zhHant": "興棹"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42201",
+          "name": "绘图构思",
+          "displayName": {
+            "zhHans": "绘图构思",
+            "zhHant": "繪圖構思"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/422tangzi-67e30278/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/422tangzi/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

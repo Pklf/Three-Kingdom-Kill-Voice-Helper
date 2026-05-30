@@ -1,3 +1,572 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6a7286e7a7f81d1e4cac3ac76b54d9051a8f5643fc20c3d4405fd5571397ade8
-size 16666
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "ganfuren",
+    "command": "ganfuren",
+    "name": "甘夫人",
+    "displayName": {
+      "zhHans": "甘夫人",
+      "zhHant": "甘夫人"
+    },
+    "names": [
+      "甘夫人"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "甘夫人",
+        "zhHant": "甘夫人"
+      }
+    ],
+    "ids": [
+      "2029"
+    ],
+    "sourceNames": [
+      "甘夫人"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "甘夫人",
+        "zhHant": "甘夫人"
+      }
+    ],
+    "sourceIds": [
+      "2029"
+    ],
+    "searchNames": [
+      "ganfuren",
+      "甘夫人"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganfuren/groups/dead.json"
+      },
+      {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/ganfuren/groups/spell-2101.json"
+      },
+      {
+        "slug": "spell-2102",
+        "name": "神智",
+        "displayName": {
+          "zhHans": "神智",
+          "zhHant": "神智"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/ganfuren/groups/spell-2102.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-202907",
+        "name": "倚栏观霞",
+        "displayName": {
+          "zhHans": "倚栏观霞",
+          "zhHant": "倚欄觀霞"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganfuren/skins/skin-202907.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganfuren/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-202905",
+        "name": "夏荷慈心",
+        "displayName": {
+          "zhHans": "夏荷慈心",
+          "zhHant": "夏荷慈心"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganfuren/skins/skin-202905.json"
+      },
+      {
+        "slug": "skin-202904",
+        "name": "寸草丹心",
+        "displayName": {
+          "zhHans": "寸草丹心",
+          "zhHant": "寸草丹心"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganfuren/skins/skin-202904.json"
+      },
+      {
+        "slug": "skin-202904-202906-202907",
+        "name": "寸草丹心,缝思盼子,倚栏观霞",
+        "displayName": {
+          "zhHans": "寸草丹心,缝思盼子,倚栏观霞",
+          "zhHant": "寸草丹心,縫思盼子,倚欄觀霞"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganfuren/skins/skin-202904-202906-202907.json"
+      },
+      {
+        "slug": "skin-202908",
+        "name": "绮梦春晖",
+        "displayName": {
+          "zhHans": "绮梦春晖",
+          "zhHant": "綺夢春暉"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganfuren/skins/skin-202908.json"
+      },
+      {
+        "slug": "skin-202906",
+        "name": "缝思盼子",
+        "displayName": {
+          "zhHans": "缝思盼子",
+          "zhHant": "縫思盼子"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganfuren/skins/skin-202906.json"
+      },
+      {
+        "slug": "skin-202903",
+        "name": "舐犊情深",
+        "displayName": {
+          "zhHans": "舐犊情深",
+          "zhHant": "舐犢情深"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/ganfuren/skins/skin-202903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/ganfuren.json",
+      "groups": "api/v1/tts/characters/ganfuren/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/ganfuren/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-2101",
+    "name": "淑慎",
+    "displayName": {
+      "zhHans": "淑慎",
+      "zhHant": "淑慎"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/ganfuren/groups/spell-2101.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "ganfuren--2029ganfuren--1skill1_1",
+      "resourceId": "2029ganfuren/1skill1_1",
+      "text": "妾身无恙，相公请安心征战。",
+      "textLocalized": {
+        "zhHans": "妾身无恙，相公请安心征战。",
+        "zhHant": "妾身無恙，相公請安心征戰。"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganfuren--2029ganfuren--1skill1_2",
+      "resourceId": "2029ganfuren/1skill1_2",
+      "text": "船到桥头自然直。",
+      "textLocalized": {
+        "zhHans": "船到桥头自然直。",
+        "zhHant": "船到橋頭自然直。"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganfuren--2029ganfuren--5skill1_1",
+      "resourceId": "2029ganfuren/5skill1_1",
+      "text": "不求有功于社稷，但求无过于夫君。",
+      "textLocalized": {
+        "zhHans": "不求有功于社稷，但求无过于夫君。",
+        "zhHant": "不求有功於社稷，但求無過於夫君。"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-202905",
+          "name": "夏荷慈心",
+          "displayName": {
+            "zhHans": "夏荷慈心",
+            "zhHant": "夏荷慈心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganfuren--2029ganfuren--5skill1_2",
+      "resourceId": "2029ganfuren/5skill1_2",
+      "text": "不拖累夫君，就是我最大的成就。",
+      "textLocalized": {
+        "zhHans": "不拖累夫君，就是我最大的成就。",
+        "zhHant": "不拖累夫君，就是我最大的成就。"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-202905",
+          "name": "夏荷慈心",
+          "displayName": {
+            "zhHans": "夏荷慈心",
+            "zhHant": "夏荷慈心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganfuren--2029ganfuren--4skill1_1",
+      "resourceId": "2029ganfuren/4skill1_1",
+      "text": "生逢乱世，岂能不慎？",
+      "textLocalized": {
+        "zhHans": "生逢乱世，岂能不慎？",
+        "zhHant": "生逢亂世，豈能不慎？"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-202907",
+          "name": "倚栏观霞",
+          "displayName": {
+            "zhHans": "倚栏观霞",
+            "zhHant": "倚欄觀霞"
+          }
+        },
+        {
+          "slug": "skin-202904",
+          "name": "寸草丹心",
+          "displayName": {
+            "zhHans": "寸草丹心",
+            "zhHant": "寸草丹心"
+          }
+        },
+        {
+          "slug": "skin-202906",
+          "name": "缝思盼子",
+          "displayName": {
+            "zhHans": "缝思盼子",
+            "zhHant": "縫思盼子"
+          }
+        },
+        {
+          "slug": "skin-202904-202906-202907",
+          "name": "寸草丹心,缝思盼子,倚栏观霞",
+          "displayName": {
+            "zhHans": "寸草丹心,缝思盼子,倚栏观霞",
+            "zhHant": "寸草丹心,縫思盼子,倚欄觀霞"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganfuren--2029ganfuren--4skill1_2",
+      "resourceId": "2029ganfuren/4skill1_2",
+      "text": "小心方能驶得万年船。",
+      "textLocalized": {
+        "zhHans": "小心方能驶得万年船。",
+        "zhHant": "小心方能駛得萬年船。"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-202907",
+          "name": "倚栏观霞",
+          "displayName": {
+            "zhHans": "倚栏观霞",
+            "zhHant": "倚欄觀霞"
+          }
+        },
+        {
+          "slug": "skin-202904",
+          "name": "寸草丹心",
+          "displayName": {
+            "zhHans": "寸草丹心",
+            "zhHant": "寸草丹心"
+          }
+        },
+        {
+          "slug": "skin-202906",
+          "name": "缝思盼子",
+          "displayName": {
+            "zhHans": "缝思盼子",
+            "zhHant": "縫思盼子"
+          }
+        },
+        {
+          "slug": "skin-202904-202906-202907",
+          "name": "寸草丹心,缝思盼子,倚栏观霞",
+          "displayName": {
+            "zhHans": "寸草丹心,缝思盼子,倚栏观霞",
+            "zhHant": "寸草丹心,縫思盼子,倚欄觀霞"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganfuren--2029ganfuren--6skill1_1",
+      "resourceId": "2029ganfuren/6skill1_1",
+      "text": "夫君大业为天，妾身安危自知。",
+      "textLocalized": {
+        "zhHans": "夫君大业为天，妾身安危自知。",
+        "zhHant": "夫君大業爲天，妾身安危自知。"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-202908",
+          "name": "绮梦春晖",
+          "displayName": {
+            "zhHans": "绮梦春晖",
+            "zhHant": "綺夢春暉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganfuren--2029ganfuren--6skill1_2",
+      "resourceId": "2029ganfuren/6skill1_2",
+      "text": "将军且助夫君，妾身无须保护。",
+      "textLocalized": {
+        "zhHans": "将军且助夫君，妾身无须保护。",
+        "zhHant": "將軍且助夫君，妾身無須保護。"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-202908",
+          "name": "绮梦春晖",
+          "displayName": {
+            "zhHans": "绮梦春晖",
+            "zhHant": "綺夢春暉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganfuren--2029ganfuren--3skill1_1",
+      "resourceId": "2029ganfuren/3skill1_1",
+      "text": "夫君征战在外，妾身自当安稳后方。",
+      "textLocalized": {
+        "zhHans": "夫君征战在外，妾身自当安稳后方。",
+        "zhHant": "夫君征戰在外，妾身自當安穩後方。"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-202903",
+          "name": "舐犊情深",
+          "displayName": {
+            "zhHans": "舐犊情深",
+            "zhHant": "舐犢情深"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ganfuren--2029ganfuren--3skill1_2",
+      "resourceId": "2029ganfuren/3skill1_2",
+      "text": "女子，能为心爱之人付出一切。",
+      "textLocalized": {
+        "zhHans": "女子，能为心爱之人付出一切。",
+        "zhHant": "女子，能爲心愛之人付出一切。"
+      },
+      "group": {
+        "slug": "spell-2101",
+        "name": "淑慎",
+        "displayName": {
+          "zhHans": "淑慎",
+          "zhHant": "淑慎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-202903",
+          "name": "舐犊情深",
+          "displayName": {
+            "zhHans": "舐犊情深",
+            "zhHant": "舐犢情深"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2029ganfuren-2cc7a604/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2029ganfuren/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

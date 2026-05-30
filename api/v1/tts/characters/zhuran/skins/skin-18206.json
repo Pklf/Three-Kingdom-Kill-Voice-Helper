@@ -1,3 +1,239 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02d032cd7eb2adea06312fb0300af01502213455f7dd5d8b281ce181677e7515
-size 6393
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhuran",
+    "command": "zhuran",
+    "name": "朱然",
+    "displayName": {
+      "zhHans": "朱然",
+      "zhHant": "朱然"
+    },
+    "names": [
+      "朱然"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "朱然",
+        "zhHant": "朱然"
+      }
+    ],
+    "ids": [
+      "182"
+    ],
+    "sourceNames": [
+      "朱然"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "朱然",
+        "zhHant": "朱然"
+      }
+    ],
+    "sourceIds": [
+      "182"
+    ],
+    "searchNames": [
+      "zhuran",
+      "朱然"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhuran/groups/dead.json"
+      },
+      {
+        "slug": "spell-454",
+        "name": "胆守",
+        "displayName": {
+          "zhHans": "胆守",
+          "zhHant": "膽守"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhuran/groups/spell-454.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-18206",
+        "name": "惊涛万军",
+        "displayName": {
+          "zhHans": "惊涛万军",
+          "zhHant": "驚濤萬軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-18206.json"
+      },
+      {
+        "slug": "skin-18203",
+        "name": "胆守一方",
+        "displayName": {
+          "zhHans": "胆守一方",
+          "zhHant": "膽守一方"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-18203.json"
+      },
+      {
+        "slug": "skin-18203-18204",
+        "name": "胆守一方,阴雨观战",
+        "displayName": {
+          "zhHans": "胆守一方,阴雨观战",
+          "zhHant": "膽守一方,陰雨觀戰"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-18203-18204.json"
+      },
+      {
+        "slug": "skin-18204",
+        "name": "阴雨观战",
+        "displayName": {
+          "zhHans": "阴雨观战",
+          "zhHant": "陰雨觀戰"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhuran/skins/skin-18204.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhuran.json",
+      "groups": "api/v1/tts/characters/zhuran/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhuran/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-18206",
+    "name": "惊涛万军",
+    "displayName": {
+      "zhHans": "惊涛万军",
+      "zhHant": "驚濤萬軍"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/zhuran/skins/skin-18206.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "zhuran--182zhuran--5dead01",
+      "resourceId": "182zhuran/5dead01",
+      "text": "赤胆已酬，足奉慈亲。",
+      "textLocalized": {
+        "zhHans": "赤胆已酬，足奉慈亲。",
+        "zhHant": "赤膽已酬，足奉慈親。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18206",
+          "name": "惊涛万军",
+          "displayName": {
+            "zhHans": "惊涛万军",
+            "zhHant": "驚濤萬軍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/182zhuran-085af157/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/182zhuran/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuran--182zhuran--5skill1_1",
+      "resourceId": "182zhuran/5skill1_1",
+      "text": "忠肝义胆，可保天下！",
+      "textLocalized": {
+        "zhHans": "忠肝义胆，可保天下！",
+        "zhHant": "忠肝義膽，可保天下！"
+      },
+      "group": {
+        "slug": "spell-454",
+        "name": "胆守",
+        "displayName": {
+          "zhHans": "胆守",
+          "zhHant": "膽守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18206",
+          "name": "惊涛万军",
+          "displayName": {
+            "zhHans": "惊涛万军",
+            "zhHant": "驚濤萬軍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/182zhuran-085af157/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/182zhuran/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhuran--182zhuran--5skill1_2",
+      "resourceId": "182zhuran/5skill1_2",
+      "text": "但凭胆守，万夫莫能敌之！",
+      "textLocalized": {
+        "zhHans": "但凭胆守，万夫莫能敌之！",
+        "zhHant": "但憑膽守，萬夫莫能敵之！"
+      },
+      "group": {
+        "slug": "spell-454",
+        "name": "胆守",
+        "displayName": {
+          "zhHans": "胆守",
+          "zhHant": "膽守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-18206",
+          "name": "惊涛万军",
+          "displayName": {
+            "zhHans": "惊涛万军",
+            "zhHant": "驚濤萬軍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/182zhuran-085af157/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/182zhuran/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41ae38e3ba785c8805bb60050f1c865761f1b750097c5f929ce25d36f569649f
-size 8445
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangji",
+    "command": "zhangji",
+    "name": "张济",
+    "displayName": {
+      "zhHans": "张济",
+      "zhHant": "張濟"
+    },
+    "names": [
+      "张济"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张济",
+        "zhHant": "張濟"
+      }
+    ],
+    "ids": [
+      "419"
+    ],
+    "sourceNames": [
+      "张济"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张济",
+        "zhHant": "張濟"
+      }
+    ],
+    "sourceIds": [
+      "419"
+    ],
+    "searchNames": [
+      "zhangji",
+      "张济",
+      "張濟"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangji/groups/dead.json"
+      },
+      {
+        "slug": "spell-856",
+        "name": "掠命",
+        "displayName": {
+          "zhHans": "掠命",
+          "zhHant": "掠命"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangji/groups/spell-856.json"
+      },
+      {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangji/groups/spell-857.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41902",
+        "name": "屯驻弘农",
+        "displayName": {
+          "zhHans": "屯驻弘农",
+          "zhHant": "屯駐弘農"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41902.json"
+      },
+      {
+        "slug": "skin-41903",
+        "name": "悍威狠决",
+        "displayName": {
+          "zhHans": "悍威狠决",
+          "zhHant": "悍威狠決"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41903.json"
+      },
+      {
+        "slug": "skin-41901",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangji.json",
+      "groups": "api/v1/tts/characters/zhangji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangji/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-41902",
+    "name": "屯驻弘农",
+    "displayName": {
+      "zhHans": "屯驻弘农",
+      "zhHant": "屯駐弘農"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41902.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhangji--419zhangji--4dead01",
+      "resourceId": "419zhangji/4dead01",
+      "text": "无端乱箭，竟能伤我性命。",
+      "textLocalized": {
+        "zhHans": "无端乱箭，竟能伤我性命。",
+        "zhHant": "無端亂箭，竟能傷我性命。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41902",
+          "name": "屯驻弘农",
+          "displayName": {
+            "zhHans": "屯驻弘农",
+            "zhHant": "屯駐弘農"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--4skill1_1",
+      "resourceId": "419zhangji/4skill1_1",
+      "text": "你们的性命都在我手中！",
+      "textLocalized": {
+        "zhHans": "你们的性命都在我手中！",
+        "zhHant": "你們的性命都在我手中！"
+      },
+      "group": {
+        "slug": "spell-856",
+        "name": "掠命",
+        "displayName": {
+          "zhHans": "掠命",
+          "zhHant": "掠命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41902",
+          "name": "屯驻弘农",
+          "displayName": {
+            "zhHans": "屯驻弘农",
+            "zhHant": "屯駐弘農"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--4skill1_2",
+      "resourceId": "419zhangji/4skill1_2",
+      "text": "掠命夺城，快人一步！",
+      "textLocalized": {
+        "zhHans": "掠命夺城，快人一步！",
+        "zhHant": "掠命奪城，快人一步！"
+      },
+      "group": {
+        "slug": "spell-856",
+        "name": "掠命",
+        "displayName": {
+          "zhHans": "掠命",
+          "zhHant": "掠命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41902",
+          "name": "屯驻弘农",
+          "displayName": {
+            "zhHans": "屯驻弘农",
+            "zhHant": "屯駐弘農"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--4skill2_1",
+      "resourceId": "419zhangji/4skill2_1",
+      "text": "赏兵耗资，需屯军此处。",
+      "textLocalized": {
+        "zhHans": "赏兵耗资，需屯军此处。",
+        "zhHant": "賞兵耗資，需屯軍此處。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41902",
+          "name": "屯驻弘农",
+          "displayName": {
+            "zhHans": "屯驻弘农",
+            "zhHant": "屯駐弘農"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--4skill2_2",
+      "resourceId": "419zhangji/4skill2_2",
+      "text": "积粮蓄锐，完备而兵。",
+      "textLocalized": {
+        "zhHans": "积粮蓄锐，完备而兵。",
+        "zhHant": "積糧蓄銳，完備而兵。"
+      },
+      "group": {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41902",
+          "name": "屯驻弘农",
+          "displayName": {
+            "zhHans": "屯驻弘农",
+            "zhHant": "屯駐弘農"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

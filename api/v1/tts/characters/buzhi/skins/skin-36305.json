@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd797b008d6bb2f39e3de682e12922830c70003b48f96d4060c0fa1b96bedf64
-size 8349
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "buzhi",
+    "command": "buzhi",
+    "name": "步骘",
+    "displayName": {
+      "zhHans": "步骘",
+      "zhHant": "步騭"
+    },
+    "names": [
+      "步骘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "步骘",
+        "zhHant": "步騭"
+      }
+    ],
+    "ids": [
+      "363"
+    ],
+    "sourceNames": [
+      "步骘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "步骘",
+        "zhHant": "步騭"
+      }
+    ],
+    "sourceIds": [
+      "363"
+    ],
+    "searchNames": [
+      "buzhi",
+      "步骘",
+      "步騭"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/buzhi/groups/dead.json"
+      },
+      {
+        "slug": "spell-288",
+        "name": "弘德",
+        "displayName": {
+          "zhHans": "弘德",
+          "zhHant": "弘德"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/buzhi/groups/spell-288.json"
+      },
+      {
+        "slug": "spell-289",
+        "name": "定叛",
+        "displayName": {
+          "zhHans": "定叛",
+          "zhHant": "定叛"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/buzhi/groups/spell-289.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-36305",
+        "name": "交州伐消",
+        "displayName": {
+          "zhHans": "交州伐消",
+          "zhHant": "交州伐消"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/buzhi/skins/skin-36305.json"
+      },
+      {
+        "slug": "skin-36302",
+        "name": "博研道艺",
+        "displayName": {
+          "zhHans": "博研道艺",
+          "zhHant": "博研道藝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/buzhi/skins/skin-36302.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/buzhi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-36301",
+        "name": "游历吴中",
+        "displayName": {
+          "zhHans": "游历吴中",
+          "zhHant": "遊歷吳中"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/buzhi/skins/skin-36301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/buzhi.json",
+      "groups": "api/v1/tts/characters/buzhi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/buzhi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-36305",
+    "name": "交州伐消",
+    "displayName": {
+      "zhHans": "交州伐消",
+      "zhHant": "交州伐消"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/buzhi/skins/skin-36305.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "buzhi--363buzhi--5dead01",
+      "resourceId": "363buzhi/5dead01",
+      "text": "叛贼势大，怕是挡不住了……",
+      "textLocalized": {
+        "zhHans": "叛贼势大，怕是挡不住了……",
+        "zhHant": "叛賊勢大，怕是擋不住了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36305",
+          "name": "交州伐消",
+          "displayName": {
+            "zhHans": "交州伐消",
+            "zhHant": "交州伐消"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/363buzhi-afe84c60/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/363buzhi/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "buzhi--363buzhi--5skill1_1",
+      "resourceId": "363buzhi/5skill1_1",
+      "text": "当以我东吴之德，广播四海。",
+      "textLocalized": {
+        "zhHans": "当以我东吴之德，广播四海。",
+        "zhHant": "當以我東吳之德，廣播四海。"
+      },
+      "group": {
+        "slug": "spell-288",
+        "name": "弘德",
+        "displayName": {
+          "zhHans": "弘德",
+          "zhHant": "弘德"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36305",
+          "name": "交州伐消",
+          "displayName": {
+            "zhHans": "交州伐消",
+            "zhHant": "交州伐消"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/363buzhi-afe84c60/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/363buzhi/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "buzhi--363buzhi--5skill1_2",
+      "resourceId": "363buzhi/5skill1_2",
+      "text": "先与将军结个善缘。",
+      "textLocalized": {
+        "zhHans": "先与将军结个善缘。",
+        "zhHant": "先與將軍結個善緣。"
+      },
+      "group": {
+        "slug": "spell-288",
+        "name": "弘德",
+        "displayName": {
+          "zhHans": "弘德",
+          "zhHant": "弘德"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36305",
+          "name": "交州伐消",
+          "displayName": {
+            "zhHans": "交州伐消",
+            "zhHant": "交州伐消"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/363buzhi-afe84c60/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/363buzhi/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "buzhi--363buzhi--5skill2_1",
+      "resourceId": "363buzhi/5skill2_1",
+      "text": "你自己选一条路吧。",
+      "textLocalized": {
+        "zhHans": "你自己选一条路吧。",
+        "zhHant": "你自己選一條路吧。"
+      },
+      "group": {
+        "slug": "spell-289",
+        "name": "定叛",
+        "displayName": {
+          "zhHans": "定叛",
+          "zhHant": "定叛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36305",
+          "name": "交州伐消",
+          "displayName": {
+            "zhHans": "交州伐消",
+            "zhHant": "交州伐消"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/363buzhi-afe84c60/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/363buzhi/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "buzhi--363buzhi--5skill2_2",
+      "resourceId": "363buzhi/5skill2_2",
+      "text": "攘外，必先安内。",
+      "textLocalized": {
+        "zhHans": "攘外，必先安内。",
+        "zhHant": "攘外，必先安內。"
+      },
+      "group": {
+        "slug": "spell-289",
+        "name": "定叛",
+        "displayName": {
+          "zhHans": "定叛",
+          "zhHant": "定叛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36305",
+          "name": "交州伐消",
+          "displayName": {
+            "zhHans": "交州伐消",
+            "zhHant": "交州伐消"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/363buzhi-afe84c60/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/363buzhi/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

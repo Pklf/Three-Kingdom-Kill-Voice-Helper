@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4a78b2a953559bf4a65591fbca216488822a4df0539de2ad71f3cab399d42d27
-size 8411
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jianggan",
+    "command": "jianggan",
+    "name": "蒋干",
+    "displayName": {
+      "zhHans": "蒋干",
+      "zhHant": "蔣幹"
+    },
+    "names": [
+      "蒋干"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蒋干",
+        "zhHant": "蔣幹"
+      }
+    ],
+    "ids": [
+      "467"
+    ],
+    "sourceNames": [
+      "蒋干"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蒋干",
+        "zhHant": "蔣幹"
+      }
+    ],
+    "sourceIds": [
+      "467"
+    ],
+    "searchNames": [
+      "jianggan",
+      "蒋干",
+      "蔣幹"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jianggan/groups/dead.json"
+      },
+      {
+        "slug": "spell-951",
+        "name": "伪诚",
+        "displayName": {
+          "zhHans": "伪诚",
+          "zhHant": "僞誠"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jianggan/groups/spell-951.json"
+      },
+      {
+        "slug": "spell-952",
+        "name": "盗书",
+        "displayName": {
+          "zhHans": "盗书",
+          "zhHant": "盜書"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jianggan/groups/spell-952.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-46702",
+        "name": "千帆征战",
+        "displayName": {
+          "zhHans": "千帆征战",
+          "zhHant": "千帆征戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jianggan/skins/skin-46702.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jianggan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46701",
+        "name": "苦思冥想",
+        "displayName": {
+          "zhHans": "苦思冥想",
+          "zhHant": "苦思冥想"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jianggan/skins/skin-46701.json"
+      },
+      {
+        "slug": "skin-46703",
+        "name": "说营青鸟",
+        "displayName": {
+          "zhHans": "说营青鸟",
+          "zhHant": "說營青鳥"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jianggan/skins/skin-46703.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jianggan.json",
+      "groups": "api/v1/tts/characters/jianggan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jianggan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jianggan/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jianggan--467jianggan--1dead01",
+      "resourceId": "467jianggan/1dead01",
+      "text": "丞相，再给我一次机会啊！",
+      "textLocalized": {
+        "zhHans": "丞相，再给我一次机会啊！",
+        "zhHant": "丞相，再給我一次機會啊！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jianggan--467jianggan--1skill1_1",
+      "resourceId": "467jianggan/1skill1_1",
+      "text": "略施谋略，敌军便信以为真。",
+      "textLocalized": {
+        "zhHans": "略施谋略，敌军便信以为真。",
+        "zhHant": "略施謀略，敵軍便信以爲真。"
+      },
+      "group": {
+        "slug": "spell-951",
+        "name": "伪诚",
+        "displayName": {
+          "zhHans": "伪诚",
+          "zhHant": "僞誠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jianggan--467jianggan--1skill1_2",
+      "resourceId": "467jianggan/1skill1_2",
+      "text": "吾只观雅规，而非说客",
+      "textLocalized": {
+        "zhHans": "吾只观雅规，而非说客",
+        "zhHant": "吾只觀雅規，而非說客"
+      },
+      "group": {
+        "slug": "spell-951",
+        "name": "伪诚",
+        "displayName": {
+          "zhHans": "伪诚",
+          "zhHant": "僞誠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jianggan--467jianggan--1skill2_1",
+      "resourceId": "467jianggan/1skill2_1",
+      "text": "得此文书，丞相定可高枕无忧！",
+      "textLocalized": {
+        "zhHans": "得此文书，丞相定可高枕无忧！",
+        "zhHant": "得此文書，丞相定可高枕無憂！"
+      },
+      "group": {
+        "slug": "spell-952",
+        "name": "盗书",
+        "displayName": {
+          "zhHans": "盗书",
+          "zhHant": "盜書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jianggan--467jianggan--1skill2_2",
+      "resourceId": "467jianggan/1skill2_2",
+      "text": "让我看看，这是什么机密。",
+      "textLocalized": {
+        "zhHans": "让我看看，这是什么机密。",
+        "zhHant": "讓我看看，這是什麼機密。"
+      },
+      "group": {
+        "slug": "spell-952",
+        "name": "盗书",
+        "displayName": {
+          "zhHans": "盗书",
+          "zhHant": "盜書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

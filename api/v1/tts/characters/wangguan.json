@@ -1,3 +1,455 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ebe115fb530d372630ea97ae111c0b84a81febd4499c8f74ca25518fa49e088d
-size 13032
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "wangguan",
+    "command": "wangguan",
+    "name": "王瓘",
+    "displayName": {
+      "zhHans": "王瓘",
+      "zhHant": "王瓘"
+    },
+    "names": [
+      "王瓘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王瓘",
+        "zhHant": "王瓘"
+      }
+    ],
+    "ids": [
+      "553"
+    ],
+    "sourceNames": [
+      "王瓘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王瓘",
+        "zhHant": "王瓘"
+      }
+    ],
+    "sourceIds": [
+      "553"
+    ],
+    "searchNames": [
+      "wangguan",
+      "王瓘"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/wangguan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangguan/groups/spell-3274.json"
+      },
+      {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wangguan/groups/spell-3275.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangguan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-55301",
+        "name": "遗恨江河",
+        "displayName": {
+          "zhHans": "遗恨江河",
+          "zhHant": "遺恨江河"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wangguan/skins/skin-55301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangguan.json",
+      "groups": "api/v1/tts/characters/wangguan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangguan/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "wangguan--553wangguan--1dead01",
+      "resourceId": "553wangguan/1dead01",
+      "text": "我本魏将，将军救我！",
+      "textLocalized": {
+        "zhHans": "我本魏将，将军救我！",
+        "zhHant": "我本魏將，將軍救我！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangguan--553wangguan--2dead01",
+      "resourceId": "553wangguan/2dead01",
+      "text": "大泽涛涛，可载我尸归还。",
+      "textLocalized": {
+        "zhHans": "大泽涛涛，可载我尸归还。",
+        "zhHant": "大澤濤濤，可載我屍歸還。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55301",
+          "name": "遗恨江河",
+          "displayName": {
+            "zhHans": "遗恨江河",
+            "zhHant": "遺恨江河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangguan--553wangguan--1skill1_1",
+      "resourceId": "553wangguan/1skill1_1",
+      "text": "未时引火，必大败蜀军。",
+      "textLocalized": {
+        "zhHans": "未时引火，必大败蜀军。",
+        "zhHant": "未時引火，必大敗蜀軍。"
+      },
+      "group": {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangguan--553wangguan--1skill1_2",
+      "resourceId": "553wangguan/1skill1_2",
+      "text": "我等诈降，必欺姜维于不意。",
+      "textLocalized": {
+        "zhHans": "我等诈降，必欺姜维于不意。",
+        "zhHant": "我等詐降，必欺姜維於不意。"
+      },
+      "group": {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangguan--553wangguan--2skill1_1",
+      "resourceId": "553wangguan/2skill1_1",
+      "text": "表为粮草、内置火烛，火起相应，必败蜀军。",
+      "textLocalized": {
+        "zhHans": "表为粮草、内置火烛，火起相应，必败蜀军。",
+        "zhHant": "表爲糧草、內置火燭，火起相應，必敗蜀軍。"
+      },
+      "group": {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55301",
+          "name": "遗恨江河",
+          "displayName": {
+            "zhHans": "遗恨江河",
+            "zhHant": "遺恨江河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangguan--553wangguan--2skill1_2",
+      "resourceId": "553wangguan/2skill1_2",
+      "text": "昔年黄盖诈降魏武，今我诈降以赚姜维。",
+      "textLocalized": {
+        "zhHans": "昔年黄盖诈降魏武，今我诈降以赚姜维。",
+        "zhHant": "昔年黃蓋詐降魏武，今我詐降以賺姜維。"
+      },
+      "group": {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55301",
+          "name": "遗恨江河",
+          "displayName": {
+            "zhHans": "遗恨江河",
+            "zhHant": "遺恨江河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangguan--553wangguan--1skill2_1",
+      "resourceId": "553wangguan/1skill2_1",
+      "text": "吾计不成，吾命何归？",
+      "textLocalized": {
+        "zhHans": "吾计不成，吾命何归？",
+        "zhHant": "吾計不成，吾命何歸？"
+      },
+      "group": {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangguan--553wangguan--1skill2_2",
+      "resourceId": "553wangguan/1skill2_2",
+      "text": "烟尘四起，无处寻路。",
+      "textLocalized": {
+        "zhHans": "烟尘四起，无处寻路。",
+        "zhHant": "煙塵四起，無處尋路。"
+      },
+      "group": {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangguan--553wangguan--2skill2_1",
+      "resourceId": "553wangguan/2skill2_1",
+      "text": "大河绝道，归魏无路，不知魂归何处。",
+      "textLocalized": {
+        "zhHans": "大河绝道，归魏无路，不知魂归何处。",
+        "zhHant": "大河絕道，歸魏無路，不知魂歸何處。"
+      },
+      "group": {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55301",
+          "name": "遗恨江河",
+          "displayName": {
+            "zhHans": "遗恨江河",
+            "zhHant": "遺恨江河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangguan--553wangguan--2skill2_2",
+      "resourceId": "553wangguan/2skill2_2",
+      "text": "烟尘莽莽，目不识路，莫非今日命绝于此？",
+      "textLocalized": {
+        "zhHans": "烟尘莽莽，目不识路，莫非今日命绝于此？",
+        "zhHant": "煙塵莽莽，目不識路，莫非今日命絕於此？"
+      },
+      "group": {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55301",
+          "name": "遗恨江河",
+          "displayName": {
+            "zhHans": "遗恨江河",
+            "zhHant": "遺恨江河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/553wangguan-99bc5bca/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/553wangguan/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

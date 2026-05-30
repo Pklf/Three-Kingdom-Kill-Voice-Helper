@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a884ced3623faab44041096f87c4f62d69a94d4ba07861d320562859e1a6c8e4
-size 7951
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "panshu",
+    "command": "panshu",
+    "name": "潘淑",
+    "displayName": {
+      "zhHans": "潘淑",
+      "zhHant": "潘淑"
+    },
+    "names": [
+      "潘淑"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "潘淑",
+        "zhHant": "潘淑"
+      }
+    ],
+    "ids": [
+      "478"
+    ],
+    "sourceNames": [
+      "潘淑"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "潘淑",
+        "zhHant": "潘淑"
+      }
+    ],
+    "sourceIds": [
+      "478"
+    ],
+    "searchNames": [
+      "panshu",
+      "潘淑"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/panshu/groups/dead.json"
+      },
+      {
+        "slug": "spell-975",
+        "name": "威仪",
+        "displayName": {
+          "zhHans": "威仪",
+          "zhHant": "威儀"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/panshu/groups/spell-975.json"
+      },
+      {
+        "slug": "spell-976",
+        "name": "锦织",
+        "displayName": {
+          "zhHans": "锦织",
+          "zhHant": "錦織"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/panshu/groups/spell-976.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panshu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-47801",
+        "name": "江东锦绣",
+        "displayName": {
+          "zhHans": "江东锦绣",
+          "zhHant": "江東錦繡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panshu/skins/skin-47801.json"
+      },
+      {
+        "slug": "skin-47802",
+        "name": "顾盼思澜",
+        "displayName": {
+          "zhHans": "顾盼思澜",
+          "zhHant": "顧盼思瀾"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/panshu/skins/skin-47802.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/panshu.json",
+      "groups": "api/v1/tts/characters/panshu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/panshu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/panshu/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "panshu--478panshu--1dead01",
+      "resourceId": "478panshu/1dead01",
+      "text": "本为织女，幸蒙帝垂怜……",
+      "textLocalized": {
+        "zhHans": "本为织女，幸蒙帝垂怜……",
+        "zhHant": "本爲織女，幸蒙帝垂憐……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/478panshu-31de01f9/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/478panshu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panshu--478panshu--1skill1_1",
+      "resourceId": "478panshu/1skill1_1",
+      "text": "无威仪者，不可奉社稷。",
+      "textLocalized": {
+        "zhHans": "无威仪者，不可奉社稷。",
+        "zhHant": "無威儀者，不可奉社稷。"
+      },
+      "group": {
+        "slug": "spell-975",
+        "name": "威仪",
+        "displayName": {
+          "zhHans": "威仪",
+          "zhHant": "威儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/478panshu-31de01f9/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/478panshu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panshu--478panshu--1skill1_2",
+      "resourceId": "478panshu/1skill1_2",
+      "text": "有威仪者，进止雍容。",
+      "textLocalized": {
+        "zhHans": "有威仪者，进止雍容。",
+        "zhHant": "有威儀者，進止雍容。"
+      },
+      "group": {
+        "slug": "spell-975",
+        "name": "威仪",
+        "displayName": {
+          "zhHans": "威仪",
+          "zhHant": "威儀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/478panshu-31de01f9/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/478panshu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panshu--478panshu--1skill2_1",
+      "resourceId": "478panshu/1skill2_1",
+      "text": "织锦为旗，以扬威仪。",
+      "textLocalized": {
+        "zhHans": "织锦为旗，以扬威仪。",
+        "zhHant": "織錦爲旗，以揚威儀。"
+      },
+      "group": {
+        "slug": "spell-976",
+        "name": "锦织",
+        "displayName": {
+          "zhHans": "锦织",
+          "zhHant": "錦織"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/478panshu-31de01f9/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/478panshu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "panshu--478panshu--1skill2_2",
+      "resourceId": "478panshu/1skill2_2",
+      "text": "坐而织锦，立则为仪。",
+      "textLocalized": {
+        "zhHans": "坐而织锦，立则为仪。",
+        "zhHant": "坐而織錦，立則爲儀。"
+      },
+      "group": {
+        "slug": "spell-976",
+        "name": "锦织",
+        "displayName": {
+          "zhHans": "锦织",
+          "zhHant": "錦織"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/478panshu-31de01f9/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/478panshu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,361 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b02c1ddccec82d255cfbf6354c8d3e6e7179768f3e47b509e9d7efd2698b8ee7
-size 9792
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunru",
+    "command": "sunru",
+    "name": "孙茹",
+    "displayName": {
+      "zhHans": "孙茹",
+      "zhHant": "孫茹"
+    },
+    "names": [
+      "孙茹"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙茹",
+        "zhHant": "孫茹"
+      }
+    ],
+    "ids": [
+      "632"
+    ],
+    "sourceNames": [
+      "孙茹"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙茹",
+        "zhHant": "孫茹"
+      }
+    ],
+    "sourceIds": [
+      "632"
+    ],
+    "searchNames": [
+      "sunru",
+      "孙茹",
+      "孫茹"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sunru/groups/dead.json"
+      },
+      {
+        "slug": "spell-3484",
+        "name": "持室",
+        "displayName": {
+          "zhHans": "持室",
+          "zhHant": "持室"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/sunru/groups/spell-3484.json"
+      },
+      {
+        "slug": "spell-3485",
+        "name": "慰勉",
+        "displayName": {
+          "zhHans": "慰勉",
+          "zhHant": "慰勉"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/sunru/groups/spell-3485.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "63202",
+        "name": "63202",
+        "displayName": {
+          "zhHans": "63202",
+          "zhHant": "63202"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunru/skins/63202.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunru/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-63201",
+        "name": "比翼连枝",
+        "displayName": {
+          "zhHans": "比翼连枝",
+          "zhHant": "比翼連枝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunru/skins/skin-63201.json"
+      },
+      {
+        "slug": "skin-63203",
+        "name": "灯火阑珊",
+        "displayName": {
+          "zhHans": "灯火阑珊",
+          "zhHant": "燈火闌珊"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunru/skins/skin-63203.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunru.json",
+      "groups": "api/v1/tts/characters/sunru/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunru/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3484",
+    "name": "持室",
+    "displayName": {
+      "zhHans": "持室",
+      "zhHant": "持室"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/sunru/groups/spell-3484.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "sunru--632sunru--3skill1_1",
+      "resourceId": "632sunru/3skill1_1",
+      "text": "户有良梓，荫泽万福之家。",
+      "textLocalized": {
+        "zhHans": "户有良梓，荫泽万福之家。",
+        "zhHant": "戶有良梓，蔭澤萬福之家。"
+      },
+      "group": {
+        "slug": "spell-3484",
+        "name": "持室",
+        "displayName": {
+          "zhHans": "持室",
+          "zhHant": "持室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "63202",
+          "name": "63202",
+          "displayName": {
+            "zhHans": "63202",
+            "zhHant": "63202"
+          }
+        },
+        {
+          "slug": "skin-63203",
+          "name": "灯火阑珊",
+          "displayName": {
+            "zhHans": "灯火阑珊",
+            "zhHant": "燈火闌珊"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--3skill1_2",
+      "resourceId": "632sunru/3skill1_2",
+      "text": "协理内庭，当使伯言无虞。",
+      "textLocalized": {
+        "zhHans": "协理内庭，当使伯言无虞。",
+        "zhHant": "協理內庭，當使伯言無虞。"
+      },
+      "group": {
+        "slug": "spell-3484",
+        "name": "持室",
+        "displayName": {
+          "zhHans": "持室",
+          "zhHant": "持室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "63202",
+          "name": "63202",
+          "displayName": {
+            "zhHans": "63202",
+            "zhHant": "63202"
+          }
+        },
+        {
+          "slug": "skin-63203",
+          "name": "灯火阑珊",
+          "displayName": {
+            "zhHans": "灯火阑珊",
+            "zhHant": "燈火闌珊"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--1skill1_1",
+      "resourceId": "632sunru/1skill1_1",
+      "text": "柴米油盐之细，不逊兵家之谋。",
+      "textLocalized": {
+        "zhHans": "柴米油盐之细，不逊兵家之谋。",
+        "zhHant": "柴米油鹽之細，不遜兵家之謀。"
+      },
+      "group": {
+        "slug": "spell-3484",
+        "name": "持室",
+        "displayName": {
+          "zhHans": "持室",
+          "zhHant": "持室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--1skill1_2",
+      "resourceId": "632sunru/1skill1_2",
+      "text": "治大家如烹小鲜，须面面俱到。",
+      "textLocalized": {
+        "zhHans": "治大家如烹小鲜，须面面俱到。",
+        "zhHant": "治大家如烹小鮮，須面面俱到。"
+      },
+      "group": {
+        "slug": "spell-3484",
+        "name": "持室",
+        "displayName": {
+          "zhHans": "持室",
+          "zhHant": "持室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--2skill1_1",
+      "resourceId": "632sunru/2skill1_1",
+      "text": "白鸥吻交颈，夕阳共比翼。",
+      "textLocalized": {
+        "zhHans": "白鸥吻交颈，夕阳共比翼。",
+        "zhHant": "白鷗吻交頸，夕陽共比翼。"
+      },
+      "group": {
+        "slug": "spell-3484",
+        "name": "持室",
+        "displayName": {
+          "zhHans": "持室",
+          "zhHant": "持室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-63201",
+          "name": "比翼连枝",
+          "displayName": {
+            "zhHans": "比翼连枝",
+            "zhHant": "比翼連枝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunru--632sunru--2skill1_2",
+      "resourceId": "632sunru/2skill1_2",
+      "text": "鹭鸶衔青萍，筑巢连理枝。",
+      "textLocalized": {
+        "zhHans": "鹭鸶衔青萍，筑巢连理枝。",
+        "zhHant": "鷺鷥銜青萍，築巢連理枝。"
+      },
+      "group": {
+        "slug": "spell-3484",
+        "name": "持室",
+        "displayName": {
+          "zhHans": "持室",
+          "zhHant": "持室"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-63201",
+          "name": "比翼连枝",
+          "displayName": {
+            "zhHans": "比翼连枝",
+            "zhHant": "比翼連枝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/632sunru-c583bdd0/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/632sunru/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

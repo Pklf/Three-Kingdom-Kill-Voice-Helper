@@ -1,3 +1,375 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c0810124cfe4b484e1339336144a7c44d428d0126744b8426750ef66c264ca2
-size 10301
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guansuo",
+    "command": "guansuo",
+    "name": "关索",
+    "displayName": {
+      "zhHans": "关索",
+      "zhHant": "關索"
+    },
+    "names": [
+      "关索"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "关索",
+        "zhHant": "關索"
+      }
+    ],
+    "ids": [
+      "349"
+    ],
+    "sourceNames": [
+      "关索"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "关索",
+        "zhHant": "關索"
+      }
+    ],
+    "sourceIds": [
+      "349"
+    ],
+    "searchNames": [
+      "guansuo",
+      "关索",
+      "關索"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guansuo/groups/dead.json"
+      },
+      {
+        "slug": "spell-237",
+        "name": "制蛮",
+        "displayName": {
+          "zhHans": "制蛮",
+          "zhHant": "制蠻"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guansuo/groups/spell-237.json"
+      },
+      {
+        "slug": "spell-278",
+        "name": "征南",
+        "displayName": {
+          "zhHans": "征南",
+          "zhHant": "徵南"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/guansuo/groups/spell-278.json"
+      },
+      {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guansuo/groups/spell-426.json"
+      },
+      {
+        "slug": "spell-878",
+        "name": "武圣",
+        "displayName": {
+          "zhHans": "武圣",
+          "zhHant": "武聖"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guansuo/groups/spell-878.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-34902",
+        "name": "万花簇威",
+        "displayName": {
+          "zhHans": "万花簇威",
+          "zhHant": "萬花簇威"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guansuo/skins/skin-34902.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guansuo/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-34905",
+        "name": "得胜而归",
+        "displayName": {
+          "zhHans": "得胜而归",
+          "zhHant": "得勝而歸"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guansuo/skins/skin-34905.json"
+      },
+      {
+        "slug": "skin-34906",
+        "name": "承父武志",
+        "displayName": {
+          "zhHans": "承父武志",
+          "zhHant": "承父武志"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guansuo/skins/skin-34906.json"
+      },
+      {
+        "slug": "skin-34901",
+        "name": "骁勇小将",
+        "displayName": {
+          "zhHans": "骁勇小将",
+          "zhHant": "驍勇小將"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guansuo/skins/skin-34901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guansuo.json",
+      "groups": "api/v1/tts/characters/guansuo/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guansuo/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-34902",
+    "name": "万花簇威",
+    "displayName": {
+      "zhHans": "万花簇威",
+      "zhHant": "萬花簇威"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/guansuo/skins/skin-34902.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "guansuo--349guansuo--4dead01",
+      "resourceId": "349guansuo/4dead01",
+      "text": "索，至死不辱家风！",
+      "textLocalized": {
+        "zhHans": "索，至死不辱家风！",
+        "zhHant": "索，至死不辱家風！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34902",
+          "name": "万花簇威",
+          "displayName": {
+            "zhHans": "万花簇威",
+            "zhHant": "萬花簇威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/349guansuo-130d7fb7/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/349guansuo/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guansuo--349guansuo--4skill5_1",
+      "resourceId": "349guansuo/4skill5_1",
+      "text": "败军之将，自当纳贡。",
+      "textLocalized": {
+        "zhHans": "败军之将，自当纳贡。",
+        "zhHant": "敗軍之將，自當納貢。"
+      },
+      "group": {
+        "slug": "spell-237",
+        "name": "制蛮",
+        "displayName": {
+          "zhHans": "制蛮",
+          "zhHant": "制蠻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34902",
+          "name": "万花簇威",
+          "displayName": {
+            "zhHans": "万花簇威",
+            "zhHant": "萬花簇威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/349guansuo-130d7fb7/4skill5-1-91b842c7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/349guansuo/4skill5_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guansuo--349guansuo--4skill1_1",
+      "resourceId": "349guansuo/4skill1_1",
+      "text": "南征之役，愿效死力！",
+      "textLocalized": {
+        "zhHans": "南征之役，愿效死力！",
+        "zhHant": "南征之役，願效死力！"
+      },
+      "group": {
+        "slug": "spell-278",
+        "name": "征南",
+        "displayName": {
+          "zhHans": "征南",
+          "zhHant": "徵南"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34902",
+          "name": "万花簇威",
+          "displayName": {
+            "zhHans": "万花簇威",
+            "zhHant": "萬花簇威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/349guansuo-130d7fb7/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/349guansuo/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guansuo--349guansuo--4skill1_2",
+      "resourceId": "349guansuo/4skill1_2",
+      "text": "南征之险恶，我已有所准备。",
+      "textLocalized": {
+        "zhHans": "南征之险恶，我已有所准备。",
+        "zhHant": "南征之險惡，我已有所準備。"
+      },
+      "group": {
+        "slug": "spell-278",
+        "name": "征南",
+        "displayName": {
+          "zhHans": "征南",
+          "zhHant": "徵南"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34902",
+          "name": "万花簇威",
+          "displayName": {
+            "zhHans": "万花簇威",
+            "zhHant": "萬花簇威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/349guansuo-130d7fb7/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/349guansuo/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guansuo--349guansuo--4skill4_1",
+      "resourceId": "349guansuo/4skill4_1",
+      "text": "时时居先，方可快人一步。",
+      "textLocalized": {
+        "zhHans": "时时居先，方可快人一步。",
+        "zhHant": "時時居先，方可快人一步。"
+      },
+      "group": {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34902",
+          "name": "万花簇威",
+          "displayName": {
+            "zhHans": "万花簇威",
+            "zhHant": "萬花簇威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/349guansuo-130d7fb7/4skill4-1-f25e0075.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/349guansuo/4skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guansuo--349guansuo--4skill3_1",
+      "resourceId": "349guansuo/4skill3_1",
+      "text": "我敬佩你的勇气！",
+      "textLocalized": {
+        "zhHans": "我敬佩你的勇气！",
+        "zhHant": "我敬佩你的勇氣！"
+      },
+      "group": {
+        "slug": "spell-878",
+        "name": "武圣",
+        "displayName": {
+          "zhHans": "武圣",
+          "zhHant": "武聖"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-34902",
+          "name": "万花簇威",
+          "displayName": {
+            "zhHans": "万花簇威",
+            "zhHant": "萬花簇威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/349guansuo-130d7fb7/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/349guansuo/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

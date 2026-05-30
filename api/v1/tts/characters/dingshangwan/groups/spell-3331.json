@@ -1,3 +1,334 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ab08ffd1b151f1980e2f23cffc695486115ed37bd19c57d2e04694c90957c52
-size 9632
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dingshangwan",
+    "command": "dingshangwan",
+    "name": "丁尚涴",
+    "displayName": {
+      "zhHans": "丁尚涴",
+      "zhHant": "丁尚涴"
+    },
+    "names": [
+      "丁尚涴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "丁尚涴",
+        "zhHant": "丁尚涴"
+      }
+    ],
+    "ids": [
+      "569"
+    ],
+    "sourceNames": [
+      "丁尚涴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "丁尚涴",
+        "zhHant": "丁尚涴"
+      }
+    ],
+    "sourceIds": [
+      "569"
+    ],
+    "searchNames": [
+      "dingshangwan",
+      "丁尚涴"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/dingshangwan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3330",
+        "name": "抚悼",
+        "displayName": {
+          "zhHans": "抚悼",
+          "zhHant": "撫悼"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dingshangwan/groups/spell-3330.json"
+      },
+      {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dingshangwan/groups/spell-3331.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dingshangwan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-56901",
+        "name": "夜阑扰梦",
+        "displayName": {
+          "zhHans": "夜阑扰梦",
+          "zhHant": "夜闌擾夢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dingshangwan/skins/skin-56901.json"
+      },
+      {
+        "slug": "skin-56902",
+        "name": "霜刃蚀骨",
+        "displayName": {
+          "zhHans": "霜刃蚀骨",
+          "zhHant": "霜刃蝕骨"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dingshangwan/skins/skin-56902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dingshangwan.json",
+      "groups": "api/v1/tts/characters/dingshangwan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dingshangwan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3331",
+    "name": "讽言",
+    "displayName": {
+      "zhHans": "讽言",
+      "zhHant": "諷言"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/dingshangwan/groups/spell-3331.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "dingshangwan--569dingshangwan--1skill2_1",
+      "resourceId": "569dingshangwan/1skill2_1",
+      "text": "何不以曹公之命，换我儿之命乎。",
+      "textLocalized": {
+        "zhHans": "何不以曹公之命，换我儿之命乎。",
+        "zhHant": "何不以曹公之命，換我兒之命乎。"
+      },
+      "group": {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingshangwan--569dingshangwan--1skill2_2",
+      "resourceId": "569dingshangwan/1skill2_2",
+      "text": "亲儿丧于宛城，曹公何颜复还？",
+      "textLocalized": {
+        "zhHans": "亲儿丧于宛城，曹公何颜复还？",
+        "zhHant": "親兒喪於宛城，曹公何顏復還？"
+      },
+      "group": {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingshangwan--569dingshangwan--2skill2_1",
+      "resourceId": "569dingshangwan/2skill2_1",
+      "text": "济妻之色常有，试问吾儿之命可常有？",
+      "textLocalized": {
+        "zhHans": "济妻之色常有，试问吾儿之命可常有？",
+        "zhHant": "濟妻之色常有，試問吾兒之命可常有？"
+      },
+      "group": {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56901",
+          "name": "夜阑扰梦",
+          "displayName": {
+            "zhHans": "夜阑扰梦",
+            "zhHant": "夜闌擾夢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingshangwan--569dingshangwan--2skill2_2",
+      "resourceId": "569dingshangwan/2skill2_2",
+      "text": "嗟夫！曹公欲率亲儿猛将复攻宛城乎？",
+      "textLocalized": {
+        "zhHans": "嗟夫！曹公欲率亲儿猛将复攻宛城乎？",
+        "zhHant": "嗟夫！曹公欲率親兒猛將復攻宛城乎？"
+      },
+      "group": {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56901",
+          "name": "夜阑扰梦",
+          "displayName": {
+            "zhHans": "夜阑扰梦",
+            "zhHant": "夜闌擾夢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingshangwan--569dingshangwan--3skill2_1",
+      "resourceId": "569dingshangwan/3skill2_1",
+      "text": "曹公好逑佳人，欲以儿命为雁礼乎？",
+      "textLocalized": {
+        "zhHans": "曹公好逑佳人，欲以儿命为雁礼乎？",
+        "zhHant": "曹公好逑佳人，欲以兒命爲雁禮乎？"
+      },
+      "group": {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56902",
+          "name": "霜刃蚀骨",
+          "displayName": {
+            "zhHans": "霜刃蚀骨",
+            "zhHant": "霜刃蝕骨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingshangwan--569dingshangwan--3skill2_2",
+      "resourceId": "569dingshangwan/3skill2_2",
+      "text": "吾恨苍天不公，吾恨曹操未死。",
+      "textLocalized": {
+        "zhHans": "吾恨苍天不公，吾恨曹操未死。",
+        "zhHant": "吾恨蒼天不公，吾恨曹操未死。"
+      },
+      "group": {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56902",
+          "name": "霜刃蚀骨",
+          "displayName": {
+            "zhHans": "霜刃蚀骨",
+            "zhHant": "霜刃蝕骨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

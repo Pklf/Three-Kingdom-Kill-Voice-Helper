@@ -1,3 +1,149 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4d55931f32cbfcfd0dfc22c1821b866ee8f4ba94d56ffb5f1bb06e8a504bcc34
-size 3728
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhongcaocao",
+    "command": "zhongcaocao",
+    "name": "忠曹操",
+    "displayName": {
+      "zhHans": "忠曹操",
+      "zhHant": "忠曹操"
+    },
+    "names": [
+      "忠曹操"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "忠曹操",
+        "zhHant": "忠曹操"
+      }
+    ],
+    "ids": [
+      "6666"
+    ],
+    "sourceNames": [
+      "忠曹操"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "忠曹操",
+        "zhHant": "忠曹操"
+      }
+    ],
+    "sourceIds": [
+      "6666"
+    ],
+    "searchNames": [
+      "zhongcaocao",
+      "忠曹操"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3601",
+        "name": "定西",
+        "displayName": {
+          "zhHans": "定西",
+          "zhHant": "定西"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3601.json"
+      },
+      {
+        "slug": "spell-3602",
+        "name": "能臣",
+        "displayName": {
+          "zhHans": "能臣",
+          "zhHant": "能臣"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3602.json"
+      },
+      {
+        "slug": "spell-3603",
+        "name": "祸结",
+        "displayName": {
+          "zhHans": "祸结",
+          "zhHant": "禍結"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/groups/spell-3603.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongcaocao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhongcaocao.json",
+      "groups": "api/v1/tts/characters/zhongcaocao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhongcaocao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/zhongcaocao/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "zhongcaocao--6666zhongcaocao--1dead01",
+      "resourceId": "6666zhongcaocao/1dead01",
+      "text": "此征西将军曹侯之墓！",
+      "textLocalized": {
+        "zhHans": "此征西将军曹侯之墓！",
+        "zhHant": "此徵西將軍曹侯之墓！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/6666zhongcaocao-70e9bae0/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/6666zhongcaocao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

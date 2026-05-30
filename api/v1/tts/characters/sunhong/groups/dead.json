@@ -1,3 +1,140 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f1590ea695049c34b61f5d665bc086632cd561fbeafe499396dc4b138ca94960
-size 3346
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunhong",
+    "command": "sunhong",
+    "name": "孙弘",
+    "displayName": {
+      "zhHans": "孙弘",
+      "zhHant": "孫弘"
+    },
+    "names": [
+      "孙弘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙弘",
+        "zhHant": "孫弘"
+      }
+    ],
+    "ids": [
+      "537"
+    ],
+    "sourceNames": [
+      "孙弘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙弘",
+        "zhHant": "孫弘"
+      }
+    ],
+    "sourceIds": [
+      "537"
+    ],
+    "searchNames": [
+      "sunhong",
+      "孙弘",
+      "孫弘"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/sunhong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3219",
+        "name": "险诐",
+        "displayName": {
+          "zhHans": "险诐",
+          "zhHant": "險詖"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/sunhong/groups/spell-3219.json"
+      },
+      {
+        "slug": "spell-3220",
+        "name": "谮润",
+        "displayName": {
+          "zhHans": "谮润",
+          "zhHant": "譖潤"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/sunhong/groups/spell-3220.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunhong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunhong.json",
+      "groups": "api/v1/tts/characters/sunhong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunhong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/sunhong/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "sunhong--537sunhong--1dead01",
+      "resourceId": "537sunhong/1dead01",
+      "text": "诸葛公何至于此！",
+      "textLocalized": {
+        "zhHans": "诸葛公何至于此！",
+        "zhHant": "諸葛公何至於此！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/537sunhong-792cda58/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/537sunhong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:efba3b0e4926acdac810fef518a7cc7723797dc6c11d25ee61154486064d218c
-size 6787
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lisu",
+    "command": "lisu",
+    "name": "李肃",
+    "displayName": {
+      "zhHans": "李肃",
+      "zhHant": "李肅"
+    },
+    "names": [
+      "李肃"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李肃",
+        "zhHant": "李肅"
+      }
+    ],
+    "ids": [
+      "7010"
+    ],
+    "sourceNames": [
+      "李肃"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李肃",
+        "zhHant": "李肅"
+      }
+    ],
+    "sourceIds": [
+      "7010"
+    ],
+    "searchNames": [
+      "lisu",
+      "李肃",
+      "李肅"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/lisu/groups/dead.json"
+      },
+      {
+        "slug": "spell-7028",
+        "name": "巧言",
+        "displayName": {
+          "zhHans": "巧言",
+          "zhHant": "巧言"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lisu/groups/spell-7028.json"
+      },
+      {
+        "slug": "spell-7029",
+        "name": "献珠",
+        "displayName": {
+          "zhHans": "献珠",
+          "zhHant": "獻珠"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lisu/groups/spell-7029.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lisu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-701001",
+        "name": "欲利说吕",
+        "displayName": {
+          "zhHans": "欲利说吕",
+          "zhHant": "欲利說呂"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lisu/skins/skin-701001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lisu.json",
+      "groups": "api/v1/tts/characters/lisu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lisu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-7029",
+    "name": "献珠",
+    "displayName": {
+      "zhHans": "献珠",
+      "zhHant": "獻珠"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/lisu/groups/spell-7029.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "lisu--7010lisu--1skill2_1",
+      "resourceId": "7010lisu/1skill2_1",
+      "text": "馈珠之恩，望将军莫忘。",
+      "textLocalized": {
+        "zhHans": "馈珠之恩，望将军莫忘。",
+        "zhHant": "饋珠之恩，望將軍莫忘。"
+      },
+      "group": {
+        "slug": "spell-7029",
+        "name": "献珠",
+        "displayName": {
+          "zhHans": "献珠",
+          "zhHant": "獻珠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7010lisu-408f1dde/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7010lisu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lisu--7010lisu--1skill2_2",
+      "resourceId": "7010lisu/1skill2_2",
+      "text": "愿以珠为礼，与卿交好，而休刀兵。",
+      "textLocalized": {
+        "zhHans": "愿以珠为礼，与卿交好，而休刀兵。",
+        "zhHant": "願以珠爲禮，與卿交好，而休刀兵。"
+      },
+      "group": {
+        "slug": "spell-7029",
+        "name": "献珠",
+        "displayName": {
+          "zhHans": "献珠",
+          "zhHant": "獻珠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7010lisu-408f1dde/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7010lisu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lisu--7010lisu--4skill2_1",
+      "resourceId": "7010lisu/4skill2_1",
+      "text": "欲取天下，何惜宝珠？",
+      "textLocalized": {
+        "zhHans": "欲取天下，何惜宝珠？",
+        "zhHant": "欲取天下，何惜寶珠？"
+      },
+      "group": {
+        "slug": "spell-7029",
+        "name": "献珠",
+        "displayName": {
+          "zhHans": "献珠",
+          "zhHant": "獻珠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701001",
+          "name": "欲利说吕",
+          "displayName": {
+            "zhHans": "欲利说吕",
+            "zhHant": "欲利說呂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7010lisu-408f1dde/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7010lisu/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lisu--7010lisu--4skill2_2",
+      "resourceId": "7010lisu/4skill2_2",
+      "text": "董公久慕大名，特令吾将此奉献。",
+      "textLocalized": {
+        "zhHans": "董公久慕大名，特令吾将此奉献。",
+        "zhHant": "董公久慕大名，特令吾將此奉獻。"
+      },
+      "group": {
+        "slug": "spell-7029",
+        "name": "献珠",
+        "displayName": {
+          "zhHans": "献珠",
+          "zhHant": "獻珠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-701001",
+          "name": "欲利说吕",
+          "displayName": {
+            "zhHans": "欲利说吕",
+            "zhHant": "欲利說呂"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7010lisu-408f1dde/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7010lisu/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

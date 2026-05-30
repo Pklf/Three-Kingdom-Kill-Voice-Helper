@@ -1,3 +1,340 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f96222ebe735e00df7e10cb46674c8072f33b0ad9fa886bdc40cc48e65977f75
-size 9300
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoying",
+    "command": "caoying",
+    "name": "曹婴",
+    "displayName": {
+      "zhHans": "曹婴",
+      "zhHant": "曹嬰"
+    },
+    "names": [
+      "曹婴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹婴",
+        "zhHant": "曹嬰"
+      }
+    ],
+    "ids": [
+      "353"
+    ],
+    "sourceNames": [
+      "曹婴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹婴",
+        "zhHant": "曹嬰"
+      }
+    ],
+    "sourceIds": [
+      "353"
+    ],
+    "searchNames": [
+      "caoying",
+      "曹婴",
+      "曹嬰"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoying/groups/dead.json"
+      },
+      {
+        "slug": "spell-105",
+        "name": "行殇",
+        "displayName": {
+          "zhHans": "行殇",
+          "zhHant": "行殤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-105.json"
+      },
+      {
+        "slug": "spell-717",
+        "name": "奸雄",
+        "displayName": {
+          "zhHans": "奸雄",
+          "zhHant": "奸雄"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-717.json"
+      },
+      {
+        "slug": "spell-850",
+        "name": "凌人",
+        "displayName": {
+          "zhHans": "凌人",
+          "zhHant": "凌人"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-850.json"
+      },
+      {
+        "slug": "spell-851",
+        "name": "伏间",
+        "displayName": {
+          "zhHans": "伏间",
+          "zhHant": "伏間"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/caoying/groups/spell-851.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-35304",
+        "name": "劲弩飒姿",
+        "displayName": {
+          "zhHans": "劲弩飒姿",
+          "zhHant": "勁弩颯姿"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35304.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35301",
+        "name": "芦曳意坚",
+        "displayName": {
+          "zhHans": "芦曳意坚",
+          "zhHant": "蘆曳意堅"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35301.json"
+      },
+      {
+        "slug": "skin-35303",
+        "name": "金枝玉叶",
+        "displayName": {
+          "zhHans": "金枝玉叶",
+          "zhHant": "金枝玉葉"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35303.json"
+      },
+      {
+        "slug": "skin-35302",
+        "name": "魏缨凤鸣",
+        "displayName": {
+          "zhHans": "魏缨凤鸣",
+          "zhHant": "魏纓鳳鳴"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoying/skins/skin-35302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoying.json",
+      "groups": "api/v1/tts/characters/caoying/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoying/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-105",
+    "name": "行殇",
+    "displayName": {
+      "zhHans": "行殇",
+      "zhHant": "行殤"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caoying/groups/spell-105.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caoying--353caoying--6skill4_1",
+      "resourceId": "353caoying/6skill4_1",
+      "text": "这些对你无用，留给我吧。",
+      "textLocalized": {
+        "zhHans": "这些对你无用，留给我吧。",
+        "zhHant": "這些對你無用，留給我吧。"
+      },
+      "group": {
+        "slug": "spell-105",
+        "name": "行殇",
+        "displayName": {
+          "zhHans": "行殇",
+          "zhHant": "行殤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35304",
+          "name": "劲弩飒姿",
+          "displayName": {
+            "zhHans": "劲弩飒姿",
+            "zhHant": "勁弩颯姿"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/6skill4-1-942789ea.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/6skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--1skill4_1",
+      "resourceId": "353caoying/1skill4_1",
+      "text": "此刀枪军械，尽归我有！",
+      "textLocalized": {
+        "zhHans": "此刀枪军械，尽归我有！",
+        "zhHant": "此刀槍軍械，盡歸我有！"
+      },
+      "group": {
+        "slug": "spell-105",
+        "name": "行殇",
+        "displayName": {
+          "zhHans": "行殇",
+          "zhHant": "行殤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/1skill4-1-0d7b9304.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/1skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--3skill4_2",
+      "resourceId": "353caoying/3skill4_2",
+      "text": "人弃我取，何乐而不为？",
+      "textLocalized": {
+        "zhHans": "人弃我取，何乐而不为？",
+        "zhHant": "人棄我取，何樂而不爲？"
+      },
+      "group": {
+        "slug": "spell-105",
+        "name": "行殇",
+        "displayName": {
+          "zhHans": "行殇",
+          "zhHant": "行殤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35301",
+          "name": "芦曳意坚",
+          "displayName": {
+            "zhHans": "芦曳意坚",
+            "zhHant": "蘆曳意堅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/3skill4-2-4acfe1c1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/3skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--5skill4_1",
+      "resourceId": "353caoying/5skill4_1",
+      "text": "你输了，这些就要归我。",
+      "textLocalized": {
+        "zhHans": "你输了，这些就要归我。",
+        "zhHant": "你輸了，這些就要歸我。"
+      },
+      "group": {
+        "slug": "spell-105",
+        "name": "行殇",
+        "displayName": {
+          "zhHans": "行殇",
+          "zhHant": "行殤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35303",
+          "name": "金枝玉叶",
+          "displayName": {
+            "zhHans": "金枝玉叶",
+            "zhHant": "金枝玉葉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/5skill4-1-9e359db1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/5skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoying--353caoying--4skill4_1",
+      "resourceId": "353caoying/4skill4_1",
+      "text": "将军，这些还是留给小女吧！",
+      "textLocalized": {
+        "zhHans": "将军，这些还是留给小女吧！",
+        "zhHant": "將軍，這些還是留給小女吧！"
+      },
+      "group": {
+        "slug": "spell-105",
+        "name": "行殇",
+        "displayName": {
+          "zhHans": "行殇",
+          "zhHant": "行殤"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35302",
+          "name": "魏缨凤鸣",
+          "displayName": {
+            "zhHans": "魏缨凤鸣",
+            "zhHant": "魏纓鳳鳴"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/353caoying-2aa95248/4skill4-1-f25e0075.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/353caoying/4skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

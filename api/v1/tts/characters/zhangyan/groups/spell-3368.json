@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ba5720a0a4c910c2d6bbdc5134b6c9bc937d26eb55b7125eed051880ee1a25f4
-size 4437
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangyan",
+    "command": "zhangyan",
+    "name": "张燕",
+    "displayName": {
+      "zhHans": "张燕",
+      "zhHant": "張燕"
+    },
+    "names": [
+      "张燕"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张燕",
+        "zhHant": "張燕"
+      }
+    ],
+    "ids": [
+      "581"
+    ],
+    "sourceNames": [
+      "张燕"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张燕",
+        "zhHant": "張燕"
+      }
+    ],
+    "sourceIds": [
+      "581"
+    ],
+    "searchNames": [
+      "zhangyan",
+      "张燕",
+      "張燕"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zhangyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3367",
+        "name": "肃疾",
+        "displayName": {
+          "zhHans": "肃疾",
+          "zhHant": "肅疾"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhangyan/groups/spell-3367.json"
+      },
+      {
+        "slug": "spell-3368",
+        "name": "狼蹈",
+        "displayName": {
+          "zhHans": "狼蹈",
+          "zhHant": "狼蹈"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhangyan/groups/spell-3368.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangyan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangyan.json",
+      "groups": "api/v1/tts/characters/zhangyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangyan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3368",
+    "name": "狼蹈",
+    "displayName": {
+      "zhHans": "狼蹈",
+      "zhHant": "狼蹈"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zhangyan/groups/spell-3368.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zhangyan--581zhangyan--1skill2_1",
+      "resourceId": "581zhangyan/1skill2_1",
+      "text": "虎踞黑山，望天下百城。",
+      "textLocalized": {
+        "zhHans": "虎踞黑山，望天下百城。",
+        "zhHant": "虎踞黑山，望天下百城。"
+      },
+      "group": {
+        "slug": "spell-3368",
+        "name": "狼蹈",
+        "displayName": {
+          "zhHans": "狼蹈",
+          "zhHant": "狼蹈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/581zhangyan-171e431e/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/581zhangyan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangyan--581zhangyan--1skill2_2",
+      "resourceId": "581zhangyan/1skill2_2",
+      "text": "狼顾四野，视幽冀为饵。",
+      "textLocalized": {
+        "zhHans": "狼顾四野，视幽冀为饵。",
+        "zhHant": "狼顧四野，視幽冀爲餌。"
+      },
+      "group": {
+        "slug": "spell-3368",
+        "name": "狼蹈",
+        "displayName": {
+          "zhHans": "狼蹈",
+          "zhHant": "狼蹈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/581zhangyan-171e431e/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/581zhangyan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

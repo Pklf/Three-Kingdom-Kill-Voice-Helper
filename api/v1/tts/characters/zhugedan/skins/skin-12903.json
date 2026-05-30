@@ -1,3 +1,510 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:997e8694c2d279a84f120aab3df5e161b564a470c35a370fec709db6e35dd1e7
-size 14497
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhugedan",
+    "command": "zhugedan",
+    "name": "诸葛诞",
+    "displayName": {
+      "zhHans": "诸葛诞",
+      "zhHant": "諸葛誕"
+    },
+    "names": [
+      "诸葛诞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "诸葛诞",
+        "zhHant": "諸葛誕"
+      }
+    ],
+    "ids": [
+      "129"
+    ],
+    "sourceNames": [
+      "诸葛诞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "诸葛诞",
+        "zhHant": "諸葛誕"
+      }
+    ],
+    "sourceIds": [
+      "129"
+    ],
+    "searchNames": [
+      "zhugedan",
+      "诸葛诞",
+      "諸葛誕"
+    ],
+    "lineCount": 43,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/dead.json"
+      },
+      {
+        "slug": "spell-111",
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/spell-111.json"
+      },
+      {
+        "slug": "spell-232",
+        "name": "功獒",
+        "displayName": {
+          "zhHans": "功獒",
+          "zhHant": "功獒"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/spell-232.json"
+      },
+      {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/spell-233.json"
+      },
+      {
+        "slug": "spell-239",
+        "name": "威重",
+        "displayName": {
+          "zhHans": "威重",
+          "zhHant": "威重"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/spell-239.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "12905",
+        "name": "12905",
+        "displayName": {
+          "zhHans": "12905",
+          "zhHant": "12905"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/12905.json"
+      },
+      {
+        "slug": "skin-12902",
+        "name": "东兴之战",
+        "displayName": {
+          "zhHans": "东兴之战",
+          "zhHant": "東興之戰"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12902.json"
+      },
+      {
+        "slug": "skin-12901",
+        "name": "严毅威重",
+        "displayName": {
+          "zhHans": "严毅威重",
+          "zhHant": "嚴毅威重"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12901.json"
+      },
+      {
+        "slug": "skin-12901-12902",
+        "name": "严毅威重,东兴之战",
+        "displayName": {
+          "zhHans": "严毅威重,东兴之战",
+          "zhHant": "嚴毅威重,東興之戰"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12901-12902.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-12908",
+        "name": "威凛淮阳",
+        "displayName": {
+          "zhHans": "威凛淮阳",
+          "zhHant": "威凜淮陽"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12908.json"
+      },
+      {
+        "slug": "skin-12903",
+        "name": "挥剑惊石",
+        "displayName": {
+          "zhHans": "挥剑惊石",
+          "zhHant": "揮劍驚石"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12903.json"
+      },
+      {
+        "slug": "skin-12904",
+        "name": "矢志不渝",
+        "displayName": {
+          "zhHans": "矢志不渝",
+          "zhHant": "矢志不渝"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12904.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhugedan.json",
+      "groups": "api/v1/tts/characters/zhugedan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhugedan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-12903",
+    "name": "挥剑惊石",
+    "displayName": {
+      "zhHans": "挥剑惊石",
+      "zhHant": "揮劍驚石"
+    },
+    "lineCount": 9,
+    "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12903.json"
+  },
+  "lineCount": 9,
+  "lines": [
+    {
+      "id": "zhugedan--129zhugedan--4dead01",
+      "resourceId": "129zhugedan/4dead01",
+      "text": "这天下，还有谁能阻止司马氏……",
+      "textLocalized": {
+        "zhHans": "这天下，还有谁能阻止司马氏……",
+        "zhHant": "這天下，還有誰能阻止司馬氏……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill4_1",
+      "resourceId": "129zhugedan/4skill4_1",
+      "text": "只求玉石俱焚！",
+      "textLocalized": {
+        "zhHans": "只求玉石俱焚！",
+        "zhHant": "只求玉石俱焚！"
+      },
+      "group": {
+        "slug": "spell-111",
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill4-1-f25e0075.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill4_2",
+      "resourceId": "129zhugedan/4skill4_2",
+      "text": "只求玉石俱焚！",
+      "textLocalized": {
+        "zhHans": "只求玉石俱焚！",
+        "zhHant": "只求玉石俱焚！"
+      },
+      "group": {
+        "slug": "spell-111",
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill4-2-a3b6e279.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill1_1",
+      "resourceId": "129zhugedan/4skill1_1",
+      "text": "位居人臣，自当竭忠尽智。",
+      "textLocalized": {
+        "zhHans": "位居人臣，自当竭忠尽智。",
+        "zhHant": "位居人臣，自當竭忠盡智。"
+      },
+      "group": {
+        "slug": "spell-232",
+        "name": "功獒",
+        "displayName": {
+          "zhHans": "功獒",
+          "zhHant": "功獒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill1_2",
+      "resourceId": "129zhugedan/4skill1_2",
+      "text": "末将愿为我大魏开疆拓土。",
+      "textLocalized": {
+        "zhHans": "末将愿为我大魏开疆拓土。",
+        "zhHant": "末將願爲我大魏開疆拓土。"
+      },
+      "group": {
+        "slug": "spell-232",
+        "name": "功獒",
+        "displayName": {
+          "zhHans": "功獒",
+          "zhHant": "功獒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill2_1",
+      "resourceId": "129zhugedan/4skill2_1",
+      "text": "诞，不忍乌云蔽日，必置乱臣于死地！",
+      "textLocalized": {
+        "zhHans": "诞，不忍乌云蔽日，必置乱臣于死地！",
+        "zhHant": "誕，不忍烏雲蔽日，必置亂臣於死地！"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill2_2",
+      "resourceId": "129zhugedan/4skill2_2",
+      "text": "世受魏恩，岂可欲以社稷输人？",
+      "textLocalized": {
+        "zhHans": "世受魏恩，岂可欲以社稷输人？",
+        "zhHant": "世受魏恩，豈可欲以社稷輸人？"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill3_1",
+      "resourceId": "129zhugedan/4skill3_1",
+      "text": "破釜沉舟，最后一战！",
+      "textLocalized": {
+        "zhHans": "破釜沉舟，最后一战！",
+        "zhHant": "破釜沉舟，最後一戰！"
+      },
+      "group": {
+        "slug": "spell-239",
+        "name": "威重",
+        "displayName": {
+          "zhHans": "威重",
+          "zhHant": "威重"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill3_2",
+      "resourceId": "129zhugedan/4skill3_2",
+      "text": "破釜沉舟，最后一战！",
+      "textLocalized": {
+        "zhHans": "破釜沉舟，最后一战！",
+        "zhHant": "破釜沉舟，最後一戰！"
+      },
+      "group": {
+        "slug": "spell-239",
+        "name": "威重",
+        "displayName": {
+          "zhHans": "威重",
+          "zhHant": "威重"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

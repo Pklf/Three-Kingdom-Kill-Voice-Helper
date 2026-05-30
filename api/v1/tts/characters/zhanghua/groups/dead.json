@@ -1,3 +1,195 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e393b8216bfbb1c3b2362ba4492a105a965e363dac768ed1aefc2d7b350f0c8
-size 5038
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhanghua",
+    "command": "zhanghua",
+    "name": "张华",
+    "displayName": {
+      "zhHans": "张华",
+      "zhHant": "張華"
+    },
+    "names": [
+      "张华"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张华",
+        "zhHant": "張華"
+      }
+    ],
+    "ids": [
+      "544"
+    ],
+    "sourceNames": [
+      "张华"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张华",
+        "zhHant": "張華"
+      }
+    ],
+    "sourceIds": [
+      "544"
+    ],
+    "searchNames": [
+      "zhanghua",
+      "张华",
+      "張華"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/dead.json"
+      },
+      {
+        "slug": "spell-3251",
+        "name": "弼昏",
+        "displayName": {
+          "zhHans": "弼昏",
+          "zhHant": "弼昏"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3251.json"
+      },
+      {
+        "slug": "spell-3252",
+        "name": "穿屋",
+        "displayName": {
+          "zhHans": "穿屋",
+          "zhHant": "穿屋"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3252.json"
+      },
+      {
+        "slug": "spell-3253",
+        "name": "剑合",
+        "displayName": {
+          "zhHans": "剑合",
+          "zhHant": "劍合"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhanghua/groups/spell-3253.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghua/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54401",
+        "name": "龙泉剑啸",
+        "displayName": {
+          "zhHans": "龙泉剑啸",
+          "zhHant": "龍泉劍嘯"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhanghua/skins/skin-54401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhanghua.json",
+      "groups": "api/v1/tts/characters/zhanghua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhanghua/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zhanghua/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zhanghua--544zhanghua--1dead01",
+      "resourceId": "544zhanghua/1dead01",
+      "text": "桑化为柏，此非不祥乎？",
+      "textLocalized": {
+        "zhHans": "桑化为柏，此非不祥乎？",
+        "zhHant": "桑化爲柏，此非不祥乎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhanghua--544zhanghua--2dead01",
+      "resourceId": "544zhanghua/2dead01",
+      "text": "式乾之议，臣谏事具存，非不谏也。",
+      "textLocalized": {
+        "zhHans": "式乾之议，臣谏事具存，非不谏也。",
+        "zhHant": "式乾之議，臣諫事具存，非不諫也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54401",
+          "name": "龙泉剑啸",
+          "displayName": {
+            "zhHans": "龙泉剑啸",
+            "zhHant": "龍泉劍嘯"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/544zhanghua-6cb09dc2/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/544zhanghua/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

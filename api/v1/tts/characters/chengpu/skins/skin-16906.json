@@ -1,3 +1,432 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:997077838fe171f4ea491bfbdba6df4c996180b902738ec1692fdd2f922f1df8
-size 11924
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chengpu",
+    "command": "chengpu",
+    "name": "程普",
+    "displayName": {
+      "zhHans": "程普",
+      "zhHant": "程普"
+    },
+    "names": [
+      "程普",
+      "界程普"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "程普",
+        "zhHant": "程普"
+      },
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "ids": [
+      "169",
+      "620"
+    ],
+    "sourceNames": [
+      "程普",
+      "界程普"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "程普",
+        "zhHant": "程普"
+      },
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "sourceIds": [
+      "169",
+      "620"
+    ],
+    "searchNames": [
+      "chengpu",
+      "程普",
+      "界程普"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/chengpu/groups/dead.json"
+      },
+      {
+        "slug": "spell-431",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/chengpu/groups/spell-431.json"
+      },
+      {
+        "slug": "spell-432",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/chengpu/groups/spell-432.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "62001",
+        "name": "62001",
+        "displayName": {
+          "zhHans": "62001",
+          "zhHant": "62001"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/62001.json"
+      },
+      {
+        "slug": "skin-16907",
+        "name": "厉火燃战",
+        "displayName": {
+          "zhHans": "厉火燃战",
+          "zhHant": "厲火燃戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16907.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-16905",
+        "name": "犹能弯弓",
+        "displayName": {
+          "zhHans": "犹能弯弓",
+          "zhHant": "猶能彎弓"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16905.json"
+      },
+      {
+        "slug": "skin-16905-16906",
+        "name": "犹能弯弓,老臣之志",
+        "displayName": {
+          "zhHans": "犹能弯弓,老臣之志",
+          "zhHant": "猶能彎弓,老臣之志"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16905-16906.json"
+      },
+      {
+        "slug": "skin-16906",
+        "name": "老臣之志",
+        "displayName": {
+          "zhHans": "老臣之志",
+          "zhHant": "老臣之志"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16906.json"
+      },
+      {
+        "slug": "skin-16904",
+        "name": "醉酒提矛",
+        "displayName": {
+          "zhHans": "醉酒提矛",
+          "zhHant": "醉酒提矛"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16904.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chengpu.json",
+      "groups": "api/v1/tts/characters/chengpu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chengpu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-16906",
+    "name": "老臣之志",
+    "displayName": {
+      "zhHans": "老臣之志",
+      "zhHant": "老臣之志"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chengpu/skins/skin-16906.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chengpu--169chengpu--4dead01",
+      "resourceId": "169chengpu/4dead01",
+      "text": "辅君三代，终须一别。",
+      "textLocalized": {
+        "zhHans": "辅君三代，终须一别。",
+        "zhHant": "輔君三代，終須一別。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16905",
+          "name": "犹能弯弓",
+          "displayName": {
+            "zhHans": "犹能弯弓",
+            "zhHant": "猶能彎弓"
+          }
+        },
+        {
+          "slug": "skin-16906",
+          "name": "老臣之志",
+          "displayName": {
+            "zhHans": "老臣之志",
+            "zhHant": "老臣之志"
+          }
+        },
+        {
+          "slug": "skin-16905-16906",
+          "name": "犹能弯弓,老臣之志",
+          "displayName": {
+            "zhHans": "犹能弯弓,老臣之志",
+            "zhHant": "猶能彎弓,老臣之志"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengpu--169chengpu--4skill1_1",
+      "resourceId": "169chengpu/4skill1_1",
+      "text": "结石投火，以诛逆贼！",
+      "textLocalized": {
+        "zhHans": "结石投火，以诛逆贼！",
+        "zhHant": "結石投火，以誅逆賊！"
+      },
+      "group": {
+        "slug": "spell-431",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16905",
+          "name": "犹能弯弓",
+          "displayName": {
+            "zhHans": "犹能弯弓",
+            "zhHant": "猶能彎弓"
+          }
+        },
+        {
+          "slug": "skin-16906",
+          "name": "老臣之志",
+          "displayName": {
+            "zhHans": "老臣之志",
+            "zhHant": "老臣之志"
+          }
+        },
+        {
+          "slug": "skin-16905-16906",
+          "name": "犹能弯弓,老臣之志",
+          "displayName": {
+            "zhHans": "犹能弯弓,老臣之志",
+            "zhHant": "猶能彎弓,老臣之志"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengpu--169chengpu--4skill1_2",
+      "resourceId": "169chengpu/4skill1_2",
+      "text": "临阵叛军者，焚其尸骨！",
+      "textLocalized": {
+        "zhHans": "临阵叛军者，焚其尸骨！",
+        "zhHant": "臨陣叛軍者，焚其屍骨！"
+      },
+      "group": {
+        "slug": "spell-431",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16905",
+          "name": "犹能弯弓",
+          "displayName": {
+            "zhHans": "犹能弯弓",
+            "zhHant": "猶能彎弓"
+          }
+        },
+        {
+          "slug": "skin-16906",
+          "name": "老臣之志",
+          "displayName": {
+            "zhHans": "老臣之志",
+            "zhHant": "老臣之志"
+          }
+        },
+        {
+          "slug": "skin-16905-16906",
+          "name": "犹能弯弓,老臣之志",
+          "displayName": {
+            "zhHans": "犹能弯弓,老臣之志",
+            "zhHant": "猶能彎弓,老臣之志"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengpu--169chengpu--4skill2_1",
+      "resourceId": "169chengpu/4skill2_1",
+      "text": "恣意杀敌，备酒以待得胜！",
+      "textLocalized": {
+        "zhHans": "恣意杀敌，备酒以待得胜！",
+        "zhHant": "恣意殺敵，備酒以待得勝！"
+      },
+      "group": {
+        "slug": "spell-432",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16905",
+          "name": "犹能弯弓",
+          "displayName": {
+            "zhHans": "犹能弯弓",
+            "zhHant": "猶能彎弓"
+          }
+        },
+        {
+          "slug": "skin-16906",
+          "name": "老臣之志",
+          "displayName": {
+            "zhHans": "老臣之志",
+            "zhHant": "老臣之志"
+          }
+        },
+        {
+          "slug": "skin-16905-16906",
+          "name": "犹能弯弓,老臣之志",
+          "displayName": {
+            "zhHans": "犹能弯弓,老臣之志",
+            "zhHant": "猶能彎弓,老臣之志"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengpu--169chengpu--4skill2_2",
+      "resourceId": "169chengpu/4skill2_2",
+      "text": "借此酒兴，请与老夫并肩杀敌！",
+      "textLocalized": {
+        "zhHans": "借此酒兴，请与老夫并肩杀敌！",
+        "zhHant": "藉此酒興，請與老夫並肩殺敵！"
+      },
+      "group": {
+        "slug": "spell-432",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16905",
+          "name": "犹能弯弓",
+          "displayName": {
+            "zhHans": "犹能弯弓",
+            "zhHant": "猶能彎弓"
+          }
+        },
+        {
+          "slug": "skin-16906",
+          "name": "老臣之志",
+          "displayName": {
+            "zhHans": "老臣之志",
+            "zhHant": "老臣之志"
+          }
+        },
+        {
+          "slug": "skin-16905-16906",
+          "name": "犹能弯弓,老臣之志",
+          "displayName": {
+            "zhHans": "犹能弯弓,老臣之志",
+            "zhHant": "猶能彎弓,老臣之志"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/169chengpu-bc37fe0d/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/169chengpu/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4ec42c20dede47305c4038b8f07c1d88210d30c3b35cb6f8e491a866e4a04118
-size 7037
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yanpu",
+    "command": "yanpu",
+    "name": "阎圃",
+    "displayName": {
+      "zhHans": "阎圃",
+      "zhHant": "閻圃"
+    },
+    "names": [
+      "阎圃"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阎圃",
+        "zhHant": "閻圃"
+      }
+    ],
+    "ids": [
+      "542"
+    ],
+    "sourceNames": [
+      "阎圃"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阎圃",
+        "zhHant": "閻圃"
+      }
+    ],
+    "sourceIds": [
+      "542"
+    ],
+    "searchNames": [
+      "yanpu",
+      "阎圃",
+      "閻圃"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yanpu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3236",
+        "name": "缓图",
+        "displayName": {
+          "zhHans": "缓图",
+          "zhHant": "緩圖"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanpu/groups/spell-3236.json"
+      },
+      {
+        "slug": "spell-3237",
+        "name": "避祸",
+        "displayName": {
+          "zhHans": "避祸",
+          "zhHant": "避禍"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanpu/groups/spell-3237.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yanpu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54201",
+        "name": "秋色相权",
+        "displayName": {
+          "zhHans": "秋色相权",
+          "zhHant": "秋色相權"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yanpu/skins/skin-54201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yanpu.json",
+      "groups": "api/v1/tts/characters/yanpu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yanpu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3237",
+    "name": "避祸",
+    "displayName": {
+      "zhHans": "避祸",
+      "zhHant": "避禍"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/yanpu/groups/spell-3237.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "yanpu--542yanpu--1skill2_1",
+      "resourceId": "542yanpu/1skill2_1",
+      "text": "公以败兵之身投之，|功轻且恐难保身也。",
+      "textLocalized": {
+        "zhHans": "公以败兵之身投之，|功轻且恐难保身也。",
+        "zhHant": "公以敗兵之身投之，|功輕且恐難保身也。"
+      },
+      "group": {
+        "slug": "spell-3237",
+        "name": "避祸",
+        "displayName": {
+          "zhHans": "避祸",
+          "zhHant": "避禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/542yanpu-f4eaaad8/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/542yanpu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanpu--542yanpu--1skill2_2",
+      "resourceId": "542yanpu/1skill2_2",
+      "text": "公不若附之他人与相拒，|然后委质，功必多。",
+      "textLocalized": {
+        "zhHans": "公不若附之他人与相拒，|然后委质，功必多。",
+        "zhHant": "公不若附之他人與相拒，|然後委質，功必多。"
+      },
+      "group": {
+        "slug": "spell-3237",
+        "name": "避祸",
+        "displayName": {
+          "zhHans": "避祸",
+          "zhHant": "避禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/542yanpu-f4eaaad8/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/542yanpu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanpu--542yanpu--2skill2_1",
+      "resourceId": "542yanpu/2skill2_1",
+      "text": "天下之事若静水，其表虽平，然暗流涌动。",
+      "textLocalized": {
+        "zhHans": "天下之事若静水，其表虽平，然暗流涌动。",
+        "zhHant": "天下之事若靜水，其表雖平，然暗流湧動。"
+      },
+      "group": {
+        "slug": "spell-3237",
+        "name": "避祸",
+        "displayName": {
+          "zhHans": "避祸",
+          "zhHant": "避禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54201",
+          "name": "秋色相权",
+          "displayName": {
+            "zhHans": "秋色相权",
+            "zhHant": "秋色相權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/542yanpu-f4eaaad8/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/542yanpu/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanpu--542yanpu--2skill2_2",
+      "resourceId": "542yanpu/2skill2_2",
+      "text": "履薄冰而临渊，但求保全性命，不作妄图之想。",
+      "textLocalized": {
+        "zhHans": "履薄冰而临渊，但求保全性命，不作妄图之想。",
+        "zhHant": "履薄冰而臨淵，但求保全性命，不作妄圖之想。"
+      },
+      "group": {
+        "slug": "spell-3237",
+        "name": "避祸",
+        "displayName": {
+          "zhHans": "避祸",
+          "zhHant": "避禍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54201",
+          "name": "秋色相权",
+          "displayName": {
+            "zhHans": "秋色相权",
+            "zhHant": "秋色相權"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/542yanpu-f4eaaad8/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/542yanpu/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

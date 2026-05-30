@@ -1,3 +1,1423 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d982a54ec21e8dbb88f745fbbe628d2a3a979656e391360992fa9bce9725469f
-size 32472
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yiji",
+    "command": "yiji",
+    "name": "伊籍",
+    "displayName": {
+      "zhHans": "伊籍",
+      "zhHant": "伊籍"
+    },
+    "names": [
+      "伊籍"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "伊籍",
+        "zhHant": "伊籍"
+      }
+    ],
+    "ids": [
+      "503"
+    ],
+    "sourceNames": [
+      "伊籍"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "伊籍",
+        "zhHant": "伊籍"
+      }
+    ],
+    "sourceIds": [
+      "503"
+    ],
+    "searchNames": [
+      "yiji",
+      "伊籍"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-3101",
+        "name": "机捷",
+        "displayName": {
+          "zhHans": "机捷",
+          "zhHant": "機捷"
+        },
+        "ids": [
+          "3101"
+        ],
+        "lineCount": 4
+      },
+      {
+        "slug": "spell-3102",
+        "name": "急援",
+        "displayName": {
+          "zhHans": "急援",
+          "zhHant": "急援"
+        },
+        "ids": [
+          "3102"
+        ],
+        "lineCount": 4
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-50301",
+        "ids": [
+          "50301"
+        ],
+        "name": "昭文制律",
+        "displayName": {
+          "zhHans": "昭文制律",
+          "zhHant": "昭文制律"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/yiji.json",
+      "lines": "api/v1/characters/yiji/lines.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "yiji--503yiji--1dead01",
+      "resourceId": "503yiji/1dead01",
+      "text": "蜀科律法，难以撰写。",
+      "textLocalized": {
+        "zhHans": "蜀科律法，难以撰写。",
+        "zhHant": "蜀科律法，難以撰寫。"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yiji--503yiji--2dead01",
+      "resourceId": "503yiji/2dead01",
+      "text": "等不到主公君临天下了……",
+      "textLocalized": {
+        "zhHans": "等不到主公君临天下了……",
+        "zhHant": "等不到主公君臨天下了……"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-50301",
+        "ids": [
+          "50301"
+        ],
+        "name": "昭文制律",
+        "displayName": {
+          "zhHans": "昭文制律",
+          "zhHant": "昭文制律"
+        },
+        "names": [
+          "昭文制律"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-50301",
+          "id": "50301",
+          "ids": [
+            "50301"
+          ],
+          "name": "昭文制律",
+          "displayName": {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          },
+          "names": [
+            "昭文制律"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "昭文制律",
+              "zhHant": "昭文制律"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "50301",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "昭文制律"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/2dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yiji--503yiji--1skill1_1",
+      "resourceId": "503yiji/1skill1_1",
+      "text": "敏捷察微，知千里之情。",
+      "textLocalized": {
+        "zhHans": "敏捷察微，知千里之情。",
+        "zhHant": "敏捷察微，知千里之情。"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "spell-3101",
+        "ids": [
+          "3101"
+        ],
+        "name": "机捷",
+        "displayName": {
+          "zhHans": "机捷",
+          "zhHant": "機捷"
+        },
+        "names": [
+          "机捷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "机捷",
+            "zhHant": "機捷"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "-1",
+        "spellKey": "3101",
+        "rowIndex": 1,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yiji--503yiji--1skill1_2",
+      "resourceId": "503yiji/1skill1_2",
+      "text": "随机应变，不失礼数。",
+      "textLocalized": {
+        "zhHans": "随机应变，不失礼数。",
+        "zhHant": "隨機應變，不失禮數。"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "spell-3101",
+        "ids": [
+          "3101"
+        ],
+        "name": "机捷",
+        "displayName": {
+          "zhHans": "机捷",
+          "zhHant": "機捷"
+        },
+        "names": [
+          "机捷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "机捷",
+            "zhHant": "機捷"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "-1",
+        "spellKey": "3101",
+        "rowIndex": 2,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yiji--503yiji--2skill1_1",
+      "resourceId": "503yiji/2skill1_1",
+      "text": "经纬捭[bǎi]阖，运筹帷幄。",
+      "textLocalized": {
+        "zhHans": "经纬捭[bǎi]阖，运筹帷幄。",
+        "zhHant": "經緯捭[bǎi]闔，運籌帷幄。"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "spell-3101",
+        "ids": [
+          "3101"
+        ],
+        "name": "机捷",
+        "displayName": {
+          "zhHans": "机捷",
+          "zhHant": "機捷"
+        },
+        "names": [
+          "机捷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "机捷",
+            "zhHant": "機捷"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-50301",
+        "ids": [
+          "50301"
+        ],
+        "name": "昭文制律",
+        "displayName": {
+          "zhHans": "昭文制律",
+          "zhHant": "昭文制律"
+        },
+        "names": [
+          "昭文制律"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-50301",
+          "id": "50301",
+          "ids": [
+            "50301"
+          ],
+          "name": "昭文制律",
+          "displayName": {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          },
+          "names": [
+            "昭文制律"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "昭文制律",
+              "zhHant": "昭文制律"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "50301",
+        "spellKey": "3101",
+        "rowIndex": 1,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "昭文制律"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/2skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yiji--503yiji--2skill1_2",
+      "resourceId": "503yiji/2skill1_2",
+      "text": "明察秋毫，相机而动。",
+      "textLocalized": {
+        "zhHans": "明察秋毫，相机而动。",
+        "zhHant": "明察秋毫，相機而動。"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "spell-3101",
+        "ids": [
+          "3101"
+        ],
+        "name": "机捷",
+        "displayName": {
+          "zhHans": "机捷",
+          "zhHant": "機捷"
+        },
+        "names": [
+          "机捷"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "机捷",
+            "zhHant": "機捷"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-50301",
+        "ids": [
+          "50301"
+        ],
+        "name": "昭文制律",
+        "displayName": {
+          "zhHans": "昭文制律",
+          "zhHant": "昭文制律"
+        },
+        "names": [
+          "昭文制律"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-50301",
+          "id": "50301",
+          "ids": [
+            "50301"
+          ],
+          "name": "昭文制律",
+          "displayName": {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          },
+          "names": [
+            "昭文制律"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "昭文制律",
+              "zhHant": "昭文制律"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "50301",
+        "spellKey": "3101",
+        "rowIndex": 2,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "昭文制律"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/2skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yiji--503yiji--1skill2_1",
+      "resourceId": "503yiji/1skill2_1",
+      "text": "蔡瑁欲害将军，特此星夜来报。",
+      "textLocalized": {
+        "zhHans": "蔡瑁欲害将军，特此星夜来报。",
+        "zhHant": "蔡瑁欲害將軍，特此星夜來報。"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "spell-3102",
+        "ids": [
+          "3102"
+        ],
+        "name": "急援",
+        "displayName": {
+          "zhHans": "急援",
+          "zhHant": "急援"
+        },
+        "names": [
+          "急援"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "急援",
+            "zhHant": "急援"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "-1",
+        "spellKey": "3102",
+        "rowIndex": 1,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/1skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yiji--503yiji--1skill2_2",
+      "resourceId": "503yiji/1skill2_2",
+      "text": "荆州有异，需速避之。",
+      "textLocalized": {
+        "zhHans": "荆州有异，需速避之。",
+        "zhHant": "荊州有異，需速避之。"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "spell-3102",
+        "ids": [
+          "3102"
+        ],
+        "name": "急援",
+        "displayName": {
+          "zhHans": "急援",
+          "zhHant": "急援"
+        },
+        "names": [
+          "急援"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "急援",
+            "zhHant": "急援"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "-1",
+        "spellKey": "3102",
+        "rowIndex": 2,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/1skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yiji--503yiji--2skill2_1",
+      "resourceId": "503yiji/2skill2_1",
+      "text": "愿助将军逃出生天。",
+      "textLocalized": {
+        "zhHans": "愿助将军逃出生天。",
+        "zhHant": "願助將軍逃出生天。"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "spell-3102",
+        "ids": [
+          "3102"
+        ],
+        "name": "急援",
+        "displayName": {
+          "zhHans": "急援",
+          "zhHant": "急援"
+        },
+        "names": [
+          "急援"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "急援",
+            "zhHant": "急援"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-50301",
+        "ids": [
+          "50301"
+        ],
+        "name": "昭文制律",
+        "displayName": {
+          "zhHans": "昭文制律",
+          "zhHant": "昭文制律"
+        },
+        "names": [
+          "昭文制律"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-50301",
+          "id": "50301",
+          "ids": [
+            "50301"
+          ],
+          "name": "昭文制律",
+          "displayName": {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          },
+          "names": [
+            "昭文制律"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "昭文制律",
+              "zhHant": "昭文制律"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "50301",
+        "spellKey": "3102",
+        "rowIndex": 1,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "昭文制律"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/2skill2_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yiji--503yiji--2skill2_2",
+      "resourceId": "503yiji/2skill2_2",
+      "text": "周急济困，且伸援手。",
+      "textLocalized": {
+        "zhHans": "周急济困，且伸援手。",
+        "zhHant": "周急濟困，且伸援手。"
+      },
+      "character": {
+        "slug": "yiji",
+        "command": "yiji",
+        "id": "503",
+        "ids": [
+          "503"
+        ],
+        "name": "伊籍",
+        "displayName": {
+          "zhHans": "伊籍",
+          "zhHant": "伊籍"
+        },
+        "names": [
+          "伊籍"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "sourceIds": [
+          "503"
+        ],
+        "sourceNames": [
+          "伊籍"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "伊籍",
+            "zhHant": "伊籍"
+          }
+        ],
+        "searchNames": [
+          "伊籍",
+          "yiji"
+        ]
+      },
+      "group": {
+        "slug": "spell-3102",
+        "ids": [
+          "3102"
+        ],
+        "name": "急援",
+        "displayName": {
+          "zhHans": "急援",
+          "zhHant": "急援"
+        },
+        "names": [
+          "急援"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "急援",
+            "zhHant": "急援"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-50301",
+        "ids": [
+          "50301"
+        ],
+        "name": "昭文制律",
+        "displayName": {
+          "zhHans": "昭文制律",
+          "zhHant": "昭文制律"
+        },
+        "names": [
+          "昭文制律"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-50301",
+          "id": "50301",
+          "ids": [
+            "50301"
+          ],
+          "name": "昭文制律",
+          "displayName": {
+            "zhHans": "昭文制律",
+            "zhHant": "昭文制律"
+          },
+          "names": [
+            "昭文制律"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "昭文制律",
+              "zhHant": "昭文制律"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "503",
+        "skinKey": "50301",
+        "spellKey": "3102",
+        "rowIndex": 2,
+        "characterNames": [
+          "伊籍"
+        ],
+        "skinNames": [
+          "昭文制律"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/503yiji-a61fa13c/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/503yiji/2skill2_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

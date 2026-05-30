@@ -1,3 +1,322 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f70709f68b97ce0af303e26d7d855f4058d308da46da646ae089f5a05b022bc5
-size 9054
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiexunyu",
+    "command": "jiexunyu",
+    "name": "界荀彧",
+    "displayName": {
+      "zhHans": "界荀彧",
+      "zhHant": "界荀彧"
+    },
+    "names": [
+      "界荀彧",
+      "荀彧"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界荀彧",
+        "zhHant": "界荀彧"
+      },
+      {
+        "zhHans": "荀彧",
+        "zhHant": "荀彧"
+      }
+    ],
+    "ids": [
+      "515",
+      "35"
+    ],
+    "sourceNames": [
+      "界荀彧",
+      "荀彧"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界荀彧",
+        "zhHant": "界荀彧"
+      },
+      {
+        "zhHans": "荀彧",
+        "zhHant": "荀彧"
+      }
+    ],
+    "sourceIds": [
+      "515",
+      "35"
+    ],
+    "searchNames": [
+      "jiexunyu",
+      "界荀彧",
+      "荀彧"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiexunyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiexunyu/groups/spell-3128.json"
+      },
+      {
+        "slug": "spell-92",
+        "name": "驱虎",
+        "displayName": {
+          "zhHans": "驱虎",
+          "zhHant": "驅虎"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/jiexunyu/groups/spell-92.json"
+      },
+      {
+        "slug": "spell-93-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiexunyu/groups/spell-93-3128.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-51502",
+        "name": "书剑定远",
+        "displayName": {
+          "zhHans": "书剑定远",
+          "zhHant": "書劍定遠"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiexunyu/skins/skin-51502.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiexunyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51501",
+        "name": "竹隐定局",
+        "displayName": {
+          "zhHans": "竹隐定局",
+          "zhHant": "竹隱定局"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiexunyu/skins/skin-51501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiexunyu.json",
+      "groups": "api/v1/tts/characters/jiexunyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiexunyu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-51502",
+    "name": "书剑定远",
+    "displayName": {
+      "zhHans": "书剑定远",
+      "zhHant": "書劍定遠"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jiexunyu/skins/skin-51502.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jiexunyu--515jiexunyu--3dead01",
+      "resourceId": "515jiexunyu/3dead01",
+      "text": "天下大同，吾所愿也。",
+      "textLocalized": {
+        "zhHans": "天下大同，吾所愿也。",
+        "zhHant": "天下大同，吾所願也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexunyu--515jiexunyu--3skill1_1",
+      "resourceId": "515jiexunyu/3skill1_1",
+      "text": "掌中毛锋伏山君，驱虎为耕，秉笔书春秋。",
+      "textLocalized": {
+        "zhHans": "掌中毛锋伏山君，驱虎为耕，秉笔书春秋。",
+        "zhHant": "掌中毛鋒伏山君，驅虎爲耕，秉筆書春秋。"
+      },
+      "group": {
+        "slug": "spell-92",
+        "name": "驱虎",
+        "displayName": {
+          "zhHans": "驱虎",
+          "zhHant": "驅虎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexunyu--515jiexunyu--3skill1_2",
+      "resourceId": "515jiexunyu/3skill1_2",
+      "text": "绿蚁酌杏花，青牛卧山岗，近城远山皆人间。",
+      "textLocalized": {
+        "zhHans": "绿蚁酌杏花，青牛卧山岗，近城远山皆人间。",
+        "zhHant": "綠蟻酌杏花，青牛臥山崗，近城遠山皆人間。"
+      },
+      "group": {
+        "slug": "spell-92",
+        "name": "驱虎",
+        "displayName": {
+          "zhHans": "驱虎",
+          "zhHant": "驅虎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexunyu--515jiexunyu--3skill2_1",
+      "resourceId": "515jiexunyu/3skill2_1",
+      "text": "一曲春风，二分明月，日日庆丰，谁辞田舍翁？",
+      "textLocalized": {
+        "zhHans": "一曲春风，二分明月，日日庆丰，谁辞田舍翁？",
+        "zhHant": "一曲春風，二分明月，日日慶豐，誰辭田舍翁？"
+      },
+      "group": {
+        "slug": "spell-93-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiexunyu--515jiexunyu--3skill2_2",
+      "resourceId": "515jiexunyu/3skill2_2",
+      "text": "四邻相睦，十里闻炊，荷香稻浓，可老此人间。",
+      "textLocalized": {
+        "zhHans": "四邻相睦，十里闻炊，荷香稻浓，可老此人间。",
+        "zhHant": "四鄰相睦，十里聞炊，荷香稻濃，可老此人間。"
+      },
+      "group": {
+        "slug": "spell-93-3128",
+        "name": "节命",
+        "displayName": {
+          "zhHans": "节命",
+          "zhHant": "節命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51502",
+          "name": "书剑定远",
+          "displayName": {
+            "zhHans": "书剑定远",
+            "zhHant": "書劍定遠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/515jiexunyu-fff734bf/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/515jiexunyu/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

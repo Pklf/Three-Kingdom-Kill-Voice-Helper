@@ -1,3 +1,320 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b4e2d94df4cbba0c3f28edc1525aef8eb258e83de6a2079c5b23432d57aa7731
-size 8791
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangsong",
+    "command": "zhangsong",
+    "name": "张松",
+    "displayName": {
+      "zhHans": "张松",
+      "zhHant": "張松"
+    },
+    "names": [
+      "张松"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张松",
+        "zhHant": "張松"
+      }
+    ],
+    "ids": [
+      "326"
+    ],
+    "sourceNames": [
+      "张松"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张松",
+        "zhHant": "張松"
+      }
+    ],
+    "sourceIds": [
+      "326"
+    ],
+    "searchNames": [
+      "zhangsong",
+      "张松",
+      "張松"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/groups/dead.json"
+      },
+      {
+        "slug": "spell-484",
+        "name": "强识",
+        "displayName": {
+          "zhHans": "强识",
+          "zhHant": "強識"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhangsong/groups/spell-484.json"
+      },
+      {
+        "slug": "spell-485",
+        "name": "献图",
+        "displayName": {
+          "zhHans": "献图",
+          "zhHant": "獻圖"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhangsong/groups/spell-485.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-32603",
+        "name": "大展宏图",
+        "displayName": {
+          "zhHans": "大展宏图",
+          "zhHant": "大展宏圖"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32603.json"
+      },
+      {
+        "slug": "skin-32606",
+        "name": "沃鲤泽汉",
+        "displayName": {
+          "zhHans": "沃鲤泽汉",
+          "zhHant": "沃鯉澤漢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32606.json"
+      },
+      {
+        "slug": "skin-32601",
+        "name": "西川之图",
+        "displayName": {
+          "zhHans": "西川之图",
+          "zhHant": "西川之圖"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32601.json"
+      },
+      {
+        "slug": "skin-32604",
+        "name": "阴怀谋妄",
+        "displayName": {
+          "zhHans": "阴怀谋妄",
+          "zhHant": "陰懷謀妄"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangsong/skins/skin-32604.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangsong.json",
+      "groups": "api/v1/tts/characters/zhangsong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangsong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhangsong/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhangsong--326zhangsong--1dead01",
+      "resourceId": "326zhangsong/1dead01",
+      "text": "皇叔不听吾谏言，悔时晚矣……",
+      "textLocalized": {
+        "zhHans": "皇叔不听吾谏言，悔时晚矣……",
+        "zhHant": "皇叔不聽吾諫言，悔時晚矣……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--4dead01",
+      "resourceId": "326zhangsong/4dead01",
+      "text": "吾投明主，何罪之有？",
+      "textLocalized": {
+        "zhHans": "吾投明主，何罪之有？",
+        "zhHant": "吾投明主，何罪之有？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32603",
+          "name": "大展宏图",
+          "displayName": {
+            "zhHans": "大展宏图",
+            "zhHant": "大展宏圖"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--6dead01",
+      "resourceId": "326zhangsong/6dead01",
+      "text": "将相协力，魏室……可兴……",
+      "textLocalized": {
+        "zhHans": "将相协力，魏室……可兴……",
+        "zhHant": "將相協力，魏室……可興……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32606",
+          "name": "沃鲤泽汉",
+          "displayName": {
+            "zhHans": "沃鲤泽汉",
+            "zhHant": "沃鯉澤漢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--3dead01",
+      "resourceId": "326zhangsong/3dead01",
+      "text": "兄长，你……怎能不念手足之情？",
+      "textLocalized": {
+        "zhHans": "兄长，你……怎能不念手足之情？",
+        "zhHant": "兄長，你……怎能不念手足之情？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32601",
+          "name": "西川之图",
+          "displayName": {
+            "zhHans": "西川之图",
+            "zhHant": "西川之圖"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangsong--326zhangsong--5dead01",
+      "resourceId": "326zhangsong/5dead01",
+      "text": "谁知书信泄了天机……",
+      "textLocalized": {
+        "zhHans": "谁知书信泄了天机……",
+        "zhHant": "誰知書信泄了天機……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-32604",
+          "name": "阴怀谋妄",
+          "displayName": {
+            "zhHans": "阴怀谋妄",
+            "zhHant": "陰懷謀妄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/326zhangsong-6677042f/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/326zhangsong/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,598 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4d45e996e414e6c29df21a51e48dd1302a0d9e938c72b797327ae496540ece66
-size 17105
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhonghui",
+    "command": "zhonghui",
+    "name": "钟会",
+    "displayName": {
+      "zhHans": "钟会",
+      "zhHant": "鍾會"
+    },
+    "names": [
+      "钟会"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "钟会",
+        "zhHant": "鍾會"
+      }
+    ],
+    "ids": [
+      "173"
+    ],
+    "sourceNames": [
+      "钟会"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "钟会",
+        "zhHant": "鍾會"
+      }
+    ],
+    "sourceIds": [
+      "173"
+    ],
+    "searchNames": [
+      "zhonghui",
+      "钟会",
+      "鍾會"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhonghui/groups/dead.json"
+      },
+      {
+        "slug": "spell-438",
+        "name": "权计",
+        "displayName": {
+          "zhHans": "权计",
+          "zhHant": "權計"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhonghui/groups/spell-438.json"
+      },
+      {
+        "slug": "spell-439",
+        "name": "自立",
+        "displayName": {
+          "zhHans": "自立",
+          "zhHant": "自立"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhonghui/groups/spell-439.json"
+      },
+      {
+        "slug": "spell-440",
+        "name": "排异",
+        "displayName": {
+          "zhHans": "排异",
+          "zhHant": "排異"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhonghui/groups/spell-440.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-17304",
+        "name": "凛冬将至",
+        "displayName": {
+          "zhHans": "凛冬将至",
+          "zhHant": "凜冬將至"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhonghui/skins/skin-17304.json"
+      },
+      {
+        "slug": "skin-17304-17305-17307",
+        "name": "凛冬将至,料敌制胜,少年蹴鞠",
+        "displayName": {
+          "zhHans": "凛冬将至,料敌制胜,少年蹴鞠",
+          "zhHant": "凜冬將至,料敵制勝,少年蹴鞠"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhonghui/skins/skin-17304-17305-17307.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhonghui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-17307",
+        "name": "少年蹴鞠",
+        "displayName": {
+          "zhHans": "少年蹴鞠",
+          "zhHant": "少年蹴鞠"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhonghui/skins/skin-17307.json"
+      },
+      {
+        "slug": "skin-17305",
+        "name": "料敌制胜",
+        "displayName": {
+          "zhHans": "料敌制胜",
+          "zhHant": "料敵制勝"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhonghui/skins/skin-17305.json"
+      },
+      {
+        "slug": "skin-17302",
+        "name": "精炼策数",
+        "displayName": {
+          "zhHans": "精炼策数",
+          "zhHant": "精煉策數"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhonghui/skins/skin-17302.json"
+      },
+      {
+        "slug": "skin-17309",
+        "name": "蒲月念兔",
+        "displayName": {
+          "zhHans": "蒲月念兔",
+          "zhHant": "蒲月念兔"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhonghui/skins/skin-17309.json"
+      },
+      {
+        "slug": "skin-17308",
+        "name": "风雪前行",
+        "displayName": {
+          "zhHans": "风雪前行",
+          "zhHant": "風雪前行"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhonghui/skins/skin-17308.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhonghui.json",
+      "groups": "api/v1/tts/characters/zhonghui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhonghui/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-17304",
+    "name": "凛冬将至",
+    "displayName": {
+      "zhHans": "凛冬将至",
+      "zhHant": "凜冬將至"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/zhonghui/skins/skin-17304.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "zhonghui--173zhonghui--4dead01",
+      "resourceId": "173zhonghui/4dead01",
+      "text": "非吾不能，天亡我也！",
+      "textLocalized": {
+        "zhHans": "非吾不能，天亡我也！",
+        "zhHant": "非吾不能，天亡我也！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17304",
+          "name": "凛冬将至",
+          "displayName": {
+            "zhHans": "凛冬将至",
+            "zhHant": "凜冬將至"
+          }
+        },
+        {
+          "slug": "skin-17307",
+          "name": "少年蹴鞠",
+          "displayName": {
+            "zhHans": "少年蹴鞠",
+            "zhHant": "少年蹴鞠"
+          }
+        },
+        {
+          "slug": "skin-17305",
+          "name": "料敌制胜",
+          "displayName": {
+            "zhHans": "料敌制胜",
+            "zhHant": "料敵制勝"
+          }
+        },
+        {
+          "slug": "skin-17304-17305-17307",
+          "name": "凛冬将至,料敌制胜,少年蹴鞠",
+          "displayName": {
+            "zhHans": "凛冬将至,料敌制胜,少年蹴鞠",
+            "zhHant": "凜冬將至,料敵制勝,少年蹴鞠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/173zhonghui-4dd2df5d/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/173zhonghui/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhonghui--173zhonghui--4skill1_1",
+      "resourceId": "173zhonghui/4skill1_1",
+      "text": "君子报仇，十年不晚。",
+      "textLocalized": {
+        "zhHans": "君子报仇，十年不晚。",
+        "zhHant": "君子報仇，十年不晚。"
+      },
+      "group": {
+        "slug": "spell-438",
+        "name": "权计",
+        "displayName": {
+          "zhHans": "权计",
+          "zhHant": "權計"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17304",
+          "name": "凛冬将至",
+          "displayName": {
+            "zhHans": "凛冬将至",
+            "zhHant": "凜冬將至"
+          }
+        },
+        {
+          "slug": "skin-17307",
+          "name": "少年蹴鞠",
+          "displayName": {
+            "zhHans": "少年蹴鞠",
+            "zhHant": "少年蹴鞠"
+          }
+        },
+        {
+          "slug": "skin-17305",
+          "name": "料敌制胜",
+          "displayName": {
+            "zhHans": "料敌制胜",
+            "zhHant": "料敵制勝"
+          }
+        },
+        {
+          "slug": "skin-17304-17305-17307",
+          "name": "凛冬将至,料敌制胜,少年蹴鞠",
+          "displayName": {
+            "zhHans": "凛冬将至,料敌制胜,少年蹴鞠",
+            "zhHant": "凜冬將至,料敵制勝,少年蹴鞠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/173zhonghui-4dd2df5d/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/173zhonghui/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhonghui--173zhonghui--4skill1_2",
+      "resourceId": "173zhonghui/4skill1_2",
+      "text": "权宜之计，不急一时。",
+      "textLocalized": {
+        "zhHans": "权宜之计，不急一时。",
+        "zhHant": "權宜之計，不急一時。"
+      },
+      "group": {
+        "slug": "spell-438",
+        "name": "权计",
+        "displayName": {
+          "zhHans": "权计",
+          "zhHant": "權計"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17304",
+          "name": "凛冬将至",
+          "displayName": {
+            "zhHans": "凛冬将至",
+            "zhHant": "凜冬將至"
+          }
+        },
+        {
+          "slug": "skin-17307",
+          "name": "少年蹴鞠",
+          "displayName": {
+            "zhHans": "少年蹴鞠",
+            "zhHant": "少年蹴鞠"
+          }
+        },
+        {
+          "slug": "skin-17305",
+          "name": "料敌制胜",
+          "displayName": {
+            "zhHans": "料敌制胜",
+            "zhHant": "料敵制勝"
+          }
+        },
+        {
+          "slug": "skin-17304-17305-17307",
+          "name": "凛冬将至,料敌制胜,少年蹴鞠",
+          "displayName": {
+            "zhHans": "凛冬将至,料敌制胜,少年蹴鞠",
+            "zhHant": "凜冬將至,料敵制勝,少年蹴鞠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/173zhonghui-4dd2df5d/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/173zhonghui/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhonghui--173zhonghui--4skill2_1",
+      "resourceId": "173zhonghui/4skill2_1",
+      "text": "吾为王者，何居人下！",
+      "textLocalized": {
+        "zhHans": "吾为王者，何居人下！",
+        "zhHant": "吾爲王者，何居人下！"
+      },
+      "group": {
+        "slug": "spell-439",
+        "name": "自立",
+        "displayName": {
+          "zhHans": "自立",
+          "zhHant": "自立"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17304",
+          "name": "凛冬将至",
+          "displayName": {
+            "zhHans": "凛冬将至",
+            "zhHant": "凜冬將至"
+          }
+        },
+        {
+          "slug": "skin-17307",
+          "name": "少年蹴鞠",
+          "displayName": {
+            "zhHans": "少年蹴鞠",
+            "zhHant": "少年蹴鞠"
+          }
+        },
+        {
+          "slug": "skin-17305",
+          "name": "料敌制胜",
+          "displayName": {
+            "zhHans": "料敌制胜",
+            "zhHant": "料敵制勝"
+          }
+        },
+        {
+          "slug": "skin-17304-17305-17307",
+          "name": "凛冬将至,料敌制胜,少年蹴鞠",
+          "displayName": {
+            "zhHans": "凛冬将至,料敌制胜,少年蹴鞠",
+            "zhHant": "凜冬將至,料敵制勝,少年蹴鞠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/173zhonghui-4dd2df5d/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/173zhonghui/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhonghui--173zhonghui--4skill2_2",
+      "resourceId": "173zhonghui/4skill2_2",
+      "text": "顺应天时，随我举事！",
+      "textLocalized": {
+        "zhHans": "顺应天时，随我举事！",
+        "zhHant": "順應天時，隨我舉事！"
+      },
+      "group": {
+        "slug": "spell-439",
+        "name": "自立",
+        "displayName": {
+          "zhHans": "自立",
+          "zhHant": "自立"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17304",
+          "name": "凛冬将至",
+          "displayName": {
+            "zhHans": "凛冬将至",
+            "zhHant": "凜冬將至"
+          }
+        },
+        {
+          "slug": "skin-17307",
+          "name": "少年蹴鞠",
+          "displayName": {
+            "zhHans": "少年蹴鞠",
+            "zhHant": "少年蹴鞠"
+          }
+        },
+        {
+          "slug": "skin-17305",
+          "name": "料敌制胜",
+          "displayName": {
+            "zhHans": "料敌制胜",
+            "zhHant": "料敵制勝"
+          }
+        },
+        {
+          "slug": "skin-17304-17305-17307",
+          "name": "凛冬将至,料敌制胜,少年蹴鞠",
+          "displayName": {
+            "zhHans": "凛冬将至,料敌制胜,少年蹴鞠",
+            "zhHant": "凜冬將至,料敵制勝,少年蹴鞠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/173zhonghui-4dd2df5d/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/173zhonghui/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhonghui--173zhonghui--4skill3_1",
+      "resourceId": "173zhonghui/4skill3_1",
+      "text": "你只是我的绊脚石罢了！",
+      "textLocalized": {
+        "zhHans": "你只是我的绊脚石罢了！",
+        "zhHant": "你只是我的絆腳石罷了！"
+      },
+      "group": {
+        "slug": "spell-440",
+        "name": "排异",
+        "displayName": {
+          "zhHans": "排异",
+          "zhHant": "排異"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17304",
+          "name": "凛冬将至",
+          "displayName": {
+            "zhHans": "凛冬将至",
+            "zhHant": "凜冬將至"
+          }
+        },
+        {
+          "slug": "skin-17307",
+          "name": "少年蹴鞠",
+          "displayName": {
+            "zhHans": "少年蹴鞠",
+            "zhHant": "少年蹴鞠"
+          }
+        },
+        {
+          "slug": "skin-17305",
+          "name": "料敌制胜",
+          "displayName": {
+            "zhHans": "料敌制胜",
+            "zhHant": "料敵制勝"
+          }
+        },
+        {
+          "slug": "skin-17304-17305-17307",
+          "name": "凛冬将至,料敌制胜,少年蹴鞠",
+          "displayName": {
+            "zhHans": "凛冬将至,料敌制胜,少年蹴鞠",
+            "zhHant": "凜冬將至,料敵制勝,少年蹴鞠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/173zhonghui-4dd2df5d/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/173zhonghui/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhonghui--173zhonghui--4skill3_2",
+      "resourceId": "173zhonghui/4skill3_2",
+      "text": "一川之地，岂容二虎？",
+      "textLocalized": {
+        "zhHans": "一川之地，岂容二虎？",
+        "zhHant": "一川之地，豈容二虎？"
+      },
+      "group": {
+        "slug": "spell-440",
+        "name": "排异",
+        "displayName": {
+          "zhHans": "排异",
+          "zhHant": "排異"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17304",
+          "name": "凛冬将至",
+          "displayName": {
+            "zhHans": "凛冬将至",
+            "zhHant": "凜冬將至"
+          }
+        },
+        {
+          "slug": "skin-17307",
+          "name": "少年蹴鞠",
+          "displayName": {
+            "zhHans": "少年蹴鞠",
+            "zhHant": "少年蹴鞠"
+          }
+        },
+        {
+          "slug": "skin-17305",
+          "name": "料敌制胜",
+          "displayName": {
+            "zhHans": "料敌制胜",
+            "zhHant": "料敵制勝"
+          }
+        },
+        {
+          "slug": "skin-17304-17305-17307",
+          "name": "凛冬将至,料敌制胜,少年蹴鞠",
+          "displayName": {
+            "zhHans": "凛冬将至,料敌制胜,少年蹴鞠",
+            "zhHant": "凜冬將至,料敵制勝,少年蹴鞠"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/173zhonghui-4dd2df5d/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/173zhonghui/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

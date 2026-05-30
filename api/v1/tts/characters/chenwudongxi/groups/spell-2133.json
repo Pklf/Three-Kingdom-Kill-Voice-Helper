@@ -1,3 +1,335 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:04245bab293fbef7f88838a964d98d7a2cb5399ad1ebe9f88249c269166c2842
-size 9505
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chenwudongxi",
+    "command": "chenwudongxi",
+    "name": "陈武&董袭",
+    "displayName": {
+      "zhHans": "陈武&董袭",
+      "zhHant": "陳武&董襲"
+    },
+    "names": [
+      "陈武&董袭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈武&董袭",
+        "zhHant": "陳武&董襲"
+      }
+    ],
+    "ids": [
+      "2071"
+    ],
+    "sourceNames": [
+      "陈武&董袭"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈武&董袭",
+        "zhHant": "陳武&董襲"
+      }
+    ],
+    "sourceIds": [
+      "2071"
+    ],
+    "searchNames": [
+      "chenwudongxi",
+      "陈武&董袭",
+      "陳武&董襲"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/groups/dead.json"
+      },
+      {
+        "slug": "spell-2132",
+        "name": "断绁",
+        "displayName": {
+          "zhHans": "断绁",
+          "zhHant": "斷紲"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/groups/spell-2132.json"
+      },
+      {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/groups/spell-2133.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-207101",
+        "name": "如埙如箎",
+        "displayName": {
+          "zhHans": "如埙如箎",
+          "zhHant": "如壎如箎"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/skins/skin-207101.json"
+      },
+      {
+        "slug": "skin-207102",
+        "name": "比肩共战",
+        "displayName": {
+          "zhHans": "比肩共战",
+          "zhHant": "比肩共戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenwudongxi/skins/skin-207102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chenwudongxi.json",
+      "groups": "api/v1/tts/characters/chenwudongxi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chenwudongxi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-2133",
+    "name": "奋命",
+    "displayName": {
+      "zhHans": "奋命",
+      "zhHant": "奮命"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/chenwudongxi/groups/spell-2133.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "chenwudongxi--2071chenwudongxi--1skill2_1",
+      "resourceId": "2071chenwudongxi/1skill2_1",
+      "text": "不惜性命，也要保主公周全！",
+      "textLocalized": {
+        "zhHans": "不惜性命，也要保主公周全！",
+        "zhHant": "不惜性命，也要保主公周全！"
+      },
+      "group": {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenwudongxi--2071chenwudongxi--1skill2_2",
+      "resourceId": "2071chenwudongxi/1skill2_2",
+      "text": "东吴男儿，岂是贪生怕死之辈？",
+      "textLocalized": {
+        "zhHans": "东吴男儿，岂是贪生怕死之辈？",
+        "zhHant": "東吳男兒，豈是貪生怕死之輩？"
+      },
+      "group": {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenwudongxi--2071chenwudongxi--3skill2_1",
+      "resourceId": "2071chenwudongxi/3skill2_1",
+      "text": "拼杀出去，就是英雄！",
+      "textLocalized": {
+        "zhHans": "拼杀出去，就是英雄！",
+        "zhHant": "拼殺出去，就是英雄！"
+      },
+      "group": {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207101",
+          "name": "如埙如箎",
+          "displayName": {
+            "zhHans": "如埙如箎",
+            "zhHant": "如壎如箎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenwudongxi--2071chenwudongxi--3skill2_2",
+      "resourceId": "2071chenwudongxi/3skill2_2",
+      "text": "铁锁横江，怎容你舟行无忌！",
+      "textLocalized": {
+        "zhHans": "铁锁横江，怎容你舟行无忌！",
+        "zhHant": "鐵鎖橫江，怎容你舟行無忌！"
+      },
+      "group": {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207101",
+          "name": "如埙如箎",
+          "displayName": {
+            "zhHans": "如埙如箎",
+            "zhHant": "如壎如箎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenwudongxi--2071chenwudongxi--4skill2_1",
+      "resourceId": "2071chenwudongxi/4skill2_1",
+      "text": "跟我们一决死战吧",
+      "textLocalized": {
+        "zhHans": "跟我们一决死战吧",
+        "zhHant": "跟我們一決死戰吧"
+      },
+      "group": {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207102",
+          "name": "比肩共战",
+          "displayName": {
+            "zhHans": "比肩共战",
+            "zhHant": "比肩共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenwudongxi--2071chenwudongxi--4skill2_2",
+      "resourceId": "2071chenwudongxi/4skill2_2",
+      "text": "主公且退，我等断后！",
+      "textLocalized": {
+        "zhHans": "主公且退，我等断后！",
+        "zhHant": "主公且退，我等斷後！"
+      },
+      "group": {
+        "slug": "spell-2133",
+        "name": "奋命",
+        "displayName": {
+          "zhHans": "奋命",
+          "zhHant": "奮命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207102",
+          "name": "比肩共战",
+          "displayName": {
+            "zhHans": "比肩共战",
+            "zhHant": "比肩共戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2071chenwudongxi-4ca20f8c/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2071chenwudongxi/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

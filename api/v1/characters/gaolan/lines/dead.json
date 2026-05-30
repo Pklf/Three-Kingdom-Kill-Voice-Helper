@@ -1,3 +1,386 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47e9c3fe64e5653bffd883da894447fdaac08eb2379a07708003a1ae3f890bc5
-size 8324
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "gaolan",
+    "command": "gaolan",
+    "name": "高览",
+    "displayName": {
+      "zhHans": "高览",
+      "zhHant": "高覽"
+    },
+    "names": [
+      "高览"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "高览",
+        "zhHant": "高覽"
+      }
+    ],
+    "ids": [
+      "461"
+    ],
+    "sourceNames": [
+      "高览"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "高览",
+        "zhHant": "高覽"
+      }
+    ],
+    "sourceIds": [
+      "461"
+    ],
+    "searchNames": [
+      "gaolan",
+      "高览",
+      "高覽"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 2
+      },
+      {
+        "slug": "spell-1180",
+        "name": "袭营",
+        "displayName": {
+          "zhHans": "袭营",
+          "zhHant": "襲營"
+        },
+        "ids": [
+          "1180"
+        ],
+        "lineCount": 4
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-46101",
+        "ids": [
+          "46101"
+        ],
+        "name": "旗鼓相当",
+        "displayName": {
+          "zhHans": "旗鼓相当",
+          "zhHant": "旗鼓相當"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/gaolan.json",
+      "lines": "api/v1/characters/gaolan/lines.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "ids": [
+      "1"
+    ],
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "names": [
+      "阵亡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阵亡",
+        "zhHant": "陣亡"
+      }
+    ]
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "gaolan--461gaolan--1dead01",
+      "resourceId": "461gaolan/1dead01",
+      "text": "郭图小辈之计，误军哪！",
+      "textLocalized": {
+        "zhHans": "郭图小辈之计，误军哪！",
+        "zhHant": "郭圖小輩之計，誤軍哪！"
+      },
+      "character": {
+        "slug": "gaolan",
+        "command": "gaolan",
+        "id": "461",
+        "ids": [
+          "461"
+        ],
+        "name": "高览",
+        "displayName": {
+          "zhHans": "高览",
+          "zhHant": "高覽"
+        },
+        "names": [
+          "高览"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "高览",
+            "zhHant": "高覽"
+          }
+        ],
+        "sourceIds": [
+          "461"
+        ],
+        "sourceNames": [
+          "高览"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "高览",
+            "zhHant": "高覽"
+          }
+        ],
+        "searchNames": [
+          "高览",
+          "高覽",
+          "gaolan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "461",
+        "skinKey": "-1",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "高览"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/461gaolan-dbf7ca2f/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/461gaolan/1dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "gaolan--461gaolan--3dead01",
+      "resourceId": "461gaolan/3dead01",
+      "text": "郭图误我。",
+      "textLocalized": {
+        "zhHans": "郭图误我。",
+        "zhHant": "郭圖誤我。"
+      },
+      "character": {
+        "slug": "gaolan",
+        "command": "gaolan",
+        "id": "461",
+        "ids": [
+          "461"
+        ],
+        "name": "高览",
+        "displayName": {
+          "zhHans": "高览",
+          "zhHant": "高覽"
+        },
+        "names": [
+          "高览"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "高览",
+            "zhHant": "高覽"
+          }
+        ],
+        "sourceIds": [
+          "461"
+        ],
+        "sourceNames": [
+          "高览"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "高览",
+            "zhHant": "高覽"
+          }
+        ],
+        "searchNames": [
+          "高览",
+          "高覽",
+          "gaolan"
+        ]
+      },
+      "group": {
+        "slug": "dead",
+        "ids": [
+          "1"
+        ],
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "names": [
+          "阵亡"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "阵亡",
+            "zhHant": "陣亡"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-46101",
+        "ids": [
+          "46101"
+        ],
+        "name": "旗鼓相当",
+        "displayName": {
+          "zhHans": "旗鼓相当",
+          "zhHant": "旗鼓相當"
+        },
+        "names": [
+          "旗鼓相当"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "旗鼓相当",
+            "zhHant": "旗鼓相當"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-46101",
+          "id": "46101",
+          "ids": [
+            "46101"
+          ],
+          "name": "旗鼓相当",
+          "displayName": {
+            "zhHans": "旗鼓相当",
+            "zhHant": "旗鼓相當"
+          },
+          "names": [
+            "旗鼓相当"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "旗鼓相当",
+              "zhHant": "旗鼓相當"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "461",
+        "skinKey": "46101",
+        "spellKey": "1",
+        "rowIndex": 1,
+        "characterNames": [
+          "高览"
+        ],
+        "skinNames": [
+          "旗鼓相当"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/461gaolan-dbf7ca2f/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/461gaolan/3dead01.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

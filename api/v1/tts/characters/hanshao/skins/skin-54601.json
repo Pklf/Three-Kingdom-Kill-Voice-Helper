@@ -1,3 +1,370 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e381eb6c97a711bd20cd61039e20a59e4014e63600e851a8bf1b23e5d12ddabb
-size 10451
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hanshao",
+    "command": "hanshao",
+    "name": "族韩韶",
+    "displayName": {
+      "zhHans": "族韩韶",
+      "zhHant": "族韓韶"
+    },
+    "names": [
+      "族韩韶"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族韩韶",
+        "zhHant": "族韓韶"
+      }
+    ],
+    "ids": [
+      "546"
+    ],
+    "sourceNames": [
+      "族韩韶"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族韩韶",
+        "zhHant": "族韓韶"
+      }
+    ],
+    "sourceIds": [
+      "546"
+    ],
+    "searchNames": [
+      "hanshao",
+      "族韩韶",
+      "族韓韶"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/hanshao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3255",
+        "name": "恤民",
+        "displayName": {
+          "zhHans": "恤民",
+          "zhHant": "恤民"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hanshao/groups/spell-3255.json"
+      },
+      {
+        "slug": "spell-3256",
+        "name": "放赈",
+        "displayName": {
+          "zhHans": "放赈",
+          "zhHant": "放賑"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hanshao/groups/spell-3256.json"
+      },
+      {
+        "slug": "spell-3257",
+        "name": "留驹",
+        "displayName": {
+          "zhHans": "留驹",
+          "zhHant": "留駒"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hanshao/groups/spell-3257.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/hanshao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54601",
+        "name": "施粥赈民",
+        "displayName": {
+          "zhHans": "施粥赈民",
+          "zhHant": "施粥賑民"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/hanshao/skins/skin-54601.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/hanshao.json",
+      "groups": "api/v1/tts/characters/hanshao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/hanshao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-54601",
+    "name": "施粥赈民",
+    "displayName": {
+      "zhHans": "施粥赈民",
+      "zhHant": "施粥賑民"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/hanshao/skins/skin-54601.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "hanshao--546hanshao--2dead01",
+      "resourceId": "546hanshao/2dead01",
+      "text": "不知我者，谓我何愁。",
+      "textLocalized": {
+        "zhHans": "不知我者，谓我何愁。",
+        "zhHant": "不知我者，謂我何愁。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54601",
+          "name": "施粥赈民",
+          "displayName": {
+            "zhHans": "施粥赈民",
+            "zhHant": "施粥賑民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/546hanshao-a116b5fb/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/546hanshao/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanshao--546hanshao--2skill3_1",
+      "resourceId": "546hanshao/2skill3_1",
+      "text": "吾之所愿者，唯天下民皆有所养。",
+      "textLocalized": {
+        "zhHans": "吾之所愿者，唯天下民皆有所养。",
+        "zhHant": "吾之所願者，唯天下民皆有所養。"
+      },
+      "group": {
+        "slug": "spell-3255",
+        "name": "恤民",
+        "displayName": {
+          "zhHans": "恤民",
+          "zhHant": "恤民"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54601",
+          "name": "施粥赈民",
+          "displayName": {
+            "zhHans": "施粥赈民",
+            "zhHant": "施粥賑民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/546hanshao-a116b5fb/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/546hanshao/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanshao--546hanshao--2skill3_2",
+      "resourceId": "546hanshao/2skill3_2",
+      "text": "我等读圣贤之书，当为圣贤之事。",
+      "textLocalized": {
+        "zhHans": "我等读圣贤之书，当为圣贤之事。",
+        "zhHant": "我等讀聖賢之書，當爲聖賢之事。"
+      },
+      "group": {
+        "slug": "spell-3255",
+        "name": "恤民",
+        "displayName": {
+          "zhHans": "恤民",
+          "zhHant": "恤民"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54601",
+          "name": "施粥赈民",
+          "displayName": {
+            "zhHans": "施粥赈民",
+            "zhHant": "施粥賑民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/546hanshao-a116b5fb/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/546hanshao/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanshao--546hanshao--2skill1_1",
+      "resourceId": "546hanshao/2skill1_1",
+      "text": "粮秣束之高阁，其与土石何异？",
+      "textLocalized": {
+        "zhHans": "粮秣束之高阁，其与土石何异？",
+        "zhHant": "糧秣束之高閣，其與土石何異？"
+      },
+      "group": {
+        "slug": "spell-3256",
+        "name": "放赈",
+        "displayName": {
+          "zhHans": "放赈",
+          "zhHant": "放賑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54601",
+          "name": "施粥赈民",
+          "displayName": {
+            "zhHans": "施粥赈民",
+            "zhHant": "施粥賑民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/546hanshao-a116b5fb/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/546hanshao/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanshao--546hanshao--2skill1_2",
+      "resourceId": "546hanshao/2skill1_2",
+      "text": "一州百姓待哺，何故束手屯粮？",
+      "textLocalized": {
+        "zhHans": "一州百姓待哺，何故束手屯粮？",
+        "zhHant": "一州百姓待哺，何故束手屯糧？"
+      },
+      "group": {
+        "slug": "spell-3256",
+        "name": "放赈",
+        "displayName": {
+          "zhHans": "放赈",
+          "zhHant": "放賑"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54601",
+          "name": "施粥赈民",
+          "displayName": {
+            "zhHans": "施粥赈民",
+            "zhHant": "施粥賑民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/546hanshao-a116b5fb/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/546hanshao/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanshao--546hanshao--2skill2_1",
+      "resourceId": "546hanshao/2skill2_1",
+      "text": "牝马有孕，生驹骏秀，可代我留之。",
+      "textLocalized": {
+        "zhHans": "牝马有孕，生驹骏秀，可代我留之。",
+        "zhHant": "牝馬有孕，生駒駿秀，可代我留之。"
+      },
+      "group": {
+        "slug": "spell-3257",
+        "name": "留驹",
+        "displayName": {
+          "zhHans": "留驹",
+          "zhHant": "留駒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54601",
+          "name": "施粥赈民",
+          "displayName": {
+            "zhHans": "施粥赈民",
+            "zhHant": "施粥賑民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/546hanshao-a116b5fb/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/546hanshao/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanshao--546hanshao--2skill2_2",
+      "resourceId": "546hanshao/2skill2_2",
+      "text": "本欲长留嬴城，奈何朽躯不堪。",
+      "textLocalized": {
+        "zhHans": "本欲长留嬴城，奈何朽躯不堪。",
+        "zhHant": "本欲長留嬴城，奈何朽軀不堪。"
+      },
+      "group": {
+        "slug": "spell-3257",
+        "name": "留驹",
+        "displayName": {
+          "zhHans": "留驹",
+          "zhHant": "留駒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54601",
+          "name": "施粥赈民",
+          "displayName": {
+            "zhHans": "施粥赈民",
+            "zhHant": "施粥賑民"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/546hanshao-a116b5fb/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/546hanshao/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

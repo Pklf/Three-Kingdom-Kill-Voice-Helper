@@ -1,3 +1,317 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3f1dcc8644db0dbd070b207e29fcd35133345d7a5885b344d7dc459490fdc350
-size 8454
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shamoke",
+    "command": "shamoke",
+    "name": "沙摩柯",
+    "displayName": {
+      "zhHans": "沙摩柯",
+      "zhHant": "沙摩柯"
+    },
+    "names": [
+      "沙摩柯",
+      "2078"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "沙摩柯",
+        "zhHant": "沙摩柯"
+      },
+      {
+        "zhHans": "2078",
+        "zhHant": "2078"
+      }
+    ],
+    "ids": [
+      "431",
+      "2078"
+    ],
+    "sourceNames": [
+      "沙摩柯"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "沙摩柯",
+        "zhHant": "沙摩柯"
+      }
+    ],
+    "sourceIds": [
+      "431",
+      "2078"
+    ],
+    "searchNames": [
+      "shamoke",
+      "沙摩柯",
+      "2078"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shamoke/groups/dead.json"
+      },
+      {
+        "slug": "spell-909",
+        "name": "蒺藜",
+        "displayName": {
+          "zhHans": "蒺藜",
+          "zhHant": "蒺藜"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/shamoke/groups/spell-909.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "43104",
+        "name": "43104",
+        "displayName": {
+          "zhHans": "43104",
+          "zhHant": "43104"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shamoke/skins/43104.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shamoke/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43102",
+        "name": "应号出征",
+        "displayName": {
+          "zhHans": "应号出征",
+          "zhHant": "應號出征"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shamoke/skins/skin-43102.json"
+      },
+      {
+        "slug": "skin-43101",
+        "name": "得功封赏",
+        "displayName": {
+          "zhHans": "得功封赏",
+          "zhHant": "得功封賞"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shamoke/skins/skin-43101.json"
+      },
+      {
+        "slug": "skin-43103",
+        "name": "蛮王奋击",
+        "displayName": {
+          "zhHans": "蛮王奋击",
+          "zhHant": "蠻王奮擊"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shamoke/skins/skin-43103.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shamoke.json",
+      "groups": "api/v1/tts/characters/shamoke/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shamoke/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/shamoke/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "shamoke--431shamoke--5dead01",
+      "resourceId": "431shamoke/5dead01",
+      "text": "火燃马惊，弓断人亡…….",
+      "textLocalized": {
+        "zhHans": "火燃马惊，弓断人亡…….",
+        "zhHant": "火燃馬驚，弓斷人亡……."
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43104",
+          "name": "43104",
+          "displayName": {
+            "zhHans": "43104",
+            "zhHant": "43104"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/431shamoke-07f8b3fd/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/431shamoke/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shamoke--431shamoke--1dead01",
+      "resourceId": "431shamoke/1dead01",
+      "text": "五溪蛮夷，不可能输！",
+      "textLocalized": {
+        "zhHans": "五溪蛮夷，不可能输！",
+        "zhHant": "五溪蠻夷，不可能輸！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/431shamoke-07f8b3fd/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/431shamoke/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shamoke--431shamoke--3dead01",
+      "resourceId": "431shamoke/3dead01",
+      "text": "以蛮身而全汉节，虽死无憾。",
+      "textLocalized": {
+        "zhHans": "以蛮身而全汉节，虽死无憾。",
+        "zhHant": "以蠻身而全漢節，雖死無憾。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43102",
+          "name": "应号出征",
+          "displayName": {
+            "zhHans": "应号出征",
+            "zhHant": "應號出征"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/431shamoke-07f8b3fd/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/431shamoke/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shamoke--431shamoke--2dead01",
+      "resourceId": "431shamoke/2dead01",
+      "text": "为汉死节，为汉之忠。",
+      "textLocalized": {
+        "zhHans": "为汉死节，为汉之忠。",
+        "zhHant": "爲漢死節，爲漢之忠。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43101",
+          "name": "得功封赏",
+          "displayName": {
+            "zhHans": "得功封赏",
+            "zhHant": "得功封賞"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/431shamoke-07f8b3fd/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/431shamoke/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shamoke--431shamoke--4dead01",
+      "resourceId": "431shamoke/4dead01",
+      "text": "此人不可力敌，速退！",
+      "textLocalized": {
+        "zhHans": "此人不可力敌，速退！",
+        "zhHant": "此人不可力敵，速退！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43103",
+          "name": "蛮王奋击",
+          "displayName": {
+            "zhHans": "蛮王奋击",
+            "zhHant": "蠻王奮擊"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/431shamoke-07f8b3fd/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/431shamoke/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

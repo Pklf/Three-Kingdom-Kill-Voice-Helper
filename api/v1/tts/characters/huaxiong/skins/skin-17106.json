@@ -1,3 +1,250 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:97d55be4c0269349cd8b03b449f96cae738077597143de25b95dae8a5a131cfd
-size 6760
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huaxiong",
+    "command": "huaxiong",
+    "name": "将华雄",
+    "displayName": {
+      "zhHans": "将华雄",
+      "zhHant": "將華雄"
+    },
+    "names": [
+      "将华雄"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "将华雄",
+        "zhHant": "將華雄"
+      }
+    ],
+    "ids": [
+      "171"
+    ],
+    "sourceNames": [
+      "将华雄"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "将华雄",
+        "zhHant": "將華雄"
+      }
+    ],
+    "sourceIds": [
+      "171"
+    ],
+    "searchNames": [
+      "huaxiong",
+      "将华雄",
+      "將華雄"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/huaxiong/groups/dead.json"
+      },
+      {
+        "slug": "spell-435",
+        "name": "恃勇",
+        "displayName": {
+          "zhHans": "恃勇",
+          "zhHant": "恃勇"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/huaxiong/groups/spell-435.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-17107",
+        "name": "修整再战",
+        "displayName": {
+          "zhHans": "修整再战",
+          "zhHant": "修整再戰"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huaxiong/skins/skin-17107.json"
+      },
+      {
+        "slug": "skin-17107-17108",
+        "name": "修整再战,勇决前行",
+        "displayName": {
+          "zhHans": "修整再战,勇决前行",
+          "zhHant": "修整再戰,勇決前行"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huaxiong/skins/skin-17107-17108.json"
+      },
+      {
+        "slug": "skin-17108",
+        "name": "勇决前行",
+        "displayName": {
+          "zhHans": "勇决前行",
+          "zhHant": "勇決前行"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huaxiong/skins/skin-17108.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huaxiong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-17105",
+        "name": "攫戾执猛",
+        "displayName": {
+          "zhHans": "攫戾执猛",
+          "zhHant": "攫戾執猛"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huaxiong/skins/skin-17105.json"
+      },
+      {
+        "slug": "skin-17106",
+        "name": "百战沙场",
+        "displayName": {
+          "zhHans": "百战沙场",
+          "zhHant": "百戰沙場"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huaxiong/skins/skin-17106.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huaxiong.json",
+      "groups": "api/v1/tts/characters/huaxiong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huaxiong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-17106",
+    "name": "百战沙场",
+    "displayName": {
+      "zhHans": "百战沙场",
+      "zhHant": "百戰沙場"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/huaxiong/skins/skin-17106.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "huaxiong--171huaxiong--4dead01",
+      "resourceId": "171huaxiong/4dead01",
+      "text": "魔将，也有被斩的一天……",
+      "textLocalized": {
+        "zhHans": "魔将，也有被斩的一天……",
+        "zhHant": "魔將，也有被斬的一天……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17106",
+          "name": "百战沙场",
+          "displayName": {
+            "zhHans": "百战沙场",
+            "zhHant": "百戰沙場"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/171huaxiong-15efd35b/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/171huaxiong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaxiong--171huaxiong--4skill1_1",
+      "resourceId": "171huaxiong/4skill1_1",
+      "text": "你们不要笑得太早。",
+      "textLocalized": {
+        "zhHans": "你们不要笑得太早。",
+        "zhHant": "你們不要笑得太早。"
+      },
+      "group": {
+        "slug": "spell-435",
+        "name": "恃勇",
+        "displayName": {
+          "zhHans": "恃勇",
+          "zhHant": "恃勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17106",
+          "name": "百战沙场",
+          "displayName": {
+            "zhHans": "百战沙场",
+            "zhHant": "百戰沙場"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/171huaxiong-15efd35b/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/171huaxiong/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaxiong--171huaxiong--4skill1_2",
+      "resourceId": "171huaxiong/4skill1_2",
+      "text": "哼，不痛不痒。",
+      "textLocalized": {
+        "zhHans": "哼，不痛不痒。",
+        "zhHant": "哼，不痛不癢。"
+      },
+      "group": {
+        "slug": "spell-435",
+        "name": "恃勇",
+        "displayName": {
+          "zhHans": "恃勇",
+          "zhHant": "恃勇"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-17106",
+          "name": "百战沙场",
+          "displayName": {
+            "zhHans": "百战沙场",
+            "zhHant": "百戰沙場"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/171huaxiong-15efd35b/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/171huaxiong/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

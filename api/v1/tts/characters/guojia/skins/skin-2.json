@@ -1,3 +1,302 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:874130287854d5ee1886684fe040ac3bc3db7a5aeac90f0d64f698f7d11bfc72
-size 7783
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guojia",
+    "command": "guojia",
+    "name": "郭嘉",
+    "displayName": {
+      "zhHans": "郭嘉",
+      "zhHant": "郭嘉"
+    },
+    "names": [
+      "郭嘉",
+      "界郭嘉"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "郭嘉",
+        "zhHant": "郭嘉"
+      },
+      {
+        "zhHans": "界郭嘉",
+        "zhHant": "界郭嘉"
+      }
+    ],
+    "ids": [
+      "20",
+      "316"
+    ],
+    "sourceNames": [
+      "郭嘉",
+      "界郭嘉"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "郭嘉",
+        "zhHant": "郭嘉"
+      },
+      {
+        "zhHans": "界郭嘉",
+        "zhHant": "界郭嘉"
+      }
+    ],
+    "sourceIds": [
+      "20",
+      "316"
+    ],
+    "searchNames": [
+      "guojia",
+      "郭嘉",
+      "界郭嘉"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guojia/groups/dead.json"
+      },
+      {
+        "slug": "spell-51",
+        "name": "天妒",
+        "displayName": {
+          "zhHans": "天妒",
+          "zhHant": "天妒"
+        },
+        "lineCount": 11,
+        "endpoint": "api/v1/tts/characters/guojia/groups/spell-51.json"
+      },
+      {
+        "slug": "spell-52",
+        "name": "遗计",
+        "displayName": {
+          "zhHans": "遗计",
+          "zhHant": "遺計"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guojia/groups/spell-52.json"
+      },
+      {
+        "slug": "spell-52-724",
+        "name": "遗计",
+        "displayName": {
+          "zhHans": "遗计",
+          "zhHant": "遺計"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guojia/groups/spell-52-724.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-2006",
+        "name": "一世风华",
+        "displayName": {
+          "zhHans": "一世风华",
+          "zhHant": "一世風華"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guojia/skins/skin-2006.json"
+      },
+      {
+        "slug": "skin-2002",
+        "name": "世之奇士",
+        "displayName": {
+          "zhHans": "世之奇士",
+          "zhHant": "世之奇士"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guojia/skins/skin-2002.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guojia/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-2004",
+        "name": "智策奇佐",
+        "displayName": {
+          "zhHans": "智策奇佐",
+          "zhHant": "智策奇佐"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guojia/skins/skin-2004.json"
+      },
+      {
+        "slug": "skin-2003",
+        "name": "浴兰沐芳",
+        "displayName": {
+          "zhHans": "浴兰沐芳",
+          "zhHant": "浴蘭沐芳"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guojia/skins/skin-2003.json"
+      },
+      {
+        "slug": "skin-2003-2004",
+        "name": "浴兰沐芳,智策奇佐",
+        "displayName": {
+          "zhHans": "浴兰沐芳,智策奇佐",
+          "zhHant": "浴蘭沐芳,智策奇佐"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guojia/skins/skin-2003-2004.json"
+      },
+      {
+        "slug": "skin-2",
+        "name": "经典",
+        "displayName": {
+          "zhHans": "经典",
+          "zhHant": "經典"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guojia/skins/skin-2.json"
+      },
+      {
+        "slug": "skin-2007",
+        "name": "谋定天下",
+        "displayName": {
+          "zhHans": "谋定天下",
+          "zhHant": "謀定天下"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guojia/skins/skin-2007.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guojia.json",
+      "groups": "api/v1/tts/characters/guojia/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guojia/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-2",
+    "name": "经典",
+    "displayName": {
+      "zhHans": "经典",
+      "zhHant": "經典"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/guojia/skins/skin-2.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "guojia--20guojia--1dead01",
+      "resourceId": "20guojia/1dead01",
+      "text": "咳咳咳咳咳咳……",
+      "textLocalized": {
+        "zhHans": "咳咳咳咳咳咳……",
+        "zhHant": "咳咳咳咳咳咳……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-2",
+          "name": "经典",
+          "displayName": {
+            "zhHans": "经典",
+            "zhHant": "經典"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/20guojia-1ab38aab/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guojia--20guojia--1skill1_1",
+      "resourceId": "20guojia/1skill1_1",
+      "text": "就这样吧。",
+      "textLocalized": {
+        "zhHans": "就这样吧。",
+        "zhHant": "就這樣吧。"
+      },
+      "group": {
+        "slug": "spell-51",
+        "name": "天妒",
+        "displayName": {
+          "zhHans": "天妒",
+          "zhHant": "天妒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-2",
+          "name": "经典",
+          "displayName": {
+            "zhHans": "经典",
+            "zhHant": "經典"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/20guojia-1ab38aab/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guojia--20guojia--1skill2_1",
+      "resourceId": "20guojia/1skill2_1",
+      "text": "也好。",
+      "textLocalized": {
+        "zhHans": "也好。",
+        "zhHant": "也好。"
+      },
+      "group": {
+        "slug": "spell-52",
+        "name": "遗计",
+        "displayName": {
+          "zhHans": "遗计",
+          "zhHant": "遺計"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-2",
+          "name": "经典",
+          "displayName": {
+            "zhHans": "经典",
+            "zhHant": "經典"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/20guojia-1ab38aab/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/20guojia/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

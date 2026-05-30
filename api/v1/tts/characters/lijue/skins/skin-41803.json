@@ -1,3 +1,309 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7806059c056744596dcc02e63c068795c6cab0daeb4a5e1d326de56ce9ee943d
-size 8323
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lijue",
+    "command": "lijue",
+    "name": "李傕",
+    "displayName": {
+      "zhHans": "李傕",
+      "zhHant": "李傕"
+    },
+    "names": [
+      "李傕"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李傕",
+        "zhHant": "李傕"
+      }
+    ],
+    "ids": [
+      "418"
+    ],
+    "sourceNames": [
+      "李傕"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李傕",
+        "zhHant": "李傕"
+      }
+    ],
+    "sourceIds": [
+      "418"
+    ],
+    "searchNames": [
+      "lijue",
+      "李傕"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lijue/groups/dead.json"
+      },
+      {
+        "slug": "spell-854",
+        "name": "狼袭",
+        "displayName": {
+          "zhHans": "狼袭",
+          "zhHant": "狼襲"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lijue/groups/spell-854.json"
+      },
+      {
+        "slug": "spell-855",
+        "name": "亦算",
+        "displayName": {
+          "zhHans": "亦算",
+          "zhHant": "亦算"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lijue/groups/spell-855.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41801",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-41801.json"
+      },
+      {
+        "slug": "skin-41802",
+        "name": "狼噬火踪",
+        "displayName": {
+          "zhHans": "狼噬火踪",
+          "zhHant": "狼噬火蹤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-41802.json"
+      },
+      {
+        "slug": "skin-41803",
+        "name": "筹谋长安",
+        "displayName": {
+          "zhHans": "筹谋长安",
+          "zhHant": "籌謀長安"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lijue/skins/skin-41803.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lijue.json",
+      "groups": "api/v1/tts/characters/lijue/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lijue/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-41803",
+    "name": "筹谋长安",
+    "displayName": {
+      "zhHans": "筹谋长安",
+      "zhHant": "籌謀長安"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/lijue/skins/skin-41803.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "lijue--418lijue--5dead01",
+      "resourceId": "418lijue/5dead01",
+      "text": "联军溃散，大事难成。",
+      "textLocalized": {
+        "zhHans": "联军溃散，大事难成。",
+        "zhHant": "聯軍潰散，大事難成。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41803",
+          "name": "筹谋长安",
+          "displayName": {
+            "zhHans": "筹谋长安",
+            "zhHant": "籌謀長安"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--5skill1_1",
+      "resourceId": "418lijue/5skill1_1",
+      "text": "骁狼雄嚎，袭取出奇！",
+      "textLocalized": {
+        "zhHans": "骁狼雄嚎，袭取出奇！",
+        "zhHant": "驍狼雄嚎，襲取出奇！"
+      },
+      "group": {
+        "slug": "spell-854",
+        "name": "狼袭",
+        "displayName": {
+          "zhHans": "狼袭",
+          "zhHant": "狼襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41803",
+          "name": "筹谋长安",
+          "displayName": {
+            "zhHans": "筹谋长安",
+            "zhHant": "籌謀長安"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--5skill1_2",
+      "resourceId": "418lijue/5skill1_2",
+      "text": "狼之贪婪，索要无度！",
+      "textLocalized": {
+        "zhHans": "狼之贪婪，索要无度！",
+        "zhHant": "狼之貪婪，索要無度！"
+      },
+      "group": {
+        "slug": "spell-854",
+        "name": "狼袭",
+        "displayName": {
+          "zhHans": "狼袭",
+          "zhHant": "狼襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41803",
+          "name": "筹谋长安",
+          "displayName": {
+            "zhHans": "筹谋长安",
+            "zhHant": "籌謀長安"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--5skill2_1",
+      "resourceId": "418lijue/5skill2_1",
+      "text": "这点小计谋，我早已猜到",
+      "textLocalized": {
+        "zhHans": "这点小计谋，我早已猜到",
+        "zhHant": "這點小計謀，我早已猜到"
+      },
+      "group": {
+        "slug": "spell-855",
+        "name": "亦算",
+        "displayName": {
+          "zhHans": "亦算",
+          "zhHant": "亦算"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41803",
+          "name": "筹谋长安",
+          "displayName": {
+            "zhHans": "筹谋长安",
+            "zhHant": "籌謀長安"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lijue--418lijue--5skill2_2",
+      "resourceId": "418lijue/5skill2_2",
+      "text": "吾虽鲁莽，亦可算计。",
+      "textLocalized": {
+        "zhHans": "吾虽鲁莽，亦可算计。",
+        "zhHant": "吾雖魯莽，亦可算計。"
+      },
+      "group": {
+        "slug": "spell-855",
+        "name": "亦算",
+        "displayName": {
+          "zhHans": "亦算",
+          "zhHant": "亦算"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41803",
+          "name": "筹谋长安",
+          "displayName": {
+            "zhHans": "筹谋长安",
+            "zhHant": "籌謀長安"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/418lijue-3d2cb186/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/418lijue/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

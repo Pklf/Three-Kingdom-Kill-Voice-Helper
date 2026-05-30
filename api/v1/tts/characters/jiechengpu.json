@@ -1,3 +1,270 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9d1ce25b2e34535c1221e26099a59534e702a2004f420702a56a71eafab7c959
-size 7422
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "jiechengpu",
+    "command": "jiechengpu",
+    "name": "界程普",
+    "displayName": {
+      "zhHans": "界程普",
+      "zhHant": "界程普"
+    },
+    "names": [
+      "界程普"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "ids": [
+      "620"
+    ],
+    "sourceNames": [
+      "界程普"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界程普",
+        "zhHant": "界程普"
+      }
+    ],
+    "sourceIds": [
+      "620"
+    ],
+    "searchNames": [
+      "jiechengpu",
+      "界程普"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jiechengpu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3470",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiechengpu/groups/spell-3470.json"
+      },
+      {
+        "slug": "spell-3616",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiechengpu/groups/spell-3616.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiechengpu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiechengpu.json",
+      "groups": "api/v1/tts/characters/jiechengpu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiechengpu/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jiechengpu--620jiechengpu--1dead01",
+      "resourceId": "620jiechengpu/1dead01",
+      "text": "以暴讨贼，竟遭报应么……",
+      "textLocalized": {
+        "zhHans": "以暴讨贼，竟遭报应么……",
+        "zhHant": "以暴討賊，竟遭報應麼……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/620jiechengpu-368dd8ae/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/620jiechengpu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiechengpu--620jiechengpu--1skill1_1",
+      "resourceId": "620jiechengpu/1skill1_1",
+      "text": "此火只为全歼敌寇，无需妇人之仁。",
+      "textLocalized": {
+        "zhHans": "此火只为全歼敌寇，无需妇人之仁。",
+        "zhHant": "此火只爲全殲敵寇，無需婦人之仁。"
+      },
+      "group": {
+        "slug": "spell-3470",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/620jiechengpu-368dd8ae/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/620jiechengpu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiechengpu--620jiechengpu--1skill1_2",
+      "resourceId": "620jiechengpu/1skill1_2",
+      "text": "战胜攻取，以火修功。",
+      "textLocalized": {
+        "zhHans": "战胜攻取，以火修功。",
+        "zhHant": "戰勝攻取，以火修功。"
+      },
+      "group": {
+        "slug": "spell-3470",
+        "name": "疠火",
+        "displayName": {
+          "zhHans": "疠火",
+          "zhHant": "癘火"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/620jiechengpu-368dd8ae/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/620jiechengpu/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiechengpu--620jiechengpu--1skill2_1",
+      "resourceId": "620jiechengpu/1skill2_1",
+      "text": "备下佳酿，以做庆功之用。",
+      "textLocalized": {
+        "zhHans": "备下佳酿，以做庆功之用。",
+        "zhHant": "備下佳釀，以做慶功之用。"
+      },
+      "group": {
+        "slug": "spell-3616",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/620jiechengpu-368dd8ae/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/620jiechengpu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiechengpu--620jiechengpu--1skill2_2",
+      "resourceId": "620jiechengpu/1skill2_2",
+      "text": "饮此壮行酒，当立先头功。",
+      "textLocalized": {
+        "zhHans": "饮此壮行酒，当立先头功。",
+        "zhHant": "飲此壯行酒，當立先頭功。"
+      },
+      "group": {
+        "slug": "spell-3616",
+        "name": "醇醪",
+        "displayName": {
+          "zhHans": "醇醪",
+          "zhHant": "醇醪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/620jiechengpu-368dd8ae/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/620jiechengpu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

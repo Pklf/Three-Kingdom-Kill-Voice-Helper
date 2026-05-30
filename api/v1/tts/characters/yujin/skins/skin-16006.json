@@ -1,3 +1,337 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:206631b87d9eaf5720df8d8e552b6a9c4903366bd1ae9d38a6fc65cc60e507e7
-size 9174
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yujin",
+    "command": "yujin",
+    "name": "于禁",
+    "displayName": {
+      "zhHans": "于禁",
+      "zhHant": "于禁"
+    },
+    "names": [
+      "于禁",
+      "2100"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "于禁",
+        "zhHant": "于禁"
+      },
+      {
+        "zhHans": "2100",
+        "zhHant": "2100"
+      }
+    ],
+    "ids": [
+      "160",
+      "2100"
+    ],
+    "sourceNames": [
+      "于禁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "于禁",
+        "zhHant": "于禁"
+      }
+    ],
+    "sourceIds": [
+      "160",
+      "2100"
+    ],
+    "searchNames": [
+      "yujin",
+      "于禁",
+      "2100"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yujin/groups/dead.json"
+      },
+      {
+        "slug": "spell-2156",
+        "name": "节钺",
+        "displayName": {
+          "zhHans": "节钺",
+          "zhHant": "節鉞"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yujin/groups/spell-2156.json"
+      },
+      {
+        "slug": "spell-238",
+        "name": "镇军",
+        "displayName": {
+          "zhHans": "镇军",
+          "zhHant": "鎮軍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yujin/groups/spell-238.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-16005",
+        "name": "临危不惧",
+        "displayName": {
+          "zhHans": "临危不惧",
+          "zhHant": "臨危不懼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yujin/skins/skin-16005.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/yujin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-16001",
+        "name": "坚毅果敢",
+        "displayName": {
+          "zhHans": "坚毅果敢",
+          "zhHant": "堅毅果敢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yujin/skins/skin-16001.json"
+      },
+      {
+        "slug": "skin-16001-16005",
+        "name": "坚毅果敢,临危不惧",
+        "displayName": {
+          "zhHans": "坚毅果敢,临危不惧",
+          "zhHant": "堅毅果敢,臨危不懼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yujin/skins/skin-16001-16005.json"
+      },
+      {
+        "slug": "skin-16004",
+        "name": "威重严整",
+        "displayName": {
+          "zhHans": "威重严整",
+          "zhHant": "威重嚴整"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yujin/skins/skin-16004.json"
+      },
+      {
+        "slug": "skin-16006",
+        "name": "震慑青州",
+        "displayName": {
+          "zhHans": "震慑青州",
+          "zhHant": "震懾青州"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yujin/skins/skin-16006.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yujin.json",
+      "groups": "api/v1/tts/characters/yujin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yujin/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-16006",
+    "name": "震慑青州",
+    "displayName": {
+      "zhHans": "震慑青州",
+      "zhHant": "震懾青州"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/yujin/skins/skin-16006.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "yujin--160yujin--5dead01",
+      "resourceId": "160yujin/5dead01",
+      "text": "若不降蜀，此节可保……",
+      "textLocalized": {
+        "zhHans": "若不降蜀，此节可保……",
+        "zhHant": "若不降蜀，此節可保……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16006",
+          "name": "震慑青州",
+          "displayName": {
+            "zhHans": "震慑青州",
+            "zhHant": "震懾青州"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/160yujin-b4d4266f/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/160yujin/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yujin--2100yujin--5skill1_1",
+      "resourceId": "2100yujin/5skill1_1",
+      "text": "如此防御，看你如何来破！",
+      "textLocalized": {
+        "zhHans": "如此防御，看你如何来破！",
+        "zhHant": "如此防禦，看你如何來破！"
+      },
+      "group": {
+        "slug": "spell-2156",
+        "name": "节钺",
+        "displayName": {
+          "zhHans": "节钺",
+          "zhHant": "節鉞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16006",
+          "name": "震慑青州",
+          "displayName": {
+            "zhHans": "震慑青州",
+            "zhHant": "震懾青州"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2100yujin-1e74d397/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2100yujin/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yujin--2100yujin--5skill1_2",
+      "resourceId": "2100yujin/5skill1_2",
+      "text": "尔等千条妙计，吾亦无懈可击！",
+      "textLocalized": {
+        "zhHans": "尔等千条妙计，吾亦无懈可击！",
+        "zhHant": "爾等千條妙計，吾亦無懈可擊！"
+      },
+      "group": {
+        "slug": "spell-2156",
+        "name": "节钺",
+        "displayName": {
+          "zhHans": "节钺",
+          "zhHant": "節鉞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16006",
+          "name": "震慑青州",
+          "displayName": {
+            "zhHans": "震慑青州",
+            "zhHant": "震懾青州"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2100yujin-1e74d397/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2100yujin/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yujin--160yujin--5skill1_1",
+      "resourceId": "160yujin/5skill1_1",
+      "text": "有我坐镇，岂会有所差池？",
+      "textLocalized": {
+        "zhHans": "有我坐镇，岂会有所差池？",
+        "zhHant": "有我坐鎮，豈會有所差池？"
+      },
+      "group": {
+        "slug": "spell-238",
+        "name": "镇军",
+        "displayName": {
+          "zhHans": "镇军",
+          "zhHant": "鎮軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16006",
+          "name": "震慑青州",
+          "displayName": {
+            "zhHans": "震慑青州",
+            "zhHant": "震懾青州"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/160yujin-b4d4266f/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/160yujin/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yujin--160yujin--5skill1_2",
+      "resourceId": "160yujin/5skill1_2",
+      "text": "持军严整，镇威御敌！",
+      "textLocalized": {
+        "zhHans": "持军严整，镇威御敌！",
+        "zhHant": "持軍嚴整，鎮威禦敵！"
+      },
+      "group": {
+        "slug": "spell-238",
+        "name": "镇军",
+        "displayName": {
+          "zhHans": "镇军",
+          "zhHant": "鎮軍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16006",
+          "name": "震慑青州",
+          "displayName": {
+            "zhHans": "震慑青州",
+            "zhHant": "震懾青州"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/160yujin-b4d4266f/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/160yujin/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

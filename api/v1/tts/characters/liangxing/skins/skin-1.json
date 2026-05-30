@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a4a774ce41737933aa01090892891781d61db2f41b40610a0b10afaf29f97906
-size 8054
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liangxing",
+    "command": "liangxing",
+    "name": "梁兴",
+    "displayName": {
+      "zhHans": "梁兴",
+      "zhHant": "梁興"
+    },
+    "names": [
+      "梁兴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "梁兴",
+        "zhHant": "梁興"
+      }
+    ],
+    "ids": [
+      "514"
+    ],
+    "sourceNames": [
+      "梁兴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "梁兴",
+        "zhHant": "梁興"
+      }
+    ],
+    "sourceIds": [
+      "514"
+    ],
+    "searchNames": [
+      "liangxing",
+      "梁兴",
+      "梁興"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liangxing/groups/dead.json"
+      },
+      {
+        "slug": "spell-3126",
+        "name": "掳掠",
+        "displayName": {
+          "zhHans": "掳掠",
+          "zhHant": "擄掠"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liangxing/groups/spell-3126.json"
+      },
+      {
+        "slug": "spell-3127",
+        "name": "追袭",
+        "displayName": {
+          "zhHans": "追袭",
+          "zhHant": "追襲"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liangxing/groups/spell-3127.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liangxing/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51402",
+        "name": "嚣焰滔天",
+        "displayName": {
+          "zhHans": "嚣焰滔天",
+          "zhHant": "囂焰滔天"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liangxing/skins/skin-51402.json"
+      },
+      {
+        "slug": "skin-51401",
+        "name": "行掠关中",
+        "displayName": {
+          "zhHans": "行掠关中",
+          "zhHant": "行掠關中"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liangxing/skins/skin-51401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liangxing.json",
+      "groups": "api/v1/tts/characters/liangxing/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liangxing/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/liangxing/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "liangxing--514liangxing--1dead01",
+      "resourceId": "514liangxing/1dead01",
+      "text": "夏侯渊，你竟敢！",
+      "textLocalized": {
+        "zhHans": "夏侯渊，你竟敢！",
+        "zhHant": "夏侯淵，你竟敢！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/514liangxing-0a3cdac9/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/514liangxing/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liangxing--514liangxing--1skill1_1",
+      "resourceId": "514liangxing/1skill1_1",
+      "text": "趁火打劫，乘危掳掠！",
+      "textLocalized": {
+        "zhHans": "趁火打劫，乘危掳掠！",
+        "zhHant": "趁火打劫，乘危擄掠！"
+      },
+      "group": {
+        "slug": "spell-3126",
+        "name": "掳掠",
+        "displayName": {
+          "zhHans": "掳掠",
+          "zhHant": "擄掠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/514liangxing-0a3cdac9/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/514liangxing/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liangxing--514liangxing--1skill1_2",
+      "resourceId": "514liangxing/1skill1_2",
+      "text": "天下大乱，掳掠以自保。",
+      "textLocalized": {
+        "zhHans": "天下大乱，掳掠以自保。",
+        "zhHant": "天下大亂，擄掠以自保。"
+      },
+      "group": {
+        "slug": "spell-3126",
+        "name": "掳掠",
+        "displayName": {
+          "zhHans": "掳掠",
+          "zhHant": "擄掠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/514liangxing-0a3cdac9/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/514liangxing/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liangxing--514liangxing--1skill2_1",
+      "resourceId": "514liangxing/1skill2_1",
+      "text": "得势追袭，胜望在握！",
+      "textLocalized": {
+        "zhHans": "得势追袭，胜望在握！",
+        "zhHant": "得勢追襲，勝望在握！"
+      },
+      "group": {
+        "slug": "spell-3127",
+        "name": "追袭",
+        "displayName": {
+          "zhHans": "追袭",
+          "zhHant": "追襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/514liangxing-0a3cdac9/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/514liangxing/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liangxing--514liangxing--1skill2_2",
+      "resourceId": "514liangxing/1skill2_2",
+      "text": "诸将得令，追而袭之！",
+      "textLocalized": {
+        "zhHans": "诸将得令，追而袭之！",
+        "zhHant": "諸將得令，追而襲之！"
+      },
+      "group": {
+        "slug": "spell-3127",
+        "name": "追袭",
+        "displayName": {
+          "zhHans": "追袭",
+          "zhHant": "追襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/514liangxing-0a3cdac9/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/514liangxing/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

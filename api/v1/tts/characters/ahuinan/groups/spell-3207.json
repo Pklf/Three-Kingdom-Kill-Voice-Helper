@@ -1,3 +1,165 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aedd257b64d48b5f42faa23c04efccf4671066b8eb216ade39a581b21d15a19a
-size 4190
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "ahuinan",
+    "command": "ahuinan",
+    "name": "阿会喃",
+    "displayName": {
+      "zhHans": "阿会喃",
+      "zhHant": "阿會喃"
+    },
+    "names": [
+      "阿会喃"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阿会喃",
+        "zhHant": "阿會喃"
+      }
+    ],
+    "ids": [
+      "531"
+    ],
+    "sourceNames": [
+      "阿会喃"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阿会喃",
+        "zhHant": "阿會喃"
+      }
+    ],
+    "sourceIds": [
+      "531"
+    ],
+    "searchNames": [
+      "ahuinan",
+      "阿会喃",
+      "阿會喃"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/ahuinan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3207",
+        "name": "蟨蛮",
+        "displayName": {
+          "zhHans": "蟨蛮",
+          "zhHant": "蟨蠻"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/ahuinan/groups/spell-3207.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/ahuinan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/ahuinan.json",
+      "groups": "api/v1/tts/characters/ahuinan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/ahuinan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3207",
+    "name": "蟨蛮",
+    "displayName": {
+      "zhHans": "蟨蛮",
+      "zhHant": "蟨蠻"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/ahuinan/groups/spell-3207.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "ahuinan--531ahuinan--1skill1_1",
+      "resourceId": "531ahuinan/1skill1_1",
+      "text": "伤人之蛇蝎，向来善藏形。",
+      "textLocalized": {
+        "zhHans": "伤人之蛇蝎，向来善藏形。",
+        "zhHant": "傷人之蛇蠍，向來善藏形。"
+      },
+      "group": {
+        "slug": "spell-3207",
+        "name": "蟨蛮",
+        "displayName": {
+          "zhHans": "蟨蛮",
+          "zhHant": "蟨蠻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/531ahuinan-3f7980f2/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/531ahuinan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "ahuinan--531ahuinan--1skill1_2",
+      "resourceId": "531ahuinan/1skill1_2",
+      "text": "我不欲伤人，奈何人自伤！",
+      "textLocalized": {
+        "zhHans": "我不欲伤人，奈何人自伤！",
+        "zhHant": "我不欲傷人，奈何人自傷！"
+      },
+      "group": {
+        "slug": "spell-3207",
+        "name": "蟨蛮",
+        "displayName": {
+          "zhHans": "蟨蛮",
+          "zhHant": "蟨蠻"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/531ahuinan-3f7980f2/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/531ahuinan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

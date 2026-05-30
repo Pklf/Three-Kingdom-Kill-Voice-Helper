@@ -1,3 +1,500 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:53931fe3beacf9ec01f8f9c066d4f569152fd844cbcb530cb1e76bf6f4909bfd
-size 14096
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "beihumi",
+    "command": "beihumi",
+    "name": "卑弥呼",
+    "displayName": {
+      "zhHans": "卑弥呼",
+      "zhHant": "卑彌呼"
+    },
+    "names": [
+      "卑弥呼"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卑弥呼",
+        "zhHant": "卑彌呼"
+      }
+    ],
+    "ids": [
+      "377"
+    ],
+    "sourceNames": [
+      "卑弥呼"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卑弥呼",
+        "zhHant": "卑彌呼"
+      }
+    ],
+    "sourceIds": [
+      "377"
+    ],
+    "searchNames": [
+      "beihumi",
+      "卑弥呼",
+      "卑彌呼"
+    ],
+    "lineCount": 63,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/beihumi/groups/dead.json"
+      },
+      {
+        "slug": "spell-392",
+        "name": "纵傀",
+        "displayName": {
+          "zhHans": "纵傀",
+          "zhHant": "縱傀"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/beihumi/groups/spell-392.json"
+      },
+      {
+        "slug": "spell-393",
+        "name": "骨疽",
+        "displayName": {
+          "zhHans": "骨疽",
+          "zhHant": "骨疽"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/beihumi/groups/spell-393.json"
+      },
+      {
+        "slug": "spell-394",
+        "name": "拜假",
+        "displayName": {
+          "zhHans": "拜假",
+          "zhHant": "拜假"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/beihumi/groups/spell-394.json"
+      },
+      {
+        "slug": "spell-395",
+        "name": "蚕食",
+        "displayName": {
+          "zhHans": "蚕食",
+          "zhHant": "蠶食"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/beihumi/groups/spell-395.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-37704",
+        "name": "仪姿光照",
+        "displayName": {
+          "zhHans": "仪姿光照",
+          "zhHant": "儀姿光照"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/beihumi/skins/skin-37704.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/beihumi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37701",
+        "name": "御魂惑心",
+        "displayName": {
+          "zhHans": "御魂惑心",
+          "zhHant": "御魂惑心"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/beihumi/skins/skin-37701.json"
+      },
+      {
+        "slug": "skin-37703",
+        "name": "忘却凡尘",
+        "displayName": {
+          "zhHans": "忘却凡尘",
+          "zhHant": "忘卻凡塵"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/beihumi/skins/skin-37703.json"
+      },
+      {
+        "slug": "skin-37706",
+        "name": "秘镜幽幻",
+        "displayName": {
+          "zhHans": "秘镜幽幻",
+          "zhHant": "祕鏡幽幻"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/beihumi/skins/skin-37706.json"
+      },
+      {
+        "slug": "skin-37702",
+        "name": "缘法耀世",
+        "displayName": {
+          "zhHans": "缘法耀世",
+          "zhHant": "緣法耀世"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/beihumi/skins/skin-37702.json"
+      },
+      {
+        "slug": "skin-37705",
+        "name": "镜化千幻",
+        "displayName": {
+          "zhHans": "镜化千幻",
+          "zhHant": "鏡化千幻"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/beihumi/skins/skin-37705.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/beihumi.json",
+      "groups": "api/v1/tts/characters/beihumi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/beihumi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-37704",
+    "name": "仪姿光照",
+    "displayName": {
+      "zhHans": "仪姿光照",
+      "zhHant": "儀姿光照"
+    },
+    "lineCount": 9,
+    "endpoint": "api/v1/tts/characters/beihumi/skins/skin-37704.json"
+  },
+  "lineCount": 9,
+  "lines": [
+    {
+      "id": "beihumi--377beihumi--6dead01",
+      "resourceId": "377beihumi/6dead01",
+      "text": "不可能，我才是唯一的神！",
+      "textLocalized": {
+        "zhHans": "不可能，我才是唯一的神！",
+        "zhHant": "不可能，我纔是唯一的神！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37704",
+          "name": "仪姿光照",
+          "displayName": {
+            "zhHans": "仪姿光照",
+            "zhHant": "儀姿光照"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/377beihumi-610ea07e/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/377beihumi/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "beihumi--377beihumi--6skill1_1",
+      "resourceId": "377beihumi/6skill1_1",
+      "text": "别挣扎了，没用的。",
+      "textLocalized": {
+        "zhHans": "别挣扎了，没用的。",
+        "zhHant": "別掙扎了，沒用的。"
+      },
+      "group": {
+        "slug": "spell-392",
+        "name": "纵傀",
+        "displayName": {
+          "zhHans": "纵傀",
+          "zhHant": "縱傀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37704",
+          "name": "仪姿光照",
+          "displayName": {
+            "zhHans": "仪姿光照",
+            "zhHant": "儀姿光照"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/377beihumi-610ea07e/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/377beihumi/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "beihumi--377beihumi--6skill1_2",
+      "resourceId": "377beihumi/6skill1_2",
+      "text": "选择了你，该是你的荣幸。",
+      "textLocalized": {
+        "zhHans": "选择了你，该是你的荣幸。",
+        "zhHant": "選擇了你，該是你的榮幸。"
+      },
+      "group": {
+        "slug": "spell-392",
+        "name": "纵傀",
+        "displayName": {
+          "zhHans": "纵傀",
+          "zhHant": "縱傀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37704",
+          "name": "仪姿光照",
+          "displayName": {
+            "zhHans": "仪姿光照",
+            "zhHant": "儀姿光照"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/377beihumi-610ea07e/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/377beihumi/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "beihumi--377beihumi--6skill2_1",
+      "resourceId": "377beihumi/6skill2_1",
+      "text": "今古看毫骨，名利剩赘疽[jū]。",
+      "textLocalized": {
+        "zhHans": "今古看毫骨，名利剩赘疽[jū]。",
+        "zhHant": "今古看毫骨，名利剩贅疽[jū]。"
+      },
+      "group": {
+        "slug": "spell-393",
+        "name": "骨疽",
+        "displayName": {
+          "zhHans": "骨疽",
+          "zhHant": "骨疽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37704",
+          "name": "仪姿光照",
+          "displayName": {
+            "zhHans": "仪姿光照",
+            "zhHant": "儀姿光照"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/377beihumi-610ea07e/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/377beihumi/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "beihumi--377beihumi--6skill2_2",
+      "resourceId": "377beihumi/6skill2_2",
+      "text": "疽[jū]食侵邪，摄人心魂。",
+      "textLocalized": {
+        "zhHans": "疽[jū]食侵邪，摄人心魂。",
+        "zhHant": "疽[jū]食侵邪，攝人心魂。"
+      },
+      "group": {
+        "slug": "spell-393",
+        "name": "骨疽",
+        "displayName": {
+          "zhHans": "骨疽",
+          "zhHant": "骨疽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37704",
+          "name": "仪姿光照",
+          "displayName": {
+            "zhHans": "仪姿光照",
+            "zhHant": "儀姿光照"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/377beihumi-610ea07e/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/377beihumi/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "beihumi--377beihumi--6skill3_1",
+      "resourceId": "377beihumi/6skill3_1",
+      "text": "快来迎接我的到来吧！",
+      "textLocalized": {
+        "zhHans": "快来迎接我的到来吧！",
+        "zhHant": "快來迎接我的到來吧！"
+      },
+      "group": {
+        "slug": "spell-394",
+        "name": "拜假",
+        "displayName": {
+          "zhHans": "拜假",
+          "zhHant": "拜假"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37704",
+          "name": "仪姿光照",
+          "displayName": {
+            "zhHans": "仪姿光照",
+            "zhHant": "儀姿光照"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/377beihumi-610ea07e/6skill3-1-1b78f48f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/377beihumi/6skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "beihumi--377beihumi--6skill3_2",
+      "resourceId": "377beihumi/6skill3_2",
+      "text": "真相，即将浮出水面。",
+      "textLocalized": {
+        "zhHans": "真相，即将浮出水面。",
+        "zhHant": "真相，即將浮出水面。"
+      },
+      "group": {
+        "slug": "spell-394",
+        "name": "拜假",
+        "displayName": {
+          "zhHans": "拜假",
+          "zhHant": "拜假"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37704",
+          "name": "仪姿光照",
+          "displayName": {
+            "zhHans": "仪姿光照",
+            "zhHant": "儀姿光照"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/377beihumi-610ea07e/6skill3-2-af03925f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/377beihumi/6skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "beihumi--377beihumi--6skill4_1",
+      "resourceId": "377beihumi/6skill4_1",
+      "text": "你将逐渐迷失在这个幻境中。",
+      "textLocalized": {
+        "zhHans": "你将逐渐迷失在这个幻境中。",
+        "zhHant": "你將逐漸迷失在這個幻境中。"
+      },
+      "group": {
+        "slug": "spell-395",
+        "name": "蚕食",
+        "displayName": {
+          "zhHans": "蚕食",
+          "zhHant": "蠶食"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37704",
+          "name": "仪姿光照",
+          "displayName": {
+            "zhHans": "仪姿光照",
+            "zhHant": "儀姿光照"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/377beihumi-610ea07e/6skill4-1-942789ea.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/377beihumi/6skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "beihumi--377beihumi--6skill4_2",
+      "resourceId": "377beihumi/6skill4_2",
+      "text": "你，为什么在颤抖呢？",
+      "textLocalized": {
+        "zhHans": "你，为什么在颤抖呢？",
+        "zhHant": "你，爲什麼在顫抖呢？"
+      },
+      "group": {
+        "slug": "spell-395",
+        "name": "蚕食",
+        "displayName": {
+          "zhHans": "蚕食",
+          "zhHant": "蠶食"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37704",
+          "name": "仪姿光照",
+          "displayName": {
+            "zhHans": "仪姿光照",
+            "zhHant": "儀姿光照"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/377beihumi-610ea07e/6skill4-2-7e43d46e.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/377beihumi/6skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,280 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:53f9ed145a8dbfbf6585ed3f610b521586580e668022c547f866c3e099da7e78
-size 7281
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liyi",
+    "command": "liyi",
+    "name": "李异",
+    "displayName": {
+      "zhHans": "李异",
+      "zhHant": "李異"
+    },
+    "names": [
+      "李异"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "李异",
+        "zhHant": "李異"
+      }
+    ],
+    "ids": [
+      "607"
+    ],
+    "sourceNames": [
+      "李异"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "李异",
+        "zhHant": "李異"
+      }
+    ],
+    "sourceIds": [
+      "607"
+    ],
+    "searchNames": [
+      "liyi",
+      "李异",
+      "李異"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/liyi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3431",
+        "name": "缠双",
+        "displayName": {
+          "zhHans": "缠双",
+          "zhHant": "纏雙"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liyi/groups/spell-3431.json"
+      },
+      {
+        "slug": "spell-3432",
+        "name": "蘸金",
+        "displayName": {
+          "zhHans": "蘸金",
+          "zhHant": "蘸金"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/liyi/groups/spell-3432.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liyi/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liyi.json",
+      "groups": "api/v1/tts/characters/liyi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liyi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/liyi/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "liyi--607liyi--1dead01",
+      "resourceId": "607liyi/1dead01",
+      "text": "此人竟如此勇猛……",
+      "textLocalized": {
+        "zhHans": "此人竟如此勇猛……",
+        "zhHant": "此人竟如此勇猛……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/607liyi-6f0a679c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/607liyi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyi--607liyi--1skill1_1",
+      "resourceId": "607liyi/1skill1_1",
+      "text": "武艺精熟，勇冠三军。",
+      "textLocalized": {
+        "zhHans": "武艺精熟，勇冠三军。",
+        "zhHant": "武藝精熟，勇冠三軍。"
+      },
+      "group": {
+        "slug": "spell-3431",
+        "name": "缠双",
+        "displayName": {
+          "zhHans": "缠双",
+          "zhHant": "纏雙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/607liyi-6f0a679c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/607liyi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyi--607liyi--1skill1_2",
+      "resourceId": "607liyi/1skill1_2",
+      "text": "以一敌二，易如反掌。",
+      "textLocalized": {
+        "zhHans": "以一敌二，易如反掌。",
+        "zhHant": "以一敵二，易如反掌。"
+      },
+      "group": {
+        "slug": "spell-3431",
+        "name": "缠双",
+        "displayName": {
+          "zhHans": "缠双",
+          "zhHant": "纏雙"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/607liyi-6f0a679c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/607liyi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyi--607liyi--1skill2_1",
+      "resourceId": "607liyi/1skill2_1",
+      "text": "寒光纵横，血战八方！",
+      "textLocalized": {
+        "zhHans": "寒光纵横，血战八方！",
+        "zhHant": "寒光縱橫，血戰八方！"
+      },
+      "group": {
+        "slug": "spell-3432",
+        "name": "蘸金",
+        "displayName": {
+          "zhHans": "蘸金",
+          "zhHant": "蘸金"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/607liyi-6f0a679c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/607liyi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liyi--607liyi--1skill2_2",
+      "resourceId": "607liyi/1skill2_2",
+      "text": "蘸金霜刃，力贯山河！",
+      "textLocalized": {
+        "zhHans": "蘸金霜刃，力贯山河！",
+        "zhHant": "蘸金霜刃，力貫山河！"
+      },
+      "group": {
+        "slug": "spell-3432",
+        "name": "蘸金",
+        "displayName": {
+          "zhHans": "蘸金",
+          "zhHant": "蘸金"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/607liyi-6f0a679c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/607liyi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

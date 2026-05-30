@@ -1,3 +1,261 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a9cca68996a81d95a33cf5ab048f5bbbdaa11b7020acb5a4686dfa59f60a4758
-size 7068
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caohong",
+    "command": "caohong",
+    "name": "曹洪",
+    "displayName": {
+      "zhHans": "曹洪",
+      "zhHant": "曹洪"
+    },
+    "names": [
+      "曹洪"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹洪",
+        "zhHant": "曹洪"
+      }
+    ],
+    "ids": [
+      "114",
+      "2073"
+    ],
+    "sourceNames": [
+      "曹洪"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹洪",
+        "zhHant": "曹洪"
+      }
+    ],
+    "sourceIds": [
+      "114",
+      "2073"
+    ],
+    "searchNames": [
+      "caohong",
+      "曹洪"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/groups/dead.json"
+      },
+      {
+        "slug": "spell-2136",
+        "name": "护援",
+        "displayName": {
+          "zhHans": "护援",
+          "zhHant": "護援"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caohong/groups/spell-2136.json"
+      },
+      {
+        "slug": "spell-214",
+        "name": "援护",
+        "displayName": {
+          "zhHans": "援护",
+          "zhHant": "援護"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caohong/groups/spell-214.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-11404",
+        "name": "奇策将出",
+        "displayName": {
+          "zhHans": "奇策将出",
+          "zhHant": "奇策將出"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11404.json"
+      },
+      {
+        "slug": "skin-11402",
+        "name": "忠驱护主",
+        "displayName": {
+          "zhHans": "忠驱护主",
+          "zhHant": "忠驅護主"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11402.json"
+      },
+      {
+        "slug": "skin-11402-11403",
+        "name": "忠驱护主,献马救主",
+        "displayName": {
+          "zhHans": "忠驱护主,献马救主",
+          "zhHant": "忠驅護主,獻馬救主"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11402-11403.json"
+      },
+      {
+        "slug": "skin-11403",
+        "name": "献马救主",
+        "displayName": {
+          "zhHans": "献马救主",
+          "zhHant": "獻馬救主"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11403.json"
+      },
+      {
+        "slug": "skin-11405",
+        "name": "疾驰救援",
+        "displayName": {
+          "zhHans": "疾驰救援",
+          "zhHant": "疾馳救援"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caohong/skins/skin-11405.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caohong.json",
+      "groups": "api/v1/tts/characters/caohong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caohong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-11405",
+    "name": "疾驰救援",
+    "displayName": {
+      "zhHans": "疾驰救援",
+      "zhHant": "疾馳救援"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/caohong/skins/skin-11405.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "caohong--114caohong--5dead01",
+      "resourceId": "114caohong/5dead01",
+      "text": "将军……多保重。",
+      "textLocalized": {
+        "zhHans": "将军……多保重。",
+        "zhHant": "將軍……多保重。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11405",
+          "name": "疾驰救援",
+          "displayName": {
+            "zhHans": "疾驰救援",
+            "zhHant": "疾馳救援"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/114caohong-06110f6e/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/114caohong/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caohong--114caohong--5skill1_1",
+      "resourceId": "114caohong/5skill1_1",
+      "text": "若无趁手兵器，不妨试试我这把！",
+      "textLocalized": {
+        "zhHans": "若无趁手兵器，不妨试试我这把！",
+        "zhHant": "若無趁手兵器，不妨試試我這把！"
+      },
+      "group": {
+        "slug": "spell-214",
+        "name": "援护",
+        "displayName": {
+          "zhHans": "援护",
+          "zhHant": "援護"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11405",
+          "name": "疾驰救援",
+          "displayName": {
+            "zhHans": "疾驰救援",
+            "zhHant": "疾馳救援"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/114caohong-06110f6e/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/114caohong/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caohong--114caohong--5skill1_2",
+      "resourceId": "114caohong/5skill1_2",
+      "text": "此乃良驹，愿助将军日行千里！",
+      "textLocalized": {
+        "zhHans": "此乃良驹，愿助将军日行千里！",
+        "zhHant": "此乃良駒，願助將軍日行千里！"
+      },
+      "group": {
+        "slug": "spell-214",
+        "name": "援护",
+        "displayName": {
+          "zhHans": "援护",
+          "zhHant": "援護"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11405",
+          "name": "疾驰救援",
+          "displayName": {
+            "zhHans": "疾驰救援",
+            "zhHant": "疾馳救援"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/114caohong-06110f6e/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/114caohong/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

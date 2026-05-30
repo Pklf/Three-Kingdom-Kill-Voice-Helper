@@ -1,3 +1,452 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d52f15b3a611c0044919d00776cc31929af9d08735b31cfda75865ec8d2beee0
-size 12637
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhurong",
+    "command": "zhurong",
+    "name": "祝融",
+    "displayName": {
+      "zhHans": "祝融",
+      "zhHant": "祝融"
+    },
+    "names": [
+      "祝融",
+      "界祝融"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "祝融",
+        "zhHant": "祝融"
+      },
+      {
+        "zhHans": "界祝融",
+        "zhHant": "界祝融"
+      }
+    ],
+    "ids": [
+      "46",
+      "479"
+    ],
+    "sourceNames": [
+      "祝融",
+      "界祝融"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "祝融",
+        "zhHant": "祝融"
+      },
+      {
+        "zhHans": "界祝融",
+        "zhHant": "界祝融"
+      }
+    ],
+    "sourceIds": [
+      "46",
+      "479"
+    ],
+    "searchNames": [
+      "zhurong",
+      "祝融",
+      "界祝融"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/groups/dead.json"
+      },
+      {
+        "slug": "spell-113",
+        "name": "巨象",
+        "displayName": {
+          "zhHans": "巨象",
+          "zhHant": "巨象"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhurong/groups/spell-113.json"
+      },
+      {
+        "slug": "spell-114",
+        "name": "烈刃",
+        "displayName": {
+          "zhHans": "烈刃",
+          "zhHant": "烈刃"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhurong/groups/spell-114.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-4608",
+        "name": "年意融寒",
+        "displayName": {
+          "zhHans": "年意融寒",
+          "zhHant": "年意融寒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4608.json"
+      },
+      {
+        "slug": "skin-4609",
+        "name": "弯刀挥敌",
+        "displayName": {
+          "zhHans": "弯刀挥敌",
+          "zhHant": "彎刀揮敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4609.json"
+      },
+      {
+        "slug": "skin-4606",
+        "name": "浴火蛮神",
+        "displayName": {
+          "zhHans": "浴火蛮神",
+          "zhHant": "浴火蠻神"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4606.json"
+      },
+      {
+        "slug": "skin-4603",
+        "name": "火神转世",
+        "displayName": {
+          "zhHans": "火神转世",
+          "zhHant": "火神轉世"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4603.json"
+      },
+      {
+        "slug": "skin-4605",
+        "name": "绝色南蛮",
+        "displayName": {
+          "zhHans": "绝色南蛮",
+          "zhHant": "絕色南蠻"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4605.json"
+      },
+      {
+        "slug": "skin-4605-4609",
+        "name": "绝色南蛮,弯刀挥敌",
+        "displayName": {
+          "zhHans": "绝色南蛮,弯刀挥敌",
+          "zhHant": "絕色南蠻,彎刀揮敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4605-4609.json"
+      },
+      {
+        "slug": "skin-4601",
+        "name": "野性女王",
+        "displayName": {
+          "zhHans": "野性女王",
+          "zhHant": "野性女王"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4601.json"
+      },
+      {
+        "slug": "skin-4601-4603",
+        "name": "野性女王,火神转世",
+        "displayName": {
+          "zhHans": "野性女王,火神转世",
+          "zhHant": "野性女王,火神轉世"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4601-4603.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhurong.json",
+      "groups": "api/v1/tts/characters/zhurong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhurong/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-4609",
+    "name": "弯刀挥敌",
+    "displayName": {
+      "zhHans": "弯刀挥敌",
+      "zhHant": "彎刀揮敵"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhurong/skins/skin-4609.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhurong--46zhurong--4dead01",
+      "resourceId": "46zhurong/4dead01",
+      "text": "大王~我遇到对手了……呃",
+      "textLocalized": {
+        "zhHans": "大王~我遇到对手了……呃",
+        "zhHant": "大王~我遇到對手了……呃"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4609",
+          "name": "弯刀挥敌",
+          "displayName": {
+            "zhHans": "弯刀挥敌",
+            "zhHant": "彎刀揮敵"
+          }
+        },
+        {
+          "slug": "skin-4605",
+          "name": "绝色南蛮",
+          "displayName": {
+            "zhHans": "绝色南蛮",
+            "zhHant": "絕色南蠻"
+          }
+        },
+        {
+          "slug": "skin-4605-4609",
+          "name": "绝色南蛮,弯刀挥敌",
+          "displayName": {
+            "zhHans": "绝色南蛮,弯刀挥敌",
+            "zhHant": "絕色南蠻,彎刀揮敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhurong--46zhurong--4skill1_1",
+      "resourceId": "46zhurong/4skill1_1",
+      "text": "看我如何灭你，哈哈哈哈哈哈哈~",
+      "textLocalized": {
+        "zhHans": "看我如何灭你，哈哈哈哈哈哈哈~",
+        "zhHant": "看我如何滅你，哈哈哈哈哈哈哈~"
+      },
+      "group": {
+        "slug": "spell-113",
+        "name": "巨象",
+        "displayName": {
+          "zhHans": "巨象",
+          "zhHant": "巨象"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4609",
+          "name": "弯刀挥敌",
+          "displayName": {
+            "zhHans": "弯刀挥敌",
+            "zhHant": "彎刀揮敵"
+          }
+        },
+        {
+          "slug": "skin-4605",
+          "name": "绝色南蛮",
+          "displayName": {
+            "zhHans": "绝色南蛮",
+            "zhHant": "絕色南蠻"
+          }
+        },
+        {
+          "slug": "skin-4605-4609",
+          "name": "绝色南蛮,弯刀挥敌",
+          "displayName": {
+            "zhHans": "绝色南蛮,弯刀挥敌",
+            "zhHant": "絕色南蠻,彎刀揮敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhurong--46zhurong--4skill1_2",
+      "resourceId": "46zhurong/4skill1_2",
+      "text": "看你等如何抵挡我这大象阵！|哈哈哈哈哈~上！",
+      "textLocalized": {
+        "zhHans": "看你等如何抵挡我这大象阵！|哈哈哈哈哈~上！",
+        "zhHant": "看你等如何抵擋我這大象陣！|哈哈哈哈哈~上！"
+      },
+      "group": {
+        "slug": "spell-113",
+        "name": "巨象",
+        "displayName": {
+          "zhHans": "巨象",
+          "zhHant": "巨象"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4609",
+          "name": "弯刀挥敌",
+          "displayName": {
+            "zhHans": "弯刀挥敌",
+            "zhHant": "彎刀揮敵"
+          }
+        },
+        {
+          "slug": "skin-4605",
+          "name": "绝色南蛮",
+          "displayName": {
+            "zhHans": "绝色南蛮",
+            "zhHant": "絕色南蠻"
+          }
+        },
+        {
+          "slug": "skin-4605-4609",
+          "name": "绝色南蛮,弯刀挥敌",
+          "displayName": {
+            "zhHans": "绝色南蛮,弯刀挥敌",
+            "zhHant": "絕色南蠻,彎刀揮敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhurong--46zhurong--4skill2_1",
+      "resourceId": "46zhurong/4skill2_1",
+      "text": "哼~擒你就如探囊取物！",
+      "textLocalized": {
+        "zhHans": "哼~擒你就如探囊取物！",
+        "zhHant": "哼~擒你就如探囊取物！"
+      },
+      "group": {
+        "slug": "spell-114",
+        "name": "烈刃",
+        "displayName": {
+          "zhHans": "烈刃",
+          "zhHant": "烈刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4609",
+          "name": "弯刀挥敌",
+          "displayName": {
+            "zhHans": "弯刀挥敌",
+            "zhHant": "彎刀揮敵"
+          }
+        },
+        {
+          "slug": "skin-4605",
+          "name": "绝色南蛮",
+          "displayName": {
+            "zhHans": "绝色南蛮",
+            "zhHant": "絕色南蠻"
+          }
+        },
+        {
+          "slug": "skin-4605-4609",
+          "name": "绝色南蛮,弯刀挥敌",
+          "displayName": {
+            "zhHans": "绝色南蛮,弯刀挥敌",
+            "zhHant": "絕色南蠻,彎刀揮敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhurong--46zhurong--4skill2_2",
+      "resourceId": "46zhurong/4skill2_2",
+      "text": "无人能抵过我背后这五刀！",
+      "textLocalized": {
+        "zhHans": "无人能抵过我背后这五刀！",
+        "zhHant": "無人能抵過我背後這五刀！"
+      },
+      "group": {
+        "slug": "spell-114",
+        "name": "烈刃",
+        "displayName": {
+          "zhHans": "烈刃",
+          "zhHant": "烈刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-4609",
+          "name": "弯刀挥敌",
+          "displayName": {
+            "zhHans": "弯刀挥敌",
+            "zhHant": "彎刀揮敵"
+          }
+        },
+        {
+          "slug": "skin-4605",
+          "name": "绝色南蛮",
+          "displayName": {
+            "zhHans": "绝色南蛮",
+            "zhHant": "絕色南蠻"
+          }
+        },
+        {
+          "slug": "skin-4605-4609",
+          "name": "绝色南蛮,弯刀挥敌",
+          "displayName": {
+            "zhHans": "绝色南蛮,弯刀挥敌",
+            "zhHant": "絕色南蠻,彎刀揮敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/46zhurong-4a058607/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/46zhurong/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

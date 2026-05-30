@@ -1,3 +1,274 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9995ce56b27990aef2b0312848ee7321e66c6560d9c6ce2a585444c852817c92
-size 7415
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hujinding",
+    "command": "hujinding",
+    "name": "胡金定",
+    "displayName": {
+      "zhHans": "胡金定",
+      "zhHant": "胡金定"
+    },
+    "names": [
+      "胡金定"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "胡金定",
+        "zhHant": "胡金定"
+      }
+    ],
+    "ids": [
+      "594"
+    ],
+    "sourceNames": [
+      "胡金定"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "胡金定",
+        "zhHant": "胡金定"
+      }
+    ],
+    "sourceIds": [
+      "594"
+    ],
+    "searchNames": [
+      "hujinding",
+      "胡金定"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hujinding/groups/dead.json"
+      },
+      {
+        "slug": "spell-3406",
+        "name": "轻缘",
+        "displayName": {
+          "zhHans": "轻缘",
+          "zhHant": "輕緣"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/hujinding/groups/spell-3406.json"
+      },
+      {
+        "slug": "spell-3407",
+        "name": "重身",
+        "displayName": {
+          "zhHans": "重身",
+          "zhHant": "重身"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/hujinding/groups/spell-3407.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "59402",
+        "name": "59402",
+        "displayName": {
+          "zhHans": "59402",
+          "zhHant": "59402"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/hujinding/skins/59402.json"
+      },
+      {
+        "slug": "59403",
+        "name": "59403",
+        "displayName": {
+          "zhHans": "59403",
+          "zhHant": "59403"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/hujinding/skins/59403.json"
+      },
+      {
+        "slug": "skin-59401",
+        "name": "千树繁花",
+        "displayName": {
+          "zhHans": "千树繁花",
+          "zhHant": "千樹繁花"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/hujinding/skins/skin-59401.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/hujinding/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/hujinding.json",
+      "groups": "api/v1/tts/characters/hujinding/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/hujinding/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/hujinding/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "hujinding--594hujinding--3dead01",
+      "resourceId": "594hujinding/3dead01",
+      "text": "三叔不欲杀敌，而欲断汝兄之裔否？",
+      "textLocalized": {
+        "zhHans": "三叔不欲杀敌，而欲断汝兄之裔否？",
+        "zhHant": "三叔不欲殺敵，而欲斷汝兄之裔否？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "59402",
+          "name": "59402",
+          "displayName": {
+            "zhHans": "59402",
+            "zhHant": "59402"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/594hujinding-59120657/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/594hujinding/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hujinding--594hujinding--4dead01",
+      "resourceId": "594hujinding/4dead01",
+      "text": "良人痴不悔，英雄最绝情。",
+      "textLocalized": {
+        "zhHans": "良人痴不悔，英雄最绝情。",
+        "zhHant": "良人癡不悔，英雄最絕情。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "59403",
+          "name": "59403",
+          "displayName": {
+            "zhHans": "59403",
+            "zhHant": "59403"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/594hujinding-59120657/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/594hujinding/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hujinding--594hujinding--2dead01",
+      "resourceId": "594hujinding/2dead01",
+      "text": "观邻阖家齐，悔夫君于万里封侯。",
+      "textLocalized": {
+        "zhHans": "观邻阖家齐，悔夫君于万里封侯。",
+        "zhHant": "觀鄰闔家齊，悔夫君於萬里封侯。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-59401",
+          "name": "千树繁花",
+          "displayName": {
+            "zhHans": "千树繁花",
+            "zhHant": "千樹繁花"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/594hujinding-59120657/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/594hujinding/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hujinding--594hujinding--1dead01",
+      "resourceId": "594hujinding/1dead01",
+      "text": "君无愧于天下，可有悔于妻儿？",
+      "textLocalized": {
+        "zhHans": "君无愧于天下，可有悔于妻儿？",
+        "zhHant": "君無愧於天下，可有悔於妻兒？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/594hujinding-59120657/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/594hujinding/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

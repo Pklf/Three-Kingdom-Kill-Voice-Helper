@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:88d0080696b95aecdcef923bcf05821c3225f8dadad3ac46bce53266313f54b1
-size 7153
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hanrong",
+    "command": "hanrong",
+    "name": "族韩融",
+    "displayName": {
+      "zhHans": "族韩融",
+      "zhHant": "族韓融"
+    },
+    "names": [
+      "族韩融"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族韩融",
+        "zhHant": "族韓融"
+      }
+    ],
+    "ids": [
+      "547"
+    ],
+    "sourceNames": [
+      "族韩融"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族韩融",
+        "zhHant": "族韓融"
+      }
+    ],
+    "sourceIds": [
+      "547"
+    ],
+    "searchNames": [
+      "hanrong",
+      "族韩融",
+      "族韓融"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/hanrong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3255",
+        "name": "恤民",
+        "displayName": {
+          "zhHans": "恤民",
+          "zhHant": "恤民"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hanrong/groups/spell-3255.json"
+      },
+      {
+        "slug": "spell-3258",
+        "name": "连和",
+        "displayName": {
+          "zhHans": "连和",
+          "zhHant": "連和"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hanrong/groups/spell-3258.json"
+      },
+      {
+        "slug": "spell-3259",
+        "name": "缓颊",
+        "displayName": {
+          "zhHans": "缓颊",
+          "zhHant": "緩頰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/hanrong/groups/spell-3259.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/hanrong/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54701",
+        "name": "只身说虎",
+        "displayName": {
+          "zhHans": "只身说虎",
+          "zhHant": "隻身說虎"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/hanrong/skins/skin-54701.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/hanrong.json",
+      "groups": "api/v1/tts/characters/hanrong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/hanrong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3259",
+    "name": "缓颊",
+    "displayName": {
+      "zhHans": "缓颊",
+      "zhHant": "緩頰"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/hanrong/groups/spell-3259.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "hanrong--547hanrong--1skill2_1",
+      "resourceId": "547hanrong/1skill2_1",
+      "text": "我之所言，皆为君好。",
+      "textLocalized": {
+        "zhHans": "我之所言，皆为君好。",
+        "zhHant": "我之所言，皆爲君好。"
+      },
+      "group": {
+        "slug": "spell-3259",
+        "name": "缓颊",
+        "displayName": {
+          "zhHans": "缓颊",
+          "zhHant": "緩頰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/547hanrong-de93d89a/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/547hanrong/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanrong--547hanrong--1skill2_2",
+      "resourceId": "547hanrong/1skill2_2",
+      "text": "吾言之切切，请君听之。",
+      "textLocalized": {
+        "zhHans": "吾言之切切，请君听之。",
+        "zhHant": "吾言之切切，請君聽之。"
+      },
+      "group": {
+        "slug": "spell-3259",
+        "name": "缓颊",
+        "displayName": {
+          "zhHans": "缓颊",
+          "zhHant": "緩頰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/547hanrong-de93d89a/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/547hanrong/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanrong--547hanrong--2skill2_1",
+      "resourceId": "547hanrong/2skill2_1",
+      "text": "君侯掳掠百官，欲千夫所指乎？",
+      "textLocalized": {
+        "zhHans": "君侯掳掠百官，欲千夫所指乎？",
+        "zhHant": "君侯擄掠百官，欲千夫所指乎？"
+      },
+      "group": {
+        "slug": "spell-3259",
+        "name": "缓颊",
+        "displayName": {
+          "zhHans": "缓颊",
+          "zhHant": "緩頰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54701",
+          "name": "只身说虎",
+          "displayName": {
+            "zhHans": "只身说虎",
+            "zhHant": "隻身說虎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/547hanrong-de93d89a/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/547hanrong/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hanrong--547hanrong--2skill2_2",
+      "resourceId": "547hanrong/2skill2_2",
+      "text": "诸公卿于君无益，何不放之而去？",
+      "textLocalized": {
+        "zhHans": "诸公卿于君无益，何不放之而去？",
+        "zhHant": "諸公卿於君無益，何不放之而去？"
+      },
+      "group": {
+        "slug": "spell-3259",
+        "name": "缓颊",
+        "displayName": {
+          "zhHans": "缓颊",
+          "zhHant": "緩頰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-54701",
+          "name": "只身说虎",
+          "displayName": {
+            "zhHans": "只身说虎",
+            "zhHant": "隻身說虎"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/547hanrong-de93d89a/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/547hanrong/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

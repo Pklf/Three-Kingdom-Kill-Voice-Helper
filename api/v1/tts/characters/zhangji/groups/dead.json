@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f442c7810e28857a3a3929289e82ae31026c2d44ccc74f04ba39b8b54cbcd68d
-size 7309
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangji",
+    "command": "zhangji",
+    "name": "张济",
+    "displayName": {
+      "zhHans": "张济",
+      "zhHant": "張濟"
+    },
+    "names": [
+      "张济"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张济",
+        "zhHant": "張濟"
+      }
+    ],
+    "ids": [
+      "419"
+    ],
+    "sourceNames": [
+      "张济"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张济",
+        "zhHant": "張濟"
+      }
+    ],
+    "sourceIds": [
+      "419"
+    ],
+    "searchNames": [
+      "zhangji",
+      "张济",
+      "張濟"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangji/groups/dead.json"
+      },
+      {
+        "slug": "spell-856",
+        "name": "掠命",
+        "displayName": {
+          "zhHans": "掠命",
+          "zhHant": "掠命"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangji/groups/spell-856.json"
+      },
+      {
+        "slug": "spell-857",
+        "name": "屯军",
+        "displayName": {
+          "zhHans": "屯军",
+          "zhHant": "屯軍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangji/groups/spell-857.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41902",
+        "name": "屯驻弘农",
+        "displayName": {
+          "zhHans": "屯驻弘农",
+          "zhHant": "屯駐弘農"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41902.json"
+      },
+      {
+        "slug": "skin-41903",
+        "name": "悍威狠决",
+        "displayName": {
+          "zhHans": "悍威狠决",
+          "zhHant": "悍威狠決"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41903.json"
+      },
+      {
+        "slug": "skin-41901",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangji/skins/skin-41901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangji.json",
+      "groups": "api/v1/tts/characters/zhangji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhangji/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhangji--419zhangji--1dead01",
+      "resourceId": "419zhangji/1dead01",
+      "text": "哪里来的乱箭？",
+      "textLocalized": {
+        "zhHans": "哪里来的乱箭？",
+        "zhHant": "哪裏來的亂箭？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--4dead01",
+      "resourceId": "419zhangji/4dead01",
+      "text": "无端乱箭，竟能伤我性命。",
+      "textLocalized": {
+        "zhHans": "无端乱箭，竟能伤我性命。",
+        "zhHant": "無端亂箭，竟能傷我性命。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41902",
+          "name": "屯驻弘农",
+          "displayName": {
+            "zhHans": "屯驻弘农",
+            "zhHant": "屯駐弘農"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--5dead01",
+      "resourceId": "419zhangji/5dead01",
+      "text": "张氏一族兴盛，吾侄请多用心。",
+      "textLocalized": {
+        "zhHans": "张氏一族兴盛，吾侄请多用心。",
+        "zhHant": "張氏一族興盛，吾侄請多用心。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41903",
+          "name": "悍威狠决",
+          "displayName": {
+            "zhHans": "悍威狠决",
+            "zhHant": "悍威狠決"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangji--419zhangji--3dead01",
+      "resourceId": "419zhangji/3dead01",
+      "text": "望绣，能复我大业。",
+      "textLocalized": {
+        "zhHans": "望绣，能复我大业。",
+        "zhHant": "望繡，能復我大業。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41901",
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/419zhangji-53159937/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/419zhangji/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

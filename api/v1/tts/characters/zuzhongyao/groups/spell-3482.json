@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f7f7ae95cfb4fb552d3010e84e3f6dfd01c6ed6c8d0861fbdd31e27fea17301c
-size 4837
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zuzhongyao",
+    "command": "zuzhongyao",
+    "name": "族钟繇",
+    "displayName": {
+      "zhHans": "族钟繇",
+      "zhHant": "族鍾繇"
+    },
+    "names": [
+      "族钟繇"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟繇",
+        "zhHant": "族鍾繇"
+      }
+    ],
+    "ids": [
+      "630"
+    ],
+    "sourceNames": [
+      "族钟繇"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟繇",
+        "zhHant": "族鍾繇"
+      }
+    ],
+    "sourceIds": [
+      "630"
+    ],
+    "searchNames": [
+      "zuzhongyao",
+      "族钟繇",
+      "族鍾繇"
+    ],
+    "lineCount": 7,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3482",
+        "name": "承启",
+        "displayName": {
+          "zhHans": "承启",
+          "zhHant": "承啓"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3482.json"
+      },
+      {
+        "slug": "spell-3483",
+        "name": "诫厉",
+        "displayName": {
+          "zhHans": "诫厉",
+          "zhHant": "誡厲"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3483.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zuzhongyao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zuzhongyao.json",
+      "groups": "api/v1/tts/characters/zuzhongyao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zuzhongyao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3482",
+    "name": "承启",
+    "displayName": {
+      "zhHans": "承启",
+      "zhHant": "承啓"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zuzhongyao/groups/spell-3482.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill1_1",
+      "resourceId": "630zuzhongyao/1skill1_1",
+      "text": "世有十万字形，亦当有十万字体。",
+      "textLocalized": {
+        "zhHans": "世有十万字形，亦当有十万字体。",
+        "zhHant": "世有十萬字形，亦當有十萬字體。"
+      },
+      "group": {
+        "slug": "spell-3482",
+        "name": "承启",
+        "displayName": {
+          "zhHans": "承启",
+          "zhHant": "承啓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuzhongyao--630zuzhongyao--1skill1_2",
+      "resourceId": "630zuzhongyao/1skill1_2",
+      "text": "笔画如骨，不可拘于一形。",
+      "textLocalized": {
+        "zhHans": "笔画如骨，不可拘于一形。",
+        "zhHant": "筆畫如骨，不可拘於一形。"
+      },
+      "group": {
+        "slug": "spell-3482",
+        "name": "承启",
+        "displayName": {
+          "zhHans": "承启",
+          "zhHant": "承啓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/630zuzhongyao-ca61f678/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/630zuzhongyao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

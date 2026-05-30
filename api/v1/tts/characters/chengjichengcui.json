@@ -1,3 +1,271 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4a478de9db60319b9a2901f85aade9b705d0e19811a3845d31267fa505db832b
-size 7623
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "chengjichengcui",
+    "command": "chengjichengcui",
+    "name": "成济成倅",
+    "displayName": {
+      "zhHans": "成济成倅",
+      "zhHant": "成濟成倅"
+    },
+    "names": [
+      "成济成倅"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "成济成倅",
+        "zhHant": "成濟成倅"
+      }
+    ],
+    "ids": [
+      "551"
+    ],
+    "sourceNames": [
+      "成济成倅"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "成济成倅",
+        "zhHant": "成濟成倅"
+      }
+    ],
+    "sourceIds": [
+      "551"
+    ],
+    "searchNames": [
+      "chengjichengcui",
+      "成济成倅",
+      "成濟成倅"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/chengjichengcui/groups/dead.json"
+      },
+      {
+        "slug": "spell-3270",
+        "name": "透髓",
+        "displayName": {
+          "zhHans": "透髓",
+          "zhHant": "透髓"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/chengjichengcui/groups/spell-3270.json"
+      },
+      {
+        "slug": "spell-3271",
+        "name": "畜鸣",
+        "displayName": {
+          "zhHans": "畜鸣",
+          "zhHant": "畜鳴"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/chengjichengcui/groups/spell-3271.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chengjichengcui/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chengjichengcui.json",
+      "groups": "api/v1/tts/characters/chengjichengcui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chengjichengcui/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chengjichengcui--551chengjichengcui--1dead01",
+      "resourceId": "551chengjichengcui/1dead01",
+      "text": "今为贼子贾充所害！",
+      "textLocalized": {
+        "zhHans": "今为贼子贾充所害！",
+        "zhHant": "今爲賊子賈充所害！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/551chengjichengcui-cacea92b/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/551chengjichengcui/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengjichengcui--551chengjichengcui--1skill1_1",
+      "resourceId": "551chengjichengcui/1skill1_1",
+      "text": "区区黄口孺帝，能有何作为？",
+      "textLocalized": {
+        "zhHans": "区区黄口孺帝，能有何作为？",
+        "zhHant": "區區黃口孺帝，能有何作爲？"
+      },
+      "group": {
+        "slug": "spell-3270",
+        "name": "透髓",
+        "displayName": {
+          "zhHans": "透髓",
+          "zhHant": "透髓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/551chengjichengcui-cacea92b/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/551chengjichengcui/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengjichengcui--551chengjichengcui--1skill1_2",
+      "resourceId": "551chengjichengcui/1skill1_2",
+      "text": "昔年沙场茹血，今欲饮帝血！",
+      "textLocalized": {
+        "zhHans": "昔年沙场茹血，今欲饮帝血！",
+        "zhHant": "昔年沙場茹血，今欲飲帝血！"
+      },
+      "group": {
+        "slug": "spell-3270",
+        "name": "透髓",
+        "displayName": {
+          "zhHans": "透髓",
+          "zhHant": "透髓"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/551chengjichengcui-cacea92b/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/551chengjichengcui/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengjichengcui--551chengjichengcui--1skill2_1",
+      "resourceId": "551chengjichengcui/1skill2_1",
+      "text": "明公为何如此待我兄弟？",
+      "textLocalized": {
+        "zhHans": "明公为何如此待我兄弟？",
+        "zhHant": "明公爲何如此待我兄弟？"
+      },
+      "group": {
+        "slug": "spell-3271",
+        "name": "畜鸣",
+        "displayName": {
+          "zhHans": "畜鸣",
+          "zhHant": "畜鳴"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/551chengjichengcui-cacea92b/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/551chengjichengcui/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chengjichengcui--551chengjichengcui--1skill2_2",
+      "resourceId": "551chengjichengcui/1skill2_2",
+      "text": "栖佳木之良禽，其鸣亦哀乎。",
+      "textLocalized": {
+        "zhHans": "栖佳木之良禽，其鸣亦哀乎。",
+        "zhHant": "棲佳木之良禽，其鳴亦哀乎。"
+      },
+      "group": {
+        "slug": "spell-3271",
+        "name": "畜鸣",
+        "displayName": {
+          "zhHans": "畜鸣",
+          "zhHant": "畜鳴"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/551chengjichengcui-cacea92b/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/551chengjichengcui/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

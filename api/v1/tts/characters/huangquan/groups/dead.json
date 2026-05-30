@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6fbf784aa61390fe89764391ca312b34f6c4949b70b268ae727e88ec9d2a6d87
-size 7449
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huangquan",
+    "command": "huangquan",
+    "name": "黄权",
+    "displayName": {
+      "zhHans": "黄权",
+      "zhHant": "黃權"
+    },
+    "names": [
+      "黄权"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "黄权",
+        "zhHant": "黃權"
+      }
+    ],
+    "ids": [
+      "421"
+    ],
+    "sourceNames": [
+      "黄权"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "黄权",
+        "zhHant": "黃權"
+      }
+    ],
+    "sourceIds": [
+      "421"
+    ],
+    "searchNames": [
+      "huangquan",
+      "黄权",
+      "黃權"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/huangquan/groups/dead.json"
+      },
+      {
+        "slug": "spell-859",
+        "name": "点虎",
+        "displayName": {
+          "zhHans": "点虎",
+          "zhHant": "點虎"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/huangquan/groups/spell-859.json"
+      },
+      {
+        "slug": "spell-860",
+        "name": "谏计",
+        "displayName": {
+          "zhHans": "谏计",
+          "zhHant": "諫計"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/huangquan/groups/spell-860.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangquan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42101",
+        "name": "诉君局势",
+        "displayName": {
+          "zhHans": "诉君局势",
+          "zhHant": "訴君局勢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangquan/skins/skin-42101.json"
+      },
+      {
+        "slug": "skin-42103",
+        "name": "镇城坚守",
+        "displayName": {
+          "zhHans": "镇城坚守",
+          "zhHant": "鎮城堅守"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangquan/skins/skin-42103.json"
+      },
+      {
+        "slug": "skin-42102",
+        "name": "面色悲戚",
+        "displayName": {
+          "zhHans": "面色悲戚",
+          "zhHant": "面色悲慼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangquan/skins/skin-42102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huangquan.json",
+      "groups": "api/v1/tts/characters/huangquan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huangquan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/huangquan/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "huangquan--421huangquan--1dead01",
+      "resourceId": "421huangquan/1dead01",
+      "text": "魏王厚待于我，降魏又有何错？",
+      "textLocalized": {
+        "zhHans": "魏王厚待于我，降魏又有何错？",
+        "zhHant": "魏王厚待於我，降魏又有何錯？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/421huangquan-f0941e9e/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/421huangquan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangquan--421huangquan--3dead01",
+      "resourceId": "421huangquan/3dead01",
+      "text": "荧惑守心，劫难难逃。",
+      "textLocalized": {
+        "zhHans": "荧惑守心，劫难难逃。",
+        "zhHant": "熒惑守心，劫難難逃。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42101",
+          "name": "诉君局势",
+          "displayName": {
+            "zhHans": "诉君局势",
+            "zhHant": "訴君局勢"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/421huangquan-f0941e9e/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/421huangquan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangquan--421huangquan--5dead01",
+      "resourceId": "421huangquan/5dead01",
+      "text": "降吴不可却降曹，忠义安能事两朝？",
+      "textLocalized": {
+        "zhHans": "降吴不可却降曹，忠义安能事两朝？",
+        "zhHant": "降吳不可卻降曹，忠義安能事兩朝？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42103",
+          "name": "镇城坚守",
+          "displayName": {
+            "zhHans": "镇城坚守",
+            "zhHant": "鎮城堅守"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/421huangquan-f0941e9e/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/421huangquan/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangquan--421huangquan--4dead01",
+      "resourceId": "421huangquan/4dead01",
+      "text": "哀悲本志，放流殊疆。",
+      "textLocalized": {
+        "zhHans": "哀悲本志，放流殊疆。",
+        "zhHant": "哀悲本志，放流殊疆。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42102",
+          "name": "面色悲戚",
+          "displayName": {
+            "zhHans": "面色悲戚",
+            "zhHant": "面色悲慼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/421huangquan-f0941e9e/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/421huangquan/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

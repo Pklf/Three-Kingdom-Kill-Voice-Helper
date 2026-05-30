@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc37c800d2360bbfb2ce035d76f561ce7d31565a3f33d5849d885d58f01a58ae
-size 7686
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunshao",
+    "command": "sunshao",
+    "name": "孙邵",
+    "displayName": {
+      "zhHans": "孙邵",
+      "zhHant": "孫邵"
+    },
+    "names": [
+      "孙邵"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙邵",
+        "zhHant": "孫邵"
+      }
+    ],
+    "ids": [
+      "433"
+    ],
+    "sourceNames": [
+      "孙邵"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙邵",
+        "zhHant": "孫邵"
+      }
+    ],
+    "sourceIds": [
+      "433"
+    ],
+    "searchNames": [
+      "sunshao",
+      "孙邵",
+      "孫邵"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/sunshao/groups/dead.json"
+      },
+      {
+        "slug": "spell-914",
+        "name": "弼政",
+        "displayName": {
+          "zhHans": "弼政",
+          "zhHant": "弼政"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/sunshao/groups/spell-914.json"
+      },
+      {
+        "slug": "spell-915",
+        "name": "佚典",
+        "displayName": {
+          "zhHans": "佚典",
+          "zhHant": "佚典"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/sunshao/groups/spell-915.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "43302",
+        "name": "43302",
+        "displayName": {
+          "zhHans": "43302",
+          "zhHant": "43302"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunshao/skins/43302.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunshao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunshao.json",
+      "groups": "api/v1/tts/characters/sunshao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunshao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "43302",
+    "name": "43302",
+    "displayName": {
+      "zhHans": "43302",
+      "zhHant": "43302"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/sunshao/skins/43302.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "sunshao--433sunshao--2dead01",
+      "resourceId": "433sunshao/2dead01",
+      "text": "奏本弹劾，望君王下罪。",
+      "textLocalized": {
+        "zhHans": "奏本弹劾，望君王下罪。",
+        "zhHant": "奏本彈劾，望君王下罪。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43302",
+          "name": "43302",
+          "displayName": {
+            "zhHans": "43302",
+            "zhHant": "43302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/433sunshao-80c9d01c/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/433sunshao/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunshao--433sunshao--2skill1_1",
+      "resourceId": "433sunshao/2skill1_1",
+      "text": "弼政之功,万世不忘。",
+      "textLocalized": {
+        "zhHans": "弼政之功,万世不忘。",
+        "zhHant": "弼政之功,萬世不忘。"
+      },
+      "group": {
+        "slug": "spell-914",
+        "name": "弼政",
+        "displayName": {
+          "zhHans": "弼政",
+          "zhHant": "弼政"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43302",
+          "name": "43302",
+          "displayName": {
+            "zhHans": "43302",
+            "zhHant": "43302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/433sunshao-80c9d01c/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/433sunshao/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunshao--433sunshao--2skill1_2",
+      "resourceId": "433sunshao/2skill1_2",
+      "text": "辅弼佐君，为吾己任。",
+      "textLocalized": {
+        "zhHans": "辅弼佐君，为吾己任。",
+        "zhHant": "輔弼佐君，爲吾己任。"
+      },
+      "group": {
+        "slug": "spell-914",
+        "name": "弼政",
+        "displayName": {
+          "zhHans": "弼政",
+          "zhHant": "弼政"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43302",
+          "name": "43302",
+          "displayName": {
+            "zhHans": "43302",
+            "zhHant": "43302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/433sunshao-80c9d01c/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/433sunshao/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunshao--433sunshao--2skill2_1",
+      "resourceId": "433sunshao/2skill2_1",
+      "text": "不求功留千秋，只求国世万年。",
+      "textLocalized": {
+        "zhHans": "不求功留千秋，只求国世万年。",
+        "zhHant": "不求功留千秋，只求國世萬年。"
+      },
+      "group": {
+        "slug": "spell-915",
+        "name": "佚典",
+        "displayName": {
+          "zhHans": "佚典",
+          "zhHant": "佚典"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43302",
+          "name": "43302",
+          "displayName": {
+            "zhHans": "43302",
+            "zhHant": "43302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/433sunshao-80c9d01c/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/433sunshao/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunshao--433sunshao--2skill2_2",
+      "resourceId": "433sunshao/2skill2_2",
+      "text": "无人撰写录，只有人评过。",
+      "textLocalized": {
+        "zhHans": "无人撰写录，只有人评过。",
+        "zhHant": "無人撰寫錄，只有人評過。"
+      },
+      "group": {
+        "slug": "spell-915",
+        "name": "佚典",
+        "displayName": {
+          "zhHans": "佚典",
+          "zhHant": "佚典"
+        }
+      },
+      "skins": [
+        {
+          "slug": "43302",
+          "name": "43302",
+          "displayName": {
+            "zhHans": "43302",
+            "zhHant": "43302"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/433sunshao-80c9d01c/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/433sunshao/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

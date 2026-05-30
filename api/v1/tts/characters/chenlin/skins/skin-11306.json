@@ -1,3 +1,428 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf27b248e078657b83a4146d6772d340d4d25715963ecf294326cfa9efefdf14
-size 11971
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "chenlin",
+    "command": "chenlin",
+    "name": "陈琳",
+    "displayName": {
+      "zhHans": "陈琳",
+      "zhHant": "陳琳"
+    },
+    "names": [
+      "陈琳",
+      "4082"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陈琳",
+        "zhHant": "陳琳"
+      },
+      {
+        "zhHans": "4082",
+        "zhHant": "4082"
+      }
+    ],
+    "ids": [
+      "113",
+      "4082"
+    ],
+    "sourceNames": [
+      "陈琳"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陈琳",
+        "zhHant": "陳琳"
+      }
+    ],
+    "sourceIds": [
+      "113",
+      "4082"
+    ],
+    "searchNames": [
+      "chenlin",
+      "陈琳",
+      "陳琳",
+      "4082"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/groups/dead.json"
+      },
+      {
+        "slug": "spell-212",
+        "name": "笔伐",
+        "displayName": {
+          "zhHans": "笔伐",
+          "zhHant": "筆伐"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chenlin/groups/spell-212.json"
+      },
+      {
+        "slug": "spell-213",
+        "name": "颂词",
+        "displayName": {
+          "zhHans": "颂词",
+          "zhHant": "頌詞"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/chenlin/groups/spell-213.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-11306",
+        "name": "下笔檄文",
+        "displayName": {
+          "zhHans": "下笔檄文",
+          "zhHant": "下筆檄文"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11306.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-11305",
+        "name": "夜浓酒醇",
+        "displayName": {
+          "zhHans": "夜浓酒醇",
+          "zhHant": "夜濃酒醇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11305.json"
+      },
+      {
+        "slug": "skin-11305-11306",
+        "name": "夜浓酒醇,下笔檄文",
+        "displayName": {
+          "zhHans": "夜浓酒醇,下笔檄文",
+          "zhHant": "夜濃酒醇,下筆檄文"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11305-11306.json"
+      },
+      {
+        "slug": "skin-11301",
+        "name": "破竹之咒",
+        "displayName": {
+          "zhHans": "破竹之咒",
+          "zhHant": "破竹之咒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11301.json"
+      },
+      {
+        "slug": "skin-11302",
+        "name": "符檄擅声",
+        "displayName": {
+          "zhHans": "符檄擅声",
+          "zhHant": "符檄擅聲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11302.json"
+      },
+      {
+        "slug": "skin-11304",
+        "name": "重阳闲趣",
+        "displayName": {
+          "zhHans": "重阳闲趣",
+          "zhHant": "重陽閒趣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11304.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/chenlin.json",
+      "groups": "api/v1/tts/characters/chenlin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/chenlin/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-11306",
+    "name": "下笔檄文",
+    "displayName": {
+      "zhHans": "下笔檄文",
+      "zhHant": "下筆檄文"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/chenlin/skins/skin-11306.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "chenlin--113chenlin--6dead01",
+      "resourceId": "113chenlin/6dead01",
+      "text": "笔力虽遒劲，终拗不过阎君召唤……",
+      "textLocalized": {
+        "zhHans": "笔力虽遒劲，终拗不过阎君召唤……",
+        "zhHant": "筆力雖遒勁，終拗不過閻君召喚……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11306",
+          "name": "下笔檄文",
+          "displayName": {
+            "zhHans": "下笔檄文",
+            "zhHant": "下筆檄文"
+          }
+        },
+        {
+          "slug": "skin-11305",
+          "name": "夜浓酒醇",
+          "displayName": {
+            "zhHans": "夜浓酒醇",
+            "zhHant": "夜濃酒醇"
+          }
+        },
+        {
+          "slug": "skin-11305-11306",
+          "name": "夜浓酒醇,下笔檄文",
+          "displayName": {
+            "zhHans": "夜浓酒醇,下笔檄文",
+            "zhHant": "夜濃酒醇,下筆檄文"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenlin--113chenlin--6skill1_1",
+      "resourceId": "113chenlin/6skill1_1",
+      "text": "君子当履其道，以笔为史，方为致胜之道。",
+      "textLocalized": {
+        "zhHans": "君子当履其道，以笔为史，方为致胜之道。",
+        "zhHant": "君子當履其道，以筆爲史，方爲致勝之道。"
+      },
+      "group": {
+        "slug": "spell-212",
+        "name": "笔伐",
+        "displayName": {
+          "zhHans": "笔伐",
+          "zhHant": "筆伐"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11306",
+          "name": "下笔檄文",
+          "displayName": {
+            "zhHans": "下笔檄文",
+            "zhHant": "下筆檄文"
+          }
+        },
+        {
+          "slug": "skin-11305",
+          "name": "夜浓酒醇",
+          "displayName": {
+            "zhHans": "夜浓酒醇",
+            "zhHant": "夜濃酒醇"
+          }
+        },
+        {
+          "slug": "skin-11305-11306",
+          "name": "夜浓酒醇,下笔檄文",
+          "displayName": {
+            "zhHans": "夜浓酒醇,下笔檄文",
+            "zhHant": "夜濃酒醇,下筆檄文"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenlin--113chenlin--6skill1_2",
+      "resourceId": "113chenlin/6skill1_2",
+      "text": "生花妙笔，败敌千里。",
+      "textLocalized": {
+        "zhHans": "生花妙笔，败敌千里。",
+        "zhHant": "生花妙筆，敗敵千里。"
+      },
+      "group": {
+        "slug": "spell-212",
+        "name": "笔伐",
+        "displayName": {
+          "zhHans": "笔伐",
+          "zhHant": "筆伐"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11306",
+          "name": "下笔檄文",
+          "displayName": {
+            "zhHans": "下笔檄文",
+            "zhHant": "下筆檄文"
+          }
+        },
+        {
+          "slug": "skin-11305",
+          "name": "夜浓酒醇",
+          "displayName": {
+            "zhHans": "夜浓酒醇",
+            "zhHant": "夜濃酒醇"
+          }
+        },
+        {
+          "slug": "skin-11305-11306",
+          "name": "夜浓酒醇,下笔檄文",
+          "displayName": {
+            "zhHans": "夜浓酒醇,下笔檄文",
+            "zhHant": "夜濃酒醇,下筆檄文"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenlin--113chenlin--6skill2_1",
+      "resourceId": "113chenlin/6skill2_1",
+      "text": "德隆望尊，万民敬仰，国之典范。",
+      "textLocalized": {
+        "zhHans": "德隆望尊，万民敬仰，国之典范。",
+        "zhHant": "德隆望尊，萬民敬仰，國之典範。"
+      },
+      "group": {
+        "slug": "spell-213",
+        "name": "颂词",
+        "displayName": {
+          "zhHans": "颂词",
+          "zhHant": "頌詞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11306",
+          "name": "下笔檄文",
+          "displayName": {
+            "zhHans": "下笔檄文",
+            "zhHant": "下筆檄文"
+          }
+        },
+        {
+          "slug": "skin-11305",
+          "name": "夜浓酒醇",
+          "displayName": {
+            "zhHans": "夜浓酒醇",
+            "zhHant": "夜濃酒醇"
+          }
+        },
+        {
+          "slug": "skin-11305-11306",
+          "name": "夜浓酒醇,下笔檄文",
+          "displayName": {
+            "zhHans": "夜浓酒醇,下笔檄文",
+            "zhHant": "夜濃酒醇,下筆檄文"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "chenlin--113chenlin--6skill2_2",
+      "resourceId": "113chenlin/6skill2_2",
+      "text": "豺狼野心，潜包祸谋！",
+      "textLocalized": {
+        "zhHans": "豺狼野心，潜包祸谋！",
+        "zhHant": "豺狼野心，潛包禍謀！"
+      },
+      "group": {
+        "slug": "spell-213",
+        "name": "颂词",
+        "displayName": {
+          "zhHans": "颂词",
+          "zhHant": "頌詞"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11306",
+          "name": "下笔檄文",
+          "displayName": {
+            "zhHans": "下笔檄文",
+            "zhHant": "下筆檄文"
+          }
+        },
+        {
+          "slug": "skin-11305",
+          "name": "夜浓酒醇",
+          "displayName": {
+            "zhHans": "夜浓酒醇",
+            "zhHant": "夜濃酒醇"
+          }
+        },
+        {
+          "slug": "skin-11305-11306",
+          "name": "夜浓酒醇,下笔檄文",
+          "displayName": {
+            "zhHans": "夜浓酒醇,下笔檄文",
+            "zhHant": "夜濃酒醇,下筆檄文"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/113chenlin-7a6cb78a/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/113chenlin/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

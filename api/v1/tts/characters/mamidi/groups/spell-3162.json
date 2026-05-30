@@ -1,3 +1,255 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:26419d093675b56db932c6967faae421bf222de6a9af0e6049ad22c9cee2c0c6
-size 6796
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "mamidi",
+    "command": "mamidi",
+    "name": "马日磾",
+    "displayName": {
+      "zhHans": "马日磾",
+      "zhHant": "馬日磾"
+    },
+    "names": [
+      "马日磾"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "马日磾",
+        "zhHant": "馬日磾"
+      }
+    ],
+    "ids": [
+      "520"
+    ],
+    "sourceNames": [
+      "马日磾"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "马日磾",
+        "zhHant": "馬日磾"
+      }
+    ],
+    "sourceIds": [
+      "520"
+    ],
+    "searchNames": [
+      "mamidi",
+      "马日磾",
+      "馬日磾"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/mamidi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3162",
+        "name": "秉节",
+        "displayName": {
+          "zhHans": "秉节",
+          "zhHant": "秉節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/mamidi/groups/spell-3162.json"
+      },
+      {
+        "slug": "spell-3163",
+        "name": "正订",
+        "displayName": {
+          "zhHans": "正订",
+          "zhHant": "正訂"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/mamidi/groups/spell-3163.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mamidi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52001",
+        "name": "夺符愤膺",
+        "displayName": {
+          "zhHans": "夺符愤膺",
+          "zhHant": "奪符憤膺"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mamidi/skins/skin-52001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/mamidi.json",
+      "groups": "api/v1/tts/characters/mamidi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/mamidi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3162",
+    "name": "秉节",
+    "displayName": {
+      "zhHans": "秉节",
+      "zhHant": "秉節"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/mamidi/groups/spell-3162.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "mamidi--520mamidi--1skill1_1",
+      "resourceId": "520mamidi/1skill1_1",
+      "text": "秉节传旌[jīng]，心存丹衷。",
+      "textLocalized": {
+        "zhHans": "秉节传旌[jīng]，心存丹衷。",
+        "zhHant": "秉節傳旌[jīng]，心存丹衷。"
+      },
+      "group": {
+        "slug": "spell-3162",
+        "name": "秉节",
+        "displayName": {
+          "zhHans": "秉节",
+          "zhHant": "秉節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/520mamidi-18ba42aa/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/520mamidi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mamidi--520mamidi--1skill1_2",
+      "resourceId": "520mamidi/1skill1_2",
+      "text": "秉节刚劲，奸佞[nìng]务尽。",
+      "textLocalized": {
+        "zhHans": "秉节刚劲，奸佞[nìng]务尽。",
+        "zhHant": "秉節剛勁，奸佞[nìng]務盡。"
+      },
+      "group": {
+        "slug": "spell-3162",
+        "name": "秉节",
+        "displayName": {
+          "zhHans": "秉节",
+          "zhHant": "秉節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/520mamidi-18ba42aa/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/520mamidi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mamidi--520mamidi--2skill1_1",
+      "resourceId": "520mamidi/2skill1_1",
+      "text": "秉节传旌，心存丹衷。",
+      "textLocalized": {
+        "zhHans": "秉节传旌，心存丹衷。",
+        "zhHant": "秉節傳旌，心存丹衷。"
+      },
+      "group": {
+        "slug": "spell-3162",
+        "name": "秉节",
+        "displayName": {
+          "zhHans": "秉节",
+          "zhHant": "秉節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52001",
+          "name": "夺符愤膺",
+          "displayName": {
+            "zhHans": "夺符愤膺",
+            "zhHant": "奪符憤膺"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/520mamidi-18ba42aa/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/520mamidi/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mamidi--520mamidi--2skill1_2",
+      "resourceId": "520mamidi/2skill1_2",
+      "text": "秉节刚劲，奸佞务尽。",
+      "textLocalized": {
+        "zhHans": "秉节刚劲，奸佞务尽。",
+        "zhHant": "秉節剛勁，奸佞務盡。"
+      },
+      "group": {
+        "slug": "spell-3162",
+        "name": "秉节",
+        "displayName": {
+          "zhHans": "秉节",
+          "zhHant": "秉節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52001",
+          "name": "夺符愤膺",
+          "displayName": {
+            "zhHans": "夺符愤膺",
+            "zhHant": "奪符憤膺"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/520mamidi-18ba42aa/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/520mamidi/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,547 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9b5e4d286759c786f5f794269429c0bb2e4ef48eac2c6d02efa32033433552e2
-size 15431
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "maliang",
+    "command": "maliang",
+    "name": "马良",
+    "displayName": {
+      "zhHans": "马良",
+      "zhHant": "馬良"
+    },
+    "names": [
+      "马良"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "马良",
+        "zhHant": "馬良"
+      }
+    ],
+    "ids": [
+      "128"
+    ],
+    "sourceNames": [
+      "马良"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "马良",
+        "zhHant": "馬良"
+      }
+    ],
+    "sourceIds": [
+      "128"
+    ],
+    "searchNames": [
+      "maliang",
+      "马良",
+      "馬良"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/groups/dead.json"
+      },
+      {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/maliang/groups/spell-383.json"
+      },
+      {
+        "slug": "spell-384",
+        "name": "应援",
+        "displayName": {
+          "zhHans": "应援",
+          "zhHant": "應援"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/maliang/groups/spell-384.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-12804",
+        "name": "临渊细书",
+        "displayName": {
+          "zhHans": "临渊细书",
+          "zhHant": "臨淵細書"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12804.json"
+      },
+      {
+        "slug": "skin-12807",
+        "name": "千计卷来",
+        "displayName": {
+          "zhHans": "千计卷来",
+          "zhHant": "千計捲來"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12807.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-12802",
+        "name": "文经勤类",
+        "displayName": {
+          "zhHans": "文经勤类",
+          "zhHant": "文經勤類"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12802.json"
+      },
+      {
+        "slug": "skin-12802-12803",
+        "name": "文经勤类,笔酣墨饱",
+        "displayName": {
+          "zhHans": "文经勤类,笔酣墨饱",
+          "zhHant": "文經勤類,筆酣墨飽"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12802-12803.json"
+      },
+      {
+        "slug": "skin-12801",
+        "name": "白眉智士",
+        "displayName": {
+          "zhHans": "白眉智士",
+          "zhHant": "白眉智士"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12801.json"
+      },
+      {
+        "slug": "skin-12803",
+        "name": "笔酣墨饱",
+        "displayName": {
+          "zhHans": "笔酣墨饱",
+          "zhHant": "筆酣墨飽"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12803.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/maliang.json",
+      "groups": "api/v1/tts/characters/maliang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/maliang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-383",
+    "name": "自书",
+    "displayName": {
+      "zhHans": "自书",
+      "zhHant": "自書"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/maliang/groups/spell-383.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "maliang--128maliang--5skill1_1",
+      "resourceId": "128maliang/5skill1_1",
+      "text": "这一手，就看我的吧。",
+      "textLocalized": {
+        "zhHans": "这一手，就看我的吧。",
+        "zhHant": "這一手，就看我的吧。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12804",
+          "name": "临渊细书",
+          "displayName": {
+            "zhHans": "临渊细书",
+            "zhHant": "臨淵細書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--5skill1_2",
+      "resourceId": "128maliang/5skill1_2",
+      "text": "这些牌很好，可是我偏不喜欢。",
+      "textLocalized": {
+        "zhHans": "这些牌很好，可是我偏不喜欢。",
+        "zhHant": "這些牌很好，可是我偏不喜歡。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12804",
+          "name": "临渊细书",
+          "displayName": {
+            "zhHans": "临渊细书",
+            "zhHant": "臨淵細書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--6skill1_1",
+      "resourceId": "128maliang/6skill1_1",
+      "text": "君子有德，当不以物喜，不以己悲。",
+      "textLocalized": {
+        "zhHans": "君子有德，当不以物喜，不以己悲。",
+        "zhHant": "君子有德，當不以物喜，不以己悲。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12807",
+          "name": "千计卷来",
+          "displayName": {
+            "zhHans": "千计卷来",
+            "zhHant": "千計捲來"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--6skill1_2",
+      "resourceId": "128maliang/6skill1_2",
+      "text": "身外之物，应泾渭分明，秋毫无犯。",
+      "textLocalized": {
+        "zhHans": "身外之物，应泾渭分明，秋毫无犯。",
+        "zhHant": "身外之物，應涇渭分明，秋毫無犯。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12807",
+          "name": "千计卷来",
+          "displayName": {
+            "zhHans": "千计卷来",
+            "zhHant": "千計捲來"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--1skill1_1",
+      "resourceId": "128maliang/1skill1_1",
+      "text": "慢着，让我来。",
+      "textLocalized": {
+        "zhHans": "慢着，让我来。",
+        "zhHant": "慢着，讓我來。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--1skill1_2",
+      "resourceId": "128maliang/1skill1_2",
+      "text": "身外之物，不要也罢。",
+      "textLocalized": {
+        "zhHans": "身外之物，不要也罢。",
+        "zhHant": "身外之物，不要也罷。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--4skill1_1",
+      "resourceId": "128maliang/4skill1_1",
+      "text": "自己的才是最好的。",
+      "textLocalized": {
+        "zhHans": "自己的才是最好的。",
+        "zhHant": "自己的纔是最好的。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12802",
+          "name": "文经勤类",
+          "displayName": {
+            "zhHans": "文经勤类",
+            "zhHant": "文經勤類"
+          }
+        },
+        {
+          "slug": "skin-12803",
+          "name": "笔酣墨饱",
+          "displayName": {
+            "zhHans": "笔酣墨饱",
+            "zhHant": "筆酣墨飽"
+          }
+        },
+        {
+          "slug": "skin-12802-12803",
+          "name": "文经勤类,笔酣墨饱",
+          "displayName": {
+            "zhHans": "文经勤类,笔酣墨饱",
+            "zhHant": "文經勤類,筆酣墨飽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--4skill1_2",
+      "resourceId": "128maliang/4skill1_2",
+      "text": "此物于我已无用。",
+      "textLocalized": {
+        "zhHans": "此物于我已无用。",
+        "zhHant": "此物於我已無用。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12802",
+          "name": "文经勤类",
+          "displayName": {
+            "zhHans": "文经勤类",
+            "zhHant": "文經勤類"
+          }
+        },
+        {
+          "slug": "skin-12803",
+          "name": "笔酣墨饱",
+          "displayName": {
+            "zhHans": "笔酣墨饱",
+            "zhHant": "筆酣墨飽"
+          }
+        },
+        {
+          "slug": "skin-12802-12803",
+          "name": "文经勤类,笔酣墨饱",
+          "displayName": {
+            "zhHans": "文经勤类,笔酣墨饱",
+            "zhHant": "文經勤類,筆酣墨飽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--3skill1_1",
+      "resourceId": "128maliang/3skill1_1",
+      "text": "还有后招！",
+      "textLocalized": {
+        "zhHans": "还有后招！",
+        "zhHant": "還有後招！"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12801",
+          "name": "白眉智士",
+          "displayName": {
+            "zhHans": "白眉智士",
+            "zhHant": "白眉智士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--3skill1_2",
+      "resourceId": "128maliang/3skill1_2",
+      "text": "不是我的东西，我都不要。",
+      "textLocalized": {
+        "zhHans": "不是我的东西，我都不要。",
+        "zhHant": "不是我的東西，我都不要。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12801",
+          "name": "白眉智士",
+          "displayName": {
+            "zhHans": "白眉智士",
+            "zhHant": "白眉智士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,372 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:40e80f7258c8101820c4880c349af412df13ac7e478ab9465596a508334ab04f
-size 10271
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xiahoudun",
+    "command": "xiahoudun",
+    "name": "夏侯惇",
+    "displayName": {
+      "zhHans": "夏侯惇",
+      "zhHant": "夏侯惇"
+    },
+    "names": [
+      "夏侯惇",
+      "界夏侯惇"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "夏侯惇",
+        "zhHant": "夏侯惇"
+      },
+      {
+        "zhHans": "界夏侯惇",
+        "zhHant": "界夏侯惇"
+      }
+    ],
+    "ids": [
+      "17",
+      "313"
+    ],
+    "sourceNames": [
+      "夏侯惇",
+      "界夏侯惇"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "夏侯惇",
+        "zhHant": "夏侯惇"
+      },
+      {
+        "zhHans": "界夏侯惇",
+        "zhHant": "界夏侯惇"
+      }
+    ],
+    "sourceIds": [
+      "17",
+      "313"
+    ],
+    "searchNames": [
+      "xiahoudun",
+      "夏侯惇",
+      "界夏侯惇"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xiahoudun/groups/dead.json"
+      },
+      {
+        "slug": "spell-49",
+        "name": "刚烈",
+        "displayName": {
+          "zhHans": "刚烈",
+          "zhHant": "剛烈"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xiahoudun/groups/spell-49.json"
+      },
+      {
+        "slug": "spell-49-720",
+        "name": "刚烈",
+        "displayName": {
+          "zhHans": "刚烈",
+          "zhHant": "剛烈"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahoudun/groups/spell-49-720.json"
+      },
+      {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahoudun/groups/spell-753.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1708",
+        "name": "刚烈无惧",
+        "displayName": {
+          "zhHans": "刚烈无惧",
+          "zhHant": "剛烈無懼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1708.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-1707",
+        "name": "忠武烈火",
+        "displayName": {
+          "zhHans": "忠武烈火",
+          "zhHant": "忠武烈火"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1707.json"
+      },
+      {
+        "slug": "skin-1706",
+        "name": "杀场火战",
+        "displayName": {
+          "zhHans": "杀场火战",
+          "zhHant": "殺場火戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1706.json"
+      },
+      {
+        "slug": "skin-1701",
+        "name": "武将列传",
+        "displayName": {
+          "zhHans": "武将列传",
+          "zhHant": "武將列傳"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1701.json"
+      },
+      {
+        "slug": "skin-1701-1706",
+        "name": "武将列传,杀场火战",
+        "displayName": {
+          "zhHans": "武将列传,杀场火战",
+          "zhHant": "武將列傳,殺場火戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1701-1706.json"
+      },
+      {
+        "slug": "skin-1703",
+        "name": "浴血奋战",
+        "displayName": {
+          "zhHans": "浴血奋战",
+          "zhHant": "浴血奮戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1703.json"
+      },
+      {
+        "slug": "skin-2",
+        "name": "经典",
+        "displayName": {
+          "zhHans": "经典",
+          "zhHant": "經典"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-2.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xiahoudun.json",
+      "groups": "api/v1/tts/characters/xiahoudun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xiahoudun/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1708",
+    "name": "刚烈无惧",
+    "displayName": {
+      "zhHans": "刚烈无惧",
+      "zhHant": "剛烈無懼"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/xiahoudun/skins/skin-1708.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "xiahoudun--17xiahoudun--6dead01",
+      "resourceId": "17xiahoudun/6dead01",
+      "text": "双眼……都要闭上了……",
+      "textLocalized": {
+        "zhHans": "双眼……都要闭上了……",
+        "zhHant": "雙眼……都要閉上了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1708",
+          "name": "刚烈无惧",
+          "displayName": {
+            "zhHans": "刚烈无惧",
+            "zhHant": "剛烈無懼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/6dead01-a17d7e3d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/6dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--6skill1_1",
+      "resourceId": "17xiahoudun/6skill1_1",
+      "text": "怎能被这点小伤吓倒？",
+      "textLocalized": {
+        "zhHans": "怎能被这点小伤吓倒？",
+        "zhHant": "怎能被這點小傷嚇倒？"
+      },
+      "group": {
+        "slug": "spell-49-720",
+        "name": "刚烈",
+        "displayName": {
+          "zhHans": "刚烈",
+          "zhHant": "剛烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1708",
+          "name": "刚烈无惧",
+          "displayName": {
+            "zhHans": "刚烈无惧",
+            "zhHant": "剛烈無懼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/6skill1-1-81b71d5d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/6skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--6skill1_2",
+      "resourceId": "17xiahoudun/6skill1_2",
+      "text": "血债，需用血来偿！",
+      "textLocalized": {
+        "zhHans": "血债，需用血来偿！",
+        "zhHant": "血債，需用血來償！"
+      },
+      "group": {
+        "slug": "spell-49-720",
+        "name": "刚烈",
+        "displayName": {
+          "zhHans": "刚烈",
+          "zhHant": "剛烈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1708",
+          "name": "刚烈无惧",
+          "displayName": {
+            "zhHans": "刚烈无惧",
+            "zhHant": "剛烈無懼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/6skill1-2-c96cd8e5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/6skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--6skill2_1",
+      "resourceId": "17xiahoudun/6skill2_1",
+      "text": "俭以养德，屯田树兵。",
+      "textLocalized": {
+        "zhHans": "俭以养德，屯田树兵。",
+        "zhHant": "儉以養德，屯田樹兵。"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1708",
+          "name": "刚烈无惧",
+          "displayName": {
+            "zhHans": "刚烈无惧",
+            "zhHant": "剛烈無懼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahoudun--17xiahoudun--6skill2_2",
+      "resourceId": "17xiahoudun/6skill2_2",
+      "text": "粥饭足以供三餐之用，无需酒肉。",
+      "textLocalized": {
+        "zhHans": "粥饭足以供三餐之用，无需酒肉。",
+        "zhHant": "粥飯足以供三餐之用，無需酒肉。"
+      },
+      "group": {
+        "slug": "spell-753",
+        "name": "清俭",
+        "displayName": {
+          "zhHans": "清俭",
+          "zhHant": "清儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1708",
+          "name": "刚烈无惧",
+          "displayName": {
+            "zhHans": "刚烈无惧",
+            "zhHant": "剛烈無懼"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/17xiahoudun-a5b80ae4/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/17xiahoudun/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

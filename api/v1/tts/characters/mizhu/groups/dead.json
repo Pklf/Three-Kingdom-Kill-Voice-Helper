@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:624a0c879746e5e2a52ec0bb86b5950cb80ce600bbfa7541b636442f9bde37e3
-size 8250
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "mizhu",
+    "command": "mizhu",
+    "name": "糜竺",
+    "displayName": {
+      "zhHans": "糜竺",
+      "zhHant": "糜竺"
+    },
+    "names": [
+      "糜竺"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "糜竺",
+        "zhHant": "糜竺"
+      }
+    ],
+    "ids": [
+      "365"
+    ],
+    "sourceNames": [
+      "糜竺"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "糜竺",
+        "zhHant": "糜竺"
+      }
+    ],
+    "sourceIds": [
+      "365"
+    ],
+    "searchNames": [
+      "mizhu",
+      "糜竺"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/mizhu/groups/dead.json"
+      },
+      {
+        "slug": "spell-291",
+        "name": "资援",
+        "displayName": {
+          "zhHans": "资援",
+          "zhHant": "資援"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/mizhu/groups/spell-291.json"
+      },
+      {
+        "slug": "spell-292",
+        "name": "巨贾",
+        "displayName": {
+          "zhHans": "巨贾",
+          "zhHant": "巨賈"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/mizhu/groups/spell-292.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-36505",
+        "name": "惬意巡猎",
+        "displayName": {
+          "zhHans": "惬意巡猎",
+          "zhHant": "愜意巡獵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36505.json"
+      },
+      {
+        "slug": "skin-36504",
+        "name": "设宴玄德",
+        "displayName": {
+          "zhHans": "设宴玄德",
+          "zhHant": "設宴玄德"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36504.json"
+      },
+      {
+        "slug": "skin-36502",
+        "name": "豪商巨贾",
+        "displayName": {
+          "zhHans": "豪商巨贾",
+          "zhHant": "豪商巨賈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36502.json"
+      },
+      {
+        "slug": "skin-36502-36505",
+        "name": "豪商巨贾,惬意巡猎",
+        "displayName": {
+          "zhHans": "豪商巨贾,惬意巡猎",
+          "zhHant": "豪商巨賈,愜意巡獵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36502-36505.json"
+      },
+      {
+        "slug": "skin-36506",
+        "name": "金奁玉宝",
+        "displayName": {
+          "zhHans": "金奁玉宝",
+          "zhHant": "金奩玉寶"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36506.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/mizhu.json",
+      "groups": "api/v1/tts/characters/mizhu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/mizhu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/mizhu/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "mizhu--365mizhu--1dead01",
+      "resourceId": "365mizhu/1dead01",
+      "text": "劣弟背主，我之罪也。",
+      "textLocalized": {
+        "zhHans": "劣弟背主，我之罪也。",
+        "zhHant": "劣弟背主，我之罪也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--4dead01",
+      "resourceId": "365mizhu/4dead01",
+      "text": "请照顾好……舍妹……",
+      "textLocalized": {
+        "zhHans": "请照顾好……舍妹……",
+        "zhHant": "請照顧好……舍妹……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36504",
+          "name": "设宴玄德",
+          "displayName": {
+            "zhHans": "设宴玄德",
+            "zhHant": "設宴玄德"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--3dead01",
+      "resourceId": "365mizhu/3dead01",
+      "text": "钱财，散尽……",
+      "textLocalized": {
+        "zhHans": "钱财，散尽……",
+        "zhHant": "錢財，散盡……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36505",
+          "name": "惬意巡猎",
+          "displayName": {
+            "zhHans": "惬意巡猎",
+            "zhHant": "愜意巡獵"
+          }
+        },
+        {
+          "slug": "skin-36502",
+          "name": "豪商巨贾",
+          "displayName": {
+            "zhHans": "豪商巨贾",
+            "zhHant": "豪商巨賈"
+          }
+        },
+        {
+          "slug": "skin-36502-36505",
+          "name": "豪商巨贾,惬意巡猎",
+          "displayName": {
+            "zhHans": "豪商巨贾,惬意巡猎",
+            "zhHant": "豪商巨賈,愜意巡獵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--5dead01",
+      "resourceId": "365mizhu/5dead01",
+      "text": "千金终散尽……",
+      "textLocalized": {
+        "zhHans": "千金终散尽……",
+        "zhHant": "千金終散盡……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36506",
+          "name": "金奁玉宝",
+          "displayName": {
+            "zhHans": "金奁玉宝",
+            "zhHant": "金奩玉寶"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16a26630a2468daa381ec4a369d9be74c619b226dbb602e875b38532de48238d
-size 7662
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huaxin",
+    "command": "huaxin",
+    "name": "华歆",
+    "displayName": {
+      "zhHans": "华歆",
+      "zhHant": "華歆"
+    },
+    "names": [
+      "华歆"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "华歆",
+        "zhHant": "華歆"
+      }
+    ],
+    "ids": [
+      "7015"
+    ],
+    "sourceNames": [
+      "华歆"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "华歆",
+        "zhHant": "華歆"
+      }
+    ],
+    "sourceIds": [
+      "7015"
+    ],
+    "searchNames": [
+      "huaxin",
+      "华歆",
+      "華歆"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/huaxin/groups/dead.json"
+      },
+      {
+        "slug": "spell-9003",
+        "name": "草诏",
+        "displayName": {
+          "zhHans": "草诏",
+          "zhHant": "草詔"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/huaxin/groups/spell-9003.json"
+      },
+      {
+        "slug": "spell-9004",
+        "name": "息兵",
+        "displayName": {
+          "zhHans": "息兵",
+          "zhHant": "息兵"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/huaxin/groups/spell-9004.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huaxin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-701501",
+        "name": "捧玺献绶",
+        "displayName": {
+          "zhHans": "捧玺献绶",
+          "zhHant": "捧璽獻綬"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huaxin/skins/skin-701501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huaxin.json",
+      "groups": "api/v1/tts/characters/huaxin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huaxin/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/huaxin/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "huaxin--7015huaxin--1dead01",
+      "resourceId": "7015huaxin/1dead01",
+      "text": "死国，甚无谓也！",
+      "textLocalized": {
+        "zhHans": "死国，甚无谓也！",
+        "zhHant": "死國，甚無謂也！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7015huaxin-43fc251d/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7015huaxin/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaxin--7015huaxin--1skill1_1",
+      "resourceId": "7015huaxin/1skill1_1",
+      "text": "草诏所宣，密勿从事。",
+      "textLocalized": {
+        "zhHans": "草诏所宣，密勿从事。",
+        "zhHant": "草詔所宣，密勿從事。"
+      },
+      "group": {
+        "slug": "spell-9003",
+        "name": "草诏",
+        "displayName": {
+          "zhHans": "草诏",
+          "zhHant": "草詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7015huaxin-43fc251d/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7015huaxin/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaxin--7015huaxin--1skill1_2",
+      "resourceId": "7015huaxin/1skill1_2",
+      "text": "惩恶扬功，四方之纲。",
+      "textLocalized": {
+        "zhHans": "惩恶扬功，四方之纲。",
+        "zhHant": "懲惡揚功，四方之綱。"
+      },
+      "group": {
+        "slug": "spell-9003",
+        "name": "草诏",
+        "displayName": {
+          "zhHans": "草诏",
+          "zhHant": "草詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7015huaxin-43fc251d/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7015huaxin/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaxin--7015huaxin--1skill2_1",
+      "resourceId": "7015huaxin/1skill2_1",
+      "text": "讲信修睦，息兵不攻。",
+      "textLocalized": {
+        "zhHans": "讲信修睦，息兵不攻。",
+        "zhHant": "講信修睦，息兵不攻。"
+      },
+      "group": {
+        "slug": "spell-9004",
+        "name": "息兵",
+        "displayName": {
+          "zhHans": "息兵",
+          "zhHant": "息兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7015huaxin-43fc251d/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7015huaxin/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huaxin--7015huaxin--1skill2_2",
+      "resourceId": "7015huaxin/1skill2_2",
+      "text": "天时未至，周武还师。",
+      "textLocalized": {
+        "zhHans": "天时未至，周武还师。",
+        "zhHant": "天時未至，周武還師。"
+      },
+      "group": {
+        "slug": "spell-9004",
+        "name": "息兵",
+        "displayName": {
+          "zhHans": "息兵",
+          "zhHant": "息兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7015huaxin-43fc251d/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7015huaxin/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,625 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5e301112283b7c4c6c6ecc4648ce9da75f0549722cfb2ec46499a8552d830972
-size 18100
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhugejin",
+    "command": "zhugejin",
+    "name": "诸葛瑾",
+    "displayName": {
+      "zhHans": "诸葛瑾",
+      "zhHant": "諸葛瑾"
+    },
+    "names": [
+      "诸葛瑾"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "诸葛瑾",
+        "zhHant": "諸葛瑾"
+      }
+    ],
+    "ids": [
+      "123"
+    ],
+    "sourceNames": [
+      "诸葛瑾"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "诸葛瑾",
+        "zhHant": "諸葛瑾"
+      }
+    ],
+    "sourceIds": [
+      "123"
+    ],
+    "searchNames": [
+      "zhugejin",
+      "诸葛瑾",
+      "諸葛瑾"
+    ],
+    "lineCount": 35,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugejin/groups/dead.json"
+      },
+      {
+        "slug": "spell-501",
+        "name": "缓释",
+        "displayName": {
+          "zhHans": "缓释",
+          "zhHant": "緩釋"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhugejin/groups/spell-501.json"
+      },
+      {
+        "slug": "spell-502",
+        "name": "弘援",
+        "displayName": {
+          "zhHans": "弘援",
+          "zhHant": "弘援"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhugejin/groups/spell-502.json"
+      },
+      {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhugejin/groups/spell-503.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-12308",
+        "name": "佐龙安澜",
+        "displayName": {
+          "zhHans": "佐龙安澜",
+          "zhHant": "佐龍安瀾"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugejin/skins/skin-12308.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugejin/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-12303",
+        "name": "才猷蕴借",
+        "displayName": {
+          "zhHans": "才猷蕴借",
+          "zhHant": "才猷蘊藉"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugejin/skins/skin-12303.json"
+      },
+      {
+        "slug": "skin-12307",
+        "name": "翠林祈和",
+        "displayName": {
+          "zhHans": "翠林祈和",
+          "zhHant": "翠林祈和"
+        },
+        "lineCount": 14,
+        "endpoint": "api/v1/tts/characters/zhugejin/skins/skin-12307.json"
+      },
+      {
+        "slug": "skin-12306",
+        "name": "诸葛一族",
+        "displayName": {
+          "zhHans": "诸葛一族",
+          "zhHant": "諸葛一族"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugejin/skins/skin-12306.json"
+      },
+      {
+        "slug": "skin-12302",
+        "name": "谋定全局",
+        "displayName": {
+          "zhHans": "谋定全局",
+          "zhHant": "謀定全局"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugejin/skins/skin-12302.json"
+      },
+      {
+        "slug": "skin-12302-12303-12307",
+        "name": "谋定全局,才猷蕴借,翠林祈和",
+        "displayName": {
+          "zhHans": "谋定全局,才猷蕴借,翠林祈和",
+          "zhHant": "謀定全局,才猷蘊藉,翠林祈和"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugejin/skins/skin-12302-12303-12307.json"
+      },
+      {
+        "slug": "skin-12305",
+        "name": "风雅神逸",
+        "displayName": {
+          "zhHans": "风雅神逸",
+          "zhHant": "風雅神逸"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugejin/skins/skin-12305.json"
+      },
+      {
+        "slug": "skin-12305-12307",
+        "name": "风雅神逸,翠林祈和",
+        "displayName": {
+          "zhHans": "风雅神逸,翠林祈和",
+          "zhHant": "風雅神逸,翠林祈和"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugejin/skins/skin-12305-12307.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhugejin.json",
+      "groups": "api/v1/tts/characters/zhugejin/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhugejin/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-503",
+    "name": "明哲",
+    "displayName": {
+      "zhHans": "明哲",
+      "zhHant": "明哲"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/zhugejin/groups/spell-503.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "zhugejin--123zhugejin--6skill3_1",
+      "resourceId": "123zhugejin/6skill3_1",
+      "text": "明哲维天，临君下土，贵者莫若天子。",
+      "textLocalized": {
+        "zhHans": "明哲维天，临君下土，贵者莫若天子。",
+        "zhHant": "明哲維天，臨君下土，貴者莫若天子。"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12308",
+          "name": "佐龙安澜",
+          "displayName": {
+            "zhHans": "佐龙安澜",
+            "zhHant": "佐龍安瀾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/6skill3-1-1b78f48f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/6skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugejin--123zhugejin--6skill3_2",
+      "resourceId": "123zhugejin/6skill3_2",
+      "text": "知事为明智，明智则能有所作为。",
+      "textLocalized": {
+        "zhHans": "知事为明智，明智则能有所作为。",
+        "zhHant": "知事爲明智，明智則能有所作爲。"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12308",
+          "name": "佐龙安澜",
+          "displayName": {
+            "zhHans": "佐龙安澜",
+            "zhHant": "佐龍安瀾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/6skill3-2-af03925f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/6skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugejin--123zhugejin--1skill3_1",
+      "resourceId": "123zhugejin/1skill3_1",
+      "text": "明以洞察，哲以保身。",
+      "textLocalized": {
+        "zhHans": "明以洞察，哲以保身。",
+        "zhHant": "明以洞察，哲以保身。"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugejin--123zhugejin--1skill3_2",
+      "resourceId": "123zhugejin/1skill3_2",
+      "text": "塞翁失马，焉知非福。",
+      "textLocalized": {
+        "zhHans": "塞翁失马，焉知非福。",
+        "zhHant": "塞翁失馬，焉知非福。"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugejin--123zhugejin--5skill3_1",
+      "resourceId": "123zhugejin/5skill3_1",
+      "text": "既明且哲，以保其身；|夙夜匪懈，以事一人。",
+      "textLocalized": {
+        "zhHans": "既明且哲，以保其身；|夙夜匪懈，以事一人。",
+        "zhHant": "既明且哲，以保其身；|夙夜匪懈，以事一人。"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12306",
+          "name": "诸葛一族",
+          "displayName": {
+            "zhHans": "诸葛一族",
+            "zhHant": "諸葛一族"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/5skill3-1-81c515c2.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/5skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugejin--123zhugejin--5skill3_2",
+      "resourceId": "123zhugejin/5skill3_2",
+      "text": "经天纬地，照临四方！",
+      "textLocalized": {
+        "zhHans": "经天纬地，照临四方！",
+        "zhHant": "經天緯地，照臨四方！"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12306",
+          "name": "诸葛一族",
+          "displayName": {
+            "zhHans": "诸葛一族",
+            "zhHant": "諸葛一族"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/5skill3-2-edc71423.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/5skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugejin--123zhugejin--3skill3_1",
+      "resourceId": "123zhugejin/3skill3_1",
+      "text": "乱世，当稳中求胜。",
+      "textLocalized": {
+        "zhHans": "乱世，当稳中求胜。",
+        "zhHant": "亂世，當穩中求勝。"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12303",
+          "name": "才猷蕴借",
+          "displayName": {
+            "zhHans": "才猷蕴借",
+            "zhHant": "才猷蘊藉"
+          }
+        },
+        {
+          "slug": "skin-12307",
+          "name": "翠林祈和",
+          "displayName": {
+            "zhHans": "翠林祈和",
+            "zhHant": "翠林祈和"
+          }
+        },
+        {
+          "slug": "skin-12302",
+          "name": "谋定全局",
+          "displayName": {
+            "zhHans": "谋定全局",
+            "zhHant": "謀定全局"
+          }
+        },
+        {
+          "slug": "skin-12302-12303-12307",
+          "name": "谋定全局,才猷蕴借,翠林祈和",
+          "displayName": {
+            "zhHans": "谋定全局,才猷蕴借,翠林祈和",
+            "zhHant": "謀定全局,才猷蘊藉,翠林祈和"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugejin--123zhugejin--3skill3_2",
+      "resourceId": "123zhugejin/3skill3_2",
+      "text": "明哲维天，临君下土。",
+      "textLocalized": {
+        "zhHans": "明哲维天，临君下土。",
+        "zhHant": "明哲維天，臨君下土。"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12303",
+          "name": "才猷蕴借",
+          "displayName": {
+            "zhHans": "才猷蕴借",
+            "zhHant": "才猷蘊藉"
+          }
+        },
+        {
+          "slug": "skin-12307",
+          "name": "翠林祈和",
+          "displayName": {
+            "zhHans": "翠林祈和",
+            "zhHant": "翠林祈和"
+          }
+        },
+        {
+          "slug": "skin-12302",
+          "name": "谋定全局",
+          "displayName": {
+            "zhHans": "谋定全局",
+            "zhHant": "謀定全局"
+          }
+        },
+        {
+          "slug": "skin-12302-12303-12307",
+          "name": "谋定全局,才猷蕴借,翠林祈和",
+          "displayName": {
+            "zhHans": "谋定全局,才猷蕴借,翠林祈和",
+            "zhHant": "謀定全局,才猷蘊藉,翠林祈和"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugejin--123zhugejin--4skill3_1",
+      "resourceId": "123zhugejin/4skill3_1",
+      "text": "知势则明志，明志则练达。",
+      "textLocalized": {
+        "zhHans": "知势则明志，明志则练达。",
+        "zhHant": "知勢則明志，明志則練達。"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12307",
+          "name": "翠林祈和",
+          "displayName": {
+            "zhHans": "翠林祈和",
+            "zhHant": "翠林祈和"
+          }
+        },
+        {
+          "slug": "skin-12305",
+          "name": "风雅神逸",
+          "displayName": {
+            "zhHans": "风雅神逸",
+            "zhHant": "風雅神逸"
+          }
+        },
+        {
+          "slug": "skin-12305-12307",
+          "name": "风雅神逸,翠林祈和",
+          "displayName": {
+            "zhHans": "风雅神逸,翠林祈和",
+            "zhHant": "風雅神逸,翠林祈和"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/4skill3-1-a5992306.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/4skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugejin--123zhugejin--4skill3_2",
+      "resourceId": "123zhugejin/4skill3_2",
+      "text": "知之曰明哲，明哲实作则。",
+      "textLocalized": {
+        "zhHans": "知之曰明哲，明哲实作则。",
+        "zhHant": "知之曰明哲，明哲實作則。"
+      },
+      "group": {
+        "slug": "spell-503",
+        "name": "明哲",
+        "displayName": {
+          "zhHans": "明哲",
+          "zhHant": "明哲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12307",
+          "name": "翠林祈和",
+          "displayName": {
+            "zhHans": "翠林祈和",
+            "zhHant": "翠林祈和"
+          }
+        },
+        {
+          "slug": "skin-12305",
+          "name": "风雅神逸",
+          "displayName": {
+            "zhHans": "风雅神逸",
+            "zhHant": "風雅神逸"
+          }
+        },
+        {
+          "slug": "skin-12305-12307",
+          "name": "风雅神逸,翠林祈和",
+          "displayName": {
+            "zhHans": "风雅神逸,翠林祈和",
+            "zhHant": "風雅神逸,翠林祈和"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/123zhugejin-68d24173/4skill3-2-180171f5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/123zhugejin/4skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

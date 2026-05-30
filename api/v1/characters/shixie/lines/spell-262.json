@@ -1,3 +1,931 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe2d5b2a19b2598fba01b627e8c54a8cb7dd1fb82289d238a880fbb630b4597b
-size 21193
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shixie",
+    "command": "shixie",
+    "name": "士燮",
+    "displayName": {
+      "zhHans": "士燮",
+      "zhHant": "士燮"
+    },
+    "names": [
+      "士燮"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "士燮",
+        "zhHant": "士燮"
+      }
+    ],
+    "ids": [
+      "345"
+    ],
+    "sourceNames": [
+      "士燮"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "士燮",
+        "zhHant": "士燮"
+      }
+    ],
+    "sourceIds": [
+      "345"
+    ],
+    "searchNames": [
+      "shixie",
+      "士燮"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-262",
+        "name": "避乱",
+        "displayName": {
+          "zhHans": "避乱",
+          "zhHant": "避亂"
+        },
+        "ids": [
+          "262"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-263",
+        "name": "礼下",
+        "displayName": {
+          "zhHans": "礼下",
+          "zhHant": "禮下"
+        },
+        "ids": [
+          "263"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-34502",
+        "ids": [
+          "34502"
+        ],
+        "name": "笳箫鼓吹",
+        "displayName": {
+          "zhHans": "笳箫鼓吹",
+          "zhHant": "笳簫鼓吹"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-34503",
+        "ids": [
+          "34503"
+        ],
+        "name": "雄长一州",
+        "displayName": {
+          "zhHans": "雄长一州",
+          "zhHant": "雄長一州"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/shixie.json",
+      "lines": "api/v1/characters/shixie/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-262",
+    "ids": [
+      "262"
+    ],
+    "name": "避乱",
+    "displayName": {
+      "zhHans": "避乱",
+      "zhHant": "避亂"
+    },
+    "names": [
+      "避乱"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "避乱",
+        "zhHant": "避亂"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "shixie--345shixie--1skill1_1",
+      "resourceId": "345shixie/1skill1_1",
+      "text": "身处乱世，自保足矣。",
+      "textLocalized": {
+        "zhHans": "身处乱世，自保足矣。",
+        "zhHant": "身處亂世，自保足矣。"
+      },
+      "character": {
+        "slug": "shixie",
+        "command": "shixie",
+        "id": "345",
+        "ids": [
+          "345"
+        ],
+        "name": "士燮",
+        "displayName": {
+          "zhHans": "士燮",
+          "zhHant": "士燮"
+        },
+        "names": [
+          "士燮"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "sourceIds": [
+          "345"
+        ],
+        "sourceNames": [
+          "士燮"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "searchNames": [
+          "士燮",
+          "shixie"
+        ]
+      },
+      "group": {
+        "slug": "spell-262",
+        "ids": [
+          "262"
+        ],
+        "name": "避乱",
+        "displayName": {
+          "zhHans": "避乱",
+          "zhHant": "避亂"
+        },
+        "names": [
+          "避乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "避乱",
+            "zhHant": "避亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "345",
+        "skinKey": "-1",
+        "spellKey": "262",
+        "rowIndex": 1,
+        "characterNames": [
+          "士燮"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/345shixie-b442633b/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/345shixie/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shixie--345shixie--1skill1_2",
+      "resourceId": "345shixie/1skill1_2",
+      "text": "避一时之乱，求长世安稳。",
+      "textLocalized": {
+        "zhHans": "避一时之乱，求长世安稳。",
+        "zhHant": "避一時之亂，求長世安穩。"
+      },
+      "character": {
+        "slug": "shixie",
+        "command": "shixie",
+        "id": "345",
+        "ids": [
+          "345"
+        ],
+        "name": "士燮",
+        "displayName": {
+          "zhHans": "士燮",
+          "zhHant": "士燮"
+        },
+        "names": [
+          "士燮"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "sourceIds": [
+          "345"
+        ],
+        "sourceNames": [
+          "士燮"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "searchNames": [
+          "士燮",
+          "shixie"
+        ]
+      },
+      "group": {
+        "slug": "spell-262",
+        "ids": [
+          "262"
+        ],
+        "name": "避乱",
+        "displayName": {
+          "zhHans": "避乱",
+          "zhHant": "避亂"
+        },
+        "names": [
+          "避乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "避乱",
+            "zhHant": "避亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "345",
+        "skinKey": "-1",
+        "spellKey": "262",
+        "rowIndex": 2,
+        "characterNames": [
+          "士燮"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/345shixie-b442633b/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/345shixie/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shixie--345shixie--3skill1_1",
+      "resourceId": "345shixie/3skill1_1",
+      "text": "天下攘攘，难觅避乱之地。",
+      "textLocalized": {
+        "zhHans": "天下攘攘，难觅避乱之地。",
+        "zhHant": "天下攘攘，難覓避亂之地。"
+      },
+      "character": {
+        "slug": "shixie",
+        "command": "shixie",
+        "id": "345",
+        "ids": [
+          "345"
+        ],
+        "name": "士燮",
+        "displayName": {
+          "zhHans": "士燮",
+          "zhHant": "士燮"
+        },
+        "names": [
+          "士燮"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "sourceIds": [
+          "345"
+        ],
+        "sourceNames": [
+          "士燮"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "searchNames": [
+          "士燮",
+          "shixie"
+        ]
+      },
+      "group": {
+        "slug": "spell-262",
+        "ids": [
+          "262"
+        ],
+        "name": "避乱",
+        "displayName": {
+          "zhHans": "避乱",
+          "zhHant": "避亂"
+        },
+        "names": [
+          "避乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "避乱",
+            "zhHant": "避亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-34502",
+        "ids": [
+          "34502"
+        ],
+        "name": "笳箫鼓吹",
+        "displayName": {
+          "zhHans": "笳箫鼓吹",
+          "zhHant": "笳簫鼓吹"
+        },
+        "names": [
+          "笳箫鼓吹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "笳箫鼓吹",
+            "zhHant": "笳簫鼓吹"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-34502",
+          "id": "34502",
+          "ids": [
+            "34502"
+          ],
+          "name": "笳箫鼓吹",
+          "displayName": {
+            "zhHans": "笳箫鼓吹",
+            "zhHant": "笳簫鼓吹"
+          },
+          "names": [
+            "笳箫鼓吹"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "笳箫鼓吹",
+              "zhHant": "笳簫鼓吹"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "345",
+        "skinKey": "34502",
+        "spellKey": "262",
+        "rowIndex": 1,
+        "characterNames": [
+          "士燮"
+        ],
+        "skinNames": [
+          "笳箫鼓吹"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/345shixie-b442633b/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/345shixie/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shixie--345shixie--3skill1_2",
+      "resourceId": "345shixie/3skill1_2",
+      "text": "乱世纷扰，唯避据方为良策。",
+      "textLocalized": {
+        "zhHans": "乱世纷扰，唯避据方为良策。",
+        "zhHant": "亂世紛擾，唯避據方爲良策。"
+      },
+      "character": {
+        "slug": "shixie",
+        "command": "shixie",
+        "id": "345",
+        "ids": [
+          "345"
+        ],
+        "name": "士燮",
+        "displayName": {
+          "zhHans": "士燮",
+          "zhHant": "士燮"
+        },
+        "names": [
+          "士燮"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "sourceIds": [
+          "345"
+        ],
+        "sourceNames": [
+          "士燮"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "searchNames": [
+          "士燮",
+          "shixie"
+        ]
+      },
+      "group": {
+        "slug": "spell-262",
+        "ids": [
+          "262"
+        ],
+        "name": "避乱",
+        "displayName": {
+          "zhHans": "避乱",
+          "zhHant": "避亂"
+        },
+        "names": [
+          "避乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "避乱",
+            "zhHant": "避亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-34502",
+        "ids": [
+          "34502"
+        ],
+        "name": "笳箫鼓吹",
+        "displayName": {
+          "zhHans": "笳箫鼓吹",
+          "zhHant": "笳簫鼓吹"
+        },
+        "names": [
+          "笳箫鼓吹"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "笳箫鼓吹",
+            "zhHant": "笳簫鼓吹"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-34502",
+          "id": "34502",
+          "ids": [
+            "34502"
+          ],
+          "name": "笳箫鼓吹",
+          "displayName": {
+            "zhHans": "笳箫鼓吹",
+            "zhHant": "笳簫鼓吹"
+          },
+          "names": [
+            "笳箫鼓吹"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "笳箫鼓吹",
+              "zhHant": "笳簫鼓吹"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "345",
+        "skinKey": "34502",
+        "spellKey": "262",
+        "rowIndex": 2,
+        "characterNames": [
+          "士燮"
+        ],
+        "skinNames": [
+          "笳箫鼓吹"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/345shixie-b442633b/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/345shixie/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shixie--345shixie--4skill1_1",
+      "resourceId": "345shixie/4skill1_1",
+      "text": "审视度度，以稳求进。",
+      "textLocalized": {
+        "zhHans": "审视度度，以稳求进。",
+        "zhHant": "審視度度，以穩求進。"
+      },
+      "character": {
+        "slug": "shixie",
+        "command": "shixie",
+        "id": "345",
+        "ids": [
+          "345"
+        ],
+        "name": "士燮",
+        "displayName": {
+          "zhHans": "士燮",
+          "zhHant": "士燮"
+        },
+        "names": [
+          "士燮"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "sourceIds": [
+          "345"
+        ],
+        "sourceNames": [
+          "士燮"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "searchNames": [
+          "士燮",
+          "shixie"
+        ]
+      },
+      "group": {
+        "slug": "spell-262",
+        "ids": [
+          "262"
+        ],
+        "name": "避乱",
+        "displayName": {
+          "zhHans": "避乱",
+          "zhHant": "避亂"
+        },
+        "names": [
+          "避乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "避乱",
+            "zhHant": "避亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-34503",
+        "ids": [
+          "34503"
+        ],
+        "name": "雄长一州",
+        "displayName": {
+          "zhHans": "雄长一州",
+          "zhHant": "雄長一州"
+        },
+        "names": [
+          "雄长一州"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "雄长一州",
+            "zhHant": "雄長一州"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-34503",
+          "id": "34503",
+          "ids": [
+            "34503"
+          ],
+          "name": "雄长一州",
+          "displayName": {
+            "zhHans": "雄长一州",
+            "zhHant": "雄長一州"
+          },
+          "names": [
+            "雄长一州"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "雄长一州",
+              "zhHant": "雄長一州"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "345",
+        "skinKey": "34503",
+        "spellKey": "262",
+        "rowIndex": 1,
+        "characterNames": [
+          "士燮"
+        ],
+        "skinNames": [
+          "雄长一州"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/345shixie-b442633b/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/345shixie/4skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shixie--345shixie--4skill1_2",
+      "resourceId": "345shixie/4skill1_2",
+      "text": "进退利弊，自当细细思量。",
+      "textLocalized": {
+        "zhHans": "进退利弊，自当细细思量。",
+        "zhHant": "進退利弊，自當細細思量。"
+      },
+      "character": {
+        "slug": "shixie",
+        "command": "shixie",
+        "id": "345",
+        "ids": [
+          "345"
+        ],
+        "name": "士燮",
+        "displayName": {
+          "zhHans": "士燮",
+          "zhHant": "士燮"
+        },
+        "names": [
+          "士燮"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "sourceIds": [
+          "345"
+        ],
+        "sourceNames": [
+          "士燮"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "士燮",
+            "zhHant": "士燮"
+          }
+        ],
+        "searchNames": [
+          "士燮",
+          "shixie"
+        ]
+      },
+      "group": {
+        "slug": "spell-262",
+        "ids": [
+          "262"
+        ],
+        "name": "避乱",
+        "displayName": {
+          "zhHans": "避乱",
+          "zhHant": "避亂"
+        },
+        "names": [
+          "避乱"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "避乱",
+            "zhHant": "避亂"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-34503",
+        "ids": [
+          "34503"
+        ],
+        "name": "雄长一州",
+        "displayName": {
+          "zhHans": "雄长一州",
+          "zhHant": "雄長一州"
+        },
+        "names": [
+          "雄长一州"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "雄长一州",
+            "zhHant": "雄長一州"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-34503",
+          "id": "34503",
+          "ids": [
+            "34503"
+          ],
+          "name": "雄长一州",
+          "displayName": {
+            "zhHans": "雄长一州",
+            "zhHant": "雄長一州"
+          },
+          "names": [
+            "雄长一州"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "雄长一州",
+              "zhHant": "雄長一州"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "345",
+        "skinKey": "34503",
+        "spellKey": "262",
+        "rowIndex": 2,
+        "characterNames": [
+          "士燮"
+        ],
+        "skinNames": [
+          "雄长一州"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/345shixie-b442633b/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/345shixie/4skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

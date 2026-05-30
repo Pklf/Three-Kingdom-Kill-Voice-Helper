@@ -1,3 +1,593 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cb5f3f533c4a97d586849ba07b6fe99314d8338384303200c4f52a2c3de0626b
-size 16947
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhugedan",
+    "command": "zhugedan",
+    "name": "诸葛诞",
+    "displayName": {
+      "zhHans": "诸葛诞",
+      "zhHant": "諸葛誕"
+    },
+    "names": [
+      "诸葛诞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "诸葛诞",
+        "zhHant": "諸葛誕"
+      }
+    ],
+    "ids": [
+      "129"
+    ],
+    "sourceNames": [
+      "诸葛诞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "诸葛诞",
+        "zhHant": "諸葛誕"
+      }
+    ],
+    "sourceIds": [
+      "129"
+    ],
+    "searchNames": [
+      "zhugedan",
+      "诸葛诞",
+      "諸葛誕"
+    ],
+    "lineCount": 43,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/dead.json"
+      },
+      {
+        "slug": "spell-111",
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/spell-111.json"
+      },
+      {
+        "slug": "spell-232",
+        "name": "功獒",
+        "displayName": {
+          "zhHans": "功獒",
+          "zhHant": "功獒"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/spell-232.json"
+      },
+      {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/spell-233.json"
+      },
+      {
+        "slug": "spell-239",
+        "name": "威重",
+        "displayName": {
+          "zhHans": "威重",
+          "zhHant": "威重"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/groups/spell-239.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "12905",
+        "name": "12905",
+        "displayName": {
+          "zhHans": "12905",
+          "zhHant": "12905"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/12905.json"
+      },
+      {
+        "slug": "skin-12902",
+        "name": "东兴之战",
+        "displayName": {
+          "zhHans": "东兴之战",
+          "zhHant": "東興之戰"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12902.json"
+      },
+      {
+        "slug": "skin-12901",
+        "name": "严毅威重",
+        "displayName": {
+          "zhHans": "严毅威重",
+          "zhHant": "嚴毅威重"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12901.json"
+      },
+      {
+        "slug": "skin-12901-12902",
+        "name": "严毅威重,东兴之战",
+        "displayName": {
+          "zhHans": "严毅威重,东兴之战",
+          "zhHant": "嚴毅威重,東興之戰"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12901-12902.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-12908",
+        "name": "威凛淮阳",
+        "displayName": {
+          "zhHans": "威凛淮阳",
+          "zhHant": "威凜淮陽"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12908.json"
+      },
+      {
+        "slug": "skin-12903",
+        "name": "挥剑惊石",
+        "displayName": {
+          "zhHans": "挥剑惊石",
+          "zhHant": "揮劍驚石"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12903.json"
+      },
+      {
+        "slug": "skin-12904",
+        "name": "矢志不渝",
+        "displayName": {
+          "zhHans": "矢志不渝",
+          "zhHant": "矢志不渝"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/zhugedan/skins/skin-12904.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhugedan.json",
+      "groups": "api/v1/tts/characters/zhugedan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhugedan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-233",
+    "name": "举义",
+    "displayName": {
+      "zhHans": "举义",
+      "zhHant": "舉義"
+    },
+    "lineCount": 10,
+    "endpoint": "api/v1/tts/characters/zhugedan/groups/spell-233.json"
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "zhugedan--129zhugedan--3skill2_1",
+      "resourceId": "129zhugedan/3skill2_1",
+      "text": "护驾勤王，师出有名！",
+      "textLocalized": {
+        "zhHans": "护驾勤王，师出有名！",
+        "zhHant": "護駕勤王，師出有名！"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12902",
+          "name": "东兴之战",
+          "displayName": {
+            "zhHans": "东兴之战",
+            "zhHant": "東興之戰"
+          }
+        },
+        {
+          "slug": "skin-12901",
+          "name": "严毅威重",
+          "displayName": {
+            "zhHans": "严毅威重",
+            "zhHant": "嚴毅威重"
+          }
+        },
+        {
+          "slug": "skin-12901-12902",
+          "name": "严毅威重,东兴之战",
+          "displayName": {
+            "zhHans": "严毅威重,东兴之战",
+            "zhHant": "嚴毅威重,東興之戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--3skill2_2",
+      "resourceId": "129zhugedan/3skill2_2",
+      "text": "举义讨罪，义烈挺然！",
+      "textLocalized": {
+        "zhHans": "举义讨罪，义烈挺然！",
+        "zhHant": "舉義討罪，義烈挺然！"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12902",
+          "name": "东兴之战",
+          "displayName": {
+            "zhHans": "东兴之战",
+            "zhHant": "東興之戰"
+          }
+        },
+        {
+          "slug": "skin-12901",
+          "name": "严毅威重",
+          "displayName": {
+            "zhHans": "严毅威重",
+            "zhHant": "嚴毅威重"
+          }
+        },
+        {
+          "slug": "skin-12901-12902",
+          "name": "严毅威重,东兴之战",
+          "displayName": {
+            "zhHans": "严毅威重,东兴之战",
+            "zhHant": "嚴毅威重,東興之戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--1skill2_1",
+      "resourceId": "129zhugedan/1skill2_1",
+      "text": "司马氏篡权，我当替天伐之！",
+      "textLocalized": {
+        "zhHans": "司马氏篡权，我当替天伐之！",
+        "zhHant": "司馬氏篡權，我當替天伐之！"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--1skill2_2",
+      "resourceId": "129zhugedan/1skill2_2",
+      "text": "若国有难，吾当举义！",
+      "textLocalized": {
+        "zhHans": "若国有难，吾当举义！",
+        "zhHant": "若國有難，吾當舉義！"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--6skill2_1",
+      "resourceId": "129zhugedan/6skill2_1",
+      "text": "户犬闻寇至尚吠三两声，况我大魏义士乎。",
+      "textLocalized": {
+        "zhHans": "户犬闻寇至尚吠三两声，况我大魏义士乎。",
+        "zhHant": "戶犬聞寇至尚吠三兩聲，況我大魏義士乎。"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12908",
+          "name": "威凛淮阳",
+          "displayName": {
+            "zhHans": "威凛淮阳",
+            "zhHant": "威凜淮陽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--6skill2_2",
+      "resourceId": "129zhugedan/6skill2_2",
+      "text": "观中原魏旗凋零，唯淮南独树义帜。",
+      "textLocalized": {
+        "zhHans": "观中原魏旗凋零，唯淮南独树义帜。",
+        "zhHant": "觀中原魏旗凋零，唯淮南獨樹義幟。"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12908",
+          "name": "威凛淮阳",
+          "displayName": {
+            "zhHans": "威凛淮阳",
+            "zhHant": "威凜淮陽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill2_1",
+      "resourceId": "129zhugedan/4skill2_1",
+      "text": "诞，不忍乌云蔽日，必置乱臣于死地！",
+      "textLocalized": {
+        "zhHans": "诞，不忍乌云蔽日，必置乱臣于死地！",
+        "zhHant": "誕，不忍烏雲蔽日，必置亂臣於死地！"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill2_2",
+      "resourceId": "129zhugedan/4skill2_2",
+      "text": "世受魏恩，岂可欲以社稷输人？",
+      "textLocalized": {
+        "zhHans": "世受魏恩，岂可欲以社稷输人？",
+        "zhHant": "世受魏恩，豈可欲以社稷輸人？"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--5skill2_1",
+      "resourceId": "129zhugedan/5skill2_1",
+      "text": "以有道之师，伐无道之徒！",
+      "textLocalized": {
+        "zhHans": "以有道之师，伐无道之徒！",
+        "zhHant": "以有道之師，伐無道之徒！"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "12905",
+          "name": "12905",
+          "displayName": {
+            "zhHans": "12905",
+            "zhHant": "12905"
+          }
+        },
+        {
+          "slug": "skin-12904",
+          "name": "矢志不渝",
+          "displayName": {
+            "zhHans": "矢志不渝",
+            "zhHant": "矢志不渝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--5skill2_2",
+      "resourceId": "129zhugedan/5skill2_2",
+      "text": "念先王之祀，当举义伐之。",
+      "textLocalized": {
+        "zhHans": "念先王之祀，当举义伐之。",
+        "zhHant": "念先王之祀，當舉義伐之。"
+      },
+      "group": {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        }
+      },
+      "skins": [
+        {
+          "slug": "12905",
+          "name": "12905",
+          "displayName": {
+            "zhHans": "12905",
+            "zhHant": "12905"
+          }
+        },
+        {
+          "slug": "skin-12904",
+          "name": "矢志不渝",
+          "displayName": {
+            "zhHans": "矢志不渝",
+            "zhHant": "矢志不渝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

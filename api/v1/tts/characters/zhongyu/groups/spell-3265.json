@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4b8c71f6e0fe182c81539a0424c61b80afe4d054562386ad423cc6c8166a1d07
-size 7315
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhongyu",
+    "command": "zhongyu",
+    "name": "族钟毓",
+    "displayName": {
+      "zhHans": "族钟毓",
+      "zhHant": "族鍾毓"
+    },
+    "names": [
+      "族钟毓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟毓",
+        "zhHant": "族鍾毓"
+      }
+    ],
+    "ids": [
+      "566"
+    ],
+    "sourceNames": [
+      "族钟毓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟毓",
+        "zhHant": "族鍾毓"
+      }
+    ],
+    "sourceIds": [
+      "566"
+    ],
+    "searchNames": [
+      "zhongyu",
+      "族钟毓",
+      "族鍾毓"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3320",
+        "name": "捷谏",
+        "displayName": {
+          "zhHans": "捷谏",
+          "zhHant": "捷諫"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3320.json"
+      },
+      {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3321.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-56601",
+        "name": "决胜千里",
+        "displayName": {
+          "zhHans": "决胜千里",
+          "zhHant": "決勝千里"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongyu/skins/skin-56601.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongyu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhongyu.json",
+      "groups": "api/v1/tts/characters/zhongyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhongyu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3265",
+    "name": "保族",
+    "displayName": {
+      "zhHans": "保族",
+      "zhHant": "保族"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3265.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "zhongyu--566zhongyu--2skill3_1",
+      "resourceId": "566zhongyu/2skill3_1",
+      "text": "乞晋公明鉴，吾弟罪该万死，然钟氏绝无二心。",
+      "textLocalized": {
+        "zhHans": "乞晋公明鉴，吾弟罪该万死，然钟氏绝无二心。",
+        "zhHant": "乞晉公明鑑，吾弟罪該萬死，然鍾氏絕無二心。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56601",
+          "name": "决胜千里",
+          "displayName": {
+            "zhHans": "决胜千里",
+            "zhHant": "決勝千里"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--2skill3_2",
+      "resourceId": "566zhongyu/2skill3_2",
+      "text": "士季有麒麟之才，亦怀饕餮之志，不可委以重任。",
+      "textLocalized": {
+        "zhHans": "士季有麒麟之才，亦怀饕餮之志，不可委以重任。",
+        "zhHant": "士季有麒麟之才，亦懷饕餮之志，不可委以重任。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56601",
+          "name": "决胜千里",
+          "displayName": {
+            "zhHans": "决胜千里",
+            "zhHant": "決勝千里"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill3_1",
+      "resourceId": "566zhongyu/1skill3_1",
+      "text": "弟会腹有恶谋，不可不防。",
+      "textLocalized": {
+        "zhHans": "弟会腹有恶谋，不可不防。",
+        "zhHant": "弟會腹有惡謀，不可不防。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1skill3_2",
+      "resourceId": "566zhongyu/1skill3_2",
+      "text": "会期大祸将至，请晋公恕之。",
+      "textLocalized": {
+        "zhHans": "会期大祸将至，请晋公恕之。",
+        "zhHant": "會期大禍將至，請晉公恕之。"
+      },
+      "group": {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

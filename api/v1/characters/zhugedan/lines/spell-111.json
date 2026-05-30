@@ -1,3 +1,1490 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e07b85b3e90170197ac822be51669202936ec82085ea00095e05b89a8efb90af
-size 34476
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhugedan",
+    "command": "zhugedan",
+    "name": "诸葛诞",
+    "displayName": {
+      "zhHans": "诸葛诞",
+      "zhHant": "諸葛誕"
+    },
+    "names": [
+      "诸葛诞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "诸葛诞",
+        "zhHant": "諸葛誕"
+      }
+    ],
+    "ids": [
+      "129"
+    ],
+    "sourceNames": [
+      "诸葛诞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "诸葛诞",
+        "zhHant": "諸葛誕"
+      }
+    ],
+    "sourceIds": [
+      "129"
+    ],
+    "searchNames": [
+      "zhugedan",
+      "诸葛诞",
+      "諸葛誕"
+    ],
+    "lineCount": 43,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 5
+      },
+      {
+        "slug": "spell-111",
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "ids": [
+          "111"
+        ],
+        "lineCount": 9
+      },
+      {
+        "slug": "spell-232",
+        "name": "功獒",
+        "displayName": {
+          "zhHans": "功獒",
+          "zhHant": "功獒"
+        },
+        "ids": [
+          "232"
+        ],
+        "lineCount": 10
+      },
+      {
+        "slug": "spell-233",
+        "name": "举义",
+        "displayName": {
+          "zhHans": "举义",
+          "zhHant": "舉義"
+        },
+        "ids": [
+          "233"
+        ],
+        "lineCount": 10
+      },
+      {
+        "slug": "spell-239",
+        "name": "威重",
+        "displayName": {
+          "zhHans": "威重",
+          "zhHant": "威重"
+        },
+        "ids": [
+          "239"
+        ],
+        "lineCount": 9
+      }
+    ],
+    "skins": [
+      {
+        "slug": "12905",
+        "ids": [
+          "12905"
+        ],
+        "name": "12905",
+        "displayName": {
+          "zhHans": "12905",
+          "zhHant": "12905"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-12902",
+        "ids": [
+          "12902"
+        ],
+        "name": "东兴之战",
+        "displayName": {
+          "zhHans": "东兴之战",
+          "zhHant": "東興之戰"
+        },
+        "lineCount": 7
+      },
+      {
+        "slug": "skin-12901",
+        "ids": [
+          "12901"
+        ],
+        "name": "严毅威重",
+        "displayName": {
+          "zhHans": "严毅威重",
+          "zhHant": "嚴毅威重"
+        },
+        "lineCount": 7
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-12908",
+        "ids": [
+          "12908"
+        ],
+        "name": "威凛淮阳",
+        "displayName": {
+          "zhHans": "威凛淮阳",
+          "zhHant": "威凜淮陽"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-12903",
+        "ids": [
+          "12903"
+        ],
+        "name": "挥剑惊石",
+        "displayName": {
+          "zhHans": "挥剑惊石",
+          "zhHant": "揮劍驚石"
+        },
+        "lineCount": 9
+      },
+      {
+        "slug": "skin-12904",
+        "ids": [
+          "12904"
+        ],
+        "name": "矢志不渝",
+        "displayName": {
+          "zhHans": "矢志不渝",
+          "zhHant": "矢志不渝"
+        },
+        "lineCount": 9
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/zhugedan.json",
+      "lines": "api/v1/characters/zhugedan/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-111",
+    "ids": [
+      "111"
+    ],
+    "name": "崩坏",
+    "displayName": {
+      "zhHans": "崩坏",
+      "zhHant": "崩壞"
+    },
+    "names": [
+      "崩坏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "崩坏",
+        "zhHant": "崩壞"
+      }
+    ]
+  },
+  "lineCount": 9,
+  "lines": [
+    {
+      "id": "zhugedan--129zhugedan--3skill4_1",
+      "resourceId": "129zhugedan/3skill4_1",
+      "text": "粮草还可支持几日？",
+      "textLocalized": {
+        "zhHans": "粮草还可支持几日？",
+        "zhHant": "糧草還可支持幾日？"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "spell-111",
+        "ids": [
+          "111"
+        ],
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "names": [
+          "崩坏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "崩坏",
+            "zhHant": "崩壞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12901-12902",
+        "ids": [
+          "12901",
+          "12902"
+        ],
+        "name": "严毅威重,东兴之战",
+        "displayName": {
+          "zhHans": "严毅威重,东兴之战",
+          "zhHant": "嚴毅威重,東興之戰"
+        },
+        "names": [
+          "严毅威重",
+          "东兴之战"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "严毅威重",
+            "zhHant": "嚴毅威重"
+          },
+          {
+            "zhHans": "东兴之战",
+            "zhHant": "東興之戰"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12902",
+          "id": "12902",
+          "ids": [
+            "12902"
+          ],
+          "name": "东兴之战",
+          "displayName": {
+            "zhHans": "东兴之战",
+            "zhHant": "東興之戰"
+          },
+          "names": [
+            "东兴之战"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "东兴之战",
+              "zhHant": "東興之戰"
+            }
+          ]
+        },
+        {
+          "slug": "skin-12901",
+          "id": "12901",
+          "ids": [
+            "12901"
+          ],
+          "name": "严毅威重",
+          "displayName": {
+            "zhHans": "严毅威重",
+            "zhHant": "嚴毅威重"
+          },
+          "names": [
+            "严毅威重"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "严毅威重",
+              "zhHant": "嚴毅威重"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12901;12902",
+        "spellKey": "111",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "严毅威重",
+          "东兴之战"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/3skill4-1-32967e07.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/3skill4_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--1skill4_1",
+      "resourceId": "129zhugedan/1skill4_1",
+      "text": "咳咳咳……",
+      "textLocalized": {
+        "zhHans": "咳咳咳……",
+        "zhHant": "咳咳咳……"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "spell-111",
+        "ids": [
+          "111"
+        ],
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "names": [
+          "崩坏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "崩坏",
+            "zhHant": "崩壞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "-1",
+        "spellKey": "111",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/1skill4-1-0d7b9304.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/1skill4_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--1skill4_2",
+      "resourceId": "129zhugedan/1skill4_2",
+      "text": "咳咳咳……",
+      "textLocalized": {
+        "zhHans": "咳咳咳……",
+        "zhHant": "咳咳咳……"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "spell-111",
+        "ids": [
+          "111"
+        ],
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "names": [
+          "崩坏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "崩坏",
+            "zhHant": "崩壞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "-1",
+        "spellKey": "111",
+        "rowIndex": 2,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/1skill4-2-2415e0dd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/1skill4_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--6skill4_1",
+      "resourceId": "129zhugedan/6skill4_1",
+      "text": "人生百年，死国可乎。",
+      "textLocalized": {
+        "zhHans": "人生百年，死国可乎。",
+        "zhHant": "人生百年，死國可乎。"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "spell-111",
+        "ids": [
+          "111"
+        ],
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "names": [
+          "崩坏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "崩坏",
+            "zhHant": "崩壞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12908",
+        "ids": [
+          "12908"
+        ],
+        "name": "威凛淮阳",
+        "displayName": {
+          "zhHans": "威凛淮阳",
+          "zhHant": "威凜淮陽"
+        },
+        "names": [
+          "威凛淮阳"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "威凛淮阳",
+            "zhHant": "威凜淮陽"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12908",
+          "id": "12908",
+          "ids": [
+            "12908"
+          ],
+          "name": "威凛淮阳",
+          "displayName": {
+            "zhHans": "威凛淮阳",
+            "zhHant": "威凜淮陽"
+          },
+          "names": [
+            "威凛淮阳"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "威凛淮阳",
+              "zhHant": "威凜淮陽"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12908",
+        "spellKey": "111",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "威凛淮阳"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/6skill4-1-942789ea.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/6skill4_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--6skill4_2",
+      "resourceId": "129zhugedan/6skill4_2",
+      "text": "人生百年，死国可乎。",
+      "textLocalized": {
+        "zhHans": "人生百年，死国可乎。",
+        "zhHant": "人生百年，死國可乎。"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "spell-111",
+        "ids": [
+          "111"
+        ],
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "names": [
+          "崩坏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "崩坏",
+            "zhHant": "崩壞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12908",
+        "ids": [
+          "12908"
+        ],
+        "name": "威凛淮阳",
+        "displayName": {
+          "zhHans": "威凛淮阳",
+          "zhHant": "威凜淮陽"
+        },
+        "names": [
+          "威凛淮阳"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "威凛淮阳",
+            "zhHant": "威凜淮陽"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12908",
+          "id": "12908",
+          "ids": [
+            "12908"
+          ],
+          "name": "威凛淮阳",
+          "displayName": {
+            "zhHans": "威凛淮阳",
+            "zhHant": "威凜淮陽"
+          },
+          "names": [
+            "威凛淮阳"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "威凛淮阳",
+              "zhHant": "威凜淮陽"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12908",
+        "spellKey": "111",
+        "rowIndex": 2,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "威凛淮阳"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/6skill4-2-7e43d46e.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/6skill4_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill4_1",
+      "resourceId": "129zhugedan/4skill4_1",
+      "text": "只求玉石俱焚！",
+      "textLocalized": {
+        "zhHans": "只求玉石俱焚！",
+        "zhHant": "只求玉石俱焚！"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "spell-111",
+        "ids": [
+          "111"
+        ],
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "names": [
+          "崩坏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "崩坏",
+            "zhHant": "崩壞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12903",
+        "ids": [
+          "12903"
+        ],
+        "name": "挥剑惊石",
+        "displayName": {
+          "zhHans": "挥剑惊石",
+          "zhHant": "揮劍驚石"
+        },
+        "names": [
+          "挥剑惊石"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "id": "12903",
+          "ids": [
+            "12903"
+          ],
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          },
+          "names": [
+            "挥剑惊石"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "挥剑惊石",
+              "zhHant": "揮劍驚石"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12903",
+        "spellKey": "111",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "挥剑惊石"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill4-1-f25e0075.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill4_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--4skill4_2",
+      "resourceId": "129zhugedan/4skill4_2",
+      "text": "只求玉石俱焚！",
+      "textLocalized": {
+        "zhHans": "只求玉石俱焚！",
+        "zhHant": "只求玉石俱焚！"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "spell-111",
+        "ids": [
+          "111"
+        ],
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "names": [
+          "崩坏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "崩坏",
+            "zhHant": "崩壞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-12903",
+        "ids": [
+          "12903"
+        ],
+        "name": "挥剑惊石",
+        "displayName": {
+          "zhHans": "挥剑惊石",
+          "zhHant": "揮劍驚石"
+        },
+        "names": [
+          "挥剑惊石"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-12903",
+          "id": "12903",
+          "ids": [
+            "12903"
+          ],
+          "name": "挥剑惊石",
+          "displayName": {
+            "zhHans": "挥剑惊石",
+            "zhHant": "揮劍驚石"
+          },
+          "names": [
+            "挥剑惊石"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "挥剑惊石",
+              "zhHant": "揮劍驚石"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12903",
+        "spellKey": "111",
+        "rowIndex": 2,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "挥剑惊石"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/4skill4-2-a3b6e279.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/4skill4_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--5skill4_1",
+      "resourceId": "129zhugedan/5skill4_1",
+      "text": "东吴援兵为何还不到？",
+      "textLocalized": {
+        "zhHans": "东吴援兵为何还不到？",
+        "zhHant": "東吳援兵爲何還不到？"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "spell-111",
+        "ids": [
+          "111"
+        ],
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "names": [
+          "崩坏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "崩坏",
+            "zhHant": "崩壞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "12905",
+        "ids": [
+          "12904",
+          "12905"
+        ],
+        "name": "矢志不渝,12905",
+        "displayName": {
+          "zhHans": "矢志不渝,12905",
+          "zhHant": "矢志不渝,12905"
+        },
+        "names": [
+          "矢志不渝",
+          "12905"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "矢志不渝",
+            "zhHant": "矢志不渝"
+          },
+          {
+            "zhHans": "12905",
+            "zhHant": "12905"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "12905",
+          "id": "12905",
+          "ids": [
+            "12905"
+          ],
+          "name": "12905",
+          "displayName": {
+            "zhHans": "12905",
+            "zhHant": "12905"
+          },
+          "names": [
+            "12905"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "12905",
+              "zhHant": "12905"
+            }
+          ]
+        },
+        {
+          "slug": "skin-12904",
+          "id": "12904",
+          "ids": [
+            "12904"
+          ],
+          "name": "矢志不渝",
+          "displayName": {
+            "zhHans": "矢志不渝",
+            "zhHant": "矢志不渝"
+          },
+          "names": [
+            "矢志不渝"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "矢志不渝",
+              "zhHant": "矢志不渝"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12904;12905",
+        "spellKey": "111",
+        "rowIndex": 1,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "矢志不渝",
+          "12905"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/5skill4-1-9e359db1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/5skill4_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhugedan--129zhugedan--5skill4_2",
+      "resourceId": "129zhugedan/5skill4_2",
+      "text": "东吴援兵为何还不到？",
+      "textLocalized": {
+        "zhHans": "东吴援兵为何还不到？",
+        "zhHant": "東吳援兵爲何還不到？"
+      },
+      "character": {
+        "slug": "zhugedan",
+        "command": "zhugedan",
+        "id": "129",
+        "ids": [
+          "129"
+        ],
+        "name": "诸葛诞",
+        "displayName": {
+          "zhHans": "诸葛诞",
+          "zhHant": "諸葛誕"
+        },
+        "names": [
+          "诸葛诞"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "sourceIds": [
+          "129"
+        ],
+        "sourceNames": [
+          "诸葛诞"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "诸葛诞",
+            "zhHant": "諸葛誕"
+          }
+        ],
+        "searchNames": [
+          "诸葛诞",
+          "諸葛誕",
+          "zhugedan"
+        ]
+      },
+      "group": {
+        "slug": "spell-111",
+        "ids": [
+          "111"
+        ],
+        "name": "崩坏",
+        "displayName": {
+          "zhHans": "崩坏",
+          "zhHant": "崩壞"
+        },
+        "names": [
+          "崩坏"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "崩坏",
+            "zhHant": "崩壞"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "12905",
+        "ids": [
+          "12904",
+          "12905"
+        ],
+        "name": "矢志不渝,12905",
+        "displayName": {
+          "zhHans": "矢志不渝,12905",
+          "zhHant": "矢志不渝,12905"
+        },
+        "names": [
+          "矢志不渝",
+          "12905"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "矢志不渝",
+            "zhHant": "矢志不渝"
+          },
+          {
+            "zhHans": "12905",
+            "zhHant": "12905"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "12905",
+          "id": "12905",
+          "ids": [
+            "12905"
+          ],
+          "name": "12905",
+          "displayName": {
+            "zhHans": "12905",
+            "zhHant": "12905"
+          },
+          "names": [
+            "12905"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "12905",
+              "zhHant": "12905"
+            }
+          ]
+        },
+        {
+          "slug": "skin-12904",
+          "id": "12904",
+          "ids": [
+            "12904"
+          ],
+          "name": "矢志不渝",
+          "displayName": {
+            "zhHans": "矢志不渝",
+            "zhHant": "矢志不渝"
+          },
+          "names": [
+            "矢志不渝"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "矢志不渝",
+              "zhHant": "矢志不渝"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "129",
+        "skinKey": "12904;12905",
+        "spellKey": "111",
+        "rowIndex": 2,
+        "characterNames": [
+          "诸葛诞"
+        ],
+        "skinNames": [
+          "矢志不渝",
+          "12905"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/129zhugedan-f2e04d5e/5skill4-2-88c9cde4.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/129zhugedan/5skill4_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

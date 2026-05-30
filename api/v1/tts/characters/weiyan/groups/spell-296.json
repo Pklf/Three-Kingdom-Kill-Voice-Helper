@@ -1,3 +1,237 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c103efbeca0b7be22bc76860e00a29fe6cb26bc908600bcc2da17ee4029c4c5
-size 6160
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "weiyan",
+    "command": "weiyan",
+    "name": "魏延",
+    "displayName": {
+      "zhHans": "魏延",
+      "zhHant": "魏延"
+    },
+    "names": [
+      "魏延",
+      "界魏延"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "魏延",
+        "zhHant": "魏延"
+      },
+      {
+        "zhHans": "界魏延",
+        "zhHant": "界魏延"
+      }
+    ],
+    "ids": [
+      "27",
+      "456"
+    ],
+    "sourceNames": [
+      "魏延",
+      "界魏延"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "魏延",
+        "zhHant": "魏延"
+      },
+      {
+        "zhHans": "界魏延",
+        "zhHant": "界魏延"
+      }
+    ],
+    "sourceIds": [
+      "27",
+      "456"
+    ],
+    "searchNames": [
+      "weiyan",
+      "魏延",
+      "界魏延"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/weiyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-295-72-4068",
+        "name": "狂骨",
+        "displayName": {
+          "zhHans": "狂骨",
+          "zhHant": "狂骨"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/weiyan/groups/spell-295-72-4068.json"
+      },
+      {
+        "slug": "spell-296",
+        "name": "奇谋",
+        "displayName": {
+          "zhHans": "奇谋",
+          "zhHant": "奇謀"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/weiyan/groups/spell-296.json"
+      },
+      {
+        "slug": "spell-296-925",
+        "name": "奇谋",
+        "displayName": {
+          "zhHans": "奇谋",
+          "zhHant": "奇謀"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/weiyan/groups/spell-296-925.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-2701",
+        "name": "嗜血独狼",
+        "displayName": {
+          "zhHans": "嗜血独狼",
+          "zhHant": "嗜血獨狼"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-2701.json"
+      },
+      {
+        "slug": "skin-2701-2703",
+        "name": "嗜血独狼,狂傲不羁",
+        "displayName": {
+          "zhHans": "嗜血独狼,狂傲不羁",
+          "zhHant": "嗜血獨狼,狂傲不羈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-2701-2703.json"
+      },
+      {
+        "slug": "skin-2703",
+        "name": "狂傲不羁",
+        "displayName": {
+          "zhHans": "狂傲不羁",
+          "zhHant": "狂傲不羈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-2703.json"
+      },
+      {
+        "slug": "skin-2704",
+        "name": "誓死卫汉",
+        "displayName": {
+          "zhHans": "誓死卫汉",
+          "zhHant": "誓死衛漢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/weiyan/skins/skin-2704.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/weiyan.json",
+      "groups": "api/v1/tts/characters/weiyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/weiyan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-296",
+    "name": "奇谋",
+    "displayName": {
+      "zhHans": "奇谋",
+      "zhHant": "奇謀"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/weiyan/groups/spell-296.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "weiyan--27weiyan--1skill2_1",
+      "resourceId": "27weiyan/1skill2_1",
+      "text": "成王败寇，怎可有勇无谋？",
+      "textLocalized": {
+        "zhHans": "成王败寇，怎可有勇无谋？",
+        "zhHant": "成王敗寇，怎可有勇無謀？"
+      },
+      "group": {
+        "slug": "spell-296",
+        "name": "奇谋",
+        "displayName": {
+          "zhHans": "奇谋",
+          "zhHant": "奇謀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/27weiyan-683bb57e/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/27weiyan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "weiyan--27weiyan--1skill2_2",
+      "resourceId": "27weiyan/1skill2_2",
+      "text": "且不要因为暂时的得失而胆怯。",
+      "textLocalized": {
+        "zhHans": "且不要因为暂时的得失而胆怯。",
+        "zhHant": "且不要因爲暫時的得失而膽怯。"
+      },
+      "group": {
+        "slug": "spell-296",
+        "name": "奇谋",
+        "displayName": {
+          "zhHans": "奇谋",
+          "zhHant": "奇謀"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/27weiyan-683bb57e/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/27weiyan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

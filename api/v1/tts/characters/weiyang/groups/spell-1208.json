@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5701b2a2575f4f05edc24ea94cdd3b96525f9127ab9973aefd56d742418a4f47
-size 3102
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "weiyang",
+    "command": "weiyang",
+    "name": "未羊",
+    "displayName": {
+      "zhHans": "未羊",
+      "zhHant": "未羊"
+    },
+    "names": [
+      "未羊"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "未羊",
+        "zhHant": "未羊"
+      }
+    ],
+    "ids": [
+      "4090"
+    ],
+    "sourceNames": [
+      "未羊"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "未羊",
+        "zhHant": "未羊"
+      }
+    ],
+    "sourceIds": [
+      "4090"
+    ],
+    "searchNames": [
+      "weiyang",
+      "未羊"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/weiyang/groups/dead.json"
+      },
+      {
+        "slug": "spell-1208",
+        "name": "未羊",
+        "displayName": {
+          "zhHans": "未羊",
+          "zhHant": "未羊"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/weiyang/groups/spell-1208.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/weiyang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/weiyang.json",
+      "groups": "api/v1/tts/characters/weiyang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/weiyang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1208",
+    "name": "未羊",
+    "displayName": {
+      "zhHans": "未羊",
+      "zhHant": "未羊"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/weiyang/groups/spell-1208.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "weiyang--4090weiyang--1skill1_1",
+      "resourceId": "4090weiyang/1skill1_1",
+      "text": "共享绵泽，同甘共苦。",
+      "textLocalized": {
+        "zhHans": "共享绵泽，同甘共苦。",
+        "zhHant": "共享綿澤，同甘共苦。"
+      },
+      "group": {
+        "slug": "spell-1208",
+        "name": "未羊",
+        "displayName": {
+          "zhHans": "未羊",
+          "zhHant": "未羊"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4090weiyang-a83bb5ed/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4090weiyang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

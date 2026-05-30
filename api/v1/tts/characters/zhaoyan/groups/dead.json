@@ -1,3 +1,220 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:727ec940bd9224d0c94c3071e905751945d5e5fa7672d6b5a2ebe20d5caa8710
-size 5833
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhaoyan",
+    "command": "zhaoyan",
+    "name": "赵俨",
+    "displayName": {
+      "zhHans": "赵俨",
+      "zhHant": "趙儼"
+    },
+    "names": [
+      "赵俨"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "赵俨",
+        "zhHant": "趙儼"
+      }
+    ],
+    "ids": [
+      "511"
+    ],
+    "sourceNames": [
+      "赵俨"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "赵俨",
+        "zhHant": "趙儼"
+      }
+    ],
+    "sourceIds": [
+      "511"
+    ],
+    "searchNames": [
+      "zhaoyan",
+      "赵俨",
+      "趙儼"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhaoyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3118",
+        "name": "同协",
+        "displayName": {
+          "zhHans": "同协",
+          "zhHant": "同協"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zhaoyan/groups/spell-3118.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhaoyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51101",
+        "name": "执法河东",
+        "displayName": {
+          "zhHans": "执法河东",
+          "zhHant": "執法河東"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhaoyan/skins/skin-51101.json"
+      },
+      {
+        "slug": "skin-51102",
+        "name": "遐迩一体",
+        "displayName": {
+          "zhHans": "遐迩一体",
+          "zhHant": "遐邇一體"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zhaoyan/skins/skin-51102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhaoyan.json",
+      "groups": "api/v1/tts/characters/zhaoyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhaoyan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/zhaoyan/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "zhaoyan--511zhaoyan--1dead01",
+      "resourceId": "511zhaoyan/1dead01",
+      "text": "援军不至，樊城之围难解。",
+      "textLocalized": {
+        "zhHans": "援军不至，樊城之围难解。",
+        "zhHant": "援軍不至，樊城之圍難解。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/511zhaoyan-f77aceda/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/511zhaoyan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhaoyan--511zhaoyan--2dead01",
+      "resourceId": "511zhaoyan/2dead01",
+      "text": "诸将桀骜，口舌无意也。",
+      "textLocalized": {
+        "zhHans": "诸将桀骜，口舌无意也。",
+        "zhHant": "諸將桀驁，口舌無意也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51101",
+          "name": "执法河东",
+          "displayName": {
+            "zhHans": "执法河东",
+            "zhHant": "執法河東"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/511zhaoyan-f77aceda/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/511zhaoyan/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhaoyan--511zhaoyan--3dead01",
+      "resourceId": "511zhaoyan/3dead01",
+      "text": "为国以礼，民非信不立。信义丧矣，何以临民？",
+      "textLocalized": {
+        "zhHans": "为国以礼，民非信不立。信义丧矣，何以临民？",
+        "zhHant": "爲國以禮，民非信不立。信義喪矣，何以臨民？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51102",
+          "name": "遐迩一体",
+          "displayName": {
+            "zhHans": "遐迩一体",
+            "zhHant": "遐邇一體"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/511zhaoyan-f77aceda/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/511zhaoyan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

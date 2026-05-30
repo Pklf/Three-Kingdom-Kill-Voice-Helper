@@ -1,3 +1,260 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b2efbc72cd2d89f9b2eabf424a30f6ca33aef75ff34b29265a7e34b50bcdbec
-size 6987
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sundeng",
+    "command": "sundeng",
+    "name": "孙登",
+    "displayName": {
+      "zhHans": "孙登",
+      "zhHant": "孫登"
+    },
+    "names": [
+      "孙登"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙登",
+        "zhHant": "孫登"
+      }
+    ],
+    "ids": [
+      "382"
+    ],
+    "sourceNames": [
+      "孙登"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙登",
+        "zhHant": "孫登"
+      }
+    ],
+    "sourceIds": [
+      "382"
+    ],
+    "searchNames": [
+      "sundeng",
+      "孙登",
+      "孫登"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sundeng/groups/dead.json"
+      },
+      {
+        "slug": "spell-766",
+        "name": "匡弼",
+        "displayName": {
+          "zhHans": "匡弼",
+          "zhHant": "匡弼"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/sundeng/groups/spell-766.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sundeng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-38201",
+        "name": "少年才俊",
+        "displayName": {
+          "zhHans": "少年才俊",
+          "zhHant": "少年才俊"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sundeng/skins/skin-38201.json"
+      },
+      {
+        "slug": "skin-38201-38203",
+        "name": "少年才俊,茂美之德",
+        "displayName": {
+          "zhHans": "少年才俊,茂美之德",
+          "zhHant": "少年才俊,茂美之德"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sundeng/skins/skin-38201-38203.json"
+      },
+      {
+        "slug": "skin-38207",
+        "name": "深达治国",
+        "displayName": {
+          "zhHans": "深达治国",
+          "zhHant": "深達治國"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sundeng/skins/skin-38207.json"
+      },
+      {
+        "slug": "skin-38203",
+        "name": "茂美之德",
+        "displayName": {
+          "zhHans": "茂美之德",
+          "zhHant": "茂美之德"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sundeng/skins/skin-38203.json"
+      },
+      {
+        "slug": "skin-38202",
+        "name": "超然卓绝",
+        "displayName": {
+          "zhHans": "超然卓绝",
+          "zhHant": "超然卓絕"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sundeng/skins/skin-38202.json"
+      },
+      {
+        "slug": "skin-38205",
+        "name": "鹊星夕情",
+        "displayName": {
+          "zhHans": "鹊星夕情",
+          "zhHant": "鵲星夕情"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/sundeng/skins/skin-38205.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sundeng.json",
+      "groups": "api/v1/tts/characters/sundeng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sundeng/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/sundeng/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "sundeng--382sundeng--1dead01",
+      "resourceId": "382sundeng/1dead01",
+      "text": "愿陛下，留意听采，儿臣虽死犹生。",
+      "textLocalized": {
+        "zhHans": "愿陛下，留意听采，儿臣虽死犹生。",
+        "zhHant": "願陛下，留意聽採，兒臣雖死猶生。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/382sundeng-4d17d14c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/382sundeng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sundeng--382sundeng--1skill1_1",
+      "resourceId": "382sundeng/1skill1_1",
+      "text": "匡人助己，辅政弼[bì]贤。",
+      "textLocalized": {
+        "zhHans": "匡人助己，辅政弼[bì]贤。",
+        "zhHant": "匡人助己，輔政弼[bì]賢。"
+      },
+      "group": {
+        "slug": "spell-766",
+        "name": "匡弼",
+        "displayName": {
+          "zhHans": "匡弼",
+          "zhHant": "匡弼"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/382sundeng-4d17d14c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/382sundeng/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sundeng--382sundeng--1skill1_2",
+      "resourceId": "382sundeng/1skill1_2",
+      "text": "兴隆大化，佐理时务。",
+      "textLocalized": {
+        "zhHans": "兴隆大化，佐理时务。",
+        "zhHant": "興隆大化，佐理時務。"
+      },
+      "group": {
+        "slug": "spell-766",
+        "name": "匡弼",
+        "displayName": {
+          "zhHans": "匡弼",
+          "zhHant": "匡弼"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/382sundeng-4d17d14c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/382sundeng/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

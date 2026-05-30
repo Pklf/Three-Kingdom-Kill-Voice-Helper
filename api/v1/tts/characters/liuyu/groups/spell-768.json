@@ -1,3 +1,415 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2b4ca5d0ca7f8d22e66048f4f77b2cbfb61cb1cd2797fd8cab39df7a10e5d7ba
-size 11591
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liuyu",
+    "command": "liuyu",
+    "name": "刘虞",
+    "displayName": {
+      "zhHans": "刘虞",
+      "zhHant": "劉虞"
+    },
+    "names": [
+      "刘虞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘虞",
+        "zhHant": "劉虞"
+      }
+    ],
+    "ids": [
+      "383"
+    ],
+    "sourceNames": [
+      "刘虞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘虞",
+        "zhHant": "劉虞"
+      }
+    ],
+    "sourceIds": [
+      "383"
+    ],
+    "searchNames": [
+      "liuyu",
+      "刘虞",
+      "劉虞"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liuyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-767",
+        "name": "止戈",
+        "displayName": {
+          "zhHans": "止戈",
+          "zhHant": "止戈"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liuyu/groups/spell-767.json"
+      },
+      {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/liuyu/groups/spell-768.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-38304",
+        "name": "北疆征战",
+        "displayName": {
+          "zhHans": "北疆征战",
+          "zhHant": "北疆征戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyu/skins/skin-38304.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-38303",
+        "name": "布施严令",
+        "displayName": {
+          "zhHans": "布施严令",
+          "zhHant": "佈施嚴令"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyu/skins/skin-38303.json"
+      },
+      {
+        "slug": "skin-38302",
+        "name": "饬身厉行",
+        "displayName": {
+          "zhHans": "饬身厉行",
+          "zhHant": "飭身厲行"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuyu/skins/skin-38302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liuyu.json",
+      "groups": "api/v1/tts/characters/liuyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liuyu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-768",
+    "name": "宗祚",
+    "displayName": {
+      "zhHans": "宗祚",
+      "zhHant": "宗祚"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/liuyu/groups/spell-768.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "liuyu--383liuyu--5skill2_1",
+      "resourceId": "383liuyu/5skill2_1",
+      "text": "汉室衰败，我岂能袖手旁观？",
+      "textLocalized": {
+        "zhHans": "汉室衰败，我岂能袖手旁观？",
+        "zhHant": "漢室衰敗，我豈能袖手旁觀？"
+      },
+      "group": {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38304",
+          "name": "北疆征战",
+          "displayName": {
+            "zhHans": "北疆征战",
+            "zhHant": "北疆征戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--5skill2_2",
+      "resourceId": "383liuyu/5skill2_2",
+      "text": "汉室天下，刘氏一族，自当守护！",
+      "textLocalized": {
+        "zhHans": "汉室天下，刘氏一族，自当守护！",
+        "zhHant": "漢室天下，劉氏一族，自當守護！"
+      },
+      "group": {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38304",
+          "name": "北疆征战",
+          "displayName": {
+            "zhHans": "北疆征战",
+            "zhHant": "北疆征戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--1skill2_1",
+      "resourceId": "383liuyu/1skill2_1",
+      "text": "尽死生之力，保大厦不倾。",
+      "textLocalized": {
+        "zhHans": "尽死生之力，保大厦不倾。",
+        "zhHant": "盡死生之力，保大廈不傾。"
+      },
+      "group": {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--1skill2_2",
+      "resourceId": "383liuyu/1skill2_2",
+      "text": "乾坤倒，黎民苦；高祖后，岂任之？",
+      "textLocalized": {
+        "zhHans": "乾坤倒，黎民苦；高祖后，岂任之？",
+        "zhHant": "乾坤倒，黎民苦；高祖後，豈任之？"
+      },
+      "group": {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--4skill2_1",
+      "resourceId": "383liuyu/4skill2_1",
+      "text": "饬身厉行，志存王室。",
+      "textLocalized": {
+        "zhHans": "饬身厉行，志存王室。",
+        "zhHant": "飭身厲行，志存王室。"
+      },
+      "group": {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38303",
+          "name": "布施严令",
+          "displayName": {
+            "zhHans": "布施严令",
+            "zhHant": "佈施嚴令"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--4skill2_2",
+      "resourceId": "383liuyu/4skill2_2",
+      "text": "保宏图社稷，巩国祚[zuò]绵延。",
+      "textLocalized": {
+        "zhHans": "保宏图社稷，巩国祚[zuò]绵延。",
+        "zhHant": "保宏圖社稷，鞏國祚[zuò]綿延。"
+      },
+      "group": {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38303",
+          "name": "布施严令",
+          "displayName": {
+            "zhHans": "布施严令",
+            "zhHant": "佈施嚴令"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--3skill2_1",
+      "resourceId": "383liuyu/3skill2_1",
+      "text": "汉室衰败，我岂能袖手旁观？",
+      "textLocalized": {
+        "zhHans": "汉室衰败，我岂能袖手旁观？",
+        "zhHant": "漢室衰敗，我豈能袖手旁觀？"
+      },
+      "group": {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38302",
+          "name": "饬身厉行",
+          "displayName": {
+            "zhHans": "饬身厉行",
+            "zhHant": "飭身厲行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuyu--383liuyu--3skill2_2",
+      "resourceId": "383liuyu/3skill2_2",
+      "text": "汉室天下，刘氏一族，自当守护！",
+      "textLocalized": {
+        "zhHans": "汉室天下，刘氏一族，自当守护！",
+        "zhHant": "漢室天下，劉氏一族，自當守護！"
+      },
+      "group": {
+        "slug": "spell-768",
+        "name": "宗祚",
+        "displayName": {
+          "zhHans": "宗祚",
+          "zhHant": "宗祚"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-38302",
+          "name": "饬身厉行",
+          "displayName": {
+            "zhHans": "饬身厉行",
+            "zhHant": "飭身厲行"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/383liuyu-dee94fa3/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/383liuyu/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

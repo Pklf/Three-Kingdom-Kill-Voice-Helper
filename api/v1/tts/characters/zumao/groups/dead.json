@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9d119a5b4d47949e46a5c54c9371008840b53f13d93003b3dc05e3493b11ccd9
-size 7024
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zumao",
+    "command": "zumao",
+    "name": "祖茂",
+    "displayName": {
+      "zhHans": "祖茂",
+      "zhHant": "祖茂"
+    },
+    "names": [
+      "祖茂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "祖茂",
+        "zhHant": "祖茂"
+      }
+    ],
+    "ids": [
+      "125"
+    ],
+    "sourceNames": [
+      "祖茂"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "祖茂",
+        "zhHant": "祖茂"
+      }
+    ],
+    "sourceIds": [
+      "125"
+    ],
+    "searchNames": [
+      "zumao",
+      "祖茂"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/zumao/groups/dead.json"
+      },
+      {
+        "slug": "spell-228",
+        "name": "引兵",
+        "displayName": {
+          "zhHans": "引兵",
+          "zhHant": "引兵"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zumao/groups/spell-228.json"
+      },
+      {
+        "slug": "spell-229",
+        "name": "绝地",
+        "displayName": {
+          "zhHans": "绝地",
+          "zhHant": "絕地"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/zumao/groups/spell-229.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-12503",
+        "name": "奋勇而起",
+        "displayName": {
+          "zhHans": "奋勇而起",
+          "zhHant": "奮勇而起"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-12503.json"
+      },
+      {
+        "slug": "skin-12501",
+        "name": "杀身成仁",
+        "displayName": {
+          "zhHans": "杀身成仁",
+          "zhHant": "殺身成仁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-12501.json"
+      },
+      {
+        "slug": "skin-12502",
+        "name": "横刀策马",
+        "displayName": {
+          "zhHans": "横刀策马",
+          "zhHant": "橫刀策馬"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-12502.json"
+      },
+      {
+        "slug": "skin-12502-12503",
+        "name": "横刀策马,奋勇而起",
+        "displayName": {
+          "zhHans": "横刀策马,奋勇而起",
+          "zhHant": "橫刀策馬,奮勇而起"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zumao/skins/skin-12502-12503.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zumao.json",
+      "groups": "api/v1/tts/characters/zumao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zumao/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/zumao/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "zumao--125zumao--1dead01",
+      "resourceId": "125zumao/1dead01",
+      "text": "孙将军，已经安全了吧。",
+      "textLocalized": {
+        "zhHans": "孙将军，已经安全了吧。",
+        "zhHant": "孫將軍，已經安全了吧。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/125zumao-e82bf6c1/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/125zumao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zumao--125zumao--3dead01",
+      "resourceId": "125zumao/3dead01",
+      "text": "护主周全，夙愿已偿。",
+      "textLocalized": {
+        "zhHans": "护主周全，夙愿已偿。",
+        "zhHant": "護主周全，夙願已償。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12501",
+          "name": "杀身成仁",
+          "displayName": {
+            "zhHans": "杀身成仁",
+            "zhHant": "殺身成仁"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/125zumao-e82bf6c1/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/125zumao/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zumao--125zumao--4dead01",
+      "resourceId": "125zumao/4dead01",
+      "text": "这一次，是走不脱了……",
+      "textLocalized": {
+        "zhHans": "这一次，是走不脱了……",
+        "zhHant": "這一次，是走不脫了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12503",
+          "name": "奋勇而起",
+          "displayName": {
+            "zhHans": "奋勇而起",
+            "zhHant": "奮勇而起"
+          }
+        },
+        {
+          "slug": "skin-12502",
+          "name": "横刀策马",
+          "displayName": {
+            "zhHans": "横刀策马",
+            "zhHant": "橫刀策馬"
+          }
+        },
+        {
+          "slug": "skin-12502-12503",
+          "name": "横刀策马,奋勇而起",
+          "displayName": {
+            "zhHans": "横刀策马,奋勇而起",
+            "zhHant": "橫刀策馬,奮勇而起"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/125zumao-e82bf6c1/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/125zumao/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

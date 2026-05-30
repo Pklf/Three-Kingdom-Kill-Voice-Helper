@@ -1,3 +1,420 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:57b3d6d45b1e56091603b610100d8498a511e7bf7101f72da5e284f73e86ea82
-size 11578
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangbao",
+    "command": "zhangbao",
+    "name": "张宝",
+    "displayName": {
+      "zhHans": "张宝",
+      "zhHant": "張寶"
+    },
+    "names": [
+      "张宝"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张宝",
+        "zhHant": "張寶"
+      }
+    ],
+    "ids": [
+      "119"
+    ],
+    "sourceNames": [
+      "张宝"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张宝",
+        "zhHant": "張寶"
+      }
+    ],
+    "sourceIds": [
+      "119"
+    ],
+    "searchNames": [
+      "zhangbao",
+      "张宝",
+      "張寶"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangbao/groups/dead.json"
+      },
+      {
+        "slug": "spell-223",
+        "name": "咒缚",
+        "displayName": {
+          "zhHans": "咒缚",
+          "zhHant": "咒縛"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangbao/groups/spell-223.json"
+      },
+      {
+        "slug": "spell-224",
+        "name": "影兵",
+        "displayName": {
+          "zhHans": "影兵",
+          "zhHant": "影兵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/zhangbao/groups/spell-224.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "11907",
+        "name": "11907",
+        "displayName": {
+          "zhHans": "11907",
+          "zhHant": "11907"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangbao/skins/11907.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangbao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-11901",
+        "name": "地公妖将",
+        "displayName": {
+          "zhHans": "地公妖将",
+          "zhHant": "地公妖將"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangbao/skins/skin-11901.json"
+      },
+      {
+        "slug": "skin-11902",
+        "name": "心术不定",
+        "displayName": {
+          "zhHans": "心术不定",
+          "zhHant": "心術不定"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangbao/skins/skin-11902.json"
+      },
+      {
+        "slug": "skin-11902-11906",
+        "name": "心术不定,换斗移星",
+        "displayName": {
+          "zhHans": "心术不定,换斗移星",
+          "zhHant": "心術不定,換鬥移星"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangbao/skins/skin-11902-11906.json"
+      },
+      {
+        "slug": "skin-11906",
+        "name": "换斗移星",
+        "displayName": {
+          "zhHans": "换斗移星",
+          "zhHant": "換鬥移星"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangbao/skins/skin-11906.json"
+      },
+      {
+        "slug": "skin-11909",
+        "name": "神符咒术",
+        "displayName": {
+          "zhHans": "神符咒术",
+          "zhHant": "神符咒術"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangbao/skins/skin-11909.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangbao.json",
+      "groups": "api/v1/tts/characters/zhangbao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangbao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-11902",
+    "name": "心术不定",
+    "displayName": {
+      "zhHans": "心术不定",
+      "zhHant": "心術不定"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zhangbao/skins/skin-11902.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zhangbao--119zhangbao--3dead01",
+      "resourceId": "119zhangbao/3dead01",
+      "text": "咒术，为何失灵了？",
+      "textLocalized": {
+        "zhHans": "咒术，为何失灵了？",
+        "zhHant": "咒術，爲何失靈了？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11902",
+          "name": "心术不定",
+          "displayName": {
+            "zhHans": "心术不定",
+            "zhHant": "心術不定"
+          }
+        },
+        {
+          "slug": "skin-11906",
+          "name": "换斗移星",
+          "displayName": {
+            "zhHans": "换斗移星",
+            "zhHant": "換鬥移星"
+          }
+        },
+        {
+          "slug": "skin-11902-11906",
+          "name": "心术不定,换斗移星",
+          "displayName": {
+            "zhHans": "心术不定,换斗移星",
+            "zhHant": "心術不定,換鬥移星"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/119zhangbao-50085026/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/119zhangbao/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangbao--119zhangbao--3skill1_1",
+      "resourceId": "119zhangbao/3skill1_1",
+      "text": "驱邪缚魅，保命护身！",
+      "textLocalized": {
+        "zhHans": "驱邪缚魅，保命护身！",
+        "zhHant": "驅邪縛魅，保命護身！"
+      },
+      "group": {
+        "slug": "spell-223",
+        "name": "咒缚",
+        "displayName": {
+          "zhHans": "咒缚",
+          "zhHant": "咒縛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11902",
+          "name": "心术不定",
+          "displayName": {
+            "zhHans": "心术不定",
+            "zhHant": "心術不定"
+          }
+        },
+        {
+          "slug": "skin-11906",
+          "name": "换斗移星",
+          "displayName": {
+            "zhHans": "换斗移星",
+            "zhHant": "換鬥移星"
+          }
+        },
+        {
+          "slug": "skin-11902-11906",
+          "name": "心术不定,换斗移星",
+          "displayName": {
+            "zhHans": "心术不定,换斗移星",
+            "zhHant": "心術不定,換鬥移星"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/119zhangbao-50085026/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/119zhangbao/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangbao--119zhangbao--3skill1_2",
+      "resourceId": "119zhangbao/3skill1_2",
+      "text": "缚其命，索其魂！",
+      "textLocalized": {
+        "zhHans": "缚其命，索其魂！",
+        "zhHant": "縛其命，索其魂！"
+      },
+      "group": {
+        "slug": "spell-223",
+        "name": "咒缚",
+        "displayName": {
+          "zhHans": "咒缚",
+          "zhHant": "咒縛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11902",
+          "name": "心术不定",
+          "displayName": {
+            "zhHans": "心术不定",
+            "zhHant": "心術不定"
+          }
+        },
+        {
+          "slug": "skin-11906",
+          "name": "换斗移星",
+          "displayName": {
+            "zhHans": "换斗移星",
+            "zhHant": "換鬥移星"
+          }
+        },
+        {
+          "slug": "skin-11902-11906",
+          "name": "心术不定,换斗移星",
+          "displayName": {
+            "zhHans": "心术不定,换斗移星",
+            "zhHant": "心術不定,換鬥移星"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/119zhangbao-50085026/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/119zhangbao/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangbao--119zhangbao--3skill2_1",
+      "resourceId": "119zhangbao/3skill2_1",
+      "text": "出现吧！",
+      "textLocalized": {
+        "zhHans": "出现吧！",
+        "zhHant": "出現吧！"
+      },
+      "group": {
+        "slug": "spell-224",
+        "name": "影兵",
+        "displayName": {
+          "zhHans": "影兵",
+          "zhHant": "影兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11902",
+          "name": "心术不定",
+          "displayName": {
+            "zhHans": "心术不定",
+            "zhHant": "心術不定"
+          }
+        },
+        {
+          "slug": "skin-11906",
+          "name": "换斗移星",
+          "displayName": {
+            "zhHans": "换斗移星",
+            "zhHant": "換鬥移星"
+          }
+        },
+        {
+          "slug": "skin-11902-11906",
+          "name": "心术不定,换斗移星",
+          "displayName": {
+            "zhHans": "心术不定,换斗移星",
+            "zhHant": "心術不定,換鬥移星"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/119zhangbao-50085026/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/119zhangbao/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangbao--119zhangbao--3skill2_2",
+      "resourceId": "119zhangbao/3skill2_2",
+      "text": "你已经跑不出去了！",
+      "textLocalized": {
+        "zhHans": "你已经跑不出去了！",
+        "zhHant": "你已經跑不出去了！"
+      },
+      "group": {
+        "slug": "spell-224",
+        "name": "影兵",
+        "displayName": {
+          "zhHans": "影兵",
+          "zhHant": "影兵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-11902",
+          "name": "心术不定",
+          "displayName": {
+            "zhHans": "心术不定",
+            "zhHant": "心術不定"
+          }
+        },
+        {
+          "slug": "skin-11906",
+          "name": "换斗移星",
+          "displayName": {
+            "zhHans": "换斗移星",
+            "zhHant": "換鬥移星"
+          }
+        },
+        {
+          "slug": "skin-11902-11906",
+          "name": "心术不定,换斗移星",
+          "displayName": {
+            "zhHans": "心术不定,换斗移星",
+            "zhHant": "心術不定,換鬥移星"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/119zhangbao-50085026/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/119zhangbao/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

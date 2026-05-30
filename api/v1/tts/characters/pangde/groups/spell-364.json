@@ -1,3 +1,339 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9170ba2cf88b64e350ac3961abd42afca089e6cca0413501b5e7284dcdce377a
-size 8943
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "pangde",
+    "command": "pangde",
+    "name": "庞德",
+    "displayName": {
+      "zhHans": "庞德",
+      "zhHant": "龐德"
+    },
+    "names": [
+      "庞德",
+      "界庞德"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "庞德",
+        "zhHant": "龐德"
+      },
+      {
+        "zhHans": "界庞德",
+        "zhHant": "界龐德"
+      }
+    ],
+    "ids": [
+      "39",
+      "462"
+    ],
+    "sourceNames": [
+      "庞德",
+      "界庞德"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "庞德",
+        "zhHant": "龐德"
+      },
+      {
+        "zhHans": "界庞德",
+        "zhHant": "界龐德"
+      }
+    ],
+    "sourceIds": [
+      "39",
+      "462"
+    ],
+    "searchNames": [
+      "pangde",
+      "庞德",
+      "龐德",
+      "界庞德",
+      "界龐德"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/pangde/groups/dead.json"
+      },
+      {
+        "slug": "spell-364",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/pangde/groups/spell-364.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/pangde/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-3904",
+        "name": "果敢善战",
+        "displayName": {
+          "zhHans": "果敢善战",
+          "zhHant": "果敢善戰"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/pangde/skins/skin-3904.json"
+      },
+      {
+        "slug": "skin-3903",
+        "name": "英风劲气",
+        "displayName": {
+          "zhHans": "英风劲气",
+          "zhHant": "英風勁氣"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/pangde/skins/skin-3903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/pangde.json",
+      "groups": "api/v1/tts/characters/pangde/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/pangde/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-364",
+    "name": "鞬出",
+    "displayName": {
+      "zhHans": "鞬出",
+      "zhHant": "鞬出"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/pangde/groups/spell-364.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "pangde--39pangde--1skill2_1",
+      "resourceId": "39pangde/1skill2_1",
+      "text": "我要杀你们个片甲不留！",
+      "textLocalized": {
+        "zhHans": "我要杀你们个片甲不留！",
+        "zhHant": "我要殺你們個片甲不留！"
+      },
+      "group": {
+        "slug": "spell-364",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/39pangde-ee1ba15c/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/39pangde/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pangde--39pangde--1skill2_2",
+      "resourceId": "39pangde/1skill2_2",
+      "text": "你，可敢挡我？",
+      "textLocalized": {
+        "zhHans": "你，可敢挡我？",
+        "zhHant": "你，可敢擋我？"
+      },
+      "group": {
+        "slug": "spell-364",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/39pangde-ee1ba15c/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/39pangde/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pangde--39pangde--4skill2_1",
+      "resourceId": "39pangde/4skill2_1",
+      "text": "乘胜追击！杀！杀！",
+      "textLocalized": {
+        "zhHans": "乘胜追击！杀！杀！",
+        "zhHant": "乘勝追擊！殺！殺！"
+      },
+      "group": {
+        "slug": "spell-364",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-3904",
+          "name": "果敢善战",
+          "displayName": {
+            "zhHans": "果敢善战",
+            "zhHant": "果敢善戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/39pangde-ee1ba15c/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/39pangde/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pangde--39pangde--4skill2_2",
+      "resourceId": "39pangde/4skill2_2",
+      "text": "驰骋沙场，杀敌无惧！",
+      "textLocalized": {
+        "zhHans": "驰骋沙场，杀敌无惧！",
+        "zhHant": "馳騁沙場，殺敵無懼！"
+      },
+      "group": {
+        "slug": "spell-364",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-3904",
+          "name": "果敢善战",
+          "displayName": {
+            "zhHans": "果敢善战",
+            "zhHant": "果敢善戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/39pangde-ee1ba15c/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/39pangde/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pangde--39pangde--3skill2_1",
+      "resourceId": "39pangde/3skill2_1",
+      "text": "休想全身而退！",
+      "textLocalized": {
+        "zhHans": "休想全身而退！",
+        "zhHant": "休想全身而退！"
+      },
+      "group": {
+        "slug": "spell-364",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-3903",
+          "name": "英风劲气",
+          "displayName": {
+            "zhHans": "英风劲气",
+            "zhHant": "英風勁氣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/39pangde-ee1ba15c/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/39pangde/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "pangde--39pangde--3skill2_2",
+      "resourceId": "39pangde/3skill2_2",
+      "text": "杀到你丢盔弃甲！",
+      "textLocalized": {
+        "zhHans": "杀到你丢盔弃甲！",
+        "zhHant": "殺到你丟盔棄甲！"
+      },
+      "group": {
+        "slug": "spell-364",
+        "name": "鞬出",
+        "displayName": {
+          "zhHans": "鞬出",
+          "zhHant": "鞬出"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-3903",
+          "name": "英风劲气",
+          "displayName": {
+            "zhHans": "英风劲气",
+            "zhHant": "英風勁氣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/39pangde-ee1ba15c/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/39pangde/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

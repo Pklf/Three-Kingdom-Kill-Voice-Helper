@@ -1,3 +1,455 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:75738ddfbfcdbc484934ec3a15dd20c9c3939e3f87cb4350982141d95a9092f7
-size 12754
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "caoxi",
+    "command": "caoxi",
+    "name": "曹羲",
+    "displayName": {
+      "zhHans": "曹羲",
+      "zhHant": "曹羲"
+    },
+    "names": [
+      "曹羲"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹羲",
+        "zhHant": "曹羲"
+      }
+    ],
+    "ids": [
+      "552"
+    ],
+    "sourceNames": [
+      "曹羲"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹羲",
+        "zhHant": "曹羲"
+      }
+    ],
+    "sourceIds": [
+      "552"
+    ],
+    "searchNames": [
+      "caoxi",
+      "曹羲"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caoxi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoxi/groups/spell-3274.json"
+      },
+      {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoxi/groups/spell-3275.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "55201",
+        "name": "55201",
+        "displayName": {
+          "zhHans": "55201",
+          "zhHant": "55201"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoxi/skins/55201.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoxi/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoxi.json",
+      "groups": "api/v1/tts/characters/caoxi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoxi/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "caoxi--552caoxi--2dead01",
+      "resourceId": "552caoxi/2dead01",
+      "text": "今日之祸，咎由自取。",
+      "textLocalized": {
+        "zhHans": "今日之祸，咎由自取。",
+        "zhHant": "今日之禍，咎由自取。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "55201",
+          "name": "55201",
+          "displayName": {
+            "zhHans": "55201",
+            "zhHant": "55201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--1dead01",
+      "resourceId": "552caoxi/1dead01",
+      "text": "曹氏亡矣，大魏亡矣。",
+      "textLocalized": {
+        "zhHans": "曹氏亡矣，大魏亡矣。",
+        "zhHant": "曹氏亡矣，大魏亡矣。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--2skill1_1",
+      "resourceId": "552caoxi/2skill1_1",
+      "text": "甘罗年十二拜上卿，吾欲效使赵旧事。",
+      "textLocalized": {
+        "zhHans": "甘罗年十二拜上卿，吾欲效使赵旧事。",
+        "zhHant": "甘羅年十二拜上卿，吾欲效使趙舊事。"
+      },
+      "group": {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "55201",
+          "name": "55201",
+          "displayName": {
+            "zhHans": "55201",
+            "zhHant": "55201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--2skill1_2",
+      "resourceId": "552caoxi/2skill1_2",
+      "text": "人生于世几十载，焉能不震声宇内？",
+      "textLocalized": {
+        "zhHans": "人生于世几十载，焉能不震声宇内？",
+        "zhHant": "人生於世幾十載，焉能不震聲宇內？"
+      },
+      "group": {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "55201",
+          "name": "55201",
+          "displayName": {
+            "zhHans": "55201",
+            "zhHant": "55201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--1skill1_1",
+      "resourceId": "552caoxi/1skill1_1",
+      "text": "羲而立之年，当为立身之事。",
+      "textLocalized": {
+        "zhHans": "羲而立之年，当为立身之事。",
+        "zhHant": "羲而立之年，當爲立身之事。"
+      },
+      "group": {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--1skill1_2",
+      "resourceId": "552caoxi/1skill1_2",
+      "text": "总六军之要，秉选举之机。",
+      "textLocalized": {
+        "zhHans": "总六军之要，秉选举之机。",
+        "zhHant": "總六軍之要，秉選舉之機。"
+      },
+      "group": {
+        "slug": "spell-3274",
+        "name": "谬焰",
+        "displayName": {
+          "zhHans": "谬焰",
+          "zhHant": "謬焰"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--2skill2_1",
+      "resourceId": "552caoxi/2skill2_1",
+      "text": "君以司马为鹰犬，可知鹰犬亦可伤人乎？",
+      "textLocalized": {
+        "zhHans": "君以司马为鹰犬，可知鹰犬亦可伤人乎？",
+        "zhHant": "君以司馬爲鷹犬，可知鷹犬亦可傷人乎？"
+      },
+      "group": {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        }
+      },
+      "skins": [
+        {
+          "slug": "55201",
+          "name": "55201",
+          "displayName": {
+            "zhHans": "55201",
+            "zhHant": "55201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--2skill2_2",
+      "resourceId": "552caoxi/2skill2_2",
+      "text": "狮虎搏兔亦需全力，况其为冢虎、蛟龙。",
+      "textLocalized": {
+        "zhHans": "狮虎搏兔亦需全力，况其为冢虎、蛟龙。",
+        "zhHant": "獅虎搏兔亦需全力，況其爲冢虎、蛟龍。"
+      },
+      "group": {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        }
+      },
+      "skins": [
+        {
+          "slug": "55201",
+          "name": "55201",
+          "displayName": {
+            "zhHans": "55201",
+            "zhHant": "55201"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--1skill2_1",
+      "resourceId": "552caoxi/1skill2_1",
+      "text": "司马氏卧虎藏龙，|大兄安能小觑[qù]。",
+      "textLocalized": {
+        "zhHans": "司马氏卧虎藏龙，|大兄安能小觑[qù]。",
+        "zhHant": "司馬氏臥虎藏龍，|大兄安能小覷[qù]。"
+      },
+      "group": {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxi--552caoxi--1skill2_2",
+      "resourceId": "552caoxi/1skill2_2",
+      "text": "兄长以兽为猎，|殊不知己亦为猎乎？",
+      "textLocalized": {
+        "zhHans": "兄长以兽为猎，|殊不知己亦为猎乎？",
+        "zhHant": "兄長以獸爲獵，|殊不知己亦爲獵乎？"
+      },
+      "group": {
+        "slug": "spell-3275",
+        "name": "失路",
+        "displayName": {
+          "zhHans": "失路",
+          "zhHant": "失路"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/552caoxi-12c0826e/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/552caoxi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,329 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9037d588eaf6803a3c8c9d3b91f6334e211d36be65bea949ef4ec4bec56c2af3
-size 8861
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoren",
+    "command": "caoren",
+    "name": "曹仁",
+    "displayName": {
+      "zhHans": "曹仁",
+      "zhHant": "曹仁"
+    },
+    "names": [
+      "曹仁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹仁",
+        "zhHant": "曹仁"
+      }
+    ],
+    "ids": [
+      "29"
+    ],
+    "sourceNames": [
+      "曹仁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹仁",
+        "zhHant": "曹仁"
+      }
+    ],
+    "sourceIds": [
+      "29"
+    ],
+    "searchNames": [
+      "caoren",
+      "曹仁"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoren/groups/dead.json"
+      },
+      {
+        "slug": "spell-370-74-2145",
+        "name": "据守",
+        "displayName": {
+          "zhHans": "据守",
+          "zhHant": "據守"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caoren/groups/spell-370-74-2145.json"
+      },
+      {
+        "slug": "spell-371",
+        "name": "解围",
+        "displayName": {
+          "zhHans": "解围",
+          "zhHant": "解圍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caoren/groups/spell-371.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-2902",
+        "name": "力抵万钧",
+        "displayName": {
+          "zhHans": "力抵万钧",
+          "zhHant": "力抵萬鈞"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2902.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-2903",
+        "name": "坚石铁壁",
+        "displayName": {
+          "zhHans": "坚石铁壁",
+          "zhHant": "堅石鐵壁"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2903.json"
+      },
+      {
+        "slug": "skin-2904",
+        "name": "据守樊城",
+        "displayName": {
+          "zhHans": "据守樊城",
+          "zhHant": "據守樊城"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2904.json"
+      },
+      {
+        "slug": "skin-2901",
+        "name": "神勇撼敌",
+        "displayName": {
+          "zhHans": "神勇撼敌",
+          "zhHant": "神勇撼敵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2901.json"
+      },
+      {
+        "slug": "skin-2901-2902",
+        "name": "神勇撼敌,力抵万钧",
+        "displayName": {
+          "zhHans": "神勇撼敌,力抵万钧",
+          "zhHant": "神勇撼敵,力抵萬鈞"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/caoren/skins/skin-2901-2902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoren.json",
+      "groups": "api/v1/tts/characters/caoren/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoren/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/caoren/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "caoren--29caoren--1dead01",
+      "resourceId": "29caoren/1dead01",
+      "text": "长江以南，再无王土矣！",
+      "textLocalized": {
+        "zhHans": "长江以南，再无王土矣！",
+        "zhHant": "長江以南，再無王土矣！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/29caoren-5a97849d/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoren--29caoren--1skill1_1",
+      "resourceId": "29caoren/1skill1_1",
+      "text": "兵精粮足，守土一方。",
+      "textLocalized": {
+        "zhHans": "兵精粮足，守土一方。",
+        "zhHant": "兵精糧足，守土一方。"
+      },
+      "group": {
+        "slug": "spell-370-74-2145",
+        "name": "据守",
+        "displayName": {
+          "zhHans": "据守",
+          "zhHant": "據守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/29caoren-5a97849d/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoren--29caoren--1skill1_2",
+      "resourceId": "29caoren/1skill1_2",
+      "text": "坚守此地，不退半步。",
+      "textLocalized": {
+        "zhHans": "坚守此地，不退半步。",
+        "zhHant": "堅守此地，不退半步。"
+      },
+      "group": {
+        "slug": "spell-370-74-2145",
+        "name": "据守",
+        "displayName": {
+          "zhHans": "据守",
+          "zhHant": "據守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/29caoren-5a97849d/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoren--29caoren--1skill2_1",
+      "resourceId": "29caoren/1skill2_1",
+      "text": "化守为攻，出奇制胜！",
+      "textLocalized": {
+        "zhHans": "化守为攻，出奇制胜！",
+        "zhHant": "化守爲攻，出奇制勝！"
+      },
+      "group": {
+        "slug": "spell-371",
+        "name": "解围",
+        "displayName": {
+          "zhHans": "解围",
+          "zhHant": "解圍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/29caoren-5a97849d/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoren--29caoren--1skill2_2",
+      "resourceId": "29caoren/1skill2_2",
+      "text": "坚壁清野，以挫敌锐！",
+      "textLocalized": {
+        "zhHans": "坚壁清野，以挫敌锐！",
+        "zhHant": "堅壁清野，以挫敵銳！"
+      },
+      "group": {
+        "slug": "spell-371",
+        "name": "解围",
+        "displayName": {
+          "zhHans": "解围",
+          "zhHant": "解圍"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/29caoren-5a97849d/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/29caoren/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

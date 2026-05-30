@@ -1,3 +1,344 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1fbcd37764b8d3ef23aab92e19a978605093bfe8bc7c86631cf5aae323708474
-size 9832
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuangongzhu",
+    "command": "xuangongzhu",
+    "name": "宣公主",
+    "displayName": {
+      "zhHans": "宣公主",
+      "zhHant": "宣公主"
+    },
+    "names": [
+      "宣公主"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "宣公主",
+        "zhHant": "宣公主"
+      }
+    ],
+    "ids": [
+      "358"
+    ],
+    "sourceNames": [
+      "宣公主"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "宣公主",
+        "zhHant": "宣公主"
+      }
+    ],
+    "sourceIds": [
+      "358"
+    ],
+    "searchNames": [
+      "xuangongzhu",
+      "宣公主"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/xuangongzhu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3069",
+        "name": "高陵",
+        "displayName": {
+          "zhHans": "高陵",
+          "zhHant": "高陵"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xuangongzhu/groups/spell-3069.json"
+      },
+      {
+        "slug": "spell-3070",
+        "name": "齐眉",
+        "displayName": {
+          "zhHans": "齐眉",
+          "zhHant": "齊眉"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xuangongzhu/groups/spell-3070.json"
+      },
+      {
+        "slug": "spell-3071",
+        "name": "追姬",
+        "displayName": {
+          "zhHans": "追姬",
+          "zhHant": "追姬"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/xuangongzhu/groups/spell-3071.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "35803",
+        "name": "35803",
+        "displayName": {
+          "zhHans": "35803",
+          "zhHant": "35803"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xuangongzhu/skins/35803.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xuangongzhu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35802",
+        "name": "鹊夜同心",
+        "displayName": {
+          "zhHans": "鹊夜同心",
+          "zhHant": "鵲夜同心"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xuangongzhu/skins/skin-35802.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuangongzhu.json",
+      "groups": "api/v1/tts/characters/xuangongzhu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuangongzhu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3071",
+    "name": "追姬",
+    "displayName": {
+      "zhHans": "追姬",
+      "zhHant": "追姬"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/xuangongzhu/groups/spell-3071.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "xuangongzhu--358xuangongzhu--3skill3_1",
+      "resourceId": "358xuangongzhu/3skill3_1",
+      "text": "惧死难生，向死求生，退者无还，进者得生。",
+      "textLocalized": {
+        "zhHans": "惧死难生，向死求生，退者无还，进者得生。",
+        "zhHant": "懼死難生，向死求生，退者無還，進者得生。"
+      },
+      "group": {
+        "slug": "spell-3071",
+        "name": "追姬",
+        "displayName": {
+          "zhHans": "追姬",
+          "zhHant": "追姬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "35803",
+          "name": "35803",
+          "displayName": {
+            "zhHans": "35803",
+            "zhHant": "35803"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/358xuangongzhu-b1c9d853/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/358xuangongzhu/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuangongzhu--358xuangongzhu--3skill3_2",
+      "resourceId": "358xuangongzhu/3skill3_2",
+      "text": "伤敌一千，自损八百，智者弗为，勇者无惧。",
+      "textLocalized": {
+        "zhHans": "伤敌一千，自损八百，智者弗为，勇者无惧。",
+        "zhHant": "傷敵一千，自損八百，智者弗爲，勇者無懼。"
+      },
+      "group": {
+        "slug": "spell-3071",
+        "name": "追姬",
+        "displayName": {
+          "zhHans": "追姬",
+          "zhHant": "追姬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "35803",
+          "name": "35803",
+          "displayName": {
+            "zhHans": "35803",
+            "zhHant": "35803"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/358xuangongzhu-b1c9d853/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/358xuangongzhu/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuangongzhu--358xuangongzhu--1skill3_1",
+      "resourceId": "358xuangongzhu/1skill3_1",
+      "text": "不过是些微代价罢了。",
+      "textLocalized": {
+        "zhHans": "不过是些微代价罢了。",
+        "zhHant": "不過是些微代價罷了。"
+      },
+      "group": {
+        "slug": "spell-3071",
+        "name": "追姬",
+        "displayName": {
+          "zhHans": "追姬",
+          "zhHant": "追姬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/358xuangongzhu-b1c9d853/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/358xuangongzhu/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuangongzhu--358xuangongzhu--1skill3_2",
+      "resourceId": "358xuangongzhu/1skill3_2",
+      "text": "哼，以为这就能难倒我吗？",
+      "textLocalized": {
+        "zhHans": "哼，以为这就能难倒我吗？",
+        "zhHant": "哼，以爲這就能難倒我嗎？"
+      },
+      "group": {
+        "slug": "spell-3071",
+        "name": "追姬",
+        "displayName": {
+          "zhHans": "追姬",
+          "zhHant": "追姬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/358xuangongzhu-b1c9d853/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/358xuangongzhu/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuangongzhu--358xuangongzhu--2skill3_1",
+      "resourceId": "358xuangongzhu/2skill3_1",
+      "text": "虽豺狼当道，虎豹啸林，妾亦生死相随！",
+      "textLocalized": {
+        "zhHans": "虽豺狼当道，虎豹啸林，妾亦生死相随！",
+        "zhHant": "雖豺狼當道，虎豹嘯林，妾亦生死相隨！"
+      },
+      "group": {
+        "slug": "spell-3071",
+        "name": "追姬",
+        "displayName": {
+          "zhHans": "追姬",
+          "zhHant": "追姬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35802",
+          "name": "鹊夜同心",
+          "displayName": {
+            "zhHans": "鹊夜同心",
+            "zhHant": "鵲夜同心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/358xuangongzhu-b1c9d853/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/358xuangongzhu/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuangongzhu--358xuangongzhu--2skill3_2",
+      "resourceId": "358xuangongzhu/2skill3_2",
+      "text": "纵荆棘遍布，风雪漫天，妾心绝不动摇！",
+      "textLocalized": {
+        "zhHans": "纵荆棘遍布，风雪漫天，妾心绝不动摇！",
+        "zhHant": "縱荊棘遍佈，風雪漫天，妾心絕不動搖！"
+      },
+      "group": {
+        "slug": "spell-3071",
+        "name": "追姬",
+        "displayName": {
+          "zhHans": "追姬",
+          "zhHant": "追姬"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35802",
+          "name": "鹊夜同心",
+          "displayName": {
+            "zhHans": "鹊夜同心",
+            "zhHant": "鵲夜同心"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/358xuangongzhu-b1c9d853/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/358xuangongzhu/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

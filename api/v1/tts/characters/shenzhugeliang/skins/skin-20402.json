@@ -1,3 +1,446 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cce3151073fc466240e8fe940e30ccc5f52af370eaafebcd1ccb1aba5cc1518b
-size 12465
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenzhugeliang",
+    "command": "shenzhugeliang",
+    "name": "神诸葛亮",
+    "displayName": {
+      "zhHans": "神诸葛亮",
+      "zhHant": "神諸葛亮"
+    },
+    "names": [
+      "神诸葛亮"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神诸葛亮",
+        "zhHant": "神諸葛亮"
+      }
+    ],
+    "ids": [
+      "204"
+    ],
+    "sourceNames": [
+      "神诸葛亮"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神诸葛亮",
+        "zhHant": "神諸葛亮"
+      }
+    ],
+    "sourceIds": [
+      "204"
+    ],
+    "searchNames": [
+      "shenzhugeliang",
+      "神诸葛亮",
+      "神諸葛亮"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/dead.json"
+      },
+      {
+        "slug": "spell-307",
+        "name": "七星",
+        "displayName": {
+          "zhHans": "七星",
+          "zhHant": "七星"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/spell-307.json"
+      },
+      {
+        "slug": "spell-308",
+        "name": "狂风",
+        "displayName": {
+          "zhHans": "狂风",
+          "zhHant": "狂風"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/spell-308.json"
+      },
+      {
+        "slug": "spell-309",
+        "name": "大雾",
+        "displayName": {
+          "zhHans": "大雾",
+          "zhHant": "大霧"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/groups/spell-309.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "q",
+        "name": "Q版形象",
+        "displayName": {
+          "zhHans": "Q版形象",
+          "zhHant": "Q版形象"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/q.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-20402",
+        "name": "观星唤雨",
+        "displayName": {
+          "zhHans": "观星唤雨",
+          "zhHant": "觀星喚雨"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-20402.json"
+      },
+      {
+        "slug": "skin-20403",
+        "name": "赤壁唤风",
+        "displayName": {
+          "zhHans": "赤壁唤风",
+          "zhHant": "赤壁喚風"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-20403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenzhugeliang.json",
+      "groups": "api/v1/tts/characters/shenzhugeliang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenzhugeliang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-20402",
+    "name": "观星唤雨",
+    "displayName": {
+      "zhHans": "观星唤雨",
+      "zhHant": "觀星喚雨"
+    },
+    "lineCount": 7,
+    "endpoint": "api/v1/tts/characters/shenzhugeliang/skins/skin-20402.json"
+  },
+  "lineCount": 7,
+  "lines": [
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--3dead01",
+      "resourceId": "204shenzhugeliang/3dead01",
+      "text": "天命，终究是在他的那边。",
+      "textLocalized": {
+        "zhHans": "天命，终究是在他的那边。",
+        "zhHant": "天命，終究是在他的那邊。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-20402",
+          "name": "观星唤雨",
+          "displayName": {
+            "zhHans": "观星唤雨",
+            "zhHant": "觀星喚雨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--3skill1_1",
+      "resourceId": "204shenzhugeliang/3skill1_1",
+      "text": "斗转星移，七星借命！",
+      "textLocalized": {
+        "zhHans": "斗转星移，七星借命！",
+        "zhHant": "斗轉星移，七星借命！"
+      },
+      "group": {
+        "slug": "spell-307",
+        "name": "七星",
+        "displayName": {
+          "zhHans": "七星",
+          "zhHant": "七星"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-20402",
+          "name": "观星唤雨",
+          "displayName": {
+            "zhHans": "观星唤雨",
+            "zhHant": "觀星喚雨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--3skill1_2",
+      "resourceId": "204shenzhugeliang/3skill1_2",
+      "text": "伏望天恩，誓讨汉贼！",
+      "textLocalized": {
+        "zhHans": "伏望天恩，誓讨汉贼！",
+        "zhHant": "伏望天恩，誓討漢賊！"
+      },
+      "group": {
+        "slug": "spell-307",
+        "name": "七星",
+        "displayName": {
+          "zhHans": "七星",
+          "zhHant": "七星"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-20402",
+          "name": "观星唤雨",
+          "displayName": {
+            "zhHans": "观星唤雨",
+            "zhHant": "觀星喚雨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--3skill2_1",
+      "resourceId": "204shenzhugeliang/3skill2_1",
+      "text": "风……起！",
+      "textLocalized": {
+        "zhHans": "风……起！",
+        "zhHant": "風……起！"
+      },
+      "group": {
+        "slug": "spell-308",
+        "name": "狂风",
+        "displayName": {
+          "zhHans": "狂风",
+          "zhHant": "狂風"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-20402",
+          "name": "观星唤雨",
+          "displayName": {
+            "zhHans": "观星唤雨",
+            "zhHant": "觀星喚雨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--3skill2_2",
+      "resourceId": "204shenzhugeliang/3skill2_2",
+      "text": "万事俱备，只欠业火。",
+      "textLocalized": {
+        "zhHans": "万事俱备，只欠业火。",
+        "zhHant": "萬事俱備，只欠業火。"
+      },
+      "group": {
+        "slug": "spell-308",
+        "name": "狂风",
+        "displayName": {
+          "zhHans": "狂风",
+          "zhHant": "狂風"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-20402",
+          "name": "观星唤雨",
+          "displayName": {
+            "zhHans": "观星唤雨",
+            "zhHant": "觀星喚雨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--3skill3_1",
+      "resourceId": "204shenzhugeliang/3skill3_1",
+      "text": "锦囊妙计，保卿平安。",
+      "textLocalized": {
+        "zhHans": "锦囊妙计，保卿平安。",
+        "zhHant": "錦囊妙計，保卿平安。"
+      },
+      "group": {
+        "slug": "spell-309",
+        "name": "大雾",
+        "displayName": {
+          "zhHans": "大雾",
+          "zhHant": "大霧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-20402",
+          "name": "观星唤雨",
+          "displayName": {
+            "zhHans": "观星唤雨",
+            "zhHant": "觀星喚雨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/3skill3-1-f3919b28.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/3skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenzhugeliang--204shenzhugeliang--3skill3_2",
+      "resourceId": "204shenzhugeliang/3skill3_2",
+      "text": "大雾漫漫，惟惧天雷。",
+      "textLocalized": {
+        "zhHans": "大雾漫漫，惟惧天雷。",
+        "zhHant": "大霧漫漫，惟懼天雷。"
+      },
+      "group": {
+        "slug": "spell-309",
+        "name": "大雾",
+        "displayName": {
+          "zhHans": "大雾",
+          "zhHant": "大霧"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-20402",
+          "name": "观星唤雨",
+          "displayName": {
+            "zhHans": "观星唤雨",
+            "zhHant": "觀星喚雨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/204shenzhugeliang-d6fc4ec0/3skill3-2-0432675f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/204shenzhugeliang/3skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,140 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c7baa67d95a95981117977580e0d9f39e3dfa94e26a4e1447867fa56d61f695
-size 3517
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qinguangwang",
+    "command": "qinguangwang",
+    "name": "秦广王",
+    "displayName": {
+      "zhHans": "秦广王",
+      "zhHant": "秦廣王"
+    },
+    "names": [
+      "秦广王"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "秦广王",
+        "zhHant": "秦廣王"
+      }
+    ],
+    "ids": [
+      "4500"
+    ],
+    "sourceNames": [
+      "秦广王"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "秦广王",
+        "zhHant": "秦廣王"
+      }
+    ],
+    "sourceIds": [
+      "4500"
+    ],
+    "searchNames": [
+      "qinguangwang",
+      "秦广王",
+      "秦廣王"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "spell-1281",
+        "name": "拘魂",
+        "displayName": {
+          "zhHans": "拘魂",
+          "zhHant": "拘魂"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/qinguangwang/groups/spell-1281.json"
+      },
+      {
+        "slug": "spell-615",
+        "name": "判官",
+        "displayName": {
+          "zhHans": "判官",
+          "zhHant": "判官"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/qinguangwang/groups/spell-615.json"
+      },
+      {
+        "slug": "spell-617",
+        "name": "望乡",
+        "displayName": {
+          "zhHans": "望乡",
+          "zhHant": "望鄉"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/qinguangwang/groups/spell-617.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/qinguangwang/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/qinguangwang.json",
+      "groups": "api/v1/tts/characters/qinguangwang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/qinguangwang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-1281",
+    "name": "拘魂",
+    "displayName": {
+      "zhHans": "拘魂",
+      "zhHant": "拘魂"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/qinguangwang/groups/spell-1281.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "qinguangwang--4500qinguangwang--1skill2_1",
+      "resourceId": "4500qinguangwang/1skill2_1",
+      "text": "勾魂索命，拘魄入狱。",
+      "textLocalized": {
+        "zhHans": "勾魂索命，拘魄入狱。",
+        "zhHant": "勾魂索命，拘魄入獄。"
+      },
+      "group": {
+        "slug": "spell-1281",
+        "name": "拘魂",
+        "displayName": {
+          "zhHans": "拘魂",
+          "zhHant": "拘魂"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4500qinguangwang-d3c7bddb/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4500qinguangwang/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

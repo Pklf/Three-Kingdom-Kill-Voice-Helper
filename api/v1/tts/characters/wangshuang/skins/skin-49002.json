@@ -1,3 +1,220 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:20b2b7b54fd4df8600cb80230d36369e552e42c6c7279ee1f751d0147017e0f8
-size 5893
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wangshuang",
+    "command": "wangshuang",
+    "name": "王双",
+    "displayName": {
+      "zhHans": "王双",
+      "zhHant": "王雙"
+    },
+    "names": [
+      "王双"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "王双",
+        "zhHant": "王雙"
+      }
+    ],
+    "ids": [
+      "490"
+    ],
+    "sourceNames": [
+      "王双"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "王双",
+        "zhHant": "王雙"
+      }
+    ],
+    "sourceIds": [
+      "490"
+    ],
+    "searchNames": [
+      "wangshuang",
+      "王双",
+      "王雙"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wangshuang/groups/dead.json"
+      },
+      {
+        "slug": "spell-3055",
+        "name": "追猎",
+        "displayName": {
+          "zhHans": "追猎",
+          "zhHant": "追獵"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/wangshuang/groups/spell-3055.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wangshuang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-49002",
+        "name": "攫戾执猛",
+        "displayName": {
+          "zhHans": "攫戾执猛",
+          "zhHant": "攫戾執猛"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wangshuang/skins/skin-49002.json"
+      },
+      {
+        "slug": "skin-49001",
+        "name": "覆军杀将",
+        "displayName": {
+          "zhHans": "覆军杀将",
+          "zhHant": "覆軍殺將"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/wangshuang/skins/skin-49001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wangshuang.json",
+      "groups": "api/v1/tts/characters/wangshuang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wangshuang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-49002",
+    "name": "攫戾执猛",
+    "displayName": {
+      "zhHans": "攫戾执猛",
+      "zhHant": "攫戾執猛"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/wangshuang/skins/skin-49002.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "wangshuang--490wangshuang--2dead01",
+      "resourceId": "490wangshuang/2dead01",
+      "text": "终日猎鹰，却不曾想被鹰啄了眼睛",
+      "textLocalized": {
+        "zhHans": "终日猎鹰，却不曾想被鹰啄了眼睛",
+        "zhHant": "終日獵鷹，卻不曾想被鷹啄了眼睛"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49002",
+          "name": "攫戾执猛",
+          "displayName": {
+            "zhHans": "攫戾执猛",
+            "zhHant": "攫戾執猛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/490wangshuang-d981d794/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/490wangshuang/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangshuang--490wangshuang--2skill1_1",
+      "resourceId": "490wangshuang/2skill1_1",
+      "text": "索敌狂猎，鞭长亦及",
+      "textLocalized": {
+        "zhHans": "索敌狂猎，鞭长亦及",
+        "zhHant": "索敵狂獵，鞭長亦及"
+      },
+      "group": {
+        "slug": "spell-3055",
+        "name": "追猎",
+        "displayName": {
+          "zhHans": "追猎",
+          "zhHant": "追獵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49002",
+          "name": "攫戾执猛",
+          "displayName": {
+            "zhHans": "攫戾执猛",
+            "zhHant": "攫戾執猛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/490wangshuang-d981d794/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/490wangshuang/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wangshuang--490wangshuang--2skill1_2",
+      "resourceId": "490wangshuang/2skill1_2",
+      "text": "追袭千里，悬首猎功",
+      "textLocalized": {
+        "zhHans": "追袭千里，悬首猎功",
+        "zhHant": "追襲千里，懸首獵功"
+      },
+      "group": {
+        "slug": "spell-3055",
+        "name": "追猎",
+        "displayName": {
+          "zhHans": "追猎",
+          "zhHant": "追獵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-49002",
+          "name": "攫戾执猛",
+          "displayName": {
+            "zhHans": "攫戾执猛",
+            "zhHant": "攫戾執猛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/490wangshuang-d981d794/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/490wangshuang/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

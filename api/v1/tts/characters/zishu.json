@@ -1,3 +1,155 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2477e12bdf5d11b99aecee9f9ae250ee50d22f42face47e9a4e929765e118495
-size 3805
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "zishu",
+    "command": "zishu",
+    "name": "子鼠",
+    "displayName": {
+      "zhHans": "子鼠",
+      "zhHant": "子鼠"
+    },
+    "names": [
+      "子鼠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "子鼠",
+        "zhHant": "子鼠"
+      }
+    ],
+    "ids": [
+      "4083"
+    ],
+    "sourceNames": [
+      "子鼠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "子鼠",
+        "zhHant": "子鼠"
+      }
+    ],
+    "sourceIds": [
+      "4083"
+    ],
+    "searchNames": [
+      "zishu",
+      "子鼠"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zishu/groups/dead.json"
+      },
+      {
+        "slug": "spell-1201",
+        "name": "子鼠",
+        "displayName": {
+          "zhHans": "子鼠",
+          "zhHant": "子鼠"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/zishu/groups/spell-1201.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zishu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zishu.json",
+      "groups": "api/v1/tts/characters/zishu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zishu/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zishu--4083zishu--1dead01",
+      "resourceId": "4083zishu/1dead01",
+      "text": "油米全没了……",
+      "textLocalized": {
+        "zhHans": "油米全没了……",
+        "zhHant": "油米全沒了……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4083zishu-7ec455ee/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4083zishu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zishu--4083zishu--1skill1_1",
+      "resourceId": "4083zishu/1skill1_1",
+      "text": "这些牌都归我吧！",
+      "textLocalized": {
+        "zhHans": "这些牌都归我吧！",
+        "zhHant": "這些牌都歸我吧！"
+      },
+      "group": {
+        "slug": "spell-1201",
+        "name": "子鼠",
+        "displayName": {
+          "zhHans": "子鼠",
+          "zhHant": "子鼠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4083zishu-7ec455ee/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4083zishu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

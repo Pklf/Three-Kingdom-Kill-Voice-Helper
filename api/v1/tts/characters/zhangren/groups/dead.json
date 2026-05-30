@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4f44148afabbbc2cd2c48716de2eb7ab1cfac4edbf41f478ccec7de340dd3616
-size 4746
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhangren",
+    "command": "zhangren",
+    "name": "张任",
+    "displayName": {
+      "zhHans": "张任",
+      "zhHant": "張任"
+    },
+    "names": [
+      "张任"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "张任",
+        "zhHant": "張任"
+      }
+    ],
+    "ids": [
+      "2072"
+    ],
+    "sourceNames": [
+      "张任"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "张任",
+        "zhHant": "張任"
+      }
+    ],
+    "sourceIds": [
+      "2072"
+    ],
+    "searchNames": [
+      "zhangren",
+      "张任",
+      "張任"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhangren/groups/dead.json"
+      },
+      {
+        "slug": "spell-2134",
+        "name": "穿心",
+        "displayName": {
+          "zhHans": "穿心",
+          "zhHant": "穿心"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangren/groups/spell-2134.json"
+      },
+      {
+        "slug": "spell-2135",
+        "name": "锋矢",
+        "displayName": {
+          "zhHans": "锋矢",
+          "zhHant": "鋒矢"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhangren/groups/spell-2135.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangren/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-207202",
+        "name": "锐箭厉弓",
+        "displayName": {
+          "zhHans": "锐箭厉弓",
+          "zhHant": "銳箭厲弓"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zhangren/skins/skin-207202.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhangren.json",
+      "groups": "api/v1/tts/characters/zhangren/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhangren/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zhangren/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zhangren--2072zhangren--1dead01",
+      "resourceId": "2072zhangren/1dead01",
+      "text": "本将军败于诸葛，无憾……",
+      "textLocalized": {
+        "zhHans": "本将军败于诸葛，无憾……",
+        "zhHant": "本將軍敗於諸葛，無憾……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2072zhangren-0ce4073b/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhangren--2072zhangren--2dead01",
+      "resourceId": "2072zhangren/2dead01",
+      "text": "矢锋再利，亦难溃千军……",
+      "textLocalized": {
+        "zhHans": "矢锋再利，亦难溃千军……",
+        "zhHant": "矢鋒再利，亦難潰千軍……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-207202",
+          "name": "锐箭厉弓",
+          "displayName": {
+            "zhHans": "锐箭厉弓",
+            "zhHant": "銳箭厲弓"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2072zhangren-0ce4073b/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2072zhangren/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

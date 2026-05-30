@@ -1,3 +1,330 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2924964358c5277c91314074aca49c03401adcd16757a2a35421eaff033073fc
-size 9092
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "kanze",
+    "command": "kanze",
+    "name": "阚泽",
+    "displayName": {
+      "zhHans": "阚泽",
+      "zhHant": "闞澤"
+    },
+    "names": [
+      "阚泽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "ids": [
+      "371"
+    ],
+    "sourceNames": [
+      "阚泽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "sourceIds": [
+      "371"
+    ],
+    "searchNames": [
+      "kanze",
+      "阚泽",
+      "闞澤"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/kanze/groups/dead.json"
+      },
+      {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-361.json"
+      },
+      {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-362.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37101",
+        "name": "宽释请命",
+        "displayName": {
+          "zhHans": "宽释请命",
+          "zhHant": "寬釋請命"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101.json"
+      },
+      {
+        "slug": "skin-37101-37105",
+        "name": "宽释请命,观叶知微",
+        "displayName": {
+          "zhHans": "宽释请命,观叶知微",
+          "zhHant": "寬釋請命,觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101-37105.json"
+      },
+      {
+        "slug": "skin-37104",
+        "name": "密献降书",
+        "displayName": {
+          "zhHans": "密献降书",
+          "zhHant": "密獻降書"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37104.json"
+      },
+      {
+        "slug": "skin-37102",
+        "name": "昼耕夜诵",
+        "displayName": {
+          "zhHans": "昼耕夜诵",
+          "zhHant": "晝耕夜誦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37102.json"
+      },
+      {
+        "slug": "skin-37105",
+        "name": "观叶知微",
+        "displayName": {
+          "zhHans": "观叶知微",
+          "zhHant": "觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37105.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/kanze.json",
+      "groups": "api/v1/tts/characters/kanze/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/kanze/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-37104",
+    "name": "密献降书",
+    "displayName": {
+      "zhHans": "密献降书",
+      "zhHant": "密獻降書"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/kanze/skins/skin-37104.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "kanze--371kanze--5dead01",
+      "resourceId": "371kanze/5dead01",
+      "text": "终究是你，技高一筹……",
+      "textLocalized": {
+        "zhHans": "终究是你，技高一筹……",
+        "zhHant": "終究是你，技高一籌……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37104",
+          "name": "密献降书",
+          "displayName": {
+            "zhHans": "密献降书",
+            "zhHant": "密獻降書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--5skill1_1",
+      "resourceId": "371kanze/5skill1_1",
+      "text": "我的来意，已在书中言明。",
+      "textLocalized": {
+        "zhHans": "我的来意，已在书中言明。",
+        "zhHant": "我的來意，已在書中言明。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37104",
+          "name": "密献降书",
+          "displayName": {
+            "zhHans": "密献降书",
+            "zhHant": "密獻降書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--5skill1_2",
+      "resourceId": "371kanze/5skill1_2",
+      "text": "我等冒死来降，还有什么信不过的？",
+      "textLocalized": {
+        "zhHans": "我等冒死来降，还有什么信不过的？",
+        "zhHant": "我等冒死來降，還有什麼信不過的？"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37104",
+          "name": "密献降书",
+          "displayName": {
+            "zhHans": "密献降书",
+            "zhHant": "密獻降書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--5skill2_1",
+      "resourceId": "371kanze/5skill2_1",
+      "text": "吾愿尽所能保将军周全。",
+      "textLocalized": {
+        "zhHans": "吾愿尽所能保将军周全。",
+        "zhHant": "吾願盡所能保將軍周全。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37104",
+          "name": "密献降书",
+          "displayName": {
+            "zhHans": "密献降书",
+            "zhHant": "密獻降書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--5skill2_2",
+      "resourceId": "371kanze/5skill2_2",
+      "text": "再给他一次改过自新的机会吧。",
+      "textLocalized": {
+        "zhHans": "再给他一次改过自新的机会吧。",
+        "zhHant": "再給他一次改過自新的機會吧。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37104",
+          "name": "密献降书",
+          "displayName": {
+            "zhHans": "密献降书",
+            "zhHant": "密獻降書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

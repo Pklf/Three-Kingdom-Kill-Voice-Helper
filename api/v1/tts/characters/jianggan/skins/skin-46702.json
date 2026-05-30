@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59706f78dbf74b5d15aa2b44ada3a95e64a27e437fcc9b7daad1627ddf54b3b1
-size 8547
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jianggan",
+    "command": "jianggan",
+    "name": "蒋干",
+    "displayName": {
+      "zhHans": "蒋干",
+      "zhHant": "蔣幹"
+    },
+    "names": [
+      "蒋干"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "蒋干",
+        "zhHant": "蔣幹"
+      }
+    ],
+    "ids": [
+      "467"
+    ],
+    "sourceNames": [
+      "蒋干"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "蒋干",
+        "zhHant": "蔣幹"
+      }
+    ],
+    "sourceIds": [
+      "467"
+    ],
+    "searchNames": [
+      "jianggan",
+      "蒋干",
+      "蔣幹"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jianggan/groups/dead.json"
+      },
+      {
+        "slug": "spell-951",
+        "name": "伪诚",
+        "displayName": {
+          "zhHans": "伪诚",
+          "zhHant": "僞誠"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jianggan/groups/spell-951.json"
+      },
+      {
+        "slug": "spell-952",
+        "name": "盗书",
+        "displayName": {
+          "zhHans": "盗书",
+          "zhHant": "盜書"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jianggan/groups/spell-952.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-46702",
+        "name": "千帆征战",
+        "displayName": {
+          "zhHans": "千帆征战",
+          "zhHant": "千帆征戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jianggan/skins/skin-46702.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jianggan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-46701",
+        "name": "苦思冥想",
+        "displayName": {
+          "zhHans": "苦思冥想",
+          "zhHant": "苦思冥想"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jianggan/skins/skin-46701.json"
+      },
+      {
+        "slug": "skin-46703",
+        "name": "说营青鸟",
+        "displayName": {
+          "zhHans": "说营青鸟",
+          "zhHant": "說營青鳥"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jianggan/skins/skin-46703.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jianggan.json",
+      "groups": "api/v1/tts/characters/jianggan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jianggan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-46702",
+    "name": "千帆征战",
+    "displayName": {
+      "zhHans": "千帆征战",
+      "zhHant": "千帆征戰"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/jianggan/skins/skin-46702.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "jianggan--467jianggan--3dead01",
+      "resourceId": "467jianggan/3dead01",
+      "text": "菜张之罪，非我之过呀！",
+      "textLocalized": {
+        "zhHans": "菜张之罪，非我之过呀！",
+        "zhHant": "菜張之罪，非我之過呀！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46702",
+          "name": "千帆征战",
+          "displayName": {
+            "zhHans": "千帆征战",
+            "zhHant": "千帆征戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jianggan--467jianggan--3skill1_1",
+      "resourceId": "467jianggan/3skill1_1",
+      "text": "公瑾，吾之诚心，天地可鉴。",
+      "textLocalized": {
+        "zhHans": "公瑾，吾之诚心，天地可鉴。",
+        "zhHant": "公瑾，吾之誠心，天地可鑑。"
+      },
+      "group": {
+        "slug": "spell-951",
+        "name": "伪诚",
+        "displayName": {
+          "zhHans": "伪诚",
+          "zhHant": "僞誠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46702",
+          "name": "千帆征战",
+          "displayName": {
+            "zhHans": "千帆征战",
+            "zhHant": "千帆征戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jianggan--467jianggan--3skill1_2",
+      "resourceId": "467jianggan/3skill1_2",
+      "text": "遥闻芳烈，故来叙阔。",
+      "textLocalized": {
+        "zhHans": "遥闻芳烈，故来叙阔。",
+        "zhHant": "遙聞芳烈，故來敘闊。"
+      },
+      "group": {
+        "slug": "spell-951",
+        "name": "伪诚",
+        "displayName": {
+          "zhHans": "伪诚",
+          "zhHant": "僞誠"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46702",
+          "name": "千帆征战",
+          "displayName": {
+            "zhHans": "千帆征战",
+            "zhHant": "千帆征戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jianggan--467jianggan--3skill2_1",
+      "resourceId": "467jianggan/3skill2_1",
+      "text": "赤壁之战，我军之患，不足为惧。",
+      "textLocalized": {
+        "zhHans": "赤壁之战，我军之患，不足为惧。",
+        "zhHant": "赤壁之戰，我軍之患，不足爲懼。"
+      },
+      "group": {
+        "slug": "spell-952",
+        "name": "盗书",
+        "displayName": {
+          "zhHans": "盗书",
+          "zhHant": "盜書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46702",
+          "name": "千帆征战",
+          "displayName": {
+            "zhHans": "千帆征战",
+            "zhHant": "千帆征戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jianggan--467jianggan--3skill2_2",
+      "resourceId": "467jianggan/3skill2_2",
+      "text": "取此机密，简直易如反掌。",
+      "textLocalized": {
+        "zhHans": "取此机密，简直易如反掌。",
+        "zhHant": "取此機密，簡直易如反掌。"
+      },
+      "group": {
+        "slug": "spell-952",
+        "name": "盗书",
+        "displayName": {
+          "zhHans": "盗书",
+          "zhHant": "盜書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-46702",
+          "name": "千帆征战",
+          "displayName": {
+            "zhHans": "千帆征战",
+            "zhHant": "千帆征戰"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/467jianggan-68f95298/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/467jianggan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

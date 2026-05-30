@@ -1,3 +1,214 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d1a29a901156c8280f4c67a014e9995a891d17bec9f947b7855f996fb6aeb4a5
-size 5694
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "bianfuren",
+    "command": "bianfuren",
+    "name": "卞夫人",
+    "displayName": {
+      "zhHans": "卞夫人",
+      "zhHant": "卞夫人"
+    },
+    "names": [
+      "卞夫人"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卞夫人",
+        "zhHant": "卞夫人"
+      }
+    ],
+    "ids": [
+      "439"
+    ],
+    "sourceNames": [
+      "卞夫人"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卞夫人",
+        "zhHant": "卞夫人"
+      }
+    ],
+    "sourceIds": [
+      "439"
+    ],
+    "searchNames": [
+      "bianfuren",
+      "卞夫人"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "3029-2153",
+        "name": "3029，2153",
+        "displayName": {
+          "zhHans": "3029，2153",
+          "zhHant": "3029，2153"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/bianfuren/groups/3029-2153.json"
+      },
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/bianfuren/groups/dead.json"
+      },
+      {
+        "slug": "spell-3028",
+        "name": "挽危",
+        "displayName": {
+          "zhHans": "挽危",
+          "zhHant": "挽危"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/bianfuren/groups/spell-3028.json"
+      },
+      {
+        "slug": "spell-3029-2153",
+        "name": "约俭",
+        "displayName": {
+          "zhHans": "约俭",
+          "zhHant": "約儉"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/bianfuren/groups/spell-3029-2153.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/bianfuren/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43901",
+        "name": "玉露清辉",
+        "displayName": {
+          "zhHans": "玉露清辉",
+          "zhHant": "玉露清輝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/bianfuren/skins/skin-43901.json"
+      },
+      {
+        "slug": "skin-43902",
+        "name": "紫绡雪颜",
+        "displayName": {
+          "zhHans": "紫绡雪颜",
+          "zhHant": "紫綃雪顏"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/bianfuren/skins/skin-43902.json"
+      },
+      {
+        "slug": "skin-43903",
+        "name": "银黛妆梅",
+        "displayName": {
+          "zhHans": "银黛妆梅",
+          "zhHant": "銀黛妝梅"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/bianfuren/skins/skin-43903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/bianfuren.json",
+      "groups": "api/v1/tts/characters/bianfuren/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/bianfuren/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "3029-2153",
+    "name": "3029，2153",
+    "displayName": {
+      "zhHans": "3029，2153",
+      "zhHant": "3029，2153"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/bianfuren/groups/3029-2153.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "bianfuren--439bianfuren--1skill2_1",
+      "resourceId": "439bianfuren/1skill2_1",
+      "text": "无纹绣珠玉，器皆黑漆。",
+      "textLocalized": {
+        "zhHans": "无纹绣珠玉，器皆黑漆。",
+        "zhHant": "無紋繡珠玉，器皆黑漆。"
+      },
+      "group": {
+        "slug": "3029-2153",
+        "name": "3029，2153",
+        "displayName": {
+          "zhHans": "3029，2153",
+          "zhHant": "3029，2153"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/439bianfuren-e5cf64de/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "bianfuren--439bianfuren--1skill2_2",
+      "resourceId": "439bianfuren/1skill2_2",
+      "text": "性情约俭，不尚华丽。",
+      "textLocalized": {
+        "zhHans": "性情约俭，不尚华丽。",
+        "zhHant": "性情約儉，不尚華麗。"
+      },
+      "group": {
+        "slug": "3029-2153",
+        "name": "3029，2153",
+        "displayName": {
+          "zhHans": "3029，2153",
+          "zhHant": "3029，2153"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/439bianfuren-e5cf64de/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

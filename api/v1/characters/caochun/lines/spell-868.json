@@ -1,3 +1,926 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1839c228a8b8dcd4730d72c58e1820d5dcfcad9d8c437ea488d50bb34fcf37cc
-size 21250
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caochun",
+    "command": "caochun",
+    "name": "曹纯",
+    "displayName": {
+      "zhHans": "曹纯",
+      "zhHant": "曹純"
+    },
+    "names": [
+      "曹纯"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹纯",
+        "zhHant": "曹純"
+      }
+    ],
+    "ids": [
+      "426"
+    ],
+    "sourceNames": [
+      "曹纯"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹纯",
+        "zhHant": "曹純"
+      }
+    ],
+    "sourceIds": [
+      "426"
+    ],
+    "searchNames": [
+      "caochun",
+      "曹纯",
+      "曹純"
+    ],
+    "lineCount": 9,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-868",
+        "name": "缮甲",
+        "displayName": {
+          "zhHans": "缮甲",
+          "zhHant": "繕甲"
+        },
+        "ids": [
+          "868"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-42602",
+        "ids": [
+          "42602"
+        ],
+        "name": "亲率征兵",
+        "displayName": {
+          "zhHans": "亲率征兵",
+          "zhHant": "親率徵兵"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3
+      },
+      {
+        "slug": "skin-42601",
+        "ids": [
+          "42601"
+        ],
+        "name": "虎豹英骑",
+        "displayName": {
+          "zhHans": "虎豹英骑",
+          "zhHant": "虎豹英騎"
+        },
+        "lineCount": 3
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/caochun.json",
+      "lines": "api/v1/characters/caochun/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-868",
+    "ids": [
+      "868"
+    ],
+    "name": "缮甲",
+    "displayName": {
+      "zhHans": "缮甲",
+      "zhHant": "繕甲"
+    },
+    "names": [
+      "缮甲"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "缮甲",
+        "zhHant": "繕甲"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "caochun--426caochun--4skill1_1",
+      "resourceId": "426caochun/4skill1_1",
+      "text": "虎豹骁骑，甲兵自当冠宇天下。",
+      "textLocalized": {
+        "zhHans": "虎豹骁骑，甲兵自当冠宇天下。",
+        "zhHant": "虎豹驍騎，甲兵自當冠宇天下。"
+      },
+      "character": {
+        "slug": "caochun",
+        "command": "caochun",
+        "id": "426",
+        "ids": [
+          "426"
+        ],
+        "name": "曹纯",
+        "displayName": {
+          "zhHans": "曹纯",
+          "zhHant": "曹純"
+        },
+        "names": [
+          "曹纯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "sourceIds": [
+          "426"
+        ],
+        "sourceNames": [
+          "曹纯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "searchNames": [
+          "曹纯",
+          "曹純",
+          "caochun"
+        ]
+      },
+      "group": {
+        "slug": "spell-868",
+        "ids": [
+          "868"
+        ],
+        "name": "缮甲",
+        "displayName": {
+          "zhHans": "缮甲",
+          "zhHant": "繕甲"
+        },
+        "names": [
+          "缮甲"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "缮甲",
+            "zhHant": "繕甲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42602",
+        "ids": [
+          "42602"
+        ],
+        "name": "亲率征兵",
+        "displayName": {
+          "zhHans": "亲率征兵",
+          "zhHant": "親率徵兵"
+        },
+        "names": [
+          "亲率征兵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "亲率征兵",
+            "zhHant": "親率徵兵"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-42602",
+          "id": "42602",
+          "ids": [
+            "42602"
+          ],
+          "name": "亲率征兵",
+          "displayName": {
+            "zhHans": "亲率征兵",
+            "zhHant": "親率徵兵"
+          },
+          "names": [
+            "亲率征兵"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "亲率征兵",
+              "zhHant": "親率徵兵"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "426",
+        "skinKey": "42602",
+        "spellKey": "868",
+        "rowIndex": 1,
+        "characterNames": [
+          "曹纯"
+        ],
+        "skinNames": [
+          "亲率征兵"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/426caochun-c825aeb5/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/426caochun/4skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caochun--426caochun--4skill1_2",
+      "resourceId": "426caochun/4skill1_2",
+      "text": "非虎贲[bēn]难入我营，唯坚铠方配锐士。",
+      "textLocalized": {
+        "zhHans": "非虎贲[bēn]难入我营，唯坚铠方配锐士。",
+        "zhHant": "非虎賁[bēn]難入我營，唯堅鎧方配銳士。"
+      },
+      "character": {
+        "slug": "caochun",
+        "command": "caochun",
+        "id": "426",
+        "ids": [
+          "426"
+        ],
+        "name": "曹纯",
+        "displayName": {
+          "zhHans": "曹纯",
+          "zhHant": "曹純"
+        },
+        "names": [
+          "曹纯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "sourceIds": [
+          "426"
+        ],
+        "sourceNames": [
+          "曹纯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "searchNames": [
+          "曹纯",
+          "曹純",
+          "caochun"
+        ]
+      },
+      "group": {
+        "slug": "spell-868",
+        "ids": [
+          "868"
+        ],
+        "name": "缮甲",
+        "displayName": {
+          "zhHans": "缮甲",
+          "zhHant": "繕甲"
+        },
+        "names": [
+          "缮甲"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "缮甲",
+            "zhHant": "繕甲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42602",
+        "ids": [
+          "42602"
+        ],
+        "name": "亲率征兵",
+        "displayName": {
+          "zhHans": "亲率征兵",
+          "zhHant": "親率徵兵"
+        },
+        "names": [
+          "亲率征兵"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "亲率征兵",
+            "zhHant": "親率徵兵"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-42602",
+          "id": "42602",
+          "ids": [
+            "42602"
+          ],
+          "name": "亲率征兵",
+          "displayName": {
+            "zhHans": "亲率征兵",
+            "zhHant": "親率徵兵"
+          },
+          "names": [
+            "亲率征兵"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "亲率征兵",
+              "zhHant": "親率徵兵"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "426",
+        "skinKey": "42602",
+        "spellKey": "868",
+        "rowIndex": 2,
+        "characterNames": [
+          "曹纯"
+        ],
+        "skinNames": [
+          "亲率征兵"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/426caochun-c825aeb5/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/426caochun/4skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caochun--426caochun--1skill1_1",
+      "resourceId": "426caochun/1skill1_1",
+      "text": "缮甲厉兵，伺机而行。",
+      "textLocalized": {
+        "zhHans": "缮甲厉兵，伺机而行。",
+        "zhHant": "繕甲厲兵，伺機而行。"
+      },
+      "character": {
+        "slug": "caochun",
+        "command": "caochun",
+        "id": "426",
+        "ids": [
+          "426"
+        ],
+        "name": "曹纯",
+        "displayName": {
+          "zhHans": "曹纯",
+          "zhHant": "曹純"
+        },
+        "names": [
+          "曹纯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "sourceIds": [
+          "426"
+        ],
+        "sourceNames": [
+          "曹纯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "searchNames": [
+          "曹纯",
+          "曹純",
+          "caochun"
+        ]
+      },
+      "group": {
+        "slug": "spell-868",
+        "ids": [
+          "868"
+        ],
+        "name": "缮甲",
+        "displayName": {
+          "zhHans": "缮甲",
+          "zhHant": "繕甲"
+        },
+        "names": [
+          "缮甲"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "缮甲",
+            "zhHant": "繕甲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "426",
+        "skinKey": "-1",
+        "spellKey": "868",
+        "rowIndex": 1,
+        "characterNames": [
+          "曹纯"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/426caochun-c825aeb5/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/426caochun/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caochun--426caochun--1skill1_2",
+      "resourceId": "426caochun/1skill1_2",
+      "text": "战，当取精锐之兵，而弃驽钝也。",
+      "textLocalized": {
+        "zhHans": "战，当取精锐之兵，而弃驽钝也。",
+        "zhHant": "戰，當取精銳之兵，而棄駑鈍也。"
+      },
+      "character": {
+        "slug": "caochun",
+        "command": "caochun",
+        "id": "426",
+        "ids": [
+          "426"
+        ],
+        "name": "曹纯",
+        "displayName": {
+          "zhHans": "曹纯",
+          "zhHant": "曹純"
+        },
+        "names": [
+          "曹纯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "sourceIds": [
+          "426"
+        ],
+        "sourceNames": [
+          "曹纯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "searchNames": [
+          "曹纯",
+          "曹純",
+          "caochun"
+        ]
+      },
+      "group": {
+        "slug": "spell-868",
+        "ids": [
+          "868"
+        ],
+        "name": "缮甲",
+        "displayName": {
+          "zhHans": "缮甲",
+          "zhHant": "繕甲"
+        },
+        "names": [
+          "缮甲"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "缮甲",
+            "zhHant": "繕甲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "426",
+        "skinKey": "-1",
+        "spellKey": "868",
+        "rowIndex": 2,
+        "characterNames": [
+          "曹纯"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/426caochun-c825aeb5/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/426caochun/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caochun--426caochun--3skill1_1",
+      "resourceId": "426caochun/3skill1_1",
+      "text": "虎豹骑，皆天下骁锐！",
+      "textLocalized": {
+        "zhHans": "虎豹骑，皆天下骁锐！",
+        "zhHant": "虎豹騎，皆天下驍銳！"
+      },
+      "character": {
+        "slug": "caochun",
+        "command": "caochun",
+        "id": "426",
+        "ids": [
+          "426"
+        ],
+        "name": "曹纯",
+        "displayName": {
+          "zhHans": "曹纯",
+          "zhHant": "曹純"
+        },
+        "names": [
+          "曹纯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "sourceIds": [
+          "426"
+        ],
+        "sourceNames": [
+          "曹纯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "searchNames": [
+          "曹纯",
+          "曹純",
+          "caochun"
+        ]
+      },
+      "group": {
+        "slug": "spell-868",
+        "ids": [
+          "868"
+        ],
+        "name": "缮甲",
+        "displayName": {
+          "zhHans": "缮甲",
+          "zhHant": "繕甲"
+        },
+        "names": [
+          "缮甲"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "缮甲",
+            "zhHant": "繕甲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42601",
+        "ids": [
+          "42601"
+        ],
+        "name": "虎豹英骑",
+        "displayName": {
+          "zhHans": "虎豹英骑",
+          "zhHant": "虎豹英騎"
+        },
+        "names": [
+          "虎豹英骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "虎豹英骑",
+            "zhHant": "虎豹英騎"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-42601",
+          "id": "42601",
+          "ids": [
+            "42601"
+          ],
+          "name": "虎豹英骑",
+          "displayName": {
+            "zhHans": "虎豹英骑",
+            "zhHant": "虎豹英騎"
+          },
+          "names": [
+            "虎豹英骑"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "虎豹英骑",
+              "zhHant": "虎豹英騎"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "426",
+        "skinKey": "42601",
+        "spellKey": "868",
+        "rowIndex": 1,
+        "characterNames": [
+          "曹纯"
+        ],
+        "skinNames": [
+          "虎豹英骑"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/426caochun-c825aeb5/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/426caochun/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caochun--426caochun--3skill1_2",
+      "resourceId": "426caochun/3skill1_2",
+      "text": "缮取治军之道，安抚众军之心。",
+      "textLocalized": {
+        "zhHans": "缮取治军之道，安抚众军之心。",
+        "zhHant": "繕取治軍之道，安撫衆軍之心。"
+      },
+      "character": {
+        "slug": "caochun",
+        "command": "caochun",
+        "id": "426",
+        "ids": [
+          "426"
+        ],
+        "name": "曹纯",
+        "displayName": {
+          "zhHans": "曹纯",
+          "zhHant": "曹純"
+        },
+        "names": [
+          "曹纯"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "sourceIds": [
+          "426"
+        ],
+        "sourceNames": [
+          "曹纯"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "曹纯",
+            "zhHant": "曹純"
+          }
+        ],
+        "searchNames": [
+          "曹纯",
+          "曹純",
+          "caochun"
+        ]
+      },
+      "group": {
+        "slug": "spell-868",
+        "ids": [
+          "868"
+        ],
+        "name": "缮甲",
+        "displayName": {
+          "zhHans": "缮甲",
+          "zhHant": "繕甲"
+        },
+        "names": [
+          "缮甲"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "缮甲",
+            "zhHant": "繕甲"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-42601",
+        "ids": [
+          "42601"
+        ],
+        "name": "虎豹英骑",
+        "displayName": {
+          "zhHans": "虎豹英骑",
+          "zhHant": "虎豹英騎"
+        },
+        "names": [
+          "虎豹英骑"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "虎豹英骑",
+            "zhHant": "虎豹英騎"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-42601",
+          "id": "42601",
+          "ids": [
+            "42601"
+          ],
+          "name": "虎豹英骑",
+          "displayName": {
+            "zhHans": "虎豹英骑",
+            "zhHant": "虎豹英騎"
+          },
+          "names": [
+            "虎豹英骑"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "虎豹英骑",
+              "zhHant": "虎豹英騎"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "426",
+        "skinKey": "42601",
+        "spellKey": "868",
+        "rowIndex": 2,
+        "characterNames": [
+          "曹纯"
+        ],
+        "skinNames": [
+          "虎豹英骑"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/426caochun-c825aeb5/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/426caochun/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

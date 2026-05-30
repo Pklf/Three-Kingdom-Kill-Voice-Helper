@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc289e306daf264c45b781ea72e4f341c4713135128b157ebb6c1f826058722b
-size 8306
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dongzhao",
+    "command": "dongzhao",
+    "name": "董昭",
+    "displayName": {
+      "zhHans": "董昭",
+      "zhHant": "董昭"
+    },
+    "names": [
+      "董昭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "董昭",
+        "zhHant": "董昭"
+      }
+    ],
+    "ids": [
+      "355"
+    ],
+    "sourceNames": [
+      "董昭"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "董昭",
+        "zhHant": "董昭"
+      }
+    ],
+    "sourceIds": [
+      "355"
+    ],
+    "searchNames": [
+      "dongzhao",
+      "董昭"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/dongzhao/groups/dead.json"
+      },
+      {
+        "slug": "spell-3063",
+        "name": "先略",
+        "displayName": {
+          "zhHans": "先略",
+          "zhHant": "先略"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dongzhao/groups/spell-3063.json"
+      },
+      {
+        "slug": "spell-3064",
+        "name": "造王",
+        "displayName": {
+          "zhHans": "造王",
+          "zhHant": "造王"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dongzhao/groups/spell-3064.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongzhao/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35502",
+        "name": "夜阑山河",
+        "displayName": {
+          "zhHans": "夜阑山河",
+          "zhHant": "夜闌山河"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongzhao/skins/skin-35502.json"
+      },
+      {
+        "slug": "skin-35501",
+        "name": "奉帝于许",
+        "displayName": {
+          "zhHans": "奉帝于许",
+          "zhHant": "奉帝於許"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dongzhao/skins/skin-35501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dongzhao.json",
+      "groups": "api/v1/tts/characters/dongzhao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dongzhao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-35501",
+    "name": "奉帝于许",
+    "displayName": {
+      "zhHans": "奉帝于许",
+      "zhHant": "奉帝於許"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/dongzhao/skins/skin-35501.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "dongzhao--355dongzhao--2dead01",
+      "resourceId": "355dongzhao/2dead01",
+      "text": "宦海沉浮数十年，奈何弃我敝履……",
+      "textLocalized": {
+        "zhHans": "宦海沉浮数十年，奈何弃我敝履……",
+        "zhHant": "宦海沉浮數十年，奈何棄我敝履……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35501",
+          "name": "奉帝于许",
+          "displayName": {
+            "zhHans": "奉帝于许",
+            "zhHant": "奉帝於許"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/355dongzhao-5e94d074/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/355dongzhao/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongzhao--355dongzhao--2skill1_1",
+      "resourceId": "355dongzhao/2skill1_1",
+      "text": "此策，可劝业、安国、兴邦。",
+      "textLocalized": {
+        "zhHans": "此策，可劝业、安国、兴邦。",
+        "zhHant": "此策，可勸業、安國、興邦。"
+      },
+      "group": {
+        "slug": "spell-3063",
+        "name": "先略",
+        "displayName": {
+          "zhHans": "先略",
+          "zhHant": "先略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35501",
+          "name": "奉帝于许",
+          "displayName": {
+            "zhHans": "奉帝于许",
+            "zhHant": "奉帝於許"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/355dongzhao-5e94d074/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/355dongzhao/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongzhao--355dongzhao--2skill1_2",
+      "resourceId": "355dongzhao/2skill1_2",
+      "text": "此言，可除弊、为公、佐君。",
+      "textLocalized": {
+        "zhHans": "此言，可除弊、为公、佐君。",
+        "zhHant": "此言，可除弊、爲公、佐君。"
+      },
+      "group": {
+        "slug": "spell-3063",
+        "name": "先略",
+        "displayName": {
+          "zhHans": "先略",
+          "zhHant": "先略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35501",
+          "name": "奉帝于许",
+          "displayName": {
+            "zhHans": "奉帝于许",
+            "zhHant": "奉帝於許"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/355dongzhao-5e94d074/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/355dongzhao/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongzhao--355dongzhao--2skill2_1",
+      "resourceId": "355dongzhao/2skill2_1",
+      "text": "天下分合，承运者舍君其谁！",
+      "textLocalized": {
+        "zhHans": "天下分合，承运者舍君其谁！",
+        "zhHant": "天下分合，承運者舍君其誰！"
+      },
+      "group": {
+        "slug": "spell-3064",
+        "name": "造王",
+        "displayName": {
+          "zhHans": "造王",
+          "zhHant": "造王"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35501",
+          "name": "奉帝于许",
+          "displayName": {
+            "zhHans": "奉帝于许",
+            "zhHant": "奉帝於許"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/355dongzhao-5e94d074/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/355dongzhao/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dongzhao--355dongzhao--2skill2_2",
+      "resourceId": "355dongzhao/2skill2_2",
+      "text": "宝器失落，唯君可身登大宝！",
+      "textLocalized": {
+        "zhHans": "宝器失落，唯君可身登大宝！",
+        "zhHant": "寶器失落，唯君可身登大寶！"
+      },
+      "group": {
+        "slug": "spell-3064",
+        "name": "造王",
+        "displayName": {
+          "zhHans": "造王",
+          "zhHant": "造王"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35501",
+          "name": "奉帝于许",
+          "displayName": {
+            "zhHans": "奉帝于许",
+            "zhHant": "奉帝於許"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/355dongzhao-5e94d074/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/355dongzhao/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

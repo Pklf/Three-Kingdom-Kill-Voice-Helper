@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0ca0f10ddefd0964daa5df6c79a6f2fb1690174ff937d4791249cbf7f132b444
-size 8452
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dingshangwan",
+    "command": "dingshangwan",
+    "name": "丁尚涴",
+    "displayName": {
+      "zhHans": "丁尚涴",
+      "zhHant": "丁尚涴"
+    },
+    "names": [
+      "丁尚涴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "丁尚涴",
+        "zhHant": "丁尚涴"
+      }
+    ],
+    "ids": [
+      "569"
+    ],
+    "sourceNames": [
+      "丁尚涴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "丁尚涴",
+        "zhHant": "丁尚涴"
+      }
+    ],
+    "sourceIds": [
+      "569"
+    ],
+    "searchNames": [
+      "dingshangwan",
+      "丁尚涴"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/dingshangwan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3330",
+        "name": "抚悼",
+        "displayName": {
+          "zhHans": "抚悼",
+          "zhHant": "撫悼"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dingshangwan/groups/spell-3330.json"
+      },
+      {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dingshangwan/groups/spell-3331.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dingshangwan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-56901",
+        "name": "夜阑扰梦",
+        "displayName": {
+          "zhHans": "夜阑扰梦",
+          "zhHant": "夜闌擾夢"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dingshangwan/skins/skin-56901.json"
+      },
+      {
+        "slug": "skin-56902",
+        "name": "霜刃蚀骨",
+        "displayName": {
+          "zhHans": "霜刃蚀骨",
+          "zhHant": "霜刃蝕骨"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dingshangwan/skins/skin-56902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dingshangwan.json",
+      "groups": "api/v1/tts/characters/dingshangwan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dingshangwan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-56902",
+    "name": "霜刃蚀骨",
+    "displayName": {
+      "zhHans": "霜刃蚀骨",
+      "zhHant": "霜刃蝕骨"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/dingshangwan/skins/skin-56902.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "dingshangwan--569dingshangwan--3dead01",
+      "resourceId": "569dingshangwan/3dead01",
+      "text": "昂儿慢行，为娘来也。",
+      "textLocalized": {
+        "zhHans": "昂儿慢行，为娘来也。",
+        "zhHant": "昂兒慢行，爲娘來也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56902",
+          "name": "霜刃蚀骨",
+          "displayName": {
+            "zhHans": "霜刃蚀骨",
+            "zhHant": "霜刃蝕骨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingshangwan--569dingshangwan--3skill1_1",
+      "resourceId": "569dingshangwan/3skill1_1",
+      "text": "黄泉路远，吾儿且慢行。",
+      "textLocalized": {
+        "zhHans": "黄泉路远，吾儿且慢行。",
+        "zhHant": "黃泉路遠，吾兒且慢行。"
+      },
+      "group": {
+        "slug": "spell-3330",
+        "name": "抚悼",
+        "displayName": {
+          "zhHans": "抚悼",
+          "zhHant": "撫悼"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56902",
+          "name": "霜刃蚀骨",
+          "displayName": {
+            "zhHans": "霜刃蚀骨",
+            "zhHant": "霜刃蝕骨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingshangwan--569dingshangwan--3skill1_2",
+      "resourceId": "569dingshangwan/3skill1_2",
+      "text": "天地已失色，自此独守青灯。",
+      "textLocalized": {
+        "zhHans": "天地已失色，自此独守青灯。",
+        "zhHant": "天地已失色，自此獨守青燈。"
+      },
+      "group": {
+        "slug": "spell-3330",
+        "name": "抚悼",
+        "displayName": {
+          "zhHans": "抚悼",
+          "zhHant": "撫悼"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56902",
+          "name": "霜刃蚀骨",
+          "displayName": {
+            "zhHans": "霜刃蚀骨",
+            "zhHant": "霜刃蝕骨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingshangwan--569dingshangwan--3skill2_1",
+      "resourceId": "569dingshangwan/3skill2_1",
+      "text": "曹公好逑佳人，欲以儿命为雁礼乎？",
+      "textLocalized": {
+        "zhHans": "曹公好逑佳人，欲以儿命为雁礼乎？",
+        "zhHant": "曹公好逑佳人，欲以兒命爲雁禮乎？"
+      },
+      "group": {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56902",
+          "name": "霜刃蚀骨",
+          "displayName": {
+            "zhHans": "霜刃蚀骨",
+            "zhHant": "霜刃蝕骨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dingshangwan--569dingshangwan--3skill2_2",
+      "resourceId": "569dingshangwan/3skill2_2",
+      "text": "吾恨苍天不公，吾恨曹操未死。",
+      "textLocalized": {
+        "zhHans": "吾恨苍天不公，吾恨曹操未死。",
+        "zhHant": "吾恨蒼天不公，吾恨曹操未死。"
+      },
+      "group": {
+        "slug": "spell-3331",
+        "name": "讽言",
+        "displayName": {
+          "zhHans": "讽言",
+          "zhHant": "諷言"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56902",
+          "name": "霜刃蚀骨",
+          "displayName": {
+            "zhHans": "霜刃蚀骨",
+            "zhHant": "霜刃蝕骨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/569dingshangwan-4d0093d1/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/569dingshangwan/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

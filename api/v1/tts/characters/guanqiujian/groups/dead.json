@@ -1,3 +1,240 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:014a553ba2f960fc48321028cada6b21cd5fe9dccceab2264a698c0ad7774438
-size 6432
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guanqiujian",
+    "command": "guanqiujian",
+    "name": "毌丘俭",
+    "displayName": {
+      "zhHans": "毌丘俭",
+      "zhHant": "毌丘儉"
+    },
+    "names": [
+      "毌丘俭"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "毌丘俭",
+        "zhHant": "毌丘儉"
+      }
+    ],
+    "ids": [
+      "413"
+    ],
+    "sourceNames": [
+      "毌丘俭"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "毌丘俭",
+        "zhHant": "毌丘儉"
+      }
+    ],
+    "sourceIds": [
+      "413"
+    ],
+    "searchNames": [
+      "guanqiujian",
+      "毌丘俭",
+      "毌丘儉"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/guanqiujian/groups/dead.json"
+      },
+      {
+        "slug": "spell-827",
+        "name": "征荣",
+        "displayName": {
+          "zhHans": "征荣",
+          "zhHant": "徵榮"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guanqiujian/groups/spell-827.json"
+      },
+      {
+        "slug": "spell-828",
+        "name": "鸿举",
+        "displayName": {
+          "zhHans": "鸿举",
+          "zhHant": "鴻舉"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guanqiujian/groups/spell-828.json"
+      },
+      {
+        "slug": "spell-829",
+        "name": "清侧",
+        "displayName": {
+          "zhHans": "清侧",
+          "zhHant": "清側"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/guanqiujian/groups/spell-829.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/guanqiujian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-41303",
+        "name": "威重忠义",
+        "displayName": {
+          "zhHans": "威重忠义",
+          "zhHant": "威重忠義"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/guanqiujian/skins/skin-41303.json"
+      },
+      {
+        "slug": "skin-41302",
+        "name": "攻敌挫士",
+        "displayName": {
+          "zhHans": "攻敌挫士",
+          "zhHant": "攻敵挫士"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/guanqiujian/skins/skin-41302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guanqiujian.json",
+      "groups": "api/v1/tts/characters/guanqiujian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guanqiujian/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/guanqiujian/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "guanqiujian--413guanqiujian--1dead01",
+      "resourceId": "413guanqiujian/1dead01",
+      "text": "峥嵘一生，然被平民所击射！",
+      "textLocalized": {
+        "zhHans": "峥嵘一生，然被平民所击射！",
+        "zhHant": "崢嶸一生，然被平民所擊射！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanqiujian--413guanqiujian--4dead01",
+      "resourceId": "413guanqiujian/4dead01",
+      "text": "空有鸿鹄之志。",
+      "textLocalized": {
+        "zhHans": "空有鸿鹄之志。",
+        "zhHant": "空有鴻鵠之志。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41303",
+          "name": "威重忠义",
+          "displayName": {
+            "zhHans": "威重忠义",
+            "zhHant": "威重忠義"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guanqiujian--413guanqiujian--3dead01",
+      "resourceId": "413guanqiujian/3dead01",
+      "text": "好谋而不达，此事必有隐患。",
+      "textLocalized": {
+        "zhHans": "好谋而不达，此事必有隐患。",
+        "zhHant": "好謀而不達，此事必有隱患。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-41302",
+          "name": "攻敌挫士",
+          "displayName": {
+            "zhHans": "攻敌挫士",
+            "zhHant": "攻敵挫士"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/413guanqiujian-4bfddd6e/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/413guanqiujian/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

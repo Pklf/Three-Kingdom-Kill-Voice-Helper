@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:706c0903fb06e544e3845d7b7058dfc0328b1b2219ede0b12d678cf57e72e496
-size 7625
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoxiancaohua",
+    "command": "caoxiancaohua",
+    "name": "曹宪&曹华",
+    "displayName": {
+      "zhHans": "曹宪&曹华",
+      "zhHant": "曹憲&曹華"
+    },
+    "names": [
+      "曹宪&曹华"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹宪&曹华",
+        "zhHant": "曹憲&曹華"
+      }
+    ],
+    "ids": [
+      "509"
+    ],
+    "sourceNames": [
+      "曹宪&曹华"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹宪&曹华",
+        "zhHant": "曹憲&曹華"
+      }
+    ],
+    "sourceIds": [
+      "509"
+    ],
+    "searchNames": [
+      "caoxiancaohua",
+      "曹宪&曹华",
+      "曹憲&曹華"
+    ],
+    "lineCount": 22,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/dead.json"
+      },
+      {
+        "slug": "spell-3114",
+        "name": "化木",
+        "displayName": {
+          "zhHans": "化木",
+          "zhHant": "化木"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3114.json"
+      },
+      {
+        "slug": "spell-3115",
+        "name": "前盟",
+        "displayName": {
+          "zhHans": "前盟",
+          "zhHant": "前盟"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3115.json"
+      },
+      {
+        "slug": "spell-3116",
+        "name": "良缘",
+        "displayName": {
+          "zhHans": "良缘",
+          "zhHant": "良緣"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3116.json"
+      },
+      {
+        "slug": "spell-3117",
+        "name": "羁肆",
+        "displayName": {
+          "zhHans": "羁肆",
+          "zhHant": "羈肆"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3117.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 13,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50901",
+        "name": "娇媚芙蓉",
+        "displayName": {
+          "zhHans": "娇媚芙蓉",
+          "zhHant": "嬌媚芙蓉"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/caoxiancaohua/skins/skin-50901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoxiancaohua.json",
+      "groups": "api/v1/tts/characters/caoxiancaohua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoxiancaohua/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3116",
+    "name": "良缘",
+    "displayName": {
+      "zhHans": "良缘",
+      "zhHant": "良緣"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/caoxiancaohua/groups/spell-3116.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "caoxiancaohua--509caoxiancaohua--1skill3_1",
+      "resourceId": "509caoxiancaohua/1skill3_1",
+      "text": "千古奇遇，共剪西窗。",
+      "textLocalized": {
+        "zhHans": "千古奇遇，共剪西窗。",
+        "zhHant": "千古奇遇，共剪西窗。"
+      },
+      "group": {
+        "slug": "spell-3116",
+        "name": "良缘",
+        "displayName": {
+          "zhHans": "良缘",
+          "zhHant": "良緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/509caoxiancaohua-fd0c315f/1skill3-1-0647d912.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/509caoxiancaohua/1skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxiancaohua--509caoxiancaohua--1skill3_2",
+      "resourceId": "509caoxiancaohua/1skill3_2",
+      "text": "金玉良缘，来日方长。",
+      "textLocalized": {
+        "zhHans": "金玉良缘，来日方长。",
+        "zhHant": "金玉良緣，來日方長。"
+      },
+      "group": {
+        "slug": "spell-3116",
+        "name": "良缘",
+        "displayName": {
+          "zhHans": "良缘",
+          "zhHant": "良緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/509caoxiancaohua-fd0c315f/1skill3-2-f910b060.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/509caoxiancaohua/1skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxiancaohua--509caoxiancaohua--2skill3_1",
+      "resourceId": "509caoxiancaohua/2skill3_1",
+      "text": "山阳藏宝地，洛外生琼浆。",
+      "textLocalized": {
+        "zhHans": "山阳藏宝地，洛外生琼浆。",
+        "zhHant": "山陽藏寶地，洛外生瓊漿。"
+      },
+      "group": {
+        "slug": "spell-3116",
+        "name": "良缘",
+        "displayName": {
+          "zhHans": "良缘",
+          "zhHant": "良緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50901",
+          "name": "娇媚芙蓉",
+          "displayName": {
+            "zhHans": "娇媚芙蓉",
+            "zhHant": "嬌媚芙蓉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/509caoxiancaohua-fd0c315f/2skill3-1-0e7a5145.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/509caoxiancaohua/2skill3_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoxiancaohua--509caoxiancaohua--2skill3_2",
+      "resourceId": "509caoxiancaohua/2skill3_2",
+      "text": "愿以梧桐叶，尽换蟠桃实。",
+      "textLocalized": {
+        "zhHans": "愿以梧桐叶，尽换蟠桃实。",
+        "zhHant": "願以梧桐葉，盡換蟠桃實。"
+      },
+      "group": {
+        "slug": "spell-3116",
+        "name": "良缘",
+        "displayName": {
+          "zhHans": "良缘",
+          "zhHant": "良緣"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50901",
+          "name": "娇媚芙蓉",
+          "displayName": {
+            "zhHans": "娇媚芙蓉",
+            "zhHant": "嬌媚芙蓉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/509caoxiancaohua-fd0c315f/2skill3-2-f94c0c12.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/509caoxiancaohua/2skill3_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

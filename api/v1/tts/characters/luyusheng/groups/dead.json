@@ -1,3 +1,230 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:89898f22eec161d38c1898c5a1868940ad61c22aee6c9d3eb5269503c5fdd4b3
-size 6119
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "luyusheng",
+    "command": "luyusheng",
+    "name": "陆郁生",
+    "displayName": {
+      "zhHans": "陆郁生",
+      "zhHant": "陸鬱生"
+    },
+    "names": [
+      "陆郁生"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "陆郁生",
+        "zhHant": "陸鬱生"
+      }
+    ],
+    "ids": [
+      "562"
+    ],
+    "sourceNames": [
+      "陆郁生"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "陆郁生",
+        "zhHant": "陸鬱生"
+      }
+    ],
+    "sourceIds": [
+      "562"
+    ],
+    "searchNames": [
+      "luyusheng",
+      "陆郁生",
+      "陸鬱生"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/luyusheng/groups/dead.json"
+      },
+      {
+        "slug": "spell-3314",
+        "name": "藏心",
+        "displayName": {
+          "zhHans": "藏心",
+          "zhHant": "藏心"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/luyusheng/groups/spell-3314.json"
+      },
+      {
+        "slug": "spell-3315",
+        "name": "润微",
+        "displayName": {
+          "zhHans": "润微",
+          "zhHant": "潤微"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/luyusheng/groups/spell-3315.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/luyusheng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-56202",
+        "name": "毓秀钟灵",
+        "displayName": {
+          "zhHans": "毓秀钟灵",
+          "zhHant": "毓秀鍾靈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/luyusheng/skins/skin-56202.json"
+      },
+      {
+        "slug": "skin-56201",
+        "name": "粽香芳菲",
+        "displayName": {
+          "zhHans": "粽香芳菲",
+          "zhHant": "糉香芳菲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/luyusheng/skins/skin-56201.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/luyusheng.json",
+      "groups": "api/v1/tts/characters/luyusheng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/luyusheng/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/luyusheng/groups/dead.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "luyusheng--562luyusheng--1dead01",
+      "resourceId": "562luyusheng/1dead01",
+      "text": "郁生既为张妇，誓不再许。",
+      "textLocalized": {
+        "zhHans": "郁生既为张妇，誓不再许。",
+        "zhHant": "鬱生既爲張婦，誓不再許。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/562luyusheng-ea890c8e/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/562luyusheng/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luyusheng--562luyusheng--3dead01",
+      "resourceId": "562luyusheng/3dead01",
+      "text": "我虽年幼，亦知明礼守节。",
+      "textLocalized": {
+        "zhHans": "我虽年幼，亦知明礼守节。",
+        "zhHant": "我雖年幼，亦知明禮守節。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56202",
+          "name": "毓秀钟灵",
+          "displayName": {
+            "zhHans": "毓秀钟灵",
+            "zhHant": "毓秀鍾靈"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/562luyusheng-ea890c8e/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/562luyusheng/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "luyusheng--562luyusheng--2dead01",
+      "resourceId": "562luyusheng/2dead01",
+      "text": "佳节如白驹，过影而逝。",
+      "textLocalized": {
+        "zhHans": "佳节如白驹，过影而逝。",
+        "zhHant": "佳節如白駒，過影而逝。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56201",
+          "name": "粽香芳菲",
+          "displayName": {
+            "zhHans": "粽香芳菲",
+            "zhHant": "糉香芳菲"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/562luyusheng-ea890c8e/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/562luyusheng/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

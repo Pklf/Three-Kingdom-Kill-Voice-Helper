@@ -1,3 +1,195 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6dcfc3afff93c89257733fcd348fa62fbdf6e1ab675250ea70df8098987fde9c
-size 5021
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zhongyu",
+    "command": "zhongyu",
+    "name": "族钟毓",
+    "displayName": {
+      "zhHans": "族钟毓",
+      "zhHant": "族鍾毓"
+    },
+    "names": [
+      "族钟毓"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族钟毓",
+        "zhHant": "族鍾毓"
+      }
+    ],
+    "ids": [
+      "566"
+    ],
+    "sourceNames": [
+      "族钟毓"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族钟毓",
+        "zhHant": "族鍾毓"
+      }
+    ],
+    "sourceIds": [
+      "566"
+    ],
+    "searchNames": [
+      "zhongyu",
+      "族钟毓",
+      "族鍾毓"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/dead.json"
+      },
+      {
+        "slug": "spell-3265",
+        "name": "保族",
+        "displayName": {
+          "zhHans": "保族",
+          "zhHant": "保族"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3265.json"
+      },
+      {
+        "slug": "spell-3320",
+        "name": "捷谏",
+        "displayName": {
+          "zhHans": "捷谏",
+          "zhHant": "捷諫"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3320.json"
+      },
+      {
+        "slug": "spell-3321",
+        "name": "惶汗",
+        "displayName": {
+          "zhHans": "惶汗",
+          "zhHant": "惶汗"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/zhongyu/groups/spell-3321.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-56601",
+        "name": "决胜千里",
+        "displayName": {
+          "zhHans": "决胜千里",
+          "zhHant": "決勝千里"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongyu/skins/skin-56601.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/zhongyu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zhongyu.json",
+      "groups": "api/v1/tts/characters/zhongyu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zhongyu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/zhongyu/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "zhongyu--566zhongyu--2dead01",
+      "resourceId": "566zhongyu/2dead01",
+      "text": "毓愿偿吾弟之罪，以身代死。",
+      "textLocalized": {
+        "zhHans": "毓愿偿吾弟之罪，以身代死。",
+        "zhHant": "毓願償吾弟之罪，以身代死。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56601",
+          "name": "决胜千里",
+          "displayName": {
+            "zhHans": "决胜千里",
+            "zhHant": "決勝千里"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zhongyu--566zhongyu--1dead01",
+      "resourceId": "566zhongyu/1dead01",
+      "text": "百年钟氏，一朝为尘矣。",
+      "textLocalized": {
+        "zhHans": "百年钟氏，一朝为尘矣。",
+        "zhHant": "百年鍾氏，一朝爲塵矣。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/566zhongyu-70b9d4a1/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/566zhongyu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

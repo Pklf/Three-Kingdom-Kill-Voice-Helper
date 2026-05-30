@@ -1,3 +1,938 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae5b160bf1a9fca9c48ddd0a49ac41aaebd370a37fcc5b9bb56f741ac0d5557a
-size 21349
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "hejin",
+    "command": "hejin",
+    "name": "何进",
+    "displayName": {
+      "zhHans": "何进",
+      "zhHant": "何進"
+    },
+    "names": [
+      "何进"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "何进",
+        "zhHant": "何進"
+      }
+    ],
+    "ids": [
+      "3041"
+    ],
+    "sourceNames": [
+      "何进"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "何进",
+        "zhHant": "何進"
+      }
+    ],
+    "sourceIds": [
+      "3041"
+    ],
+    "searchNames": [
+      "hejin",
+      "何进",
+      "何進"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "ids": [
+          "1"
+        ],
+        "lineCount": 3
+      },
+      {
+        "slug": "spell-4063",
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        },
+        "ids": [
+          "4063"
+        ],
+        "lineCount": 6
+      },
+      {
+        "slug": "spell-4064",
+        "name": "延祸",
+        "displayName": {
+          "zhHans": "延祸",
+          "zhHant": "延禍"
+        },
+        "ids": [
+          "4064"
+        ],
+        "lineCount": 6
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-304102",
+        "ids": [
+          "304102"
+        ],
+        "name": "屠猪贩肉",
+        "displayName": {
+          "zhHans": "屠猪贩肉",
+          "zhHant": "屠豬販肉"
+        },
+        "lineCount": 5
+      },
+      {
+        "slug": "skin-304104",
+        "ids": [
+          "304104"
+        ],
+        "name": "谋诛宦官",
+        "displayName": {
+          "zhHans": "谋诛宦官",
+          "zhHant": "謀誅宦官"
+        },
+        "lineCount": 5
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/characters/hejin.json",
+      "lines": "api/v1/characters/hejin/lines.json"
+    }
+  },
+  "group": {
+    "slug": "spell-4063",
+    "ids": [
+      "4063"
+    ],
+    "name": "谋诛",
+    "displayName": {
+      "zhHans": "谋诛",
+      "zhHant": "謀誅"
+    },
+    "names": [
+      "谋诛"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "谋诛",
+        "zhHant": "謀誅"
+      }
+    ]
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "hejin--3041hejin--1skill1_1",
+      "resourceId": "3041hejin/1skill1_1",
+      "text": "宦官专权，进必诛之。",
+      "textLocalized": {
+        "zhHans": "宦官专权，进必诛之。",
+        "zhHant": "宦官專權，進必誅之。"
+      },
+      "character": {
+        "slug": "hejin",
+        "command": "hejin",
+        "id": "3041",
+        "ids": [
+          "3041"
+        ],
+        "name": "何进",
+        "displayName": {
+          "zhHans": "何进",
+          "zhHant": "何進"
+        },
+        "names": [
+          "何进"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "sourceIds": [
+          "3041"
+        ],
+        "sourceNames": [
+          "何进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "searchNames": [
+          "何进",
+          "何進",
+          "hejin"
+        ]
+      },
+      "group": {
+        "slug": "spell-4063",
+        "ids": [
+          "4063"
+        ],
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        },
+        "names": [
+          "谋诛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谋诛",
+            "zhHant": "謀誅"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3041",
+        "skinKey": "-1",
+        "spellKey": "4063",
+        "rowIndex": 1,
+        "characterNames": [
+          "何进"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/1skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hejin--3041hejin--1skill1_2",
+      "resourceId": "3041hejin/1skill1_2",
+      "text": "汝等罪大恶极，快快伏法。",
+      "textLocalized": {
+        "zhHans": "汝等罪大恶极，快快伏法。",
+        "zhHant": "汝等罪大惡極，快快伏法。"
+      },
+      "character": {
+        "slug": "hejin",
+        "command": "hejin",
+        "id": "3041",
+        "ids": [
+          "3041"
+        ],
+        "name": "何进",
+        "displayName": {
+          "zhHans": "何进",
+          "zhHant": "何進"
+        },
+        "names": [
+          "何进"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "sourceIds": [
+          "3041"
+        ],
+        "sourceNames": [
+          "何进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "searchNames": [
+          "何进",
+          "何進",
+          "hejin"
+        ]
+      },
+      "group": {
+        "slug": "spell-4063",
+        "ids": [
+          "4063"
+        ],
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        },
+        "names": [
+          "谋诛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谋诛",
+            "zhHant": "謀誅"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-1",
+        "ids": [
+          "-1"
+        ],
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "names": [
+          "原画"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "id": "-1",
+          "ids": [
+            "-1"
+          ],
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          },
+          "names": [
+            "原画"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "原画",
+              "zhHant": "原畫"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3041",
+        "skinKey": "-1",
+        "spellKey": "4063",
+        "rowIndex": 2,
+        "characterNames": [
+          "何进"
+        ],
+        "skinNames": [
+          "原画"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/1skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hejin--3041hejin--3skill1_1",
+      "resourceId": "3041hejin/3skill1_1",
+      "text": "待宰羔羊，还想反抗？",
+      "textLocalized": {
+        "zhHans": "待宰羔羊，还想反抗？",
+        "zhHant": "待宰羔羊，還想反抗？"
+      },
+      "character": {
+        "slug": "hejin",
+        "command": "hejin",
+        "id": "3041",
+        "ids": [
+          "3041"
+        ],
+        "name": "何进",
+        "displayName": {
+          "zhHans": "何进",
+          "zhHant": "何進"
+        },
+        "names": [
+          "何进"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "sourceIds": [
+          "3041"
+        ],
+        "sourceNames": [
+          "何进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "searchNames": [
+          "何进",
+          "何進",
+          "hejin"
+        ]
+      },
+      "group": {
+        "slug": "spell-4063",
+        "ids": [
+          "4063"
+        ],
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        },
+        "names": [
+          "谋诛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谋诛",
+            "zhHant": "謀誅"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-304102",
+        "ids": [
+          "304102"
+        ],
+        "name": "屠猪贩肉",
+        "displayName": {
+          "zhHans": "屠猪贩肉",
+          "zhHant": "屠豬販肉"
+        },
+        "names": [
+          "屠猪贩肉"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "屠猪贩肉",
+            "zhHant": "屠豬販肉"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-304102",
+          "id": "304102",
+          "ids": [
+            "304102"
+          ],
+          "name": "屠猪贩肉",
+          "displayName": {
+            "zhHans": "屠猪贩肉",
+            "zhHant": "屠豬販肉"
+          },
+          "names": [
+            "屠猪贩肉"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "屠猪贩肉",
+              "zhHant": "屠豬販肉"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3041",
+        "skinKey": "304102",
+        "spellKey": "4063",
+        "rowIndex": 1,
+        "characterNames": [
+          "何进"
+        ],
+        "skinNames": [
+          "屠猪贩肉"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/3skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hejin--3041hejin--3skill1_2",
+      "resourceId": "3041hejin/3skill1_2",
+      "text": "杀！杀尽天下宦官！",
+      "textLocalized": {
+        "zhHans": "杀！杀尽天下宦官！",
+        "zhHant": "殺！殺盡天下宦官！"
+      },
+      "character": {
+        "slug": "hejin",
+        "command": "hejin",
+        "id": "3041",
+        "ids": [
+          "3041"
+        ],
+        "name": "何进",
+        "displayName": {
+          "zhHans": "何进",
+          "zhHant": "何進"
+        },
+        "names": [
+          "何进"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "sourceIds": [
+          "3041"
+        ],
+        "sourceNames": [
+          "何进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "searchNames": [
+          "何进",
+          "何進",
+          "hejin"
+        ]
+      },
+      "group": {
+        "slug": "spell-4063",
+        "ids": [
+          "4063"
+        ],
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        },
+        "names": [
+          "谋诛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谋诛",
+            "zhHant": "謀誅"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-304102",
+        "ids": [
+          "304102"
+        ],
+        "name": "屠猪贩肉",
+        "displayName": {
+          "zhHans": "屠猪贩肉",
+          "zhHant": "屠豬販肉"
+        },
+        "names": [
+          "屠猪贩肉"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "屠猪贩肉",
+            "zhHant": "屠豬販肉"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-304102",
+          "id": "304102",
+          "ids": [
+            "304102"
+          ],
+          "name": "屠猪贩肉",
+          "displayName": {
+            "zhHans": "屠猪贩肉",
+            "zhHant": "屠豬販肉"
+          },
+          "names": [
+            "屠猪贩肉"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "屠猪贩肉",
+              "zhHant": "屠豬販肉"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3041",
+        "skinKey": "304102",
+        "spellKey": "4063",
+        "rowIndex": 2,
+        "characterNames": [
+          "何进"
+        ],
+        "skinNames": [
+          "屠猪贩肉"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/3skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hejin--3041hejin--4skill1_1",
+      "resourceId": "3041hejin/4skill1_1",
+      "text": "宦官当道，当杀之以清君侧！",
+      "textLocalized": {
+        "zhHans": "宦官当道，当杀之以清君侧！",
+        "zhHant": "宦官當道，當殺之以清君側！"
+      },
+      "character": {
+        "slug": "hejin",
+        "command": "hejin",
+        "id": "3041",
+        "ids": [
+          "3041"
+        ],
+        "name": "何进",
+        "displayName": {
+          "zhHans": "何进",
+          "zhHant": "何進"
+        },
+        "names": [
+          "何进"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "sourceIds": [
+          "3041"
+        ],
+        "sourceNames": [
+          "何进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "searchNames": [
+          "何进",
+          "何進",
+          "hejin"
+        ]
+      },
+      "group": {
+        "slug": "spell-4063",
+        "ids": [
+          "4063"
+        ],
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        },
+        "names": [
+          "谋诛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谋诛",
+            "zhHant": "謀誅"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-304104",
+        "ids": [
+          "304104"
+        ],
+        "name": "谋诛宦官",
+        "displayName": {
+          "zhHans": "谋诛宦官",
+          "zhHant": "謀誅宦官"
+        },
+        "names": [
+          "谋诛宦官"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谋诛宦官",
+            "zhHant": "謀誅宦官"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-304104",
+          "id": "304104",
+          "ids": [
+            "304104"
+          ],
+          "name": "谋诛宦官",
+          "displayName": {
+            "zhHans": "谋诛宦官",
+            "zhHant": "謀誅宦官"
+          },
+          "names": [
+            "谋诛宦官"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "谋诛宦官",
+              "zhHant": "謀誅宦官"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3041",
+        "skinKey": "304104",
+        "spellKey": "4063",
+        "rowIndex": 1,
+        "characterNames": [
+          "何进"
+        ],
+        "skinNames": [
+          "谋诛宦官"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/4skill1_1.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "hejin--3041hejin--4skill1_2",
+      "resourceId": "3041hejin/4skill1_2",
+      "text": "天下之乱，皆宦官所为！",
+      "textLocalized": {
+        "zhHans": "天下之乱，皆宦官所为！",
+        "zhHant": "天下之亂，皆宦官所爲！"
+      },
+      "character": {
+        "slug": "hejin",
+        "command": "hejin",
+        "id": "3041",
+        "ids": [
+          "3041"
+        ],
+        "name": "何进",
+        "displayName": {
+          "zhHans": "何进",
+          "zhHant": "何進"
+        },
+        "names": [
+          "何进"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "sourceIds": [
+          "3041"
+        ],
+        "sourceNames": [
+          "何进"
+        ],
+        "displaySourceNames": [
+          {
+            "zhHans": "何进",
+            "zhHant": "何進"
+          }
+        ],
+        "searchNames": [
+          "何进",
+          "何進",
+          "hejin"
+        ]
+      },
+      "group": {
+        "slug": "spell-4063",
+        "ids": [
+          "4063"
+        ],
+        "name": "谋诛",
+        "displayName": {
+          "zhHans": "谋诛",
+          "zhHant": "謀誅"
+        },
+        "names": [
+          "谋诛"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谋诛",
+            "zhHant": "謀誅"
+          }
+        ]
+      },
+      "skin": {
+        "slug": "skin-304104",
+        "ids": [
+          "304104"
+        ],
+        "name": "谋诛宦官",
+        "displayName": {
+          "zhHans": "谋诛宦官",
+          "zhHant": "謀誅宦官"
+        },
+        "names": [
+          "谋诛宦官"
+        ],
+        "displayNames": [
+          {
+            "zhHans": "谋诛宦官",
+            "zhHant": "謀誅宦官"
+          }
+        ]
+      },
+      "skins": [
+        {
+          "slug": "skin-304104",
+          "id": "304104",
+          "ids": [
+            "304104"
+          ],
+          "name": "谋诛宦官",
+          "displayName": {
+            "zhHans": "谋诛宦官",
+            "zhHant": "謀誅宦官"
+          },
+          "names": [
+            "谋诛宦官"
+          ],
+          "displayNames": [
+            {
+              "zhHans": "谋诛宦官",
+              "zhHant": "謀誅宦官"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "characterKey": "3041",
+        "skinKey": "304104",
+        "spellKey": "4063",
+        "rowIndex": 2,
+        "characterNames": [
+          "何进"
+        ],
+        "skinNames": [
+          "谋诛宦官"
+        ]
+      },
+      "audio": {
+        "cached": "audio-cache/voice/spell/3041hejin-66631317/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/3041hejin/4skill1_2.mp3",
+        "preferred": "cached",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

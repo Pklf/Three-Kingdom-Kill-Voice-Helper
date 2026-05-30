@@ -1,3 +1,334 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ae4e438f83d0f8d1e2ce3c391b6b877d65687ea87fce9b59673cd3ad135db17
-size 9042
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liaohua",
+    "command": "liaohua",
+    "name": "廖化",
+    "displayName": {
+      "zhHans": "廖化",
+      "zhHant": "廖化"
+    },
+    "names": [
+      "廖化"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "廖化",
+        "zhHant": "廖化"
+      }
+    ],
+    "ids": [
+      "166"
+    ],
+    "sourceNames": [
+      "廖化"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "廖化",
+        "zhHant": "廖化"
+      }
+    ],
+    "sourceIds": [
+      "166"
+    ],
+    "searchNames": [
+      "liaohua",
+      "廖化"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liaohua/groups/dead.json"
+      },
+      {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liaohua/groups/spell-426.json"
+      },
+      {
+        "slug": "spell-427",
+        "name": "伏枥",
+        "displayName": {
+          "zhHans": "伏枥",
+          "zhHant": "伏櫪"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liaohua/groups/spell-427.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liaohua/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-16604",
+        "name": "果敢刚直",
+        "displayName": {
+          "zhHans": "果敢刚直",
+          "zhHant": "果敢剛直"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liaohua/skins/skin-16604.json"
+      },
+      {
+        "slug": "skin-16602",
+        "name": "老骥伏枥",
+        "displayName": {
+          "zhHans": "老骥伏枥",
+          "zhHant": "老驥伏櫪"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liaohua/skins/skin-16602.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liaohua.json",
+      "groups": "api/v1/tts/characters/liaohua/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liaohua/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-426",
+    "name": "当先",
+    "displayName": {
+      "zhHans": "当先",
+      "zhHant": "當先"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/liaohua/groups/spell-426.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "liaohua--166liaohua--1skill1_1",
+      "resourceId": "166liaohua/1skill1_1",
+      "text": "先锋就由老夫来当。",
+      "textLocalized": {
+        "zhHans": "先锋就由老夫来当。",
+        "zhHant": "先鋒就由老夫來當。"
+      },
+      "group": {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liaohua--166liaohua--1skill1_2",
+      "resourceId": "166liaohua/1skill1_2",
+      "text": "看我先行破敌！",
+      "textLocalized": {
+        "zhHans": "看我先行破敌！",
+        "zhHant": "看我先行破敵！"
+      },
+      "group": {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liaohua--166liaohua--4skill1_1",
+      "resourceId": "166liaohua/4skill1_1",
+      "text": "谁说蜀中已无大将！",
+      "textLocalized": {
+        "zhHans": "谁说蜀中已无大将！",
+        "zhHant": "誰說蜀中已無大將！"
+      },
+      "group": {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16604",
+          "name": "果敢刚直",
+          "displayName": {
+            "zhHans": "果敢刚直",
+            "zhHant": "果敢剛直"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liaohua--166liaohua--4skill1_2",
+      "resourceId": "166liaohua/4skill1_2",
+      "text": "吾虽年迈，宝剑尚锋！",
+      "textLocalized": {
+        "zhHans": "吾虽年迈，宝剑尚锋！",
+        "zhHant": "吾雖年邁，寶劍尚鋒！"
+      },
+      "group": {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16604",
+          "name": "果敢刚直",
+          "displayName": {
+            "zhHans": "果敢刚直",
+            "zhHant": "果敢剛直"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liaohua--166liaohua--3skill1_1",
+      "resourceId": "166liaohua/3skill1_1",
+      "text": "廉颇虽老，亦敢当先！",
+      "textLocalized": {
+        "zhHans": "廉颇虽老，亦敢当先！",
+        "zhHant": "廉頗雖老，亦敢當先！"
+      },
+      "group": {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16602",
+          "name": "老骥伏枥",
+          "displayName": {
+            "zhHans": "老骥伏枥",
+            "zhHant": "老驥伏櫪"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liaohua--166liaohua--3skill1_2",
+      "resourceId": "166liaohua/3skill1_2",
+      "text": "临阵破敌，某愿为先锋！",
+      "textLocalized": {
+        "zhHans": "临阵破敌，某愿为先锋！",
+        "zhHant": "臨陣破敵，某願爲先鋒！"
+      },
+      "group": {
+        "slug": "spell-426",
+        "name": "当先",
+        "displayName": {
+          "zhHans": "当先",
+          "zhHant": "當先"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16602",
+          "name": "老骥伏枥",
+          "displayName": {
+            "zhHans": "老骥伏枥",
+            "zhHant": "老驥伏櫪"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/166liaohua-1985f05c/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/166liaohua/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

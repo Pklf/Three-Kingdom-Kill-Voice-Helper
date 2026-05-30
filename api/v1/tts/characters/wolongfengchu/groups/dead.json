@@ -1,3 +1,265 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:37cc27f03204a79cf33e616d2bc1572f5cce72d198293ea6837c90b97afa2cce
-size 7379
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "wolongfengchu",
+    "command": "wolongfengchu",
+    "name": "卧龙凤雏",
+    "displayName": {
+      "zhHans": "卧龙凤雏",
+      "zhHant": "臥龍鳳雛"
+    },
+    "names": [
+      "卧龙凤雏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卧龙凤雏",
+        "zhHant": "臥龍鳳雛"
+      }
+    ],
+    "ids": [
+      "475"
+    ],
+    "sourceNames": [
+      "卧龙凤雏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卧龙凤雏",
+        "zhHant": "臥龍鳳雛"
+      }
+    ],
+    "sourceIds": [
+      "475"
+    ],
+    "searchNames": [
+      "wolongfengchu",
+      "卧龙凤雏",
+      "臥龍鳳雛"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/groups/dead.json"
+      },
+      {
+        "slug": "spell-968",
+        "name": "游龙",
+        "displayName": {
+          "zhHans": "游龙",
+          "zhHant": "游龍"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/groups/spell-968.json"
+      },
+      {
+        "slug": "spell-969",
+        "name": "鸾凤",
+        "displayName": {
+          "zhHans": "鸾凤",
+          "zhHant": "鸞鳳"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/groups/spell-969.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-47501",
+        "name": "赤壁链火",
+        "displayName": {
+          "zhHans": "赤壁链火",
+          "zhHant": "赤壁鏈火"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/skins/skin-47501.json"
+      },
+      {
+        "slug": "skin-47502",
+        "name": "青羽锦绣",
+        "displayName": {
+          "zhHans": "青羽锦绣",
+          "zhHant": "青羽錦繡"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/wolongfengchu/skins/skin-47502.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/wolongfengchu.json",
+      "groups": "api/v1/tts/characters/wolongfengchu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/wolongfengchu/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/wolongfengchu/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "wolongfengchu--475wolongfengchu--1dead01",
+      "resourceId": "475wolongfengchu/1dead01",
+      "text": "铁链，东风，也难困这魏军。",
+      "textLocalized": {
+        "zhHans": "铁链，东风，也难困这魏军。",
+        "zhHant": "鐵鏈，東風，也難困這魏軍。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/475wolongfengchu-2bd8f8a1/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wolongfengchu--475wolongfengchu--2dead01",
+      "resourceId": "475wolongfengchu/2dead01",
+      "text": "天意难违，卧龙凤雏兼得又如何……",
+      "textLocalized": {
+        "zhHans": "天意难违，卧龙凤雏兼得又如何……",
+        "zhHant": "天意難違，臥龍鳳雛兼得又如何……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47501",
+          "name": "赤壁链火",
+          "displayName": {
+            "zhHans": "赤壁链火",
+            "zhHant": "赤壁鏈火"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/475wolongfengchu-2bd8f8a1/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wolongfengchu--475wolongfengchu--3dead01",
+      "resourceId": "475wolongfengchu/3dead01",
+      "text": "白簇没凤躯，龙陨五丈原。",
+      "textLocalized": {
+        "zhHans": "白簇没凤躯，龙陨五丈原。",
+        "zhHant": "白簇沒鳳軀，龍隕五丈原。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47502",
+          "name": "青羽锦绣",
+          "displayName": {
+            "zhHans": "青羽锦绣",
+            "zhHant": "青羽錦繡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/475wolongfengchu-2bd8f8a1/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "wolongfengchu--475wolongfengchu--3dead02",
+      "resourceId": "475wolongfengchu/3dead02",
+      "text": "白簇没凤躯，龙陨五丈原。",
+      "textLocalized": {
+        "zhHans": "白簇没凤躯，龙陨五丈原。",
+        "zhHant": "白簇沒鳳軀，龍隕五丈原。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47502",
+          "name": "青羽锦绣",
+          "displayName": {
+            "zhHans": "青羽锦绣",
+            "zhHant": "青羽錦繡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/475wolongfengchu-2bd8f8a1/3dead02-903ae009.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/475wolongfengchu/3dead02.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

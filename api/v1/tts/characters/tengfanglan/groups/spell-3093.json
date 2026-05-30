@@ -1,3 +1,415 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e435c996cab9c9cf27dad70c9089253060e222445af932f007ddaebd2555261b
-size 12043
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tengfanglan",
+    "command": "tengfanglan",
+    "name": "滕芳兰",
+    "displayName": {
+      "zhHans": "滕芳兰",
+      "zhHant": "滕芳蘭"
+    },
+    "names": [
+      "滕芳兰"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "滕芳兰",
+        "zhHant": "滕芳蘭"
+      }
+    ],
+    "ids": [
+      "500"
+    ],
+    "sourceNames": [
+      "滕芳兰"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "滕芳兰",
+        "zhHant": "滕芳蘭"
+      }
+    ],
+    "sourceIds": [
+      "500"
+    ],
+    "searchNames": [
+      "tengfanglan",
+      "滕芳兰",
+      "滕芳蘭"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/tengfanglan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tengfanglan/groups/spell-3093.json"
+      },
+      {
+        "slug": "spell-3094",
+        "name": "哀尘",
+        "displayName": {
+          "zhHans": "哀尘",
+          "zhHant": "哀塵"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/tengfanglan/groups/spell-3094.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-50003",
+        "name": "拈花靛情",
+        "displayName": {
+          "zhHans": "拈花靛情",
+          "zhHant": "拈花靛情"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50003.json"
+      },
+      {
+        "slug": "skin-50002",
+        "name": "百鸟闻弦",
+        "displayName": {
+          "zhHans": "百鸟闻弦",
+          "zhHant": "百鳥聞弦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50002.json"
+      },
+      {
+        "slug": "skin-50001",
+        "name": "脂车香姝",
+        "displayName": {
+          "zhHans": "脂车香姝",
+          "zhHant": "脂車香姝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/tengfanglan/skins/skin-50001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tengfanglan.json",
+      "groups": "api/v1/tts/characters/tengfanglan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tengfanglan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3093",
+    "name": "落宠",
+    "displayName": {
+      "zhHans": "落宠",
+      "zhHant": "落寵"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/tengfanglan/groups/spell-3093.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "tengfanglan--500tengfanglan--1skill1_1",
+      "resourceId": "500tengfanglan/1skill1_1",
+      "text": "宠至莫言非，恩移难恃貌。",
+      "textLocalized": {
+        "zhHans": "宠至莫言非，恩移难恃貌。",
+        "zhHant": "寵至莫言非，恩移難恃貌。"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--1skill1_2",
+      "resourceId": "500tengfanglan/1skill1_2",
+      "text": "君王一时情，安有恩长久。",
+      "textLocalized": {
+        "zhHans": "君王一时情，安有恩长久。",
+        "zhHant": "君王一時情，安有恩長久。"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--4skill1_1",
+      "resourceId": "500tengfanglan/4skill1_1",
+      "text": "君既不喜于我，为何筑金笼囚我于此？",
+      "textLocalized": {
+        "zhHans": "君既不喜于我，为何筑金笼囚我于此？",
+        "zhHant": "君既不喜於我，爲何築金籠囚我於此？"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50003",
+          "name": "拈花靛情",
+          "displayName": {
+            "zhHans": "拈花靛情",
+            "zhHant": "拈花靛情"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--4skill1_2",
+      "resourceId": "500tengfanglan/4skill1_2",
+      "text": "深宫幽寒，此间梧桐，金玉其外、败絮其中。",
+      "textLocalized": {
+        "zhHans": "深宫幽寒，此间梧桐，金玉其外、败絮其中。",
+        "zhHant": "深宮幽寒，此間梧桐，金玉其外、敗絮其中。"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50003",
+          "name": "拈花靛情",
+          "displayName": {
+            "zhHans": "拈花靛情",
+            "zhHant": "拈花靛情"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--3skill1_1",
+      "resourceId": "500tengfanglan/3skill1_1",
+      "text": "潇潇梧叶落，瑟瑟秋风寒。",
+      "textLocalized": {
+        "zhHans": "潇潇梧叶落，瑟瑟秋风寒。",
+        "zhHant": "瀟瀟梧葉落，瑟瑟秋風寒。"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50002",
+          "name": "百鸟闻弦",
+          "displayName": {
+            "zhHans": "百鸟闻弦",
+            "zhHant": "百鳥聞弦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--3skill1_2",
+      "resourceId": "500tengfanglan/3skill1_2",
+      "text": "退宠辞金屋，孤身悲玉阶。",
+      "textLocalized": {
+        "zhHans": "退宠辞金屋，孤身悲玉阶。",
+        "zhHant": "退寵辭金屋，孤身悲玉階。"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50002",
+          "name": "百鸟闻弦",
+          "displayName": {
+            "zhHans": "百鸟闻弦",
+            "zhHant": "百鳥聞弦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--2skill1_1",
+      "resourceId": "500tengfanglan/2skill1_1",
+      "text": "琴筝夜久殷勤弄，心怯空房不忍归。",
+      "textLocalized": {
+        "zhHans": "琴筝夜久殷勤弄，心怯空房不忍归。",
+        "zhHant": "琴箏夜久殷勤弄，心怯空房不忍歸。"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50001",
+          "name": "脂车香姝",
+          "displayName": {
+            "zhHans": "脂车香姝",
+            "zhHant": "脂車香姝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "tengfanglan--500tengfanglan--2skill1_2",
+      "resourceId": "500tengfanglan/2skill1_2",
+      "text": "西宫夜静百花香，欲卷珠帘春恨长。",
+      "textLocalized": {
+        "zhHans": "西宫夜静百花香，欲卷珠帘春恨长。",
+        "zhHant": "西宮夜靜百花香，欲卷珠簾春恨長。"
+      },
+      "group": {
+        "slug": "spell-3093",
+        "name": "落宠",
+        "displayName": {
+          "zhHans": "落宠",
+          "zhHant": "落寵"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-50001",
+          "name": "脂车香姝",
+          "displayName": {
+            "zhHans": "脂车香姝",
+            "zhHant": "脂車香姝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/500tengfanglan-ba65d106/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/500tengfanglan/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

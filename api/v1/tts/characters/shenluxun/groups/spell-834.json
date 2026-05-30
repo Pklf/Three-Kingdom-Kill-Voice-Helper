@@ -1,3 +1,345 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a9a445a3ad34029dbba3433c0d6d03be81643e1e2d2fe836b1b59523b1f2c05f
-size 9590
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenluxun",
+    "command": "shenluxun",
+    "name": "神陆逊",
+    "displayName": {
+      "zhHans": "神陆逊",
+      "zhHant": "神陸遜"
+    },
+    "names": [
+      "神陆逊"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神陆逊",
+        "zhHant": "神陸遜"
+      }
+    ],
+    "ids": [
+      "221"
+    ],
+    "sourceNames": [
+      "神陆逊"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神陆逊",
+        "zhHant": "神陸遜"
+      }
+    ],
+    "sourceIds": [
+      "221"
+    ],
+    "searchNames": [
+      "shenluxun",
+      "神陆逊",
+      "神陸遜"
+    ],
+    "lineCount": 21,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shenluxun/groups/dead.json"
+      },
+      {
+        "slug": "spell-834",
+        "name": "军略",
+        "displayName": {
+          "zhHans": "军略",
+          "zhHant": "軍略"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenluxun/groups/spell-834.json"
+      },
+      {
+        "slug": "spell-835",
+        "name": "摧克",
+        "displayName": {
+          "zhHans": "摧克",
+          "zhHant": "摧克"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenluxun/groups/spell-835.json"
+      },
+      {
+        "slug": "spell-836",
+        "name": "绽火",
+        "displayName": {
+          "zhHans": "绽火",
+          "zhHant": "綻火"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/shenluxun/groups/spell-836.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenluxun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-22101",
+        "name": "夷陵破蜀",
+        "displayName": {
+          "zhHans": "夷陵破蜀",
+          "zhHant": "夷陵破蜀"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenluxun/skins/skin-22101.json"
+      },
+      {
+        "slug": "skin-22102",
+        "name": "绽火烽威",
+        "displayName": {
+          "zhHans": "绽火烽威",
+          "zhHant": "綻火烽威"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/shenluxun/skins/skin-22102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenluxun.json",
+      "groups": "api/v1/tts/characters/shenluxun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenluxun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-834",
+    "name": "军略",
+    "displayName": {
+      "zhHans": "军略",
+      "zhHant": "軍略"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/shenluxun/groups/spell-834.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "shenluxun--221shenluxun--1skill1_1",
+      "resourceId": "221shenluxun/1skill1_1",
+      "text": "军略绵腹，制敌千里。",
+      "textLocalized": {
+        "zhHans": "军略绵腹，制敌千里。",
+        "zhHant": "軍略綿腹，制敵千里。"
+      },
+      "group": {
+        "slug": "spell-834",
+        "name": "军略",
+        "displayName": {
+          "zhHans": "军略",
+          "zhHant": "軍略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--1skill1_2",
+      "resourceId": "221shenluxun/1skill1_2",
+      "text": "文韬武略兼备，方可破敌如破竹。",
+      "textLocalized": {
+        "zhHans": "文韬武略兼备，方可破敌如破竹。",
+        "zhHant": "文韜武略兼備，方可破敵如破竹。"
+      },
+      "group": {
+        "slug": "spell-834",
+        "name": "军略",
+        "displayName": {
+          "zhHans": "军略",
+          "zhHant": "軍略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--3skill1_1",
+      "resourceId": "221shenluxun/3skill1_1",
+      "text": "诱敌而入，以待破敌之机。",
+      "textLocalized": {
+        "zhHans": "诱敌而入，以待破敌之机。",
+        "zhHant": "誘敵而入，以待破敵之機。"
+      },
+      "group": {
+        "slug": "spell-834",
+        "name": "军略",
+        "displayName": {
+          "zhHans": "军略",
+          "zhHant": "軍略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22101",
+          "name": "夷陵破蜀",
+          "displayName": {
+            "zhHans": "夷陵破蜀",
+            "zhHant": "夷陵破蜀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--3skill1_2",
+      "resourceId": "221shenluxun/3skill1_2",
+      "text": "统军之法，不唯以死相拼。",
+      "textLocalized": {
+        "zhHans": "统军之法，不唯以死相拼。",
+        "zhHant": "統軍之法，不唯以死相拼。"
+      },
+      "group": {
+        "slug": "spell-834",
+        "name": "军略",
+        "displayName": {
+          "zhHans": "军略",
+          "zhHant": "軍略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22101",
+          "name": "夷陵破蜀",
+          "displayName": {
+            "zhHans": "夷陵破蜀",
+            "zhHant": "夷陵破蜀"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--4skill1_1",
+      "resourceId": "221shenluxun/4skill1_1",
+      "text": "才略计谋，此为行军之法。",
+      "textLocalized": {
+        "zhHans": "才略计谋，此为行军之法。",
+        "zhHant": "才略計謀，此爲行軍之法。"
+      },
+      "group": {
+        "slug": "spell-834",
+        "name": "军略",
+        "displayName": {
+          "zhHans": "军略",
+          "zhHant": "軍略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22102",
+          "name": "绽火烽威",
+          "displayName": {
+            "zhHans": "绽火烽威",
+            "zhHant": "綻火烽威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenluxun--221shenluxun--4skill1_2",
+      "resourceId": "221shenluxun/4skill1_2",
+      "text": "军略不止，良策不息。",
+      "textLocalized": {
+        "zhHans": "军略不止，良策不息。",
+        "zhHant": "軍略不止，良策不息。"
+      },
+      "group": {
+        "slug": "spell-834",
+        "name": "军略",
+        "displayName": {
+          "zhHans": "军略",
+          "zhHant": "軍略"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22102",
+          "name": "绽火烽威",
+          "displayName": {
+            "zhHans": "绽火烽威",
+            "zhHant": "綻火烽威"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/221shenluxun-27fe0a61/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/221shenluxun/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

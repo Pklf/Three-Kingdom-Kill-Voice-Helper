@@ -1,3 +1,174 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:15302ebac88d13c9f463a32339e83d9a5c46525c7d3d9abd5f6347c6028a9667
-size 4423
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "fanchou",
+    "command": "fanchou",
+    "name": "樊稠",
+    "displayName": {
+      "zhHans": "樊稠",
+      "zhHant": "樊稠"
+    },
+    "names": [
+      "樊稠"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "樊稠",
+        "zhHant": "樊稠"
+      }
+    ],
+    "ids": [
+      "423"
+    ],
+    "sourceNames": [
+      "樊稠"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "樊稠",
+        "zhHant": "樊稠"
+      }
+    ],
+    "sourceIds": [
+      "423"
+    ],
+    "searchNames": [
+      "fanchou",
+      "樊稠"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/fanchou/groups/dead.json"
+      },
+      {
+        "slug": "spell-862",
+        "name": "兴乱",
+        "displayName": {
+          "zhHans": "兴乱",
+          "zhHant": "興亂"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/fanchou/groups/spell-862.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/fanchou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42301",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/fanchou/skins/skin-42301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/fanchou.json",
+      "groups": "api/v1/tts/characters/fanchou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/fanchou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/fanchou/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "fanchou--423fanchou--1dead01",
+      "resourceId": "423fanchou/1dead01",
+      "text": "唉，稚然疑心，甚重。",
+      "textLocalized": {
+        "zhHans": "唉，稚然疑心，甚重。",
+        "zhHant": "唉，稚然疑心，甚重。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "fanchou--423fanchou--3dead01",
+      "resourceId": "423fanchou/3dead01",
+      "text": "此生奔走四方，却落得如此收场。",
+      "textLocalized": {
+        "zhHans": "此生奔走四方，却落得如此收场。",
+        "zhHant": "此生奔走四方，卻落得如此收場。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42301",
+          "name": "文和乱武",
+          "displayName": {
+            "zhHans": "文和乱武",
+            "zhHant": "文和亂武"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/423fanchou-799cdbbc/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/423fanchou/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

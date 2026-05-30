@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4a8846dbabe461a9f5dd0c5016168787e77183e59974fa1ae6624ad06d5bb0d0
-size 4659
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yuantanyuanshang",
+    "command": "yuantanyuanshang",
+    "name": "袁谭袁尚",
+    "displayName": {
+      "zhHans": "袁谭袁尚",
+      "zhHant": "袁譚袁尚"
+    },
+    "names": [
+      "袁谭袁尚"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "袁谭袁尚",
+        "zhHant": "袁譚袁尚"
+      }
+    ],
+    "ids": [
+      "430"
+    ],
+    "sourceNames": [
+      "袁谭袁尚"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "袁谭袁尚",
+        "zhHant": "袁譚袁尚"
+      }
+    ],
+    "sourceIds": [
+      "430"
+    ],
+    "searchNames": [
+      "yuantanyuanshang",
+      "袁谭袁尚",
+      "袁譚袁尚"
+    ],
+    "lineCount": 6,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yuantanyuanshang/groups/dead.json"
+      },
+      {
+        "slug": "spell-904",
+        "name": "内伐",
+        "displayName": {
+          "zhHans": "内伐",
+          "zhHant": "內伐"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yuantanyuanshang/groups/spell-904.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yuantanyuanshang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43001",
+        "name": "常棣失华",
+        "displayName": {
+          "zhHans": "常棣失华",
+          "zhHant": "常棣失華"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/yuantanyuanshang/skins/skin-43001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yuantanyuanshang.json",
+      "groups": "api/v1/tts/characters/yuantanyuanshang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yuantanyuanshang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/yuantanyuanshang/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "yuantanyuanshang--430yuantanyuanshang--1dead01",
+      "resourceId": "430yuantanyuanshang/1dead01",
+      "text": "兄弟难齐心，该有此果。",
+      "textLocalized": {
+        "zhHans": "兄弟难齐心，该有此果。",
+        "zhHant": "兄弟難齊心，該有此果。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/430yuantanyuanshang-b3e0c1f6/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/430yuantanyuanshang/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yuantanyuanshang--430yuantanyuanshang--2dead01",
+      "resourceId": "430yuantanyuanshang/2dead01",
+      "text": "我没有你这样的兄弟。",
+      "textLocalized": {
+        "zhHans": "我没有你这样的兄弟。",
+        "zhHant": "我沒有你這樣的兄弟。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43001",
+          "name": "常棣失华",
+          "displayName": {
+            "zhHans": "常棣失华",
+            "zhHant": "常棣失華"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/430yuantanyuanshang-b3e0c1f6/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/430yuantanyuanshang/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

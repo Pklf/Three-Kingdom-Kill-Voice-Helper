@@ -1,3 +1,310 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:24f1e92a83230ff63a07413908f128d4e541a662dac6ece444b3a41ef7c621ab
-size 8269
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "lushi",
+    "command": "lushi",
+    "name": "卢氏",
+    "displayName": {
+      "zhHans": "卢氏",
+      "zhHant": "盧氏"
+    },
+    "names": [
+      "卢氏"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卢氏",
+        "zhHant": "盧氏"
+      }
+    ],
+    "ids": [
+      "539"
+    ],
+    "sourceNames": [
+      "卢氏"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卢氏",
+        "zhHant": "盧氏"
+      }
+    ],
+    "sourceIds": [
+      "539"
+    ],
+    "searchNames": [
+      "lushi",
+      "卢氏",
+      "盧氏"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/lushi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lushi/groups/spell-3230.json"
+      },
+      {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/lushi/groups/spell-3231.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-53903",
+        "name": "浣溪布泽",
+        "displayName": {
+          "zhHans": "浣溪布泽",
+          "zhHant": "浣溪布澤"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-53903.json"
+      },
+      {
+        "slug": "skin-53901",
+        "name": "蝶恋清幔",
+        "displayName": {
+          "zhHans": "蝶恋清幔",
+          "zhHant": "蝶戀清幔"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-53901.json"
+      },
+      {
+        "slug": "skin-53902",
+        "name": "金桂月华",
+        "displayName": {
+          "zhHans": "金桂月华",
+          "zhHant": "金桂月華"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/lushi/skins/skin-53902.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/lushi.json",
+      "groups": "api/v1/tts/characters/lushi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/lushi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/lushi/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "lushi--539lushi--1dead01",
+      "resourceId": "539lushi/1dead01",
+      "text": "人世寻大道，何其愚也。",
+      "textLocalized": {
+        "zhHans": "人世寻大道，何其愚也。",
+        "zhHant": "人世尋大道，何其愚也。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--1skill1_1",
+      "resourceId": "539lushi/1skill1_1",
+      "text": "心有灵犀，面如不老之椿[chūn]。",
+      "textLocalized": {
+        "zhHans": "心有灵犀，面如不老之椿[chūn]。",
+        "zhHant": "心有靈犀，面如不老之椿[chūn]。"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--1skill1_2",
+      "resourceId": "539lushi/1skill1_2",
+      "text": "驻颜有术，此间永得芳容。",
+      "textLocalized": {
+        "zhHans": "驻颜有术，此间永得芳容。",
+        "zhHant": "駐顏有術，此間永得芳容。"
+      },
+      "group": {
+        "slug": "spell-3230",
+        "name": "驻颜",
+        "displayName": {
+          "zhHans": "驻颜",
+          "zhHant": "駐顏"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--1skill2_1",
+      "resourceId": "539lushi/1skill2_1",
+      "text": "雷劫锻体，清瘴涤魂。",
+      "textLocalized": {
+        "zhHans": "雷劫锻体，清瘴涤魂。",
+        "zhHant": "雷劫鍛體，清瘴滌魂。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "lushi--539lushi--1skill2_2",
+      "resourceId": "539lushi/1skill2_2",
+      "text": "欲得长生，必受此劫。",
+      "textLocalized": {
+        "zhHans": "欲得长生，必受此劫。",
+        "zhHant": "欲得長生，必受此劫。"
+      },
+      "group": {
+        "slug": "spell-3231",
+        "name": "雷劫",
+        "displayName": {
+          "zhHans": "雷劫",
+          "zhHant": "雷劫"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/539lushi-f9dc6636/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/539lushi/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

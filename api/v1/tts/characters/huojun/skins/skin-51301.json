@@ -1,3 +1,299 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9bac1b3c1d9e6bfddbff853234d196b44d32c976cdc7545ad3f72014fd7bcadf
-size 8329
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huojun",
+    "command": "huojun",
+    "name": "霍峻",
+    "displayName": {
+      "zhHans": "霍峻",
+      "zhHant": "霍峻"
+    },
+    "names": [
+      "霍峻"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "霍峻",
+        "zhHant": "霍峻"
+      }
+    ],
+    "ids": [
+      "513"
+    ],
+    "sourceNames": [
+      "霍峻"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "霍峻",
+        "zhHant": "霍峻"
+      }
+    ],
+    "sourceIds": [
+      "513"
+    ],
+    "searchNames": [
+      "huojun",
+      "霍峻"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huojun/groups/dead.json"
+      },
+      {
+        "slug": "spell-3121",
+        "name": "穷守",
+        "displayName": {
+          "zhHans": "穷守",
+          "zhHant": "窮守"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/huojun/groups/spell-3121.json"
+      },
+      {
+        "slug": "spell-3122",
+        "name": "奋锐",
+        "displayName": {
+          "zhHans": "奋锐",
+          "zhHant": "奮銳"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/huojun/groups/spell-3122.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huojun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-51301",
+        "name": "狭路奋勇",
+        "displayName": {
+          "zhHans": "狭路奋勇",
+          "zhHant": "狹路奮勇"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huojun/skins/skin-51301.json"
+      },
+      {
+        "slug": "skin-51302",
+        "name": "登城鏖战",
+        "displayName": {
+          "zhHans": "登城鏖战",
+          "zhHant": "登城鏖戰"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huojun/skins/skin-51302.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huojun.json",
+      "groups": "api/v1/tts/characters/huojun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huojun/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-51301",
+    "name": "狭路奋勇",
+    "displayName": {
+      "zhHans": "狭路奋勇",
+      "zhHant": "狹路奮勇"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/huojun/skins/skin-51301.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "huojun--513huojun--2dead01",
+      "resourceId": "513huojun/2dead01",
+      "text": "穷敌莫追，古人诚不欺我。",
+      "textLocalized": {
+        "zhHans": "穷敌莫追，古人诚不欺我。",
+        "zhHant": "窮敵莫追，古人誠不欺我。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51301",
+          "name": "狭路奋勇",
+          "displayName": {
+            "zhHans": "狭路奋勇",
+            "zhHant": "狹路奮勇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huojun--513huojun--2skill1_1",
+      "resourceId": "513huojun/2skill1_1",
+      "text": "敌势汹汹，非坚贞不屈之士不可委此城。",
+      "textLocalized": {
+        "zhHans": "敌势汹汹，非坚贞不屈之士不可委此城。",
+        "zhHant": "敵勢洶洶，非堅貞不屈之士不可委此城。"
+      },
+      "group": {
+        "slug": "spell-3121",
+        "name": "穷守",
+        "displayName": {
+          "zhHans": "穷守",
+          "zhHant": "窮守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51301",
+          "name": "狭路奋勇",
+          "displayName": {
+            "zhHans": "狭路奋勇",
+            "zhHant": "狹路奮勇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huojun--513huojun--2skill1_2",
+      "resourceId": "513huojun/2skill1_2",
+      "text": "以寡敌众，非勇冠三军之将不可当此任。",
+      "textLocalized": {
+        "zhHans": "以寡敌众，非勇冠三军之将不可当此任。",
+        "zhHant": "以寡敵衆，非勇冠三軍之將不可當此任。"
+      },
+      "group": {
+        "slug": "spell-3121",
+        "name": "穷守",
+        "displayName": {
+          "zhHans": "穷守",
+          "zhHant": "窮守"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51301",
+          "name": "狭路奋勇",
+          "displayName": {
+            "zhHans": "狭路奋勇",
+            "zhHant": "狹路奮勇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huojun--513huojun--2skill2_1",
+      "resourceId": "513huojun/2skill2_1",
+      "text": "敌已懈怠，当选拔精锐，伺机出城而袭。",
+      "textLocalized": {
+        "zhHans": "敌已懈怠，当选拔精锐，伺机出城而袭。",
+        "zhHant": "敵已懈怠，當選拔精銳，伺機出城而襲。"
+      },
+      "group": {
+        "slug": "spell-3122",
+        "name": "奋锐",
+        "displayName": {
+          "zhHans": "奋锐",
+          "zhHant": "奮銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51301",
+          "name": "狭路奋勇",
+          "displayName": {
+            "zhHans": "狭路奋勇",
+            "zhHant": "狹路奮勇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huojun--513huojun--2skill2_2",
+      "resourceId": "513huojun/2skill2_2",
+      "text": "奋雄兵之锐，以破久劳之师。",
+      "textLocalized": {
+        "zhHans": "奋雄兵之锐，以破久劳之师。",
+        "zhHant": "奮雄兵之銳，以破久勞之師。"
+      },
+      "group": {
+        "slug": "spell-3122",
+        "name": "奋锐",
+        "displayName": {
+          "zhHans": "奋锐",
+          "zhHant": "奮銳"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-51301",
+          "name": "狭路奋勇",
+          "displayName": {
+            "zhHans": "狭路奋勇",
+            "zhHant": "狹路奮勇"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/513huojun-ccba3bfa/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/513huojun/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

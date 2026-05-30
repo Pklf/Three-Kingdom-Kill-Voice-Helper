@@ -1,3 +1,185 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7bea059fe30e6bc963b2e3a46da5eab09d9c8e3f7e9cf8f544b3030f94b5331a
-size 4819
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shenganning",
+    "command": "shenganning",
+    "name": "神甘宁",
+    "displayName": {
+      "zhHans": "神甘宁",
+      "zhHant": "神甘寧"
+    },
+    "names": [
+      "神甘宁"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "神甘宁",
+        "zhHant": "神甘寧"
+      }
+    ],
+    "ids": [
+      "224"
+    ],
+    "sourceNames": [
+      "神甘宁"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "神甘宁",
+        "zhHant": "神甘寧"
+      }
+    ],
+    "sourceIds": [
+      "224"
+    ],
+    "searchNames": [
+      "shenganning",
+      "神甘宁",
+      "神甘寧"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shenganning/groups/dead.json"
+      },
+      {
+        "slug": "spell-921",
+        "name": "魄袭",
+        "displayName": {
+          "zhHans": "魄袭",
+          "zhHant": "魄襲"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shenganning/groups/spell-921.json"
+      },
+      {
+        "slug": "spell-922",
+        "name": "劫营",
+        "displayName": {
+          "zhHans": "劫营",
+          "zhHant": "劫營"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/shenganning/groups/spell-922.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenganning/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-22401",
+        "name": "神威如芒",
+        "displayName": {
+          "zhHans": "神威如芒",
+          "zhHant": "神威如芒"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/shenganning/skins/skin-22401.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shenganning.json",
+      "groups": "api/v1/tts/characters/shenganning/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shenganning/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/shenganning/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "shenganning--224shenganning--1dead01",
+      "resourceId": "224shenganning/1dead01",
+      "text": "吾不能奉主，谁辅主之基业？",
+      "textLocalized": {
+        "zhHans": "吾不能奉主，谁辅主之基业？",
+        "zhHant": "吾不能奉主，誰輔主之基業？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/224shenganning-912e6fc9/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/224shenganning/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shenganning--224shenganning--2dead01",
+      "resourceId": "224shenganning/2dead01",
+      "text": "宁保江东，不负仲谋！",
+      "textLocalized": {
+        "zhHans": "宁保江东，不负仲谋！",
+        "zhHant": "寧保江東，不負仲謀！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-22401",
+          "name": "神威如芒",
+          "displayName": {
+            "zhHans": "神威如芒",
+            "zhHant": "神威如芒"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/224shenganning-912e6fc9/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/224shenganning/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

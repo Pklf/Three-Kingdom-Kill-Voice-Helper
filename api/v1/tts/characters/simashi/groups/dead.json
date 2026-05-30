@@ -1,3 +1,340 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:90bc5af37080d6f352f70ea360d9da66dfc176fdb6b6bf2272020a2a91578a0a
-size 9329
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simashi",
+    "command": "simashi",
+    "name": "司马师",
+    "displayName": {
+      "zhHans": "司马师",
+      "zhHant": "司馬師"
+    },
+    "names": [
+      "司马师"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马师",
+        "zhHant": "司馬師"
+      }
+    ],
+    "ids": [
+      "7002"
+    ],
+    "sourceNames": [
+      "司马师"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马师",
+        "zhHant": "司馬師"
+      }
+    ],
+    "sourceIds": [
+      "7002"
+    ],
+    "searchNames": [
+      "simashi",
+      "司马师",
+      "司馬師"
+    ],
+    "lineCount": 45,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simashi/groups/dead.json"
+      },
+      {
+        "slug": "spell-7004",
+        "name": "韬隐",
+        "displayName": {
+          "zhHans": "韬隐",
+          "zhHant": "韜隱"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7004.json"
+      },
+      {
+        "slug": "spell-7005",
+        "name": "夷灭",
+        "displayName": {
+          "zhHans": "夷灭",
+          "zhHant": "夷滅"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7005.json"
+      },
+      {
+        "slug": "spell-7006",
+        "name": "睿略",
+        "displayName": {
+          "zhHans": "睿略",
+          "zhHant": "睿略"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7006.json"
+      },
+      {
+        "slug": "spell-7007",
+        "name": "泰然",
+        "displayName": {
+          "zhHans": "泰然",
+          "zhHant": "泰然"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/simashi/groups/spell-7007.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700202",
+        "name": "桀骜睥睨",
+        "displayName": {
+          "zhHans": "桀骜睥睨",
+          "zhHant": "桀驁睥睨"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700202.json"
+      },
+      {
+        "slug": "skin-700201",
+        "name": "浩淼情缘",
+        "displayName": {
+          "zhHans": "浩淼情缘",
+          "zhHant": "浩淼情緣"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700201.json"
+      },
+      {
+        "slug": "skin-700205",
+        "name": "锐意无当",
+        "displayName": {
+          "zhHans": "锐意无当",
+          "zhHant": "銳意無當"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700205.json"
+      },
+      {
+        "slug": "skin-700203",
+        "name": "闲适悠趣",
+        "displayName": {
+          "zhHans": "闲适悠趣",
+          "zhHant": "閒適悠趣"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/simashi/skins/skin-700203.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simashi.json",
+      "groups": "api/v1/tts/characters/simashi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simashi/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/simashi/groups/dead.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "simashi--7002simashi--1dead01",
+      "resourceId": "7002simashi/1dead01",
+      "text": "子尚，这是为兄给你打下的江山……",
+      "textLocalized": {
+        "zhHans": "子尚，这是为兄给你打下的江山……",
+        "zhHant": "子尚，這是爲兄給你打下的江山……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--3dead01",
+      "resourceId": "7002simashi/3dead01",
+      "text": "心高命薄，天何薄我……",
+      "textLocalized": {
+        "zhHans": "心高命薄，天何薄我……",
+        "zhHant": "心高命薄，天何薄我……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700202",
+          "name": "桀骜睥睨",
+          "displayName": {
+            "zhHans": "桀骜睥睨",
+            "zhHant": "桀驁睥睨"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--2dead01",
+      "resourceId": "7002simashi/2dead01",
+      "text": "我当为晋主，奈何以魏臣身死……",
+      "textLocalized": {
+        "zhHans": "我当为晋主，奈何以魏臣身死……",
+        "zhHant": "我當爲晉主，奈何以魏臣身死……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700201",
+          "name": "浩淼情缘",
+          "displayName": {
+            "zhHans": "浩淼情缘",
+            "zhHant": "浩淼情緣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--5dead01",
+      "resourceId": "7002simashi/5dead01",
+      "text": "二弟，勿负父兄之厚望。",
+      "textLocalized": {
+        "zhHans": "二弟，勿负父兄之厚望。",
+        "zhHant": "二弟，勿負父兄之厚望。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700205",
+          "name": "锐意无当",
+          "displayName": {
+            "zhHans": "锐意无当",
+            "zhHant": "銳意無當"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simashi--7002simashi--4dead01",
+      "resourceId": "7002simashi/4dead01",
+      "text": "我，终究是输了。",
+      "textLocalized": {
+        "zhHans": "我，终究是输了。",
+        "zhHant": "我，終究是輸了。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700203",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7002simashi-a1ee3d85/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7002simashi/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

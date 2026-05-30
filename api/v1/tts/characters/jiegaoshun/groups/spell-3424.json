@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc22eec8b70d59635c217d7c6837d94e433651a4ff3c407e9afc94a825d0a0f7
-size 4485
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "jiegaoshun",
+    "command": "jiegaoshun",
+    "name": "界高顺",
+    "displayName": {
+      "zhHans": "界高顺",
+      "zhHant": "界高順"
+    },
+    "names": [
+      "界高顺"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "界高顺",
+        "zhHant": "界高順"
+      }
+    ],
+    "ids": [
+      "604"
+    ],
+    "sourceNames": [
+      "界高顺"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "界高顺",
+        "zhHant": "界高順"
+      }
+    ],
+    "sourceIds": [
+      "604"
+    ],
+    "searchNames": [
+      "jiegaoshun",
+      "界高顺",
+      "界高順"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/jiegaoshun/groups/dead.json"
+      },
+      {
+        "slug": "spell-3423",
+        "name": "陷阵",
+        "displayName": {
+          "zhHans": "陷阵",
+          "zhHant": "陷陣"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiegaoshun/groups/spell-3423.json"
+      },
+      {
+        "slug": "spell-3424",
+        "name": "禁酒",
+        "displayName": {
+          "zhHans": "禁酒",
+          "zhHant": "禁酒"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/jiegaoshun/groups/spell-3424.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/jiegaoshun/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiegaoshun.json",
+      "groups": "api/v1/tts/characters/jiegaoshun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiegaoshun/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3424",
+    "name": "禁酒",
+    "displayName": {
+      "zhHans": "禁酒",
+      "zhHant": "禁酒"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/jiegaoshun/groups/spell-3424.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "jiegaoshun--604jiegaoshun--1skill2_1",
+      "resourceId": "604jiegaoshun/1skill2_1",
+      "text": "耽此黄汤，岂不误事？",
+      "textLocalized": {
+        "zhHans": "耽此黄汤，岂不误事？",
+        "zhHant": "耽此黃湯，豈不誤事？"
+      },
+      "group": {
+        "slug": "spell-3424",
+        "name": "禁酒",
+        "displayName": {
+          "zhHans": "禁酒",
+          "zhHant": "禁酒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/604jiegaoshun-f7e839f8/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/604jiegaoshun/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiegaoshun--604jiegaoshun--1skill2_2",
+      "resourceId": "604jiegaoshun/1skill2_2",
+      "text": "陷阵营中，不可饮酒",
+      "textLocalized": {
+        "zhHans": "陷阵营中，不可饮酒",
+        "zhHant": "陷陣營中，不可飲酒"
+      },
+      "group": {
+        "slug": "spell-3424",
+        "name": "禁酒",
+        "displayName": {
+          "zhHans": "禁酒",
+          "zhHant": "禁酒"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/604jiegaoshun-f7e839f8/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/604jiegaoshun/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

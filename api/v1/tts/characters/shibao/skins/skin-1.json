@@ -1,3 +1,199 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7be5bb0b925f84e6e07f2216a40e60edffdfedb512c8f446bf80c740a0206f44
-size 5098
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "shibao",
+    "command": "shibao",
+    "name": "石苞",
+    "displayName": {
+      "zhHans": "石苞",
+      "zhHant": "石苞"
+    },
+    "names": [
+      "石苞"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "石苞",
+        "zhHant": "石苞"
+      }
+    ],
+    "ids": [
+      "7009"
+    ],
+    "sourceNames": [
+      "石苞"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "石苞",
+        "zhHant": "石苞"
+      }
+    ],
+    "sourceIds": [
+      "7009"
+    ],
+    "searchNames": [
+      "shibao",
+      "石苞"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/shibao/groups/dead.json"
+      },
+      {
+        "slug": "spell-7027",
+        "name": "擢升",
+        "displayName": {
+          "zhHans": "擢升",
+          "zhHant": "擢升"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/shibao/groups/spell-7027.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/shibao/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/shibao.json",
+      "groups": "api/v1/tts/characters/shibao/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/shibao/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/shibao/skins/skin-1.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "shibao--7009shibao--1dead01",
+      "resourceId": "7009shibao/1dead01",
+      "text": "寒门出身，难以擢[zhuó]升。",
+      "textLocalized": {
+        "zhHans": "寒门出身，难以擢[zhuó]升。",
+        "zhHant": "寒門出身，難以擢[zhuó]升。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7009shibao-f110819d/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7009shibao/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shibao--7009shibao--1skill1_1",
+      "resourceId": "7009shibao/1skill1_1",
+      "text": "才经世务，干用之绩。",
+      "textLocalized": {
+        "zhHans": "才经世务，干用之绩。",
+        "zhHant": "才經世務，幹用之績。"
+      },
+      "group": {
+        "slug": "spell-7027",
+        "name": "擢升",
+        "displayName": {
+          "zhHans": "擢升",
+          "zhHant": "擢升"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7009shibao-f110819d/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7009shibao/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "shibao--7009shibao--1skill1_2",
+      "resourceId": "7009shibao/1skill1_2",
+      "text": "器量之远，当至公辅。",
+      "textLocalized": {
+        "zhHans": "器量之远，当至公辅。",
+        "zhHant": "器量之遠，當至公輔。"
+      },
+      "group": {
+        "slug": "spell-7027",
+        "name": "擢升",
+        "displayName": {
+          "zhHans": "擢升",
+          "zhHant": "擢升"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7009shibao-f110819d/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7009shibao/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

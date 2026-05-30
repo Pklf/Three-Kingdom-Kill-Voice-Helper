@@ -1,3 +1,334 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65b5cc817db1219ca9d72ed14c7d88f6ab1997b59fd17dfb7c99afa21fcad050
-size 9309
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "dufuren",
+    "command": "dufuren",
+    "name": "杜夫人",
+    "displayName": {
+      "zhHans": "杜夫人",
+      "zhHant": "杜夫人"
+    },
+    "names": [
+      "杜夫人"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杜夫人",
+        "zhHant": "杜夫人"
+      }
+    ],
+    "ids": [
+      "554"
+    ],
+    "sourceNames": [
+      "杜夫人"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杜夫人",
+        "zhHant": "杜夫人"
+      }
+    ],
+    "sourceIds": [
+      "554"
+    ],
+    "searchNames": [
+      "dufuren",
+      "杜夫人"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/dufuren/groups/dead.json"
+      },
+      {
+        "slug": "spell-3276",
+        "name": "异色",
+        "displayName": {
+          "zhHans": "异色",
+          "zhHant": "異色"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dufuren/groups/spell-3276.json"
+      },
+      {
+        "slug": "spell-3277",
+        "name": "顺世",
+        "displayName": {
+          "zhHans": "顺世",
+          "zhHant": "順世"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/dufuren/groups/spell-3277.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dufuren/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-55401",
+        "name": "清茶盼君",
+        "displayName": {
+          "zhHans": "清茶盼君",
+          "zhHant": "清茶盼君"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dufuren/skins/skin-55401.json"
+      },
+      {
+        "slug": "skin-55402",
+        "name": "银黛妆梅",
+        "displayName": {
+          "zhHans": "银黛妆梅",
+          "zhHant": "銀黛妝梅"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/dufuren/skins/skin-55402.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/dufuren.json",
+      "groups": "api/v1/tts/characters/dufuren/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/dufuren/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3277",
+    "name": "顺世",
+    "displayName": {
+      "zhHans": "顺世",
+      "zhHant": "順世"
+    },
+    "lineCount": 6,
+    "endpoint": "api/v1/tts/characters/dufuren/groups/spell-3277.json"
+  },
+  "lineCount": 6,
+  "lines": [
+    {
+      "id": "dufuren--554dufuren--1skill1_1",
+      "resourceId": "554dufuren/1skill1_1",
+      "text": "顺应时运，得保安康。",
+      "textLocalized": {
+        "zhHans": "顺应时运，得保安康。",
+        "zhHant": "順應時運，得保安康。"
+      },
+      "group": {
+        "slug": "spell-3277",
+        "name": "顺世",
+        "displayName": {
+          "zhHans": "顺世",
+          "zhHant": "順世"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/554dufuren-77d693ce/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/554dufuren/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dufuren--554dufuren--1skill1_2",
+      "resourceId": "554dufuren/1skill1_2",
+      "text": "随遇而安，宠辱不惊。",
+      "textLocalized": {
+        "zhHans": "随遇而安，宠辱不惊。",
+        "zhHant": "隨遇而安，寵辱不驚。"
+      },
+      "group": {
+        "slug": "spell-3277",
+        "name": "顺世",
+        "displayName": {
+          "zhHans": "顺世",
+          "zhHant": "順世"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/554dufuren-77d693ce/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/554dufuren/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dufuren--554dufuren--2skill2_1",
+      "resourceId": "554dufuren/2skill2_1",
+      "text": "妾身顺世而为，命之所归。",
+      "textLocalized": {
+        "zhHans": "妾身顺世而为，命之所归。",
+        "zhHant": "妾身順世而爲，命之所歸。"
+      },
+      "group": {
+        "slug": "spell-3277",
+        "name": "顺世",
+        "displayName": {
+          "zhHans": "顺世",
+          "zhHant": "順世"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55401",
+          "name": "清茶盼君",
+          "displayName": {
+            "zhHans": "清茶盼君",
+            "zhHant": "清茶盼君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/554dufuren-77d693ce/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/554dufuren/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dufuren--554dufuren--2skill2_2",
+      "resourceId": "554dufuren/2skill2_2",
+      "text": "顺从其美，水到渠成。",
+      "textLocalized": {
+        "zhHans": "顺从其美，水到渠成。",
+        "zhHant": "順從其美，水到渠成。"
+      },
+      "group": {
+        "slug": "spell-3277",
+        "name": "顺世",
+        "displayName": {
+          "zhHans": "顺世",
+          "zhHant": "順世"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55401",
+          "name": "清茶盼君",
+          "displayName": {
+            "zhHans": "清茶盼君",
+            "zhHant": "清茶盼君"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/554dufuren-77d693ce/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/554dufuren/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dufuren--554dufuren--3skill2_1",
+      "resourceId": "554dufuren/3skill2_1",
+      "text": "秋收冬藏，春种夏长，此亘古之理，莫可悖。",
+      "textLocalized": {
+        "zhHans": "秋收冬藏，春种夏长，此亘古之理，莫可悖。",
+        "zhHant": "秋收冬藏，春種夏長，此亙古之理，莫可悖。"
+      },
+      "group": {
+        "slug": "spell-3277",
+        "name": "顺世",
+        "displayName": {
+          "zhHans": "顺世",
+          "zhHant": "順世"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55402",
+          "name": "银黛妆梅",
+          "displayName": {
+            "zhHans": "银黛妆梅",
+            "zhHant": "銀黛妝梅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/554dufuren-77d693ce/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/554dufuren/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "dufuren--554dufuren--3skill2_2",
+      "resourceId": "554dufuren/3skill2_2",
+      "text": "霜凌寒梅，腊雪成妆，天时可顺而不可逆。",
+      "textLocalized": {
+        "zhHans": "霜凌寒梅，腊雪成妆，天时可顺而不可逆。",
+        "zhHant": "霜凌寒梅，臘雪成妝，天時可順而不可逆。"
+      },
+      "group": {
+        "slug": "spell-3277",
+        "name": "顺世",
+        "displayName": {
+          "zhHans": "顺世",
+          "zhHant": "順世"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-55402",
+          "name": "银黛妆梅",
+          "displayName": {
+            "zhHans": "银黛妆梅",
+            "zhHant": "銀黛妝梅"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/554dufuren-77d693ce/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/554dufuren/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

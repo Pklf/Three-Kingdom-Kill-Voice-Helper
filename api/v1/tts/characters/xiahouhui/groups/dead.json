@@ -1,3 +1,284 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a599b79362d6928f15b2637d98eac53a7a6b5980f45f7115f4e7c3b4761a9391
-size 7757
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xiahouhui",
+    "command": "xiahouhui",
+    "name": "夏侯徽",
+    "displayName": {
+      "zhHans": "夏侯徽",
+      "zhHant": "夏侯徽"
+    },
+    "names": [
+      "夏侯徽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "夏侯徽",
+        "zhHant": "夏侯徽"
+      }
+    ],
+    "ids": [
+      "7001"
+    ],
+    "sourceNames": [
+      "夏侯徽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "夏侯徽",
+        "zhHant": "夏侯徽"
+      }
+    ],
+    "sourceIds": [
+      "7001"
+    ],
+    "searchNames": [
+      "xiahouhui",
+      "夏侯徽"
+    ],
+    "lineCount": 28,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/dead.json"
+      },
+      {
+        "slug": "spell-7001",
+        "name": "宝箧",
+        "displayName": {
+          "zhHans": "宝箧",
+          "zhHant": "寶篋"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7001.json"
+      },
+      {
+        "slug": "spell-7002",
+        "name": "宜室",
+        "displayName": {
+          "zhHans": "宜室",
+          "zhHant": "宜室"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7002.json"
+      },
+      {
+        "slug": "spell-7003",
+        "name": "识度",
+        "displayName": {
+          "zhHans": "识度",
+          "zhHant": "識度"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/xiahouhui/groups/spell-7003.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-700101",
+        "name": "浩淼情缘",
+        "displayName": {
+          "zhHans": "浩淼情缘",
+          "zhHant": "浩淼情緣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700101.json"
+      },
+      {
+        "slug": "skin-700103",
+        "name": "熠熠珠玉",
+        "displayName": {
+          "zhHans": "熠熠珠玉",
+          "zhHant": "熠熠珠玉"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700103.json"
+      },
+      {
+        "slug": "skin-700102",
+        "name": "闲适悠趣",
+        "displayName": {
+          "zhHans": "闲适悠趣",
+          "zhHant": "閒適悠趣"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouhui/skins/skin-700102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xiahouhui.json",
+      "groups": "api/v1/tts/characters/xiahouhui/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xiahouhui/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xiahouhui/groups/dead.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xiahouhui--7001xiahouhui--1dead01",
+      "resourceId": "7001xiahouhui/1dead01",
+      "text": "夫君……你怎么对我如此狠心……",
+      "textLocalized": {
+        "zhHans": "夫君……你怎么对我如此狠心……",
+        "zhHant": "夫君……你怎麼對我如此狠心……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--2dead01",
+      "resourceId": "7001xiahouhui/2dead01",
+      "text": "夫君猜忌，妾身心寒……",
+      "textLocalized": {
+        "zhHans": "夫君猜忌，妾身心寒……",
+        "zhHant": "夫君猜忌，妾身心寒……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700101",
+          "name": "浩淼情缘",
+          "displayName": {
+            "zhHans": "浩淼情缘",
+            "zhHant": "浩淼情緣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--4dead01",
+      "resourceId": "7001xiahouhui/4dead01",
+      "text": "夫要妇死，妇安敢不从。",
+      "textLocalized": {
+        "zhHans": "夫要妇死，妇安敢不从。",
+        "zhHant": "夫要婦死，婦安敢不從。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700103",
+          "name": "熠熠珠玉",
+          "displayName": {
+            "zhHans": "熠熠珠玉",
+            "zhHant": "熠熠珠玉"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouhui--7001xiahouhui--3dead01",
+      "resourceId": "7001xiahouhui/3dead01",
+      "text": "鸩[zhèn]毒一杯心意断……",
+      "textLocalized": {
+        "zhHans": "鸩[zhèn]毒一杯心意断……",
+        "zhHant": "鴆[zhèn]毒一杯心意斷……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-700102",
+          "name": "闲适悠趣",
+          "displayName": {
+            "zhHans": "闲适悠趣",
+            "zhHant": "閒適悠趣"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7001xiahouhui-ee696610/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7001xiahouhui/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

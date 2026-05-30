@@ -1,3 +1,627 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf0dd828db37ae4913d0cba72e49f651670c266bd597f6435a3703b2b6211edd
-size 17689
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liuxie",
+    "command": "liuxie",
+    "name": "刘协",
+    "displayName": {
+      "zhHans": "刘协",
+      "zhHant": "劉協"
+    },
+    "names": [
+      "刘协"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘协",
+        "zhHant": "劉協"
+      }
+    ],
+    "ids": [
+      "73"
+    ],
+    "sourceNames": [
+      "刘协"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘协",
+        "zhHant": "劉協"
+      }
+    ],
+    "sourceIds": [
+      "73"
+    ],
+    "searchNames": [
+      "liuxie",
+      "刘协",
+      "劉協"
+    ],
+    "lineCount": 30,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liuxie/groups/dead.json"
+      },
+      {
+        "slug": "spell-604",
+        "name": "天命",
+        "displayName": {
+          "zhHans": "天命",
+          "zhHant": "天命"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/liuxie/groups/spell-604.json"
+      },
+      {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        },
+        "lineCount": 12,
+        "endpoint": "api/v1/tts/characters/liuxie/groups/spell-605.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuxie/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-7308",
+        "name": "困龙欲出",
+        "displayName": {
+          "zhHans": "困龙欲出",
+          "zhHant": "困龍欲出"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuxie/skins/skin-7308.json"
+      },
+      {
+        "slug": "skin-7307",
+        "name": "天命所归",
+        "displayName": {
+          "zhHans": "天命所归",
+          "zhHant": "天命所歸"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuxie/skins/skin-7307.json"
+      },
+      {
+        "slug": "skin-7302",
+        "name": "末世天子",
+        "displayName": {
+          "zhHans": "末世天子",
+          "zhHant": "末世天子"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuxie/skins/skin-7302.json"
+      },
+      {
+        "slug": "skin-7302-7306",
+        "name": "末世天子,落困天子",
+        "displayName": {
+          "zhHans": "末世天子,落困天子",
+          "zhHant": "末世天子,落困天子"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuxie/skins/skin-7302-7306.json"
+      },
+      {
+        "slug": "skin-7303",
+        "name": "汉末龙裔",
+        "displayName": {
+          "zhHans": "汉末龙裔",
+          "zhHant": "漢末龍裔"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuxie/skins/skin-7303.json"
+      },
+      {
+        "slug": "skin-7306",
+        "name": "落困天子",
+        "displayName": {
+          "zhHans": "落困天子",
+          "zhHant": "落困天子"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuxie/skins/skin-7306.json"
+      },
+      {
+        "slug": "skin-7305",
+        "name": "身不由己",
+        "displayName": {
+          "zhHans": "身不由己",
+          "zhHant": "身不由己"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liuxie/skins/skin-7305.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liuxie.json",
+      "groups": "api/v1/tts/characters/liuxie/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liuxie/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-605",
+    "name": "密诏",
+    "displayName": {
+      "zhHans": "密诏",
+      "zhHant": "密詔"
+    },
+    "lineCount": 12,
+    "endpoint": "api/v1/tts/characters/liuxie/groups/spell-605.json"
+  },
+  "lineCount": 12,
+  "lines": [
+    {
+      "id": "liuxie--73liuxie--1skill2_1",
+      "resourceId": "73liuxie/1skill2_1",
+      "text": "爱卿世受皇恩，堪此重任。",
+      "textLocalized": {
+        "zhHans": "爱卿世受皇恩，堪此重任。",
+        "zhHant": "愛卿世受皇恩，堪此重任。"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--1skill2_2",
+      "resourceId": "73liuxie/1skill2_2",
+      "text": "此诏事关重大，切记小心行事。",
+      "textLocalized": {
+        "zhHans": "此诏事关重大，切记小心行事。",
+        "zhHant": "此詔事關重大，切記小心行事。"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--7skill2_1",
+      "resourceId": "73liuxie/7skill2_1",
+      "text": "成败在此，爱卿小心。",
+      "textLocalized": {
+        "zhHans": "成败在此，爱卿小心。",
+        "zhHant": "成敗在此，愛卿小心。"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7308",
+          "name": "困龙欲出",
+          "displayName": {
+            "zhHans": "困龙欲出",
+            "zhHant": "困龍欲出"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/7skill2-1-780aba2a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/7skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--7skill2_2",
+      "resourceId": "73liuxie/7skill2_2",
+      "text": "唯有将军能担此重任。",
+      "textLocalized": {
+        "zhHans": "唯有将军能担此重任。",
+        "zhHant": "唯有將軍能擔此重任。"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7308",
+          "name": "困龙欲出",
+          "displayName": {
+            "zhHans": "困龙欲出",
+            "zhHant": "困龍欲出"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/7skill2-2-de81ab1f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/7skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--6skill2_1",
+      "resourceId": "73liuxie/6skill2_1",
+      "text": "此诏，还望将军不负所托。",
+      "textLocalized": {
+        "zhHans": "此诏，还望将军不负所托。",
+        "zhHant": "此詔，還望將軍不負所托。"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7307",
+          "name": "天命所归",
+          "displayName": {
+            "zhHans": "天命所归",
+            "zhHant": "天命所歸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/6skill2-1-6a04f813.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/6skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--6skill2_2",
+      "resourceId": "73liuxie/6skill2_2",
+      "text": "大汉基业，烦请将军助力。",
+      "textLocalized": {
+        "zhHans": "大汉基业，烦请将军助力。",
+        "zhHant": "大漢基業，煩請將軍助力。"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7307",
+          "name": "天命所归",
+          "displayName": {
+            "zhHans": "天命所归",
+            "zhHant": "天命所歸"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/6skill2-2-01aa0fa0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/6skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--3skill2_1",
+      "resourceId": "73liuxie/3skill2_1",
+      "text": "汝等奉诏入宫，助朕铲除佞[nìng]臣！",
+      "textLocalized": {
+        "zhHans": "汝等奉诏入宫，助朕铲除佞[nìng]臣！",
+        "zhHant": "汝等奉詔入宮，助朕剷除佞[nìng]臣！"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7302",
+          "name": "末世天子",
+          "displayName": {
+            "zhHans": "末世天子",
+            "zhHant": "末世天子"
+          }
+        },
+        {
+          "slug": "skin-7306",
+          "name": "落困天子",
+          "displayName": {
+            "zhHans": "落困天子",
+            "zhHant": "落困天子"
+          }
+        },
+        {
+          "slug": "skin-7302-7306",
+          "name": "末世天子,落困天子",
+          "displayName": {
+            "zhHans": "末世天子,落困天子",
+            "zhHant": "末世天子,落困天子"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--3skill2_2",
+      "resourceId": "73liuxie/3skill2_2",
+      "text": "见诏如见朕！",
+      "textLocalized": {
+        "zhHans": "见诏如见朕！",
+        "zhHant": "見詔如見朕！"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7302",
+          "name": "末世天子",
+          "displayName": {
+            "zhHans": "末世天子",
+            "zhHant": "末世天子"
+          }
+        },
+        {
+          "slug": "skin-7306",
+          "name": "落困天子",
+          "displayName": {
+            "zhHans": "落困天子",
+            "zhHant": "落困天子"
+          }
+        },
+        {
+          "slug": "skin-7302-7306",
+          "name": "末世天子,落困天子",
+          "displayName": {
+            "zhHans": "末世天子,落困天子",
+            "zhHant": "末世天子,落困天子"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--4skill2_1",
+      "resourceId": "73liuxie/4skill2_1",
+      "text": "遵从此诏，乱臣定除！",
+      "textLocalized": {
+        "zhHans": "遵从此诏，乱臣定除！",
+        "zhHant": "遵從此詔，亂臣定除！"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7303",
+          "name": "汉末龙裔",
+          "displayName": {
+            "zhHans": "汉末龙裔",
+            "zhHant": "漢末龍裔"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--4skill2_2",
+      "resourceId": "73liuxie/4skill2_2",
+      "text": "孤，与将军共进退。",
+      "textLocalized": {
+        "zhHans": "孤，与将军共进退。",
+        "zhHant": "孤，與將軍共進退。"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7303",
+          "name": "汉末龙裔",
+          "displayName": {
+            "zhHans": "汉末龙裔",
+            "zhHant": "漢末龍裔"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--5skill2_1",
+      "resourceId": "73liuxie/5skill2_1",
+      "text": "若依此诏，可铲权臣。",
+      "textLocalized": {
+        "zhHans": "若依此诏，可铲权臣。",
+        "zhHant": "若依此詔，可鏟權臣。"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7305",
+          "name": "身不由己",
+          "displayName": {
+            "zhHans": "身不由己",
+            "zhHant": "身不由己"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liuxie--73liuxie--5skill2_2",
+      "resourceId": "73liuxie/5skill2_2",
+      "text": "曹贼，莫想挟天子以令诸侯！",
+      "textLocalized": {
+        "zhHans": "曹贼，莫想挟天子以令诸侯！",
+        "zhHant": "曹賊，莫想挾天子以令諸侯！"
+      },
+      "group": {
+        "slug": "spell-605",
+        "name": "密诏",
+        "displayName": {
+          "zhHans": "密诏",
+          "zhHant": "密詔"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-7305",
+          "name": "身不由己",
+          "displayName": {
+            "zhHans": "身不由己",
+            "zhHant": "身不由己"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/73liuxie-52f511b1/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/73liuxie/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

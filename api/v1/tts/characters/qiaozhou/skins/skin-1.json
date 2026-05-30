@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0edad246eebf486bc25e4460d69c2e87665ed2838f70192fa94b06f331848d30
-size 7823
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "qiaozhou",
+    "command": "qiaozhou",
+    "name": "谯周",
+    "displayName": {
+      "zhHans": "谯周",
+      "zhHant": "譙周"
+    },
+    "names": [
+      "谯周"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "谯周",
+        "zhHant": "譙周"
+      }
+    ],
+    "ids": [
+      "540"
+    ],
+    "sourceNames": [
+      "谯周"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "谯周",
+        "zhHant": "譙周"
+      }
+    ],
+    "sourceIds": [
+      "540"
+    ],
+    "searchNames": [
+      "qiaozhou",
+      "谯周",
+      "譙周"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/qiaozhou/groups/dead.json"
+      },
+      {
+        "slug": "spell-3232",
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qiaozhou/groups/spell-3232.json"
+      },
+      {
+        "slug": "spell-3233",
+        "name": "星卜",
+        "displayName": {
+          "zhHans": "星卜",
+          "zhHant": "星卜"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/qiaozhou/groups/spell-3233.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qiaozhou/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-54001",
+        "name": "寓星沉祚",
+        "displayName": {
+          "zhHans": "寓星沉祚",
+          "zhHant": "寓星沉祚"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/qiaozhou/skins/skin-54001.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/qiaozhou.json",
+      "groups": "api/v1/tts/characters/qiaozhou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/qiaozhou/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/qiaozhou/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "qiaozhou--540qiaozhou--1dead01",
+      "resourceId": "540qiaozhou/1dead01",
+      "text": "老夫死不足惜，|但求蜀地百姓无虞。",
+      "textLocalized": {
+        "zhHans": "老夫死不足惜，|但求蜀地百姓无虞。",
+        "zhHant": "老夫死不足惜，|但求蜀地百姓無虞。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--1skill1_1",
+      "resourceId": "540qiaozhou/1skill1_1",
+      "text": "天定人命，仅可一窥。",
+      "textLocalized": {
+        "zhHans": "天定人命，仅可一窥。",
+        "zhHant": "天定人命，僅可一窺。"
+      },
+      "group": {
+        "slug": "spell-3232",
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--1skill1_2",
+      "resourceId": "540qiaozhou/1skill1_2",
+      "text": "知命而行，尽诸人事。",
+      "textLocalized": {
+        "zhHans": "知命而行，尽诸人事。",
+        "zhHant": "知命而行，盡諸人事。"
+      },
+      "group": {
+        "slug": "spell-3232",
+        "name": "知命",
+        "displayName": {
+          "zhHans": "知命",
+          "zhHant": "知命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--1skill2_1",
+      "resourceId": "540qiaozhou/1skill2_1",
+      "text": "天现祥瑞，此乃大吉之兆。",
+      "textLocalized": {
+        "zhHans": "天现祥瑞，此乃大吉之兆。",
+        "zhHant": "天現祥瑞，此乃大吉之兆。"
+      },
+      "group": {
+        "slug": "spell-3233",
+        "name": "星卜",
+        "displayName": {
+          "zhHans": "星卜",
+          "zhHant": "星卜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "qiaozhou--540qiaozhou--1skill2_2",
+      "resourceId": "540qiaozhou/1skill2_2",
+      "text": "天象显异，北伐万不可期。",
+      "textLocalized": {
+        "zhHans": "天象显异，北伐万不可期。",
+        "zhHant": "天象顯異，北伐萬不可期。"
+      },
+      "group": {
+        "slug": "spell-3233",
+        "name": "星卜",
+        "displayName": {
+          "zhHans": "星卜",
+          "zhHant": "星卜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/540qiaozhou-8b89d637/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/540qiaozhou/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

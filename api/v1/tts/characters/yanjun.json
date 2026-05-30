@@ -1,3 +1,456 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b885c6418980f26aff5a9139b1debb5b22ebe05c97d85192ef8a6a47915fce3
-size 12690
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "yanjun",
+    "command": "yanjun",
+    "name": "严畯",
+    "displayName": {
+      "zhHans": "严畯",
+      "zhHant": "嚴畯"
+    },
+    "names": [
+      "严畯"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "严畯",
+        "zhHant": "嚴畯"
+      }
+    ],
+    "ids": [
+      "473"
+    ],
+    "sourceNames": [
+      "严畯"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "严畯",
+        "zhHant": "嚴畯"
+      }
+    ],
+    "sourceIds": [
+      "473"
+    ],
+    "searchNames": [
+      "yanjun",
+      "严畯",
+      "嚴畯"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yanjun/groups/dead.json"
+      },
+      {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanjun/groups/spell-963.json"
+      },
+      {
+        "slug": "spell-964",
+        "name": "逊贤",
+        "displayName": {
+          "zhHans": "逊贤",
+          "zhHant": "遜賢"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yanjun/groups/spell-964.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yanjun/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-47301",
+        "name": "观潮笔录",
+        "displayName": {
+          "zhHans": "观潮笔录",
+          "zhHant": "觀潮筆錄"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yanjun/skins/skin-47301.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yanjun.json",
+      "groups": "api/v1/tts/characters/yanjun/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yanjun/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 10,
+  "lines": [
+    {
+      "id": "yanjun--473yanjun--1dead01",
+      "resourceId": "473yanjun/1dead01",
+      "text": "著作……还……没完成……",
+      "textLocalized": {
+        "zhHans": "著作……还……没完成……",
+        "zhHant": "著作……還……沒完成……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--2dead01",
+      "resourceId": "473yanjun/2dead01",
+      "text": "观潮半生，糊涂一世。",
+      "textLocalized": {
+        "zhHans": "观潮半生，糊涂一世。",
+        "zhHant": "觀潮半生，糊塗一世。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47301",
+          "name": "观潮笔录",
+          "displayName": {
+            "zhHans": "观潮笔录",
+            "zhHant": "觀潮筆錄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--1skill1_1",
+      "resourceId": "473yanjun/1skill1_1",
+      "text": "朝夕之间，可知所进退。",
+      "textLocalized": {
+        "zhHans": "朝夕之间，可知所进退。",
+        "zhHant": "朝夕之間，可知所進退。"
+      },
+      "group": {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--1skill1_2",
+      "resourceId": "473yanjun/1skill1_2",
+      "text": "月盈，潮起晨暮也；月亏，潮起日半也。",
+      "textLocalized": {
+        "zhHans": "月盈，潮起晨暮也；月亏，潮起日半也。",
+        "zhHant": "月盈，潮起晨暮也；月虧，潮起日半也。"
+      },
+      "group": {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--2skill1_1",
+      "resourceId": "473yanjun/2skill1_1",
+      "text": "潮起潮落，盈亏自得。",
+      "textLocalized": {
+        "zhHans": "潮起潮落，盈亏自得。",
+        "zhHant": "潮起潮落，盈虧自得。"
+      },
+      "group": {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47301",
+          "name": "观潮笔录",
+          "displayName": {
+            "zhHans": "观潮笔录",
+            "zhHant": "觀潮筆錄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--2skill1_2",
+      "resourceId": "473yanjun/2skill1_2",
+      "text": "水文之象，起落可循。",
+      "textLocalized": {
+        "zhHans": "水文之象，起落可循。",
+        "zhHant": "水文之象，起落可循。"
+      },
+      "group": {
+        "slug": "spell-963",
+        "name": "观潮",
+        "displayName": {
+          "zhHans": "观潮",
+          "zhHant": "觀潮"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47301",
+          "name": "观潮笔录",
+          "displayName": {
+            "zhHans": "观潮笔录",
+            "zhHant": "觀潮筆錄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--1skill2_1",
+      "resourceId": "473yanjun/1skill2_1",
+      "text": "督军之才，子明强于我甚多。",
+      "textLocalized": {
+        "zhHans": "督军之才，子明强于我甚多。",
+        "zhHant": "督軍之才，子明強於我甚多。"
+      },
+      "group": {
+        "slug": "spell-964",
+        "name": "逊贤",
+        "displayName": {
+          "zhHans": "逊贤",
+          "zhHant": "遜賢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--1skill2_2",
+      "resourceId": "473yanjun/1skill2_2",
+      "text": "此间重任，公卿可担之。",
+      "textLocalized": {
+        "zhHans": "此间重任，公卿可担之。",
+        "zhHant": "此間重任，公卿可擔之。"
+      },
+      "group": {
+        "slug": "spell-964",
+        "name": "逊贤",
+        "displayName": {
+          "zhHans": "逊贤",
+          "zhHant": "遜賢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--2skill2_1",
+      "resourceId": "473yanjun/2skill2_1",
+      "text": "拒北防荆，唯仰将军。",
+      "textLocalized": {
+        "zhHans": "拒北防荆，唯仰将军。",
+        "zhHant": "拒北防荊，唯仰將軍。"
+      },
+      "group": {
+        "slug": "spell-964",
+        "name": "逊贤",
+        "displayName": {
+          "zhHans": "逊贤",
+          "zhHant": "遜賢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47301",
+          "name": "观潮笔录",
+          "displayName": {
+            "zhHans": "观潮笔录",
+            "zhHant": "觀潮筆錄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yanjun--473yanjun--2skill2_2",
+      "resourceId": "473yanjun/2skill2_2",
+      "text": "卿之才干，胜畯数倍。",
+      "textLocalized": {
+        "zhHans": "卿之才干，胜畯数倍。",
+        "zhHant": "卿之才幹，勝畯數倍。"
+      },
+      "group": {
+        "slug": "spell-964",
+        "name": "逊贤",
+        "displayName": {
+          "zhHans": "逊贤",
+          "zhHant": "遜賢"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-47301",
+          "name": "观潮笔录",
+          "displayName": {
+            "zhHans": "观潮笔录",
+            "zhHant": "觀潮筆錄"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/473yanjun-f9505ea6/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/473yanjun/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

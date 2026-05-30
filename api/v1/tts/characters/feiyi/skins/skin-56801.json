@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:86a359005b7d91c53b0a15d8010042bcc5db382a26682adb0169d958ebb3b479
-size 8164
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "feiyi",
+    "command": "feiyi",
+    "name": "费祎",
+    "displayName": {
+      "zhHans": "费祎",
+      "zhHant": "費禕"
+    },
+    "names": [
+      "费祎"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "费祎",
+        "zhHant": "費禕"
+      }
+    ],
+    "ids": [
+      "568"
+    ],
+    "sourceNames": [
+      "费祎"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "费祎",
+        "zhHant": "費禕"
+      }
+    ],
+    "sourceIds": [
+      "568"
+    ],
+    "searchNames": [
+      "feiyi",
+      "费祎",
+      "費禕"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/feiyi/groups/dead.json"
+      },
+      {
+        "slug": "spell-3328",
+        "name": "晏如",
+        "displayName": {
+          "zhHans": "晏如",
+          "zhHant": "晏如"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/feiyi/groups/spell-3328.json"
+      },
+      {
+        "slug": "spell-3329",
+        "name": "和衷",
+        "displayName": {
+          "zhHans": "和衷",
+          "zhHant": "和衷"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/feiyi/groups/spell-3329.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/feiyi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-56802",
+        "name": "指唤东风",
+        "displayName": {
+          "zhHans": "指唤东风",
+          "zhHant": "指喚東風"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/feiyi/skins/skin-56802.json"
+      },
+      {
+        "slug": "skin-56801",
+        "name": "趣弈思怡",
+        "displayName": {
+          "zhHans": "趣弈思怡",
+          "zhHant": "趣弈思怡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/feiyi/skins/skin-56801.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/feiyi.json",
+      "groups": "api/v1/tts/characters/feiyi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/feiyi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-56801",
+    "name": "趣弈思怡",
+    "displayName": {
+      "zhHans": "趣弈思怡",
+      "zhHant": "趣弈思怡"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/feiyi/skins/skin-56801.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "feiyi--568feiyi--2dead01",
+      "resourceId": "568feiyi/2dead01",
+      "text": "武侯已逝，伯约难为。",
+      "textLocalized": {
+        "zhHans": "武侯已逝，伯约难为。",
+        "zhHant": "武侯已逝，伯約難爲。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56801",
+          "name": "趣弈思怡",
+          "displayName": {
+            "zhHans": "趣弈思怡",
+            "zhHant": "趣弈思怡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/568feiyi-a1cc9f95/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/568feiyi/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "feiyi--568feiyi--2skill1_1",
+      "resourceId": "568feiyi/2skill1_1",
+      "text": "休养生息，待国富则兵强。",
+      "textLocalized": {
+        "zhHans": "休养生息，待国富则兵强。",
+        "zhHant": "休養生息，待國富則兵強。"
+      },
+      "group": {
+        "slug": "spell-3328",
+        "name": "晏如",
+        "displayName": {
+          "zhHans": "晏如",
+          "zhHant": "晏如"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56801",
+          "name": "趣弈思怡",
+          "displayName": {
+            "zhHans": "趣弈思怡",
+            "zhHant": "趣弈思怡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/568feiyi-a1cc9f95/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/568feiyi/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "feiyi--568feiyi--2skill1_2",
+      "resourceId": "568feiyi/2skill1_2",
+      "text": "天下息兵，当放马于南山。",
+      "textLocalized": {
+        "zhHans": "天下息兵，当放马于南山。",
+        "zhHant": "天下息兵，當放馬於南山。"
+      },
+      "group": {
+        "slug": "spell-3328",
+        "name": "晏如",
+        "displayName": {
+          "zhHans": "晏如",
+          "zhHant": "晏如"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56801",
+          "name": "趣弈思怡",
+          "displayName": {
+            "zhHans": "趣弈思怡",
+            "zhHant": "趣弈思怡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/568feiyi-a1cc9f95/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/568feiyi/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "feiyi--568feiyi--2skill2_1",
+      "resourceId": "568feiyi/2skill2_1",
+      "text": "以兵家之行怀仁者之心，此为和也。",
+      "textLocalized": {
+        "zhHans": "以兵家之行怀仁者之心，此为和也。",
+        "zhHant": "以兵家之行懷仁者之心，此爲和也。"
+      },
+      "group": {
+        "slug": "spell-3329",
+        "name": "和衷",
+        "displayName": {
+          "zhHans": "和衷",
+          "zhHant": "和衷"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56801",
+          "name": "趣弈思怡",
+          "displayName": {
+            "zhHans": "趣弈思怡",
+            "zhHant": "趣弈思怡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/568feiyi-a1cc9f95/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/568feiyi/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "feiyi--568feiyi--2skill2_2",
+      "resourceId": "568feiyi/2skill2_2",
+      "text": "久战而国兴者，古来未有之。",
+      "textLocalized": {
+        "zhHans": "久战而国兴者，古来未有之。",
+        "zhHant": "久戰而國興者，古來未有之。"
+      },
+      "group": {
+        "slug": "spell-3329",
+        "name": "和衷",
+        "displayName": {
+          "zhHans": "和衷",
+          "zhHant": "和衷"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-56801",
+          "name": "趣弈思怡",
+          "displayName": {
+            "zhHans": "趣弈思怡",
+            "zhHant": "趣弈思怡"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/568feiyi-a1cc9f95/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/568feiyi/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

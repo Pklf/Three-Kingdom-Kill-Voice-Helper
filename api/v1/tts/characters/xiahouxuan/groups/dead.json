@@ -1,3 +1,194 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:19bdf8d10e6831a02c78e9b892ac977916814a98f25400bf801b6fd1a6fdfa1f
-size 4977
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xiahouxuan",
+    "command": "xiahouxuan",
+    "name": "夏侯玄",
+    "displayName": {
+      "zhHans": "夏侯玄",
+      "zhHant": "夏侯玄"
+    },
+    "names": [
+      "夏侯玄"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "夏侯玄",
+        "zhHant": "夏侯玄"
+      }
+    ],
+    "ids": [
+      "519"
+    ],
+    "sourceNames": [
+      "夏侯玄"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "夏侯玄",
+        "zhHant": "夏侯玄"
+      }
+    ],
+    "sourceIds": [
+      "519"
+    ],
+    "searchNames": [
+      "xiahouxuan",
+      "夏侯玄"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xiahouxuan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3156",
+        "name": "宦浮",
+        "displayName": {
+          "zhHans": "宦浮",
+          "zhHant": "宦浮"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xiahouxuan/groups/spell-3156.json"
+      },
+      {
+        "slug": "spell-3157",
+        "name": "清议",
+        "displayName": {
+          "zhHans": "清议",
+          "zhHant": "清議"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xiahouxuan/groups/spell-3157.json"
+      },
+      {
+        "slug": "spell-3158",
+        "name": "迮阅",
+        "displayName": {
+          "zhHans": "迮阅",
+          "zhHant": "迮閱"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xiahouxuan/groups/spell-3158.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "51901",
+        "name": "51901",
+        "displayName": {
+          "zhHans": "51901",
+          "zhHant": "51901"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouxuan/skins/51901.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/xiahouxuan/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xiahouxuan.json",
+      "groups": "api/v1/tts/characters/xiahouxuan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xiahouxuan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/xiahouxuan/groups/dead.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "xiahouxuan--519xiahouxuan--2dead01",
+      "resourceId": "519xiahouxuan/2dead01",
+      "text": "吾岂苟存自客于寇虏乎？",
+      "textLocalized": {
+        "zhHans": "吾岂苟存自客于寇虏乎？",
+        "zhHant": "吾豈苟存自客於寇虜乎？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "51901",
+          "name": "51901",
+          "displayName": {
+            "zhHans": "51901",
+            "zhHant": "51901"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/519xiahouxuan-9ab9e5be/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/519xiahouxuan/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xiahouxuan--519xiahouxuan--1dead01",
+      "resourceId": "519xiahouxuan/1dead01",
+      "text": "玉山倾颓心无尘……",
+      "textLocalized": {
+        "zhHans": "玉山倾颓心无尘……",
+        "zhHant": "玉山傾頹心無塵……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/519xiahouxuan-9ab9e5be/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/519xiahouxuan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

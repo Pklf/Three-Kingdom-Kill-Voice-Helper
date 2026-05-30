@@ -1,3 +1,290 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c04ef24e315539652ba77e14fd0b3a2c599b6cf9e066ca388d699ddd8264f5ad
-size 7786
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "simazhou",
+    "command": "simazhou",
+    "name": "司马伷",
+    "displayName": {
+      "zhHans": "司马伷",
+      "zhHant": "司馬伷"
+    },
+    "names": [
+      "司马伷"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "司马伷",
+        "zhHant": "司馬伷"
+      }
+    ],
+    "ids": [
+      "7011"
+    ],
+    "sourceNames": [
+      "司马伷"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "司马伷",
+        "zhHant": "司馬伷"
+      }
+    ],
+    "sourceIds": [
+      "7011"
+    ],
+    "searchNames": [
+      "simazhou",
+      "司马伷",
+      "司馬伷"
+    ],
+    "lineCount": 10,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/simazhou/groups/dead.json"
+      },
+      {
+        "slug": "spell-7030",
+        "name": "才望",
+        "displayName": {
+          "zhHans": "才望",
+          "zhHant": "才望"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/simazhou/groups/spell-7030.json"
+      },
+      {
+        "slug": "spell-7031",
+        "name": "纳降",
+        "displayName": {
+          "zhHans": "纳降",
+          "zhHant": "納降"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/simazhou/groups/spell-7031.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "701102",
+        "name": "701102",
+        "displayName": {
+          "zhHans": "701102",
+          "zhHant": "701102"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simazhou/skins/701102.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/simazhou/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/simazhou.json",
+      "groups": "api/v1/tts/characters/simazhou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/simazhou/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/simazhou/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "simazhou--7011simazhou--1dead01",
+      "resourceId": "7011simazhou/1dead01",
+      "text": "恩赐重物，病身难消受。",
+      "textLocalized": {
+        "zhHans": "恩赐重物，病身难消受。",
+        "zhHant": "恩賜重物，病身難消受。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--1skill1_1",
+      "resourceId": "7011simazhou/1skill1_1",
+      "text": "才气不俗，声望四海。",
+      "textLocalized": {
+        "zhHans": "才气不俗，声望四海。",
+        "zhHant": "才氣不俗，聲望四海。"
+      },
+      "group": {
+        "slug": "spell-7030",
+        "name": "才望",
+        "displayName": {
+          "zhHans": "才望",
+          "zhHant": "才望"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--1skill1_2",
+      "resourceId": "7011simazhou/1skill1_2",
+      "text": "绥[suí]怀之策，监守邺城。",
+      "textLocalized": {
+        "zhHans": "绥[suí]怀之策，监守邺城。",
+        "zhHant": "綏[suí]懷之策，監守鄴城。"
+      },
+      "group": {
+        "slug": "spell-7030",
+        "name": "才望",
+        "displayName": {
+          "zhHans": "才望",
+          "zhHant": "才望"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--1skill2_1",
+      "resourceId": "7011simazhou/1skill2_1",
+      "text": "奉命伐吴，得胜纳降。",
+      "textLocalized": {
+        "zhHans": "奉命伐吴，得胜纳降。",
+        "zhHant": "奉命伐吳，得勝納降。"
+      },
+      "group": {
+        "slug": "spell-7031",
+        "name": "纳降",
+        "displayName": {
+          "zhHans": "纳降",
+          "zhHant": "納降"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "simazhou--7011simazhou--1skill2_2",
+      "resourceId": "7011simazhou/1skill2_2",
+      "text": "进军逼江，震慑吴贼。",
+      "textLocalized": {
+        "zhHans": "进军逼江，震慑吴贼。",
+        "zhHant": "進軍逼江，震懾吳賊。"
+      },
+      "group": {
+        "slug": "spell-7031",
+        "name": "纳降",
+        "displayName": {
+          "zhHans": "纳降",
+          "zhHant": "納降"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/7011simazhou-31705619/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/7011simazhou/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

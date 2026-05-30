@@ -1,3 +1,467 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a78d4bd51aef8226eb20dd99eb58e91907d73f90c7f2e39fbd437240e7b0d7fd
-size 13134
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "kanze",
+    "command": "kanze",
+    "name": "阚泽",
+    "displayName": {
+      "zhHans": "阚泽",
+      "zhHant": "闞澤"
+    },
+    "names": [
+      "阚泽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "ids": [
+      "371"
+    ],
+    "sourceNames": [
+      "阚泽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "sourceIds": [
+      "371"
+    ],
+    "searchNames": [
+      "kanze",
+      "阚泽",
+      "闞澤"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/kanze/groups/dead.json"
+      },
+      {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-361.json"
+      },
+      {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-362.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37101",
+        "name": "宽释请命",
+        "displayName": {
+          "zhHans": "宽释请命",
+          "zhHant": "寬釋請命"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101.json"
+      },
+      {
+        "slug": "skin-37101-37105",
+        "name": "宽释请命,观叶知微",
+        "displayName": {
+          "zhHans": "宽释请命,观叶知微",
+          "zhHant": "寬釋請命,觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101-37105.json"
+      },
+      {
+        "slug": "skin-37104",
+        "name": "密献降书",
+        "displayName": {
+          "zhHans": "密献降书",
+          "zhHant": "密獻降書"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37104.json"
+      },
+      {
+        "slug": "skin-37102",
+        "name": "昼耕夜诵",
+        "displayName": {
+          "zhHans": "昼耕夜诵",
+          "zhHant": "晝耕夜誦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37102.json"
+      },
+      {
+        "slug": "skin-37105",
+        "name": "观叶知微",
+        "displayName": {
+          "zhHans": "观叶知微",
+          "zhHant": "觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37105.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/kanze.json",
+      "groups": "api/v1/tts/characters/kanze/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/kanze/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-361",
+    "name": "下书",
+    "displayName": {
+      "zhHans": "下书",
+      "zhHant": "下書"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/kanze/groups/spell-361.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "kanze--371kanze--1skill1_1",
+      "resourceId": "371kanze/1skill1_1",
+      "text": "吾有密信，特来献于将军。",
+      "textLocalized": {
+        "zhHans": "吾有密信，特来献于将军。",
+        "zhHant": "吾有密信，特來獻於將軍。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--1skill1_2",
+      "resourceId": "371kanze/1skill1_2",
+      "text": "将军若不信，可亲自验看。",
+      "textLocalized": {
+        "zhHans": "将军若不信，可亲自验看。",
+        "zhHant": "將軍若不信，可親自驗看。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--3skill1_1",
+      "resourceId": "371kanze/3skill1_1",
+      "text": "良禽择木而栖，将军，应该懂得。",
+      "textLocalized": {
+        "zhHans": "良禽择木而栖，将军，应该懂得。",
+        "zhHant": "良禽擇木而棲，將軍，應該懂得。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37101",
+          "name": "宽释请命",
+          "displayName": {
+            "zhHans": "宽释请命",
+            "zhHant": "寬釋請命"
+          }
+        },
+        {
+          "slug": "skin-37105",
+          "name": "观叶知微",
+          "displayName": {
+            "zhHans": "观叶知微",
+            "zhHant": "觀葉知微"
+          }
+        },
+        {
+          "slug": "skin-37101-37105",
+          "name": "宽释请命,观叶知微",
+          "displayName": {
+            "zhHans": "宽释请命,观叶知微",
+            "zhHant": "寬釋請命,觀葉知微"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--3skill1_2",
+      "resourceId": "371kanze/3skill1_2",
+      "text": "事成之后，望将军不吝赏赐。",
+      "textLocalized": {
+        "zhHans": "事成之后，望将军不吝赏赐。",
+        "zhHant": "事成之後，望將軍不吝賞賜。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37101",
+          "name": "宽释请命",
+          "displayName": {
+            "zhHans": "宽释请命",
+            "zhHant": "寬釋請命"
+          }
+        },
+        {
+          "slug": "skin-37105",
+          "name": "观叶知微",
+          "displayName": {
+            "zhHans": "观叶知微",
+            "zhHant": "觀葉知微"
+          }
+        },
+        {
+          "slug": "skin-37101-37105",
+          "name": "宽释请命,观叶知微",
+          "displayName": {
+            "zhHans": "宽释请命,观叶知微",
+            "zhHant": "寬釋請命,觀葉知微"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--5skill1_1",
+      "resourceId": "371kanze/5skill1_1",
+      "text": "我的来意，已在书中言明。",
+      "textLocalized": {
+        "zhHans": "我的来意，已在书中言明。",
+        "zhHant": "我的來意，已在書中言明。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37104",
+          "name": "密献降书",
+          "displayName": {
+            "zhHans": "密献降书",
+            "zhHant": "密獻降書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--5skill1_2",
+      "resourceId": "371kanze/5skill1_2",
+      "text": "我等冒死来降，还有什么信不过的？",
+      "textLocalized": {
+        "zhHans": "我等冒死来降，还有什么信不过的？",
+        "zhHant": "我等冒死來降，還有什麼信不過的？"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37104",
+          "name": "密献降书",
+          "displayName": {
+            "zhHans": "密献降书",
+            "zhHant": "密獻降書"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--4skill1_1",
+      "resourceId": "371kanze/4skill1_1",
+      "text": "吾等诚心归降，天地可鉴。",
+      "textLocalized": {
+        "zhHans": "吾等诚心归降，天地可鉴。",
+        "zhHant": "吾等誠心歸降，天地可鑑。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37102",
+          "name": "昼耕夜诵",
+          "displayName": {
+            "zhHans": "昼耕夜诵",
+            "zhHant": "晝耕夜誦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--4skill1_2",
+      "resourceId": "371kanze/4skill1_2",
+      "text": "公与我里应外合，则大事可成。",
+      "textLocalized": {
+        "zhHans": "公与我里应外合，则大事可成。",
+        "zhHant": "公與我裏應外合，則大事可成。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37102",
+          "name": "昼耕夜诵",
+          "displayName": {
+            "zhHans": "昼耕夜诵",
+            "zhHant": "晝耕夜誦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

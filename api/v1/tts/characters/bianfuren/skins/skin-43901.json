@@ -1,3 +1,319 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2f7ba7832f3c16ce3af98c9d89e7aabc4992c75333f4480fd79453e6e8638f2b
-size 8820
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "bianfuren",
+    "command": "bianfuren",
+    "name": "卞夫人",
+    "displayName": {
+      "zhHans": "卞夫人",
+      "zhHant": "卞夫人"
+    },
+    "names": [
+      "卞夫人"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "卞夫人",
+        "zhHant": "卞夫人"
+      }
+    ],
+    "ids": [
+      "439"
+    ],
+    "sourceNames": [
+      "卞夫人"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "卞夫人",
+        "zhHant": "卞夫人"
+      }
+    ],
+    "sourceIds": [
+      "439"
+    ],
+    "searchNames": [
+      "bianfuren",
+      "卞夫人"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "3029-2153",
+        "name": "3029，2153",
+        "displayName": {
+          "zhHans": "3029，2153",
+          "zhHant": "3029，2153"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/bianfuren/groups/3029-2153.json"
+      },
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/bianfuren/groups/dead.json"
+      },
+      {
+        "slug": "spell-3028",
+        "name": "挽危",
+        "displayName": {
+          "zhHans": "挽危",
+          "zhHant": "挽危"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/bianfuren/groups/spell-3028.json"
+      },
+      {
+        "slug": "spell-3029-2153",
+        "name": "约俭",
+        "displayName": {
+          "zhHans": "约俭",
+          "zhHant": "約儉"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/bianfuren/groups/spell-3029-2153.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/bianfuren/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-43901",
+        "name": "玉露清辉",
+        "displayName": {
+          "zhHans": "玉露清辉",
+          "zhHant": "玉露清輝"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/bianfuren/skins/skin-43901.json"
+      },
+      {
+        "slug": "skin-43902",
+        "name": "紫绡雪颜",
+        "displayName": {
+          "zhHans": "紫绡雪颜",
+          "zhHant": "紫綃雪顏"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/bianfuren/skins/skin-43902.json"
+      },
+      {
+        "slug": "skin-43903",
+        "name": "银黛妆梅",
+        "displayName": {
+          "zhHans": "银黛妆梅",
+          "zhHant": "銀黛妝梅"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/bianfuren/skins/skin-43903.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/bianfuren.json",
+      "groups": "api/v1/tts/characters/bianfuren/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/bianfuren/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-43901",
+    "name": "玉露清辉",
+    "displayName": {
+      "zhHans": "玉露清辉",
+      "zhHant": "玉露清輝"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/bianfuren/skins/skin-43901.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "bianfuren--439bianfuren--2dead01",
+      "resourceId": "439bianfuren/2dead01",
+      "text": "胜不变容，败不失节。",
+      "textLocalized": {
+        "zhHans": "胜不变容，败不失节。",
+        "zhHant": "勝不變容，敗不失節。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43901",
+          "name": "玉露清辉",
+          "displayName": {
+            "zhHans": "玉露清辉",
+            "zhHant": "玉露清輝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/439bianfuren-e5cf64de/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "bianfuren--439bianfuren--2skill1_1",
+      "resourceId": "439bianfuren/2skill1_1",
+      "text": "挽危不暇，何化之兴！",
+      "textLocalized": {
+        "zhHans": "挽危不暇，何化之兴！",
+        "zhHant": "挽危不暇，何化之興！"
+      },
+      "group": {
+        "slug": "spell-3028",
+        "name": "挽危",
+        "displayName": {
+          "zhHans": "挽危",
+          "zhHant": "挽危"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43901",
+          "name": "玉露清辉",
+          "displayName": {
+            "zhHans": "玉露清辉",
+            "zhHant": "玉露清輝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/439bianfuren-e5cf64de/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "bianfuren--439bianfuren--2skill1_2",
+      "resourceId": "439bianfuren/2skill1_2",
+      "text": "国是日非，变法挽危。",
+      "textLocalized": {
+        "zhHans": "国是日非，变法挽危。",
+        "zhHant": "國是日非，變法挽危。"
+      },
+      "group": {
+        "slug": "spell-3028",
+        "name": "挽危",
+        "displayName": {
+          "zhHans": "挽危",
+          "zhHant": "挽危"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43901",
+          "name": "玉露清辉",
+          "displayName": {
+            "zhHans": "玉露清辉",
+            "zhHant": "玉露清輝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/439bianfuren-e5cf64de/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "bianfuren--439bianfuren--2skill2_1",
+      "resourceId": "439bianfuren/2skill2_1",
+      "text": "每事约俭，非礼不动。",
+      "textLocalized": {
+        "zhHans": "每事约俭，非礼不动。",
+        "zhHant": "每事約儉，非禮不動。"
+      },
+      "group": {
+        "slug": "spell-3029-2153",
+        "name": "约俭",
+        "displayName": {
+          "zhHans": "约俭",
+          "zhHant": "約儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43901",
+          "name": "玉露清辉",
+          "displayName": {
+            "zhHans": "玉露清辉",
+            "zhHant": "玉露清輝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/439bianfuren-e5cf64de/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "bianfuren--439bianfuren--2skill2_2",
+      "resourceId": "439bianfuren/2skill2_2",
+      "text": "罢散民役，务从约节。",
+      "textLocalized": {
+        "zhHans": "罢散民役，务从约节。",
+        "zhHant": "罷散民役，務從約節。"
+      },
+      "group": {
+        "slug": "spell-3029-2153",
+        "name": "约俭",
+        "displayName": {
+          "zhHans": "约俭",
+          "zhHant": "約儉"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-43901",
+          "name": "玉露清辉",
+          "displayName": {
+            "zhHans": "玉露清辉",
+            "zhHant": "玉露清輝"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/439bianfuren-e5cf64de/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/439bianfuren/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,604 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1aeb73e003132f421903137d502088d9c0b329d5f4fffd7b49feaa11790b0772
-size 17364
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "jiling",
+    "command": "jiling",
+    "name": "纪灵",
+    "displayName": {
+      "zhHans": "纪灵",
+      "zhHant": "紀靈"
+    },
+    "names": [
+      "纪灵"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "纪灵",
+        "zhHant": "紀靈"
+      }
+    ],
+    "ids": [
+      "2056"
+    ],
+    "sourceNames": [
+      "纪灵"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "纪灵",
+        "zhHant": "紀靈"
+      }
+    ],
+    "sourceIds": [
+      "2056"
+    ],
+    "searchNames": [
+      "jiling",
+      "纪灵",
+      "紀靈"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/jiling/groups/dead.json"
+      },
+      {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/jiling/groups/spell-2108.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-205604",
+        "name": "御马攻沛",
+        "displayName": {
+          "zhHans": "御马攻沛",
+          "zhHant": "御馬攻沛"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205604.json"
+      },
+      {
+        "slug": "skin-205605",
+        "name": "气吞山河",
+        "displayName": {
+          "zhHans": "气吞山河",
+          "zhHant": "氣吞山河"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205605.json"
+      },
+      {
+        "slug": "skin-205606",
+        "name": "瞠目结舌",
+        "displayName": {
+          "zhHans": "瞠目结舌",
+          "zhHant": "瞠目結舌"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205606.json"
+      },
+      {
+        "slug": "skin-205603",
+        "name": "纳忠效信",
+        "displayName": {
+          "zhHans": "纳忠效信",
+          "zhHant": "納忠效信"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205603.json"
+      },
+      {
+        "slug": "skin-205603-205606",
+        "name": "纳忠效信,瞠目结舌",
+        "displayName": {
+          "zhHans": "纳忠效信,瞠目结舌",
+          "zhHant": "納忠效信,瞠目結舌"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/jiling/skins/skin-205603-205606.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/jiling.json",
+      "groups": "api/v1/tts/characters/jiling/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/jiling/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 12,
+  "lines": [
+    {
+      "id": "jiling--2056jiling--1dead01",
+      "resourceId": "2056jiling/1dead01",
+      "text": "呃，将军为何咆哮不断……",
+      "textLocalized": {
+        "zhHans": "呃，将军为何咆哮不断……",
+        "zhHant": "呃，將軍爲何咆哮不斷……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--5dead01",
+      "resourceId": "2056jiling/5dead01",
+      "text": "这贼将武艺，竟能胜我三分。",
+      "textLocalized": {
+        "zhHans": "这贼将武艺，竟能胜我三分。",
+        "zhHant": "這賊將武藝，竟能勝我三分。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205604",
+          "name": "御马攻沛",
+          "displayName": {
+            "zhHans": "御马攻沛",
+            "zhHant": "御馬攻沛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--4dead01",
+      "resourceId": "2056jiling/4dead01",
+      "text": "穷寇兵强势猛，伏义实在不敌呀……",
+      "textLocalized": {
+        "zhHans": "穷寇兵强势猛，伏义实在不敌呀……",
+        "zhHant": "窮寇兵強勢猛，伏義實在不敵呀……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205605",
+          "name": "气吞山河",
+          "displayName": {
+            "zhHans": "气吞山河",
+            "zhHant": "氣吞山河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--3dead01",
+      "resourceId": "2056jiling/3dead01",
+      "text": "大意轻敌，今恐难逃一死……",
+      "textLocalized": {
+        "zhHans": "大意轻敌，今恐难逃一死……",
+        "zhHant": "大意輕敵，今恐難逃一死……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205606",
+          "name": "瞠目结舌",
+          "displayName": {
+            "zhHans": "瞠目结舌",
+            "zhHant": "瞠目結舌"
+          }
+        },
+        {
+          "slug": "skin-205603",
+          "name": "纳忠效信",
+          "displayName": {
+            "zhHans": "纳忠效信",
+            "zhHant": "納忠效信"
+          }
+        },
+        {
+          "slug": "skin-205603-205606",
+          "name": "纳忠效信,瞠目结舌",
+          "displayName": {
+            "zhHans": "纳忠效信,瞠目结舌",
+            "zhHant": "納忠效信,瞠目結舌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--1skill1_1",
+      "resourceId": "2056jiling/1skill1_1",
+      "text": "吃我一记三尖两刃刀！",
+      "textLocalized": {
+        "zhHans": "吃我一记三尖两刃刀！",
+        "zhHant": "喫我一記三尖兩刃刀！"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--1skill1_2",
+      "resourceId": "2056jiling/1skill1_2",
+      "text": "仲国大将纪灵在此！",
+      "textLocalized": {
+        "zhHans": "仲国大将纪灵在此！",
+        "zhHant": "仲國大將紀靈在此！"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--5skill1_1",
+      "resourceId": "2056jiling/5skill1_1",
+      "text": "尔也配称天下名将？徒有虚名！",
+      "textLocalized": {
+        "zhHans": "尔也配称天下名将？徒有虚名！",
+        "zhHant": "爾也配稱天下名將？徒有虛名！"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205604",
+          "name": "御马攻沛",
+          "displayName": {
+            "zhHans": "御马攻沛",
+            "zhHant": "御馬攻沛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--5skill1_2",
+      "resourceId": "2056jiling/5skill1_2",
+      "text": "不决个高下，愧对我家主公。",
+      "textLocalized": {
+        "zhHans": "不决个高下，愧对我家主公。",
+        "zhHant": "不決個高下，愧對我家主公。"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205604",
+          "name": "御马攻沛",
+          "displayName": {
+            "zhHans": "御马攻沛",
+            "zhHant": "御馬攻沛"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--4skill1_1",
+      "resourceId": "2056jiling/4skill1_1",
+      "text": "这淮阴城下，正是葬汝尸骨的好地界！",
+      "textLocalized": {
+        "zhHans": "这淮阴城下，正是葬汝尸骨的好地界！",
+        "zhHant": "這淮陰城下，正是葬汝屍骨的好地界！"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205605",
+          "name": "气吞山河",
+          "displayName": {
+            "zhHans": "气吞山河",
+            "zhHant": "氣吞山河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--4skill1_2",
+      "resourceId": "2056jiling/4skill1_2",
+      "text": "吾仲家大军已至，匹夫以何敌我？",
+      "textLocalized": {
+        "zhHans": "吾仲家大军已至，匹夫以何敌我？",
+        "zhHant": "吾仲家大軍已至，匹夫以何敵我？"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205605",
+          "name": "气吞山河",
+          "displayName": {
+            "zhHans": "气吞山河",
+            "zhHant": "氣吞山河"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--3skill1_1",
+      "resourceId": "2056jiling/3skill1_1",
+      "text": "长髯贼将，可敢再战一番？",
+      "textLocalized": {
+        "zhHans": "长髯贼将，可敢再战一番？",
+        "zhHant": "長髯賊將，可敢再戰一番？"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205606",
+          "name": "瞠目结舌",
+          "displayName": {
+            "zhHans": "瞠目结舌",
+            "zhHant": "瞠目結舌"
+          }
+        },
+        {
+          "slug": "skin-205603",
+          "name": "纳忠效信",
+          "displayName": {
+            "zhHans": "纳忠效信",
+            "zhHant": "納忠效信"
+          }
+        },
+        {
+          "slug": "skin-205603-205606",
+          "name": "纳忠效信,瞠目结舌",
+          "displayName": {
+            "zhHans": "纳忠效信,瞠目结舌",
+            "zhHant": "納忠效信,瞠目結舌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "jiling--2056jiling--3skill1_2",
+      "resourceId": "2056jiling/3skill1_2",
+      "text": "今不枭尔首，怎能回营？",
+      "textLocalized": {
+        "zhHans": "今不枭尔首，怎能回营？",
+        "zhHant": "今不梟爾首，怎能回營？"
+      },
+      "group": {
+        "slug": "spell-2108",
+        "name": "双刃",
+        "displayName": {
+          "zhHans": "双刃",
+          "zhHant": "雙刃"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-205606",
+          "name": "瞠目结舌",
+          "displayName": {
+            "zhHans": "瞠目结舌",
+            "zhHant": "瞠目結舌"
+          }
+        },
+        {
+          "slug": "skin-205603",
+          "name": "纳忠效信",
+          "displayName": {
+            "zhHans": "纳忠效信",
+            "zhHant": "納忠效信"
+          }
+        },
+        {
+          "slug": "skin-205603-205606",
+          "name": "纳忠效信,瞠目结舌",
+          "displayName": {
+            "zhHans": "纳忠效信,瞠目结舌",
+            "zhHant": "納忠效信,瞠目結舌"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/2056jiling-aeca8003/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/2056jiling/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,250 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0cbd4c9714b70396ff8b60844f6496fda0952cbbdd1d17312300921aa51eaf81
-size 6743
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "madai",
+    "command": "madai",
+    "name": "马岱",
+    "displayName": {
+      "zhHans": "马岱",
+      "zhHant": "馬岱"
+    },
+    "names": [
+      "马岱"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "马岱",
+        "zhHant": "馬岱"
+      }
+    ],
+    "ids": [
+      "167"
+    ],
+    "sourceNames": [
+      "马岱"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "马岱",
+        "zhHant": "馬岱"
+      }
+    ],
+    "sourceIds": [
+      "167"
+    ],
+    "searchNames": [
+      "madai",
+      "马岱",
+      "馬岱"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/madai/groups/dead.json"
+      },
+      {
+        "slug": "spell-474-428",
+        "name": "潜袭",
+        "displayName": {
+          "zhHans": "潜袭",
+          "zhHant": "潛襲"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/madai/groups/spell-474-428.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-16705",
+        "name": "一合而斩",
+        "displayName": {
+          "zhHans": "一合而斩",
+          "zhHant": "一合而斬"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16705.json"
+      },
+      {
+        "slug": "skin-16706",
+        "name": "临危受命",
+        "displayName": {
+          "zhHans": "临危受命",
+          "zhHant": "臨危受命"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16706.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-16701",
+        "name": "平北将军",
+        "displayName": {
+          "zhHans": "平北将军",
+          "zhHant": "平北將軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16701.json"
+      },
+      {
+        "slug": "skin-16704",
+        "name": "征西将军",
+        "displayName": {
+          "zhHans": "征西将军",
+          "zhHant": "徵西將軍"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16704.json"
+      },
+      {
+        "slug": "skin-16704-16706",
+        "name": "征西将军,临危受命",
+        "displayName": {
+          "zhHans": "征西将军,临危受命",
+          "zhHant": "徵西將軍,臨危受命"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/madai/skins/skin-16704-16706.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/madai.json",
+      "groups": "api/v1/tts/characters/madai/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/madai/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-16705",
+    "name": "一合而斩",
+    "displayName": {
+      "zhHans": "一合而斩",
+      "zhHant": "一合而斬"
+    },
+    "lineCount": 3,
+    "endpoint": "api/v1/tts/characters/madai/skins/skin-16705.json"
+  },
+  "lineCount": 3,
+  "lines": [
+    {
+      "id": "madai--167madai--5dead01",
+      "resourceId": "167madai/5dead01",
+      "text": "西凉铁骑，从此要落寞了吗……",
+      "textLocalized": {
+        "zhHans": "西凉铁骑，从此要落寞了吗……",
+        "zhHant": "西涼鐵騎，從此要落寞了嗎……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16705",
+          "name": "一合而斩",
+          "displayName": {
+            "zhHans": "一合而斩",
+            "zhHant": "一合而斬"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/167madai-9b8e52f6/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "madai--167madai--5skill2_1",
+      "resourceId": "167madai/5skill2_1",
+      "text": "擒贼先擒王，打蛇打七寸！",
+      "textLocalized": {
+        "zhHans": "擒贼先擒王，打蛇打七寸！",
+        "zhHant": "擒賊先擒王，打蛇打七寸！"
+      },
+      "group": {
+        "slug": "spell-474-428",
+        "name": "潜袭",
+        "displayName": {
+          "zhHans": "潜袭",
+          "zhHant": "潛襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16705",
+          "name": "一合而斩",
+          "displayName": {
+            "zhHans": "一合而斩",
+            "zhHant": "一合而斬"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/167madai-9b8e52f6/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "madai--167madai--5skill2_2",
+      "resourceId": "167madai/5skill2_2",
+      "text": "吾能斩魏延，亦能斩杀你！",
+      "textLocalized": {
+        "zhHans": "吾能斩魏延，亦能斩杀你！",
+        "zhHant": "吾能斬魏延，亦能斬殺你！"
+      },
+      "group": {
+        "slug": "spell-474-428",
+        "name": "潜袭",
+        "displayName": {
+          "zhHans": "潜袭",
+          "zhHant": "潛襲"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-16705",
+          "name": "一合而斩",
+          "displayName": {
+            "zhHans": "一合而斩",
+            "zhHant": "一合而斬"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/167madai-9b8e52f6/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/167madai/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

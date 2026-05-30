@@ -1,3 +1,330 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7739c5fdc03f2f035f8ed3e2f14f543c85be4069efebda1253309a446e280a4a
-size 9056
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "kanze",
+    "command": "kanze",
+    "name": "阚泽",
+    "displayName": {
+      "zhHans": "阚泽",
+      "zhHant": "闞澤"
+    },
+    "names": [
+      "阚泽"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "ids": [
+      "371"
+    ],
+    "sourceNames": [
+      "阚泽"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "阚泽",
+        "zhHant": "闞澤"
+      }
+    ],
+    "sourceIds": [
+      "371"
+    ],
+    "searchNames": [
+      "kanze",
+      "阚泽",
+      "闞澤"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/kanze/groups/dead.json"
+      },
+      {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-361.json"
+      },
+      {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/kanze/groups/spell-362.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-37101",
+        "name": "宽释请命",
+        "displayName": {
+          "zhHans": "宽释请命",
+          "zhHant": "寬釋請命"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101.json"
+      },
+      {
+        "slug": "skin-37101-37105",
+        "name": "宽释请命,观叶知微",
+        "displayName": {
+          "zhHans": "宽释请命,观叶知微",
+          "zhHant": "寬釋請命,觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37101-37105.json"
+      },
+      {
+        "slug": "skin-37104",
+        "name": "密献降书",
+        "displayName": {
+          "zhHans": "密献降书",
+          "zhHant": "密獻降書"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37104.json"
+      },
+      {
+        "slug": "skin-37102",
+        "name": "昼耕夜诵",
+        "displayName": {
+          "zhHans": "昼耕夜诵",
+          "zhHant": "晝耕夜誦"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37102.json"
+      },
+      {
+        "slug": "skin-37105",
+        "name": "观叶知微",
+        "displayName": {
+          "zhHans": "观叶知微",
+          "zhHant": "觀葉知微"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/kanze/skins/skin-37105.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/kanze.json",
+      "groups": "api/v1/tts/characters/kanze/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/kanze/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-37102",
+    "name": "昼耕夜诵",
+    "displayName": {
+      "zhHans": "昼耕夜诵",
+      "zhHant": "晝耕夜誦"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/kanze/skins/skin-37102.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "kanze--371kanze--4dead01",
+      "resourceId": "371kanze/4dead01",
+      "text": "唉，计谋败露，吾命休矣。",
+      "textLocalized": {
+        "zhHans": "唉，计谋败露，吾命休矣。",
+        "zhHant": "唉，計謀敗露，吾命休矣。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37102",
+          "name": "昼耕夜诵",
+          "displayName": {
+            "zhHans": "昼耕夜诵",
+            "zhHant": "晝耕夜誦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--4skill1_1",
+      "resourceId": "371kanze/4skill1_1",
+      "text": "吾等诚心归降，天地可鉴。",
+      "textLocalized": {
+        "zhHans": "吾等诚心归降，天地可鉴。",
+        "zhHant": "吾等誠心歸降，天地可鑑。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37102",
+          "name": "昼耕夜诵",
+          "displayName": {
+            "zhHans": "昼耕夜诵",
+            "zhHant": "晝耕夜誦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--4skill1_2",
+      "resourceId": "371kanze/4skill1_2",
+      "text": "公与我里应外合，则大事可成。",
+      "textLocalized": {
+        "zhHans": "公与我里应外合，则大事可成。",
+        "zhHant": "公與我裏應外合，則大事可成。"
+      },
+      "group": {
+        "slug": "spell-361",
+        "name": "下书",
+        "displayName": {
+          "zhHans": "下书",
+          "zhHant": "下書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37102",
+          "name": "昼耕夜诵",
+          "displayName": {
+            "zhHans": "昼耕夜诵",
+            "zhHant": "晝耕夜誦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--4skill2_1",
+      "resourceId": "371kanze/4skill2_1",
+      "text": "量罪定刑，需依礼法。",
+      "textLocalized": {
+        "zhHans": "量罪定刑，需依礼法。",
+        "zhHant": "量罪定刑，需依禮法。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37102",
+          "name": "昼耕夜诵",
+          "displayName": {
+            "zhHans": "昼耕夜诵",
+            "zhHant": "晝耕夜誦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "kanze--371kanze--4skill2_2",
+      "resourceId": "371kanze/4skill2_2",
+      "text": "圣明之世，不宜复有酷刑。",
+      "textLocalized": {
+        "zhHans": "圣明之世，不宜复有酷刑。",
+        "zhHant": "聖明之世，不宜復有酷刑。"
+      },
+      "group": {
+        "slug": "spell-362",
+        "name": "宽释",
+        "displayName": {
+          "zhHans": "宽释",
+          "zhHant": "寬釋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-37102",
+          "name": "昼耕夜诵",
+          "displayName": {
+            "zhHans": "昼耕夜诵",
+            "zhHant": "晝耕夜誦"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/371kanze-00dca288/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/371kanze/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,456 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:121890a2faba22f1c16cd4f5e2d378585ac61b69389485a173aafcd5907e4e97
-size 12596
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoang",
+    "command": "caoang",
+    "name": "曹昂",
+    "displayName": {
+      "zhHans": "曹昂",
+      "zhHant": "曹昂"
+    },
+    "names": [
+      "曹昂"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹昂",
+        "zhHant": "曹昂"
+      }
+    ],
+    "ids": [
+      "122"
+    ],
+    "sourceNames": [
+      "曹昂"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹昂",
+        "zhHant": "曹昂"
+      }
+    ],
+    "sourceIds": [
+      "122"
+    ],
+    "searchNames": [
+      "caoang",
+      "曹昂"
+    ],
+    "lineCount": 12,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoang/groups/dead.json"
+      },
+      {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/caoang/groups/spell-225.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "q",
+        "name": "Q版形象",
+        "displayName": {
+          "zhHans": "Q版形象",
+          "zhHant": "Q版形象"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoang/skins/q.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-12204",
+        "name": "取义成仁",
+        "displayName": {
+          "zhHans": "取义成仁",
+          "zhHant": "取義成仁"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoang/skins/skin-12204.json"
+      },
+      {
+        "slug": "skin-12202",
+        "name": "悍不畏死",
+        "displayName": {
+          "zhHans": "悍不畏死",
+          "zhHant": "悍不畏死"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoang/skins/skin-12202.json"
+      },
+      {
+        "slug": "skin-12208",
+        "name": "护父对敌",
+        "displayName": {
+          "zhHans": "护父对敌",
+          "zhHant": "護父對敵"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoang/skins/skin-12208.json"
+      },
+      {
+        "slug": "skin-12206",
+        "name": "醉玉颓山",
+        "displayName": {
+          "zhHans": "醉玉颓山",
+          "zhHant": "醉玉頹山"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/caoang/skins/skin-12206.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoang.json",
+      "groups": "api/v1/tts/characters/caoang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoang/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-225",
+    "name": "慷忾",
+    "displayName": {
+      "zhHans": "慷忾",
+      "zhHant": "慷愾"
+    },
+    "lineCount": 8,
+    "endpoint": "api/v1/tts/characters/caoang/groups/spell-225.json"
+  },
+  "lineCount": 8,
+  "lines": [
+    {
+      "id": "caoang--122caoang--4skill1_1",
+      "resourceId": "122caoang/4skill1_1",
+      "text": "尔等叛贼，来一个，我杀一个！",
+      "textLocalized": {
+        "zhHans": "尔等叛贼，来一个，我杀一个！",
+        "zhHant": "爾等叛賊，來一個，我殺一個！"
+      },
+      "group": {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-12204",
+          "name": "取义成仁",
+          "displayName": {
+            "zhHans": "取义成仁",
+            "zhHant": "取義成仁"
+          }
+        },
+        {
+          "slug": "skin-12208",
+          "name": "护父对敌",
+          "displayName": {
+            "zhHans": "护父对敌",
+            "zhHant": "護父對敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--4skill1_2",
+      "resourceId": "122caoang/4skill1_2",
+      "text": "父亲上马，孩儿随后便来。",
+      "textLocalized": {
+        "zhHans": "父亲上马，孩儿随后便来。",
+        "zhHant": "父親上馬，孩兒隨後便來。"
+      },
+      "group": {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "q",
+          "name": "Q版形象",
+          "displayName": {
+            "zhHans": "Q版形象",
+            "zhHant": "Q版形象"
+          }
+        },
+        {
+          "slug": "skin-12204",
+          "name": "取义成仁",
+          "displayName": {
+            "zhHans": "取义成仁",
+            "zhHant": "取義成仁"
+          }
+        },
+        {
+          "slug": "skin-12208",
+          "name": "护父对敌",
+          "displayName": {
+            "zhHans": "护父对敌",
+            "zhHant": "護父對敵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--1skill1_1",
+      "resourceId": "122caoang/1skill1_1",
+      "text": "典将军，比比看谁杀敌更多！",
+      "textLocalized": {
+        "zhHans": "典将军，比比看谁杀敌更多！",
+        "zhHant": "典將軍，比比看誰殺敵更多！"
+      },
+      "group": {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--1skill1_2",
+      "resourceId": "122caoang/1skill1_2",
+      "text": "父亲快走，有我殿后！",
+      "textLocalized": {
+        "zhHans": "父亲快走，有我殿后！",
+        "zhHant": "父親快走，有我殿後！"
+      },
+      "group": {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--3skill1_1",
+      "resourceId": "122caoang/3skill1_1",
+      "text": "典将军，这次可杀得痛快？",
+      "textLocalized": {
+        "zhHans": "典将军，这次可杀得痛快？",
+        "zhHant": "典將軍，這次可殺得痛快？"
+      },
+      "group": {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12202",
+          "name": "悍不畏死",
+          "displayName": {
+            "zhHans": "悍不畏死",
+            "zhHant": "悍不畏死"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--3skill1_2",
+      "resourceId": "122caoang/3skill1_2",
+      "text": "典将军，小心身后！",
+      "textLocalized": {
+        "zhHans": "典将军，小心身后！",
+        "zhHant": "典將軍，小心身後！"
+      },
+      "group": {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12202",
+          "name": "悍不畏死",
+          "displayName": {
+            "zhHans": "悍不畏死",
+            "zhHant": "悍不畏死"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--5skill1_1",
+      "resourceId": "122caoang/5skill1_1",
+      "text": "典将军，比比看谁酒量更高？",
+      "textLocalized": {
+        "zhHans": "典将军，比比看谁酒量更高？",
+        "zhHant": "典將軍，比比看誰酒量更高？"
+      },
+      "group": {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12206",
+          "name": "醉玉颓山",
+          "displayName": {
+            "zhHans": "醉玉颓山",
+            "zhHant": "醉玉頹山"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoang--122caoang--5skill1_2",
+      "resourceId": "122caoang/5skill1_2",
+      "text": "痛快！将军也来喝一口？",
+      "textLocalized": {
+        "zhHans": "痛快！将军也来喝一口？",
+        "zhHant": "痛快！將軍也來喝一口？"
+      },
+      "group": {
+        "slug": "spell-225",
+        "name": "慷忾",
+        "displayName": {
+          "zhHans": "慷忾",
+          "zhHant": "慷愾"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12206",
+          "name": "醉玉颓山",
+          "displayName": {
+            "zhHans": "醉玉颓山",
+            "zhHant": "醉玉頹山"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/122caoang-820ce1ae/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/122caoang/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6a0edbce6338e04dfdec7f3e0ce1615ad00ce21f3d4d54dfff570661a6609d1c
-size 8273
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "liubian",
+    "command": "liubian",
+    "name": "刘辩",
+    "displayName": {
+      "zhHans": "刘辩",
+      "zhHant": "劉辯"
+    },
+    "names": [
+      "刘辩"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "刘辩",
+        "zhHant": "劉辯"
+      }
+    ],
+    "ids": [
+      "487"
+    ],
+    "sourceNames": [
+      "刘辩"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "刘辩",
+        "zhHant": "劉辯"
+      }
+    ],
+    "sourceIds": [
+      "487"
+    ],
+    "searchNames": [
+      "liubian",
+      "刘辩",
+      "劉辯"
+    ],
+    "lineCount": 13,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liubian/groups/dead.json"
+      },
+      {
+        "slug": "spell-3050",
+        "name": "诗怨",
+        "displayName": {
+          "zhHans": "诗怨",
+          "zhHant": "詩怨"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/liubian/groups/spell-3050.json"
+      },
+      {
+        "slug": "spell-3051",
+        "name": "毒逝",
+        "displayName": {
+          "zhHans": "毒逝",
+          "zhHant": "毒逝"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/liubian/groups/spell-3051.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/liubian/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-48701",
+        "name": "彼岸幽霜",
+        "displayName": {
+          "zhHans": "彼岸幽霜",
+          "zhHant": "彼岸幽霜"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubian/skins/skin-48701.json"
+      },
+      {
+        "slug": "skin-48702",
+        "name": "鹊乐织欣",
+        "displayName": {
+          "zhHans": "鹊乐织欣",
+          "zhHant": "鵲樂織欣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/liubian/skins/skin-48702.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/liubian.json",
+      "groups": "api/v1/tts/characters/liubian/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/liubian/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-48701",
+    "name": "彼岸幽霜",
+    "displayName": {
+      "zhHans": "彼岸幽霜",
+      "zhHant": "彼岸幽霜"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/liubian/skins/skin-48701.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "liubian--487liubian--2dead01",
+      "resourceId": "487liubian/2dead01",
+      "text": "九泉之下，何颜以对先帝？",
+      "textLocalized": {
+        "zhHans": "九泉之下，何颜以对先帝？",
+        "zhHant": "九泉之下，何顏以對先帝？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48701",
+          "name": "彼岸幽霜",
+          "displayName": {
+            "zhHans": "彼岸幽霜",
+            "zhHant": "彼岸幽霜"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/2dead01-b348e308.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/2dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubian--487liubian--2skill1_1",
+      "resourceId": "487liubian/2skill1_1",
+      "text": "忆昔东都年盛时，平生怨在帝王家。",
+      "textLocalized": {
+        "zhHans": "忆昔东都年盛时，平生怨在帝王家。",
+        "zhHant": "憶昔東都年盛時，平生怨在帝王家。"
+      },
+      "group": {
+        "slug": "spell-3050",
+        "name": "诗怨",
+        "displayName": {
+          "zhHans": "诗怨",
+          "zhHant": "詩怨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48701",
+          "name": "彼岸幽霜",
+          "displayName": {
+            "zhHans": "彼岸幽霜",
+            "zhHant": "彼岸幽霜"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/2skill1-1-48d9e020.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/2skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubian--487liubian--2skill1_2",
+      "resourceId": "487liubian/2skill1_2",
+      "text": "金殿饮鸩[zhèn]酒，含怨赋绝词。",
+      "textLocalized": {
+        "zhHans": "金殿饮鸩[zhèn]酒，含怨赋绝词。",
+        "zhHant": "金殿飲鴆[zhèn]酒，含怨賦絕詞。"
+      },
+      "group": {
+        "slug": "spell-3050",
+        "name": "诗怨",
+        "displayName": {
+          "zhHans": "诗怨",
+          "zhHant": "詩怨"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48701",
+          "name": "彼岸幽霜",
+          "displayName": {
+            "zhHans": "彼岸幽霜",
+            "zhHant": "彼岸幽霜"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/2skill1-2-7dea0fbb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/2skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubian--487liubian--2skill2_1",
+      "resourceId": "487liubian/2skill2_1",
+      "text": "逆臣见迫兮，痛饮鸩[zhèn]酒。",
+      "textLocalized": {
+        "zhHans": "逆臣见迫兮，痛饮鸩[zhèn]酒。",
+        "zhHant": "逆臣見迫兮，痛飲鴆[zhèn]酒。"
+      },
+      "group": {
+        "slug": "spell-3051",
+        "name": "毒逝",
+        "displayName": {
+          "zhHans": "毒逝",
+          "zhHant": "毒逝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48701",
+          "name": "彼岸幽霜",
+          "displayName": {
+            "zhHans": "彼岸幽霜",
+            "zhHant": "彼岸幽霜"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/2skill2-1-d01baaab.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/2skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "liubian--487liubian--2skill2_2",
+      "resourceId": "487liubian/2skill2_2",
+      "text": "药毒入髓兮，独赴泉台。",
+      "textLocalized": {
+        "zhHans": "药毒入髓兮，独赴泉台。",
+        "zhHant": "藥毒入髓兮，獨赴泉臺。"
+      },
+      "group": {
+        "slug": "spell-3051",
+        "name": "毒逝",
+        "displayName": {
+          "zhHans": "毒逝",
+          "zhHant": "毒逝"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-48701",
+          "name": "彼岸幽霜",
+          "displayName": {
+            "zhHans": "彼岸幽霜",
+            "zhHant": "彼岸幽霜"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/487liubian-e9575d28/2skill2-2-fa9f3be1.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/487liubian/2skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

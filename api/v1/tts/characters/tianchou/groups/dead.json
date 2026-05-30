@@ -1,3 +1,130 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ccd3700e25f57b9832b0d60a6c4ff0e7948d731b63586511ff4445f6489e1480
-size 3120
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "tianchou",
+    "command": "tianchou",
+    "name": "田畴",
+    "displayName": {
+      "zhHans": "田畴",
+      "zhHant": "田疇"
+    },
+    "names": [
+      "田畴"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "田畴",
+        "zhHant": "田疇"
+      }
+    ],
+    "ids": [
+      "592"
+    ],
+    "sourceNames": [
+      "田畴"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "田畴",
+        "zhHant": "田疇"
+      }
+    ],
+    "sourceIds": [
+      "592"
+    ],
+    "searchNames": [
+      "tianchou",
+      "田畴",
+      "田疇"
+    ],
+    "lineCount": 3,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/tianchou/groups/dead.json"
+      },
+      {
+        "slug": "spell-3401",
+        "name": "善刀",
+        "displayName": {
+          "zhHans": "善刀",
+          "zhHant": "善刀"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/tianchou/groups/spell-3401.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/tianchou/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/tianchou.json",
+      "groups": "api/v1/tts/characters/tianchou/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/tianchou/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/tianchou/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "tianchou--592tianchou--1dead01",
+      "resourceId": "592tianchou/1dead01",
+      "text": "吾罪大矣，何堪封侯之荣？",
+      "textLocalized": {
+        "zhHans": "吾罪大矣，何堪封侯之荣？",
+        "zhHant": "吾罪大矣，何堪封侯之榮？"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/592tianchou-a18d120c/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/592tianchou/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

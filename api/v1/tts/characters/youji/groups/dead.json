@@ -1,3 +1,130 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:72f288b213e174ae62c15f6cc2908f963740d57459b318f4e9620565db63a83b
-size 3072
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "youji",
+    "command": "youji",
+    "name": "酉鸡",
+    "displayName": {
+      "zhHans": "酉鸡",
+      "zhHant": "酉雞"
+    },
+    "names": [
+      "酉鸡"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "酉鸡",
+        "zhHant": "酉雞"
+      }
+    ],
+    "ids": [
+      "4092"
+    ],
+    "sourceNames": [
+      "酉鸡"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "酉鸡",
+        "zhHant": "酉雞"
+      }
+    ],
+    "sourceIds": [
+      "4092"
+    ],
+    "searchNames": [
+      "youji",
+      "酉鸡",
+      "酉雞"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/youji/groups/dead.json"
+      },
+      {
+        "slug": "spell-1210",
+        "name": "酉鸡",
+        "displayName": {
+          "zhHans": "酉鸡",
+          "zhHant": "酉雞"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/youji/groups/spell-1210.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/youji/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/youji.json",
+      "groups": "api/v1/tts/characters/youji/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/youji/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "dead",
+    "name": "阵亡",
+    "displayName": {
+      "zhHans": "阵亡",
+      "zhHant": "陣亡"
+    },
+    "lineCount": 1,
+    "endpoint": "api/v1/tts/characters/youji/groups/dead.json"
+  },
+  "lineCount": 1,
+  "lines": [
+    {
+      "id": "youji--4092youji--1dead01",
+      "resourceId": "4092youji/1dead01",
+      "text": "杀鸡取卵，不可取呀……",
+      "textLocalized": {
+        "zhHans": "杀鸡取卵，不可取呀……",
+        "zhHant": "殺雞取卵，不可取呀……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4092youji-1dbda0df/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4092youji/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

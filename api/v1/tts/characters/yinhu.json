@@ -1,3 +1,155 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c42048b4226f2a5ea68c865988b4f369a24b52d26cc3a713eda09bcd9aa36799
-size 3823
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "source": "Temp/web_ref.html",
+  "character": {
+    "slug": "yinhu",
+    "command": "yinhu",
+    "name": "寅虎",
+    "displayName": {
+      "zhHans": "寅虎",
+      "zhHant": "寅虎"
+    },
+    "names": [
+      "寅虎"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "寅虎",
+        "zhHant": "寅虎"
+      }
+    ],
+    "ids": [
+      "4085"
+    ],
+    "sourceNames": [
+      "寅虎"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "寅虎",
+        "zhHant": "寅虎"
+      }
+    ],
+    "sourceIds": [
+      "4085"
+    ],
+    "searchNames": [
+      "yinhu",
+      "寅虎"
+    ],
+    "lineCount": 2,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/yinhu/groups/dead.json"
+      },
+      {
+        "slug": "spell-1203",
+        "name": "寅虎",
+        "displayName": {
+          "zhHans": "寅虎",
+          "zhHant": "寅虎"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/yinhu/groups/spell-1203.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/yinhu/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yinhu.json",
+      "groups": "api/v1/tts/characters/yinhu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yinhu/skins/{skinSlug}.json"
+    }
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "yinhu--4085yinhu--1dead01",
+      "resourceId": "4085yinhu/1dead01",
+      "text": "百兽之王，也有终老。",
+      "textLocalized": {
+        "zhHans": "百兽之王，也有终老。",
+        "zhHant": "百獸之王，也有終老。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4085yinhu-90fb9893/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4085yinhu/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yinhu--4085yinhu--1skill1_1",
+      "resourceId": "4085yinhu/1skill1_1",
+      "text": "尝尝我的厉害吧",
+      "textLocalized": {
+        "zhHans": "尝尝我的厉害吧",
+        "zhHant": "嚐嚐我的厲害吧"
+      },
+      "group": {
+        "slug": "spell-1203",
+        "name": "寅虎",
+        "displayName": {
+          "zhHans": "寅虎",
+          "zhHant": "寅虎"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/4085yinhu-90fb9893/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/4085yinhu/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

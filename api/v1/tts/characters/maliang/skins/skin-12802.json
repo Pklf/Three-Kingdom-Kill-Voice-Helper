@@ -1,3 +1,420 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b3f3d4ea6f66a65b45b80a1cb868ff8fcd2871dbb32524d163a58ddd1f146bd3
-size 11641
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "maliang",
+    "command": "maliang",
+    "name": "马良",
+    "displayName": {
+      "zhHans": "马良",
+      "zhHant": "馬良"
+    },
+    "names": [
+      "马良"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "马良",
+        "zhHant": "馬良"
+      }
+    ],
+    "ids": [
+      "128"
+    ],
+    "sourceNames": [
+      "马良"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "马良",
+        "zhHant": "馬良"
+      }
+    ],
+    "sourceIds": [
+      "128"
+    ],
+    "searchNames": [
+      "maliang",
+      "马良",
+      "馬良"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/groups/dead.json"
+      },
+      {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/maliang/groups/spell-383.json"
+      },
+      {
+        "slug": "spell-384",
+        "name": "应援",
+        "displayName": {
+          "zhHans": "应援",
+          "zhHant": "應援"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/maliang/groups/spell-384.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-12804",
+        "name": "临渊细书",
+        "displayName": {
+          "zhHans": "临渊细书",
+          "zhHant": "臨淵細書"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12804.json"
+      },
+      {
+        "slug": "skin-12807",
+        "name": "千计卷来",
+        "displayName": {
+          "zhHans": "千计卷来",
+          "zhHant": "千計捲來"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12807.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-12802",
+        "name": "文经勤类",
+        "displayName": {
+          "zhHans": "文经勤类",
+          "zhHant": "文經勤類"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12802.json"
+      },
+      {
+        "slug": "skin-12802-12803",
+        "name": "文经勤类,笔酣墨饱",
+        "displayName": {
+          "zhHans": "文经勤类,笔酣墨饱",
+          "zhHant": "文經勤類,筆酣墨飽"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12802-12803.json"
+      },
+      {
+        "slug": "skin-12801",
+        "name": "白眉智士",
+        "displayName": {
+          "zhHans": "白眉智士",
+          "zhHant": "白眉智士"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12801.json"
+      },
+      {
+        "slug": "skin-12803",
+        "name": "笔酣墨饱",
+        "displayName": {
+          "zhHans": "笔酣墨饱",
+          "zhHant": "筆酣墨飽"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/maliang/skins/skin-12803.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/maliang.json",
+      "groups": "api/v1/tts/characters/maliang/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/maliang/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-12802",
+    "name": "文经勤类",
+    "displayName": {
+      "zhHans": "文经勤类",
+      "zhHant": "文經勤類"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/maliang/skins/skin-12802.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "maliang--128maliang--4dead01",
+      "resourceId": "128maliang/4dead01",
+      "text": "兴汉大业，谁来继续……",
+      "textLocalized": {
+        "zhHans": "兴汉大业，谁来继续……",
+        "zhHant": "興漢大業，誰來繼續……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12802",
+          "name": "文经勤类",
+          "displayName": {
+            "zhHans": "文经勤类",
+            "zhHant": "文經勤類"
+          }
+        },
+        {
+          "slug": "skin-12803",
+          "name": "笔酣墨饱",
+          "displayName": {
+            "zhHans": "笔酣墨饱",
+            "zhHant": "筆酣墨飽"
+          }
+        },
+        {
+          "slug": "skin-12802-12803",
+          "name": "文经勤类,笔酣墨饱",
+          "displayName": {
+            "zhHans": "文经勤类,笔酣墨饱",
+            "zhHant": "文經勤類,筆酣墨飽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--4skill1_1",
+      "resourceId": "128maliang/4skill1_1",
+      "text": "自己的才是最好的。",
+      "textLocalized": {
+        "zhHans": "自己的才是最好的。",
+        "zhHant": "自己的纔是最好的。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12802",
+          "name": "文经勤类",
+          "displayName": {
+            "zhHans": "文经勤类",
+            "zhHant": "文經勤類"
+          }
+        },
+        {
+          "slug": "skin-12803",
+          "name": "笔酣墨饱",
+          "displayName": {
+            "zhHans": "笔酣墨饱",
+            "zhHant": "筆酣墨飽"
+          }
+        },
+        {
+          "slug": "skin-12802-12803",
+          "name": "文经勤类,笔酣墨饱",
+          "displayName": {
+            "zhHans": "文经勤类,笔酣墨饱",
+            "zhHant": "文經勤類,筆酣墨飽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--4skill1_2",
+      "resourceId": "128maliang/4skill1_2",
+      "text": "此物于我已无用。",
+      "textLocalized": {
+        "zhHans": "此物于我已无用。",
+        "zhHant": "此物於我已無用。"
+      },
+      "group": {
+        "slug": "spell-383",
+        "name": "自书",
+        "displayName": {
+          "zhHans": "自书",
+          "zhHant": "自書"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12802",
+          "name": "文经勤类",
+          "displayName": {
+            "zhHans": "文经勤类",
+            "zhHant": "文經勤類"
+          }
+        },
+        {
+          "slug": "skin-12803",
+          "name": "笔酣墨饱",
+          "displayName": {
+            "zhHans": "笔酣墨饱",
+            "zhHant": "筆酣墨飽"
+          }
+        },
+        {
+          "slug": "skin-12802-12803",
+          "name": "文经勤类,笔酣墨饱",
+          "displayName": {
+            "zhHans": "文经勤类,笔酣墨饱",
+            "zhHant": "文經勤類,筆酣墨飽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--4skill2_1",
+      "resourceId": "128maliang/4skill2_1",
+      "text": "好东西要一起分享。",
+      "textLocalized": {
+        "zhHans": "好东西要一起分享。",
+        "zhHant": "好東西要一起分享。"
+      },
+      "group": {
+        "slug": "spell-384",
+        "name": "应援",
+        "displayName": {
+          "zhHans": "应援",
+          "zhHant": "應援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12802",
+          "name": "文经勤类",
+          "displayName": {
+            "zhHans": "文经勤类",
+            "zhHant": "文經勤類"
+          }
+        },
+        {
+          "slug": "skin-12803",
+          "name": "笔酣墨饱",
+          "displayName": {
+            "zhHans": "笔酣墨饱",
+            "zhHant": "筆酣墨飽"
+          }
+        },
+        {
+          "slug": "skin-12802-12803",
+          "name": "文经勤类,笔酣墨饱",
+          "displayName": {
+            "zhHans": "文经勤类,笔酣墨饱",
+            "zhHant": "文經勤類,筆酣墨飽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "maliang--128maliang--4skill2_2",
+      "resourceId": "128maliang/4skill2_2",
+      "text": "后方，交给我就可以了。",
+      "textLocalized": {
+        "zhHans": "后方，交给我就可以了。",
+        "zhHant": "後方，交給我就可以了。"
+      },
+      "group": {
+        "slug": "spell-384",
+        "name": "应援",
+        "displayName": {
+          "zhHans": "应援",
+          "zhHant": "應援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-12802",
+          "name": "文经勤类",
+          "displayName": {
+            "zhHans": "文经勤类",
+            "zhHant": "文經勤類"
+          }
+        },
+        {
+          "slug": "skin-12803",
+          "name": "笔酣墨饱",
+          "displayName": {
+            "zhHans": "笔酣墨饱",
+            "zhHant": "筆酣墨飽"
+          }
+        },
+        {
+          "slug": "skin-12802-12803",
+          "name": "文经勤类,笔酣墨饱",
+          "displayName": {
+            "zhHans": "文经勤类,笔酣墨饱",
+            "zhHant": "文經勤類,筆酣墨飽"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/128maliang-87efec33/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/128maliang/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

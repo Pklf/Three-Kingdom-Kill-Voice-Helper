@@ -1,3 +1,409 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0ffb89a3fbf1962cfdf1f78b0f43f14d3dadb21cd0bbf5a690ec9f8e20762d29
-size 11255
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "mizhu",
+    "command": "mizhu",
+    "name": "糜竺",
+    "displayName": {
+      "zhHans": "糜竺",
+      "zhHant": "糜竺"
+    },
+    "names": [
+      "糜竺"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "糜竺",
+        "zhHant": "糜竺"
+      }
+    ],
+    "ids": [
+      "365"
+    ],
+    "sourceNames": [
+      "糜竺"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "糜竺",
+        "zhHant": "糜竺"
+      }
+    ],
+    "sourceIds": [
+      "365"
+    ],
+    "searchNames": [
+      "mizhu",
+      "糜竺"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/mizhu/groups/dead.json"
+      },
+      {
+        "slug": "spell-291",
+        "name": "资援",
+        "displayName": {
+          "zhHans": "资援",
+          "zhHant": "資援"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/mizhu/groups/spell-291.json"
+      },
+      {
+        "slug": "spell-292",
+        "name": "巨贾",
+        "displayName": {
+          "zhHans": "巨贾",
+          "zhHant": "巨賈"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/mizhu/groups/spell-292.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-36505",
+        "name": "惬意巡猎",
+        "displayName": {
+          "zhHans": "惬意巡猎",
+          "zhHant": "愜意巡獵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36505.json"
+      },
+      {
+        "slug": "skin-36504",
+        "name": "设宴玄德",
+        "displayName": {
+          "zhHans": "设宴玄德",
+          "zhHant": "設宴玄德"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36504.json"
+      },
+      {
+        "slug": "skin-36502",
+        "name": "豪商巨贾",
+        "displayName": {
+          "zhHans": "豪商巨贾",
+          "zhHant": "豪商巨賈"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36502.json"
+      },
+      {
+        "slug": "skin-36502-36505",
+        "name": "豪商巨贾,惬意巡猎",
+        "displayName": {
+          "zhHans": "豪商巨贾,惬意巡猎",
+          "zhHant": "豪商巨賈,愜意巡獵"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36502-36505.json"
+      },
+      {
+        "slug": "skin-36506",
+        "name": "金奁玉宝",
+        "displayName": {
+          "zhHans": "金奁玉宝",
+          "zhHant": "金奩玉寶"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36506.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/mizhu.json",
+      "groups": "api/v1/tts/characters/mizhu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/mizhu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-36502",
+    "name": "豪商巨贾",
+    "displayName": {
+      "zhHans": "豪商巨贾",
+      "zhHant": "豪商巨賈"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/mizhu/skins/skin-36502.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "mizhu--365mizhu--3dead01",
+      "resourceId": "365mizhu/3dead01",
+      "text": "钱财，散尽……",
+      "textLocalized": {
+        "zhHans": "钱财，散尽……",
+        "zhHant": "錢財，散盡……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36505",
+          "name": "惬意巡猎",
+          "displayName": {
+            "zhHans": "惬意巡猎",
+            "zhHant": "愜意巡獵"
+          }
+        },
+        {
+          "slug": "skin-36502",
+          "name": "豪商巨贾",
+          "displayName": {
+            "zhHans": "豪商巨贾",
+            "zhHant": "豪商巨賈"
+          }
+        },
+        {
+          "slug": "skin-36502-36505",
+          "name": "豪商巨贾,惬意巡猎",
+          "displayName": {
+            "zhHans": "豪商巨贾,惬意巡猎",
+            "zhHant": "豪商巨賈,愜意巡獵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/3dead01-f6a89a91.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/3dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--3skill1_1",
+      "resourceId": "365mizhu/3skill1_1",
+      "text": "拿去花，别客气！",
+      "textLocalized": {
+        "zhHans": "拿去花，别客气！",
+        "zhHant": "拿去花，別客氣！"
+      },
+      "group": {
+        "slug": "spell-291",
+        "name": "资援",
+        "displayName": {
+          "zhHans": "资援",
+          "zhHant": "資援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36505",
+          "name": "惬意巡猎",
+          "displayName": {
+            "zhHans": "惬意巡猎",
+            "zhHant": "愜意巡獵"
+          }
+        },
+        {
+          "slug": "skin-36502",
+          "name": "豪商巨贾",
+          "displayName": {
+            "zhHans": "豪商巨贾",
+            "zhHant": "豪商巨賈"
+          }
+        },
+        {
+          "slug": "skin-36502-36505",
+          "name": "豪商巨贾,惬意巡猎",
+          "displayName": {
+            "zhHans": "豪商巨贾,惬意巡猎",
+            "zhHant": "豪商巨賈,愜意巡獵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/3skill1-1-b9fc751f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/3skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--3skill1_2",
+      "resourceId": "365mizhu/3skill1_2",
+      "text": "为义舍财，有何不可！",
+      "textLocalized": {
+        "zhHans": "为义舍财，有何不可！",
+        "zhHant": "爲義舍財，有何不可！"
+      },
+      "group": {
+        "slug": "spell-291",
+        "name": "资援",
+        "displayName": {
+          "zhHans": "资援",
+          "zhHant": "資援"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36505",
+          "name": "惬意巡猎",
+          "displayName": {
+            "zhHans": "惬意巡猎",
+            "zhHant": "愜意巡獵"
+          }
+        },
+        {
+          "slug": "skin-36502",
+          "name": "豪商巨贾",
+          "displayName": {
+            "zhHans": "豪商巨贾",
+            "zhHant": "豪商巨賈"
+          }
+        },
+        {
+          "slug": "skin-36502-36505",
+          "name": "豪商巨贾,惬意巡猎",
+          "displayName": {
+            "zhHans": "豪商巨贾,惬意巡猎",
+            "zhHant": "豪商巨賈,愜意巡獵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/3skill1-2-b8925c7a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/3skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--3skill2_1",
+      "resourceId": "365mizhu/3skill2_1",
+      "text": "有钱，就是这么任性。",
+      "textLocalized": {
+        "zhHans": "有钱，就是这么任性。",
+        "zhHant": "有錢，就是這麼任性。"
+      },
+      "group": {
+        "slug": "spell-292",
+        "name": "巨贾",
+        "displayName": {
+          "zhHans": "巨贾",
+          "zhHant": "巨賈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36505",
+          "name": "惬意巡猎",
+          "displayName": {
+            "zhHans": "惬意巡猎",
+            "zhHant": "愜意巡獵"
+          }
+        },
+        {
+          "slug": "skin-36502",
+          "name": "豪商巨贾",
+          "displayName": {
+            "zhHans": "豪商巨贾",
+            "zhHant": "豪商巨賈"
+          }
+        },
+        {
+          "slug": "skin-36502-36505",
+          "name": "豪商巨贾,惬意巡猎",
+          "displayName": {
+            "zhHans": "豪商巨贾,惬意巡猎",
+            "zhHant": "豪商巨賈,愜意巡獵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/3skill2-1-75933275.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/3skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "mizhu--365mizhu--3skill2_2",
+      "resourceId": "365mizhu/3skill2_2",
+      "text": "钱只是手段，从来都不是目的。",
+      "textLocalized": {
+        "zhHans": "钱只是手段，从来都不是目的。",
+        "zhHant": "錢只是手段，從來都不是目的。"
+      },
+      "group": {
+        "slug": "spell-292",
+        "name": "巨贾",
+        "displayName": {
+          "zhHans": "巨贾",
+          "zhHant": "巨賈"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-36505",
+          "name": "惬意巡猎",
+          "displayName": {
+            "zhHans": "惬意巡猎",
+            "zhHant": "愜意巡獵"
+          }
+        },
+        {
+          "slug": "skin-36502",
+          "name": "豪商巨贾",
+          "displayName": {
+            "zhHans": "豪商巨贾",
+            "zhHant": "豪商巨賈"
+          }
+        },
+        {
+          "slug": "skin-36502-36505",
+          "name": "豪商巨贾,惬意巡猎",
+          "displayName": {
+            "zhHans": "豪商巨贾,惬意巡猎",
+            "zhHant": "豪商巨賈,愜意巡獵"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/365mizhu-24206475/3skill2-2-f96d06aa.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/365mizhu/3skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

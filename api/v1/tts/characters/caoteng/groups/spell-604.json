@@ -1,3 +1,205 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:df455bef2c9486783a0d694450b6a33b5922ff141fe29a6164cfb0519c2e4eec
-size 5288
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "caoteng",
+    "command": "caoteng",
+    "name": "曹腾",
+    "displayName": {
+      "zhHans": "曹腾",
+      "zhHant": "曹騰"
+    },
+    "names": [
+      "曹腾"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "曹腾",
+        "zhHant": "曹騰"
+      }
+    ],
+    "ids": [
+      "619"
+    ],
+    "sourceNames": [
+      "曹腾"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "曹腾",
+        "zhHant": "曹騰"
+      }
+    ],
+    "sourceIds": [
+      "619"
+    ],
+    "searchNames": [
+      "caoteng",
+      "曹腾",
+      "曹騰"
+    ],
+    "lineCount": 14,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caoteng/groups/dead.json"
+      },
+      {
+        "slug": "spell-3468",
+        "name": "拥族",
+        "displayName": {
+          "zhHans": "拥族",
+          "zhHant": "擁族"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoteng/groups/spell-3468.json"
+      },
+      {
+        "slug": "spell-3469",
+        "name": "清流",
+        "displayName": {
+          "zhHans": "清流",
+          "zhHant": "清流"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/caoteng/groups/spell-3469.json"
+      },
+      {
+        "slug": "spell-604",
+        "name": "天命",
+        "displayName": {
+          "zhHans": "天命",
+          "zhHant": "天命"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caoteng/groups/spell-604.json"
+      },
+      {
+        "slug": "spell-717",
+        "name": "奸雄",
+        "displayName": {
+          "zhHans": "奸雄",
+          "zhHant": "奸雄"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/caoteng/groups/spell-717.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoteng/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-61901",
+        "name": "衣锦仪雍",
+        "displayName": {
+          "zhHans": "衣锦仪雍",
+          "zhHant": "衣錦儀雍"
+        },
+        "lineCount": 7,
+        "endpoint": "api/v1/tts/characters/caoteng/skins/skin-61901.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/caoteng.json",
+      "groups": "api/v1/tts/characters/caoteng/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/caoteng/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-604",
+    "name": "天命",
+    "displayName": {
+      "zhHans": "天命",
+      "zhHant": "天命"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/caoteng/groups/spell-604.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "caoteng--619caoteng--1skill4_1",
+      "resourceId": "619caoteng/1skill4_1",
+      "text": "天命在彼，事莫强为。",
+      "textLocalized": {
+        "zhHans": "天命在彼，事莫强为。",
+        "zhHant": "天命在彼，事莫強爲。"
+      },
+      "group": {
+        "slug": "spell-604",
+        "name": "天命",
+        "displayName": {
+          "zhHans": "天命",
+          "zhHant": "天命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/619caoteng-c9b3438c/1skill4-1-0d7b9304.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/619caoteng/1skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "caoteng--619caoteng--2skill4_1",
+      "resourceId": "619caoteng/2skill4_1",
+      "text": "人怀好生之德，天必予其寿。",
+      "textLocalized": {
+        "zhHans": "人怀好生之德，天必予其寿。",
+        "zhHant": "人懷好生之德，天必予其壽。"
+      },
+      "group": {
+        "slug": "spell-604",
+        "name": "天命",
+        "displayName": {
+          "zhHans": "天命",
+          "zhHant": "天命"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-61901",
+          "name": "衣锦仪雍",
+          "displayName": {
+            "zhHans": "衣锦仪雍",
+            "zhHant": "衣錦儀雍"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/619caoteng-c9b3438c/2skill4-1-460ffad0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/619caoteng/2skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

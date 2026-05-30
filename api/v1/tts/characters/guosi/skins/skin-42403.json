@@ -1,3 +1,309 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:548d5003cfe3f80bd207f78a0b50c6fbadb4acc5b9e5cb41662159891af6c1ab
-size 8371
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "guosi",
+    "command": "guosi",
+    "name": "郭汜",
+    "displayName": {
+      "zhHans": "郭汜",
+      "zhHant": "郭汜"
+    },
+    "names": [
+      "郭汜"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "郭汜",
+        "zhHant": "郭汜"
+      }
+    ],
+    "ids": [
+      "424"
+    ],
+    "sourceNames": [
+      "郭汜"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "郭汜",
+        "zhHant": "郭汜"
+      }
+    ],
+    "sourceIds": [
+      "424"
+    ],
+    "searchNames": [
+      "guosi",
+      "郭汜"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/guosi/groups/dead.json"
+      },
+      {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guosi/groups/spell-863.json"
+      },
+      {
+        "slug": "spell-864",
+        "name": "伺盗",
+        "displayName": {
+          "zhHans": "伺盗",
+          "zhHant": "伺盜"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/guosi/groups/spell-864.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-42401",
+        "name": "文和乱武",
+        "displayName": {
+          "zhHans": "文和乱武",
+          "zhHant": "文和亂武"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-42401.json"
+      },
+      {
+        "slug": "skin-42402",
+        "name": "破城劫掠",
+        "displayName": {
+          "zhHans": "破城劫掠",
+          "zhHant": "破城劫掠"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-42402.json"
+      },
+      {
+        "slug": "skin-42403",
+        "name": "鸷狠诡戾",
+        "displayName": {
+          "zhHans": "鸷狠诡戾",
+          "zhHant": "鷙狠詭戾"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/guosi/skins/skin-42403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/guosi.json",
+      "groups": "api/v1/tts/characters/guosi/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/guosi/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-42403",
+    "name": "鸷狠诡戾",
+    "displayName": {
+      "zhHans": "鸷狠诡戾",
+      "zhHant": "鷙狠詭戾"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/guosi/skins/skin-42403.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "guosi--424guosi--5dead01",
+      "resourceId": "424guosi/5dead01",
+      "text": "终为。贪所害！",
+      "textLocalized": {
+        "zhHans": "终为。贪所害！",
+        "zhHant": "終爲。貪所害！"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42403",
+          "name": "鸷狠诡戾",
+          "displayName": {
+            "zhHans": "鸷狠诡戾",
+            "zhHant": "鷙狠詭戾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--5skill1_1",
+      "resourceId": "424guosi/5skill1_1",
+      "text": "贪货弃命，不可取也！",
+      "textLocalized": {
+        "zhHans": "贪货弃命，不可取也！",
+        "zhHant": "貪貨棄命，不可取也！"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42403",
+          "name": "鸷狠诡戾",
+          "displayName": {
+            "zhHans": "鸷狠诡戾",
+            "zhHant": "鷙狠詭戾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--5skill1_2",
+      "resourceId": "424guosi/5skill1_2",
+      "text": "左右皆恶，非贪不能存。",
+      "textLocalized": {
+        "zhHans": "左右皆恶，非贪不能存。",
+        "zhHant": "左右皆惡，非貪不能存。"
+      },
+      "group": {
+        "slug": "spell-863",
+        "name": "贪狈",
+        "displayName": {
+          "zhHans": "贪狈",
+          "zhHant": "貪狽"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42403",
+          "name": "鸷狠诡戾",
+          "displayName": {
+            "zhHans": "鸷狠诡戾",
+            "zhHant": "鷙狠詭戾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--5skill2_1",
+      "resourceId": "424guosi/5skill2_1",
+      "text": "伺，以待良机；盗，以资窃国！",
+      "textLocalized": {
+        "zhHans": "伺，以待良机；盗，以资窃国！",
+        "zhHant": "伺，以待良機；盜，以資竊國！"
+      },
+      "group": {
+        "slug": "spell-864",
+        "name": "伺盗",
+        "displayName": {
+          "zhHans": "伺盗",
+          "zhHant": "伺盜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42403",
+          "name": "鸷狠诡戾",
+          "displayName": {
+            "zhHans": "鸷狠诡戾",
+            "zhHant": "鷙狠詭戾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "guosi--424guosi--5skill2_2",
+      "resourceId": "424guosi/5skill2_2",
+      "text": "盗天地之时利，畏垒大穰[ráng]！",
+      "textLocalized": {
+        "zhHans": "盗天地之时利，畏垒大穰[ráng]！",
+        "zhHant": "盜天地之時利，畏壘大穰[ráng]！"
+      },
+      "group": {
+        "slug": "spell-864",
+        "name": "伺盗",
+        "displayName": {
+          "zhHans": "伺盗",
+          "zhHant": "伺盜"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-42403",
+          "name": "鸷狠诡戾",
+          "displayName": {
+            "zhHans": "鸷狠诡戾",
+            "zhHant": "鷙狠詭戾"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/424guosi-b7fa330b/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/424guosi/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

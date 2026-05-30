@@ -1,3 +1,319 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:83fefe1bdca06c61fb51a29453c5f2b42fe4b00577799edf51fbec9920db3926
-size 8748
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "zuofen",
+    "command": "zuofen",
+    "name": "左棻",
+    "displayName": {
+      "zhHans": "左棻",
+      "zhHant": "左棻"
+    },
+    "names": [
+      "左棻"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "左棻",
+        "zhHant": "左棻"
+      }
+    ],
+    "ids": [
+      "354"
+    ],
+    "sourceNames": [
+      "左棻"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "左棻",
+        "zhHant": "左棻"
+      }
+    ],
+    "sourceIds": [
+      "354"
+    ],
+    "searchNames": [
+      "zuofen",
+      "左棻"
+    ],
+    "lineCount": 25,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zuofen/groups/dead.json"
+      },
+      {
+        "slug": "spell-3042",
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zuofen/groups/spell-3042.json"
+      },
+      {
+        "slug": "spell-3043",
+        "name": "离思",
+        "displayName": {
+          "zhHans": "离思",
+          "zhHant": "離思"
+        },
+        "lineCount": 10,
+        "endpoint": "api/v1/tts/characters/zuofen/groups/spell-3043.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "35404",
+        "name": "35404",
+        "displayName": {
+          "zhHans": "35404",
+          "zhHant": "35404"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zuofen/skins/35404.json"
+      },
+      {
+        "slug": "skin-35401",
+        "name": "凝脂铅华",
+        "displayName": {
+          "zhHans": "凝脂铅华",
+          "zhHant": "凝脂鉛華"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zuofen/skins/skin-35401.json"
+      },
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zuofen/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-35402",
+        "name": "诗赋才情",
+        "displayName": {
+          "zhHans": "诗赋才情",
+          "zhHant": "詩賦才情"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zuofen/skins/skin-35402.json"
+      },
+      {
+        "slug": "skin-35403",
+        "name": "青荷粽香",
+        "displayName": {
+          "zhHans": "青荷粽香",
+          "zhHant": "青荷糉香"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/zuofen/skins/skin-35403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/zuofen.json",
+      "groups": "api/v1/tts/characters/zuofen/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/zuofen/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-35403",
+    "name": "青荷粽香",
+    "displayName": {
+      "zhHans": "青荷粽香",
+      "zhHant": "青荷糉香"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/zuofen/skins/skin-35403.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "zuofen--354zuofen--4dead01",
+      "resourceId": "354zuofen/4dead01",
+      "text": "恒怵惕以忧惧。",
+      "textLocalized": {
+        "zhHans": "恒怵惕以忧惧。",
+        "zhHant": "恆怵惕以憂懼。"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35403",
+          "name": "青荷粽香",
+          "displayName": {
+            "zhHans": "青荷粽香",
+            "zhHant": "青荷糉香"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/4dead01-d94a0b4a.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/4dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--4skill1_1",
+      "resourceId": "354zuofen/4skill1_1",
+      "text": "欲面试者，非有诏不得上。",
+      "textLocalized": {
+        "zhHans": "欲面试者，非有诏不得上。",
+        "zhHant": "欲面試者，非有詔不得上。"
+      },
+      "group": {
+        "slug": "spell-3042",
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35403",
+          "name": "青荷粽香",
+          "displayName": {
+            "zhHans": "青荷粽香",
+            "zhHant": "青荷糉香"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/4skill1-1-436b7c85.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/4skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--4skill1_2",
+      "resourceId": "354zuofen/4skill1_2",
+      "text": "以诏示之，使昭然知所由也。",
+      "textLocalized": {
+        "zhHans": "以诏示之，使昭然知所由也。",
+        "zhHant": "以詔示之，使昭然知所由也。"
+      },
+      "group": {
+        "slug": "spell-3042",
+        "name": "诏颂",
+        "displayName": {
+          "zhHans": "诏颂",
+          "zhHant": "詔頌"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35403",
+          "name": "青荷粽香",
+          "displayName": {
+            "zhHans": "青荷粽香",
+            "zhHant": "青荷糉香"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/4skill1-2-8b8e1ceb.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/4skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--4skill2_1",
+      "resourceId": "354zuofen/4skill2_1",
+      "text": "夜耿耿而不寐，魂憧憧[chōng]而至曙。",
+      "textLocalized": {
+        "zhHans": "夜耿耿而不寐，魂憧憧[chōng]而至曙。",
+        "zhHant": "夜耿耿而不寐，魂憧憧[chōng]而至曙。"
+      },
+      "group": {
+        "slug": "spell-3043",
+        "name": "离思",
+        "displayName": {
+          "zhHans": "离思",
+          "zhHant": "離思"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35403",
+          "name": "青荷粽香",
+          "displayName": {
+            "zhHans": "青荷粽香",
+            "zhHant": "青荷糉香"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/4skill2-1-a53a9bc0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/4skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "zuofen--354zuofen--4skill2_2",
+      "resourceId": "354zuofen/4skill2_2",
+      "text": "惟屈原之哀感兮，嗟悲伤于离别。",
+      "textLocalized": {
+        "zhHans": "惟屈原之哀感兮，嗟悲伤于离别。",
+        "zhHant": "惟屈原之哀感兮，嗟悲傷於離別。"
+      },
+      "group": {
+        "slug": "spell-3043",
+        "name": "离思",
+        "displayName": {
+          "zhHans": "离思",
+          "zhHant": "離思"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-35403",
+          "name": "青荷粽香",
+          "displayName": {
+            "zhHans": "青荷粽香",
+            "zhHant": "青荷糉香"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/354zuofen-8f63cc80/4skill2-2-2050b07f.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/354zuofen/4skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

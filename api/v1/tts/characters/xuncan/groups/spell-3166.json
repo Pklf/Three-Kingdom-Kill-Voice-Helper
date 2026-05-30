@@ -1,3 +1,274 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3dd2129bd0451cfcf85c4789c2e53dcd10e91d2c53abc20876af01cd6e1c4d7d
-size 7358
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "xuncan",
+    "command": "xuncan",
+    "name": "族荀粲",
+    "displayName": {
+      "zhHans": "族荀粲",
+      "zhHant": "族荀粲"
+    },
+    "names": [
+      "族荀粲"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "族荀粲",
+        "zhHant": "族荀粲"
+      }
+    ],
+    "ids": [
+      "525"
+    ],
+    "sourceNames": [
+      "族荀粲"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "族荀粲",
+        "zhHant": "族荀粲"
+      }
+    ],
+    "sourceIds": [
+      "525"
+    ],
+    "searchNames": [
+      "xuncan",
+      "族荀粲"
+    ],
+    "lineCount": 18,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/dead.json"
+      },
+      {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3166.json"
+      },
+      {
+        "slug": "spell-3174",
+        "name": "熨身",
+        "displayName": {
+          "zhHans": "熨身",
+          "zhHant": "熨身"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3174.json"
+      },
+      {
+        "slug": "spell-3175",
+        "name": "伤神",
+        "displayName": {
+          "zhHans": "伤神",
+          "zhHant": "傷神"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3175.json"
+      },
+      {
+        "slug": "spell-3176",
+        "name": "分钗",
+        "displayName": {
+          "zhHans": "分钗",
+          "zhHant": "分釵"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3176.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-52501",
+        "name": "晚风独立",
+        "displayName": {
+          "zhHans": "晚风独立",
+          "zhHant": "晚風獨立"
+        },
+        "lineCount": 9,
+        "endpoint": "api/v1/tts/characters/xuncan/skins/skin-52501.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/xuncan.json",
+      "groups": "api/v1/tts/characters/xuncan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/xuncan/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3166",
+    "name": "蹈节",
+    "displayName": {
+      "zhHans": "蹈节",
+      "zhHant": "蹈節"
+    },
+    "lineCount": 4,
+    "endpoint": "api/v1/tts/characters/xuncan/groups/spell-3166.json"
+  },
+  "lineCount": 4,
+  "lines": [
+    {
+      "id": "xuncan--525xuncan--1skill4_1",
+      "resourceId": "525xuncan/1skill4_1",
+      "text": "君子持节，何移情乎？",
+      "textLocalized": {
+        "zhHans": "君子持节，何移情乎？",
+        "zhHant": "君子持節，何移情乎？"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill4-1-0d7b9304.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--1skill4_2",
+      "resourceId": "525xuncan/1skill4_2",
+      "text": "我心慕鸳，从一而终。",
+      "textLocalized": {
+        "zhHans": "我心慕鸳，从一而终。",
+        "zhHant": "我心慕鴛，從一而終。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/1skill4-2-2415e0dd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/1skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--2skill4_1",
+      "resourceId": "525xuncan/2skill4_1",
+      "text": "我所蹈之节，可以此生践之。",
+      "textLocalized": {
+        "zhHans": "我所蹈之节，可以此生践之。",
+        "zhHant": "我所蹈之節，可以此生踐之。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52501",
+          "name": "晚风独立",
+          "displayName": {
+            "zhHans": "晚风独立",
+            "zhHant": "晚風獨立"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/2skill4-1-460ffad0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/2skill4_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "xuncan--525xuncan--2skill4_2",
+      "resourceId": "525xuncan/2skill4_2",
+      "text": "衷其情而恪其节，此荀门之教也。",
+      "textLocalized": {
+        "zhHans": "衷其情而恪其节，此荀门之教也。",
+        "zhHant": "衷其情而恪其節，此荀門之教也。"
+      },
+      "group": {
+        "slug": "spell-3166",
+        "name": "蹈节",
+        "displayName": {
+          "zhHans": "蹈节",
+          "zhHant": "蹈節"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-52501",
+          "name": "晚风独立",
+          "displayName": {
+            "zhHans": "晚风独立",
+            "zhHant": "晚風獨立"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/525xuncan-384d8ed8/2skill4-2-23d7d1d9.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/525xuncan/2skill4_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

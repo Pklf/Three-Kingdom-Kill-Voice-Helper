@@ -1,3 +1,175 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:751634df1773663db880ec2ec3a61e56acc6e1e793ef27eee6fb18682c0d8df4
-size 4434
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "sunhong",
+    "command": "sunhong",
+    "name": "孙弘",
+    "displayName": {
+      "zhHans": "孙弘",
+      "zhHant": "孫弘"
+    },
+    "names": [
+      "孙弘"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "孙弘",
+        "zhHant": "孫弘"
+      }
+    ],
+    "ids": [
+      "537"
+    ],
+    "sourceNames": [
+      "孙弘"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "孙弘",
+        "zhHant": "孫弘"
+      }
+    ],
+    "sourceIds": [
+      "537"
+    ],
+    "searchNames": [
+      "sunhong",
+      "孙弘",
+      "孫弘"
+    ],
+    "lineCount": 5,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 1,
+        "endpoint": "api/v1/tts/characters/sunhong/groups/dead.json"
+      },
+      {
+        "slug": "spell-3219",
+        "name": "险诐",
+        "displayName": {
+          "zhHans": "险诐",
+          "zhHant": "險詖"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/sunhong/groups/spell-3219.json"
+      },
+      {
+        "slug": "spell-3220",
+        "name": "谮润",
+        "displayName": {
+          "zhHans": "谮润",
+          "zhHant": "譖潤"
+        },
+        "lineCount": 2,
+        "endpoint": "api/v1/tts/characters/sunhong/groups/spell-3220.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/sunhong/skins/skin-1.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/sunhong.json",
+      "groups": "api/v1/tts/characters/sunhong/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/sunhong/skins/{skinSlug}.json"
+    }
+  },
+  "group": {
+    "slug": "spell-3219",
+    "name": "险诐",
+    "displayName": {
+      "zhHans": "险诐",
+      "zhHant": "險詖"
+    },
+    "lineCount": 2,
+    "endpoint": "api/v1/tts/characters/sunhong/groups/spell-3219.json"
+  },
+  "lineCount": 2,
+  "lines": [
+    {
+      "id": "sunhong--537sunhong--1skill1_1",
+      "resourceId": "537sunhong/1skill1_1",
+      "text": "宦海如薄冰，求生逐富贵。",
+      "textLocalized": {
+        "zhHans": "宦海如薄冰，求生逐富贵。",
+        "zhHant": "宦海如薄冰，求生逐富貴。"
+      },
+      "group": {
+        "slug": "spell-3219",
+        "name": "险诐",
+        "displayName": {
+          "zhHans": "险诐",
+          "zhHant": "險詖"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/537sunhong-792cda58/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/537sunhong/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "sunhong--537sunhong--1skill1_2",
+      "resourceId": "537sunhong/1skill1_2",
+      "text": "吾不欲为鱼肉，故为刀俎。",
+      "textLocalized": {
+        "zhHans": "吾不欲为鱼肉，故为刀俎。",
+        "zhHant": "吾不欲爲魚肉，故爲刀俎。"
+      },
+      "group": {
+        "slug": "spell-3219",
+        "name": "险诐",
+        "displayName": {
+          "zhHans": "险诐",
+          "zhHant": "險詖"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/537sunhong-792cda58/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/537sunhong/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

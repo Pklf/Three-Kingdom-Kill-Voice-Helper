@@ -1,3 +1,330 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fa446ee267358663f2ce90a9ca411ce485a7f60944b1a27af6840ed8132c44b2
-size 9021
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "yangxiu",
+    "command": "yangxiu",
+    "name": "杨修",
+    "displayName": {
+      "zhHans": "杨修",
+      "zhHant": "楊修"
+    },
+    "names": [
+      "杨修"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "杨修",
+        "zhHant": "楊修"
+      }
+    ],
+    "ids": [
+      "104"
+    ],
+    "sourceNames": [
+      "杨修"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "杨修",
+        "zhHant": "楊修"
+      }
+    ],
+    "sourceIds": [
+      "104"
+    ],
+    "searchNames": [
+      "yangxiu",
+      "杨修",
+      "楊修"
+    ],
+    "lineCount": 20,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 4,
+        "endpoint": "api/v1/tts/characters/yangxiu/groups/dead.json"
+      },
+      {
+        "slug": "spell-205",
+        "name": "啖酪",
+        "displayName": {
+          "zhHans": "啖酪",
+          "zhHant": "啖酪"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangxiu/groups/spell-205.json"
+      },
+      {
+        "slug": "spell-206",
+        "name": "鸡肋",
+        "displayName": {
+          "zhHans": "鸡肋",
+          "zhHant": "雞肋"
+        },
+        "lineCount": 8,
+        "endpoint": "api/v1/tts/characters/yangxiu/groups/spell-206.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangxiu/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-10404",
+        "name": "字字珠玑",
+        "displayName": {
+          "zhHans": "字字珠玑",
+          "zhHant": "字字珠璣"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangxiu/skins/skin-10404.json"
+      },
+      {
+        "slug": "skin-10405",
+        "name": "无味之食",
+        "displayName": {
+          "zhHans": "无味之食",
+          "zhHant": "無味之食"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangxiu/skins/skin-10405.json"
+      },
+      {
+        "slug": "skin-10403",
+        "name": "沽酒而饮",
+        "displayName": {
+          "zhHans": "沽酒而饮",
+          "zhHant": "沽酒而飲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangxiu/skins/skin-10403.json"
+      },
+      {
+        "slug": "skin-10401",
+        "name": "胸中绵帛",
+        "displayName": {
+          "zhHans": "胸中绵帛",
+          "zhHant": "胸中綿帛"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangxiu/skins/skin-10401.json"
+      },
+      {
+        "slug": "skin-10401-10403",
+        "name": "胸中绵帛,沽酒而饮",
+        "displayName": {
+          "zhHans": "胸中绵帛,沽酒而饮",
+          "zhHant": "胸中綿帛,沽酒而飲"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/yangxiu/skins/skin-10401-10403.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/yangxiu.json",
+      "groups": "api/v1/tts/characters/yangxiu/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/yangxiu/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-10405",
+    "name": "无味之食",
+    "displayName": {
+      "zhHans": "无味之食",
+      "zhHant": "無味之食"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/yangxiu/skins/skin-10405.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "yangxiu--104yangxiu--5dead01",
+      "resourceId": "104yangxiu/5dead01",
+      "text": "修，终是在梦中矣……",
+      "textLocalized": {
+        "zhHans": "修，终是在梦中矣……",
+        "zhHant": "修，終是在夢中矣……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10405",
+          "name": "无味之食",
+          "displayName": {
+            "zhHans": "无味之食",
+            "zhHant": "無味之食"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/104yangxiu-a530a950/5dead01-ee898f31.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/104yangxiu/5dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangxiu--104yangxiu--5skill1_1",
+      "resourceId": "104yangxiu/5skill1_1",
+      "text": "此乃丞相美意也，呵呵呵……",
+      "textLocalized": {
+        "zhHans": "此乃丞相美意也，呵呵呵……",
+        "zhHant": "此乃丞相美意也，呵呵呵……"
+      },
+      "group": {
+        "slug": "spell-205",
+        "name": "啖酪",
+        "displayName": {
+          "zhHans": "啖酪",
+          "zhHant": "啖酪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10405",
+          "name": "无味之食",
+          "displayName": {
+            "zhHans": "无味之食",
+            "zhHant": "無味之食"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/104yangxiu-a530a950/5skill1-1-3d3f8918.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/104yangxiu/5skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangxiu--104yangxiu--5skill1_2",
+      "resourceId": "104yangxiu/5skill1_2",
+      "text": "珍馐美味。",
+      "textLocalized": {
+        "zhHans": "珍馐美味。",
+        "zhHant": "珍饈美味。"
+      },
+      "group": {
+        "slug": "spell-205",
+        "name": "啖酪",
+        "displayName": {
+          "zhHans": "啖酪",
+          "zhHant": "啖酪"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10405",
+          "name": "无味之食",
+          "displayName": {
+            "zhHans": "无味之食",
+            "zhHant": "無味之食"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/104yangxiu-a530a950/5skill1-2-e9e7a1b5.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/104yangxiu/5skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangxiu--104yangxiu--5skill2_1",
+      "resourceId": "104yangxiu/5skill2_1",
+      "text": "来日魏王必班师也。",
+      "textLocalized": {
+        "zhHans": "来日魏王必班师也。",
+        "zhHant": "來日魏王必班師也。"
+      },
+      "group": {
+        "slug": "spell-206",
+        "name": "鸡肋",
+        "displayName": {
+          "zhHans": "鸡肋",
+          "zhHant": "雞肋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10405",
+          "name": "无味之食",
+          "displayName": {
+            "zhHans": "无味之食",
+            "zhHant": "無味之食"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/104yangxiu-a530a950/5skill2-1-c1e6667d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/104yangxiu/5skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "yangxiu--104yangxiu--5skill2_2",
+      "resourceId": "104yangxiu/5skill2_2",
+      "text": "无谓之战，不打也罢。",
+      "textLocalized": {
+        "zhHans": "无谓之战，不打也罢。",
+        "zhHant": "無謂之戰，不打也罷。"
+      },
+      "group": {
+        "slug": "spell-206",
+        "name": "鸡肋",
+        "displayName": {
+          "zhHans": "鸡肋",
+          "zhHant": "雞肋"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-10405",
+          "name": "无味之食",
+          "displayName": {
+            "zhHans": "无味之食",
+            "zhHant": "無味之食"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/104yangxiu-a530a950/5skill2-2-47fe09fd.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/104yangxiu/5skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,300 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e5d7c2c355ce0b35d9284a4a95fed7007d2dabab82cdb03f6b84d3d1743743cf
-size 8222
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-30T15:27:56+00:00",
+  "character": {
+    "slug": "huangchengyan",
+    "command": "huangchengyan",
+    "name": "黄承彦",
+    "displayName": {
+      "zhHans": "黄承彦",
+      "zhHant": "黃承彥"
+    },
+    "names": [
+      "黄承彦"
+    ],
+    "displayNames": [
+      {
+        "zhHans": "黄承彦",
+        "zhHant": "黃承彥"
+      }
+    ],
+    "ids": [
+      "481"
+    ],
+    "sourceNames": [
+      "黄承彦"
+    ],
+    "displaySourceNames": [
+      {
+        "zhHans": "黄承彦",
+        "zhHant": "黃承彥"
+      }
+    ],
+    "sourceIds": [
+      "481"
+    ],
+    "searchNames": [
+      "huangchengyan",
+      "黄承彦",
+      "黃承彥"
+    ],
+    "lineCount": 15,
+    "groups": [
+      {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        },
+        "lineCount": 3,
+        "endpoint": "api/v1/tts/characters/huangchengyan/groups/dead.json"
+      },
+      {
+        "slug": "spell-987",
+        "name": "观虚",
+        "displayName": {
+          "zhHans": "观虚",
+          "zhHant": "觀虛"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/huangchengyan/groups/spell-987.json"
+      },
+      {
+        "slug": "spell-988",
+        "name": "雅士",
+        "displayName": {
+          "zhHans": "雅士",
+          "zhHant": "雅士"
+        },
+        "lineCount": 6,
+        "endpoint": "api/v1/tts/characters/huangchengyan/groups/spell-988.json"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "skin-1",
+        "name": "原画",
+        "displayName": {
+          "zhHans": "原画",
+          "zhHant": "原畫"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangchengyan/skins/skin-1.json"
+      },
+      {
+        "slug": "skin-48101",
+        "name": "和睦安康",
+        "displayName": {
+          "zhHans": "和睦安康",
+          "zhHant": "和睦安康"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangchengyan/skins/skin-48101.json"
+      },
+      {
+        "slug": "skin-48102",
+        "name": "夜占吉凶",
+        "displayName": {
+          "zhHans": "夜占吉凶",
+          "zhHant": "夜佔吉凶"
+        },
+        "lineCount": 5,
+        "endpoint": "api/v1/tts/characters/huangchengyan/skins/skin-48102.json"
+      }
+    ],
+    "endpoints": {
+      "detail": "api/v1/tts/characters/huangchengyan.json",
+      "groups": "api/v1/tts/characters/huangchengyan/groups/{groupSlug}.json",
+      "skins": "api/v1/tts/characters/huangchengyan/skins/{skinSlug}.json"
+    }
+  },
+  "skin": {
+    "slug": "skin-1",
+    "name": "原画",
+    "displayName": {
+      "zhHans": "原画",
+      "zhHant": "原畫"
+    },
+    "lineCount": 5,
+    "endpoint": "api/v1/tts/characters/huangchengyan/skins/skin-1.json"
+  },
+  "lineCount": 5,
+  "lines": [
+    {
+      "id": "huangchengyan--481huangchengyan--1dead01",
+      "resourceId": "481huangchengyan/1dead01",
+      "text": "皆为虚妄……",
+      "textLocalized": {
+        "zhHans": "皆为虚妄……",
+        "zhHant": "皆爲虛妄……"
+      },
+      "group": {
+        "slug": "dead",
+        "name": "阵亡",
+        "displayName": {
+          "zhHans": "阵亡",
+          "zhHant": "陣亡"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/481huangchengyan-675d7f60/1dead01-71dcfcc3.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/481huangchengyan/1dead01.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangchengyan--481huangchengyan--1skill1_1",
+      "resourceId": "481huangchengyan/1skill1_1",
+      "text": "不识此阵者，必为所迷。",
+      "textLocalized": {
+        "zhHans": "不识此阵者，必为所迷。",
+        "zhHant": "不識此陣者，必爲所迷。"
+      },
+      "group": {
+        "slug": "spell-987",
+        "name": "观虚",
+        "displayName": {
+          "zhHans": "观虚",
+          "zhHant": "觀虛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/481huangchengyan-675d7f60/1skill1-1-80d5ac1d.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/481huangchengyan/1skill1_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangchengyan--481huangchengyan--1skill1_2",
+      "resourceId": "481huangchengyan/1skill1_2",
+      "text": "虚实相生，变化无穷。",
+      "textLocalized": {
+        "zhHans": "虚实相生，变化无穷。",
+        "zhHant": "虛實相生，變化無窮。"
+      },
+      "group": {
+        "slug": "spell-987",
+        "name": "观虚",
+        "displayName": {
+          "zhHans": "观虚",
+          "zhHant": "觀虛"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/481huangchengyan-675d7f60/1skill1-2-89e7d1e0.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/481huangchengyan/1skill1_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangchengyan--481huangchengyan--1skill2_1",
+      "resourceId": "481huangchengyan/1skill2_1",
+      "text": "德行贞绝者，谓其雅士。",
+      "textLocalized": {
+        "zhHans": "德行贞绝者，谓其雅士。",
+        "zhHant": "德行貞絕者，謂其雅士。"
+      },
+      "group": {
+        "slug": "spell-988",
+        "name": "雅士",
+        "displayName": {
+          "zhHans": "雅士",
+          "zhHant": "雅士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/481huangchengyan-675d7f60/1skill2-1-6d3979b7.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/481huangchengyan/1skill2_1.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    },
+    {
+      "id": "huangchengyan--481huangchengyan--1skill2_2",
+      "resourceId": "481huangchengyan/1skill2_2",
+      "text": "鸿儒雅士，闻见多矣。",
+      "textLocalized": {
+        "zhHans": "鸿儒雅士，闻见多矣。",
+        "zhHant": "鴻儒雅士，聞見多矣。"
+      },
+      "group": {
+        "slug": "spell-988",
+        "name": "雅士",
+        "displayName": {
+          "zhHans": "雅士",
+          "zhHant": "雅士"
+        }
+      },
+      "skins": [
+        {
+          "slug": "skin-1",
+          "name": "原画",
+          "displayName": {
+            "zhHans": "原画",
+            "zhHant": "原畫"
+          }
+        }
+      ],
+      "audio": {
+        "cached": "audio-cache/voice/spell/481huangchengyan-675d7f60/1skill2-2-b3595258.mp3",
+        "remote": "https://web.sanguosha.com/220/h5_2/res/runtime/pc/voice/spell/481huangchengyan/1skill2_2.mp3",
+        "available": {
+          "cached": true,
+          "remote": true
+        }
+      }
+    }
+  ]
+}
