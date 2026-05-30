@@ -1,0 +1,1694 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>三国杀语音库</title>
+  <style>
+    :root {
+      --paper: #f7f1e3;
+      --paper-strong: #fffaf0;
+      --ink: #1f2a2e;
+      --muted: #66706c;
+      --line: #d8cdb8;
+      --red: #b33a2f;
+      --red-deep: #7d241e;
+      --jade: #28706c;
+      --gold: #c89b32;
+      --blue: #385f85;
+      --shadow: 0 16px 40px rgba(31, 42, 46, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      font-family: "LXGW WenKai", "STKaiti", "Microsoft YaHei UI", serif;
+      background:
+        linear-gradient(135deg, rgba(179, 58, 47, 0.08), transparent 28%),
+        linear-gradient(315deg, rgba(40, 112, 108, 0.10), transparent 30%),
+        repeating-linear-gradient(90deg, rgba(31, 42, 46, 0.025) 0 1px, transparent 1px 24px),
+        var(--paper);
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 12px clamp(16px, 4vw, 40px);
+      border-bottom: 1px solid rgba(31, 42, 46, 0.14);
+      background: rgba(255, 250, 240, 0.92);
+      backdrop-filter: blur(16px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      min-width: 0;
+      gap: 12px;
+    }
+
+    .seal {
+      display: grid;
+      width: 44px;
+      height: 44px;
+      place-items: center;
+      flex: 0 0 auto;
+      border: 2px solid var(--red-deep);
+      color: var(--red-deep);
+      background: #fff6e5;
+      font-size: 25px;
+      font-weight: 800;
+      box-shadow: inset 0 0 0 3px rgba(179, 58, 47, 0.08);
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(22px, 3vw, 34px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .build-stat {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .source-control {
+      display: grid;
+      gap: 6px;
+      justify-items: end;
+    }
+
+    .source-control span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .source-options,
+    .view-tabs,
+    .extra-tabs,
+    .filter-tabs {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .source-options label,
+    .tab-button,
+    .character-button,
+    .control-button {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 250, 240, 0.76);
+      color: var(--ink);
+      transition: background 140ms ease, border-color 140ms ease, color 140ms ease, transform 140ms ease;
+    }
+
+    .source-options label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 34px;
+      padding: 0 10px;
+      font-size: 14px;
+    }
+
+    .source-options input {
+      accent-color: var(--red);
+    }
+
+    .audio-actions {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+    .control-button {
+      display: grid;
+      min-width: 42px;
+      min-height: 34px;
+      place-items: center;
+      padding: 0 10px;
+      color: var(--blue);
+      font-size: 16px;
+    }
+
+    .control-button:hover {
+      border-color: rgba(56, 95, 133, 0.4);
+      color: #fffaf0;
+      background: var(--blue);
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: clamp(16px, 3vw, 28px);
+      width: min(1480px, 100%);
+      margin: 0 auto;
+      padding: clamp(16px, 3vw, 32px);
+    }
+
+    .rail {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(240px, 320px);
+      align-items: start;
+      gap: 16px;
+    }
+
+    .panel {
+      border: 1px solid rgba(31, 42, 46, 0.12);
+      border-radius: 8px;
+      background: rgba(255, 250, 240, 0.72);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel h2 {
+      padding: 14px 14px 10px;
+      font-size: 18px;
+    }
+
+    .character-list,
+    .extra-tabs {
+      display: grid;
+      gap: 8px;
+      padding: 0 12px 12px;
+    }
+
+    .character-toolbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      padding: 0 12px 12px;
+    }
+
+    .character-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .character-drawer {
+      display: grid;
+      gap: 12px;
+      padding: 0 12px 12px;
+      border-top: 1px solid rgba(31, 42, 46, 0.08);
+      background: rgba(255, 250, 240, 0.46);
+    }
+
+    .character-drawer .character-list {
+      max-height: min(46vh, 560px);
+      overflow: auto;
+      padding: 2px;
+    }
+
+    .drawer-prompt {
+      display: grid;
+      gap: 10px;
+      padding: 16px;
+      border: 1px dashed rgba(31, 42, 46, 0.18);
+      border-radius: 12px;
+      background: rgba(255, 250, 240, 0.84);
+    }
+
+    .drawer-prompt p {
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .drawer-prompt .shortcut-actions {
+      margin-top: 0;
+    }
+
+    .character-search {
+      display: flex;
+      align-items: center;
+      min-height: 38px;
+      border: 1px solid rgba(31, 42, 46, 0.16);
+      border-radius: 8px;
+      background: rgba(255, 250, 240, 0.82);
+    }
+
+    .character-search input {
+      width: 100%;
+      min-width: 0;
+      border: 0;
+      outline: 0;
+      padding: 0 10px;
+      color: var(--ink);
+      background: transparent;
+      font-size: 14px;
+    }
+
+    .character-list {
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+
+    .character-button,
+    .tab-button {
+      min-height: 40px;
+      padding: 8px 12px;
+      text-align: left;
+    }
+
+    .character-button {
+      display: grid;
+      gap: 6px;
+      min-height: 96px;
+      align-content: start;
+    }
+
+    .character-button small {
+      color: inherit;
+      opacity: 0.9;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .character-button:hover,
+    .tab-button:hover {
+      border-color: rgba(179, 58, 47, 0.45);
+      transform: translateY(-1px);
+    }
+
+    .character-button.active,
+    .tab-button.active {
+      border-color: var(--red);
+      background: var(--red);
+      color: #fffaf0;
+    }
+
+    .workspace {
+      min-width: 0;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      min-height: 48px;
+      border: 1px solid rgba(31, 42, 46, 0.16);
+      border-radius: 8px;
+      background: rgba(255, 250, 240, 0.86);
+      box-shadow: var(--shadow);
+    }
+
+    .search-box input {
+      width: 100%;
+      min-width: 0;
+      border: 0;
+      outline: 0;
+      padding: 0 14px;
+      color: var(--ink);
+      background: transparent;
+      font-size: 17px;
+    }
+
+    .view-tabs {
+      padding: 6px;
+      border: 1px solid rgba(31, 42, 46, 0.14);
+      border-radius: 8px;
+      background: rgba(255, 250, 240, 0.78);
+      box-shadow: var(--shadow);
+    }
+
+    .view-tabs .tab-button {
+      min-width: 76px;
+      min-height: 36px;
+      text-align: center;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+
+    .section-head h2 {
+      font-size: clamp(24px, 4vw, 42px);
+      letter-spacing: 0;
+    }
+
+    .count-pill {
+      min-width: 84px;
+      padding: 7px 10px;
+      border: 1px solid rgba(40, 112, 108, 0.25);
+      border-radius: 999px;
+      color: var(--jade);
+      text-align: center;
+      background: rgba(235, 247, 241, 0.82);
+      font-size: 14px;
+    }
+
+    .filter-panel {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 14px;
+      padding: 12px;
+      border: 1px solid rgba(31, 42, 46, 0.12);
+      border-radius: 8px;
+      background: rgba(255, 250, 240, 0.68);
+      box-shadow: var(--shadow);
+    }
+
+    .filter-row {
+      display: grid;
+      grid-template-columns: 56px minmax(0, 1fr);
+      gap: 10px;
+      align-items: start;
+    }
+
+    .filter-row > span {
+      padding-top: 9px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .filter-tabs .tab-button {
+      min-height: 34px;
+      padding: 6px 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .line-card {
+      display: grid;
+      grid-template-columns: 44px minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      padding: 12px;
+      border: 1px solid rgba(31, 42, 46, 0.12);
+      border-radius: 8px;
+      background: rgba(255, 250, 240, 0.82);
+      box-shadow: 0 8px 22px rgba(31, 42, 46, 0.08);
+      animation: rise 220ms ease both;
+    }
+
+    .mapping-card {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .icon-button {
+      display: grid;
+      width: 40px;
+      height: 40px;
+      place-items: center;
+      border: 1px solid rgba(179, 58, 47, 0.28);
+      border-radius: 50%;
+      color: #fffaf0;
+      background: var(--red);
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .icon-button:hover {
+      background: var(--red-deep);
+    }
+
+    .icon-button.secondary {
+      border-color: rgba(56, 95, 133, 0.26);
+      color: var(--blue);
+      background: rgba(232, 241, 246, 0.9);
+    }
+
+    .icon-button.secondary:hover {
+      color: #fff;
+      background: var(--blue);
+    }
+
+    .line-body {
+      min-width: 0;
+    }
+
+    .meta {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .meta code {
+      max-width: min(360px, 100%);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--jade);
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 12px;
+    }
+
+    .line-text {
+      margin-top: 6px;
+      font-size: clamp(18px, 2.5vw, 25px);
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .overview-card {
+      display: grid;
+      gap: 10px;
+      padding: 20px;
+      border: 1px solid rgba(31, 42, 46, 0.12);
+      border-radius: 14px;
+      background: linear-gradient(135deg, rgba(179, 58, 47, 0.08), rgba(40, 112, 108, 0.08)), rgba(255, 250, 240, 0.84);
+      box-shadow: var(--shadow);
+    }
+
+    .overview-card p {
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .shortcut-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .shortcut-button {
+      min-height: 34px;
+      padding: 6px 10px;
+      border: 1px solid rgba(56, 95, 133, 0.18);
+      border-radius: 999px;
+      color: var(--blue);
+      background: rgba(232, 241, 246, 0.9);
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 12px;
+    }
+
+    .shortcut-button:hover {
+      color: #fff;
+      background: var(--blue);
+    }
+
+    .mapping-intro {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .mapping-details {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .extra-tree {
+      display: grid;
+      gap: 14px;
+    }
+
+    .extra-group {
+      position: relative;
+      display: grid;
+      gap: 12px;
+      margin-left: calc(var(--depth, 0) * 12px);
+      padding: 14px 14px 12px 18px;
+      border: 1px solid rgba(40, 112, 108, 0.18);
+      border-radius: 12px;
+      background: rgba(255, 250, 240, 0.8);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .extra-group::before {
+      content: '';
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 4px;
+      background: linear-gradient(180deg, rgba(40, 112, 108, 0.88), rgba(200, 155, 50, 0.88));
+    }
+
+    .extra-group-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .extra-group-head h3 {
+      font-size: clamp(18px, 2.6vw, 28px);
+      line-height: 1.1;
+    }
+
+    .extra-group-head p {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .extra-group-items,
+    .extra-group-children {
+      display: grid;
+      gap: 10px;
+    }
+
+    .extra-group-items {
+      padding-top: 2px;
+    }
+
+    .extra-group-children {
+      padding-top: 4px;
+    }
+
+    .empty {
+      padding: 28px;
+      border: 1px dashed rgba(31, 42, 46, 0.22);
+      border-radius: 8px;
+      color: var(--muted);
+      text-align: center;
+      background: rgba(255, 250, 240, 0.58);
+    }
+
+    .toast {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 40;
+      max-width: min(420px, calc(100vw - 36px));
+      padding: 12px 14px;
+      border: 1px solid rgba(31, 42, 46, 0.16);
+      border-radius: 8px;
+      color: #fffaf0;
+      background: rgba(31, 42, 46, 0.94);
+      box-shadow: var(--shadow);
+      opacity: 0;
+      transform: translateY(8px);
+      pointer-events: none;
+      transition: opacity 160ms ease, transform 160ms ease;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    @media (max-width: 820px) {
+      .topbar {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .source-control {
+        justify-items: start;
+        width: 100%;
+      }
+
+      .shell {
+        grid-template-columns: 1fr;
+      }
+
+      .toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .rail {
+        grid-template-columns: 1fr;
+      }
+
+      .character-toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .character-actions {
+        justify-content: start;
+      }
+
+      .filter-row {
+        grid-template-columns: 1fr;
+      }
+
+      .filter-row > span {
+        padding-top: 0;
+      }
+
+      .line-card {
+        grid-template-columns: 40px minmax(0, 1fr);
+      }
+
+      .line-card .icon-button.secondary {
+        grid-column: 2;
+        justify-self: start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="seal" aria-hidden="true">杀</div>
+      <div>
+        <h1 id="siteTitle">三国杀语音库</h1>
+        <div class="build-stat" id="buildStat">加载中</div>
+      </div>
+    </div>
+    <div class="source-control" aria-label="Audio source">
+      <span id="audioSourceLabel">音源</span>
+      <div class="source-options">
+        <label><input type="radio" name="audioSource" value="cached" checked> <span data-source-option="cached">本地</span></label>
+        <label><input type="radio" name="audioSource" value="remote"> <span data-source-option="remote">远端</span></label>
+        <label><input type="radio" name="audioSource" value="fallback"> <span data-source-option="fallback">备用</span></label>
+      </div>
+      <span id="languageLabel">语言</span>
+      <div class="source-options">
+        <label><input type="radio" name="displayLanguage" value="zhHans" checked> <span data-language-option="zhHans">简体</span></label>
+        <label><input type="radio" name="displayLanguage" value="zhHant"> <span data-language-option="zhHant">繁體</span></label>
+      </div>
+      <div class="audio-actions">
+        <button class="control-button" id="pauseButton" type="button" title="暂停" aria-label="暂停">⏸</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <aside class="rail">
+      <section class="panel">
+        <h2 id="charactersHeading">武将</h2>
+        <div class="character-toolbar">
+          <label class="character-search">
+            <input id="characterSearchInput" type="search" autocomplete="off" placeholder="搜索武将、变体、slug">
+          </label>
+          <div class="character-actions">
+            <button class="tab-button" id="toggleCharacterDrawerButton" type="button">打开武将抽屉</button>
+            <button class="tab-button active" id="browseOverviewButton" type="button">武将目录</button>
+            <button class="tab-button" id="browseAllLinesButton" type="button">全部台词</button>
+          </div>
+        </div>
+        <div class="character-drawer" id="characterDrawer" hidden>
+          <article class="drawer-prompt" id="characterDrawerPrompt">
+            <h3 id="characterDrawerTitle">搜索武将</h3>
+            <p id="characterDrawerHint">输入关键词后再展开结果；如果要浏览完整目录，请显式点击“显示全部武将”。</p>
+            <div class="shortcut-actions">
+              <button class="tab-button" id="showAllCharactersButton" type="button">显示全部武将</button>
+            </div>
+          </article>
+          <div class="character-list" id="characterList"></div>
+        </div>
+      </section>
+      <section class="panel">
+        <h2 id="extrasHeading">音效</h2>
+        <div class="extra-tabs" id="extraTabs"></div>
+      </section>
+    </aside>
+
+    <section class="workspace">
+      <div class="toolbar">
+        <label class="search-box">
+          <input id="searchInput" type="search" autocomplete="off" placeholder="搜索台词、技能、皮肤、路径">
+        </label>
+        <div class="view-tabs" id="viewTabs">
+          <button class="tab-button active" type="button" data-view="lines">台词</button>
+          <button class="tab-button" type="button" data-view="extras">音效</button>
+          <button class="tab-button" type="button" data-view="mapping">映射</button>
+        </div>
+      </div>
+
+      <section id="linesView">
+        <div class="section-head">
+          <h2 id="characterTitle">台词</h2>
+          <div class="count-pill" id="lineCount">0</div>
+        </div>
+        <div class="filter-panel" id="lineFilterPanel">
+          <div class="filter-row">
+            <span id="groupFilterLabel">技能</span>
+            <div class="filter-tabs" id="groupTabs"></div>
+          </div>
+          <div class="filter-row">
+            <span id="skinFilterLabel">皮肤</span>
+            <div class="filter-tabs" id="skinTabs"></div>
+          </div>
+        </div>
+        <div class="list" id="lineList"></div>
+      </section>
+
+      <section id="extrasView" hidden>
+        <div class="section-head">
+          <h2 id="extrasTitle">音效</h2>
+          <div class="count-pill" id="extrasCount">0</div>
+        </div>
+        <div class="list" id="extrasList"></div>
+      </section>
+
+        <section id="mappingView" hidden>
+          <div class="section-head">
+            <h2 id="mappingTitle">命令映射</h2>
+            <div class="count-pill" id="mappingCount">0</div>
+          </div>
+          <p class="mapping-intro" id="mappingIntro">使用 !voice &lt;slug&gt; 或卡牌标签 voice:&lt;slug&gt; 来加载武将语音。</p>
+          <div class="list" id="mappingList"></div>
+        </section>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const UI_TEXT = {
+      zhHans: {
+        siteTitle: '三国杀语音库',
+        audioSource: '音源',
+        cached: '本地',
+        remote: '远端',
+        fallback: '备用',
+        language: '语言',
+        languageHans: '简体',
+        languageHant: '繁體',
+        characters: '武将',
+        extras: '音效',
+        searchCharacters: '搜索武将、变体、slug',
+        searchMain: '搜索台词、技能、皮肤、路径、映射',
+        viewLines: '台词',
+        viewExtras: '音效',
+        viewMapping: '映射',
+        openCharacterDrawer: '打开武将抽屉',
+        closeCharacterDrawer: '收起武将抽屉',
+        showAllCharacters: '显示全部武将',
+        characterDrawerTitle: '搜索武将',
+        characterDrawerHint: '输入关键词后再展开结果；如果要浏览完整目录，请显式点击“显示全部武将”。',
+        browseOverview: '武将目录',
+        browseAllLines: '全部台词',
+        groupFilter: '技能',
+        skinFilter: '皮肤',
+        all: '全部',
+        lines: '台词',
+        overviewTitle: '开始浏览',
+        overviewHint: '先打开武将抽屉并搜索，点“全部台词”，或直接输入关键词来跨武将搜索。映射页也会跟随当前所选武将。',
+        allLinesTitle: '全部台词',
+        linesUnit: '条台词',
+        extrasUnit: '个音效',
+        itemUnit: '项',
+        mappingTitle: '命令映射',
+        mappingIntro: '使用 !voice <slug> 或卡牌标签 voice:<slug> 来加载武将语音。',
+        mappingSelectedIntro: '当前显示所选武将的命令映射：{name}。如需浏览全部映射，请先取消选择或返回武将目录。',
+        mappingCommand: '命令 slug',
+        mappingSimplified: '简体',
+        mappingTraditional: '繁體',
+        mappingAliases: '别名',
+        copyBangVoice: '复制 !voice 命令',
+        copyCardTag: '复制 voice: 标签',
+        pause: '暂停',
+        play: '播放',
+        copyAudio: '复制音频地址',
+        copyCommand: '复制 slug',
+        copied: '已复制',
+        loading: '加载中',
+        loadFailed: '加载失败',
+        missingItem: '项目不存在',
+        noAudio: '没有可用音频',
+        paused: '已暂停',
+        playFailed: '播放失败',
+        noCharacterMatches: '没有匹配武将',
+        noMatches: '没有匹配项',
+        rootGroup: '根目录',
+        rootGroupDetail: '未进入子分组的音效',
+        unnamedGroup: '未命名分组',
+      },
+      zhHant: {
+        siteTitle: '三國殺語音庫',
+        audioSource: '音源',
+        cached: '本地',
+        remote: '遠端',
+        fallback: '備用',
+        language: '語言',
+        languageHans: '簡體',
+        languageHant: '繁體',
+        characters: '武將',
+        extras: '音效',
+        searchCharacters: '搜尋武將、變體、slug',
+        searchMain: '搜尋台詞、技能、皮膚、路徑、映射',
+        viewLines: '台詞',
+        viewExtras: '音效',
+        viewMapping: '映射',
+        openCharacterDrawer: '打開武將抽屜',
+        closeCharacterDrawer: '收起武將抽屜',
+        showAllCharacters: '顯示全部武將',
+        characterDrawerTitle: '搜尋武將',
+        characterDrawerHint: '輸入關鍵詞後再展開結果；如果要瀏覽完整目錄，請明確點選「顯示全部武將」。',
+        browseOverview: '武將目錄',
+        browseAllLines: '全部台詞',
+        groupFilter: '技能',
+        skinFilter: '皮膚',
+        all: '全部',
+        lines: '台詞',
+        overviewTitle: '開始瀏覽',
+        overviewHint: '先打開武將抽屜並搜尋，點「全部台詞」，或直接輸入關鍵詞來跨武將搜尋。映射頁也會跟隨目前所選武將。',
+        allLinesTitle: '全部台詞',
+        linesUnit: '條台詞',
+        extrasUnit: '個音效',
+        itemUnit: '項',
+        mappingTitle: '命令映射',
+        mappingIntro: '使用 !voice <slug> 或卡牌標籤 voice:<slug> 來載入武將語音。',
+        mappingSelectedIntro: '目前顯示所選武將的命令映射：{name}。如需瀏覽全部映射，請先取消選擇或返回武將目錄。',
+        mappingCommand: '命令 slug',
+        mappingSimplified: '簡體',
+        mappingTraditional: '繁體',
+        mappingAliases: '別名',
+        copyBangVoice: '複製 !voice 命令',
+        copyCardTag: '複製 voice: 標籤',
+        pause: '暫停',
+        play: '播放',
+        copyAudio: '複製音訊位址',
+        copyCommand: '複製 slug',
+        copied: '已複製',
+        loading: '載入中',
+        loadFailed: '載入失敗',
+        missingItem: '項目不存在',
+        noAudio: '沒有可用音訊',
+        paused: '已暫停',
+        playFailed: '播放失敗',
+        noCharacterMatches: '沒有匹配武將',
+        noMatches: '沒有匹配項',
+        rootGroup: '根目錄',
+        rootGroupDetail: '未進入子分組的音效',
+        unnamedGroup: '未命名分組',
+      },
+    };
+
+    const state = {
+      audioSource: 'cached',
+      displayLanguage: 'zhHans',
+      view: 'lines',
+      root: null,
+      characters: [],
+      currentCharacter: null,
+      characterDrawerOpen: false,
+      showAllCharacters: false,
+      allLines: [],
+      allLinesLoaded: false,
+      lineScope: 'overview',
+      lines: [],
+      extraCategories: [],
+      currentExtraCategory: null,
+      extras: [],
+      extraTree: [],
+      extraRootItems: [],
+      search: '',
+      characterSearch: '',
+      selectedGroupSlug: 'all',
+      selectedSkinSlug: 'all',
+      audio: new Audio(),
+    };
+
+    const elements = {
+      siteTitle: document.getElementById('siteTitle'),
+      buildStat: document.getElementById('buildStat'),
+      audioSourceLabel: document.getElementById('audioSourceLabel'),
+      languageLabel: document.getElementById('languageLabel'),
+      charactersHeading: document.getElementById('charactersHeading'),
+      toggleCharacterDrawerButton: document.getElementById('toggleCharacterDrawerButton'),
+      browseOverviewButton: document.getElementById('browseOverviewButton'),
+      browseAllLinesButton: document.getElementById('browseAllLinesButton'),
+      extrasHeading: document.getElementById('extrasHeading'),
+      characterSearchInput: document.getElementById('characterSearchInput'),
+      characterDrawer: document.getElementById('characterDrawer'),
+      characterDrawerPrompt: document.getElementById('characterDrawerPrompt'),
+      characterDrawerTitle: document.getElementById('characterDrawerTitle'),
+      characterDrawerHint: document.getElementById('characterDrawerHint'),
+      showAllCharactersButton: document.getElementById('showAllCharactersButton'),
+      characterList: document.getElementById('characterList'),
+      extraTabs: document.getElementById('extraTabs'),
+      viewTabs: document.getElementById('viewTabs'),
+      searchInput: document.getElementById('searchInput'),
+      pauseButton: document.getElementById('pauseButton'),
+      linesView: document.getElementById('linesView'),
+      extrasView: document.getElementById('extrasView'),
+      mappingView: document.getElementById('mappingView'),
+      characterTitle: document.getElementById('characterTitle'),
+      lineCount: document.getElementById('lineCount'),
+      lineFilterPanel: document.getElementById('lineFilterPanel'),
+      groupFilterLabel: document.getElementById('groupFilterLabel'),
+      skinFilterLabel: document.getElementById('skinFilterLabel'),
+      groupTabs: document.getElementById('groupTabs'),
+      skinTabs: document.getElementById('skinTabs'),
+      lineList: document.getElementById('lineList'),
+      extrasTitle: document.getElementById('extrasTitle'),
+      extrasCount: document.getElementById('extrasCount'),
+      extrasList: document.getElementById('extrasList'),
+      mappingTitle: document.getElementById('mappingTitle'),
+      mappingCount: document.getElementById('mappingCount'),
+      mappingIntro: document.getElementById('mappingIntro'),
+      mappingList: document.getElementById('mappingList'),
+      toast: document.getElementById('toast'),
+    };
+
+    function t(key) {
+      return (UI_TEXT[state.displayLanguage] && UI_TEXT[state.displayLanguage][key]) || UI_TEXT.zhHans[key] || key;
+    }
+
+    function siteUrl(path) {
+      if (!path) return null;
+      if (/^https?:\/\//i.test(path)) return path;
+      return new URL(path, window.location.href).href;
+    }
+
+    async function loadJson(path) {
+      const response = await fetch(path, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`${response.status} ${path}`);
+      return response.json();
+    }
+
+    function localizedValue(value, fallback = '') {
+      if (!value) return fallback;
+      if (typeof value !== 'object') return String(value);
+      return value[state.displayLanguage] || value.zhHans || value.zhHant || fallback;
+    }
+
+    function languageValue(value, language, fallback = '') {
+      if (!value) return fallback;
+      if (typeof value !== 'object') return String(value);
+      return value[language] || value.zhHans || value.zhHant || fallback;
+    }
+
+    function displayName(entity, fallback = '') {
+      if (!entity) return fallback;
+      return localizedValue(entity.displayName || entity.displayLabel, fallback || entity.name || entity.label || entity.slug || '');
+    }
+
+    function displayField(entity, fieldName, fallback = '') {
+      if (!entity) return fallback;
+      return localizedValue(entity[fieldName], fallback);
+    }
+
+    function displayList(localizedEntries, fallbackEntries = []) {
+      const result = [];
+      const seen = new Set();
+      (localizedEntries || []).forEach((entry) => {
+        const value = localizedValue(entry, '');
+        if (value && !seen.has(value)) {
+          result.push(value);
+          seen.add(value);
+        }
+      });
+      if (result.length) return result;
+      (fallbackEntries || []).forEach((entry) => {
+        const value = String(entry || '');
+        if (value && !seen.has(value)) {
+          result.push(value);
+          seen.add(value);
+        }
+      });
+      return result;
+    }
+
+    function displayLineText(line) {
+      return displayField(line, 'textLocalized', line && line.text ? line.text : '');
+    }
+
+    function displayExtraLabel(item) {
+      if (!item) return '';
+      return displayField(item, 'displayUiLabel', displayField(item, 'displayLabel', item.uiLabel || item.label || item.relativePath || ''));
+    }
+
+    function displayExtraGroupLabel(item) {
+      return displayField(item, 'displayGroupPathLabel', displayField(item, 'displayGroupLabel', item.groupPathLabel || item.groupLabel || ''));
+    }
+
+    function displayExtraVariantLabel(item) {
+      return displayField(item, 'displayVariantLabel', item.variantLabel || item.label || '');
+    }
+
+    function displayExtraNodeTitle(node) {
+      return displayField(node, 'displayPathLabel', displayField(node, 'displayName', node.pathLabel || node.name || t('unnamedGroup')));
+    }
+
+    function displayExtraNodeDetail(node) {
+      return displayField(node, 'displayName', node.name || '');
+    }
+
+    function flattenFields(fields) {
+      return fields.flat().map((field) => String(field || '').toLowerCase());
+    }
+
+    function matchesQuery(query, fields) {
+      const normalized = String(query || '').trim().toLowerCase();
+      if (!normalized) return true;
+      return flattenFields(fields).some((field) => field.includes(normalized));
+    }
+
+    function characterSearchFields(character) {
+      return [
+        character.name,
+        character.slug,
+        character.command,
+        character.names,
+        character.sourceNames,
+        character.sourceIds,
+        character.searchNames,
+        displayName(character, character.name),
+        displayField(character, 'displayName', ''),
+        displayList(character.displayNames, character.names),
+        displayList(character.displaySourceNames, character.sourceNames),
+      ];
+    }
+
+    function characterMatchesSearch(character) {
+      return matchesQuery(state.characterSearch, characterSearchFields(character));
+    }
+
+    function mappingMatchesSearch(character) {
+      const matchesMainSearch = matchesQuery(state.search, characterSearchFields(character));
+      if (state.currentCharacter) return matchesMainSearch;
+      return characterMatchesSearch(character) && matchesMainSearch;
+    }
+
+    function extraItemMatchesSearch(item) {
+      return matchesQuery(state.search, [
+        item.label,
+        item.groupLabel,
+        item.groupPathLabel,
+        item.variantLabel,
+        item.relativePath,
+        item.sourcePath,
+        item.category && item.category.name,
+        displayExtraLabel(item),
+        displayExtraGroupLabel(item),
+        displayExtraVariantLabel(item),
+        item.category && displayName(item.category, item.category.name),
+      ]);
+    }
+
+    function showToast(message) {
+      elements.toast.textContent = message;
+      elements.toast.classList.add('show');
+      clearTimeout(showToast.timer);
+      showToast.timer = setTimeout(() => elements.toast.classList.remove('show'), 2400);
+    }
+
+    function buildStatText() {
+      if (!state.root) return t('loading');
+      return `${state.root.lineCount} ${t('linesUnit')} · ${state.root.extrasCount} ${t('extrasUnit')} · ${state.root.generatedAt}`;
+    }
+
+    function getAudioUrl(item) {
+      const audio = item && item.audio ? item.audio : {};
+      const available = audio.available || {};
+      const cachedReady = available.cached && audio.cached;
+      const remoteReady = available.remote && audio.remote;
+      if (state.audioSource === 'cached') return cachedReady ? siteUrl(audio.cached) : null;
+      if (state.audioSource === 'remote') return remoteReady ? audio.remote : cachedReady ? siteUrl(audio.cached) : null;
+      return cachedReady ? siteUrl(audio.cached) : remoteReady ? audio.remote : null;
+    }
+
+    async function copyText(value) {
+      try {
+        await navigator.clipboard.writeText(value);
+        showToast(t('copied'));
+      } catch (error) {
+        showToast(value);
+      }
+    }
+
+    async function playItem(item) {
+      if (!item) {
+        showToast(t('missingItem'));
+        return;
+      }
+      const url = getAudioUrl(item);
+      if (!url) {
+        showToast(t('noAudio'));
+        return;
+      }
+      state.audio.pause();
+      state.audio.src = url;
+      try {
+        await state.audio.play();
+        const label = displayLineText(item) || displayExtraLabel(item) || item.relativePath || item.label;
+        showToast(label);
+      } catch (error) {
+        showToast(error.message || t('playFailed'));
+      }
+    }
+
+    function pauseAudio() {
+      state.audio.pause();
+      showToast(t('paused'));
+    }
+
+    async function ensureAllLinesLoaded() {
+      if (state.allLinesLoaded) return;
+      const payload = await loadJson('api/v1/browser/lines.json');
+      state.allLines = payload.lines || [];
+      state.allLinesLoaded = true;
+    }
+
+    function resetLineFilters() {
+      state.selectedGroupSlug = 'all';
+      state.selectedSkinSlug = 'all';
+    }
+
+    function selectedMappingCharacter() {
+      if (!state.currentCharacter) return null;
+      return state.characters.find((character) => character.slug === state.currentCharacter.slug) || state.currentCharacter;
+    }
+
+    function renderCharacterActions() {
+      elements.browseOverviewButton.classList.toggle('active', state.lineScope === 'overview');
+      elements.browseAllLinesButton.classList.toggle('active', state.lineScope === 'all');
+    }
+
+    function renderCharacterDrawer() {
+      const hasQuery = state.characterSearch.trim() !== '';
+      const showResults = hasQuery || state.showAllCharacters;
+      elements.toggleCharacterDrawerButton.textContent = state.characterDrawerOpen ? t('closeCharacterDrawer') : t('openCharacterDrawer');
+      elements.characterDrawerTitle.textContent = t('characterDrawerTitle');
+      elements.characterDrawerHint.textContent = t('characterDrawerHint');
+      elements.showAllCharactersButton.textContent = t('showAllCharacters');
+      elements.characterDrawer.hidden = !state.characterDrawerOpen;
+      elements.characterDrawerPrompt.hidden = !state.characterDrawerOpen || showResults;
+      elements.characterList.hidden = !state.characterDrawerOpen || !showResults;
+    }
+
+    function showOverview() {
+      state.currentCharacter = null;
+      state.lines = [];
+      state.lineScope = 'overview';
+      resetLineFilters();
+      renderCharacterActions();
+      renderCharacters();
+      renderLineFilters();
+      renderLines();
+      renderMappings();
+    }
+
+    async function loadAllLines() {
+      await ensureAllLinesLoaded();
+      state.currentCharacter = null;
+      state.lines = state.allLines;
+      state.lineScope = 'all';
+      resetLineFilters();
+      renderCharacterActions();
+      renderCharacters();
+      renderLineFilters();
+      renderLines();
+      renderMappings();
+    }
+
+    function renderCharacters() {
+      const showResults = state.characterSearch.trim() !== '' || state.showAllCharacters;
+      const characters = showResults ? state.characters.filter(characterMatchesSearch) : [];
+      elements.characterList.innerHTML = showResults ? (characters.length ? characters.map((character) => `
+        <button class="character-button ${state.currentCharacter && state.currentCharacter.slug === character.slug ? 'active' : ''}" type="button" data-character="${character.slug}">
+          <strong>${displayName(character, character.name)}</strong>
+          <small>${character.command || character.slug} · ${character.lineCount} ${t('itemUnit')}</small>
+          <small>${displayList(character.displaySourceNames, character.sourceNames).filter((alias) => alias !== displayName(character, character.name)).slice(0, 2).join(' / ')}</small>
+        </button>
+      `).join('') : `<div class="empty">${t('noCharacterMatches')}</div>`) : '';
+      renderCharacterActions();
+      renderCharacterDrawer();
+    }
+
+    function renderExtraTabs() {
+      elements.extraTabs.innerHTML = state.extraCategories.length ? state.extraCategories.map((category) => `
+        <button class="tab-button ${state.currentExtraCategory && state.currentExtraCategory.slug === category.slug ? 'active' : ''}" type="button" data-extra-category="${category.slug}">
+          ${displayName(category, category.name)}<br><small>${category.itemCount} ${t('itemUnit')}</small>
+        </button>
+      `).join('') : `<div class="empty">${t('noMatches')}</div>`;
+    }
+
+    function renderViews() {
+      elements.linesView.hidden = state.view !== 'lines';
+      elements.extrasView.hidden = state.view !== 'extras';
+      elements.mappingView.hidden = state.view !== 'mapping';
+      elements.viewTabs.querySelectorAll('[data-view]').forEach((button) => {
+        button.classList.toggle('active', button.dataset.view === state.view);
+      });
+    }
+
+    function filterButton(label, count, slug, kind) {
+      const selected = kind === 'group' ? state.selectedGroupSlug : state.selectedSkinSlug;
+      return `
+        <button class="tab-button ${selected === slug ? 'active' : ''}" type="button" data-${kind}-filter="${slug}">
+          ${label}<br><small>${count}</small>
+        </button>
+      `;
+    }
+
+    function renderLineFilters() {
+      const isCharacterScope = state.lineScope === 'character' && state.currentCharacter;
+      elements.lineFilterPanel.hidden = !isCharacterScope;
+      if (!isCharacterScope) {
+        elements.groupTabs.innerHTML = '';
+        elements.skinTabs.innerHTML = '';
+        return;
+      }
+      const groups = state.currentCharacter && state.currentCharacter.groups ? state.currentCharacter.groups : [];
+      const skins = state.currentCharacter && state.currentCharacter.skins ? state.currentCharacter.skins : [];
+      elements.groupTabs.innerHTML = filterButton(t('all'), state.lines.length, 'all', 'group') + groups.map((group) => (
+        filterButton(displayName(group, group.name), group.lineCount, group.slug, 'group')
+      )).join('');
+      elements.skinTabs.innerHTML = filterButton(t('all'), state.lines.length, 'all', 'skin') + skins.map((skin) => (
+        filterButton(displayName(skin, skin.name), skin.lineCount, skin.slug, 'skin')
+      )).join('');
+    }
+
+    function renderExtraCards(items, depth) {
+      const visibleItems = items.filter(extraItemMatchesSearch);
+      return visibleItems.map((item, index) => `
+        <article class="line-card" style="animation-delay:${Math.min((depth + index) * 10, 180)}ms">
+          <button class="icon-button" type="button" title="${t('play')}" aria-label="${t('play')}" data-play-extra="${item.id}">▶</button>
+          <div class="line-body">
+            <div class="meta"><span>${displayExtraGroupLabel(item)}</span><span>${displayExtraVariantLabel(item)}</span><code>${item.relativePath}</code></div>
+            <p class="line-text">${displayExtraLabel(item)}</p>
+          </div>
+          <button class="icon-button secondary" type="button" title="${t('copyAudio')}" aria-label="${t('copyAudio')}" data-copy-extra="${item.id}">⧉</button>
+        </article>
+      `).join('');
+    }
+
+    function renderExtraGroup(node, depth) {
+      const matchesNode = matchesQuery(state.search, [
+        node.name,
+        node.pathLabel,
+        displayExtraNodeTitle(node),
+        displayExtraNodeDetail(node),
+      ]);
+      const itemHtml = renderExtraCards(node.items || [], depth + 1);
+      const childHtml = (node.groups || []).map((child) => renderExtraGroup(child, depth + 1)).filter(Boolean).join('');
+      if (!matchesNode && !itemHtml && !childHtml) {
+        return '';
+      }
+      const label = displayExtraNodeTitle(node) || t('unnamedGroup');
+      const detailText = displayExtraNodeDetail(node);
+      const detail = node.pathLabel && node.pathLabel !== node.name ? `<p>${detailText}</p>` : '';
+      return `
+        <section class="extra-group" style="--depth:${depth}">
+          <div class="extra-group-head">
+            <div>
+              <h3>${label}</h3>
+              ${detail}
+            </div>
+            <div class="count-pill">${node.itemCount || 0}</div>
+          </div>
+          ${itemHtml ? `<div class="extra-group-items">${itemHtml}</div>` : ''}
+          ${childHtml ? `<div class="extra-group-children">${childHtml}</div>` : ''}
+        </section>
+      `;
+    }
+
+    function renderExtraTree() {
+      const rootItems = renderExtraCards(state.extraRootItems || [], 0);
+      const groups = (state.extraTree || []).map((group) => renderExtraGroup(group, 0)).filter(Boolean).join('');
+      const rootSection = rootItems ? `
+        <section class="extra-group" style="--depth:0">
+          <div class="extra-group-head">
+            <div>
+              <h3>${t('rootGroup')}</h3>
+              <p>${t('rootGroupDetail')}</p>
+            </div>
+            <div class="count-pill">${state.extraRootItems.length}</div>
+          </div>
+          <div class="extra-group-items">${rootItems}</div>
+        </section>
+      ` : '';
+      return [rootSection, groups].filter(Boolean).join('');
+    }
+
+    function lineMatchesFilters(line) {
+      if (state.lineScope !== 'character' || !state.currentCharacter) return true;
+      const groupOk = state.selectedGroupSlug === 'all' || (line.group && line.group.slug === state.selectedGroupSlug);
+      const skins = line && line.skins && line.skins.length ? line.skins : line && line.skin ? [line.skin] : [];
+      const skinOk = state.selectedSkinSlug === 'all' || skins.some((skin) => skin.slug === state.selectedSkinSlug);
+      return groupOk && skinOk;
+    }
+
+    function lineSkinLabel(line) {
+      const skins = line && line.skins && line.skins.length ? line.skins : line && line.skin ? [line.skin] : [];
+      const names = [...new Set(skins.map((skin) => displayName(skin, skin.name)).filter(Boolean))];
+      return names.length ? names.join(' / ') : t('skinFilter');
+    }
+
+    function renderLines() {
+      if (state.lineScope === 'overview') {
+        elements.characterTitle.textContent = t('overviewTitle');
+        elements.lineCount.textContent = `${state.characters.length} ${t('itemUnit')}`;
+        elements.lineList.innerHTML = `
+          <article class="overview-card">
+            <h3>${t('overviewTitle')}</h3>
+            <p>${t('overviewHint')}</p>
+          </article>
+        `;
+        return;
+      }
+      const filtered = state.lines.filter((line) => lineMatchesFilters(line) && matchesQuery(state.search, [
+        line.text,
+        displayLineText(line),
+        line.character && line.character.name,
+        line.character && line.character.slug,
+        line.character && displayName(line.character, line.character.name),
+        line.group && line.group.name,
+        line.group && line.group.slug,
+        line.group && displayName(line.group, line.group.name),
+        line.skin && line.skin.name,
+        line.skin && line.skin.slug,
+        line.skin && displayName(line.skin, line.skin.name),
+        (line.skins || []).map((skin) => skin.name),
+        (line.skins || []).map((skin) => displayName(skin, skin.name)),
+        (line.skins || []).map((skin) => skin.slug),
+        line.character && line.character.name,
+        line.character && line.character.slug,
+        line.character && line.character.sourceNames,
+        line.character && line.character.searchNames,
+        line.resourceId,
+      ]));
+      elements.characterTitle.textContent = state.currentCharacter ? displayName(state.currentCharacter, state.currentCharacter.name) : t('allLinesTitle');
+      elements.lineCount.textContent = `${filtered.length}/${state.lines.length}`;
+      elements.lineList.innerHTML = filtered.length ? filtered.map((line, index) => `
+        <article class="line-card" style="animation-delay:${Math.min(index * 12, 180)}ms">
+          <button class="icon-button" type="button" title="${t('play')}" aria-label="${t('play')}" data-play-line="${line.id}">▶</button>
+          <div class="line-body">
+            <div class="meta">${state.currentCharacter ? '' : `<span>${displayName(line.character, line.character && line.character.name)}</span>`}<span>${displayName(line.group, line.group && line.group.name)}</span><span>${lineSkinLabel(line)}</span><code>${line.resourceId}</code></div>
+            <p class="line-text">${displayLineText(line)}</p>
+          </div>
+          <button class="icon-button secondary" type="button" title="${t('copyAudio')}" aria-label="${t('copyAudio')}" data-copy-line="${line.id}">⧉</button>
+        </article>
+      `).join('') : `<div class="empty">${t('noMatches')}</div>`;
+    }
+
+    function renderExtras() {
+      const filtered = state.extras.filter(extraItemMatchesSearch);
+      elements.extrasTitle.textContent = state.currentExtraCategory ? displayName(state.currentExtraCategory, state.currentExtraCategory.name) : t('extras');
+      elements.extrasCount.textContent = `${filtered.length}/${state.extras.length}`;
+      const content = renderExtraTree();
+      elements.extrasList.innerHTML = content ? `<div class="extra-tree">${content}</div>` : `<div class="empty">${t('noMatches')}</div>`;
+    }
+
+    function renderMappings() {
+      const mappingCharacters = state.currentCharacter ? [selectedMappingCharacter()].filter(Boolean) : state.characters;
+      const filtered = mappingCharacters.filter(mappingMatchesSearch);
+      elements.mappingTitle.textContent = t('mappingTitle');
+      elements.mappingCount.textContent = `${filtered.length}/${mappingCharacters.length}`;
+      elements.mappingIntro.textContent = state.currentCharacter
+        ? t('mappingSelectedIntro').replace('{name}', displayName(selectedMappingCharacter(), state.currentCharacter.name))
+        : t('mappingIntro');
+      elements.mappingList.innerHTML = filtered.length ? filtered.map((character, index) => {
+        const command = character.command || character.slug;
+        const voiceCommand = `!voice ${command}`;
+        const voiceTag = `voice:${command}`;
+        const aliases = [...new Set([
+          ...displayList(character.displaySourceNames, character.sourceNames),
+          ...displayList(character.displayNames, character.names),
+        ])].filter((alias) => alias !== displayName(character, character.name));
+        return `
+          <article class="line-card mapping-card" style="animation-delay:${Math.min(index * 12, 180)}ms">
+            <div class="line-body">
+              <div class="meta"><span>${t('mappingCommand')}</span><code>${command}</code></div>
+              <p class="line-text">${displayName(character, character.name)}</p>
+              <p class="mapping-details">${t('mappingSimplified')}: ${languageValue(character.displayName, 'zhHans', character.name)} · ${t('mappingTraditional')}: ${languageValue(character.displayName, 'zhHant', character.name)}</p>
+              ${aliases.length ? `<div class="meta"><span>${t('mappingAliases')}</span><span>${aliases.join('、')}</span></div>` : ''}
+              <div class="shortcut-actions">
+                <button class="shortcut-button" type="button" title="${t('copyBangVoice')}" aria-label="${t('copyBangVoice')}" data-copy-command="${voiceCommand}">${voiceCommand}</button>
+                <button class="shortcut-button" type="button" title="${t('copyCardTag')}" aria-label="${t('copyCardTag')}" data-copy-command="${voiceTag}">${voiceTag}</button>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('') : `<div class="empty">${t('noCharacterMatches')}</div>`;
+    }
+
+    async function copyAudioUrl(item) {
+      if (!item) {
+        showToast(t('missingItem'));
+        return;
+      }
+      const url = getAudioUrl(item);
+      if (!url) {
+        showToast(t('noAudio'));
+        return;
+      }
+      await copyText(url);
+    }
+
+    async function loadCharacter(slug) {
+      const payload = await loadJson(`api/v1/characters/${slug}/lines.json`);
+      state.currentCharacter = payload.character;
+      state.lines = payload.lines || [];
+      state.lineScope = 'character';
+      state.characterDrawerOpen = false;
+      state.showAllCharacters = false;
+      resetLineFilters();
+      renderCharacterActions();
+      renderCharacters();
+      renderLineFilters();
+      renderLines();
+      renderMappings();
+    }
+
+    async function loadExtras(slug) {
+      const payload = await loadJson(`api/v1/extras/${slug}.json`);
+      state.currentExtraCategory = payload.category;
+      state.extras = payload.items || [];
+      state.extraTree = payload.groups || [];
+      state.extraRootItems = payload.rootItems || [];
+      renderExtraTabs();
+      renderExtras();
+    }
+
+    function refreshStaticText() {
+      document.documentElement.lang = state.displayLanguage === 'zhHant' ? 'zh-Hant' : 'zh-Hans';
+      document.title = t('siteTitle');
+      elements.siteTitle.textContent = t('siteTitle');
+      elements.buildStat.textContent = buildStatText();
+      elements.audioSourceLabel.textContent = t('audioSource');
+      elements.languageLabel.textContent = t('language');
+      elements.charactersHeading.textContent = t('characters');
+      elements.toggleCharacterDrawerButton.textContent = state.characterDrawerOpen ? t('closeCharacterDrawer') : t('openCharacterDrawer');
+      elements.browseOverviewButton.textContent = t('browseOverview');
+      elements.browseAllLinesButton.textContent = t('browseAllLines');
+      elements.extrasHeading.textContent = t('extras');
+      elements.characterSearchInput.placeholder = t('searchCharacters');
+      elements.searchInput.placeholder = t('searchMain');
+      elements.groupFilterLabel.textContent = t('groupFilter');
+      elements.skinFilterLabel.textContent = t('skinFilter');
+      elements.mappingIntro.textContent = t('mappingIntro');
+      elements.pauseButton.title = t('pause');
+      elements.pauseButton.setAttribute('aria-label', t('pause'));
+      document.querySelectorAll('[data-source-option]').forEach((node) => {
+        node.textContent = t(node.dataset.sourceOption);
+      });
+      document.querySelectorAll('[data-language-option]').forEach((node) => {
+        node.textContent = node.dataset.languageOption === 'zhHant' ? t('languageHant') : t('languageHans');
+      });
+      elements.viewTabs.querySelector('[data-view="lines"]').textContent = t('viewLines');
+      elements.viewTabs.querySelector('[data-view="extras"]').textContent = t('viewExtras');
+      elements.viewTabs.querySelector('[data-view="mapping"]').textContent = t('viewMapping');
+      renderViews();
+      renderCharacters();
+      renderExtraTabs();
+      renderCharacterActions();
+      renderLineFilters();
+      renderLines();
+      renderExtras();
+      renderMappings();
+    }
+
+    elements.characterList.addEventListener('click', async (event) => {
+      const button = event.target.closest('[data-character]');
+      if (!button) return;
+      state.view = 'lines';
+      renderViews();
+      state.characterDrawerOpen = false;
+      state.showAllCharacters = false;
+      if (state.currentCharacter && state.currentCharacter.slug === button.dataset.character && state.lineScope === 'character') {
+        showOverview();
+        return;
+      }
+      await loadCharacter(button.dataset.character);
+    });
+
+    elements.toggleCharacterDrawerButton.addEventListener('click', () => {
+      const nextOpen = !state.characterDrawerOpen;
+      state.characterDrawerOpen = nextOpen;
+      if (!nextOpen && !state.characterSearch.trim()) {
+        state.showAllCharacters = false;
+      }
+      renderCharacters();
+    });
+
+    elements.showAllCharactersButton.addEventListener('click', () => {
+      state.characterDrawerOpen = true;
+      state.showAllCharacters = true;
+      renderCharacters();
+    });
+
+    elements.browseOverviewButton.addEventListener('click', () => {
+      state.view = 'lines';
+      renderViews();
+      showOverview();
+    });
+
+    elements.browseAllLinesButton.addEventListener('click', async () => {
+      state.view = 'lines';
+      renderViews();
+      await loadAllLines();
+    });
+
+    elements.extraTabs.addEventListener('click', async (event) => {
+      const button = event.target.closest('[data-extra-category]');
+      if (!button) return;
+      state.view = 'extras';
+      renderViews();
+      await loadExtras(button.dataset.extraCategory);
+    });
+
+    elements.viewTabs.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-view]');
+      if (!button) return;
+      state.view = button.dataset.view;
+      renderViews();
+      if (state.view === 'lines') renderLines();
+      if (state.view === 'extras') renderExtras();
+      if (state.view === 'mapping') renderMappings();
+    });
+
+    elements.searchInput.addEventListener('input', async (event) => {
+      state.search = event.target.value;
+      if (state.view === 'lines' && state.lineScope === 'overview' && state.search.trim()) {
+        await loadAllLines();
+        return;
+      }
+      renderLines();
+      renderExtras();
+      renderMappings();
+    });
+
+    elements.characterSearchInput.addEventListener('input', (event) => {
+      state.characterSearch = event.target.value;
+      if (state.characterSearch.trim()) {
+        state.characterDrawerOpen = true;
+        state.showAllCharacters = false;
+      }
+      renderCharacters();
+      renderMappings();
+    });
+
+    elements.pauseButton.addEventListener('click', pauseAudio);
+
+    elements.groupTabs.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-group-filter]');
+      if (!button) return;
+      state.selectedGroupSlug = button.dataset.groupFilter;
+      renderLineFilters();
+      renderLines();
+    });
+
+    elements.skinTabs.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-skin-filter]');
+      if (!button) return;
+      state.selectedSkinSlug = button.dataset.skinFilter;
+      renderLineFilters();
+      renderLines();
+    });
+
+    document.querySelectorAll('[name="audioSource"]').forEach((input) => {
+      input.addEventListener('change', (event) => {
+        state.audioSource = event.target.value;
+      });
+    });
+
+    document.querySelectorAll('[name="displayLanguage"]').forEach((input) => {
+      input.addEventListener('change', (event) => {
+        state.displayLanguage = event.target.value;
+        refreshStaticText();
+      });
+    });
+
+    document.addEventListener('click', async (event) => {
+      const linePlay = event.target.closest('[data-play-line]');
+      const lineCopy = event.target.closest('[data-copy-line]');
+      const extraPlay = event.target.closest('[data-play-extra]');
+      const extraCopy = event.target.closest('[data-copy-extra]');
+      const commandCopy = event.target.closest('[data-copy-command]');
+      if (linePlay) await playItem(state.lines.find((line) => line.id === linePlay.dataset.playLine));
+      if (lineCopy) await copyAudioUrl(state.lines.find((line) => line.id === lineCopy.dataset.copyLine));
+      if (extraPlay) await playItem(state.extras.find((item) => item.id === extraPlay.dataset.playExtra));
+      if (extraCopy) await copyAudioUrl(state.extras.find((item) => item.id === extraCopy.dataset.copyExtra));
+      if (commandCopy) await copyText(commandCopy.dataset.copyCommand);
+    });
+
+    async function init() {
+      try {
+        state.root = await loadJson('api/v1/index.json');
+        const characterIndex = await loadJson('api/v1/characters/index.json');
+        const extrasIndex = await loadJson('api/v1/extras/index.json');
+        state.characters = characterIndex.characters || [];
+        state.extraCategories = extrasIndex.categories || [];
+        refreshStaticText();
+        if (state.extraCategories[0]) await loadExtras(state.extraCategories[0].slug);
+        showOverview();
+        refreshStaticText();
+      } catch (error) {
+        elements.buildStat.textContent = t('loadFailed');
+        showToast(error.message || t('loadFailed'));
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
